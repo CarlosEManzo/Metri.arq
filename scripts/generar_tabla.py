@@ -19,6 +19,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
 import actualizacion
+import comparar_tabulador
 import leer_construbase
 import reglas_gubim
 import rendimientos
@@ -143,6 +144,7 @@ def hoja_leame(wb, n):
         ("Hojas", True),
         ("Parámetros: factores de actualización y costo por jornada de las cuadrillas (celdas amarillas).", False),
         ("Fuentes: de dónde salen los factores de actualización.", False),
+        ("Tabulador CDMX: validación contra el tabulador de precios unitarios de la CDMX y ajustes por grupo.", False),
         (f"Catálogo: los {n} conceptos con clave propia, clave GuBIM, precio 2017, precio actualizado y rendimiento.", False),
         ("Rendimientos: tabla de actividades con cuadrilla y rendimiento (unidades por jornada de 8 h). Editable.", False),
         ("GuBIM: las 533 claves de GuBIMclass con el número de conceptos asignados a cada una.", False),
@@ -155,6 +157,8 @@ def hoja_leame(wb, n):
         ("Así funciona como una tarjeta paramétrica: sin matrices de Construbase, pero con la M.O. separada.", False),
         ("Si capturas en Parámetros el INPP Construcción residencial de Morelia (sep-2017 y mes actual) o un", False),
         ("factor manual, ese factor único sustituye a los dos factores por componente.", False),
+        ("La columna 'P.U. con ajuste CDMX' corrige además los grupos donde el tabulador de la CDMX (jul-2026)", False),
+        ("muestra una diferencia consistente (≥ 10 pares y más de ±10 %). Los ajustes son editables en esa hoja.", False),
         ("", False),
         ("Rendimientos: importante", True),
         ("El export de Construbase NO incluye las matrices de precios unitarios, por lo tanto no trae rendimientos.", False),
@@ -231,6 +235,54 @@ def hoja_parametros(wb):
     return celdas, "Parámetros!$A${}:$D${}".format(fila_ini, ws.max_row)
 
 
+def hoja_tabulador(wb, canasta, automaticos, ajustes, ruta_pdf):
+    """Hoja con la validación contra el tabulador CDMX. Devuelve el rango de la
+    tabla de ajustes por familia (columna 4 = ajuste aplicado, editable)."""
+    ws = wb.create_sheet("Tabulador CDMX")
+    anchos = [44, 12, 14, 60, 7, 12, 12, 12, 12, 11, 60, 12, 10, 40]
+    for i, a in enumerate(anchos, start=1):
+        ws.column_dimensions[get_column_letter(i)].width = a
+    titulo = lambda t: (ws.append([t]), setattr(ws.cell(row=ws.max_row, column=1), "font", Font(bold=True, size=12)))
+
+    titulo(f"Validación contra el Tabulador General de Precios Unitarios CDMX ({ruta_pdf.name})")
+    ws.append(["P.U. de la CDMX sin cargos adicionales (3.627 %), con indirecto integrado 27.51 %, sin IVA. "
+               "Cociente = P.U. CDMX / P.U. actualizado de esta tabla."])
+    ws.append([])
+    titulo("1. Ajuste por grupo (subcapítulo · familia); se aplica en la columna 'P.U. con ajuste CDMX' del Catálogo")
+    ws.append(["Grupo", "Pares", "Mediana CDMX / actualizado", "Ajuste aplicado", "Criterio"])
+    for c in ws[ws.max_row]:
+        c.font, c.fill = ENCABEZADO, FONDO_ENC
+    ini = ws.max_row + 1
+    for fam, (n, med, sug) in sorted(ajustes.items(), key=lambda kv: -kv[1][0]):
+        ws.append([fam, n, med, sug, "Ajuste sugerido" if sug != 1 else
+                   ("Sin ajuste: diferencia menor a ±10 %" if n >= 10 else "Sin ajuste: menos de 10 pares")])
+        ws.cell(row=ws.max_row, column=4).fill = FONDO_PARAM
+        ws.cell(row=ws.max_row, column=3).number_format = "0.00"
+        ws.cell(row=ws.max_row, column=4).number_format = "0.00"
+    rango = f"'Tabulador CDMX'!$A${ini}:$D${ws.max_row}"
+
+    def tabla(filas, extra):
+        cab = ["Clave CB", "Capítulo", "Clave GuBIM", "Descripción Construbase", "Unidad", "P.U. 2017",
+               "P.U. actualizado", "P.U. CDMX", "Cociente", "Clave CDMX", "Concepto CDMX"] + [e[0] for e in extra]
+        ws.append(cab)
+        for c in ws[ws.max_row]:
+            c.font, c.fill = ENCABEZADO, FONDO_ENC
+        for f in filas:
+            ws.append([f["clave_cb"], f["capitulo"], f["clave_gubim"], f["descripcion_cb"], f["unidad"],
+                       f["pu_2017"], f["pu_actualizado"], f["pu_tabulador"], f["cociente"],
+                       f["clave_tabulador"], f["concepto_tabulador"]] + [f[e[1]] for e in extra])
+            for col, fmt in ((6, "$#,##0.00"), (7, "$#,##0.00"), (8, "$#,##0.00"), (9, "0.00")):
+                ws.cell(row=ws.max_row, column=col).number_format = fmt
+
+    ws.append([])
+    titulo(f"2. Canasta curada: {len(canasta)} conceptos típicos de vivienda emparejados a mano")
+    tabla(sorted(canasta, key=lambda f: f["cociente"]), [("Equivalencia", "equivalencia"), ("Nota", "nota")])
+    ws.append([])
+    titulo(f"3. Pares automáticos con similitud ≥ 85: {len(automaticos)}")
+    tabla(sorted(automaticos, key=lambda f: (f["capitulo"], f["cociente"])), [("Similitud", "similitud")])
+    return rango
+
+
 def hoja_fuentes(wb):
     ws = wb.create_sheet("Fuentes")
     encabezar(ws, ["Fuente", "Dato", "Uso en la actualización"], [48, 70, 70])
@@ -258,7 +310,7 @@ def hoja_rendimientos(wb):
     return "Rendimientos!$A$2:$E${}".format(ws.max_row)
 
 
-def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend):
+def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend, rango_ajustes=None):
     ws = wb.create_sheet("Catálogo")
     columnas = [
         # (clave interna, encabezado, ancho, formato)
@@ -273,11 +325,14 @@ def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend):
         ("mo_imp", "M.O. actualizada", 12, "$#,##0.00"),
         ("mat_imp", "Materiales y equipo actualizados", 13, "$#,##0.00"),
         ("pu_act", "P.U. actualizado", 13, "$#,##0.00"),
+        ("ajuste", "Ajuste CDMX", 10, "0.00"),
+        ("pu_cdmx", "P.U. con ajuste CDMX", 13, "$#,##0.00"),
         ("gubim", "Clave GuBIM", 12, None),
         ("gubim_desc", "Descripción GuBIM", 34, None),
         ("nivel", "Nivel", 6, None),
         ("confianza", "Confianza", 9, None),
         ("actividad", "Actividad", 22, None),
+        ("grupo", "Grupo de ajuste CDMX", 30, None),
         ("cuadrilla", "Cuadrilla", 8, None),
         ("rend", "Rendimiento (u/jornada)", 12, None),
         ("jornadas", "Jornadas por unidad", 11, "0.0000"),
@@ -286,6 +341,8 @@ def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend):
         ("alertas", "Alertas", 50, None),
         ("fila", "Fila origen", 8, None),
     ]
+    if not rango_ajustes:
+        columnas = [c for c in columnas if c[0] not in ("ajuste", "pu_cdmx")]
     L = {k: get_column_letter(i) for i, (k, *_ ) in enumerate(columnas, start=1)}
     encabezar(ws, [c[1] for c in columnas], [c[2] for c in columnas])
     unico, fmat, fmo, tope = celdas["unico"], celdas["mat"], celdas["mo"], celdas["tope"]
@@ -303,6 +360,9 @@ def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend):
             "mo_imp": f'=ROUND({col("pu17")}*{col("mo_act")}*IF({unico}<>"",{unico},{fmo}),2)',
             "mat_imp": f'=ROUND({col("pu17")}*(1-{col("mo_act")})*IF({unico}<>"",{unico},{fmat}),2)',
             "pu_act": f'={col("mo_imp")}+{col("mat_imp")}',
+            "ajuste": f'=IFERROR(VLOOKUP({col("grupo")},{rango_ajustes},4,0),1)' if rango_ajustes else "",
+            "pu_cdmx": f'=ROUND({col("pu_act")}*{col("ajuste")},2)' if rango_ajustes else "",
+            "grupo": comparar_tabulador.grupo(c),
             "gubim": c["gubim"] or "", "gubim_desc": desc_g, "nivel": nivel,
             "confianza": c["confianza"], "actividad": act, "cuadrilla": c["cuadrilla"] or "",
             "rend": f'=IFERROR(VLOOKUP({col("actividad")},{rango_rend},5,0),"")' if act else "",
@@ -404,7 +464,7 @@ def escribir_csv(conceptos, gub):
         w.writerow(["clave_cb", "seccion", "capitulo", "subcapitulo", "descripcion", "unidad",
                     "pu_2017", "clave_gubim", "descripcion_gubim", "confianza", "actividad",
                     "cuadrilla", "rendimiento_u_jornada", "horas_hombre_u", "mo_estimada_pct",
-                    "mo_actualizada", "materiales_actualizados", "pu_actualizado", "alertas"])
+                    "mo_actualizada", "materiales_actualizados", "pu_actualizado", "pu_con_ajuste_cdmx", "alertas"])
         for c in conceptos:
             hh = (rendimientos.CUADRILLAS[c["cuadrilla"]][1] * 8 / c["rendimiento"]) if c["rendimiento"] else ""
             w.writerow([c["clave"], c["seccion"], c["capitulo"], c["subcapitulo"], c["descripcion"],
@@ -413,7 +473,8 @@ def escribir_csv(conceptos, gub):
                         c["actividad"] or "", c["cuadrilla"] or "", c["rendimiento"] or "",
                         round(hh, 4) if hh != "" else "",
                         round(c["mo_pct"], 3) if c["mo_pct"] else "",
-                        c["mo_act"], c["mat_act"], c["pu_act"], "; ".join(c["alertas"])])
+                        c["mo_act"], c["mat_act"], c["pu_act"], c.get("pu_cdmx", c["pu_act"]),
+                        "; ".join(c["alertas"])])
 
 
 def main():
@@ -423,12 +484,21 @@ def main():
     hoja_leame(wb, len(conceptos))
     celdas, rango_cuad = hoja_parametros(wb)
     rango_rend = hoja_rendimientos(wb)
-    hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend)
+    rango_ajustes, ruta_tab = None, comparar_tabulador.tabulador_disponible()
+    if ruta_tab:
+        canasta, automaticos, ajustes = comparar_tabulador.evidencia(conceptos, ruta_tab)
+        rango_ajustes = hoja_tabulador(wb, canasta, automaticos, ajustes, ruta_tab)
+        for c in conceptos:
+            aj = ajustes.get(comparar_tabulador.grupo(c), (0, 0, 1.0))[2]
+            c["pu_cdmx"] = round(c["pu_act"] * aj, 2)
+        print(f"Tabulador CDMX: canasta {len(canasta)}, pares automáticos {len(automaticos)}, "
+              f"ajustes {({k: v[2] for k, v in ajustes.items() if v[2] != 1})}")
+    hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend, rango_ajustes)
     hoja_gubim(wb, conceptos, gub)
     hoja_resumen(wb, conceptos)
     hoja_alertas(wb, conceptos)
     hoja_fuentes(wb)
-    wb.move_sheet("Catálogo", offset=-3)
+    wb.move_sheet("Catálogo", offset=1 - wb.sheetnames.index("Catálogo"))
     wb.calculation.fullCalcOnLoad = True
     wb.save(SALIDA / "Construbase_GuBIM.xlsx")
     escribir_csv(conceptos, gub)

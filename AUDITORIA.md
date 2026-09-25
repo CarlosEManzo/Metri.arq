@@ -16,6 +16,7 @@ Revisión de la tabla `salida/Construbase_GuBIM.xlsx`, generada con `scripts/gen
 | Duplicados con precio distinto | 28 conceptos (14 pares) |
 | Fórmulas del Excel | Sin errores (verificado con evaluador independiente) |
 | Precio actualizado | Ago-2026, mercado Michoacán, por componentes: factor efectivo 1.60 (provisional hasta capturar el INPP de Morelia) |
+| Validación CDMX (jul-2026) | Canasta de 41 conceptos: CDMX/actualizado mediana 1.01 en pares exactos; ajustes por grupo en 767 conceptos de instalaciones |
 
 ## 2. Fuentes
 
@@ -146,20 +147,72 @@ Son proporciones razonables: mucha mano de obra en obra negra y poca en equipos 
 - Un factor por componente no distingue entre materiales: el acero y el cobre subieron más que el cemento.
 - La separación entre mano de obra y materiales depende de rendimientos de referencia sin validar.
 
-## 8. Verificación del Excel
+## 8. Validación contra el Tabulador de la CDMX (julio 2026)
+
+**Fuente.** Tabulador General de Precios Unitarios del Gobierno de la CDMX, actualización de julio de 2026 (`referencias/tabulador_cdmx_2026-07.pdf`), y sus notas de la edición 2026. Se leyeron 5,771 conceptos.
+
+- Según las notas, los P.U. de la CDMX incluyen un indirecto integrado de 27.51 % y cargos adicionales de 3.627 %. Estos últimos son derechos de supervisión e inspección que solo aplican en obra pública de la CDMX, así que se quitan antes de comparar.
+- Los insumos están a precio de mercado para cantidades reducidas, comparable con obra residencial chica.
+- Construbase 2017 también es base CDMX, así que la comparación mide directamente cuánto cambió cada precio en el mismo mercado.
+
+**Cómo se emparejó.**
+- **Canasta curada:** 41 conceptos típicos de vivienda emparejados a mano (`scripts/canasta_cdmx.py`), 30 exactos y 11 aproximados.
+- **Pares automáticos con similitud ≥ 85:** 269, casi todos de instalaciones. Se exige la misma unidad y las mismas medidas.
+- **Prueba sintética del emparejador:** 400 de 400 pares recuperados, sin elegir ningún señuelo de otra medida.
+
+El emparejamiento automático no sirve para obra civil, porque la CDMX y Construbase redactan distinto la misma partida.
+
+**Resultados.**
+
+| Evidencia | CDMX / P.U. actualizado (mediana) |
+|---|---|
+| Canasta, 30 pares exactos | **1.01** |
+| Canasta, 41 pares | 0.92 (cuartiles 0.78–1.18) |
+
+Ajuste de la canasta entre 2017 y la CDMX 2026 (41 pares):
+- mano de obra **≈ 1.85** (intervalo del 90 %: 1.36–2.29);
+- materiales **≈ 1.43** (intervalo: 1.24–1.65).
+
+Los factores de Michoacán (1.65 y 1.60) caen dentro de esos intervalos.
+
+**Conclusión.** La actualización por componentes queda validada en la mediana. La dispersión por concepto es amplia, como es normal entre dos catálogos, así que la canasta no alcanza para recalibrar los factores generales con precisión.
+
+**Ajustes por grupo aplicados** (columna "P.U. con ajuste CDMX"). Solo se ajustan los grupos (subcapítulo · familia) con al menos 10 pares y una diferencia consistente de más de 10 %:
+
+| Grupo | Pares | Ajuste |
+|---|---|---|
+| Cables | 10 | × 1.21 |
+| Conexiones de fierro galvanizado | 75 | × 0.68 |
+| Conexiones de fierro negro | 67 | × 0.69 |
+| Conexiones de CPVC | 15 | × 0.86 |
+
+- En total cambian 767 conceptos.
+- Cobre (1.06), PVC hidráulico (0.97) y tubería (0.94) no se ajustan.
+- Contra incendio y agua potable no tienen pares con similitud alta, así que tampoco se ajustan.
+- La mano de obra no se ajusta con la CDMX, porque los salarios son regionales.
+
+**Lo que dice sobre los rendimientos.** En los conceptos casi pura mano de obra, la CDMX sale mucho más barata:
+- excavación a mano 0.64;
+- relleno compactado con pisón 0.45;
+- carga manual 0.53.
+
+Con los costos de cuadrilla 2026 de la tabla, eso implica que la CDMX supone rendimientos de ~6 m³/jornada en excavación a mano (la tabla usa 3.5) y ~8 m³/jornada en relleno con pisón (la tabla usa 4). No se cambiaron: la CDMX corresponde a otro tipo de suelo y otras condiciones de obra pública. Quedan como señal para validarlos en obra.
+
+## 9. Verificación del Excel
 
 - LibreOffice no funciona en este contenedor. Las fórmulas se evaluaron con `pycel`, un evaluador independiente, sobre 450 filas al azar.
+- La columna "P.U. con ajuste CDMX" coincide al centavo con el cálculo en Python en 120 filas al azar (60 ajustadas).
 - Se probaron los modos de actualización: por índices INPP (factor 1.655), por factor manual (1.5 y 1.7) y por componentes (materiales 1.60, M.O. 1.65). En el método por componentes, el Excel coincide al centavo con el cálculo en Python en 200 filas al azar.
 - Resultado: **0 errores**. P.U. actualizado, rendimiento, jornadas, horas-hombre y % de M.O. calculan bien. La única diferencia que apareció fue de redondeo en la propia prueba en Python; Excel redondea correctamente.
 - El libro tiene activado el recálculo completo al abrir.
 
-## 9. Pendientes recomendados
+## 10. Pendientes recomendados
 
 1. Capturar el INPP de "Construcción residencial" de **Morelia** (sep-2017 y último mes) en la hoja Parámetros.
 2. Ajustar el costo de las cuadrillas en Parámetros al salario real de la zona (Querétaro o Morelia).
 3. Revisar las 326 alertas de rendimiento y los 14 pares duplicados.
 4. Validar los rendimientos sin tarjetas de P.U. de Construbase. Opciones, de la más rápida a la más sólida:
-   - Contrastar con el Tabulador General de Precios Unitarios de la CDMX (público, actualización mensual 2026) y con tabuladores de dependencias (SICT, IMSS, INIFECH).
+   - ~~Contrastar con el Tabulador General de Precios Unitarios de la CDMX~~ (hecho, sección 8). Pueden sumarse tabuladores de otras dependencias (SICT, IMSS, INIFECH).
    - Tomar rendimientos de bibliografía de costos (Suárez Salazar, *Costo y tiempo en edificación*; Varela, *Ingeniería de costos*).
    - Medirlos en obra propia (por ejemplo Casa Querétaro): unidades hechas por jornada de cada cuadrilla.
    - Pedir a quien tenga licencia de Construbase/Neodata el reporte "análisis de precios unitarios" solo de los conceptos que más se usen.

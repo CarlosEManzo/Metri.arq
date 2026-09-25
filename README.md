@@ -35,8 +35,10 @@ python3 scripts/generar_tabla.py
 
 ```bash
 pip install -r requirements.txt
-python3 scripts/comparar_tabulador.py fuentes/tabulador_cdmx.pdf
+python3 scripts/comparar_tabulador.py referencias/tabulador_cdmx_2026-07.pdf
 ```
+
+Si hay un tabulador en `referencias/`, `generar_tabla.py` agrega la hoja *Tabulador CDMX* y la columna *P.U. con ajuste CDMX*. La canasta curada de conceptos de vivienda está en `scripts/canasta_cdmx.py`.
 
 Empareja cada concepto con el más parecido del Tabulador General de Precios Unitarios de la CDMX (misma unidad y mismas medidas) y compara precios. El resultado queda en `salida/comparacion_tabulador.csv`.
 

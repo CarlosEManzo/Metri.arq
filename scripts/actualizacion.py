@@ -45,4 +45,10 @@ FUENTES = [
      "Cemento ≈ 1.2x"),
     ("Varilla corrugada 3/8\"", "2026 ≈ $20,500/ton (Ternium, GASA)",
      "Acero ≈ 1.5x (precio 2017 no confirmado en fuentes)"),
+    ("Tabulador General de Precios Unitarios CDMX, actualización julio 2026 (referencias/)",
+     "5,771 conceptos; indirecto integrado 27.51 %, cargos adicionales 3.627 %",
+     "Validación: canasta de 41 conceptos y 269 pares automáticos (hoja Tabulador CDMX)"),
+    ("Notas del tabulador CDMX, edición 2026 (vigencia marzo 2026)",
+     "P.U. incluye directo, indirectos, financiamiento, utilidad y cargos adicionales; sin IVA",
+     "Base para comparar: se quitan los cargos adicionales propios de la CDMX"),
 ]
