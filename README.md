@@ -31,4 +31,13 @@ python3 scripts/generar_tabla.py
 - Los factores de actualización y sus fuentes están en `scripts/actualizacion.py`.
 - Para cambiar la actualización no hace falta regenerar: en la hoja *Parámetros* del Excel se editan los factores de materiales y de mano de obra, o se captura el INPP de Morelia.
 
+### Comparar contra el tabulador de la CDMX
+
+```bash
+pip install -r requirements.txt
+python3 scripts/comparar_tabulador.py fuentes/tabulador_cdmx.pdf
+```
+
+Empareja cada concepto con el más parecido del Tabulador General de Precios Unitarios de la CDMX (misma unidad y mismas medidas) y compara precios. El resultado queda en `salida/comparacion_tabulador.csv`.
+
 > Los rendimientos **no vienen de Construbase**, porque el export no trae las matrices de precios unitarios. Son valores de referencia por validar; ver `AUDITORIA.md`.
