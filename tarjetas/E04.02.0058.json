@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E04.02.0058",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "BLK-RUS-15-ROSA",
+      "cantidad": 12.5,
+      "desperdicio": 0.07,
+      "nota": "12.50 pza/m² (pieza 20x40 con junta de 1 cm)"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.015,
+      "desperdicio": 0.03,
+      "nota": "Mortero en juntas de 1 cm (asiento sobre paredes de la pieza) ≈ 0.015 m³/m² para 15 cm (0.015 en 15 cm, proporcional al espesor)"
+    },
+    {
+      "insumo": "ESCAL-15",
+      "cantidad": 2.5,
+      "desperdicio": 0.1,
+      "nota": "Escalerilla cada 2 hiladas (40 cm) = 2.5 m/m²; 10 % de traslape"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.9,
+    "fuente": "Rendimiento base Of+Pe 14.0 m²/jor para block de 15 cm (catálogo 14 m²/jor; APU publicados 12-16, menor en piezas más pesadas); acabado aparente −15 % → 11.9 m²/jor. El peón elabora el mortero"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de block rústico cara de piedra rosa de 15x20x40 cm, junta de 1 cm, 12.5 pza/m².",
+    "Muro hasta 3.00 m de altura, sin andamio.",
+    "Castillos, cadenas y dalas se pagan por separado.",
+    "Acabado aparente: selección de piezas (desperdicio 7 %), plomo y junta entallada en la cara vista; rendimiento −15 %.",
+    "Block rústico de color integral: el precio de la pieza de color es regla de escala sobre el gris (+18 %), por validar con blockera de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

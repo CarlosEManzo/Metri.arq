@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.02.0025",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.0219,
+      "desperdicio": 0.07,
+      "nota": "Capuchino (de canto, cara 28x14), junta 1.5 cm: 1/((0.28+0.015)x(0.14+0.015)) = 21.9 pza/m² = 0.0219 millar"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.0115,
+      "desperdicio": 0.03,
+      "nota": "0.07 m³ de muro − 21.9 x 0.002744 = 0.0099 → 0.010 m³/m²; +15 % por juntas en cuña del trazo curvo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.5,
+    "fuente": "Rendimiento base Of+Pe por espesor: 6 cm 10 m²/jor, 14 cm 8 m²/jor (catálogo y APU publicados 8-10), 21 cm 6 m²/jor, 28 cm 4.5 m²/jor (≈320-360 pza/jor en todos los espesores; el catálogo usa 8 m²/jor sin distinguir espesor); muro curvo −25 % → 7.5 m²/jor. El peón elabora el mortero a mano"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de 6 cm de tabique rojo recocido 7x14x28, junta de 1.5 cm.",
+    "Muro hasta 3.00 m de altura, sin andamio.",
+    "Castillos, cadenas y dalas se pagan por separado.",
+    "Tabique de fabricación artesanal: las medidas reales varían; se toman nominales 7x14x28.",
+    "Muro curvo: trazo con escantillón/plantilla, juntas en cuña (+15 % de mortero), desperdicio 7 % y rendimiento −25 % respecto al muro recto."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

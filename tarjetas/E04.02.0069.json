@@ -1,0 +1,51 @@
+{
+  "clave_cb": "E04.02.0069",
+  "gubim": "20.10.30.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga (no de contención)"
+    },
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si es barda o muro de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PIEDRA-BRAZA",
+      "cantidad": 1.15,
+      "desperdicio": 0.0,
+      "nota": "1.15 m³ de piedra en greña por m³ de mampostería x 1.0 m³/m³"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.3,
+      "desperdicio": 0.03,
+      "nota": "0.30 m³ de mortero por m³ de mampostería x 1.0 m³/m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.2,
+    "fuente": "2.2 m³/jor Of+2Pe (= 2.20 m³/jor). APU publicados de mampostería de piedra braza 1.5-3.0 m³/jor (muros rostreados en la parte baja del rango, cimientos en la alta). Catálogo: 3 m²/jor para todos los espesores y 1.8 m³/jor; aquí se gradúa: los muros delgados tienen más cara rostreada por m³"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mampostería de piedra braza junteada con mortero 1:4, una cara rostreada (cara vista acomodada y junteada) y la otra común.",
+    "Por m³ de mampostería: 1.15 m³ de piedra en greña (≈0.70 m³ sólidos + vacíos de acomodo) y 0.30 m³ de mortero.",
+    "Hasta 2.50 m de altura, sin andamio; excavación, plantilla, drenes y lloraderos se pagan por separado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

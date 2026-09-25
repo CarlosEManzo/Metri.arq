@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.02.0062",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TABICON-XL",
+      "cantidad": 46.3,
+      "desperdicio": 0.05,
+      "nota": "A soga, junta 1 cm: 1/((0.26+0.01)x(0.07+0.01)) = 46.3 pza/m²"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.0205,
+      "desperdicio": 0.03,
+      "nota": "0.13 m³ de muro − 46.3 x (0.26x0.13x0.07) = 0.0205 m³/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11.0 m²/jor Of+Pe: tabicón de medidas regulares y menor peso que el tabique rojo; APU publicados 9-12 m²/jor (catálogo 8 m²/jor, referido a tabique). El peón elabora el mortero"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de 13 cm de tabicón extra ligero de concreto 7x13x26 cm a soga, junta de 1 cm.",
+    "Muro hasta 3.00 m de altura, sin andamio.",
+    "Castillos, cadenas y dalas se pagan por separado.",
+    "Precio del tabicón referido a un rango de 7x12x24 y escalado por tipo; por validar con bloquera de Morelia.",
+    "Alerta contra el P.U. actualizado de Construbase revisada y aceptada: el P.U. 2017 de Construbase hace el muro de tabicón ≈30 % más barato que el de tabique rojo (precios de la zona centro, donde el tabique es caro). En Michoacán, región productora, el tabique rojo cuesta ≈$4.31/pza sin IVA, igual que el tabicón, y con 46.3 pza/m² (contra 40 de tabique) el muro de tabicón resulta solo ≈5-10 % más barato que el de tabique 14 cm 1:5 (E04.02.0002, $622.68). Las cantidades y el rendimiento están en rango; la diferencia es de precio regional de la pieza."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

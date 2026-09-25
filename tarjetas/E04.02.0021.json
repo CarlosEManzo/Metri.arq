@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E04.02.0021",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.024,
+      "desperdicio": 0.08,
+      "nota": "A tizón (1 tabique), junta 1.5 cm: 2 x 40 = 80 pza/m² = 0.080 millar x 0.30 m²/ml"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.018,
+      "desperdicio": 0.03,
+      "nota": "0.28 m³ de muro − 80 x 0.002744 = 0.060 m³/m² x 0.30 m²/ml"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.67,
+    "fuente": "5.5 ml/jor Of+Pe (= 1.6 m²/jor): mocheta angosta con dos cantos a plomo, 30-45 % del rendimiento de muro corrido. Catálogo: 6 ml/jor para todas las medidas (implícito ≈8.9 ml/jor en 14 cm x 30); se gradúa por espesor y ancho; acabado aparente −15 % → 4.67 ml/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mocheta de 28 cm de espesor y ancho hasta 30 cm, medida por metro lineal de altura; se analiza con el ancho máximo (0.30 m² por ml).",
+    "Incluye remates a plomo en ambos cantos; hasta 3.00 m de altura, sin andamio.",
+    "Castillos y anclajes al muro se pagan por separado.",
+    "Acabado aparente: selección de piezas (desperdicio 8 %) y junta entallada; rendimiento −15 %."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
