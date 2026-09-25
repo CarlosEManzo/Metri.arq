@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Datos con licencia (Construbase) y resultados que los contienen:
+# se guardan solo en local.
+fuentes/
+salida/
