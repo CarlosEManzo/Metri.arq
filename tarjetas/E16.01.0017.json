@@ -37,7 +37,8 @@
   "supuestos": [
     "Terreno ya despalmado y nivelado; excavación o retiro de material se paga aparte.",
     "Pasto San Agustín; agua de toma de la obra a precio de pipa.",
-    "La descripción de Construbase no menciona tierra vegetal; se incluye capa de 5 cm porque es práctica común para el prendido del rollo."
+    "La descripción de Construbase no menciona tierra vegetal; se incluye capa de 5 cm porque es práctica común para el prendido del rollo.",
+    "Alerta +41 % contra el tabulador CDMX VC12BC ($93.90) revisada y aceptada: ese concepto es solo suministro y colocación del rollo; esta tarjeta agrega 5 cm de tierra vegetal (≈$35 de P.U.) y 15 días de riego. Sin tierra la tarjeta queda en ≈$97 (+3 %). Contra el P.U. actualizado de Construbase la diferencia es +9 %."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

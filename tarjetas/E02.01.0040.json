@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E02.01.0040",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se clasifica con la excavación de cimentación (retiro de producto de excavación)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "Carga manual a camión 5.0 m³/jor peón (0.200 jor/m³, analisisdepreciosunitarios.com, carga y acarreo de material); rango publicado 5-8 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Camión de volteo 7 m³ en recorrido (incl. operador y diésel)",
+      "horas": 0.0321,
+      "costo_horario": 700.0
+    },
+    {
+      "descripcion": "Camión de volteo 7 m³ en espera durante la carga manual",
+      "horas": 0.25,
+      "costo_horario": 300.0
+    }
+  ],
+  "supuestos": [
+    "Volumen medido en banco; 5.6 m³ en banco (7 m³ sueltos) por viaje.",
+    "Carga con cuadrilla de 4 peones: 5.6 m³ / (4 × 5 m³/jor / 8 h) = 2.24 h por viaje → espera del camión 0.40 h/m³; se toma 0.25 h/m³ considerando que el material se acamella antes de la llegada del camión (carga continua con 2 camiones en rotación).",
+    "Costo de espera $300/h (operador + depreciación, sin combustible) como referencia; recorrido: ida y vuelta 2 km + descarga = 0.18 h/viaje / 5.6 = 0.0321 h/m³.",
+    "Camión de volteo 7 m³ con operador y diésel $700/h (costos horarios publicados $650-1,062/h, analisisdepreciosunitarios.com/costo-horario-730); sin cotización de Morelia.",
+    "No incluye derechos de tiro.",
+    "Alerta +70 % contra CDMX BN15BB ($181.21) revisada: el tabulador implica ≈16 m³/jor de carga manual, 2-3 veces los rendimientos publicados (5-8 m³/jor al subir material a la caja de un camión). La M.O. sola con 5 m³/jor es $139/m³. Contra el P.U. actualizado de Construbase la diferencia es -9 %. Se mantiene; con 8 m³/jor y sin tiempo de espera del camión el P.U. bajaría a ≈$170."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

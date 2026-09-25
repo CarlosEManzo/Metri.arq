@@ -59,7 +59,8 @@
     "Tubería horizontal colgada de losa o en ducto, con soportería; si va enterrada, la excavación, cama de arena y relleno se pagan aparte y la soportería no aplica.",
     "Conexiones proporcionales promedio de una red de vivienda (0.15 codos + 0.10 yees por metro); registros y coladeras se pagan aparte.",
     "Limpiador para PVC incluido en la herramienta menor; prueba de estanqueidad con agua de la obra.",
-    "Precios de codo y yee de 4 in y de la abrazadera son referencia por validar."
+    "Precios de codo y yee de 4 in y de la abrazadera son referencia por validar.",
+    "Alerta +124 % contra el tabulador CDMX HB12BE ($109.10) revisada y aceptada: ese concepto paga solo el tubo con uniones (extremos lisos), con conexiones y soportería por separado; esta tarjeta incluye conexiones proporcionales (≈$21/m) y abrazaderas colgantes (≈$19/m), y M.O. de red colgada. Contra el P.U. actualizado de Construbase la diferencia es +16 %."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

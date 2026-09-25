@@ -1,0 +1,62 @@
+{
+  "clave_cb": "E02.01.0122",
+  "gubim": "20.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es cimbra de contratrabe o trabe de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es cimbra de borde de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.8,
+      "desperdicio": 0.1,
+      "nota": "Por m² de contacto: tabla 3/4\" 8.1 pt + barrotes 2x4 a 60 cm (2 m × 2.19 pt/m = 4.4 pt) + estacas y troqueles 1.5 pt = 14 pt; 5 usos → 2.8 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m² (valor usual 0.12-0.20 kg/m² en cimbra de madera)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Amarres de tableros 0.10 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of carpintero + Ay (rendimiento del catálogo; incluye habilitado, cimbrado y descimbrado). Rango publicado 8-12 m²/jor para cimbra común en zapatas"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra de madera de pino de 3a, acabado común, medida por m² de contacto; 5 usos.",
+    "Zapatas aisladas o corridas con altura de peralte hasta 0.60 m."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

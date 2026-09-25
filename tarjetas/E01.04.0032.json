@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E01.04.0032",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el muro pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20 m²/jor peón (rendimiento del catálogo). Tablas publicadas para muro de tabique o block de 14 cm: 22-26 m²/jor (Scribd 'Rendimientos en construcción y demolición'); se toma el valor bajo por incluir el apile de escombro a pie de muro y el movimiento de andamio"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.4,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Muro de tabique rojo 14 cm hasta 3.00 m de altura, demolido a mano con marro y cincel; sin recuperación de piezas.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización; 8 h / 20 m² = 0.40 h/m².",
+    "El escombro se deja apilado a pie de muro; carga y acarreo fuera de la obra se pagan por separado.",
+    "No incluye demolición de castillos, cadenas ni aplanados (se asume muro sin aplanado o con aplanado incluido en el mismo m²)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

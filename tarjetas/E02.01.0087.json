@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E02.01.0087",
+  "gubim": "20.10.10.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "CON-100",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "1.00 × 1.00 × 0.05 m = 0.050 m³/m²; 5 % por irregularidad del fondo de excavación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of+2Pe (rendimiento del catálogo; 2.0 m³/jor de concreto mezclado a mano). Rango publicado 35-50 m²/jor para plantilla de 5 cm"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto f'c=100 hecho en obra mezclado a mano en artesa o sobre el terreno (volumen bajo, 2 m³/jor); sin revolvedora.",
+    "Preparación de la superficie: limpieza y apisonado ligero del fondo; la compactación con equipo se paga aparte.",
+    "Acarreos hasta 20 m."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

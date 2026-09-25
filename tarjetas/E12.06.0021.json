@@ -35,7 +35,8 @@
   "supuestos": [
     "Cableado dentro de tubería conduit existente; guía de acero incluida en la herramienta menor.",
     "Conexiones a apagadores, contactos y tableros se pagan en sus conceptos.",
-    "Precio del cable de caja de 100 m (Condumex Vinanel XXI THW-LS); varía con el precio del cobre."
+    "Precio del cable de caja de 100 m (Condumex Vinanel XXI THW-LS); varía con el precio del cobre.",
+    "Diferencia +41 % contra el P.U. actualizado de Construbase ($22.29) explicada por el precio del cobre 2026; contra el tabulador CDMX KC16BF la diferencia es +0.8 % y el rendimiento implícito (250.8 m/jor) coincide con el adoptado."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

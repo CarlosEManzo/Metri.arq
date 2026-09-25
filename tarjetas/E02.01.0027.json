@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E02.01.0027",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.10",
+      "condicion": "si es excavación general (sótano, plataforma)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4.0 m³/jor peón en material tipo I (analisisdepreciosunitarios.com, rendimiento de excavación manual). Catálogo 3.5 m³/jor. Rango 3.5-5.0: 0-1 m ≈5, 1-2 m ≈3.5; se toma el promedio de la franja 0-2 m"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material tipo I-A (tierra suelta o arcilla blanda, sin agua), medido en banco (volumen geométrico de la cepa).",
+    "Incluye afine de taludes y fondo; producto depositado a un lado de la cepa (hasta 1 m del borde). Sin ademe ni bombeo.",
+    "Traspaleo para profundidades mayores de 1.50 m absorbido en el rendimiento promedio.",
+    "Alerta +49 % contra CDMX BF13BB ($153.99) revisada: el rendimiento implícito del tabulador (5.9 m³/jor con salarios de Michoacán) está arriba de las referencias disponibles (catálogo 3.5 m³/jor; APU publicado 4.0 m³/jor en material tipo I). Se mantiene 4.0 m³/jor; contra el P.U. actualizado de Construbase la diferencia es -4.1 %. Si en obra el material es arena suelta o tierra vegetal, podría usarse 5.0 m³/jor (P.U. ≈$183)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

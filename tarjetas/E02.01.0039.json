@@ -1,0 +1,39 @@
+{
+  "clave_cb": "E02.01.0039",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se clasifica con la excavación de cimentación (retiro de producto de excavación)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [],
+    "rendimiento": 150.0,
+    "fuente": "Sin mano de obra (el concepto solo incluye equipo y herramienta; operadores en el costo horario). Rendimiento del equipo: 5.6 m³ banco/viaje / 0.297 h × 8 h ≈ 150 m³/jor por camión (catálogo 120 m³/jor)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Camión de volteo 7 m³ con operador (incl. diésel)",
+      "horas": 0.053,
+      "costo_horario": 700.0
+    },
+    {
+      "descripcion": "Retroexcavadora 416 cargando (incl. operador y diésel)",
+      "horas": 0.0208,
+      "costo_horario": 850.0
+    }
+  ],
+  "supuestos": [
+    "Volumen medido en banco; abundamiento 25 % → 7 m³ sueltos = 5.6 m³ en banco por viaje.",
+    "Ciclo del camión: carga 7 m³ / 60 m³/h = 0.117 h; ida y vuelta 2 km a 20 km/h = 0.10 h; descarga y maniobras 0.08 h → 0.297 h/viaje / 5.6 = 0.053 h/m³.",
+    "Retroexcavadora: 0.117 h/viaje / 5.6 = 0.0208 h/m³ (carga de material suelto a 60 m³/h).",
+    "Camión de volteo 7 m³ con operador y diésel $700/h (costos horarios publicados $650-1,062/h, analisisdepreciosunitarios.com/costo-horario-730); sin cotización de Morelia.",
+    "Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx/cuanto-cuesta-renta-de-retroexcavadora-por-hora-en-mexico/); sin cotización de Morelia.",
+    "No incluye derechos de tiro."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

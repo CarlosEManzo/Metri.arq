@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E02.01.0137",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.30.30",
+      "condicion": "si es relleno en trasdós de muro de contención"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈150 l/m³ compacto (tierra con 10-12 % de humedad adicional)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5.0 m³/jor peón (tendido en capas de 20 cm, incorporación de agua y compactación con pisón). Catálogo 4 m³/jor; analisisdepreciosunitarios.com indica 7 m³/jor solo para compactación y advierte que con tendido e hidratación el rendimiento baja; rango 4-7"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material producto de la excavación, acamellonado junto a la cepa (sin acarreo); medido compacto.",
+    "Compactación con pisón de mano (sin control de laboratorio): ≈85 % Proctor.",
+    "Alerta contra CDMX BP12BB ($110.01, cociente 0.45 contra su canasta) revisada: con salario de peón de $693/jor y 5 m³/jor la M.O. sola ya es $139/m³; el tabulador implica más de 7 m³/jor, que corresponde solo a compactación. Se mantiene el análisis.",
+    "Contra el P.U. actualizado de Construbase la diferencia es -19 %."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
