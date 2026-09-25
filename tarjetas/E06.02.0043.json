@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E06.02.0043",
+  "gubim": "40.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si el lambrín es en fachada exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MURO-INTERCER",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m²; 7 % por cortes en esquinas, salidas y rotura"
+    },
+    {
+      "insumo": "ADH-CREST-BLANCO",
+      "cantidad": 3.33,
+      "desperdicio": 0.05,
+      "nota": "Rendimiento Crest blanco 6.0 m²/saco 20 kg"
+    },
+    {
+      "insumo": "BOQUILLA-SA-5",
+      "cantidad": 0.25,
+      "desperdicio": 0.1,
+      "nota": "Junta 2-3 mm ≈0.25 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of+Ay (catálogo). Referencias 7-13 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Azulejo Interceramic de gama media según muestra, sobre aplanado plomeado (aparte).",
+    "Muro hasta 3.00 m de altura, sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

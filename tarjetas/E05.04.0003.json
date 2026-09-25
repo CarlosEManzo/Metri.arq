@@ -1,0 +1,90 @@
+{
+  "clave_cb": "E05.04.0003",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.20",
+      "condicion": "si es muro exterior o de fachada ligera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DUROCK-13",
+      "cantidad": 0.6718,
+      "desperdicio": 0.08,
+      "nota": "2 cara(s): 2.0 m² / 2.977 m² por hoja = 0.672 pza/m²; 8% por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C20",
+      "cantidad": 5.2461,
+      "desperdicio": 0.05,
+      "nota": "Postes a 0.406 m: 1/0.406 = 2.46 m/m² + arranque, remate y jambas ≈ 2.62 m/m² × 2 bastidores"
+    },
+    {
+      "insumo": "CANAL-63-C20",
+      "cantidad": 1.3333,
+      "desperdicio": 0.05,
+      "nota": "Canal superior e inferior: 2 / 3.00 m de altura = 0.667 m/m² × 2 bastidores"
+    },
+    {
+      "insumo": "TORN-DUROCK",
+      "cantidad": 32,
+      "desperdicio": 0.1,
+      "nota": "16 tornillos/m² por cara (a 20 cm, criterio USG Durock) × 2.00 m²"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 7.1681,
+      "desperdicio": 0.1,
+      "nota": "2 tornillos por extremo de poste: 4 / (0.406 × 3.00) + uniones × 2 bastidores"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 2.1858,
+      "desperdicio": 0.05,
+      "nota": "Fijación de canales a piso y losa a cada 0.61 m: 2 / (0.61 × 3.00) × 2 bastidores"
+    },
+    {
+      "insumo": "CINTA-FV",
+      "cantidad": 2.4,
+      "desperdicio": 0.1,
+      "nota": "Juntas y ángulos ≈ 1.2 m/m² por cara × 2.00 m²"
+    },
+    {
+      "insumo": "BASECOAT",
+      "cantidad": 2.4,
+      "desperdicio": 0.05,
+      "nota": "Tratamiento de juntas con Basecoat ≈ 1.2 kg/m² por cara × 2.00 m²"
+    },
+    {
+      "insumo": "COLCH-FV-2",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Colchoneta de 2 in en toda el área, entre bastidores; 5 % por traslapes y cortes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7,
+    "fuente": "7 m²/jor Of yesero + Ay: muro de doble bastidor con forro de dos caras y colchoneta. Catálogo: 8 m²/jor. Escala del lote: una cara 18, dos caras 14 (E05.01.0016), doble bastidor 10, murete 10, murete doble 8, curvo 7 m²/jor en panel de yeso; en Durock (tablero de ≈38 kg/hoja, postes cal. 20, tornillo de broca) 12/9/7/7/6/5. Referencias web: 12-18 m²/jor en muro de tablaroca (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior hasta 3.00 m de altura (murete 1.20 m); sin andamio.",
+    "Juntas tratadas con cinta de fibra de vidrio y Basecoat; sin acabado final (pasta o recubrimiento aparte).",
+    "Separación de postes según el concepto (0.406 m, poste y canal cal. 20 para Durock).",
+    "Framer de punta fina como tornillo de perfil; en cal. 20 el oficial usa punta de broca de precio similar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

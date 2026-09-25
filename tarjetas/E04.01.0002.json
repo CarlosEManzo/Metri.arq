@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E04.01.0002",
+  "gubim": "",
+  "gubim_confianza": "insumo",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "YESO-CEM",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m³ de pasta + 3 % por fraguado de sobrantes en la artesa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.0,
+    "fuente": "2 m³/jor 2 peones (rendimiento del catálogo): la pasta de yeso se bate a mano en artesa en bachadas chicas por su fraguado rápido; no admite revolvedora"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Básico: pasta de yeso-cemento (≈10 % de cemento en peso) batida a mano; incluye solo materiales y elaboración.",
+    "Sin revolvedora: el yeso fragua en 10-15 min y se prepara en artesa junto al tajo.",
+    "El costo de la pasta lo fija el yeso: 900 kg/m³ × $2.93/kg (bulto 40 kg $136 con IVA, Home Depot) = $2,637/m³; Construbase actualizado trae $1,574/m³ de materiales, que solo cuadra con ≈540 kg de yeso por m³ o con un yeso a ≈$1.75/kg.",
+    "Básico de Construbase (concepto en mayúsculas): se valida su costo directo contra el P.U. actualizado (\"comparar_costo_directo\"); el P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
+  ],
+  "comparar_costo_directo": true,
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

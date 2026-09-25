@@ -1,0 +1,94 @@
+{
+  "clave_cb": "E05.06.0005",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.50",
+      "condicion": "si es pretil de fachada o azotea"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13",
+      "cantidad": 0.4333,
+      "desperdicio": 0.1,
+      "nota": "Antepecho de 0.60 m: 2 cara(s) × 0.60 + tapa 0.09 = 1.29 m²/m / 2.977; 10 % por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C26",
+      "cantidad": 1.384,
+      "desperdicio": 0.05,
+      "nota": "Postes a 0.61 m de 0.60 m (1.64 × 0.60) + remates ≈ 1.38 m/m"
+    },
+    {
+      "insumo": "CANAL-63-C26",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior y superior: 2 m/m"
+    },
+    {
+      "insumo": "ANG-AMARRE",
+      "cantidad": 0.492,
+      "desperdicio": 0.05,
+      "nota": "Escuadra de ángulo de amarre de 0.30 m en cada poste para anclarlo a la losa"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 16.77,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m² × 1.29 m²/m"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 6.56,
+      "desperdicio": 0.1,
+      "nota": "4 tornillos por poste × 1.64 postes/m"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 4.9733,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior anclado a cada 0.30 m + una pija por escuadra"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Dos aristas en la tapa superior"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 1.548,
+      "desperdicio": 0.1,
+      "nota": "Juntas y encuentros ≈ 1.2 m/m² × 1.29 m²"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 1.103,
+      "desperdicio": 0.05,
+      "nota": "0.7 kg/m² × 1.29 m² + 0.2 kg por esquinero"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.5,
+    "fuente": "6.5 m/jor Of yesero + Ay (8.4 m²/jor de forro con tapa y esquineros; murete de 1.20 m rinde 9 m²/jor). Catálogo: 8 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Antepecho (pretil) de 0.60 m de altura sobre losa (el concepto dice \"bastidor de 0.6 cm\"; se lee 0.60 m), con escuadras de ángulo de amarre ancladas a la losa; unidad por metro lineal.",
+    "Forro en dos caras y tapa superior del mismo panel."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

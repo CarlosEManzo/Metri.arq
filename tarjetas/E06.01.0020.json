@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E06.01.0020",
+  "gubim": "40.30.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "40.30.10.10",
+      "condicion": "si la escalera es de elementos prefabricados"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "NARIZ-VIN",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1 m; piezas de 1.30 m, 8 % por cortes a la medida del escalón"
+    },
+    {
+      "insumo": "ADH-CONTACTO",
+      "cantidad": 0.04,
+      "desperdicio": 0.05,
+      "nota": "Pegamento de contacto a dos caras: banda de 5 cm (huella + peralte) ≈ 0.10 m² × 0.4 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m/jor Of (catálogo). Referencia: colocación de nariz pegada 35-50 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Nariz vinílica Vinylasa de 1.30 m (2.7 cm de ala, 1.3 cm de nariz), pegada con cemento de contacto sobre escalón terminado.",
+    "Precio de la nariz: mínimo de Amazon México ($73/m sin IVA); ver insumo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Nariz de escalón vinílica a $73/m sin IVA (mínimo de Amazon México $84.85-123.02/m con IVA; Home Depot $141/m) contra ≈$49/m implícito en el material del catálogo (72.06/1.284 − pegamento); la M.O. (40 m/jor) es la del catálogo."
+}

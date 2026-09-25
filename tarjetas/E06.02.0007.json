@@ -1,0 +1,63 @@
+{
+  "clave_cb": "E06.02.0007",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si se coloca en muro (lambrín, fachada interior)"
+    },
+    {
+      "clave": "70.50.20.10",
+      "condicion": "si reviste alberca o fuente exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MOS-5X5-C",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² en mallas de 30x30; 5 % por cortes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.015,
+      "desperdicio": 0.05,
+      "nota": "Mortero de asiento 1:4 de 1.5 cm"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 1.65,
+      "desperdicio": 0.1,
+      "nota": "Pasta de cemento blanco sobre el mortero para asentar la malla: 1.2 kg/m²; Lechada: (2/0.052) m × 0.002 × 0.003 m × 1,900 kg/m³ = 0.44 kg/m²"
+    },
+    {
+      "insumo": "COLOR-CEM",
+      "cantidad": 0.11,
+      "desperdicio": 0.1,
+      "nota": "Color para la lechada: 1 kg por 15 kg de cemento blanco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m²/jor Of+Ay: asentado de mallas 30x30, lechadeado y limpieza. Catálogo 5 m²/jor; el 5x5 tiene 1/6 de las juntas del 2x2, se sube a 6. Rango publicado 5-8 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mosaico veneciano Kolorines 5x5 color azul cancún; precio por escalón de color (ver insumo), sin cotización del color exacto.",
+    "Sobre repellado o firme plomeado y nivelado (se paga aparte); el concepto no dice si es piso o muro: se toma piso.",
+    "Lechada de cemento blanco con color según el concepto; sin boquilla comercial."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

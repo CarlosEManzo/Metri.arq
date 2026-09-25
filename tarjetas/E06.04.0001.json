@@ -1,0 +1,57 @@
+{
+  "clave_cb": "E06.04.0001",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si es muro de fachada"
+    },
+    {
+      "clave": "70.20.10",
+      "condicion": "si es barda perimetral"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SILLAR-TEPETATE",
+      "cantidad": 9.1,
+      "desperdicio": 0.05,
+      "nota": "Pieza 40x25 con junta 1.5 cm: 1/(0.415 × 0.265) = 9.1 pza/m²"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.02,
+      "desperdicio": 0.05,
+      "nota": "Juntas 1.5 cm: (3.77 m horiz. + 2.28 m vert.)/m² × 0.015 × 0.20 = 0.018 m³ + relleno → 0.020"
+    },
+    {
+      "insumo": "COLOR-CEM",
+      "cantidad": 0.4,
+      "desperdicio": 0.1,
+      "nota": "0.021 m³ × 280 kg cemento/m³ = 5.9 kg de cemento; 1 kg de color por 15 kg"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of+Pe: piezas de 25-30 kg con junta aparente entintada. Catálogo 14 m²/jor (block de concreto ligero); APU de muro de sillar 6-10 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de 20 cm de sillar de tepetate aparente, hasta 3.00 m de altura, sin andamio; no incluye castillos ni cadenas.",
+    "El peón elabora el mortero y acarrea las piezas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Sillar de tepetate a $27/pza sin IVA (rango de mercado $12-31/pza, Mercado Libre y materialrustico.com, 9 pza/m²) contra ≈$95/pza implícito en el material del catálogo (1,308.56/1.284 ÷ 10 pza); con el sillar al tope del rango ($31) la diferencia sería −46 %."
+}

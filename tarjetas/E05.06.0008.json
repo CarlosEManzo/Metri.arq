@@ -1,0 +1,71 @@
+{
+  "clave_cb": "E05.06.0008",
+  "gubim": "40.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13",
+      "cantidad": 0.1008,
+      "desperdicio": 0.1,
+      "nota": "Tira de 0.30 m: 0.30 m²/m / 2.977; 10 % por cortes"
+    },
+    {
+      "insumo": "ANG-AMARRE",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Dos ángulos de amarre corridos (según concepto)"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 5.9,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m² × 0.30 + bordes"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 3.2787,
+      "desperdicio": 0.05,
+      "nota": "Ángulos anclados a cada 0.61 m"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Una arista"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 0.5,
+      "desperdicio": 0.1,
+      "nota": "Encuentros y juntas a tope ≈ 0.5 m/m"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 0.45,
+      "desperdicio": 0.05,
+      "nota": "Juntas, tornillos y esquinero ≈ 0.45 kg/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16.0,
+    "fuente": "16 m/jor Of yesero + Ay (tira de 0.30 m sin bastidor: 4.8 m²/jor más dos ángulos y una arista por metro). Catálogo: 8 m/jor, que ya da una M.O. de $254/m, mayor que su P.U. actualizado ($173.61); es la pieza más simple de la serie"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a no más de 3.00 m de altura; sin andamio.",
+    "Platabanda de 0.30 m de ancho fijada con dos ángulos de amarre, sin postes; unidad por metro lineal."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

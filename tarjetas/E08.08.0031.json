@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E08.08.0031",
+  "gubim": "30.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.20.40",
+      "condicion": "si el domo es una protección o cubierta de seguridad"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DOMO-60X180-CV",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "Domo 0.60x1.80 m con ventila, suministrado por el fabricante con marco"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 16,
+      "desperdicio": 0,
+      "nota": "Fijación del marco al pretil/cuello a cada 30 cm: perímetro 4.80 m → 16 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.6,
+      "desperdicio": 0.1,
+      "nota": "Sello perimetral marco-pretil: 4.80 m / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 pza/jor Of + Ay (catálogo: 4 para todas las medidas). Subir, presentar, barrenar, fijar y sellar: domos ≤0.4 m² 8 pza/jor; hasta 1 m² 6; hasta 2 m² 4; mayores 3 (dos personas para elevar)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Domo sobre pretil o cuello de concreto/block existente (no incluido), nivelado y con pendiente; la impermeabilización del cuello va aparte.",
+    "Precio del domo por regla de escala (ver fuente del insumo DOMO-60X180-CV); domos de acrílico de fabricante nacional. Los de policarbonato de tienda (Macrolux/Stabilit) cuestan más.",
+    "Elevación manual hasta azotea de un nivel."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

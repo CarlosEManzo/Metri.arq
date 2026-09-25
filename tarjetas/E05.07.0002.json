@@ -1,0 +1,77 @@
+{
+  "clave_cb": "E05.07.0002",
+  "gubim": "40.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si se clasifica como revestimiento de techo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PLAF-FISSURED-61",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1.00 m²; 5 % por cortes perimetrales y piezas dañadas"
+    },
+    {
+      "insumo": "TEE-PRINC-1516",
+      "cantidad": 0.82,
+      "desperdicio": 0.05,
+      "nota": "Tee principal a 1.22 m: 1/1.22 = 0.82 m/m²"
+    },
+    {
+      "insumo": "TEE-122-1516",
+      "cantidad": 1.64,
+      "desperdicio": 0.05,
+      "nota": "Tee de 1.22 m a cada 0.61 m entre principales: 1/(1.22×0.61) × 1.22 = 1.64 m/m²"
+    },
+    {
+      "insumo": "TEE-61-1516",
+      "cantidad": 0.82,
+      "desperdicio": 0.05,
+      "nota": "Tee de 0.61 m al centro de cada módulo de 1.22 × 1.22: 1.34 pza/m² × 0.61 = 0.82 m/m²"
+    },
+    {
+      "insumo": "ANG-PERIM-1516",
+      "cantidad": 0.4,
+      "desperdicio": 0.05,
+      "nota": "Ángulo perimetral: supuesto 0.40 m/m² (local de ≈10 × 10 m; en locales chicos sube a 0.8)"
+    },
+    {
+      "insumo": "ALAMBRE-GALV-12",
+      "cantidad": 0.0354,
+      "desperdicio": 0.1,
+      "nota": "Colgantes a 1.22 × 1.22 m = 0.67 pza/m² × 1.20 m × 0.044 kg/m"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 1.67,
+      "desperdicio": 0.05,
+      "nota": "Anclaje de colgantes a la losa (0.67 pza/m²) + fijación del ángulo perimetral a cada 0.40 m (1.0 pza/m²)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 28,
+    "fuente": "28 m²/jor Of yesero + Ay (trazo, colganteo, suspensión y colocación de piezas). Catálogo: 30 m²/jor para toda la serie; publicados 25-35 m²/jor en retícula 15/16. Escala del lote: 2x4 32, 2x2 28, 2x2 de canto fino o con cortes delicados (Vector, Mylar) 24-26, WoodWorks/MetalWorks 16-18 (panel pesado de fijación con clip)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón modular Armstrong Fissured de 0.61 × 0.61 m sobre suspensión visible 15/16 in Prelude, a no más de 3.00 m de altura; sin andamio.",
+    "Plenum ≈1.0 m (colgantes de alambre galvanizado cal. 12 a 1.22 × 1.22 m); no incluye lámparas, difusores ni refuerzos para equipos.",
+    "Precio de la pieza: ver fuente del insumo. Los modelos sin precio en México se tomaron de la lista Kanopi by Armstrong (EE.UU.) convertida y calibrada con Cortega y Fissured, que sí tienen precio de distribuidor en México."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

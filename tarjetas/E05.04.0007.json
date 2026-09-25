@@ -1,0 +1,88 @@
+{
+  "clave_cb": "E05.04.0007",
+  "gubim": "40.10.10.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si se considera revestimiento de la columna"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DUROCK-13",
+      "cantidad": 1.2093,
+      "desperdicio": 0.1,
+      "nota": "Desarrollo 4 × 0.9 = 3.6 m²/m / 2.977 m² por hoja; 10 % por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C20",
+      "cantidad": 12.0,
+      "desperdicio": 0.05,
+      "nota": "4 postes de esquina + 2 intermedio(s) por cara a 0.406 m = 12 m/m de altura"
+    },
+    {
+      "insumo": "CANAL-63-C20",
+      "cantidad": 2.4,
+      "desperdicio": 0.05,
+      "nota": "Canal perimetral arriba y abajo: 2 × 3.6 m / 3.00 m de altura"
+    },
+    {
+      "insumo": "TORN-DUROCK",
+      "cantidad": 57.6,
+      "desperdicio": 0.1,
+      "nota": "16 tornillos/m² × 3.6 m²/m"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 16.0,
+      "desperdicio": 0.1,
+      "nota": "12 postes × 4 tornillos / 3.00 m"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 3.9344,
+      "desperdicio": 0.05,
+      "nota": "Canal anclado a piso y losa a cada 0.61 m: 2 × 3.6 / 0.61 / 3.00"
+    },
+    {
+      "insumo": "CINTA-FV",
+      "cantidad": 2.88,
+      "desperdicio": 0.1,
+      "nota": "Juntas ≈ 0.8 m/m² × 3.6 m²/m"
+    },
+    {
+      "insumo": "BASECOAT",
+      "cantidad": 5.12,
+      "desperdicio": 0.05,
+      "nota": "Juntas 1.2 kg/m² × 3.6 m² + esquinas 0.8 kg/m"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 4.0,
+      "desperdicio": 0.05,
+      "nota": "4 aristas por metro de altura"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3.0 m/jor Of yesero + Ay (10.8 m²/jor de forro con 4 esquinas y esquineros por metro; muro de dos caras 14 m²/jor). Catálogo: 8 m/jor, que implica 29 m²/jor, arriba del ritmo de un muro corrido pese a las 4 aristas"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Forro de columna de 0.9 × 0.9 m, 4 caras, hasta 3.00 m de altura; P.U. por metro lineal de altura.",
+    "Bastidor de 4 postes en esquina más intermedios, canal perimetral anclado; esquineros metálicos en las 4 aristas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

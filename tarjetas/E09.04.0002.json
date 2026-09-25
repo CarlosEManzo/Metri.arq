@@ -1,0 +1,66 @@
+{
+  "clave_cb": "E09.04.0002",
+  "gubim": "40.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "DUELA-PINO-19",
+      "cantidad": 0.1,
+      "desperdicio": 0.15,
+      "nota": "Zoclo de 10 cm cortado de duela: 0.10 m²/m; 15 % por ingletes y despuntes"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 2.5,
+      "desperdicio": 0,
+      "nota": "Fijación a muro a cada 40 cm, con tapón de madera"
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.02,
+      "desperdicio": 0,
+      "nota": "Pegado de ingletes y tapones"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.015,
+      "desperdicio": 0.05,
+      "nota": "0.15 m²/m (cara y canto) / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "0.15 m²/m × 2 manos / 10 m²/l (poliform)"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.2,
+      "desperdicio": 0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20,
+    "fuente": "20 m/jor Of carpintero: corte, moldurado del canto, ingletes, fijación con taquete y tapón, y barnizado a 2 manos (catálogo: 40 m/jor, sin el barniz)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Zoclo de pino de 10 cm de altura y 19 mm, cortado de duela del mismo material que el piso.",
+    "Muro con aplanado terminado (no incluido).",
+    "El P.U. actualizado del catálogo ($248) queda solo 8 % abajo del de encino ($270) aunque la duela de pino cuesta menos de la mitad; se valida contra el de encino menos la diferencia de madera."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 207.55,
+    "razon": "P.U. actualizado de E09.04.0001 (zoclo de encino) $269.58 menos la diferencia de duela 0.10 m² × 1.15 × (750 − 330) × 1.284 = $62.03"
+  }
+}

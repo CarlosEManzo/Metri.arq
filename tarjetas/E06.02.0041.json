@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E06.02.0041",
+  "gubim": "40.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ZOCLO-CER-8",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m de zoclo de fábrica 8 cm (2.2-2.5 pza/m); 5 % por cortes en esquinas"
+    },
+    {
+      "insumo": "ADH-CREST-BLANCO",
+      "cantidad": 0.35,
+      "desperdicio": 0.05,
+      "nota": "0.08 m²/m × 3.33 kg/m² + untado de canto ≈ 0.35 kg/m"
+    },
+    {
+      "insumo": "BOQUILLA-SA-5",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Juntas verticales y contra piso"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m/jor Of (catálogo); zoclo cerámico de pieza 35-50 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Zoclo cerámico de fábrica de 8 cm de la línea Interceramic (el formato de 8 cm corresponde a la pieza de catálogo, no a corte de loseta).",
+    "Par CDMX GI12BK (zoclo de loseta de 10 cm, $88.06) es corte de loseta: otro alcance."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

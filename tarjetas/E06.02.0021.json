@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E06.02.0021",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si se coloca en muro (lambrín, fachada interior)"
+    },
+    {
+      "clave": "70.50.20.10",
+      "condicion": "si reviste alberca o fuente exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MOS-2X2-A",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² en mallas de 30x30; 5 % por cortes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.015,
+      "desperdicio": 0.05,
+      "nota": "Mortero de asiento 1:4 de 1.5 cm"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 2.25,
+      "desperdicio": 0.1,
+      "nota": "Pasta de cemento blanco sobre el mortero para asentar la malla: 1.2 kg/m²; Lechada: (2/0.022) m × 0.002 × 0.003 m × 1,900 kg/m³ = 1.04 kg/m²"
+    },
+    {
+      "insumo": "COLOR-CEM",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Color para la lechada: 1 kg por 15 kg de cemento blanco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5 m²/jor Of+Ay (catálogo): asentado de mallas 30x30, lechadeado de juntas de 2 mm y limpieza. Rango publicado 4-7 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mosaico veneciano Kolorines 2x2 color azul acapulco; precio por escalón de color (ver insumo), sin cotización del color exacto.",
+    "Sobre repellado o firme plomeado y nivelado (se paga aparte); el concepto no dice si es piso o muro: se toma piso.",
+    "Lechada de cemento blanco con color según el concepto; sin boquilla comercial."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Mosaico Kolorines 2x2 a $300/m² sin IVA (Surtidor lista Akua 2x2 a $347/m² con IVA; Solar escarlata $1,234-1,451 sin IVA) contra ≈$245/m² implícito en el material del catálogo; la M.O. es la del catálogo (5 m²/jor Of+Ay) y aporta +32 % sobre la M.O. actualizada por llevar indirectos y utilidad."
+}

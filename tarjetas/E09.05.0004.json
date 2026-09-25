@@ -1,0 +1,126 @@
+{
+  "clave_cb": "E09.05.0004",
+  "gubim": "60.20.10.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.10.20",
+      "condicion": "si es solo un módulo de entrepaños (sin puertas)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 5.039,
+      "desperdicio": 0.15,
+      "nota": "Casco: 2 laterales 2.40x0.65 + 2 división 2.40x0.60 + techo y piso 3.60x0.65 + 4 entrepaños 1.80x0.60 = 15.00 m² / 2.977 m² por hoja"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-6",
+      "cantidad": 5.718,
+      "desperdicio": 0.12,
+      "nota": "2 puertas corredizas de tambor 1.85x2.30 forradas por ambas caras: 17.02 m² / 2.977"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 30.4,
+      "desperdicio": 0.1,
+      "nota": "Peinazos 32x32 mm a 30 cm en ambos sentidos en las 2 puertas: 70.1 m × 0.434 pt/m"
+    },
+    {
+      "insumo": "CUBRECANTO-MAD",
+      "cantidad": 24.0,
+      "desperdicio": 0.1,
+      "nota": "Chapa de pino en cantos frontales de casco y entrepaños"
+    },
+    {
+      "insumo": "RIEL-CLOSET",
+      "cantidad": 7.2,
+      "desperdicio": 0.05,
+      "nota": "Riel superior + guía inferior del ancho del closet"
+    },
+    {
+      "insumo": "CARRETILLA-CLOSET",
+      "cantidad": 4,
+      "desperdicio": 0,
+      "nota": "2 carretillas por puerta"
+    },
+    {
+      "insumo": "TUBO-COLGADOR",
+      "cantidad": 3.6,
+      "desperdicio": 0,
+      "nota": "Tubo colgador en la sección sin entrepaños"
+    },
+    {
+      "insumo": "JALADERA",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": "Uñero/jaladera por puerta"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 4.7,
+      "desperdicio": 0.05,
+      "nota": "Sellador en puertas 2 caras y casco 2 caras: 47.0 m² / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 6.4,
+      "desperdicio": 0.05,
+      "nota": "2 manos en puertas (17.0 m²) y 1 mano en casco (30.0 m²): 64.0 m² / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 3.33,
+      "desperdicio": 0,
+      "nota": "Dilución y limpieza (30 % del volumen de acabado)"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 24,
+      "desperdicio": 0,
+      "nota": "1 pliego por 2 m²"
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 1.6,
+      "desperdicio": 0,
+      "nota": "Ensambles y pegado de tambor"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.4,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 12,
+      "desperdicio": 0,
+      "nota": "Fijación del casco a muros"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.31,
+    "fuente": "0.31 pza/jor Of carpintero + Ay (catálogo: 0.5 para todos los anchos). Habilitado, armado de casco y puertas de tambor, instalación de rieles, colocación y barnizado; el tiempo crece con el ancho (1.80 m ≈2 jornadas, 3.60 m ≈3.2)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Closet empotrado de 3.60 m de frente, 2.40 m de altura y 0.65 m de fondo, en hueco de muros terminados; sin fondo (el muro hace de fondo).",
+    "Casco y entrepaños de triplay de pino de 16 mm (se usa TRIPLAY-PINO-16, grado cimbra aparente, equivalente a pino de 1a); 2 división vertical, 4 entrepaños en una sección y tubo colgador en la otra.",
+    "Puertas corredizas de tambor (peinazos 32x32 mm a 30 cm, triplay de pino 6 mm por ambas caras) sobre riel superior y guía inferior de aluminio.",
+    "Barniz natural: 2 manos en puertas y 1 en casco sobre sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

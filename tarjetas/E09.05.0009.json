@@ -1,0 +1,88 @@
+{
+  "clave_cb": "E09.05.0009",
+  "gubim": "60.20.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.10.50",
+      "condicion": "si se registra como mueble de obra"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 1.897,
+      "desperdicio": 0.15,
+      "nota": "5 entrepaños en L (0.85 + 0.85 − 0.45 de esquina) × 0.45 = 2.81 m² + 3 laterales 2.10x0.45 = 2.84 m²; total 5.65 m² / 2.977"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 11.5,
+      "desperdicio": 0.1,
+      "nota": "Frentes de pino 1x2 in en entrepaños (5 × 1.25 m) y laterales (3 × 2.10 m) + largueros de apoyo a muro 1x2 in (5 × 1.70 m); × 0.547 pt/m"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 1.13,
+      "desperdicio": 0.05,
+      "nota": "Fondo para laca 11.3 m² (2 caras) / 10 m²/l"
+    },
+    {
+      "insumo": "LACA-NITRO",
+      "cantidad": 2.82,
+      "desperdicio": 0.05,
+      "nota": "Laca 2 manos 11.3 m² / 8 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 1.98,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 8,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.3,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.3,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 16,
+      "desperdicio": 0,
+      "nota": "Largueros y laterales a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.6,
+    "fuente": "0.6 pza/jor Of carpintero + Ay (catálogo 0.5): habilitado, armado de entrepaños con frentes de pino, fijación y lacado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Despensa en 'L' de 0.85 m por lado y 2.10 m de altura, fondo 0.45 m, 5 niveles de entrepaños de triplay de pino 16 mm con frente de pino 1x2 in, sin puertas.",
+    "Acabado laca nitrocelulosa 2 manos sobre fondo, en ambas caras."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

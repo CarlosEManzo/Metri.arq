@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E09.02.0021",
+  "gubim": "40.10.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.20",
+      "condicion": "si es puerta de acceso exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PUERTA-TAMBOR-ECO",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "Hoja de tambor 0.75x2.13 con marco de madera (combo de fábrica)"
+    },
+    {
+      "insumo": "BISAGRA-LAT-35",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": "Si el combo ya las trae, se descuentan"
+    },
+    {
+      "insumo": "CHAPA-ECO",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "Cerradura económica de pomo"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0,
+      "nota": "Fijación del marco a muro"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.2,
+      "desperdicio": 0,
+      "nota": "Sello marco-muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of carpintero + Ay para colocar puerta prefabricada con marco (plomear, fijar, colgar hoja y cerradura); catálogo 2 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta prefabricada de tambor con cubierta de MDF, 0.75x2.13 m, con marco de madera, para vivienda económica; sin acabado adicional (viene con primario/color de fábrica).",
+    "Precio del combo por rango de mercado (Home Depot / Rosi), referencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

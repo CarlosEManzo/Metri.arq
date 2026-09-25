@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E08.08.0018",
+  "gubim": "60.20.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ESPEJO-6",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1.00 m² de espejo cortado con canto pulido; 8 % por despunte y cortes"
+    },
+    {
+      "insumo": "SILICON-NEUTRO",
+      "cantidad": 0.6,
+      "desperdicio": 0.1,
+      "nota": "Fijación a muro con cordones verticales de silicón neutro a cada 20-25 cm (≈5 m de cordón por m²) + sellado perimetral; ≈0.6 cartucho/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.05,
+      "desperdicio": 0,
+      "nota": "Limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9,
+    "fuente": "9 m²/jor Of vidriero + Ay (catálogo: 10). Espejo pegado a muro: trazo, presentación, sujeción temporal con cinta mientras cura el silicón; 6 mm pesa 15 kg/m²"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Espejo claro de 6 mm pegado sobre muro liso, seco y plomeado (aplanado o tablaroca); la preparación del muro no se incluye.",
+    "Silicón neutro: el acético ataca la capa de plata del espejo.",
+    "Canto pulido de fábrica incluido en el precio del espejo; sin bastidor ni iluminación."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

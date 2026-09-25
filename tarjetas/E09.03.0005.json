@@ -1,0 +1,91 @@
+{
+  "clave_cb": "E09.03.0005",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "DUELA-ENCINO-19",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m² de duela de encino nacional 19 mm; 10 % por machihembrado, despuntes y cortes"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 7.9,
+      "desperdicio": 0.1,
+      "nota": "Bastidor de barrote 2x2 in a cada 40 cm en ambos sentidos (5.0 m/m²) + pies derechos de 0.36 m en cada cruce (6.25 × 0.36 = 2.25 m) = 7.25 m × 1.094 pt/m = 7.9 pt/m²"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 6.25,
+      "desperdicio": 0,
+      "nota": "Fijación de barrotes al firme a cada 60 cm"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.08,
+      "desperdicio": 0.1,
+      "nota": "Clavado oculto de la duela en la lengüeta a cada barrote"
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.05,
+      "desperdicio": 0,
+      "nota": "Pegamento en machihembrado y apoyos"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 1.5,
+      "desperdicio": 0,
+      "nota": "Lijas para pulidora y orilladora (grano 36/60/100)"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "1 mano de sellador / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 0.2,
+      "desperdicio": 0.05,
+      "nota": "Barniz poliform 2 manos / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.1,
+      "desperdicio": 0,
+      "nota": "Dilución y limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.5,
+    "fuente": "4.5 m²/jor Of carpintero + Ay incluyendo trazo, cama de barrotes, colocación, desbastado, lijado a máquina y barnizado (catálogo: 8 m²/jor; el pulido y 3 manos de acabado restan ≈25 %)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Pulidora de tambor y orilladora para pisos de madera (renta)",
+      "horas": 0.15,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Piso interior sobre firme de concreto nivelado y seco (no incluido).",
+    "Pulidora de tambor en renta ≈$700 por día (8 h) sin operador → $90/h; 0.15 h/m² (desbastado + lijado fino) — referencia.",
+    "Precio de duela de encino nacional 19 mm: ver fuente del insumo DUELA-ENCINO-19.",
+    "Estrado de 40 cm de altura; el faldón o frente del estrado no se incluye."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

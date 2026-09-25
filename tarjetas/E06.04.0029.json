@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E06.04.0029",
+  "gubim": "40.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si el recubrimiento es en fachada exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CANT-CORCHO",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m² (6.25 pza 40x40); 7 % por cortes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.028,
+      "desperdicio": 0.05,
+      "nota": "Asiento con mortero 1:4 de 2.5 cm + juntas: 0.028 m³/m²"
+    },
+    {
+      "insumo": "ALAMBRE-GALV-12",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "Anclaje de piezas en muro: 2 grapas de alambre por pieza × 6.25 pza × 0.20 m × 0.04 kg/m ≈ 0.10 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m²/jor Of+Ay (catálogo): recubrimiento vertical de cantera con mortero, anclado y cortes. Rango publicado 5-8 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cantera corcho laminada 40x40x2 cm; en Morelia la cantera es de banco cercano.",
+    "Sobre muro de block o tabique con repellado; muro hasta 3.00 m sin andamio; no incluye sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

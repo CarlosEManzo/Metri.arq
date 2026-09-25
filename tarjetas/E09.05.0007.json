@@ -1,0 +1,131 @@
+{
+  "clave_cb": "E09.05.0007",
+  "gubim": "60.20.10.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.10.20",
+      "condicion": "si es solo un módulo de entrepaños (sin puertas)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-CAOBA-6",
+      "cantidad": 14.886,
+      "desperdicio": 0.12,
+      "nota": "Tambor de casco (laterales, división, techo, piso y 5 entrepaños = 12.96 m², 2 caras), 2 puertas 1.55x2.30 (2 caras = 14.26 m²), 3 frentes de cajón y fondos de cajón: 44.31 m² / 2.977"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.463,
+      "desperdicio": 0.15,
+      "nota": "Costados y trasera de 3 cajones: 1.38 m²"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 71.1,
+      "desperdicio": 0.1,
+      "nota": "Peinazos 32x32 mm a 30 cm: casco 12.96 m² × 8 m/m² = 103.7 m + puertas 60.1 m; × 0.434 pt/m"
+    },
+    {
+      "insumo": "CUBRECANTO-MAD",
+      "cantidad": 46.0,
+      "desperdicio": 0.1,
+      "nota": "Chapa de caoba en cantos de casco, entrepaños, puertas y frentes de cajón"
+    },
+    {
+      "insumo": "RIEL-CLOSET",
+      "cantidad": 6.0,
+      "desperdicio": 0.05,
+      "nota": "Riel superior + guía inferior"
+    },
+    {
+      "insumo": "CARRETILLA-CLOSET",
+      "cantidad": 4,
+      "desperdicio": 0,
+      "nota": "2 carretillas por puerta"
+    },
+    {
+      "insumo": "CORREDERA-CAJON",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": "1 par por cajón"
+    },
+    {
+      "insumo": "JALADERA",
+      "cantidad": 5,
+      "desperdicio": 0,
+      "nota": "2 puertas + 3 cajones"
+    },
+    {
+      "insumo": "TUBO-COLGADOR",
+      "cantidad": 1.5,
+      "desperdicio": 0,
+      "nota": "Tubo colgador en la sección sin entrepaños"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 4.19,
+      "desperdicio": 0.05,
+      "nota": "41.9 m² / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 5.62,
+      "desperdicio": 0.05,
+      "nota": "2 manos en puertas y 1 en casco: 56.2 m² / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 4.91,
+      "desperdicio": 0,
+      "nota": "Dilución y limpieza"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 28,
+      "desperdicio": 0,
+      "nota": "1 pliego por 1.5 m²"
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 1.56,
+      "desperdicio": 0,
+      "nota": "Pegado de tambor, cubrecanto y ensambles"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.8,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 14,
+      "desperdicio": 0,
+      "nota": "Fijación a muros"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.17,
+    "fuente": "0.17 pza/jor Of carpintero + Ay (catálogo 0.5). Todo el mueble es de tambor (casco, entrepaños, puertas y frentes), con cantos chapeados, 3 cajones y acabado a barniz natural: ≈6 jornadas de cuadrilla"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Closet de 3.00 m de frente, 2.40 m de altura y 0.65 m de fondo, de tambor de triplay de caoba 6 mm con peinazos de pino 32x32 mm a 30 cm, en hueco de muros terminados; sin fondo.",
+    "3 cajones con correderas telescópicas (costados de triplay de pino 16 mm), 5 entrepaños en una sección y tubo colgador en la otra.",
+    "Acabado a barniz natural: 2 manos en puertas y 1 en el interior del casco, sobre sellador/fondo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

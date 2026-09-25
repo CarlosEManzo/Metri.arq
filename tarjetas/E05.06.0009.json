@@ -1,0 +1,89 @@
+{
+  "clave_cb": "E05.06.0009",
+  "gubim": "40.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13",
+      "cantidad": 0.2015,
+      "desperdicio": 0.1,
+      "nota": "Tira de 0.60 m: 0.60 m²/m / 2.977; 10 % por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C26",
+      "cantidad": 1.284,
+      "desperdicio": 0.05,
+      "nota": "Postes a 0.61 m de 0.60 m (1.64 × 0.60) + remates"
+    },
+    {
+      "insumo": "CANAL-63-C26",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Canal superior e inferior: 2 m/m"
+    },
+    {
+      "insumo": "ANG-AMARRE",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Ángulos de amarre a losa y a plafón: 2 m/m"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 9.8,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m² × 0.60 + bordes"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 6.56,
+      "desperdicio": 0.1,
+      "nota": "4 tornillos por poste × 1.64"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 3.2787,
+      "desperdicio": 0.05,
+      "nota": "Anclaje a cada 0.61 m"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Una arista"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 0.8,
+      "desperdicio": 0.1,
+      "nota": "Juntas y encuentros ≈ 0.8 m/m"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 0.6,
+      "desperdicio": 0.05,
+      "nota": "Juntas, tornillos y esquinero ≈ 0.6 kg/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11 m/jor Of yesero + Ay (6.6 m²/jor de forro con bastidor y arista). Catálogo: 8 m/jor, que da una M.O. de $254/m cerca del P.U. actualizado ($288.71)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a no más de 3.00 m de altura; sin andamio. Bastidor de postes de 6.35 cm colgado/anclado a la losa y al muro con ángulo de amarre.",
+    "Platabanda de 0.60 m de ancho con bastidor de postes y canales; unidad por metro lineal."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

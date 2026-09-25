@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E04.01.0005",
+  "gubim": "",
+  "gubim_confianza": "insumo",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "CON-200-G10",
+      "cantidad": 1.0,
+      "desperdicio": 0.02,
+      "nota": "1.00 m³ de concreto elaborado + 2 % por mermas de agregados en el patio de mezclado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m³/jor Of+5Pe (rendimiento del catálogo) con revolvedora de 1 saco: acarreo de agregados y cemento, dosificación y mezclado (≈1.25 m³/h); sin colocación. Mismo criterio que E02.01.0089-0092"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.8,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Básico: concreto f'c=200 kg/cm² hecho en obra con gravilla de 3/8 in (TMA 9.5 mm), resistencia normal; incluye solo materiales, elaboración y equipo de mezclado.",
+    "Con TMA 9.5 mm la mezcla pide ≈10 % más cemento y más arena que con grava de 19 mm (CON-150/CON-200 de basicos.json).",
+    "Revolvedora 8 h / 10 m³ = 0.8 h/m³. Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
+    "Básico de Construbase (concepto en mayúsculas): se valida su costo directo contra el P.U. actualizado (\"comparar_costo_directo\"); el P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
+  ],
+  "comparar_costo_directo": true,
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

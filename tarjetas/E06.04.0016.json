@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E06.04.0016",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es piso exterior peatonal"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LOS-BARRO-25",
+      "cantidad": 15.1,
+      "desperdicio": 0.07,
+      "nota": "15.1 pza/m² con junta de 1-1.5 cm; 7 % por cortes y rotura (barro artesanal)"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.025,
+      "desperdicio": 0.05,
+      "nota": "Cama de mortero 1:5 de 2.0 cm + llenado de juntas = 0.025 m³/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of+Ay. Catálogo 6 m²/jor; APU publicados de piso de barro 7-10 m²/jor (hexagonal y 25x25 rinden menos)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piso de barro natural loseta 2x25x25 sobre firme; junta con el mismo mortero.",
+    "No incluye sellador ni limpieza con ácido."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

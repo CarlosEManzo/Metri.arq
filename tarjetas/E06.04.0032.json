@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E06.04.0032",
+  "gubim": "40.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CANT-GRIS-REM",
+      "cantidad": 0.07,
+      "desperdicio": 0.15,
+      "nota": "1 m × 0.07 m = 0.07 m²/m (2.5 tiras de 7x40); 15 % por el desperdicio del corte de tiras de placa 40x40 (5 tiras + sobrante)"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.0015,
+      "desperdicio": 0.05,
+      "nota": "Asiento de 2 cm × 7 cm + juntas ≈ 0.0015 m³/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 u/jor Of+Ay (catálogo): corte de tiras, canteado y asentado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "La unidad del catálogo dice M2, pero el concepto es un zoclo de 7x40 cm: la tarjeta se analiza por metro lineal (el P.U. del catálogo, $330, solo tiene sentido por metro). Se propone corregir la unidad a M.",
+    "Tiras de 7 cm cortadas de placa 40x40x2."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

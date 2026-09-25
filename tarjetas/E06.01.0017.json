@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E06.01.0017",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "40.30.20.10",
+      "condicion": "si se coloca en huellas de escalera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VIN-20-PW",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² de loseta 30.48 x 30.48 (10.76 pza/m²); 5 % por cortes perimetrales"
+    },
+    {
+      "insumo": "ADH-VINIL",
+      "cantidad": 0.3,
+      "desperdicio": 0.05,
+      "nota": "Adhesivo base agua con llana dentada fina: 0.30 kg/m² (fabricante 0.3-0.4 kg/m²)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45 m²/jor Of+Ay: trazo, extendido de adhesivo, colocación y rodillado. Catálogo 35 m²/jor; APU publicados 40-60 m²/jor para loseta 30x30 pegada; rango 35-60"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo Premium Wood 2.0 mm de Vinylasa; el precio de la pieza sale de la regla de escala entre espesores (ver insumo), sin cotización del modelo.",
+    "Sobre firme de concreto seco, nivelado y liso; la nivelación con pasta o resanador no se incluye.",
+    "Incluye acarreo horizontal a pie de obra y limpieza final; no incluye cera ni sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Precio 2026 de la loseta vinílica 30x30: $141/m² (2.0 mm) sin IVA (regla anclada en Mercado Libre $107-209/m² sin IVA) contra ≈$113/m² implícito en el material del catálogo. El P.U. de la tarjeta queda +12 % (espesor mayor) contra el tabulador CDMX GH22BB (loseta vinílica 30x30x1.6 mm, $249.66; par no cargado en la canasta)."
+}

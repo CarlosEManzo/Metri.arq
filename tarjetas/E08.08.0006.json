@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E08.08.0006",
+  "gubim": "30.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si es cristal de cancel o puerta interior"
+    },
+    {
+      "clave": "40.10.10.20",
+      "condicion": "si forma una mampara interior"
+    },
+    {
+      "clave": "30.20.20.10",
+      "condicion": "si es cristal de tragaluz o cubierta"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CRISTAL-FILTRA-10",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1.00 m² de cristal filtrasol 10 mm; 8 % por despunte de hoja y cortes a medida"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.45,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral una cara: ≈3.5-4.5 m de cordón por m² de cristal (paño tipo 1.00x1.20); cartucho 300 ml ≈10 m de cordón 6x5 mm → 0.45 cartucho/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.05,
+      "desperdicio": 0,
+      "nota": "Limpieza final del cristal y retiro de excedente de silicón"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9,
+    "fuente": "9 m²/jor Of aluminero/vidriero + Ay (catálogo: 10 para todos los espesores). Cristal ≤6 mm se maneja y sella a 12-14 m²/jor; 10-12 mm pesa 25-30 kg/m² y baja a 8-9 m²/jor; templado llega a medida, sin corte en obra"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Colocación de cristal filtrasol de 10 mm en cancel o ventana existente (el marco y los junquillos no se incluyen), sellado perimetral con silicón transparente por una cara.",
+    "Precio del cristal puesto en obra, cortado a medida por la vidriería; incluye desperdicio de corte.",
+    "Colocación a una altura hasta 3.00 m, sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

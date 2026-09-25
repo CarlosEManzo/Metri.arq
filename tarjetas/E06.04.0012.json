@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E06.04.0012",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.40",
+      "condicion": "clave correcta: la teja es acabado de cubierta, no pavimento"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TEJA-ALA",
+      "cantidad": 17,
+      "desperdicio": 0.05,
+      "nota": "17 pza/m² con traslapes (fabricante 15-19); 5 % por rotura y cortes en limatesas"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "Asiento con tortas de mortero y cuatrapeo: 0.030 m³/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of+Ay en cubierta inclinada con subida de material. Catálogo 6 m²/jor; APU publicados 6-12 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Teja de barro de ala 25x35 sobre losa inclinada (la losa y el impermeabilizante se pagan aparte).",
+    "Incluye trazo de hiladas; caballetes y remates no incluidos.",
+    "GuBIM: se deja la del catálogo (40.20.20.20) pero la teja es cubierta; se propone 30.20.10.40."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

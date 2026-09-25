@@ -1,0 +1,96 @@
+{
+  "clave_cb": "E09.02.0020",
+  "gubim": "40.10.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.20",
+      "condicion": "si es puerta de fachada o de acceso exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MAD-MAPLE",
+      "cantidad": 32.7,
+      "desperdicio": 0.2,
+      "nota": "Hoja 3.8 cm: largueros 2×2.10 + 3 travesaños 0.70 de 1 1/2x5 in = 6.3 m × 2.05 pt/m = 12.9 pt; tableros 3/4 in 0.77 m² × 10.76 × 0.75 = 6.2 pt; marco 1x6 in (muro 15 cm) 5.1 m × 1.64 = 8.4 pt; chambranas 3/4x2 1/2 in 2 caras 10.2 m × 0.51 = 5.2 pt; 20 % por escuadrado, defectos y moldurado"
+    },
+    {
+      "insumo": "BISAGRA-LAT-35",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": "Bisagras 3 1/2 in"
+    },
+    {
+      "insumo": "CHAPA-SCOVILL-TULIP",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "Cerradura A52PD Tulip (la descripción dice solo 'cerradura'; se usa la misma de la familia)"
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.4,
+      "desperdicio": 0,
+      "nota": "Ensambles de caja y espiga"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.5,
+      "desperdicio": 0.05,
+      "nota": "≈4.98 m² (hoja 2 caras con molduras +15 %, marco y chambranas) / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "4.98 m² × 2 manos / 10 m²/l (poliform)"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.4,
+      "desperdicio": 0,
+      "nota": "Dilución y limpieza"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 6,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.2,
+      "desperdicio": 0,
+      "nota": "Chambranas"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0,
+      "nota": "Fijación del marco a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.4,
+    "fuente": "0.4 pza/jor Of carpintero + Ay: habilitado, cepillado, ensamble de caja y espiga, tableros, marco, colocación y barnizado (≈2 jornadas de taller + 0.5 de colocación y acabado). El catálogo da 2 pza/jor, que solo cubre colocar una puerta ya fabricada"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta entablerada de maple de 1a, 0.70x2.10 m, 3.8 cm de espesor, de 3 travesaños y tableros de 3/4 in, fabricada por el carpintero.",
+    "Marco de 1 in (2.54 cm) de espesor y 6 in de ancho para muro de 15 cm, con chambranas por ambas caras de la misma madera.",
+    "La 'chapa de madera en cantos' no aplica a una hoja de madera maciza; no se agrega cubrecanto.",
+    "Precio de la madera (MAD-MAPLE) por pie tabla: referencia sin cotización local."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

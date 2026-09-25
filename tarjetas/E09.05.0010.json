@@ -1,0 +1,83 @@
+{
+  "clave_cb": "E09.05.0010",
+  "gubim": "60.20.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.873,
+      "desperdicio": 0.15,
+      "nota": "Repisero 0.50 m de frente × 2.00 m de altura × 0.40 de fondo: 5 entrepaños 1.00 m² + 2 laterales 1.60 m² = 2.60 m²"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 3.6,
+      "desperdicio": 0.1,
+      "nota": "Frentes de pino 1x2 in en entrepaños y laterales"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.52,
+      "desperdicio": 0.05,
+      "nota": "Fondo para laca, 2 caras"
+    },
+    {
+      "insumo": "LACA-NITRO",
+      "cantidad": 1.3,
+      "desperdicio": 0.05,
+      "nota": "Laca 2 manos, 2 caras / 8 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.91,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 4,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.1,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.1,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 6,
+      "desperdicio": 0,
+      "nota": "Fijación a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of carpintero + Ay (catálogo 0.5, que implicaría $4,000 de M.O. para un repisero de 0.50x2.00, más que el P.U. del catálogo): habilitado, armado, lacado y fijación"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Se interpreta '0.50x2.00' como repisero de 0.50 m de frente por 2.00 m de altura y 0.40 m de fondo con 5 entrepaños, de triplay de pino 16 mm con frentes de pino.",
+    "Acabado laca 2 manos sobre fondo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

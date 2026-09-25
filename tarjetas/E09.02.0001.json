@@ -1,0 +1,102 @@
+{
+  "clave_cb": "E09.02.0001",
+  "gubim": "40.10.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.20",
+      "condicion": "si es puerta de fachada o de acceso exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-CAOBILLA-5",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": "Una hoja 1.22x2.44 por cara (0.70x2.10); el sobrante es el desperdicio"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 20.7,
+      "desperdicio": 0.1,
+      "nota": "Bastidor 1 1/4x1 1/2 in: perímetro 5.6 m + 6 peinazos de 0.70 + 2 largueros de 2.10 = 14.0 m × 0.51 pt/m = 7.1 pt; marco 1 1/2x4 in 5.1 m × 1.64 = 8.4 pt; chambranas 3/4x2 1/2 in 2 caras 10.2 m × 0.51 = 5.2 pt"
+    },
+    {
+      "insumo": "BISAGRA-LAT-35",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "CHAPA-PASO",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "Cerradura cilíndrica de paso/recámara (criterio de la tarjeta E09.02.0008)"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.44,
+      "desperdicio": 0.05,
+      "nota": "≈4.38 m² (hoja 2 caras + marco y chambranas) / 10 m²/l, 1 mano"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 0.88,
+      "desperdicio": 0.05,
+      "nota": "4.38 m² × 2 manos / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.3,
+      "desperdicio": 0,
+      "nota": "Dilución y limpieza"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 4,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.25,
+      "desperdicio": 0,
+      "nota": "Pegado de triplay a bastidor"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.3,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0,
+      "nota": "Fijación del marco a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of carpintero + Ay incluyendo habilitado, armado, colocación y barnizado (misma base que E09.02.0008). Catálogo: 2 pza/jor sin separar el barniz"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta de tambor 0.70x2.10 m con triplay de caobilla 5 mm, fabricada en obra/taller por el carpintero; misma tarjeta tipo que E09.02.0008 (canasta).",
+    "Incluye cerradura de paso (criterio de E09.02.0008: una puerta instalada la requiere); si se paga aparte, restar $250 + indirectos.",
+    "Precio de madera de pino de 1a por validar con maderería local (referencia).",
+    "Triplay de caobilla de 5 mm: precio de referencia (rango de mercado); acabado barniz natural a dos manos sobre sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E02.01.0148",
+  "gubim": "",
+  "gubim_confianza": "insumo",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "MOR-1:3",
+      "cantidad": 1.0,
+      "desperdicio": 0.02,
+      "nota": "1.00 m³ de mortero elaborado + 2 % por mermas de agregados y cemento en el patio de mezclado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 m³/jor 2 peones con revolvedora de 1 saco (acarreo de arena y cemento, dosificación con botes y descarga en artesa). Catálogo: 2 m³/jor (2Pe, mezclado a mano); con revolvedora el rendimiento publicado es de 3-4 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 2.6667,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Básico: mortero cemento-arena 1:3 elaborado en obra con revolvedora de 1 saco; incluye solo materiales, elaboración y equipo de mezclado (la aplicación va en cada concepto).",
+    "Revolvedora asignada a la cuadrilla toda la jornada: 8 h / 3 m³ = 2.67 h/m³. Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
+    "Básico de Construbase (concepto en mayúsculas): se valida su costo directo contra el P.U. actualizado (\"comparar_costo_directo\"); el P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
+  ],
+  "comparar_costo_directo": true,
+  "cdmx_no_comparable": "El tabulador CDMX F2*A01 ($2,847.35) es un básico a costo directo, sin indirectos: no se compara con el P.U. de la tarjeta (con factor 1.284); se valida el costo directo contra el P.U. actualizado",
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

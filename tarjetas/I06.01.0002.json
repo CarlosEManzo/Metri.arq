@@ -1,0 +1,52 @@
+{
+  "clave_cb": "I06.01.0002",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es piso exterior peatonal"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LOSETA-PORC-33",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m²; 7 % por cortes perimetrales y rotura"
+    },
+    {
+      "insumo": "ADH-CREST-BLANCO",
+      "cantidad": 3.33,
+      "desperdicio": 0.05,
+      "nota": "Rendimiento Crest blanco 6.0 m²/saco de 20 kg"
+    },
+    {
+      "insumo": "BOQUILLA-CA-10",
+      "cantidad": 0.89,
+      "desperdicio": 0.1,
+      "nota": "Junta de 10 mm: (2/0.342) m × 0.010 × 0.008 m × 1,900 kg/m³ = 0.89 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of+Ay (catálogo); 8.5-15 m²/jor publicados para 30x30/33x33"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piso Peten 33.2x33.2 rojo Porcelanite: se usa el precio de loseta Porcelanite 33x33 línea económica, misma gama.",
+    "Junta de 10 mm con boquilla con arena del color S.M.A.; sobre firme nivelado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

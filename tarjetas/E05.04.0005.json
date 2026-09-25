@@ -1,0 +1,90 @@
+{
+  "clave_cb": "E05.04.0005",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.20",
+      "condicion": "si es muro exterior o de fachada ligera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DUROCK-13",
+      "cantidad": 0.6967,
+      "desperdicio": 0.1,
+      "nota": "2 cara(s): 2.0 m² / 2.977 m² por hoja + tapa superior 0.089 m / 1.20 m = 0.074 m²/m² = 0.697 pza/m²; 10% por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C20",
+      "cantidad": 2.8631,
+      "desperdicio": 0.05,
+      "nota": "Postes a 0.406 m en 1.20 m: 1/0.406 = 2.46 m/m² + arranques, remates y refuerzo de anclaje ≈ 2.86 m/m²"
+    },
+    {
+      "insumo": "CANAL-63-C20",
+      "cantidad": 1.6667,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior y superior: 2 / 1.20 m = 1.667 m/m²"
+    },
+    {
+      "insumo": "TORN-DUROCK",
+      "cantidad": 33.1867,
+      "desperdicio": 0.1,
+      "nota": "16 tornillos/m² por cara (a 20 cm, criterio USG Durock) × 2.07 m²"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 8.2102,
+      "desperdicio": 0.1,
+      "nota": "2 tornillos por extremo de poste: 4 / (0.406 × 1.20)"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 2.0833,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior anclado a cada 0.40 m para rigidez del murete: 1 / (0.40 × 1.20)"
+    },
+    {
+      "insumo": "CINTA-FV",
+      "cantidad": 2.489,
+      "desperdicio": 0.1,
+      "nota": "Juntas y ángulos ≈ 1.2 m/m² por cara × 2.07 m²"
+    },
+    {
+      "insumo": "BASECOAT",
+      "cantidad": 2.489,
+      "desperdicio": 0.05,
+      "nota": "Tratamiento de juntas con Basecoat ≈ 1.2 kg/m² por cara × 2.07 m²"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 1.6667,
+      "desperdicio": 0.05,
+      "nota": "Dos aristas en la tapa superior: 2 / 1.20 m = 1.667 m/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7,
+    "fuente": "7 m²/jor Of yesero + Ay: murete de 1.20 m con forro de dos caras, tapa y esquineros. Catálogo: 8 m²/jor. Escala del lote: una cara 18, dos caras 14 (E05.01.0016), doble bastidor 10, murete 10, murete doble 8, curvo 7 m²/jor en panel de yeso; en Durock (tablero de ≈38 kg/hoja, postes cal. 20, tornillo de broca) 12/9/7/7/6/5. Referencias web: 12-18 m²/jor en muro de tablaroca (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Murete de 1.20 m de altura promedio, anclado a piso; tapa superior del mismo panel con esquineros en las dos aristas.",
+    "Juntas tratadas con cinta de fibra de vidrio y Basecoat; sin acabado final (pasta o recubrimiento aparte).",
+    "Separación de postes según el concepto (0.406 m, poste y canal cal. 20 para Durock).",
+    "Framer de punta fina como tornillo de perfil; en cal. 20 el oficial usa punta de broca de precio similar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

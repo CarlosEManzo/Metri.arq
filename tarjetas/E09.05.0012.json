@@ -1,0 +1,102 @@
+{
+  "clave_cb": "E09.05.0012",
+  "gubim": "60.20.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-CAOBA-16",
+      "cantidad": 0.784,
+      "desperdicio": 0.15,
+      "nota": "Laterales 0.80x0.60, piso, entrepaño y zoclo 1.10 m: 2.33 m² / 2.977"
+    },
+    {
+      "insumo": "TRIPLAY-CAOBA-6",
+      "cantidad": 0.554,
+      "desperdicio": 0.15,
+      "nota": "Fondo 1.10x0.80, tableros de 2 puertas: 1.65 m²"
+    },
+    {
+      "insumo": "MAD-CAOBA1",
+      "cantidad": 4.5,
+      "desperdicio": 0.15,
+      "nota": "Bastidores de puertas y marco frontal de caoba 3/4x2 1/2 in: 8.8 m × 0.51 pt/m"
+    },
+    {
+      "insumo": "CUBRECANTO-MAD",
+      "cantidad": 3.8,
+      "desperdicio": 0.1,
+      "nota": "Chapa de caoba en cantos vistos"
+    },
+    {
+      "insumo": "BISAGRA-BIDIM",
+      "cantidad": 4,
+      "desperdicio": 0,
+      "nota": "2 por puerta (2 puertas)"
+    },
+    {
+      "insumo": "JALADERA",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.44,
+      "desperdicio": 0.05,
+      "nota": "4.4 m² vistos / 10 m²/l"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 0.88,
+      "desperdicio": 0.05,
+      "nota": "2 manos, 4.4 m² / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.66,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 5,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.3,
+      "desperdicio": 0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0,
+      "nota": "Fijación a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.5,
+    "fuente": "0.5 pza/jor Of carpintero + Ay (catálogo 0.5): habilitado, armado de casco, puertas de bastidor, colocación y barnizado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mueble bajo lavabo de 1.10 m de frente, 0.80 m de altura y 0.60 m de fondo: casco de triplay de caoba 16 mm, fondo de triplay de caoba 6 mm, 2 puertas de bastidor de caoba con tablero de triplay de caoba, bisagras bidimensionales y jaladeras.",
+    "No incluye cubierta (mármol/granito), lavabo, llave ni conexiones; se deja el hueco y los cortes para desagüe y alimentaciones.",
+    "Acabado barniz 2 manos sobre sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

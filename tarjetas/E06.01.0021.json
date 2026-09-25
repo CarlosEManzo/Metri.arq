@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E06.01.0021",
+  "gubim": "40.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ZOCLO-VIN-COEX",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m; 5 % por esquinas y empalmes"
+    },
+    {
+      "insumo": "ADH-CONTACTO",
+      "cantidad": 0.019,
+      "desperdicio": 0.05,
+      "nota": "Pegamento de contacto: 0.065 m²/m × 0.30 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 50.0,
+    "fuente": "50 m/jor Of. Catálogo 40 m/jor; zoclo vinílico en rollo se pega a razón de 60-80 m/jor (APU publicados); el coextruido rígido de 2 mm se baja a 50."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Suministro y colocación de Vinyzoclo coextruido de 6.5 cm y 2 mm Vinylasa pegado con cemento de contacto sobre muro terminado.",
+    "Sin preparación de muro; esquinas resueltas con corte a inglete del mismo zoclo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

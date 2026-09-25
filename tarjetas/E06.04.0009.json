@@ -1,0 +1,57 @@
+{
+  "clave_cb": "E06.04.0009",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es pavimento exterior peatonal"
+    },
+    {
+      "clave": "70.30.30",
+      "condicion": "si es para tránsito vehicular (8 cm)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ADOC-8-HEX",
+      "cantidad": 1.0,
+      "desperdicio": 0.04,
+      "nota": "1 m²; 4 % por cortes en orillas y rotura"
+    },
+    {
+      "insumo": "ARENA",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Cama de arena de 5 cm; 10 % por abundamiento y compactación"
+    },
+    {
+      "insumo": "ARENA",
+      "cantidad": 0.004,
+      "desperdicio": 0.0,
+      "nota": "Arena fina para sellar juntas por escobillado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 14.0,
+    "fuente": "14 m²/jor Of+Ay: tendido y enrasado de la cama, colocación, cortes, asentado con mazo de hule y escobillado. Catálogo 6 m²/jor (irreal para adocreto; implica más del doble de la M.O. del tabulador CDMX GH20EB/QM12BJ). APU publicados 12-25 m²/jor; formatos chicos (14x14) rinden menos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Adocreto tipo I 8 cm rosa sobre base compactada existente (la base no se incluye).",
+    "Compactación de la cama con pisón y mazo de hule (herramienta menor); sin placa vibratoria.",
+    "Mismo precio para color rosa y negro."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,84 @@
+{
+  "clave_cb": "E05.03.0005",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13-RH",
+      "cantidad": 0.6967,
+      "desperdicio": 0.1,
+      "nota": "2 cara(s): 2.0 m² / 2.977 m² por hoja + tapa superior 0.089 m / 1.20 m = 0.074 m²/m² = 0.697 pza/m²; 10% por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C26",
+      "cantidad": 2.0393,
+      "desperdicio": 0.05,
+      "nota": "Postes a 0.61 m en 1.20 m: 1/0.61 = 1.64 m/m² + arranques, remates y refuerzo de anclaje ≈ 2.04 m/m²"
+    },
+    {
+      "insumo": "CANAL-63-C26",
+      "cantidad": 1.6667,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior y superior: 2 / 1.20 m = 1.667 m/m²"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 26.9642,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m² por cara (a 30 cm en campo y 20 cm en bordes, criterio USG/Panel Rey) × 2.07 m²"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 5.4645,
+      "desperdicio": 0.1,
+      "nota": "2 tornillos por extremo de poste: 4 / (0.61 × 1.20)"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 2.0833,
+      "desperdicio": 0.05,
+      "nota": "Canal inferior anclado a cada 0.40 m para rigidez del murete: 1 / (0.40 × 1.20)"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 2.489,
+      "desperdicio": 0.1,
+      "nota": "Juntas verticales 1/1.22 = 0.82 m + horizontales y ángulos ≈ 1.2 m/m² por cara × 2.07 m²"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 1.4519,
+      "desperdicio": 0.05,
+      "nota": "Tratamiento de juntas (3 manos) y cabezas de tornillo ≈ 0.7 kg/m² por cara × 2.07 m²"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 1.6667,
+      "desperdicio": 0.05,
+      "nota": "Dos aristas en la tapa superior: 2 / 1.20 m = 1.667 m/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10,
+    "fuente": "10 m²/jor Of yesero + Ay: murete de 1.20 m con forro de dos caras, tapa y esquineros. Catálogo: 8 m²/jor. Escala del lote: una cara 18, dos caras 14 (E05.01.0016), doble bastidor 10, murete 10, murete doble 8, curvo 7 m²/jor en panel de yeso; en Durock (tablero de ≈38 kg/hoja, postes cal. 20, tornillo de broca) 12/9/7/7/6/5. Referencias web: 12-18 m²/jor en muro de tablaroca (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Murete de 1.20 m de altura promedio, anclado a piso; tapa superior del mismo panel con esquineros en las dos aristas.",
+    "Tratamiento de juntas listo para pintar (nivel 4); pintura aparte.",
+    "Separación de postes según el concepto (0.61 m)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

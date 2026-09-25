@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E06.04.0031",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es piso exterior peatonal"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CANT-GRIS-REM",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m² (6.25 pza 40x40); 7 % por cortes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.028,
+      "desperdicio": 0.05,
+      "nota": "Cama de mortero 1:4 de 2.5 cm + juntas: 0.028 m³/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of+Ay: piso de cantera 40x40 con mortero. Catálogo 6 m²/jor; rango publicado 6-10"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piso de cantera gris de los remedios 40x40x2 sobre firme nivelado; no incluye sellador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

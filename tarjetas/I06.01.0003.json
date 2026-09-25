@@ -1,0 +1,59 @@
+{
+  "clave_cb": "I06.01.0003",
+  "gubim": "40.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si el recubrimiento es en fachada exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "AZULEJO-20X30-ECO",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m²; 7 % por cortes y rotura"
+    },
+    {
+      "insumo": "LISTEL-5X20",
+      "cantidad": 2.1,
+      "desperdicio": 0.05,
+      "nota": "Una hilada de listel por muro de 2.40 m: 5 pza/m ÷ 2.40 m = 2.1 pza/m²"
+    },
+    {
+      "insumo": "ADH-CREST-BLANCO",
+      "cantidad": 3.33,
+      "desperdicio": 0.05,
+      "nota": "Rendimiento Crest blanco 6.0 m²/saco de 20 kg"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "Lechada cemento blanco-agua, junta 2 mm: 0.17 kg/m² → 0.20"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of+Ay (catálogo); 7-13 m²/jor publicados"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Azulejo Argenta 20x30 beige Lamosa: se usa el precio de azulejo 20x30 línea económica (Lamosa Verona, Gersamex), misma gama.",
+    "Listel Zihuatanejo 5x20 café: una hilada por muro de 2.40 m.",
+    "Sobre aplanado plomeado (aparte); muro hasta 3.00 m sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

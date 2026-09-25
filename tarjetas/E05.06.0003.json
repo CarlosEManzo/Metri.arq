@@ -1,0 +1,89 @@
+{
+  "clave_cb": "E05.06.0003",
+  "gubim": "40.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13",
+      "cantidad": 0.3359,
+      "desperdicio": 0.1,
+      "nota": "1.0 m² de desarrollo / 2.977 m² por hoja; 10 % por cortes"
+    },
+    {
+      "insumo": "POSTE-63-C26",
+      "cantidad": 3.28,
+      "desperdicio": 0.05,
+      "nota": "Doble bastidor: 2 × 1.64 marcos/m × 1.10 m de poste ÷ 1.10 m²/m"
+    },
+    {
+      "insumo": "CANAL-63-C26",
+      "cantidad": 3.6364,
+      "desperdicio": 0.05,
+      "nota": "Cuatro corridas longitudinales ÷ 1.10 m²/m"
+    },
+    {
+      "insumo": "ANG-AMARRE",
+      "cantidad": 1.8182,
+      "desperdicio": 0.05,
+      "nota": "Ángulo de amarre a los plafones: 2 m/m ÷ 1.10"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 13,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m²"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 7.2727,
+      "desperdicio": 0.1,
+      "nota": "≈2.4 uniones por marco × 2 × 1.64 ÷ 1.10"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 2.9806,
+      "desperdicio": 0.05,
+      "nota": "Colgantes/anclas de cada bastidor a la losa a cada 0.61 m ÷ 1.10"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 1.8182,
+      "desperdicio": 0.05,
+      "nota": "Dos aristas por metro ÷ 1.10"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 1.2,
+      "desperdicio": 0.1,
+      "nota": "Juntas y encuentros ≈ 1.2 m/m² × 1.00 m²"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 0.9,
+      "desperdicio": 0.05,
+      "nota": "0.7 kg/m² × 1.00 m² + 0.2 kg por esquinero"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of yesero + Ay (≈6.4 m de cajillo). Catálogo: 14 m²/jor, igual al plafón corrido, sin descontar el doble bastidor y las dos aristas"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a no más de 3.00 m de altura; sin andamio. Bastidor de postes de 6.35 cm colgado/anclado a la losa y al muro con ángulo de amarre.",
+    "Unidad m² de desarrollo; cajillo de 1.10 m de desarrollo entre dos niveles de plafón con doble bastidor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,89 @@
+{
+  "clave_cb": "E05.06.0004",
+  "gubim": "40.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PANEL-YESO-13",
+      "cantidad": 0.2351,
+      "desperdicio": 0.1,
+      "nota": "Desarrollo 0.70 m²/m / 2.977 m² por hoja; 10 % por cortes"
+    },
+    {
+      "insumo": "POSTE-41-C26",
+      "cantidad": 2.132,
+      "desperdicio": 0.05,
+      "nota": "Marcos a 0.61 m (1.64 pza/m) de ≈1.30 m de poste (colgante + escalón)"
+    },
+    {
+      "insumo": "CANAL-41-C26",
+      "cantidad": 3.0,
+      "desperdicio": 0.05,
+      "nota": "Tres corridas longitudinales (dos bordes y quiebre)"
+    },
+    {
+      "insumo": "ANG-AMARRE",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Ángulo de amarre a losa y plafón: 2 m/m"
+    },
+    {
+      "insumo": "TORN-PANEL-1",
+      "cantidad": 9.1,
+      "desperdicio": 0.1,
+      "nota": "13 tornillos/m² × 0.70 m²/m"
+    },
+    {
+      "insumo": "TORN-FRAMER",
+      "cantidad": 6.0,
+      "desperdicio": 0.1,
+      "nota": "≈3.7 uniones por marco × 1.64 marcos/m"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 3.2787,
+      "desperdicio": 0.05,
+      "nota": "Anclaje a losa a cada 0.61 m en dos líneas"
+    },
+    {
+      "insumo": "ESQUINERO-MET",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Dos aristas del escalón en Z"
+    },
+    {
+      "insumo": "PERFACINTA",
+      "cantidad": 0.84,
+      "desperdicio": 0.1,
+      "nota": "Juntas y encuentros ≈ 1.2 m/m² × 0.70 m²"
+    },
+    {
+      "insumo": "REDIMIX",
+      "cantidad": 0.69,
+      "desperdicio": 0.05,
+      "nota": "0.7 kg/m² × 0.70 m² + 0.2 kg por esquinero"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m/jor Of yesero + Ay (5.6 m²/jor de forro con dos aristas). Catálogo: 15 m/jor, que implica 10.5 m²/jor con dos esquineros por metro; se toma un valor algo mayor que el cajillo de desarrollo parecido (E05.06.0002: 6.3 m/jor) por el poste de 4.1 cm"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a no más de 3.00 m de altura; sin andamio. Bastidor de postes de 4.10 cm colgado/anclado a la losa y al muro con ángulo de amarre.",
+    "Cajillo en Z de 0.70 m de desarrollo entre dos niveles de plafón; unidad por metro lineal."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,50 @@
+{
+  "clave_cb": "E06.04.0020",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es piso exterior peatonal"
+    },
+    {
+      "clave": "70.30.30",
+      "condicion": "si es para tránsito vehicular"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ADOQUIN-NAT-40",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m²; 5 % por cortes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "Cama de mortero 1:4 y juntas: 0.03 m³/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m²/jor Of+Ay (catálogo 6; piezas pesadas de piedra, cortes con disco). Rango publicado 5-8 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piso de adoquín natural 40x40 sobre firme; junta con mortero.",
+    "Cortes con disco de diamante incluidos en herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
