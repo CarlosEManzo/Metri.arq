@@ -30,12 +30,18 @@ PLANTILLA_CSS = RAIZ / "plantillas" / "tarjeta.css"
 # --- Datos de referencia -----------------------------------------------------
 
 def cargar_referencias():
+    # insumos.csv y basicos.json más los archivos por lote (insumos_<lote>.csv,
+    # basicos_<lote>.json) que escriben los agentes cuando trabajan en paralelo.
     insumos = {}
-    with open(DATOS / "insumos.csv", encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            r["precio"] = float(r["precio"])
-            insumos[r["clave"]] = r
-    basicos = json.loads((DATOS / "basicos.json").read_text(encoding="utf-8"))
+    for ruta in [DATOS / "insumos.csv"] + sorted(DATOS.glob("insumos_*.csv")):
+        with open(ruta, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                r["precio"] = float(r["precio"])
+                insumos.setdefault(r["clave"], r)
+    basicos = {}
+    for ruta in [DATOS / "basicos.json"] + sorted(DATOS.glob("basicos_*.json")):
+        for k, v in json.loads(ruta.read_text(encoding="utf-8")).items():
+            basicos.setdefault(k, v)
     parametros = json.loads((DATOS / "parametros_tarjeta.json").read_text(encoding="utf-8"))
     catalogo = {}
     ruta_cat = RAIZ / "salida" / "construbase_gubim.csv"
