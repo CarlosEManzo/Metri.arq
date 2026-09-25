@@ -104,6 +104,20 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
 - No cambies el precio de un insumo que ya usan otras tarjetas sin avisarlo en el reporte:
   el cambio afecta a todas.
 
+## Trabajo por familias (lotes grandes)
+
+Muchos conceptos son la misma partida en distintas medidas, calibres o modelos (conexiones
+por diámetro, cables por calibre, loseta por modelo). Para esos:
+1. Diseña la tarjeta tipo de la familia (insumos, desperdicios, cuadrilla).
+2. Arma una tabla por variante: precio de la pieza principal (con su fuente o regla de escala),
+   cantidades que cambian con la medida y rendimiento por medida (los diámetros grandes rinden menos).
+3. Genera los JSON de todas las variantes con un script corto de Python y registra los precios
+   de las piezas en el archivo de insumos del lote.
+4. Valida el lote completo con `python3 scripts/tarjeta_pu.py --validar-lote <claves o archivo>`
+   y revisa una por una solo las que tengan alerta.
+Un precio que sale de una regla de escala (p. ej. proporcional al peso o al diámetro, anclado a
+dos precios cotizados) se marca `referencia` y la regla se anota en `fuente`.
+
 ## Trabajo por lotes
 
 - `python3 scripts/tarjeta_pu.py --pendientes <capítulo>` lista los conceptos sin tarjeta.

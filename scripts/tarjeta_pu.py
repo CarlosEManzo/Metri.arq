@@ -780,6 +780,7 @@ def validar(clave):
 USO = """Uso:
   python3 scripts/tarjeta_pu.py                 reconstruye la base de datos con todas las tarjetas
   python3 scripts/tarjeta_pu.py --validar CLAVE  calcula una tarjeta y la compara con las referencias
+  python3 scripts/tarjeta_pu.py --validar-lote CLAVES|archivo  resumen de muchas tarjetas
   python3 scripts/tarjeta_pu.py --pdf CLAVE      PDF y Excel de una tarjeta (bajo pedido)
   python3 scripts/tarjeta_pu.py --pendientes [texto]  conceptos sin tarjeta (filtra por capítulo o subcapítulo)"""
 
@@ -796,6 +797,32 @@ if __name__ == "__main__":
     elif args[0] == "--validar":
         for clave in args[1:]:
             validar(clave)
+    elif args[0] == "--validar-lote":
+        # Resumen compacto de muchas tarjetas: una línea por tarjeta y las alertas al final.
+        ref = cargar_referencias()
+        claves = args[1:]
+        if len(claves) == 1 and Path(claves[0]).exists():
+            claves = Path(claves[0]).read_text().split()
+        alertas, errores = [], []
+        for clave in claves:
+            ruta = TARJETAS / f"{clave}.json"
+            if not ruta.exists():
+                errores.append(f"{clave}: sin tarjeta")
+                continue
+            try:
+                f = fila_tarjeta(calcular(json.loads(ruta.read_text(encoding="utf-8")), ref))
+            except (ErrorTarjeta, KeyError, ValueError) as err:
+                errores.append(f"{clave}: {err}")
+                continue
+            dif = f["dif_vs_cdmx"] if f["referencia_validacion"] == "CDMX" else f["dif_vs_actualizado"]
+            print(f"{clave} {f['unidad']:<4} PU {f['pu']:>11,.2f}  ref {f['referencia_validacion'] or '-':<16} "
+                  f"{'' if dif is None else f'{dif:+.0%}':>6}  MO {f['mano_obra'] / f['costo_directo']:.0%}"
+                  f"  {f['alerta']}")
+            if f["alerta"]:
+                alertas.append(clave)
+        print(f"{len(claves)} tarjetas, {len(alertas)} con alerta, {len(errores)} con error")
+        for e in errores:
+            print("  ERROR", e)
     elif args[0] == "--pdf":
         for clave in args[1:]:
             documento(clave)
