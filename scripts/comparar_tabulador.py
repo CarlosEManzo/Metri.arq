@@ -29,6 +29,56 @@ from reglas_gubim import normalizar
 RAIZ = Path(__file__).resolve().parent.parent
 SALIDA = RAIZ / "salida"
 
+# Notas del Tabulador General de Precios Unitarios CDMX, edición 2026
+# (vigencia a partir de marzo 2026), numeral 9:
+#   P.U. = costo directo + indirectos + financiamiento + utilidad + cargos adicionales
+#   indirecto integrado (indirectos, financiamiento y utilidad) = 27.51 % sobre costo directo
+#   cargos adicionales = 3.627 % (derechos de supervisión 1.5 % e inspección 2 % del
+#   Código Fiscal de la CDMX; no aplican fuera de la obra pública de la CDMX)
+#   sin IVA. Los conceptos "Básicos" (capítulo BAS) están a costo directo (numeral 11).
+INDIRECTO_CDMX = 0.2751
+CARGOS_ADICIONALES_CDMX = 0.03627
+FACTOR_SIN_CARGOS = 1 / (1 - CARGOS_ADICIONALES_CDMX)    # P.U. con cargos / P.U. sin cargos
+FACTOR_PU_A_CD = (1 + INDIRECTO_CDMX) * FACTOR_SIN_CARGOS  # P.U. CDMX / costo directo ≈ 1.323
+
+# Capítulos del tabulador (índice general, edición 2026).
+CAPITULOS_CDMX = {
+    "A": "Anteproyectos, proyectos, estudios, trabajos de campo y laboratorio",
+    "B": "Desyerbe, desmonte, tala, despalme, excavaciones, demoliciones, acarreos y rellenos",
+    "C": "Cimbra, estructuras de madera y carpintería",
+    "D": "Acero de refuerzo para concreto",
+    "E": "Estructura metálica, hierro y aluminio",
+    "F": "Concreto hidráulico",
+    "G": "Cimientos, muros, pisos, techados y enladrillados",
+    "H": "Instalaciones sanitarias",
+    "I": "Instalaciones hidráulicas",
+    "J": "Instalaciones complementarias en edificios",
+    "K": "Instalaciones eléctricas en general",
+    "L": "Recubrimientos, acabados, pinturas y herrajes",
+    "M": "Vidriería",
+    "N": "Alcantarillado",
+    "O": "Construcción de sistemas de agua potable",
+    "Q": "Obras viales",
+    "R": "Pilotes y pilas",
+    "S": "Banquetas, guarniciones y andaderos",
+    "T": "Alumbrado público y trabajos afines",
+    "U": "Señalización en vialidades",
+    "V": "Áreas ajardinadas y forestación",
+    "Z": "Realización de limpieza",
+    "BAS": "Básicos (a costo directo)",
+    "ATI": "Tabulador atípico (grandes volúmenes)",
+    "RM": "Reciclado de materiales",
+}
+
+
+def capitulo_cdmx(clave):
+    clave = clave.upper()
+    for prefijo in ("BAS", "ATI", "RM"):
+        if clave.startswith(prefijo):
+            return prefijo
+    return clave[:1]
+
+
 UMBRAL = 70          # similitud mínima (0-100): con 70 se recuperan ~98 % de los pares en la prueba sintética
 RANGO_OK = (0.75, 1.33)  # cociente tabulador / actualizado considerado congruente
 
@@ -198,16 +248,21 @@ def emparejar(conceptos_cb, conceptos_tab, umbral=UMBRAL):
     return resultado
 
 
-def comparar(conceptos_cb, conceptos_tab, factor_indirectos=1.0):
-    """Filas de comparación. factor_indirectos lleva el P.U. del tabulador a la
-    misma base que el de Construbase si uno incluye indirectos y el otro no."""
+def comparar(conceptos_cb, conceptos_tab, factor_indirectos=FACTOR_SIN_CARGOS):
+    """Filas de comparación.
+
+    factor_indirectos divide el P.U. del tabulador para llevarlo a la base de
+    Construbase. Por defecto solo quita los cargos adicionales de la CDMX
+    (3.627 %), que no aplican en Michoacán; con FACTOR_PU_A_CD se lleva a costo
+    directo. Los Básicos (BAS) ya vienen a costo directo y no se dividen."""
     pares = emparejar(conceptos_cb, conceptos_tab)
     filas = []
     for c in conceptos_cb:
         if c["clave"] not in pares:
             continue
         puntaje, t = pares[c["clave"]]
-        pu_tab = t["pu"] / factor_indirectos
+        cap_tab = capitulo_cdmx(t["clave"])
+        pu_tab = t["pu"] if cap_tab == "BAS" else t["pu"] / factor_indirectos
         cociente = pu_tab / c["pu_act"] if c["pu_act"] else None
         calidad = "muy parecido" if puntaje >= 85 else "parecido (revisar)"
         estado = "congruente" if cociente and RANGO_OK[0] <= cociente <= RANGO_OK[1] else (
@@ -216,7 +271,8 @@ def comparar(conceptos_cb, conceptos_tab, factor_indirectos=1.0):
             "clave_cb": c["clave"], "capitulo": c["capitulo"], "clave_gubim": c["gubim"] or "",
             "descripcion_cb": c["descripcion"], "unidad": c["unidad"],
             "pu_2017": c["precio_2017"], "pu_actualizado": c["pu_act"],
-            "clave_tabulador": t["clave"], "concepto_tabulador": t["concepto"],
+            "clave_tabulador": t["clave"], "capitulo_tabulador": CAPITULOS_CDMX.get(cap_tab, cap_tab),
+            "concepto_tabulador": t["concepto"],
             "pu_tabulador": round(pu_tab, 2), "similitud": puntaje, "calidad": calidad,
             "cociente": round(cociente, 3) if cociente else "", "estado": estado,
             "mo_estimada": round(c["mo_pct"], 3) if c["mo_pct"] else "",
@@ -233,7 +289,7 @@ def resumir(filas):
     return {k: (len(v), statistics.median(v)) for k, v in grupos.items()}
 
 
-def main(ruta_pdf, factor_indirectos=1.0):
+def main(ruta_pdf, factor_indirectos=FACTOR_SIN_CARGOS):
     import generar_tabla
 
     conceptos, _ = generar_tabla.construir()
@@ -252,4 +308,4 @@ def main(ruta_pdf, factor_indirectos=1.0):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], float(sys.argv[2]) if len(sys.argv) > 2 else 1.0)
+    main(sys.argv[1], float(sys.argv[2]) if len(sys.argv) > 2 else FACTOR_SIN_CARGOS)
