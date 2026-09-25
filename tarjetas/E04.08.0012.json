@@ -1,0 +1,25 @@
+{
+  "clave_cb": "E04.08.0012",
+  "gubim": "30.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {"clave": "10.20.30.10", "condicion": "si fuera un relleno de terreno (no aplica en azotea)"}
+  ],
+  "materiales": [
+    {"insumo": "TEZONTLE", "cantidad": 1.0, "desperdicio": 0.15,
+     "nota": "1.00 m³ medido colocado; 15 % por acomodo/abundamiento y merma en elevación"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 0.2}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 4.0,
+    "fuente": "4 m³/jor por peón (rendimiento del catálogo), con elevación manual a una planta; se agrega 0.2 de oficial para trazo de pendientes y maestras. Publicados: 3-5 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Elevación manual con botes a azotea de un nivel (hasta 3 m); con más niveles o malacate cambiar el rendimiento.",
+    "Tezontle en greña acomodado a mano y nivelado a las pendientes; sin compactación mecánica.",
+    "Clave GuBIM cambiada: el catálogo propone 10.20.30.10 (Terraplenado), que es relleno de terreno; el relleno de pendientes en azotea forma parte de la cubierta in-situ (30.20.10.10)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

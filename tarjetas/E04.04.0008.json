@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E04.04.0008",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {"clave": "20.20.10.30", "condicion": "si el castillo se modela como parte del muro de carga confinado"}
+  ],
+  "materiales": [
+    {"basico": "CON-150", "cantidad": 0.0225, "desperdicio": 0.05,
+     "nota": "0.15 × 0.15 × 1.00 = 0.0225 m³/m; 5 % por derrame y dentado con el muro"},
+    {"insumo": "ARMEX-15-15-4", "cantidad": 1.0, "desperdicio": 0.08,
+     "nota": "1.00 m/m; traslape de 40 cm por pieza de 6 m (6.7 %) y cortes → 8 %"},
+    {"insumo": "ALAMBRE-REC", "cantidad": 0.03, "desperdicio": 0.10,
+     "nota": "Amarre del armex a traslapes, anclajes y cadenas: 0.03 kg/m"},
+    {"insumo": "MAD-PINO3", "cantidad": 0.68, "desperdicio": 0.10,
+     "nota": "Cimbra a 2 caras (castillo ahogado en muro): tabla 3/4\" 0.30 m²/m × 8.07 = 2.4 pt + barrotes y yugos 2x4 ≈1.0 pt = 3.4 pt/m; 5 usos → 0.68 pt/m"},
+    {"insumo": "CLAVO-2.5", "cantidad": 0.04, "desperdicio": 0.10,
+     "nota": "0.04 kg/m para armar tableros y yugos"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 10.0,
+    "fuente": "10 m/jor Of+Pe. Catálogo: 8 m/jor. Publicados: 8.5 m/día castillo 15x15 (ing. Daniel RG), 11 m/jor con varillas y estribos, 12 m/jor Of+Ay (analisisdepreciosunitarios.com); con armex prefabricado se toma 10 (rango 8.5-12). El peón hace el concreto a mano"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto f'c=150 hecho en obra a mano (sin revolvedora por el volumen pequeño); castillo ahogado en muro, cimbra a dos caras.",
+    "Altura hasta 3.00 m sin andamio; anclaje del armex en cimentación y cadena incluido en el desperdicio.",
+    "Diferencia con el tabulador CDMX (GC31JC): aquel es f'c=200 con 4 varillas de 3/8\" y estribos de 1/4\", más caro que el armex 15-15-4."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

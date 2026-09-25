@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E03.01.0025",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {"clave": "20.20.20.10", "condicion": "si la trabe se cuela monolítica con la losa y se modela con el forjado"}
+  ],
+  "materiales": [
+    {"insumo": "MAD-PINO3", "cantidad": 2.0, "desperdicio": 0.10,
+     "nota": "Fondo y costados de tabla 3/4\": 8.07 pt/m² de contacto; 4 usos (más cortes que en losa) → 2.02 pt/m²"},
+    {"insumo": "MAD-PINO3", "cantidad": 2.6, "desperdicio": 0.10,
+     "nota": "Yugos y costillas 2x4 @ 0.60 ≈3.0 pt/m² + puntales polín 4x4 @ 1.00 m de 2.40 m y cabezales (trabe 20x40: 1.0 m² de contacto por m) ≈12.5 pt/m² → 15.5 pt/m²; 6 usos → 2.58 pt/m²"},
+    {"insumo": "CLAVO-2.5", "cantidad": 0.25, "desperdicio": 0.10,
+     "nota": "0.25 kg/m²: más clavado por yugos y costillas que en losa"},
+    {"insumo": "DIESEL", "cantidad": 0.10, "desperdicio": 0.0,
+     "nota": "Desmoldante: 0.10 L/m² de contacto"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-CAR", "personas": 1}, {"categoria": "AYU", "personas": 1}],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of carpintero + Ay, incluye descimbrado (rendimiento del catálogo). Publicados para trabes 25x40 a 40x60 con tabla: 9.0-11.5 m²/jor con descimbra; con triplay 8.5-10.75 (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Trabe de 20x40 a 30x60 cm con altura de apoyo hasta 3.00 m; medición por m² de contacto (fondo + costados).",
+    "Usos: tabla de contacto 4, yugos y puntales 6 (madera de 3a).",
+    "Desmoldante a base de diésel (DIESEL, insumo del lote A)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

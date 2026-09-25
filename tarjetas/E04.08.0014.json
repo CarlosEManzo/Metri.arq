@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E04.08.0014",
+  "gubim": "30.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {"clave": "30.20.10.40", "condicion": "si el enladrillado se modela como capa de acabado de cubierta"}
+  ],
+  "materiales": [
+    {"insumo": "LADRILLO-AZOT", "cantidad": 0.0308, "desperdicio": 0.05,
+     "nota": "Ladrillo 2x12x24 con junta de 1 cm: 1/((0.24+0.01)(0.12+0.01)) = 30.8 pza/m² = 0.0308 millar"},
+    {"basico": "MOR-1:5", "cantidad": 0.022, "desperdicio": 0.05,
+     "nota": "Cama de 2.0 cm (0.020 m³) + llenado de juntas (≈0.002 m³) = 0.022 m³/m²"},
+    {"insumo": "CEM-GRIS", "cantidad": 0.0015, "desperdicio": 0.0,
+     "nota": "Lechada de cemento gris-agua en juntas: 1.5 kg/m²"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 15.0,
+    "fuente": "15 m²/jor Of+Pe. El catálogo da 30 m²/jor (mismo valor genérico que el entortado, actividad azotea-M2), que es alto para asentar 31 ladrillos/m² y lechadear; tablas publicadas de trabajos en azotea 12-20 m²/jor Of+Pe"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ladrillo de azotea 2x12x24 cm asentado a hueso o con junta de 1 cm sobre cama de mortero 1:5 de 2 cm, con lechada de cemento gris (no cemento blanco).",
+    "Sin entrecalles de asfalto ni impermeabilizante.",
+    "Precio del ladrillo de región productora (occidente); en CDMX es más caro, lo que explica parte de la diferencia contra el tabulador."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

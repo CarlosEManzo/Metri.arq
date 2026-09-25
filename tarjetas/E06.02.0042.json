@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E06.02.0042",
+  "gubim": "40.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.30",
+      "condicion": "si el recubrimiento es en fachada exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "AZULEJO-20X30-ECO",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 m²; 7 % por cortes en esquinas, salidas y rotura"
+    },
+    {
+      "insumo": "PEGAZULEJO-GRIS",
+      "cantidad": 4.0,
+      "desperdicio": 0.05,
+      "nota": "Llana dentada 1/4 in en muro: 4.0 kg/m² (bulto de 20 kg rinde ≈5 m²)"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "Lechada de cemento blanco, junta 2 mm: (1/0.202+1/0.302) m × 0.002 × 0.006 m × 1,700 kg/m³ = 0.17 kg/m² → 0.20"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of+Ay (rendimiento del catálogo). Referencias: 7 m²/jor Of+Pe (tablas de rendimientos) a 13 m²/jor promedio (habitissimo); rango 7-13"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre aplanado de mortero plomeado y limpio (el aplanado se paga aparte).",
+    "Azulejo línea económica 20 × 30 cm; lechada de cemento blanco puro (sin boquilla comercial), como indica el concepto.",
+    "Muro hasta 3.00 m de altura, sin andamio; boquillas/remates de aluminio no incluidos."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

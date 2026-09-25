@@ -1,0 +1,90 @@
+{
+  "clave_cb": "E04.07.0002",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.20.30",
+      "condicion": "si el registro es de riego en urbanización"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.082,
+      "desperdicio": 0.05,
+      "nota": "Muro a soga 14 cm: perímetro a eje 2×(0.54+0.74) = 2.56 m × 0.80 m = 2.05 m² × 40 pza/m² = 82 pza"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.0615,
+      "desperdicio": 0.03,
+      "nota": "2.05 m² × 0.030 m³/m² de junteo"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.048,
+      "desperdicio": 0.05,
+      "nota": "Firme de 8 cm: 0.68 × 0.88 × 0.08 = 0.048 m³"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0225,
+      "desperdicio": 0.05,
+      "nota": "Tapa de 8 cm colada en el contramarco: 0.44 × 0.64 × 0.08 = 0.0225 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0019,
+      "desperdicio": 0.1,
+      "nota": "Parrilla de tapa #3 @ 15 cm: 3 × 0.60 + 4 × 0.40 = 3.4 m × 0.557 kg/m = 1.9 kg"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.028,
+      "desperdicio": 0.05,
+      "nota": "Aplanado interior 1.5 cm con media caña: muros 2×(0.40+0.60)×0.80 = 1.60 m² + fondo 0.24 m² = 1.84 m² × 0.015 = 0.028 m³"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0018,
+      "desperdicio": 0.0,
+      "nota": "Pulido con cemento espolvoreado: 1 kg/m² × 1.84 m²"
+    },
+    {
+      "insumo": "MARCO-REG-40x60",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Marco y contramarco comercial de ángulo 1 1/4\" con anclas"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Amarres de parrilla de tapa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.5
+      }
+    ],
+    "rendimiento": 1.6,
+    "fuente": "1.6 pza/jor Of+1.5Pe, armado por partidas: excavación 1.0 m³ a mano en terreno compacto a 3.5 m³/jor-peón (0.29 jor Pe), muro 2.05 m² a 8 m²/jor Of+Pe (0.26), aplanado pulido 1.84 m² a 10 m²/jor (0.18), firme, tapa y marco (0.15), relleno y limpieza (0.1 Pe) → 0.59 jor Of + 0.98 jor Pe. Catálogo: 1 pza/jor Of+Pe; publicados: 1-2 registros por jornada Of+Ay"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación a mano en terreno compacto (≈1.0 m³ con holgura de trabajo), relleno lateral con producto de la excavación y retiro del sobrante a 20 m.",
+    "Muros de tabique a soga (14 cm), sin castillos; concreto f'c=150 hecho a mano; tapa de concreto colada dentro del contramarco con parrilla #3.",
+    "Sin tubería de llegada ni salida (se paga con la red).",
+    "Alerta +38 % contra el tabulador CDMX HE12CB ($2,479.51) revisada y aceptada: es un par aproximado (0.75 m de profundidad, sin desglose; en el tabulador la excavación suele pagarse aparte) y su rendimiento implícito (3.2 pza/jor con salarios CDMX) no alcanza para excavar 1 m³ a mano, levantar 2 m² de muro y pulir 1.8 m². Solo los materiales de esta tarjeta ($1,204: tabique $431, marco $350, morteros $200, concretos $168) ya son 62 % del costo directo implícito del tabulador. Contra el P.U. actualizado de Construbase la diferencia es +17.5 %."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

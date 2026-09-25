@@ -1,0 +1,25 @@
+{
+  "clave_cb": "E04.05.0023",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {"clave": "30.20.10.40", "condicion": "si es plafón exterior (volado o alero)"}
+  ],
+  "materiales": [
+    {"basico": "MOR-1:4", "cantidad": 0.020, "desperdicio": 0.08,
+     "nota": "Espesor promedio 2.0 cm incluyendo repellado: 0.020 m³/m²; 8 % por rebote y caída en plafón"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of+Pe (rendimiento del catálogo; mismo valor en tablas publicadas para aplanado fino en plafón, analisisdepreciosunitarios.com). Más lento que en muro por trabajar contra la gravedad"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a 2.40-3.00 m; andamio de burros y tablones cubierto por la herramienta menor (sin andamio tubular rentado).",
+    "Aplanado a nivel con maestras, acabado fino con llana, sobre losa picada o con adherente de lechada.",
+    "El tabulador CDMX (LB12DD) es con mortero cemento-cal-arena 1:1:6; aquí 1:4 como pide el concepto."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

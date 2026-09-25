@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E06.05.0017",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.30",
+      "condicion": "si se aplica en fachada exterior"
+    },
+    {
+      "clave": "40.20.10",
+      "condicion": "si se aplica en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.033,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador diluido; rendimiento Comex 30-40 m²/L → 1/30 = 0.033 L/m²"
+    },
+    {
+      "insumo": "VINIMEX",
+      "cantidad": 0.2,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento Comex Vinimex 10-12 m²/L por mano → 2/10 = 0.20 L/m² (se toma el extremo bajo por porosidad del aplanado)"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45 m²/jor Of pintor, sellador + 2 manos. Catálogo: 60 m²/jor; web: 40-60 m²/jor para pintor en muro liso a 2 manos, 30 m²/jor para Of+Ay y 25 m²/jor en tabulador CTM. Se baja a 45 porque incluye sellado y preparación"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior aplanado en buen estado, hasta 3.00 m de altura: trabajo con escalera y extensión, sin andamio tubular (el concepto menciona andamios; si la altura lo exige, agregar renta de andamio).",
+    "Resanes mayores no incluidos; preparación = limpieza y lijado ligero.",
+    "Vinimex a precio de lista Comex 2026 sin descuento de contratista."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

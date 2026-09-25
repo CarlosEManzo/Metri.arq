@@ -1,0 +1,66 @@
+{
+  "clave_cb": "E04.09.0004",
+  "gubim": "30.20.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.40.10",
+      "condicion": "si se aplica bajo firme o en cimentación (barrera de vapor)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "FESTER-HIDROPRIMER",
+      "cantidad": 0.22,
+      "desperdicio": 0.05,
+      "nota": "Impregnación sin diluir: ficha Fester Hidroprimer 4-5 m²/L → 1/4.5 = 0.22 L/m²"
+    },
+    {
+      "insumo": "FESTER-VAPORTITE550",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Dos capas; ficha técnica Fester Vaportite 550: 1.0 L/m² por capa en superficie horizontal → 2.0 L/m²"
+    },
+    {
+      "insumo": "FESTERFLEX",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "Membrana embebida en la primera capa; 10 % de traslapes (10 cm) y recortes en chaflanes"
+    },
+    {
+      "insumo": "ARENA",
+      "cantidad": 0.003,
+      "desperdicio": 0.1,
+      "nota": "Arena cernida espolvoreada sobre la segunda capa fresca, ≈3 L/m²"
+    },
+    {
+      "insumo": "FESTERBLANC",
+      "cantidad": 0.333,
+      "desperdicio": 0.05,
+      "nota": "Acabado a dos manos; ficha Fester: 3 m²/L en dos manos → 0.333 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor Of+Ay. Catálogo: 40 m²/jor; sistemas de manto prefabricado de una capa 40-60 m²/jor (e-construir, APU publicados). Aquí son 5 aplicaciones en sitio (primario, 2 capas asfálticas con membrana, arena y 2 manos de acabado) con secados intermedios, por eso se baja a 30; incluye limpieza, acarreo y elevación manual"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Losa de azotea limpia y con pendiente; chaflanes, calafateo de grietas y retiro de impermeabilizante anterior se pagan aparte.",
+    "Elevación manual hasta 2 niveles; sin malacate.",
+    "Se mantiene el hidroprimer (base agua) como impregnación porque así lo especifica el concepto; el Vaportite 550 es base solvente.",
+    "Alerta +72 % contra el tabulador CDMX GS12DD ($341.01) revisada y aceptada: ese concepto es un sistema base agua (Microfest + Festalum), más barato; éste especifica Vaportite 550 base solvente a 1 L/m² por capa × 2 capas (ficha Fester), que por sí solo cuesta ≈$276/m² de material. Contra el P.U. actualizado de Construbase ($512.40), que sí corresponde al mismo sistema, la diferencia es +14.5 %."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

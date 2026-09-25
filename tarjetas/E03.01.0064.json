@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E03.01.0064",
+  "gubim": "20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {"clave": "20.20.20.10", "condicion": "si el colado es de losas (forjados)"},
+    {"clave": "20.20.20.20", "condicion": "si el colado es de trabes (jácenas)"},
+    {"clave": "20.20.10.10", "condicion": "si el colado es de columnas (pilares)"},
+    {"clave": "20.20.10.30", "condicion": "si el colado es de muros de concreto"}
+  ],
+  "materiales": [
+    {"insumo": "CONC-PREM-250", "cantidad": 1.0, "desperdicio": 0.03,
+     "nota": "1.00 m³ medido en elemento; 3 % por residuo en olla, tubería de bomba y sobrecolado"},
+    {"insumo": "BOMBA-CONC", "cantidad": 1.0, "desperdicio": 0.0,
+     "nota": "Bombeo por m³ colocado; se paga el volumen suministrado neto"},
+    {"insumo": "CURADOR", "cantidad": 1.2, "desperdicio": 0.05,
+     "nota": "≈6 m² de superficie expuesta por m³ (losa de 12-15 cm, caras de trabes) × 0.20 L/m² = 1.2 L/m³"},
+    {"insumo": "PRUEBA-CONC", "cantidad": 0.05, "desperdicio": 0.0,
+     "nota": "Una muestra (4 cilindros + revenimiento) por cada 20 m³ o por día de colado"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 5}],
+    "rendimiento": 25.0,
+    "fuente": "25 m³/jor Of+5Pe (rendimiento del catálogo). Con bomba la cuadrilla solo recibe, extiende, vibra, regla y cura; tablas publicadas dan 20-40 m³/jor para colado bombeado según el elemento (columnas en el extremo bajo, losas en el alto). Implícito CDMX con salarios CDMX es menor"
+  },
+  "equipo": [{"descripcion": "Vibrador de chicote a gasolina", "horas": 0.32, "costo_horario": 65.0}],
+  "supuestos": [
+    "Concreto de proveedor clase I, f'c=250 kg/cm², RN 14 cm, TMA 19 mm, con superfluidizante, puesto en obra; el precio (CONC-PREM-250) está en el tope del rango de la región Centro y no es cotización de planta en Morelia.",
+    "Bombeo como servicio por m³ ($200/m³, rango $150-250). Colados menores a 15-20 m³ pagan cargo mínimo y encarecen el m³.",
+    "Vibrador trabajando toda la jornada: 8 h / 25 m³ = 0.32 h/m³; costo horario $65/h (combustible, depreciación y mantenimiento) como referencia sin cotización.",
+    "Muestreo y pruebas de laboratorio prorrateados: 1 juego de 4 cilindros por cada 20 m³ (NMX-C-161/ NMX-C-083). El precio del juego es referencia.",
+    "Cimbra y acero de refuerzo se pagan por separado. Clave GuBIM genérica 20.20 porque el concepto no dice el elemento; usar la alternativa según dónde se cuele."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

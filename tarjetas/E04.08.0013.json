@@ -1,0 +1,23 @@
+{
+  "clave_cb": "E04.08.0013",
+  "gubim": "30.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {"basico": "MOR-CCA-1:1:8", "cantidad": 0.040, "desperdicio": 0.05,
+     "nota": "4 cm × 1.00 m² = 0.040 m³/m²; 5 % por irregularidad del relleno"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 25.0,
+    "fuente": "25 m²/jor Of+Pe. Catálogo: 30 m²/jor; publicados: 20 m²/jor para entortado en azotea (analisisdepreciosunitarios.com). Se toma el punto medio: el peón elabora 1.05 m³ de mortero a mano y lo eleva"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mortero cemento-cal-arena 1:1:8 hecho a mano, elevación manual a azotea de un nivel.",
+    "Incluye trazo y nivelación con maestras siguiendo las pendientes del relleno.",
+    "El tabulador CDMX (GP12BB) es de 3 cm con mortero 1:4; aquí 4 cm 1:1:8."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

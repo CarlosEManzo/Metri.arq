@@ -1,0 +1,32 @@
+{
+  "clave_cb": "E03.01.0026",
+  "gubim": "20.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {"clave": "30.20.10.10", "condicion": "si la losa es la cubierta (azotea) y se modela como cubierta in-situ"}
+  ],
+  "materiales": [
+    {"insumo": "MAD-PINO3", "cantidad": 1.6, "desperdicio": 0.10,
+     "nota": "Cubierta de tabla 3/4\" (19 mm): 1 m² = 10.76 ft² × 0.75\" = 8.07 pt/m²; 5 usos → 1.61 pt/m²; 10 % cortes"},
+    {"insumo": "MAD-PINO3", "cantidad": 1.95, "desperdicio": 0.10,
+     "nota": "Obra falsa: barrotes 2x4 @ 0.60 (1.67 m × 2.19 pt/m = 3.65 pt) + madrinas polín 4x4 @ 1.20 (0.83 m × 4.37 = 3.64 pt) + pies derechos 4x4 a 1.20x1.20 de 2.40 m (0.69 × 2.40 × 4.37 = 7.28 pt) + contraventeo y cuñas ≈1.0 pt = 15.6 pt/m²; 8 usos → 1.95 pt/m²"},
+    {"insumo": "CLAVO-2.5", "cantidad": 0.15, "desperdicio": 0.10,
+     "nota": "0.15 kg/m² (tablas a barrotes y armado de obra falsa)"},
+    {"insumo": "DIESEL", "cantidad": 0.10, "desperdicio": 0.0,
+     "nota": "Desmoldante: 0.10 L/m² de contacto (≈10 m²/L sobre madera)"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-CAR", "personas": 1}, {"categoria": "AYU", "personas": 1}],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of carpintero + Ay, incluye descimbrado (rendimiento del catálogo). Publicados: 8-10 m²/jor Of+Ay (analisisdepreciosunitarios.com, controlobra.mx); baja a 6-7 con alturas mayores de 3.5 m"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Losa maciza con altura de entrepiso hasta 3.00 m; cubierta de tabla de pino de 3a de 3/4\", obra falsa de polín y barrote.",
+    "Usos: tabla de contacto 5, obra falsa 8 (madera de 3a).",
+    "Desmoldante a base de diésel (DIESEL, insumo del lote A) en vez de desmoldante comercial.",
+    "No incluye cimbra de fronteras de losa ni andamios: se consideran dentro de la misma cuadrilla y la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
