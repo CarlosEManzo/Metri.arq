@@ -1,0 +1,90 @@
+{
+  "clave_cb": "E07.01.0044",
+  "gubim": "30.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.20.10",
+      "condicion": "si es reja de cierre de parcela"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-NEGRO-CED",
+      "cantidad": 141.075,
+      "desperdicio": 0.05,
+      "nota": "5 postes por m (a cada 0.20 m) de tubo ced. 30 de 3 in × 2.85 m × 9.9 kg/m"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 7.9756,
+      "desperdicio": 0.1,
+      "nota": "5 placas A-36 5/16 in 0.16 x 0.16 m"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "Soldadura por cordones"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 2.0,
+      "desperdicio": 0.0,
+      "nota": "Cortes y esmerilado"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.4975,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 3.98 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.884444,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 3.98 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.398,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 10,
+      "desperdicio": 0.0,
+      "nota": "2 taquetes por placa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 m/jor Of herrero + Ay (catálogo: 12): 5 postes por m con placa soldada, anclaje, plomeo y pintura"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 1.6,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈149.1 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Tubo ced. 30 de 3 in: 88.9 mm × 4.78 mm = 9.9 kg/m.",
+    "Área pintada 0.279 m²/m de tubo.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

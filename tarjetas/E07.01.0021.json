@@ -1,0 +1,78 @@
+{
+  "clave_cb": "E07.01.0021",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.30.20",
+      "condicion": "rejilla de drenaje en exteriores"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 2.98,
+      "desperdicio": 0.08,
+      "nota": "Ángulo de apoyo 1 1/4 x 1/8 ≈2 m por m² de rejilla (1.49 kg/m)"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 1.26,
+      "desperdicio": 0.1,
+      "nota": "Solera de remate 1 x 1/8 en bordes cortados ≈2 m/m² (0.63 kg/m)"
+    },
+    {
+      "insumo": "REJILLA-IRV-1x18",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² de rejilla; 5 % por cortes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "Soldadura por cordones"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Cortes y esmerilado"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Anclaje del ángulo de apoyo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m²/jor Of herrero + Ay (catálogo: 6): corte a medida, remate de bordes, ángulo de apoyo y colocación"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.6667,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈4.2 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Rejilla en acabado natural (sin pintura, el concepto no la incluye).",
+    "Panel comercial de 1 x 6 m cortado a medida.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

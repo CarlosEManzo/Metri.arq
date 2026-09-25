@@ -35,5 +35,6 @@
   ],
   "comparar_costo_directo": true,
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Básico a costo directo contra CDMX F2*C04 ($1,892.91). Los materiales de la tarjeta suman $1,653 (87 % del costo directo CDMX, con cemento $4,483/t, cal $3,600/t y arena $474/m³ sin IVA); la diferencia es la elaboración con revolvedora y 2 peones a 3 m³/jor ($729/m³), que en la mezcla más pobre pesa más. La misma elaboración deja el 1:1:6 (E04.01.0006) en +19 %."
 }

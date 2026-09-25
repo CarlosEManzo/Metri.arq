@@ -1,0 +1,96 @@
+{
+  "clave_cb": "I07.01.0001",
+  "gubim": "40.10.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si es barandal exterior de fachada o balcón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 3.0102,
+      "desperdicio": 0.08,
+      "nota": "Poste PTR 1 1/2 x 1 1/2 de 3.2 mm (3.46 kg/m) × 0.87 m a cada 1 m"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 0.897255,
+      "desperdicio": 0.1,
+      "nota": "Placa A-36 5/16 in de 0.12 x 0.12 m por poste"
+    },
+    {
+      "insumo": "TUBO-NEGRO-CED",
+      "cantidad": 10.7,
+      "desperdicio": 0.05,
+      "nota": "Pasamanos de tubo ced. 30 de 2 in (4.9 kg/m) + 2 tubos de 1 1/4 in (2.9 kg/m)"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.292,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (14.6 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.58,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.065,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 0.52 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.115556,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 0.52 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.052,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "4 taquetes por placa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m/jor Of herrero + Ay (catálogo: 12): trazo, anclaje de placas con 4 taquetes, soldadura de postes y 3 tubos, esmerilado y pintura"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.6667,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈14.6 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada 0.52 m²/m: tubo 2 in 0.19 + 2 tubos 1 1/4 0.20 + poste 0.13.",
+    "Anclado a losa o escalón de concreto existente.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

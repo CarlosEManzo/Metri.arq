@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E06.05.0013",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si se aplica en fachada exterior"
+    },
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si se aplica en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.033,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador 5x1 diluido; 30 m²/L"
+    },
+    {
+      "insumo": "DUREX-MASTER",
+      "cantidad": 0.266667,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento Durex Master 7-8 m²/L por mano (línea económica, menor poder cubriente) → 2/7.5 = 0.267 L/m²"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: limpieza y lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45 m²/jor Of pintor, sellador + 2 manos (catálogo: 60; E06.05.0017 usa 45). Web: 40-60 m²/jor en muro liso a 2 manos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior aplanado liso hasta 3.00 m: escalera y extensión, sin andamio tubular (si la altura lo exige, agregar renta de andamio).",
+    "Resanes mayores no incluidos; preparación = limpieza y lijado ligero.",
+    "Precio de la pintura: ver fuente del insumo DUREX-MASTER."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

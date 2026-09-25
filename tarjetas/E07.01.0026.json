@@ -1,0 +1,95 @@
+{
+  "clave_cb": "E07.01.0026",
+  "gubim": "70.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si protege la fachada del edificio"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MALLA-CICLON-105",
+      "cantidad": 2.5,
+      "desperdicio": 0.05,
+      "nota": "2.50 m² de malla por m de cerca; 5 % por traslapes y tensado"
+    },
+    {
+      "insumo": "POSTE-GALV-48",
+      "cantidad": 1.28,
+      "desperdicio": 0.03,
+      "nota": "Poste intermedio 48 mm de 3.20 m (60 cm de empotre) a cada 2.5 m"
+    },
+    {
+      "insumo": "POSTE-GALV-60",
+      "cantidad": 0.213333,
+      "desperdicio": 0.03,
+      "nota": "Poste de arranque/deflexión 60 mm de 3.20 m a cada 15 m en promedio"
+    },
+    {
+      "insumo": "POSTE-GALV-42",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Barra superior 42 mm continua"
+    },
+    {
+      "insumo": "ALAMBRE-GALV-12",
+      "cantidad": 0.14,
+      "desperdicio": 0.05,
+      "nota": "Alambre tensor inferior y amarres: ≈2 m × 0.07 kg/m"
+    },
+    {
+      "insumo": "ACC-CICLON-INT",
+      "cantidad": 0.4,
+      "desperdicio": 0.0,
+      "nota": "Accesorios de poste intermedio"
+    },
+    {
+      "insumo": "ACC-CICLON-ARR",
+      "cantidad": 0.066667,
+      "desperdicio": 0.0,
+      "nota": "Accesorios de poste de arranque (barra de tensión, abrazaderas, capuchón)"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0252,
+      "desperdicio": 0.05,
+      "nota": "Dados 30x30x60 cm por poste: 0.0252 m³/m"
+    },
+    {
+      "insumo": "ALAMBRE-PUAS",
+      "cantidad": 3.0,
+      "desperdicio": 0.05,
+      "nota": "3 hilos de alambre de púas"
+    },
+    {
+      "insumo": "BRAZO-PORTAESPADA",
+      "cantidad": 0.466667,
+      "desperdicio": 0.0,
+      "nota": "Capucha porta espadas en cada poste"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.5,
+    "fuente": "7.5 m/jor Of herrero + Ay (catálogo: 12): excavación y colado de dados, plomeo de postes, tendido y tensado de malla y púas; publicados 10-20 m/jor sobre terreno limpio"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Postes intermedios a cada 2.5 m y de arranque o esquina a cada 15 m en promedio; dados de concreto f'c 150 hechos en obra.",
+    "Incluye barra superior de 42 mm (práctica usual, aunque el concepto no la menciona) y excavación manual de cepas.",
+    "Precios de postes y accesorios: referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

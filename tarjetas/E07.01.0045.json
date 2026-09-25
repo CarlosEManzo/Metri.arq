@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E07.01.0045",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si es puerta interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PUERTA-TAMBOR-MET",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Puerta de lámina tipo tambor 0.90 x 2.10 m con marco metálico"
+    },
+    {
+      "insumo": "CHAPA-PASO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cerradura cilíndrica de acceso"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco con pija y taquete"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": "Sellado perimetral del marco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 pza/jor Of herrero + Ay (catálogo: 1.5): colocación de puerta prefabricada con marco, plomeo, fijación y ajuste de cerradura"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta prefabricada de lámina; se coloca en vano terminado.",
+    "Precio de la puerta: referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E06.05.0037",
+  "gubim": "30.10.10.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se aplica en muro interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "COREV-SOTOFONDO",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "Sotofondo como fondo de adherencia, 1 mano ≈10 m²/L"
+    },
+    {
+      "insumo": "COREV-CUARZOPLAST",
+      "cantidad": 2.5,
+      "desperdicio": 0.05,
+      "nota": "Cuarzoplast grano grueso ≈2.5 kg/m² + Vitrocorev; 5 % por merma en cubeta y llana"
+    },
+    {
+      "insumo": "COREV-VITROCOREV",
+      "cantidad": 0.12,
+      "desperdicio": 0.05,
+      "nota": "Vitrocorev acabado final 0.12 L/m²"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Limpieza y lijado de rebabas del aplanado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 m²/jor Of pintor + Ay (catálogo: 25 m²/jor Of solo). Pasta granulada gruesa en capa de 2-4 mm: 20-25 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Consumo de pasta según tipo de grano; Corev no publica precio: el precio del insumo es referencia por gama (ver fuente).",
+    "Muro hasta 3.00 m de altura con andamio de caballetes de la obra; superficie aplanada, sana y seca."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

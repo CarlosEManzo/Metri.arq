@@ -1,0 +1,114 @@
+{
+  "clave_cb": "E07.01.0006",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si es puerta interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 15.9576,
+      "desperdicio": 0.08,
+      "nota": "Marco PTR 1 1/2 x 1 1/2 de 1.89 mm 7.32 m × 2.18 kg/m (hojas e intermedios)"
+    },
+    {
+      "insumo": "TUBULAR-C18",
+      "cantidad": 15.39,
+      "desperdicio": 0.08,
+      "nota": "Contramarco tubular M-300 cal. 18 5.70 m × 2.7 kg/m"
+    },
+    {
+      "insumo": "LAM-NEGRA-C18",
+      "cantidad": 2.2425,
+      "desperdicio": 0.1,
+      "nota": "Rejilla louver: 1.79 m² de vano × 1.25 m² de lámina cal. 18 por m² (tablillas de 8 cm de desarrollo a cada 6.5 cm)"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 1.053,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (52.7 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 2.11,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.8975,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 7.18 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 1.595556,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 7.18 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.718,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "BISAGRA-TUB-58",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 bisagras tubulares"
+    },
+    {
+      "insumo": "CERR-BARRA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cerradura de seguridad de barra"
+    },
+    {
+      "insumo": "REDONDO-A36",
+      "cantidad": 1.2,
+      "desperdicio": 0.0,
+      "nota": "Anclas de redondo 3/8 para contramarco"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.012,
+      "desperdicio": 0.05,
+      "nota": "Mortero para empotrar anclas o contramarco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.73,
+    "fuente": "0.73 pza/jor Of herrero + Ay = 1/(0.40 + 0.54 × 1.79 m² de louver) (catálogo: 1.5): corte y doblez de ≈15 tablillas por m de altura, soldadura, colocación y pintura. Una puerta louver de 0.9 x 2.4 requiere ≈1.4 jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 5.4795,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈52.7 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada 7.2 m²: louver 2 caras + PTR 0.15 m²/m + M-300 0.28 m²/m.",
+    "El doblez de tablillas se hace en obra con dobladora manual (herramienta menor).",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

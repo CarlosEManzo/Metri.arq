@@ -35,11 +35,19 @@ def informe(numero, titulo, claves):
     tarjetas = con.execute(f"SELECT * FROM tarjetas WHERE clave_cb IN ({marcas}) ORDER BY clave_cb", claves).fetchall()
     faltan = sorted(set(claves) - {t["clave_cb"] for t in tarjetas})
     insumos_ref = con.execute(
-        f"""SELECT m.clave, m.descripcion, m.unidad, i.precio, i.fuente, COUNT(DISTINCT m.clave_cb) AS n
+        f"""SELECT m.clave, m.descripcion, m.unidad, i.precio, i.fuente, i.estado, COUNT(DISTINCT m.clave_cb) AS n
             FROM materiales m JOIN insumos i ON i.clave = m.clave
-            WHERE m.clave_cb IN ({marcas}) AND m.tipo != 'basico' AND i.estado = 'referencia'
+            WHERE m.clave_cb IN ({marcas}) AND m.tipo != 'basico' AND i.estado IN ('referencia', 'derivado del catálogo')
             GROUP BY m.clave ORDER BY n DESC""", claves).fetchall()
 
+    # Tarjetas cuyo material viene sobre todo (más de la mitad del importe) de insumos con
+    # precio derivado del catálogo: su diferencia contra el P.U. actualizado no las valida.
+    derivadas = {r[0] for r in con.execute(
+        f"""SELECT m.clave_cb FROM materiales m LEFT JOIN insumos i ON i.clave = m.clave
+            WHERE m.clave_cb IN ({marcas}) AND m.tipo != 'basico'
+            GROUP BY m.clave_cb
+            HAVING SUM(CASE WHEN i.estado = 'derivado del catálogo' THEN m.importe ELSE 0 END) > 0.5 * SUM(m.importe)""",
+        claves)}
     difs = [t["dif_vs_referencia"] for t in tarjetas if t["referencia_validacion"]]
     alertas = [t for t in tarjetas if t["alerta"]]
     no_comp = [t for t in tarjetas if t["cdmx_no_comparable"]]
@@ -63,8 +71,10 @@ def informe(numero, titulo, claves):
         f"| Desviación > ±25 % justificada | {len(justif)} |",
         f"| Con referencia sustituta (catálogo erróneo) | {len(sustit)} |",
         f"| Básicos comparados a costo directo | {sum(1 for t in tarjetas if 'costo directo' in (t['referencia_validacion'] or ''))} |",
+        f"| Material mayormente derivado del catálogo (validación no independiente) | {len(derivadas)} |",
         f"| Diferencia mediana contra su referencia | {pct(statistics.median(difs)) if difs else '—'} |",
-        f"| Insumos usados que siguen como referencia | {len(insumos_ref)} |",
+        f"| Insumos usados que siguen como referencia | {sum(1 for i in insumos_ref if i['estado'] == 'referencia')} |",
+        f"| Insumos con precio derivado del catálogo (validación no independiente) | {sum(1 for i in insumos_ref if i['estado'] != 'referencia')} |",
         "",
     ]
     if faltan:
@@ -79,7 +89,7 @@ def informe(numero, titulo, claves):
         lineas.append(
             f"| {t['clave_cb']} | {t['gubim']} | {t['descripcion'][:60]} | {t['unidad']} | {mx(t['pu'])} | "
             f"{mx(t['pu_actualizado'])} | {mx(t['pu_cdmx'])} | {pct(t['dif_vs_actualizado'])} | {pct(t['dif_vs_cdmx'])} | "
-            f"{t['referencia_validacion']} | {t['alerta'] or '—'} |")
+            f"{t['referencia_validacion']}{' · material derivado del catálogo' if t['clave_cb'] in derivadas else ''} | {t['alerta'] or '—'} |")
     lineas += ["", "## Composición y rendimiento", "",
                "| Clave | Materiales | M.O. | Herr./equipo | Cuadrilla | Rendimiento | HH/unidad | Rend. implícito CDMX |",
                "|---|---|---|---|---|---|---|---|"]
@@ -101,9 +111,9 @@ def informe(numero, titulo, claves):
         lineas += ["", "## Alertas abiertas", ""]
         lineas += [f"- **{t['clave_cb']}**: {t['alerta']}" for t in alertas]
     if insumos_ref:
-        lineas += ["", "## Insumos por cotizar (estado: referencia)", "",
-                   "| Insumo | Descripción | Unidad | Precio | Tarjetas | Fuente |", "|---|---|---|---|---|---|"]
-        lineas += [f"| {i['clave']} | {i['descripcion']} | {i['unidad']} | {mx(i['precio'])} | {i['n']} | {i['fuente']} |"
+        lineas += ["", "## Insumos por cotizar (estado: referencia o derivado del catálogo)", "",
+                   "| Insumo | Descripción | Unidad | Precio | Tarjetas | Estado | Fuente |", "|---|---|---|---|---|---|---|"]
+        lineas += [f"| {i['clave']} | {i['descripcion']} | {i['unidad']} | {mx(i['precio'])} | {i['n']} | {i['estado']} | {i['fuente']} |"
                    for i in insumos_ref]
     lineas += ["", "## Supuestos por tarjeta", ""]
     lineas += [f"- **{t['clave_cb']}**: {t['supuestos'] or '—'}" for t in tarjetas]

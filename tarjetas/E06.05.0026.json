@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E06.05.0026",
+  "gubim": "40.40.10.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.30",
+      "condicion": "marcaje sobre pavimento de tráfico rodado en urbanización"
+    },
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se modela como pintura genérica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PINT-TRAFICO-BS",
+      "cantidad": 0.038,
+      "desperdicio": 0.1,
+      "nota": "Franja de 10 cm: película húmeda de 15 milésimas (0.38 L/m²) × 0.1 m²/m"
+    },
+    {
+      "insumo": "MICROESFERA",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Microesfera sembrada 0.5 kg/m² × 0.1 m²/m"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza de la máquina 0.10 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 m/jor Of pintor + Ay con pintarrayas manual incluyendo trazo, barrido y encintado (catálogo: 80 m/jor Of solo). Con máquina autopropulsada se superan 2,000 m/jor, no aplica a obra chica"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina pintarrayas manual (tipo carrito con tolva de microesfera)",
+      "horas": 0.04,
+      "costo_horario": 60.0
+    }
+  ],
+  "supuestos": [
+    "Franjas continuas o discontinuas en vialidad interna; pintura base solvente blanca con microesfera.",
+    "Máquina pintarrayas manual $60/h (renta ≈$450/día), referencia sin cotización.",
+    "Pavimento limpio y seco; incluye barrido y trazo con hilo y gis."
+  ],
+  "cdmx_no_comparable": "Los precios del tabulador CDMX de raya y flechas (UB13BB raya 10 cm $15.68/m; UB13FF flecha $246.39) son de balizamiento vial con máquina autopropulsada en grandes longitudes; aquí se pinta en obra privada con pintarrayas manual, trazo y limpieza",
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

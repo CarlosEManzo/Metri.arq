@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E06.05.0019",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si se aplica en fachada exterior"
+    },
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si se aplica en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.04455,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador 5x1 diluido; 30 m²/L × 1.35 por textura"
+    },
+    {
+      "insumo": "REAL-FLEX",
+      "cantidad": 0.3,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento Real Flex 8-10 m²/L por mano (película más gruesa) → 2/9 × 1.35 = 0.300 L/m²"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: limpieza y lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor Of pintor en muro rústico, sellador + 2 manos (catálogo: 60). La textura obliga a cargar más el rodillo y repasar con brocha"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro con aplanado rústico/serroteado: consumo de sellador y pintura ×1.35 sobre el muro liso por mayor superficie real.",
+    "Resanes mayores no incluidos; preparación = limpieza y lijado ligero.",
+    "Precio de la pintura: ver fuente del insumo REAL-FLEX."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E06.05.0004",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si se aplica en herrería exterior de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ESMALTE-C100",
+      "cantidad": 0.266667,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento Comex 100 10-12 m²/L por mano con brocha; con compresora hay pérdida por aspersión → ≈7.5 m²/L → 2/7.5 = 0.267 L/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Dilución para aspersión ≈15 % y limpieza de superficie y equipo"
+    },
+    {
+      "insumo": "LIJA-AGUA",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Preparación: lijado y desoxidado ligero, 1 pliego por 10 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 50.0,
+    "fuente": "50 m²/jor Of pintor con compresora, preparación + 2 manos (catálogo: 60 m²/jor; E06.05.0010 usa 50). Aspersión 60-80 m²/jor sin preparación"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresora portátil 2 HP con pistola de aspersión",
+      "horas": 0.16,
+      "costo_horario": 40.0
+    }
+  ],
+  "supuestos": [
+    "Superficie metálica lisa ya con primario anticorrosivo (el primario se paga con E06.05.0011).",
+    "Compresora durante toda la jornada del pintor; costo horario $40/h estimado de renta $300-350/día (referencia).",
+    "Trabajo a nivel de piso o con escalera; sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

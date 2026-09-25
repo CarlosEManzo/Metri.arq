@@ -1,0 +1,79 @@
+{
+  "clave_cb": "E07.01.0023",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 3.094,
+      "desperdicio": 0.08,
+      "nota": "Marco 1.2 m + contramarco 1.4 m de ángulo 1 x 1/8"
+    },
+    {
+      "insumo": "REJILLA-IRV-1x18",
+      "cantidad": 0.09,
+      "desperdicio": 0.15,
+      "nota": "0.30 x 0.30 m de rejilla; 15 % por cortes en pieza chica"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "Soldadura por cordones"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": "Cortes y esmerilado"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.0375,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 0.30 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.015,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza"
+    },
+    {
+      "insumo": "BISAGRA-TUB-58",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "2 bisagras tubulares"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.5,
+    "fuente": "3.5 pza/jor Of herrero + Ay (catálogo: 1.5): tapa chica con marco y contramarco"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 1.1429,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈3.1 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Pintura anticorrosiva: primario 1 mano (el concepto no incluye esmalte).",
+    "Contramarco ahogado en el colado del registro (no incluido).",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

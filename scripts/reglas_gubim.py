@@ -104,17 +104,20 @@ R = [
     (r"muros y plafones", None, r"^columna", "40.10.10.30", "media"),
     (r"muros y plafones", None, r"plafon|plafond|cajillo|platabanda", "40.20.10.10", "alta"),
     (r"muros y plafones", None, r"exterior", "30.10.10.10", "media"),
+    (r"muros y plafones", None, r"compuesto por 1 panel\b", "40.10.10.30", "media"),  # forro de una cara (CDMX: lambrín)
     (r"muros y plafones", None, None, "40.10.10.10", "alta"),
 
     # --- acabados -------------------------------------------------------------
+    (r"acabados", None, r"^teja", "30.20.10.40", "alta"),
     (r"acabados", None, r"^cubierta de|cubiertas|ovalin|lavabo|mesa|barra", "60.20.10.10", "media"),
     (r"acabados", None, r"zoclo", "40.10.20.30", "alta"),
     (r"acabados", None, r"escalon|huella|peralte|escalera", "40.30.20.10", "alta"),
     (r"acabados", None, r"^muro de", "40.10.10.10", "media"),
     (r"acabados", None, r"fachada|exterior", "30.10.10.40", "media"),
+    (r"acabados", r"pinturas", r"trafico", "40.40.10.30", "media"),
     (r"acabados", r"pinturas", r"plafon", "40.20.20.10", "alta"),
     (r"acabados", r"pinturas", None, "40.10.20.40", "alta"),
-    (r"acabados", None, r"en muros|muro|azulejo|lambrin|recubrimiento", "40.10.20.10", "media"),
+    (r"acabados", None, r"en muros|muro|\bazulejo|lambrin|recubrimiento", "40.10.20.10", "media"),
     (r"acabados", None, None, "40.20.20.20", "media"),
 
     # --- herrería, aluminio, carpintería -------------------------------------

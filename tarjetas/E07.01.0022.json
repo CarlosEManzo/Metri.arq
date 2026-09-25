@@ -1,0 +1,78 @@
+{
+  "clave_cb": "E07.01.0022",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.30.20",
+      "condicion": "rejilla de drenaje en exteriores"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 5.36,
+      "desperdicio": 0.08,
+      "nota": "Ángulo de apoyo 1 1/2 x 3/16 ≈2 m por m² (2.68 kg/m)"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 2.38,
+      "desperdicio": 0.1,
+      "nota": "Solera de remate 1 1/4 x 3/16 ≈2 m/m² (1.19 kg/m)"
+    },
+    {
+      "insumo": "REJILLA-IRV-114x316",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² de rejilla; 5 % por cortes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.3,
+      "desperdicio": 0.1,
+      "nota": "Soldadura por cordones"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 1.5,
+      "desperdicio": 0.0,
+      "nota": "Cortes y esmerilado"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Anclaje del ángulo de apoyo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5 m²/jor Of herrero + Ay (catálogo: 6): rejilla más pesada, cortes con más discos"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.8,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈7.7 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Rejilla en acabado natural (sin pintura).",
+    "Par CDMX aproximado: EG13BB rejilla Irving 1 1/4 x 1/8 de 30 cm de ancho $1,177.15/m = $3,924/m² (no cargado).",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

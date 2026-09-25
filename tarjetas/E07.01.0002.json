@@ -1,0 +1,102 @@
+{
+  "clave_cb": "E07.01.0002",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si es puerta interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 8.04,
+      "desperdicio": 0.08,
+      "nota": "Marco de hoja ángulo 1x1/8 3.0 m (1.19 kg/m) + contramarco ángulo 1 1/4x1/8 3.0 m (1.49 kg/m)"
+    },
+    {
+      "insumo": "LAM-NEGRA-C20",
+      "cantidad": 0.5,
+      "desperdicio": 0.1,
+      "nota": "Tablero 0.50 x 1.00 m de lámina cal. 20"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.233,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (11.6 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.47,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 1.60 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.355556,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 1.60 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.16,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "BISAGRA-TUB-58",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "2 bisagras tubulares"
+    },
+    {
+      "insumo": "PASADOR-PORTACAND",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Portacandado"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.003,
+      "desperdicio": 0.05,
+      "nota": "Mortero para empotrar anclas o contramarco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of herrero + Ay (catálogo: 1.5): puerta chica de registro o nicho"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 1.3333,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈11.6 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada 1.6 m²: lámina 2 caras 1.0 + ángulos 0.6.",
+    "Colocación con anclas empotradas en mortero.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

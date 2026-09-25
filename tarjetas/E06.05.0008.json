@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E06.05.0008",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se aplica en muro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.033,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador vinílico diluido; rendimiento Comex 30-40 m²/L → 1/30 = 0.033 L/m²"
+    },
+    {
+      "insumo": "ESMALTE-C100",
+      "cantidad": 0.222222,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento Comex 100 10-12 m²/L por mano en superficie lisa, ≈9 m²/L sobre aplanado sellado → 2/9 = 0.222 L/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.04,
+      "desperdicio": 0.0,
+      "nota": "Dilución ≈10 % para brocha/rodillo y limpieza"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: limpieza y lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor Of pintor, sellador + 2 manos de esmalte con rodillo y brocha (catálogo: 60). Muro 35 m²/jor (E06.05.0007); plafón con la misma relación plafón/muro que las vinílicas (40/45 ≈ 0.89). La CDMX (LG13BI) da un solo precio para muros y plafones."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón aplanado en buen estado hasta 3.00 m; escalera y tablón, sin andamio tubular.",
+    "Resanes mayores no incluidos.",
+    "Par CDMX aproximado: LG13BI esmalte 100 en muros y plafones con sellador 5x1, $104.93 (no cargado en la canasta)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

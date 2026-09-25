@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E06.05.0022",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se aplica en muro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.033,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador 5x1 diluido; 30 m²/L"
+    },
+    {
+      "insumo": "VINIMEX-PREMIUM",
+      "cantidad": 0.181818,
+      "desperdicio": 0.08,
+      "nota": "Dos manos; rendimiento Vinimex Premium 11-13 m²/L por mano → 2/11 = 0.182 L/m²"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: limpieza y lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of pintor en plafón, sellador + 2 manos (catálogo: 60). Plafón rinde ≈10 % menos que muro"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón aplanado liso hasta 3.00 m con extensión de rodillo; 8 % de desperdicio por goteo.",
+    "Resanes mayores no incluidos; preparación = limpieza y lijado ligero.",
+    "Precio de la pintura: ver fuente del insumo VINIMEX-PREMIUM."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

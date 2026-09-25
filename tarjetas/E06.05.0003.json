@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E06.05.0003",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si se aplica en fachada exterior"
+    },
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si se aplica en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MEZ-CAL-CBL-MARMOL",
+      "cantidad": 0.006,
+      "desperdicio": 0.05,
+      "nota": "Tirol planchado ≈6 mm medio: lanzado y planchado con llana; 5 % por rebote"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of + Pe (catálogo: 25 m²/jor Of solo). Lanzado con tirolera y planchado con llana en muro; publicados 30-45 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro aplanado y humedecido hasta 3.00 m de altura; andamio de caballetes propiedad de la obra (herramienta menor).",
+    "La mezcla se analiza como básico MEZ-CAL-CBL-MARMOL (tarjeta E06.05.0001)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

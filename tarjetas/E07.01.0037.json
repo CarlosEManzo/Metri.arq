@@ -1,0 +1,108 @@
+{
+  "clave_cb": "E07.01.0037",
+  "gubim": "40.10.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si es barandal exterior de fachada o balcón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 6.0204,
+      "desperdicio": 0.08,
+      "nota": "Dos postes PTR 1 1/2 de 3.2 mm × 0.87 m (3.46 kg/m)"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 1.79451,
+      "desperdicio": 0.1,
+      "nota": "2 placas A-36 5/16 in de 0.12 x 0.12 m"
+    },
+    {
+      "insumo": "TUBO-NEGRO-CED",
+      "cantidad": 9.8,
+      "desperdicio": 0.05,
+      "nota": "Pasamanos de tubo ced. 30 de 2 in × 2 m"
+    },
+    {
+      "insumo": "CUADRADO-ACERO",
+      "cantidad": 21.336,
+      "desperdicio": 0.08,
+      "nota": "Cuadrado 12.7 mm: 8 barrotes por m × 0.80 m + 2 largueros × 2 m (1.27 kg/m)"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 5.315587,
+      "desperdicio": 0.1,
+      "nota": "30 aros Ø 12 cm de solera 3/16 x 1/2 (0.38 m × 0.47 kg/m)"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.885,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (44.3 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 1.77,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.2825,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 2.26 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.502222,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 2.26 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.226,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "2 taquetes por placa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.3,
+    "fuente": "1.3 pza/jor Of herrero + Ay (catálogo: 1.5): rolado y soldadura de 30 aros, barrotes, postes y pasamanos; colocación y pintura"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 3.0769,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈44.3 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada 2.26 m².",
+    "30 aros por unidad como indica el concepto.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E06.05.0012",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si se aplica en fachada exterior"
+    },
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si se aplica en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SELLADOR-5X1",
+      "cantidad": 0.033,
+      "desperdicio": 0.05,
+      "nota": "Una mano de sellador 5x1 diluido, 30 m²/L"
+    },
+    {
+      "insumo": "VINIMEX",
+      "cantidad": 0.2,
+      "desperdicio": 0.05,
+      "nota": "Fondo a dos manos: 2/10 = 0.20 L/m²"
+    },
+    {
+      "insumo": "VINIMEX",
+      "cantidad": 0.06,
+      "desperdicio": 0.1,
+      "nota": "Mano final de deslavado: pintura diluida 1:1 con agua aplicada con esponja o trapo ≈0.06 L/m² de pintura"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Preparación: limpieza y lijado ligero, 1 pliego por 20 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18.0,
+    "fuente": "18 m²/jor Of pintor: fondo a 45 m²/jor + deslavado a mano a 30 m²/jor → 1/(1/45 + 1/30) = 18 (catálogo: 60, sin distinguir la técnica decorativa)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior aplanado liso hasta 3.00 m, sin andamio tubular.",
+    "El deslavado usa Vinimex en un tono distinto al del fondo; misma pintura a precio de lista."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

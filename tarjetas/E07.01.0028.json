@@ -1,0 +1,70 @@
+{
+  "clave_cb": "E07.01.0028",
+  "gubim": "70.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si protege la fachada del edificio"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONCERTINA-45",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Concertina 45 cm, rollo que cubre 8 m"
+    },
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 0.447,
+      "desperdicio": 0.08,
+      "nota": "Soporte de ángulo 1 1/4 x 1/8 de 0.90 m a cada 3 m"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 0.666667,
+      "desperdicio": 0.0,
+      "nota": "2 taquetes por soporte"
+    },
+    {
+      "insumo": "ALAMBRE-GALV-12",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "Alambre de amarre de la concertina a los soportes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de soportes"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Primario en soportes (0.08 m²/m)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 m/jor Of herrero + Ay (catálogo: 12): fijar soportes con taquete y extender y amarrar la concertina"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Colocada sobre barda o muro existente con soportes de ángulo a cada 3 m.",
+    "Par CDMX aproximado: GF13PB concertina con cuchilla Concermax arpón doble con soportes de tubo 48 mm $579.39/m (otra especificación, no cargado)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

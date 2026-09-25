@@ -1,0 +1,51 @@
+{
+  "clave_cb": "E07.01.0027",
+  "gubim": "70.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si protege la fachada del edificio"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALAMBRE-PUAS",
+      "cantidad": 3.0,
+      "desperdicio": 0.05,
+      "nota": "3 hilos de alambre de púas por m"
+    },
+    {
+      "insumo": "BRAZO-PORTAESPADA",
+      "cantidad": 0.4,
+      "desperdicio": 0.0,
+      "nota": "Capucha porta espadas en cada poste a cada 2.5 m"
+    },
+    {
+      "insumo": "ALAMBRE-GALV-12",
+      "cantidad": 0.02,
+      "desperdicio": 0.05,
+      "nota": "Amarres"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m/jor Of herrero + Ay (catálogo: 12): colocar capuchas y tender y tensar 3 hilos (120 m de hilo por jornada)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre cerca o muro existente con postes a cada 2.5 m; los postes no se incluyen."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

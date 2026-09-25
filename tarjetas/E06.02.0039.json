@@ -1,11 +1,11 @@
 {
   "clave_cb": "E06.02.0039",
-  "gubim": "40.10.20.10",
+  "gubim": "40.20.20.20",
   "gubim_confianza": "media",
   "gubim_alternativas": [
     {
-      "clave": "40.20.20.20",
-      "condicion": "clave correcta para piso: la regla del catálogo toma 'azulejo' dentro de 'pegazulejo'"
+      "clave": "40.10.20.10",
+      "condicion": "si se modela como revestimiento de muro"
     }
   ],
   "materiales": [

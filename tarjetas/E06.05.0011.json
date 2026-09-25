@@ -1,0 +1,54 @@
+{
+  "clave_cb": "E06.05.0011",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si se aplica en herrería exterior de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.285714,
+      "desperdicio": 0.05,
+      "nota": "Dos manos; rendimiento primario alquidálico 8-10 m²/L por mano con brocha, ≈7 m²/L con compresora → 2/7 = 0.286 L/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Dilución para aspersión y limpieza"
+    },
+    {
+      "insumo": "LIJA-AGUA",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Preparación: lijado y desoxidado, 1 pliego por 10 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 50.0,
+    "fuente": "50 m²/jor Of pintor con compresora, limpieza + 2 manos (catálogo: 60; mismo criterio que E06.05.0010 y E06.05.0004)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresora portátil 2 HP con pistola de aspersión",
+      "horas": 0.16,
+      "costo_horario": 40.0
+    }
+  ],
+  "supuestos": [
+    "Superficie metálica sin pintura previa, óxido ligero; limpieza manual con lija (no incluye chorro de arena).",
+    "Compresora $40/h (referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

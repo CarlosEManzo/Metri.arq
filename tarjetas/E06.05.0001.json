@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E06.05.0001",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.10",
+      "condicion": "si la mezcla se usa en plafón"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MEZ-CAL-CBL-MARMOL",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1 m³ de mezcla 1:1:6 (cemento blanco : cal : polvo de mármol); 3 % por merma de mezclado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.0,
+    "fuente": "2 m³/jor 2 peones (catálogo: 2). Mezclado a mano en artesa de materiales finos, cribado del polvo de mármol"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Básico de Construbase a costo directo: se valida el costo directo contra el P.U. actualizado.",
+    "Dosificación en volumen suelto 1:1:6 con factor de 1.30 m³ de material suelto por m³ de mezcla: cemento blanco 0.1625 m³ × 1,200 kg/m³ = 195 kg; cal 0.1625 m³ × 550 kg/m³ = 89 kg; polvo de mármol 0.975 m³ × 1,450 kg/m³ = 1,414 kg; agua 0.35 m³.",
+    "Polvo de mármol a $2.00/kg es referencia sin cotización; cemento blanco a $11.20/kg de datos/insumos.csv."
+  ],
+  "comparar_costo_directo": true,
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

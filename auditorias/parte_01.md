@@ -14,8 +14,10 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | Desviación > ±25 % justificada | 0 |
 | Con referencia sustituta (catálogo erróneo) | 0 |
 | Básicos comparados a costo directo | 0 |
+| Material mayormente derivado del catálogo (validación no independiente) | 0 |
 | Diferencia mediana contra su referencia | +5.0% |
 | Insumos usados que siguen como referencia | 44 |
+| Insumos con precio derivado del catálogo (validación no independiente) | 0 |
 
 ## Tarjetas
 
@@ -121,54 +123,54 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 - **E11.05.0004**: Alcance distinto: CDMX paga solo tubo con extremos lisos; esta tarjeta incluye conexiones proporcionales y soportería
 - **E16.01.0017**: Alcance distinto: CDMX solo suministro y colocación del rollo; esta tarjeta incluye 5 cm de tierra vegetal y 15 días de riego
 
-## Insumos por cotizar (estado: referencia)
+## Insumos por cotizar (estado: referencia o derivado del catálogo)
 
-| Insumo | Descripción | Unidad | Precio | Tarjetas | Fuente |
-|---|---|---|---|---|---|
-| AGUA | Agua para construcción | m3 | 60.00 | 14 | Pipa en obra |
-| MAD-PINO3 | Madera de pino de 3a para cimbra | pt | 27.00 | 7 | Tabla pino 3a 19 mm x 30 cm x 2.50 m (≈6.0 pt) $186 con IVA en Barata del Valle → ≈$31/pt con IVA, $27/pt sin IVA; SIPRE nacional 2019 $13.09/pt en aserradero |
-| CLAVO-2.5 | Clavo estándar para madera 2 1/2 pulg | kg | 40.00 | 7 | Estimación de mercado $35-50/kg con IVA en ferreterías (Home Depot, Construrama, Materiales Vite no muestran precio en línea); sin cotización directa |
-| ALAMBRE-REC | Alambre recocido cal. 18 | kg | 38.00 | 7 | Referencia de mercado |
-| VAR-3 | Varilla corrugada #3 (3/8) Fy 4200 | ton | 17,672.41 | 3 | Ternium/GASA 2026 (Materiales Cortés) · convertido a precio sin IVA (÷1.16) |
-| PIJA-TAQ-MARCO | Pija 2 1/2 in con taquete de plástico 5/16 para fijar marco | pza | 2.00 | 3 | Estimación de ferretería |
-| DIESEL | Diésel (desmoldante para cimbra) | l | 24.00 | 3 | Precio al público ≈$27-28/l con IVA en 2026 → ≈$24/l sin IVA; sin cotización directa |
-| TORN-PANEL-1 | Tornillo tipo S punta fina 1 in para panel de yeso | pza | 0.30 | 2 | Caja de 1,000 pzas ≈ $300 sin IVA (referencia de mercado; sin cotización web visible) |
-| TORN-FRAMER | Tornillo framer 7/16 in punta fina para unir perfiles | pza | 0.30 | 2 | Caja de 1,000 pzas ≈ $300 sin IVA (referencia de mercado) |
-| THINNER | Thinner estándar | l | 50.00 | 2 | Thinner a granel $45-70/l con IVA; estimación |
-| PERFACINTA | Cinta de papel para juntas de panel de yeso (rollo 75 m) | m | 1.10 | 2 | Rollo 75 m ≈ $80 sin IVA (referencia de mercado; tablarocaguadalajara.com lista Redimix y Perfacinta sin precio visible) |
-| PANEL-YESO-13 | Panel de yeso regular 13 mm (1/2 in) 1.22 x 2.44 m (2.977 m²) | pza | 195.00 | 2 | Referencia de mercado $210-260 con IVA por hoja (Panel Rey / USG Tablaroca en Home Depot, Construrama; precios web no visibles en consulta) → $195 sin IVA |
-| LIJA-MAD | Lija para madera (pliego) | pza | 10.00 | 2 | Pliego de lija Fandeli $10-15 con IVA; estimación |
-| CAL-HID | Cal hidratada (bulto 25 kg) | ton | 3,600.00 | 2 | Referencia de mercado |
-| YEE-PVC-SAN-100 | Yee PVC sanitario 100 mm para cementar | pza | 95.00 | 1 | Estimación ≈1.5 × codo del mismo diámetro (proporción habitual en listas de precios de conexiones sanitarias); sin cotización directa |
-| TEE-CU-13 | Tee de cobre 13 mm cobre a cobre | pza | 25.00 | 1 | Estimación ≈1.5 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa |
-| SOP-TUBO-100 | Abrazadera colgante para tubo de 100 mm con taquete y pija (juego) | pza | 28.00 | 1 | Estimación de ferretería: abrazadera tipo omega/solera 4 in $20-30 + taquete y pija $3; sin cotización directa |
-| SILICON-CART | Silicón sellador transparente cartucho 300 ml | pza | 90.00 | 1 | Cartucho de silicón acético $80-120 con IVA en ferreterías; estimación |
-| SELLADOR-MAD | Sellador para madera base solvente | l | 180.00 | 1 | Sellador Comex/Polyform 1 L ≈$180-240 con IVA; estimación |
-| PRUEBA-CONC | Muestreo en obra, revenimiento y resistencia a compresión de concreto (juego de 4 cilindros 15x30) | juego | 900.00 | 1 | Laboratorio acreditado: compresión $101-125 por cilindro, cabeceo $54, elaboración y curado de 3 cilindros + compresión $442 (tarifas 2023 de laboratorios, platiica.economia.gob.mx); se suma visita de muestreo y actualización a 2026. Estimación sin cotización directa |
-| PIJA-TAQ-WC | Juego de pijas y taquetes para fijar inodoro | pza | 30.00 | 1 | Juego de tornillos de sujeción para sanitario $25-45 con IVA; estimación |
-| PEGAZULEJO-GRIS | Pegazulejo gris base cemento (bulto 20 kg) | kg | 7.50 | 1 | Bulto 20 kg ≈ $150 sin IVA (Home Depot, Barata del Valle, Azulemex listan el producto; rango de mercado $150-200 con IVA) |
-| PEGA-BLANCO | Pegamento blanco para madera (Resistol 850) | l | 95.00 | 1 | Resistol 850 1 L ≈$100-130 con IVA; estimación |
-| MANG-COFLEX-WC | Manguera flexible trenzada para WC 13 x 22 mm x 35 cm | pza | 75.00 | 1 | Coflex $70-120 con IVA (homedepot.com.mx); estimación |
-| MAD-PINO1 | Madera de pino de 1a cepillada (tabla/barrote) | pt | 42.00 | 1 | Pino de 1a ≈1.5 × pino de 3a (MAD-PINO3 $27/pt); tablas de pino 1a $18-95 por pieza según escuadría (maderastriplay.com 2026); sin cotización de maderería de Morelia |
-| LLAVE-ANGULAR | Llave angular de control 1/2 x 3/8 cuarto de vuelta | pza | 110.00 | 1 | Coflex IP-120 y equivalentes $100-180 con IVA (homedepot.com.mx, mercadolibre); estimación |
-| LIJA-AGUA | Lija de agua / esmeril para metal (pliego) | pza | 12.00 | 1 | Referencia de mercado ferretería $12-16 con IVA por pliego |
-| GRAPA-CONDUIT-16 | Abrazadera omega para conduit 16 mm con taquete y pija | pza | 2.50 | 1 | Estimación de ferretería; sin cotización directa |
-| GAS-SOPLETE | Cartucho de gas propano 400 g para soplete | pza | 110.00 | 1 | Cartucho 400 g $110-140 con IVA en ferreterías; estimación |
-| FUNDENTE | Pasta fundente para soldar cobre | kg | 450.00 | 1 | Frasco 100 g ≈$50-60 con IVA en ferreterías; estimación |
-| CURVA-CONDUIT-16 | Curva 90° conduit PVC pesado 16 mm | pza | 7.00 | 1 | Estimación de ferretería ($7-10 con IVA); sin cotización directa |
-| CUELLO-CERA | Cuello de cera con guía para inodoro | pza | 50.00 | 1 | Coflex PB-104/PB-108 en Home Depot; rango $45-80 con IVA (homedepot.com.mx); estimación |
-| COPLE-CU-13 | Cople de cobre 13 mm cobre a cobre | pza | 12.00 | 1 | Estimación ≈0.7 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa |
-| COPLE-CONDUIT-16 | Cople conduit PVC pesado 16 mm | pza | 3.00 | 1 | Estimación de ferretería ($3-5 con IVA); sin cotización directa |
-| CODO-PVC-SAN-100 | Codo PVC sanitario 100 mm x 90° para cementar | pza | 65.00 | 1 | Rango tiendas en línea 2026 (ferreflex.mx, plomeriaselecta.com, construrama.com) aprox. $60-95 con IVA para norma sanitaria; el de $250 es hidráulico cédula 80 (toolferreterias.com), no aplica. Sin cotización directa |
-| CINTA-AISLAR | Cinta de aislar vinílica 19 mm x 18 m | pza | 25.00 | 1 | Rollo 3M/Truper $25-45 con IVA en ferreterías; estimación |
-| CHAPA-PASO | Cerradura cilíndrica de paso/recámara tipo Phillips | pza | 250.00 | 1 | Phillips Omega MX7214 $71 (económica) a Gamma latón $300-450 con IVA (elgrantlapalero.com, sodimac.com.mx); se toma gama media |
-| CANAL-LISTON-C26 | Canal listón galvanizado cal. 26 (pieza 3.05 m) | m | 15.00 | 1 | Pieza 3.05 m ≈ $46 sin IVA; referencia: similar a canaleta de carga cal. 22 ($45-62/pza, MN Home Center); precio web de canal listón no visible |
-| BISAGRA-LAT-35 | Bisagra latonada 3 1/2 x 3 1/2 in | pza | 45.00 | 1 | Bisagra latonada 3x3 par en Lewonski / Home Depot; 3 1/2 in $40-70 con IVA; estimación |
-| BARNIZ-NAT | Barniz natural para madera interior (poliuretano/nitro) | l | 300.00 | 1 | Comex Polyform barniz 1 L ≈$320-420 con IVA (comex.com.mx, mercadolibre); estimación |
-| ALAMBRON-2 | Alambrón #2 (1/4 in) para estribos | ton | 17,586.21 | 1 | Menudeo $20.4/kg (Home Depot México, https://www.homedepot.com.mx/p/alambron-de-acero-1-4-o-635-mm-025o-venta-por-kilo-01-abr-749917, según resumen de búsqueda); ferreterías hasta $80/kg en piezas sueltas. Se toma $20,400/ton, a la par de VAR-3 · convertido a precio sin IVA (÷1.16) |
-| ALAMBRE-GALV-12 | Alambre galvanizado cal. 12 para colgantes | kg | 55.00 | 1 | Referencia de mercado ferretería $55-70/kg con IVA |
-| ADH-CREST-BLANCO | Adhesivo Crest blanco para loseta (saco 20 kg) | kg | 11.50 | 1 | Saco 20 kg ≈ $230 sin IVA (Home Depot / Bedon / Matefast listan el producto; precio no visible en consulta; rango de mercado $240-290 con IVA). Rendimiento del fabricante 6.0 m²/saco (https://crest.com.mx/crest-blanco/) |
-| ABRAZ-CU-13 | Abrazadera tipo U para tubo de 13 mm con taquete y pija | pza | 5.00 | 1 | Estimación de ferretería (abrazadera $3 + taquete y pija $2); sin cotización directa |
+| Insumo | Descripción | Unidad | Precio | Tarjetas | Estado | Fuente |
+|---|---|---|---|---|---|---|
+| AGUA | Agua para construcción | m3 | 60.00 | 14 | referencia | Pipa en obra |
+| MAD-PINO3 | Madera de pino de 3a para cimbra | pt | 27.00 | 7 | referencia | Tabla pino 3a 19 mm x 30 cm x 2.50 m (≈6.0 pt) $186 con IVA en Barata del Valle → ≈$31/pt con IVA, $27/pt sin IVA; SIPRE nacional 2019 $13.09/pt en aserradero |
+| CLAVO-2.5 | Clavo estándar para madera 2 1/2 pulg | kg | 40.00 | 7 | referencia | Estimación de mercado $35-50/kg con IVA en ferreterías (Home Depot, Construrama, Materiales Vite no muestran precio en línea); sin cotización directa |
+| ALAMBRE-REC | Alambre recocido cal. 18 | kg | 38.00 | 7 | referencia | Referencia de mercado |
+| VAR-3 | Varilla corrugada #3 (3/8) Fy 4200 | ton | 17,672.41 | 3 | referencia | Ternium/GASA 2026 (Materiales Cortés) · convertido a precio sin IVA (÷1.16) |
+| PIJA-TAQ-MARCO | Pija 2 1/2 in con taquete de plástico 5/16 para fijar marco | pza | 2.00 | 3 | referencia | Estimación de ferretería |
+| DIESEL | Diésel (desmoldante para cimbra) | l | 24.00 | 3 | referencia | Precio al público ≈$27-28/l con IVA en 2026 → ≈$24/l sin IVA; sin cotización directa |
+| TORN-PANEL-1 | Tornillo tipo S punta fina 1 in para panel de yeso | pza | 0.30 | 2 | referencia | Caja de 1,000 pzas ≈ $300 sin IVA (referencia de mercado; sin cotización web visible) |
+| TORN-FRAMER | Tornillo framer 7/16 in punta fina para unir perfiles | pza | 0.30 | 2 | referencia | Caja de 1,000 pzas ≈ $300 sin IVA (referencia de mercado) |
+| THINNER | Thinner estándar | l | 50.00 | 2 | referencia | Thinner a granel $45-70/l con IVA; estimación |
+| PERFACINTA | Cinta de papel para juntas de panel de yeso (rollo 75 m) | m | 1.10 | 2 | referencia | Rollo 75 m ≈ $80 sin IVA (referencia de mercado; tablarocaguadalajara.com lista Redimix y Perfacinta sin precio visible) |
+| PANEL-YESO-13 | Panel de yeso regular 13 mm (1/2 in) 1.22 x 2.44 m (2.977 m²) | pza | 195.00 | 2 | referencia | Referencia de mercado $210-260 con IVA por hoja (Panel Rey / USG Tablaroca en Home Depot, Construrama; precios web no visibles en consulta) → $195 sin IVA |
+| LIJA-MAD | Lija para madera (pliego) | pza | 10.00 | 2 | referencia | Pliego de lija Fandeli $10-15 con IVA; estimación |
+| CAL-HID | Cal hidratada (bulto 25 kg) | ton | 3,600.00 | 2 | referencia | Referencia de mercado |
+| YEE-PVC-SAN-100 | Yee PVC sanitario 100 mm para cementar | pza | 95.00 | 1 | referencia | Estimación ≈1.5 × codo del mismo diámetro (proporción habitual en listas de precios de conexiones sanitarias); sin cotización directa |
+| TEE-CU-13 | Tee de cobre 13 mm cobre a cobre | pza | 25.00 | 1 | referencia | Estimación ≈1.5 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa |
+| SOP-TUBO-100 | Abrazadera colgante para tubo de 100 mm con taquete y pija (juego) | pza | 28.00 | 1 | referencia | Estimación de ferretería: abrazadera tipo omega/solera 4 in $20-30 + taquete y pija $3; sin cotización directa |
+| SILICON-CART | Silicón sellador transparente cartucho 300 ml | pza | 90.00 | 1 | referencia | Cartucho de silicón acético $80-120 con IVA en ferreterías; estimación |
+| SELLADOR-MAD | Sellador para madera base solvente | l | 180.00 | 1 | referencia | Sellador Comex/Polyform 1 L ≈$180-240 con IVA; estimación |
+| PRUEBA-CONC | Muestreo en obra, revenimiento y resistencia a compresión de concreto (juego de 4 cilindros 15x30) | juego | 900.00 | 1 | referencia | Laboratorio acreditado: compresión $101-125 por cilindro, cabeceo $54, elaboración y curado de 3 cilindros + compresión $442 (tarifas 2023 de laboratorios, platiica.economia.gob.mx); se suma visita de muestreo y actualización a 2026. Estimación sin cotización directa |
+| PIJA-TAQ-WC | Juego de pijas y taquetes para fijar inodoro | pza | 30.00 | 1 | referencia | Juego de tornillos de sujeción para sanitario $25-45 con IVA; estimación |
+| PEGAZULEJO-GRIS | Pegazulejo gris base cemento (bulto 20 kg) | kg | 7.50 | 1 | referencia | Bulto 20 kg ≈ $150 sin IVA (Home Depot, Barata del Valle, Azulemex listan el producto; rango de mercado $150-200 con IVA) |
+| PEGA-BLANCO | Pegamento blanco para madera (Resistol 850) | l | 95.00 | 1 | referencia | Resistol 850 1 L ≈$100-130 con IVA; estimación |
+| MANG-COFLEX-WC | Manguera flexible trenzada para WC 13 x 22 mm x 35 cm | pza | 75.00 | 1 | referencia | Coflex $70-120 con IVA (homedepot.com.mx); estimación |
+| MAD-PINO1 | Madera de pino de 1a cepillada (tabla/barrote) | pt | 42.00 | 1 | referencia | Pino de 1a ≈1.5 × pino de 3a (MAD-PINO3 $27/pt); tablas de pino 1a $18-95 por pieza según escuadría (maderastriplay.com 2026); sin cotización de maderería de Morelia |
+| LLAVE-ANGULAR | Llave angular de control 1/2 x 3/8 cuarto de vuelta | pza | 110.00 | 1 | referencia | Coflex IP-120 y equivalentes $100-180 con IVA (homedepot.com.mx, mercadolibre); estimación |
+| LIJA-AGUA | Lija de agua / esmeril para metal (pliego) | pza | 12.00 | 1 | referencia | Referencia de mercado ferretería $12-16 con IVA por pliego |
+| GRAPA-CONDUIT-16 | Abrazadera omega para conduit 16 mm con taquete y pija | pza | 2.50 | 1 | referencia | Estimación de ferretería; sin cotización directa |
+| GAS-SOPLETE | Cartucho de gas propano 400 g para soplete | pza | 110.00 | 1 | referencia | Cartucho 400 g $110-140 con IVA en ferreterías; estimación |
+| FUNDENTE | Pasta fundente para soldar cobre | kg | 450.00 | 1 | referencia | Frasco 100 g ≈$50-60 con IVA en ferreterías; estimación |
+| CURVA-CONDUIT-16 | Curva 90° conduit PVC pesado 16 mm | pza | 7.00 | 1 | referencia | Estimación de ferretería ($7-10 con IVA); sin cotización directa |
+| CUELLO-CERA | Cuello de cera con guía para inodoro | pza | 50.00 | 1 | referencia | Coflex PB-104/PB-108 en Home Depot; rango $45-80 con IVA (homedepot.com.mx); estimación |
+| COPLE-CU-13 | Cople de cobre 13 mm cobre a cobre | pza | 12.00 | 1 | referencia | Estimación ≈0.7 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa |
+| COPLE-CONDUIT-16 | Cople conduit PVC pesado 16 mm | pza | 3.00 | 1 | referencia | Estimación de ferretería ($3-5 con IVA); sin cotización directa |
+| CODO-PVC-SAN-100 | Codo PVC sanitario 100 mm x 90° para cementar | pza | 65.00 | 1 | referencia | Rango tiendas en línea 2026 (ferreflex.mx, plomeriaselecta.com, construrama.com) aprox. $60-95 con IVA para norma sanitaria; el de $250 es hidráulico cédula 80 (toolferreterias.com), no aplica. Sin cotización directa |
+| CINTA-AISLAR | Cinta de aislar vinílica 19 mm x 18 m | pza | 25.00 | 1 | referencia | Rollo 3M/Truper $25-45 con IVA en ferreterías; estimación |
+| CHAPA-PASO | Cerradura cilíndrica de paso/recámara tipo Phillips | pza | 250.00 | 1 | referencia | Phillips Omega MX7214 $71 (económica) a Gamma latón $300-450 con IVA (elgrantlapalero.com, sodimac.com.mx); se toma gama media |
+| CANAL-LISTON-C26 | Canal listón galvanizado cal. 26 (pieza 3.05 m) | m | 15.00 | 1 | referencia | Pieza 3.05 m ≈ $46 sin IVA; referencia: similar a canaleta de carga cal. 22 ($45-62/pza, MN Home Center); precio web de canal listón no visible |
+| BISAGRA-LAT-35 | Bisagra latonada 3 1/2 x 3 1/2 in | pza | 45.00 | 1 | referencia | Bisagra latonada 3x3 par en Lewonski / Home Depot; 3 1/2 in $40-70 con IVA; estimación |
+| BARNIZ-NAT | Barniz natural para madera interior (poliuretano/nitro) | l | 300.00 | 1 | referencia | Comex Polyform barniz 1 L ≈$320-420 con IVA (comex.com.mx, mercadolibre); estimación |
+| ALAMBRON-2 | Alambrón #2 (1/4 in) para estribos | ton | 17,586.21 | 1 | referencia | Menudeo $20.4/kg (Home Depot México, https://www.homedepot.com.mx/p/alambron-de-acero-1-4-o-635-mm-025o-venta-por-kilo-01-abr-749917, según resumen de búsqueda); ferreterías hasta $80/kg en piezas sueltas. Se toma $20,400/ton, a la par de VAR-3 · convertido a precio sin IVA (÷1.16) |
+| ALAMBRE-GALV-12 | Alambre galvanizado cal. 12 para colgantes | kg | 55.00 | 1 | referencia | Referencia de mercado ferretería $55-70/kg con IVA |
+| ADH-CREST-BLANCO | Adhesivo Crest blanco para loseta (saco 20 kg) | kg | 11.50 | 1 | referencia | Saco 20 kg ≈ $230 sin IVA (Home Depot / Bedon / Matefast listan el producto; precio no visible en consulta; rango de mercado $240-290 con IVA). Rendimiento del fabricante 6.0 m²/saco (https://crest.com.mx/crest-blanco/) |
+| ABRAZ-CU-13 | Abrazadera tipo U para tubo de 13 mm con taquete y pija | pza | 5.00 | 1 | referencia | Estimación de ferretería (abrazadera $3 + taquete y pija $2); sin cotización directa |
 
 ## Supuestos por tarjeta
 

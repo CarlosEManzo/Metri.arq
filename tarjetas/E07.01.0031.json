@@ -1,0 +1,109 @@
+{
+  "clave_cb": "E07.01.0031",
+  "gubim": "20.20.10.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.30.10.10",
+      "condicion": "si es escalera interior no estructural"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-NEGRO-CED",
+      "cantidad": 101.241,
+      "desperdicio": 0.05,
+      "nota": "Tubo central ced. 40 de 4 in 6.3 m × 16.07 kg/m"
+    },
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 53.312,
+      "desperdicio": 0.08,
+      "nota": "28 escalones: marco de ángulo 1 x 1/8 1.6 m c/u × 1.19 kg/m"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 74.789881,
+      "desperdicio": 0.1,
+      "nota": "Peldaños de solera 1 x 1/8 2.7 m c/u (47.6 kg) + pasamanos de solera 1 1/2 x 3/16 en hélice de 10.1 m (14.4 kg) + 2 soleras intermedias 1 x 1/8 (12.8 kg)"
+    },
+    {
+      "insumo": "TUBO-NEGRO-CED",
+      "cantidad": 52.92,
+      "desperdicio": 0.05,
+      "nota": "28 postes de barandal de tubo ced. 30 de 1 in × 0.90 m (2.10 kg/m)"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 15.9512,
+      "desperdicio": 0.1,
+      "nota": "Placa de desplante 0.40 x 0.40 x 1/2 in"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 5.964,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (298.2 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 11.93,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 2.5,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 20.00 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 4.444444,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 20.00 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 2.0,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Anclaje de la placa de desplante"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.28,
+    "fuente": "0.28 pza/jor Of herrero + Ay ≈3.6 jornadas por escalera (catálogo: 0.4): ≈300 kg de herrería ligera con muchos cortes y cordones, a 80-90 kg/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 14.2857,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈298.2 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Escalera de 2 vueltas (14 escalones por vuelta), radio 0.65 m.",
+    "Área pintada ≈20 m²: tubo central 2.3 + escalones 11 + barandal 6.5.",
+    "Montaje sin grúa; fijación superior a la losa con placa y taquetes incluida en la placa de desplante.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

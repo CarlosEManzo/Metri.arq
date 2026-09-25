@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E06.05.0028",
+  "gubim": "40.40.10.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.30",
+      "condicion": "marcaje sobre pavimento de tráfico rodado en urbanización"
+    },
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se modela como pintura genérica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PINT-TRAFICO-BS",
+      "cantidad": 0.21,
+      "desperdicio": 0.1,
+      "nota": "Desarrollo 0.35 m × 2 manos a brocha/rodillo ≈0.30 L/m² por mano"
+    },
+    {
+      "insumo": "MICROESFERA",
+      "cantidad": 0.14,
+      "desperdicio": 0.1,
+      "nota": "Microesfera 0.4 kg/m² sembrada en la segunda mano × 0.35 m²/m"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.035,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m/jor Of pintor (catálogo: 80): limpieza con cepillo de alambre y 2 manos a brocha en cara superior y frontal de la guarnición"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Guarnición de concreto con desarrollo pintado de 0.35 m (corona + cara vista), pintura amarilla base solvente.",
+    "Par CDMX aproximado: UB14BC esmalte alquidálico amarillo en guarnición $125.04/m² × 0.35 = $43.76/m (no cargado)."
+  ],
+  "cdmx_no_comparable": "Los precios del tabulador CDMX de raya y flechas (UB13BB raya 10 cm $15.68/m; UB13FF flecha $246.39) son de balizamiento vial con máquina autopropulsada en grandes longitudes; aquí se pinta en obra privada con pintarrayas manual, trazo y limpieza",
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

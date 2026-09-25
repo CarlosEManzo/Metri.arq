@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E06.05.0055",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.40",
+      "condicion": "si se aplica en fachada exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "COREV-CORVBLOCK",
+      "cantidad": 3.5,
+      "desperdicio": 0.05,
+      "nota": "Corevblock F (fino) sobre block ≈3.5 kg/m² en una capa; 5 % por merma en cubeta y llana"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "Humedecido del block"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Limpieza y lijado de rebabas del aplanado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor Of pintor + Ay (catálogo: 25 m²/jor Of solo). Pasta texturizada en una capa a llana o rodillo: 30-35 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Consumo de pasta según tipo de grano; Corev no publica precio: el precio del insumo es referencia por gama (ver fuente).",
+    "Aplicación directa sobre block, ladrillo o repellado sin aplanado previo; hasta 3.00 m de altura."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

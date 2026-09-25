@@ -35,5 +35,6 @@
   ],
   "comparar_costo_directo": true,
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Básico a costo directo contra CDMX F2*C10, que es 1:0.25:4 ($2,505.08): esta mezcla 1:0.25:3 lleva 0.40 t de cemento por m³, ≈25 % más que la 1:0.25:4, y suma la elaboración con revolvedora ($729/m³). Materiales de la tarjeta $2,484."
 }

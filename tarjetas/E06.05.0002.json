@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E06.05.0002",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se aplica en muro"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MEZ-CAL-CBL-MARMOL",
+      "cantidad": 0.006,
+      "desperdicio": 0.05,
+      "nota": "Tirol rústico ≈6 mm de espesor medio lanzado con tirolera; 5 % por rebote"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 38.0,
+    "fuente": "38 m²/jor Of + Pe (catálogo: 25 m²/jor Of solo). Tirol lanzado con tirolera manual en plafón; el peón prepara la mezcla; publicados 30-45 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón con aplanado o superficie preparada y humedecida; hasta 3.00 m de altura con andamio de caballetes de la obra.",
+    "La mezcla se analiza como básico MEZ-CAL-CBL-MARMOL (tarjeta E06.05.0001)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

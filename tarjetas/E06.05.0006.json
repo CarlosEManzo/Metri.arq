@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E06.05.0006",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si se aplica en herrería exterior de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ESMALTE-C100",
+      "cantidad": 0.010667,
+      "desperdicio": 0.05,
+      "nota": "0.04 m²/kg (perfiles pesados: IPR 6-10 in ≈ 0.025-0.035, ángulos y canales de 4-6 in ≈ 0.04-0.05 m²/kg) × 2 manos / 7.5 m²/L por mano con compresora"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.0032,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.08 L/m²"
+    },
+    {
+      "insumo": "LIJA-AGUA",
+      "cantidad": 0.004,
+      "desperdicio": 0.0,
+      "nota": "Lijado y desoxidado, 1 pliego por 10 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1125.0,
+    "fuente": "1125 kg/jor Of pintor + Ay = 45 m²/jor ÷ 0.04 m²/kg (catálogo: 600 kg/jor). El ayudante limpia, voltea y acomoda piezas"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresora portátil 2 HP con pistola de aspersión",
+      "horas": 0.0071,
+      "costo_horario": 40.0
+    }
+  ],
+  "supuestos": [
+    "Área por kg: perfiles pesados: IPR 6-10 in ≈ 0.025-0.035, ángulos y canales de 4-6 in ≈ 0.04-0.05 m²/kg.",
+    "Estructura ya con primario anticorrosivo; esmalte a 2 manos con compresora.",
+    "Compresora $40/h durante la jornada (referencia).",
+    "Rendimiento en m² menor que en perfiles ligeros por maniobras de volteo de piezas pesadas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

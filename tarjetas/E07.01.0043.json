@@ -1,0 +1,109 @@
+{
+  "clave_cb": "E07.01.0043",
+  "gubim": "30.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.20.10",
+      "condicion": "si es reja de cierre de parcela"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 7.955,
+      "desperdicio": 0.08,
+      "nota": "Poste PTR 3 x 3 de 3.2 mm (7.4 kg/m) × 2.15 m a cada 2 m"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 0.79756,
+      "desperdicio": 0.1,
+      "nota": "Placa A-36 5/16 in 0.16 x 0.16 m por poste, a cada 2 m"
+    },
+    {
+      "insumo": "CUADRADO-ACERO",
+      "cantidad": 19.226185,
+      "desperdicio": 0.08,
+      "nota": "Barrotes de cuadrado 12.7 mm a cada 0.173 m (5.8/m × 2.1 m) + 3 largueros"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 2.731194,
+      "desperdicio": 0.1,
+      "nota": "Aros Ø 16 cm de solera 3/16 x 1/2 en 2 hileras, uno por claro entre barrotes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.614,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (30.7 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 1.23,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.18375,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 1.47 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.326667,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 1.47 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.147,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "PUNTA-LANZA-5",
+      "cantidad": 5.780347,
+      "desperdicio": 0.0,
+      "nota": "Punta de 5 puntas por barrote"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "4 taquetes por placa a cada 2 m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 m/jor Of herrero + Ay (catálogo: 12): ≈32 kg/m de herrería con 12 aros rolados y 6 puntas por metro, postes con placa, colocación y pintura"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 2.6667,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈30.7 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada ≈1.6 m²/m.",
+    "Dos hileras de aros (el concepto no indica el número).",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "desviacion_justificada": "Peso ≈31 kg/m (poste 8.0 + placa 0.8 + cuadrado 19.2 + aros 2.9 kg): a precio CDMX EG12BB de acero en puertas, ventanas y rejas ($75.66/kg con indirecto de 27.51 %) daría $2,345/m + puntas $145 = $2,490/m, y con EG17BC tubular ($95.74/kg) $3,110/m; la tarjeta ($3,516/m, ≈$113/kg) queda arriba de ambos. El P.U. actualizado ($5,967/m) implica ≈$190/kg, fuera de mercado para herrería de barrote y aros",
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

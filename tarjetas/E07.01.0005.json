@@ -1,0 +1,108 @@
+{
+  "clave_cb": "E07.01.0005",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si es puerta interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBULAR-C18",
+      "cantidad": 23.52,
+      "desperdicio": 0.08,
+      "nota": "Marco tubular P-150 cal. 18 8.12 m × 1.5 kg/m (perímetro + intermedios) + contramarco M-225 cal. 18 5.40 m × 2.1 kg/m"
+    },
+    {
+      "insumo": "LAM-NEGRA-C20",
+      "cantidad": 2.2,
+      "desperdicio": 0.08,
+      "nota": "Tablero de lámina 140 cal. 20 de 1.00 x 2.20 m (una cara); cal. 20 negra como equivalente"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.787,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈0.02 kg de electrodo por kg de herrería ligera (39.4 kg)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 1.57,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 25 kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.86125,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo 1 mano a 8 m²/L sobre 6.89 m² (área de perfiles y lámina, ambas caras)"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 1.531111,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos a 9 m²/L (brocha, superficies con aristas) sobre 6.89 m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.689,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.10 L/m²"
+    },
+    {
+      "insumo": "BISAGRA-TUB-58",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 bisagras tubulares 5/8"
+    },
+    {
+      "insumo": "CERR-SOBREPONER",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cerradura de sobreponer"
+    },
+    {
+      "insumo": "REDONDO-A36",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Anclas de redondo 3/8 para contramarco (≈1 kg)"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.01,
+      "desperdicio": 0.05,
+      "nota": "Mortero para empotrar anclas o contramarco"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.95,
+    "fuente": "0.95 pza/jor Of herrero + Ay (catálogo: 1.5): habilitado, armado y soldadura de marco, contramarco y tablero, colocación, pintura y ajuste de cerradura; publicados 0.8-1.2 puertas/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 4.2105,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Peso de acero de proyecto ≈39.4 kg (sin desperdicio); pesos por metro de catálogos Prolamsa/AHMSA (ver notas).",
+    "Área pintada 6.9 m²: lámina 2 caras + perfiles tubulares (0.16 y 0.22 m²/m).",
+    "Pesos Prolamsa cal. 18 estimados por perímetro desarrollado × 1.21 mm × 7,850 kg/m³: P-150 ≈1.5 kg/m, M-225 ≈2.1 kg/m.",
+    "Máquina de soldar $45/h durante ≈50 % de la jornada (referencia sin cotización)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

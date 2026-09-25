@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E06.05.0009",
+  "gubim": "40.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si se aplica en herrería exterior de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ESMALTE-C100",
+      "cantidad": 0.024,
+      "desperdicio": 0.05,
+      "nota": "0.09 m²/kg (PTR cal. 14-16 de 1 a 2 in: PTR 1 1/2 cal. 14 = 0.152 m²/m ÷ 2.1 kg/m = 0.072; PTR 1 in cal. 16 = 0.092 m²/kg; solo cara exterior) × 2 manos / 7.5 m²/L por mano con compresora"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.0072,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza 0.08 L/m²"
+    },
+    {
+      "insumo": "LIJA-AGUA",
+      "cantidad": 0.009,
+      "desperdicio": 0.0,
+      "nota": "Lijado y desoxidado, 1 pliego por 10 m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 666.7,
+    "fuente": "666.7 kg/jor Of pintor + Ay = 60 m²/jor ÷ 0.09 m²/kg (catálogo: 600 kg/jor). El ayudante limpia, voltea y acomoda piezas"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresora portátil 2 HP con pistola de aspersión",
+      "horas": 0.012,
+      "costo_horario": 40.0
+    }
+  ],
+  "supuestos": [
+    "Área por kg: PTR cal. 14-16 de 1 a 2 in: PTR 1 1/2 cal. 14 = 0.152 m²/m ÷ 2.1 kg/m = 0.072; PTR 1 in cal. 16 = 0.092 m²/kg; solo cara exterior.",
+    "Estructura ya con primario anticorrosivo; esmalte a 2 manos con compresora.",
+    "Compresora $40/h durante la jornada (referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

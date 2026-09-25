@@ -1,0 +1,57 @@
+{
+  "clave_cb": "E06.05.0029",
+  "gubim": "40.40.10.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.30",
+      "condicion": "marcaje sobre pavimento de tráfico rodado en urbanización"
+    },
+    {
+      "clave": "40.10.20.40",
+      "condicion": "si se modela como pintura genérica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PINT-TRAFICO-BS",
+      "cantidad": 0.4,
+      "desperdicio": 0.1,
+      "nota": "Una mano de 16 milésimas ≈0.40 L/m² en toda el área de la marimba"
+    },
+    {
+      "insumo": "MICROESFERA",
+      "cantidad": 0.5,
+      "desperdicio": 0.1,
+      "nota": "Microesfera 0.5 kg/m²"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PIN",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor Of pintor + Ay (catálogo: 60 m²/jor Of solo): trazo y encintado de franjas alternas, aplicación con rodillo"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Se mide el área pintada de franjas; las franjas alternas sin pintura no se pagan.",
+    "Pintura base solvente amarilla con microesfera."
+  ],
+  "cdmx_no_comparable": "Los precios del tabulador CDMX de raya y flechas (UB13BB raya 10 cm $15.68/m; UB13FF flecha $246.39) son de balizamiento vial con máquina autopropulsada en grandes longitudes; aquí se pinta en obra privada con pintarrayas manual, trazo y limpieza",
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

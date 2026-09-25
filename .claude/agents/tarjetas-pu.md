@@ -124,6 +124,9 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
   - `cotizado`: precio de un proveedor para Morelia;
   - `validado con rango de mercado`: dentro de un rango publicado;
   - `referencia`: estimación sin fuente directa. Úsalo solo si no hay nada mejor y dilo en tu reporte.
+  - `derivado del catálogo`: el precio (o la diferencia entre modelos) sale del P.U. de Construbase.
+    La tarjeta queda cerca del P.U. actualizado por construcción, así que esa comparación no la valida;
+    es la prioridad para cotizar.
 - Los precios son puestos en obra, sin IVA.
 - No cambies el precio de un insumo que ya usan otras tarjetas sin avisarlo en el reporte:
   el cambio afecta a todas.

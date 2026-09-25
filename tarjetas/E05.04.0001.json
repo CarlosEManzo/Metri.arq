@@ -1,15 +1,15 @@
 {
   "clave_cb": "E05.04.0001",
-  "gubim": "40.10.10.10",
-  "gubim_confianza": "alta",
+  "gubim": "40.10.10.30",
+  "gubim_confianza": "media",
   "gubim_alternativas": [
-    {
-      "clave": "40.10.10.30",
-      "condicion": "trasdosado: forro de una cara sobre bastidor adosado a muro existente"
-    },
     {
       "clave": "30.10.10.20",
       "condicion": "si es muro exterior o de fachada ligera"
+    },
+    {
+      "clave": "40.10.10.10",
+      "condicion": "si se modela como tabique completo"
     }
   ],
   "materiales": [
