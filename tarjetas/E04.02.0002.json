@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E04.02.0002",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {"clave": "30.10.10.10", "condicion": "si el muro es de fachada"},
+    {"clave": "20.20.10.30", "condicion": "si el muro es de carga"}
+  ],
+  "materiales": [
+    {"insumo": "TAB-ROJO", "cantidad": 0.040, "desperdicio": 0.05,
+     "nota": "Tabique 7x14x28 a soga, junta 1.5 cm: 1/((0.28+0.015)x(0.07+0.015)) = 39.9 → 40 pza/m² = 0.040 millar"},
+    {"basico": "MOR-1:5", "cantidad": 0.030, "desperdicio": 0.03,
+     "nota": "0.14 m³ de muro − 40 x (0.28x0.14x0.07) = 0.030 m³/m² (juntas de 1.5 cm)"}
+  ],
+  "mano_obra": {
+    "cuadrilla": [{"categoria": "OF-ALB", "personas": 1}, {"categoria": "PEON", "personas": 1}],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of+Pe (rendimiento del catálogo). APU publicados: 8.44 m²/jor Of+Pe (0.1184 jor/m², Scribd/analisisdepreciosunitarios.com) y 10 m²/jor; rango 8-10. El peón elabora el mortero a mano"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro a soga (espesor 14 cm), junta de 1.5 cm, acabado común (sin aplanado).",
+    "Muro hasta 3.00 m de altura, sin andamio.",
+    "Castillos, cadenas y refuerzo horizontal se pagan por separado.",
+    "Tabique de fabricación artesanal: las medidas reales varían; se toman nominales 7x14x28."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

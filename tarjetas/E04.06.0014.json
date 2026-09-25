@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E04.06.0014",
+  "gubim": "20.10.40.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si es firme exterior peatonal (patio, andador)"
+    },
+    {
+      "clave": "70.30.30",
+      "condicion": "si es firme exterior con tránsito vehicular (cochera descubierta)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "1.00 x 1.00 x 0.10 m = 0.100 m³/m²; 5 % por irregularidad de la base"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.045,
+      "desperdicio": 0.0,
+      "nota": "Fronteras con tabla 3/4\"x4\" (0.25 pt/m) a 0.67 m/m² (tableros alternados de 3x3 m) + estacas ≈ 0.22 pt/m², 5 usos → 0.045 pt/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor Of+2Pe (rendimiento del catálogo; 3.0 m³/jor de concreto con revolvedora). Tablas publicadas: 25 m²/jor Of+Pe para firme de 10 cm hecho en obra (0.040 jor/m²); con un peón más el rango es 25-35"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.2667,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Terreno ya nivelado y compactado (la compactación se paga aparte).",
+    "Concreto hecho en obra con revolvedora durante toda la jornada de la cuadrilla (8 h / 30 m² = 0.267 h/m²); costo horario de revolvedora $95/h igual al de la tarjeta de referencia, sin cotización propia.",
+    "Acabado común: regleado y nivelado; sin malla electrosoldada, sin polietileno y sin curado con membrana.",
+    "Acarreos hasta 20 m dentro de la obra; clavo de fronteras cubierto por la herramienta menor.",
+    "Alerta +35 % contra el tabulador CDMX GH12BE ($337.64) revisada y aceptada: el concreto hecho en obra (0.105 m³ × ≈$2,270/m³ de materiales = $238/m²) ya supera el costo directo implícito del tabulador (≈$263), cuyo rendimiento implícito (14,613 m²/jor) indica que casi no carga mano de obra; es un precio de obra pública por volumen. Contra el P.U. actualizado de Construbase la diferencia es +5.7 %. El precio del cemento (CEM-GRIS) sigue como referencia y es el insumo que más pesa."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,12 @@
+clave,descripcion,unidad,precio,fuente,fecha,estado
+CEM-GRIS,Cemento gris CPC 30R (bulto 50 kg),ton,5200.00,"Bulto $260 (rango nacional 2026 $240-280, Construction Supply Magazine)",2026-08,referencia
+CAL-HID,Cal hidratada (bulto 25 kg),ton,3600.00,Referencia de mercado,2026-08,referencia
+ARENA,Arena de río puesta en obra,m3,550.00,Rango 2026 $400-600/m3 a granel; hasta $730-760 con entrega (Construction Supply Magazine). Se toma valor puesto en obra,2026-08,validado con rango de mercado
+GRAVA-19,Grava de 19 mm puesta en obra,m3,600.00,Rango 2026 $450-650/m3 a granel; hasta $730-760 con entrega (Construction Supply Magazine). Se toma valor puesto en obra,2026-08,validado con rango de mercado
+AGUA,Agua para construcción,m3,60.00,Pipa en obra,2026-08,referencia
+BLK-15,Block hueco de concreto 15x20x40 cm,pza,14.50,Rango 2026 $12-18/pza (Construction Supply Magazine); sin cotización específica de Morelia,2026-08,validado con rango de mercado
+TAB-ROJO,Tabique rojo recocido 7x14x28 cm,millar,5000.00,"Menudeo $5.80-7.00/pza; millar CDMX ~$7,000; Michoacán es región productora (Construction Supply Magazine, Matefast)",2026-08,validado con rango de mercado
+ESCAL-15,Escalerilla de acero para muro de 15 cm,m,6.50,Escalerilla cal. 12 $6.50/m (bases de costos); pieza de 3 m $12-16,2026-08,validado con rango de mercado
+VAR-3,Varilla corrugada #3 (3/8) Fy 4200,ton,20500.00,Ternium/GASA 2026 (Materiales Cortés),2026-08,referencia
+ALAMBRE-REC,Alambre recocido cal. 18,kg,38.00,Referencia de mercado,2026-08,referencia
+MAD-PINO3,Madera de pino de 3a para cimbra,pt,27.00,"Tabla pino 3a 19 mm x 30 cm x 2.50 m (≈6.0 pt) $186 con IVA en Barata del Valle → ≈$31/pt con IVA, $27/pt sin IVA; SIPRE nacional 2019 $13.09/pt en aserradero",2026-09,referencia

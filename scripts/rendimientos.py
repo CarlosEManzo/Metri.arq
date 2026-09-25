@@ -106,7 +106,7 @@ _T = [
     ("mezcla", "M3", "", "Elaboración de mezcla o concreto en obra", "2Pe", 2),
     ("muro_tabique", "M2", "", "Muro de tabique o tabicón", "Of+Pe", 8),
     ("muro_tabique", "M", "", "Muro o mocheta de tabique por metro", "Of+Pe", 6),
-    ("muro_block", "M2", "", "Muro de block", "Of+Pe", 12),
+    ("muro_block", "M2", "", "Muro de block (APU publicados: 14 m²/jor)", "Of+Pe", 14),
     ("muro_piedra", "M2", "", "Muro de piedra braza", "Of+2Pe", 3),
     ("muro_piedra", "M3", "", "Mampostería de piedra braza", "Of+2Pe", 1.8),
     ("muro_covintec", "M2", "", "Muro de panel covintec", "Of+Ay", 15),

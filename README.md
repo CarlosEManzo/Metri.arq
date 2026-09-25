@@ -43,3 +43,27 @@ Si hay un tabulador en `referencias/`, `generar_tabla.py` agrega la hoja *Tabula
 Empareja cada concepto con el más parecido del Tabulador General de Precios Unitarios de la CDMX (misma unidad y mismas medidas) y compara precios. El resultado queda en `salida/comparacion_tabulador.csv`.
 
 > Los rendimientos **no vienen de Construbase**, porque el export no trae las matrices de precios unitarios. Son valores de referencia por validar; ver `AUDITORIA.md`.
+
+## Tarjetas de precio unitario con GuBIMclass
+
+Cada concepto puede tener su tarjeta de análisis de P.U.: materiales (con básicos desglosados), mano de obra (cuadrilla y rendimiento), herramienta y equipo, indirectos 15 %, financiamiento 1.5 % y utilidad 10 %. Cada tarjeta lleva su clave GuBIMclass.
+
+| Archivo | Contenido |
+|---|---|
+| `tarjetas/<clave>.json` | Definición de cada tarjeta: insumos, cantidades, cuadrilla, rendimiento y supuestos |
+| `datos/insumos.csv` | Precios de insumos puestos en obra, con fuente, fecha y estado de validación |
+| `datos/basicos.json` | Morteros y concretos hechos en obra, desglosados por m³ |
+| `datos/parametros_tarjeta.json` | Porcentajes, zona, fecha base y salarios reales por categoría |
+| `.claude/agents/tarjetas-pu.md` | Agente que elabora y valida las tarjetas |
+| `salida/tarjetas.sqlite`, `salida/Base_tarjetas_PU.xlsx` | Base de datos con todas las tarjetas (local) |
+
+```bash
+python3 scripts/tarjeta_pu.py                    # reconstruye la base de datos
+python3 scripts/tarjeta_pu.py --validar E04.02.0033
+python3 scripts/tarjeta_pu.py --pendientes ALBAÑILERIA
+python3 scripts/tarjeta_pu.py --pdf E04.02.0033  # PDF y Excel de una tarjeta, solo bajo pedido
+```
+
+Para el PDF hace falta Playwright con Chromium (`pip install playwright`). Las fuentes IBM Plex (licencia OFL) están en `plantillas/fuentes/`.
+
+**Validación de cada tarjeta.** Se compara contra el P.U. actualizado de Construbase y contra el tabulador de la CDMX cuando hay un par. Una diferencia mayor a ±25 % genera una alerta. También se muestra el rendimiento que implica el precio de la CDMX.

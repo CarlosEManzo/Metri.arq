@@ -1,0 +1,27 @@
+{
+  "empresa": "Métrica Estudio R&P",
+  "zona": "Morelia, Mich.",
+  "fecha_base": "ago-2026",
+  "indirectos": 0.15,
+  "financiamiento": 0.015,
+  "utilidad": 0.10,
+  "cargos_adicionales": 0.0,
+  "herramienta_menor": 0.03,
+  "nota_salarios": "Salario real por jornada (base × FSR), Michoacán 2026 = referencia 2017 × factor de mano de obra 1.65",
+  "categorias": {
+    "OF-ALB": ["Oficial albañil", 1237.50],
+    "OF-FIE": ["Oficial fierrero", 1237.50],
+    "OF-CAR": ["Oficial carpintero de obra negra", 1237.50],
+    "OF-PLO": ["Oficial plomero", 1237.50],
+    "OF-ELE": ["Oficial electricista", 1237.50],
+    "OF-YES": ["Oficial yesero / tablaroquero", 1237.50],
+    "OF-PIN": ["Oficial pintor", 1237.50],
+    "OF-HER": ["Oficial herrero", 1237.50],
+    "OF-ALU": ["Oficial aluminero", 1237.50],
+    "OF-COL": ["Oficial colocador de recubrimientos", 1237.50],
+    "AYU": ["Ayudante", 792.00],
+    "PEON": ["Peón", 693.00],
+    "TOPO": ["Topógrafo", 1650.00],
+    "CABO": ["Cabo de oficios", 1485.00]
+  }
+}

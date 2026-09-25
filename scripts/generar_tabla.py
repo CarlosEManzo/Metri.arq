@@ -491,6 +491,14 @@ def main():
         for c in conceptos:
             aj = ajustes.get(comparar_tabulador.grupo(c), (0, 0, 1.0))[2]
             c["pu_cdmx"] = round(c["pu_act"] * aj, 2)
+        with open(SALIDA / "pares_tabulador_cdmx.csv", "w", newline="", encoding="utf-8-sig") as f:
+            campos = ["clave_cb", "clave_tabulador", "concepto_tabulador", "pu_tabulador", "cociente", "origen"]
+            w = csv.DictWriter(f, fieldnames=campos, extrasaction="ignore")
+            w.writeheader()
+            for fila in canasta:
+                w.writerow({**fila, "origen": "canasta " + fila["equivalencia"]})
+            for fila in automaticos:
+                w.writerow({**fila, "origen": f"automático (similitud {fila['similitud']})"})
         print(f"Tabulador CDMX: canasta {len(canasta)}, pares automáticos {len(automaticos)}, "
               f"ajustes {({k: v[2] for k, v in ajustes.items() if v[2] != 1})}")
     hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend, rango_ajustes)

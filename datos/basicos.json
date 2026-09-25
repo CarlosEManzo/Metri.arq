@@ -1,0 +1,16 @@
+{
+  "MOR-1:3": {"descripcion": "Mortero cemento-arena 1:3", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.410], ["ARENA", 1.05], ["AGUA", 0.28]]},
+  "MOR-1:4": {"descripcion": "Mortero cemento-arena 1:4", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.330], ["ARENA", 1.08], ["AGUA", 0.27]]},
+  "MOR-1:5": {"descripcion": "Mortero cemento-arena 1:5", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.280], ["ARENA", 1.10], ["AGUA", 0.26]]},
+  "CON-100": {"descripcion": "Concreto hecho en obra f'c=100 kg/cm2, TMA 19 mm", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.250], ["ARENA", 0.54], ["GRAVA-19", 0.70], ["AGUA", 0.22]]},
+  "CON-150": {"descripcion": "Concreto hecho en obra f'c=150 kg/cm2, TMA 19 mm", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.300], ["ARENA", 0.52], ["GRAVA-19", 0.68], ["AGUA", 0.22]]},
+  "CON-200": {"descripcion": "Concreto hecho en obra f'c=200 kg/cm2, TMA 19 mm", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.350], ["ARENA", 0.50], ["GRAVA-19", 0.66], ["AGUA", 0.21]]},
+  "CON-250": {"descripcion": "Concreto hecho en obra f'c=250 kg/cm2, TMA 19 mm", "unidad": "m3",
+              "componentes": [["CEM-GRIS", 0.400], ["ARENA", 0.48], ["GRAVA-19", 0.64], ["AGUA", 0.21]]}
+}
