@@ -1,0 +1,84 @@
+{
+  "clave_cb": "E11.01.0023",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.20.20",
+      "condicion": "si la línea conduce agua fría de alimentación general"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-CU-M-13",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Tramos de 6.10 m; 3 % por cortes"
+    },
+    {
+      "insumo": "CODO-CU-13",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": "Conexiones proporcionales de red de vivienda: 1 codo cada 2 m"
+    },
+    {
+      "insumo": "TEE-CU-13",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "1 tee cada 5 m"
+    },
+    {
+      "insumo": "COPLE-CU-13",
+      "cantidad": 0.17,
+      "desperdicio": 0.0,
+      "nota": "1 cople por tramo de 6 m"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.006,
+      "desperdicio": 0.1,
+      "nota": "≈1.94 juntas/m (codo 2 + tee 3 + cople 2 bocas) × 3 g por junta de 13 mm ≈ 6 g/m"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.001,
+      "desperdicio": 0.0,
+      "nota": "≈0.5 g por junta"
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "1 cartucho de 400 g por ≈100 m de tubería de 13 mm"
+    },
+    {
+      "insumo": "ABRAZ-CU-13",
+      "cantidad": 0.67,
+      "desperdicio": 0.0,
+      "nota": "Abrazadera cada 1.50 m en tramos visibles o en ducto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m/jor Of plomero + Ay (rendimiento del catálogo). APU publicados para cobre 13 mm con conexiones: 25-40 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Instalación en muro ranurado o ducto; ranurado y resane se pagan aparte.",
+    "Conexiones proporcionales promedio de red de vivienda; válvulas y llaves se pagan aparte.",
+    "Prueba hidrostática con bomba manual incluida en herramienta menor.",
+    "El precio del cobre es volátil; el tubo pesa ≈70 % del material."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

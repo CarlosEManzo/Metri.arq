@@ -1,0 +1,42 @@
+{
+  "clave_cb": "E12.06.0021",
+  "gubim": "50.60.30.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CABLE-THW-12",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Cable por metro de circuito; 5 % por colas en cajas y empalmes"
+    },
+    {
+      "insumo": "CINTA-AISLAR",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "1 rollo de 18 m por ≈50 m de cable (empalmes y encintado de puntas)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 250.0,
+    "fuente": "250 m/jor Of electricista + Ay cableando en tubería ya instalada (APU publicados 200-300 m/jor para cal. 12-14). El catálogo da 200 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cableado dentro de tubería conduit existente; guía de acero incluida en la herramienta menor.",
+    "Conexiones a apagadores, contactos y tableros se pagan en sus conceptos.",
+    "Precio del cable de caja de 100 m (Condumex Vinanel XXI THW-LS); varía con el precio del cobre."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E12.02.0001",
+  "gubim": "50.60.30.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CONDUIT-PVC-16",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Tramos de 3 m; 5 % por cortes"
+    },
+    {
+      "insumo": "COPLE-CONDUIT-16",
+      "cantidad": 0.33,
+      "desperdicio": 0.0,
+      "nota": "1 cople por tramo de 3 m"
+    },
+    {
+      "insumo": "CURVA-CONDUIT-16",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "1 curva cada 10 m"
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.005,
+      "desperdicio": 0.0,
+      "nota": "≈0.53 juntas/m; un bote rinde ≈100 juntas de 1/2 in"
+    },
+    {
+      "insumo": "GRAPA-CONDUIT-16",
+      "cantidad": 0.67,
+      "desperdicio": 0.0,
+      "nota": "Soporte cada 1.50 m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 80.0,
+    "fuente": "80 m/jor Of electricista + Ay (APU publicados para conduit PVC 1/2 in: 70-100 m/jor). El catálogo da 60 m/jor; a ese valor la M.O. supera el 70 % del costo directo"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería ahogada en losa o muro ranurado, o visible sobre muro con abrazadera; ranurado y resane se pagan aparte.",
+    "Cajas de registro y chalupas se pagan en su concepto."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

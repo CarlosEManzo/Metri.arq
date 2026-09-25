@@ -1,0 +1,39 @@
+clave,descripcion,unidad,precio,fuente,fecha,estado
+TUBO-PVC-SAN-100,Tubo PVC sanitario norma 100 mm (4 in) en tramo de 6 m,m,43.00,"Tramo 6 m $199-479 con IVA (Surtidor.com feb-2026 $199; MN del Golfo $319 en oferta, lista $479; surtidor.com / mndelgolfo.com); se toma $300 con IVA = $259 sin IVA / 6 m",2026-09,validado con rango de mercado
+CODO-PVC-SAN-100,Codo PVC sanitario 100 mm x 90° para cementar,pza,65.00,"Rango tiendas en línea 2026 (ferreflex.mx, plomeriaselecta.com, construrama.com) aprox. $60-95 con IVA para norma sanitaria; el de $250 es hidráulico cédula 80 (toolferreterias.com), no aplica. Sin cotización directa",2026-09,referencia
+YEE-PVC-SAN-100,Yee PVC sanitario 100 mm para cementar,pza,95.00,"Estimación ≈1.5 × codo del mismo diámetro (proporción habitual en listas de precios de conexiones sanitarias); sin cotización directa",2026-09,referencia
+CEM-PVC-250,Cemento para PVC bote 250 ml,pza,68.00,"Foset/Truper PPVC-250 $79 con IVA (elferretero.com.mx, truper.com); rango $79-155 con IVA",2026-09,validado con rango de mercado
+SOP-TUBO-100,Abrazadera colgante para tubo de 100 mm con taquete y pija (juego),pza,28.00,"Estimación de ferretería: abrazadera tipo omega/solera 4 in $20-30 + taquete y pija $3; sin cotización directa",2026-09,referencia
+TUBO-CU-M-13,Tubo de cobre rígido tipo M 13 mm (1/2 in) en tramo de 6.10 m,m,68.00,"Tramo 6.10 m: Nacobre lista 2023 $510; Tool Ferreterías $269; Home Depot/Construrama con precio variable por cobre 2026. Se toma $480 con IVA = $414 sin IVA / 6.10 m",2026-09,validado con rango de mercado
+CODO-CU-13,Codo de cobre 90° 13 mm cobre a cobre,pza,17.00,"Casa Myers / Surtidor / Tamex: codo 13 mm $19.72-24 con IVA (casamyers.com.mx, surtidor.com); se toma $20 con IVA",2026-09,validado con rango de mercado
+TEE-CU-13,Tee de cobre 13 mm cobre a cobre,pza,25.00,"Estimación ≈1.5 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa",2026-09,referencia
+COPLE-CU-13,Cople de cobre 13 mm cobre a cobre,pza,12.00,"Estimación ≈0.7 × codo de 13 mm (listas Nacobre/IUSA); sin cotización directa",2026-09,referencia
+SOLD-5050,Soldadura estaño-plomo 50/50 (carrete 454 g),kg,760.00,"Soldadura 50/50 Nacobre $69.60-551 según presentación (casamyers.com.mx/plomeriauniversal); carrete 454 g ≈$400 con IVA = $345 sin IVA → $760/kg",2026-09,validado con rango de mercado
+FUNDENTE,Pasta fundente para soldar cobre,kg,450.00,"Frasco 100 g ≈$50-60 con IVA en ferreterías; estimación",2026-09,referencia
+GAS-SOPLETE,Cartucho de gas propano 400 g para soplete,pza,110.00,"Cartucho 400 g $110-140 con IVA en ferreterías; estimación",2026-09,referencia
+ABRAZ-CU-13,Abrazadera tipo U para tubo de 13 mm con taquete y pija,pza,5.00,"Estimación de ferretería (abrazadera $3 + taquete y pija $2); sin cotización directa",2026-09,referencia
+CABLE-THW-12,Cable THW-LS/THHW-LS cal. 12 AWG Condumex Vinanel XXI (caja 100 m),m,14.90,"Caja 100 m: TAMEX $1,726.75 (tamex.mx); Sodimac THHW-LS $2,389; Tu Compa $905 (agotado). Se toma TAMEX con IVA → $14.89/m sin IVA",2026-09,validado con rango de mercado
+CINTA-AISLAR,Cinta de aislar vinílica 19 mm x 18 m,pza,25.00,"Rollo 3M/Truper $25-45 con IVA en ferreterías; estimación",2026-09,referencia
+CONDUIT-PVC-16,Tubo conduit PVC pesado 16 mm (1/2 in) en tramo de 3 m,m,8.00,"Tramo 3 m: Coel $21.39 (coel.com.mx); Casa Myers, SYSCOM EMTUP12 y otros $22-35 con IVA; se toma $24 sin IVA / 3 m",2026-09,validado con rango de mercado
+COPLE-CONDUIT-16,Cople conduit PVC pesado 16 mm,pza,3.00,"Estimación de ferretería ($3-5 con IVA); sin cotización directa",2026-09,referencia
+CURVA-CONDUIT-16,Curva 90° conduit PVC pesado 16 mm,pza,7.00,"Estimación de ferretería ($7-10 con IVA); sin cotización directa",2026-09,referencia
+GRAPA-CONDUIT-16,Abrazadera omega para conduit 16 mm con taquete y pija,pza,2.50,"Estimación de ferretería; sin cotización directa",2026-09,referencia
+INOD-CADET,Inodoro American Standard Cadet (Cadet Pro) 2 piezas con asiento,pza,5050.00,"El modelo 01813/01778 ya no se vende; equivalente vigente Cadet Pro: combo con asiento $6,896.20 lista, $5,861.77 con 15 % desc. con IVA (americanstandard.mx) → $5,053 sin IVA",2026-09,validado con rango de mercado
+CUELLO-CERA,Cuello de cera con guía para inodoro,pza,50.00,"Coflex PB-104/PB-108 en Home Depot; rango $45-80 con IVA (homedepot.com.mx); estimación",2026-09,referencia
+LLAVE-ANGULAR,Llave angular de control 1/2 x 3/8 cuarto de vuelta,pza,110.00,"Coflex IP-120 y equivalentes $100-180 con IVA (homedepot.com.mx, mercadolibre); estimación",2026-09,referencia
+MANG-COFLEX-WC,Manguera flexible trenzada para WC 13 x 22 mm x 35 cm,pza,75.00,"Coflex $70-120 con IVA (homedepot.com.mx); estimación",2026-09,referencia
+PIJA-TAQ-WC,Juego de pijas y taquetes para fijar inodoro,pza,30.00,"Juego de tornillos de sujeción para sanitario $25-45 con IVA; estimación",2026-09,referencia
+SILICON-CART,Silicón sellador transparente cartucho 300 ml,pza,90.00,"Cartucho de silicón acético $80-120 con IVA en ferreterías; estimación",2026-09,referencia
+TRIPLAY-PINO-6,Triplay de pino 6 mm hoja 1.22 x 2.44 m,pza,290.00,"MercadoLibre $156-1,199 por hoja según calidad; triplay nogal 6 mm $334.90 (Grupo El Sabino); se toma pino BC ≈$335 con IVA = $290 sin IVA (costonet.com.mx, toolstoremexico.com.mx)",2026-09,validado con rango de mercado
+MAD-PINO1,Madera de pino de 1a cepillada (tabla/barrote),pt,42.00,"Pino de 1a ≈1.5 × pino de 3a (MAD-PINO3 $27/pt); tablas de pino 1a $18-95 por pieza según escuadría (maderastriplay.com 2026); sin cotización de maderería de Morelia",2026-09,referencia
+BISAGRA-LAT-35,Bisagra latonada 3 1/2 x 3 1/2 in,pza,45.00,"Bisagra latonada 3x3 par en Lewonski / Home Depot; 3 1/2 in $40-70 con IVA; estimación",2026-09,referencia
+CHAPA-PASO,Cerradura cilíndrica de paso/recámara tipo Phillips,pza,250.00,"Phillips Omega MX7214 $71 (económica) a Gamma latón $300-450 con IVA (elgrantlapalero.com, sodimac.com.mx); se toma gama media",2026-09,referencia
+BARNIZ-NAT,Barniz natural para madera interior (poliuretano/nitro),l,300.00,"Comex Polyform barniz 1 L ≈$320-420 con IVA (comex.com.mx, mercadolibre); estimación",2026-09,referencia
+SELLADOR-MAD,Sellador para madera base solvente,l,180.00,"Sellador Comex/Polyform 1 L ≈$180-240 con IVA; estimación",2026-09,referencia
+THINNER,Thinner estándar,l,50.00,"Thinner a granel $45-70/l con IVA; estimación",2026-09,referencia
+LIJA-MAD,Lija para madera (pliego),pza,10.00,"Pliego de lija Fandeli $10-15 con IVA; estimación",2026-09,referencia
+PEGA-BLANCO,Pegamento blanco para madera (Resistol 850),l,95.00,"Resistol 850 1 L ≈$100-130 con IVA; estimación",2026-09,referencia
+CLAVO-SC,Clavo sin cabeza / clavo de 1 1/2 a 2 1/2 in,kg,40.00,"Clavo estándar $38-48/kg con IVA; estimación",2026-09,referencia
+PIJA-TAQ-MARCO,Pija 2 1/2 in con taquete de plástico 5/16 para fijar marco,pza,2.00,"Estimación de ferretería",2026-09,referencia
+PASTO-ROLLO,Pasto en rollo San Agustín (alfombra) puesto en obra,m2,45.00,"Morelia: Vivero Alcatraz $50/m²; Vivero La Flor de Morelos $40/m²; mayoreo Jiutepec $15/m²; instalado con tierra y flete $155/m² (construex.com.mx, variegada.com, facebook Vivero Alcatraz)",2026-09,validado con rango de mercado
+TIERRA-VEG,Tierra negra vegetal puesta en obra,m3,500.00,"Rango nacional 2026 $350-1,000/m³, común $380-800 (cronoshare.com.mx); sin cotización de Morelia",2026-09,validado con rango de mercado

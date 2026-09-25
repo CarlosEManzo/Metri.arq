@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E16.01.0017",
+  "gubim": "70.50.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PASTO-ROLLO",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "5 % por cortes en bordes"
+    },
+    {
+      "insumo": "TIERRA-VEG",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "Capa de 5 cm de tierra vegetal de asiento"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Riego 10 l/m²/día × 15 días"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "Tendido de tierra y colocación de rollo 50 m²/jor peón (catálogo 40 m²/jor) + riego 15 días ≈0.94 jor/100 m² → 2.94 jor/100 m² ≈ 35 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Terreno ya despalmado y nivelado; excavación o retiro de material se paga aparte.",
+    "Pasto San Agustín; agua de toma de la obra a precio de pipa.",
+    "La descripción de Construbase no menciona tierra vegetal; se incluye capa de 5 cm porque es práctica común para el prendido del rollo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

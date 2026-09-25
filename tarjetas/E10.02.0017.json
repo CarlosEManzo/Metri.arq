@@ -1,0 +1,65 @@
+{
+  "clave_cb": "E10.02.0017",
+  "gubim": "60.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "INOD-CADET",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Taza y tanque, con asiento"
+    },
+    {
+      "insumo": "CUELLO-CERA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso angular"
+    },
+    {
+      "insumo": "MANG-COFLEX-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Fijación a piso"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral en base"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of plomero + Ay (rendimiento del catálogo); APU publicados 3-4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "El modelo Cadet 01813/01778 está descontinuado; se cotiza el equivalente vigente Cadet Pro 2 piezas con asiento.",
+    "Salidas hidráulica y sanitaria ya existentes."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

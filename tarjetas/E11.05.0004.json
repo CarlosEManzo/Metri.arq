@@ -1,0 +1,66 @@
+{
+  "clave_cb": "E11.05.0004",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.30",
+      "condicion": "si la tubería conduce agua pluvial (bajada o red pluvial)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-PVC-SAN-100",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Tramos de 6 m; 5 % por cortes y despuntes"
+    },
+    {
+      "insumo": "CODO-PVC-SAN-100",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Conexiones proporcionales: 1 codo cada ≈6.7 m de red"
+    },
+    {
+      "insumo": "YEE-PVC-SAN-100",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "1 yee (derivación/registro) cada 10 m de red"
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.04,
+      "desperdicio": 0.05,
+      "nota": "≈0.67 juntas/m (1/6 unión de tramo + 0.25 conexiones × 2 bocas); 1 bote de 250 ml rinde ≈16 juntas de 4 in → 0.04 bote/m"
+    },
+    {
+      "insumo": "SOP-TUBO-100",
+      "cantidad": 0.67,
+      "desperdicio": 0.0,
+      "nota": "Abrazadera colgante cada 1.50 m (tubería horizontal colgada de losa)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20 m/jor Of plomero + Ay (APU publicados para PVC sanitario 4 in: 18-25 m/jor incluyendo conexiones y prueba). El catálogo da 15 m/jor; se sube porque el rango publicado es mayor y a 15 m/jor la M.O. superaría el 60 % del costo directo"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería horizontal colgada de losa o en ducto, con soportería; si va enterrada, la excavación, cama de arena y relleno se pagan aparte y la soportería no aplica.",
+    "Conexiones proporcionales promedio de una red de vivienda (0.15 codos + 0.10 yees por metro); registros y coladeras se pagan aparte.",
+    "Limpiador para PVC incluido en la herramienta menor; prueba de estanqueidad con agua de la obra.",
+    "Precios de codo y yee de 4 in y de la abrazadera son referencia por validar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,95 @@
+{
+  "clave_cb": "E09.02.0008",
+  "gubim": "40.10.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-6",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Una hoja 1.22x2.44 por cara (0.90x2.10); el sobrante es el desperdicio"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 22.1,
+      "desperdicio": 0.1,
+      "nota": "Bastidor 1 1/4x1 1/2 in: perímetro 6.0 m + peinazos a 30 cm (6 × 0.90 + 2 × 2.10 = 9.6 m) = 15.6 m × 0.51 pt/m = 8.0 pt; marco 1 1/2x4 in 5.3 m × 1.64 pt/m = 8.7 pt; chambranas 3/4x2 1/2 in 2 caras 10.6 m × 0.51 = 5.4 pt"
+    },
+    {
+      "insumo": "BISAGRA-LAT-35",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "CHAPA-PASO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cerradura cilíndrica de paso/recámara"
+    },
+    {
+      "insumo": "SELLADOR-MAD",
+      "cantidad": 0.53,
+      "desperdicio": 0.05,
+      "nota": "≈5.3 m² (hoja 2 caras 3.78 m² + marco y chambranas 1.5 m²) / 10 m²/l, 1 mano"
+    },
+    {
+      "insumo": "BARNIZ-NAT",
+      "cantidad": 1.06,
+      "desperdicio": 0.05,
+      "nota": "5.3 m² × 2 manos / 10 m²/l"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": "Dilución y limpieza"
+    },
+    {
+      "insumo": "LIJA-MAD",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PEGA-BLANCO",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Pegado de triplay a bastidor"
+    },
+    {
+      "insumo": "CLAVO-SC",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 8,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of carpintero + Ay incluyendo habilitado, armado, colocación y barnizado. El catálogo da 2 pza/jor sin separar el barniz; con el barnizado (2 manos + sellador) se baja a 1.5"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Incluye cerradura de paso (no la menciona la descripción de Construbase, pero una puerta instalada la requiere); si se paga aparte, restar $250 + indirectos.",
+    "Precio de madera de pino de 1a por validar con maderería local (referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
