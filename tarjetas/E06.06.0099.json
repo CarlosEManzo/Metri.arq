@@ -1,0 +1,50 @@
+{
+  "clave_cb": "E06.06.0099",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ALF-TAM-PASILLO-ROYAL-70-CMS-A",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² de alfombra; 5 %: tramo de pasillo de 0.70 m de ancho, solo cortes en los extremos"
+    },
+    {
+      "insumo": "BAJOALF-PU6",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m² bajo el tapete de pasillo; 5 % de recortes"
+    },
+    {
+      "insumo": "TIRA-PUAS",
+      "cantidad": 3.0,
+      "desperdicio": 0.05,
+      "nota": "Pasillo de 0.70 m: 2 lados largos = 2/0.70 = 2.86 m/m² más cabeceras ≈3.0 m/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor Of+Ay: pasillo angosto de 0.70 m, tres veces más tira de púas por m² y estirado en tramos cortos. Catálogo 50 m²/jor para alfombra de muro a muro"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre firme o piso de concreto nivelado, seco y limpio; la nivelación o resanes del piso se pagan aparte.",
+    "Tapete de pasillo de 0.70 m de ancho con bajo alfombra y tira de púas en ambos lados largos; el P.U. se da por m² de pasillo.",
+    "Precio de la alfombra por regla de escala de la familia (anclas: Sprint Plus $95/m² y Magnificent SB $600/m², sin IVA). El modelo Tamsa Pasillo Royal .70 cms ancho de 2017 puede estar descontinuado: el precio corresponde a una alfombra de la misma fibra y gama en 2026 (referencia por validar con cotización).",
+    "No incluye zoclo, cubrejuntas o remates metálicos en cambios de piso, ni movimiento de muebles."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Geometría de pasillo de 0.70 m de ancho: lleva 3.0 m de tira de púas por m² (2/0.70 en los lados largos más cabeceras) contra 0.90 m/m² en muro a muro (+2.1 m × $13.25 × 1.05 = +$29/m²) y rinde 35 m²/jor en lugar de 50 por el estirado en tramos cortos (+$17/m² de M.O.); sin cinta de unión (−$8/m²). Neto ≈+$39/m² de costo directo ≈+$50/m² de P.U.; el catálogo le da el mismo sistema y rendimiento que a la alfombra de muro a muro. Con ese ajuste la tarjeta queda en ≈+11 %, igual que el resto de la familia."
+}

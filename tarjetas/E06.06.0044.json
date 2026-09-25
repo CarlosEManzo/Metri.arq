@@ -1,0 +1,54 @@
+{
+  "clave_cb": "E06.06.0044",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si se coloca en exterior (terraza, jardín, cancha): pavimentos peatonales de urbanización"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALF-TER-ACTION-TURF-C-BACKING",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1 m² de alfombra; 10 % por ancho de rollo (3.66-4.00 m) y cortes; el pasto no requiere casar dibujo"
+    },
+    {
+      "insumo": "CINTA-UNION-ALF",
+      "cantidad": 0.3,
+      "desperdicio": 0.05,
+      "nota": "Uniones a cada 3.66-4.00 m de ancho de rollo (0.27 m/m²) más uniones transversales ≈0.30 m/m²"
+    },
+    {
+      "insumo": "ADH-CONTACTO",
+      "cantidad": 0.06,
+      "desperdicio": 0.05,
+      "nota": "Pegado perimetral: 0.9 m/m² de perímetro × franja de 0.10 m × 2 caras × 0.25 L/m² ≈0.045 L/m², más refuerzo en uniones ⇒ 0.06 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 60.0,
+    "fuente": "60 m²/jor Of+Ay: pasto sintético tendido sin bajo alfombra ni estirado; se pega en uniones y perímetro. Catálogo 50 m²/jor (alfombra estirada); instalación de pasto sintético publicada 60-100 m²/jor por pareja en áreas abiertas"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre firme o piso de concreto nivelado, seco y limpio; la nivelación o resanes del piso se pagan aparte.",
+    "Pasto sintético / alfombra tipo pasto: se tiende sin bajo alfombra ni tira de púas (el sistema de estirado no aplica a este producto aunque la descripción genérica del concepto los mencione); uniones con cinta y pegado perimetral con adhesivo de contacto. Sin relleno de arena o caucho (si es cancha deportiva con infill, se agrega aparte).",
+    "Precio de la alfombra por regla de escala de la familia (anclas: Sprint Plus $95/m² y Magnificent SB $600/m², sin IVA). El modelo Tersa Action Turf c/Backing de 2017 puede estar descontinuado: el precio corresponde a una alfombra de la misma fibra y gama en 2026 (referencia por validar con cotización).",
+    "No incluye zoclo, cubrejuntas o remates metálicos en cambios de piso, ni movimiento de muebles."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E06.06.0023",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ALF-LUX-MARATHON-PLUS",
+      "cantidad": 1.0,
+      "desperdicio": 0.12,
+      "nota": "1 m² de alfombra; 12 %: ancho de rollo 3.66-4.00 m; recortes en recámaras de 3-4 m de lado"
+    },
+    {
+      "insumo": "BAJOALF-PU6",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Bajo alfombra de poliuretano 6.35 mm, 1 m²; 5 % de recortes (rollo de 1.8 m, se engrapa/pega a tope)"
+    },
+    {
+      "insumo": "TIRA-PUAS",
+      "cantidad": 0.9,
+      "desperdicio": 0.05,
+      "nota": "Perímetro/área de locales habitacionales: recámara 3.5×4.0 m = 1.07 m/m², estancia 5×6 m = 0.73 m/m² ⇒ 0.90 m/m²; sin tira en vanos de puerta"
+    },
+    {
+      "insumo": "CINTA-UNION-ALF",
+      "cantidad": 0.3,
+      "desperdicio": 0.05,
+      "nota": "Uniones a cada ancho de rollo 3.66-4.00 m (0.27 m/m²) más uniones transversales ≈0.30 m/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 50.0,
+    "fuente": "50 m²/jor Of+Ay (rendimiento del catálogo): tendido de bajo alfombra, fijación de tira, unión con plancha y estirado con rodillera/estirador. Referencia de mercado: instalación sola $50/m² con IVA (cronoshare 2026), coherente con ≈$41/m² de M.O. directa a 50 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre firme o piso de concreto nivelado, seco y limpio; la nivelación o resanes del piso se pagan aparte.",
+    "Sistema de muro a muro estirado: bajo alfombra de poliuretano 6.35 mm, tira de púas perimetral con clavo para concreto integrado, uniones con cinta termoadhesiva y plancha; el engrapado del bajo alfombra se considera en herramienta menor.",
+    "Precio de la alfombra por regla de escala de la familia (anclas: Sprint Plus $95/m² y Magnificent SB $600/m², sin IVA). El modelo Luxor Marathon PLus de 2017 puede estar descontinuado: el precio corresponde a una alfombra de la misma fibra y gama en 2026 (referencia por validar con cotización).",
+    "No incluye zoclo, cubrejuntas o remates metálicos en cambios de piso, ni movimiento de muebles."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
