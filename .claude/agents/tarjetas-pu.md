@@ -102,6 +102,16 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
      especificación distinta), agrega `"desviacion_justificada": "<causa con cifras>"`. La tarjeta
      deja de contar como alerta y la razón aparece en la auditoría. Arriba de ±50 % la alerta
      se queda: corrige el análisis. No lo uses para esconder un precio o rendimiento dudoso.
+   - Si el **P.U. actualizado del catálogo es erróneo** (rompe la progresión de su familia, o
+     incluye otro alcance, p. ej. "recolocar" con el mismo precio que "suministrar y colocar"),
+     agrega `"referencia_sustituta": {"pu": <valor>, "razon": "<cómo se obtuvo>"}` con un valor
+     derivado de forma verificable (interpolación entre medidas vecinas, otra tarjeta menos el material).
+   - Los **básicos de Construbase** (conceptos en mayúsculas: concretos, morteros, mezclas) están
+     a costo directo, sin indirectos ni utilidad. Su tarjeta lleva el básico de `datos/basicos.json`
+     más la elaboración, y `"comparar_costo_directo": true` para validar su costo directo.
+   - Si el par CDMX no está en `salida/pares_tabulador_cdmx.csv` pero encontraste uno equivalente en
+     el tabulador (`referencias/tabulador_cdmx_2026-07.pdf`), repórtalo con clave, precio y
+     equivalencia (exacta/aproximada): se agrega a la canasta en la consolidación.
    - Revisa que la composición sea razonable: en albañilería la M.O. suele ser 30–50 % del
      costo directo; en suministros e instalación de equipos, 5–20 %.
 
