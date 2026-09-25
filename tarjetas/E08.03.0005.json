@@ -1,0 +1,83 @@
+{
+  "clave_cb": "E08.03.0005",
+  "gubim": "30.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.20",
+      "condicion": "si es cancel interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-NAT",
+      "cantidad": 29.2,
+      "desperdicio": 0.08,
+      "nota": "Marco 12.80 m × 0.95 + 3 postes de 2.40 m y travesaño de 4.00 m (11.20 m × 1.05) + junquillo 35.20 m × 0.15 = 29.20 kg"
+    },
+    {
+      "insumo": "CRISTAL-CLARO-6",
+      "cantidad": 4.656,
+      "desperdicio": 0.1,
+      "nota": "4 piezas superiores de 1.00 x 1.20 m"
+    },
+    {
+      "insumo": "DUELA-ALU-NAT",
+      "cantidad": 4.656,
+      "desperdicio": 0.1,
+      "nota": "4 tableros inferiores de 1.00 x 1.20 m"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 66.88,
+      "desperdicio": 0.05,
+      "nota": "Vinil en ambas caras de los claros"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 5,
+      "desperdicio": 0.0,
+      "nota": "Marco + postes"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 29,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 12.80 m / 0.45 = 29 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 3.2,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 12.80 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.436,
+    "fuente": "Of. aluminero + Ay: jornadas = 0.15 + 9.60 m² / 5.5 m²/jor + 0.05 × 8 claros = 2.30 → 0.44 pza/jor. Catálogo 1 pza/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 4.5909,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Cancel 4.00 x 2.40 m en 4 módulos (postes a cada 1.00 m); cada módulo con dos fijos separados por travesaño a media altura.",
+    "Línea bolsa 3 in, acabado anodizado natural.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

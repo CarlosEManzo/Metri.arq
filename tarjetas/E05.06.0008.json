@@ -67,5 +67,6 @@
     "Platabanda de 0.30 m de ancho fijada con dos ángulos de amarre, sin postes; unidad por metro lineal."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Especificación: pieza con bastidor propio, ángulos de amarre y esquineros; costo directo $188.41 = material $83.89 (Construbase $68.17) + M.O. $101.48 (Construbase $105.44). El P.U. actualizado de Construbase ($173.61) es igual a su M.O. más material, sin indirectos ni utilidad; la tarjeta aplica 28.4 % (indirectos 15 %, financiamiento 1.5 %, utilidad 10 %): su costo directo queda a +9% del P.U. actualizado"
 }

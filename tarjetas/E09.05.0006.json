@@ -65,25 +65,25 @@
     },
     {
       "insumo": "SELLADOR-MAD",
-      "cantidad": 3.54,
+      "cantidad": 2.92,
       "desperdicio": 0.05,
-      "nota": "Fondo/sellador para laca 35.4 m² / 10 m²/l"
+      "nota": "Fondo/sellador para laca 29.2 m² / 10 m²/l"
     },
     {
       "insumo": "LACA-NITRO",
-      "cantidad": 5.87,
+      "cantidad": 5.09,
       "desperdicio": 0.05,
-      "nota": "Laca 2 manos en puertas y 1 en casco: 46.9 m² / 8 m²/l"
+      "nota": "Laca 2 manos en puertas y 1 en casco: 40.7 m² / 8 m²/l"
     },
     {
       "insumo": "THINNER",
-      "cantidad": 4.71,
+      "cantidad": 4.0,
       "desperdicio": 0,
       "nota": "Dilución y limpieza"
     },
     {
       "insumo": "LIJA-MAD",
-      "cantidad": 24,
+      "cantidad": 20,
       "desperdicio": 0,
       "nota": "1 pliego por 1.5 m²"
     },

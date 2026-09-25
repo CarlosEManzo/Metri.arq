@@ -11,37 +11,37 @@
   "materiales": [
     {
       "insumo": "TRIPLAY-PINO-16",
-      "cantidad": 1.897,
+      "cantidad": 2.268,
       "desperdicio": 0.15,
-      "nota": "5 entrepaños en L (0.85 + 0.85 − 0.45 de esquina) × 0.45 = 2.81 m² + 3 laterales 2.10x0.45 = 2.84 m²; total 5.65 m² / 2.977"
+      "nota": "6 entrepaños en L (0.85 + 0.85 − 0.50 de esquina) × 0.50 = 3.60 m² + 3 laterales 2.10x0.50 = 3.15 m²; total 6.75 m² / 2.977"
     },
     {
       "insumo": "MAD-PINO1",
-      "cantidad": 11.5,
+      "cantidad": 13.0,
       "desperdicio": 0.1,
-      "nota": "Frentes de pino 1x2 in en entrepaños (5 × 1.25 m) y laterales (3 × 2.10 m) + largueros de apoyo a muro 1x2 in (5 × 1.70 m); × 0.547 pt/m"
+      "nota": "Frentes de pino 1x2 in en entrepaños (6 × 1.20 m) y laterales (3 × 2.10 m) + largueros de apoyo a muro 1x2 in (6 × 1.70 m); × 0.547 pt/m"
     },
     {
       "insumo": "SELLADOR-MAD",
-      "cantidad": 1.13,
+      "cantidad": 1.35,
       "desperdicio": 0.05,
-      "nota": "Fondo para laca 11.3 m² (2 caras) / 10 m²/l"
+      "nota": "Fondo para laca 13.5 m² (2 caras) / 10 m²/l"
     },
     {
       "insumo": "LACA-NITRO",
-      "cantidad": 2.82,
+      "cantidad": 3.38,
       "desperdicio": 0.05,
-      "nota": "Laca 2 manos 11.3 m² / 8 m²/l"
+      "nota": "Laca 2 manos 13.5 m² / 8 m²/l"
     },
     {
       "insumo": "THINNER",
-      "cantidad": 1.98,
+      "cantidad": 2.36,
       "desperdicio": 0,
       "nota": ""
     },
     {
       "insumo": "LIJA-MAD",
-      "cantidad": 8,
+      "cantidad": 9,
       "desperdicio": 0,
       "nota": ""
     },
@@ -75,12 +75,12 @@
         "personas": 1
       }
     ],
-    "rendimiento": 0.6,
-    "fuente": "0.6 pza/jor Of carpintero + Ay (catálogo 0.5): habilitado, armado de entrepaños con frentes de pino, fijación y lacado"
+    "rendimiento": 0.5,
+    "fuente": "0.5 pza/jor Of carpintero + Ay (igual al catálogo): habilitado, armado de 6 niveles en L con frentes de pino, fijación y lacado a 2 caras"
   },
   "equipo": [],
   "supuestos": [
-    "Despensa en 'L' de 0.85 m por lado y 2.10 m de altura, fondo 0.45 m, 5 niveles de entrepaños de triplay de pino 16 mm con frente de pino 1x2 in, sin puertas.",
+    "Despensa en 'L' de 0.85 m por lado y 2.10 m de altura, fondo 0.50 m, 6 niveles de entrepaños (a cada 35 cm) de triplay de pino 16 mm con frente de pino 1x2 in, sin puertas.",
     "Acabado laca nitrocelulosa 2 manos sobre fondo, en ambas caras."
   ],
   "elaboro": "Agente de tarjetas",

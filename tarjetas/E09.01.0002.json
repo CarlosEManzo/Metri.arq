@@ -59,25 +59,25 @@
     },
     {
       "insumo": "SELLADOR-MAD",
-      "cantidad": 3.26,
+      "cantidad": 2.64,
       "desperdicio": 0.05,
-      "nota": "Sellador en puertas 2 caras y casco 2 caras: 32.6 m² / 10 m²/l"
+      "nota": "Sellador en puertas 2 caras y caras vistas del casco (14.9 m²): 26.4 m² / 10 m²/l"
     },
     {
       "insumo": "BARNIZ-NAT",
-      "cantidad": 4.41,
+      "cantidad": 3.79,
       "desperdicio": 0.05,
-      "nota": "2 manos en puertas (11.5 m²) y 1 mano en casco (21.1 m²): 44.1 m² / 10 m²/l"
+      "nota": "2 manos en puertas (11.5 m²) y 1 mano en casco visto (14.9 m²): 37.9 m² / 10 m²/l"
     },
     {
       "insumo": "THINNER",
-      "cantidad": 2.3,
+      "cantidad": 1.93,
       "desperdicio": 0,
       "nota": "Dilución y limpieza (30 % del volumen de acabado)"
     },
     {
       "insumo": "LIJA-MAD",
-      "cantidad": 17,
+      "cantidad": 14,
       "desperdicio": 0,
       "nota": "1 pliego por 2 m²"
     },
@@ -119,7 +119,7 @@
     "Closet empotrado de 2.40 m de frente, 2.40 m de altura y 0.65 m de fondo, en hueco de muros terminados; sin fondo (el muro hace de fondo).",
     "Casco y entrepaños de triplay de pino de 16 mm (se usa TRIPLAY-PINO-16, grado cimbra aparente, equivalente a pino de 1a); 1 división vertical, 4 entrepaños en una sección y tubo colgador en la otra.",
     "Puertas corredizas de tambor (peinazos 32x32 mm a 30 cm, triplay de pino 6 mm por ambas caras) sobre riel superior y guía inferior de aluminio.",
-    "Barniz natural: 2 manos en puertas y 1 en casco sobre sellador."
+    "Barniz natural: 2 manos en puertas y 1 en las caras vistas del casco sobre sellador; las caras contra muro, la cara superior del techo y la inferior del piso no se barnizan."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

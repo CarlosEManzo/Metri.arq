@@ -105,5 +105,9 @@
     "'Madera SMAP' no corresponde a ninguna especie conocida; se toma caoba de 1a con 3 cajones y herrajes de gama residencial (mismo tratamiento que la familia)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 11416.5,
+    "razon": "El P.U. actualizado de la versión 'residencial' de 1.20 m ($20,908) es mayor que el de 2.00 m ($19,715) y un 49 % más que el de 1.50 m ($13,995) sin alcance identificable ('madera SMAP'); se interpola entre 1.10 m ($10,556.60) y 1.50 m ($13,995.32): 10,556.60 + 0.25 × 3,438.72 = $11,416.28"
+  }
 }

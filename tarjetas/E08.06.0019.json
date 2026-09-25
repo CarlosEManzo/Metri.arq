@@ -1,0 +1,73 @@
+{
+  "clave_cb": "E08.06.0019",
+  "gubim": "30.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-DUR",
+      "cantidad": 10.296,
+      "desperdicio": 0.08,
+      "nota": "Marco 7.20 m × 1.25 kg/m + junquillo 7.20 m × 0.18 kg/m = 10.30 kg; desperdicio de despiece en tramos de 6.10 m 8 %"
+    },
+    {
+      "insumo": "CRISTAL-FILTRA-6",
+      "cantidad": 2.7376,
+      "desperdicio": 0.1,
+      "nota": "1 pieza(s) 1.16x2.36 = 2.738 m²; desperdicio de corte 10 %"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 13.68,
+      "desperdicio": 0.05,
+      "nota": "Vinil en ambas caras del cristal: perímetro 6.84 m × 2"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "1 bastidor(es): marco + hojas"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 16,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 7.20 m / 0.45 = 16 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1.8,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 7.20 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.34,
+    "fuente": "Of. aluminero + Ay: fabricación en taller e instalación. Jornadas/pza = 0.12 (trazo, traslado y fijación) + 2.88 m² / 5.0 m²/jor (serie 4 in) + 0.05 × 1 piezas de vidrio = 0.746 jor → 1.34 pza/jor. Catálogo: 3 pza/jor Of+Ay sin distinguir tamaño; mercado: 4-8 m²/jor para fijos y 3-5 m²/jor para corredizos según serie"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 1.492,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Vano 1.20 x 2.40 m (2.88 m²), serie 4 in, acabado anodizado duranodik; división sin divisiones.",
+    "Precio por pieza terminada: perfiles, vidrio, vinil, herrajes, sellado con silicón y fijación con taquete y pija; no incluye mosquitero ni resanes del vano.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio).",
+    "Validación por m²: el P.U. equivale a ≈$2,354/m² de vano (catálogo $2,489/m²). Mercado 2026 por m² de vano (fabricante-instalador): línea española serie 3500 natural con claro 4 mm $1,800-2,200 y con filtrasol 6 mm $2,400-2,800 (aluminioyvidrio.mx, CDMX); ventana 3 in natural con claro 6 mm desde $1,219/m² (grupo de cancelería en Facebook); duranodik y pintado +10-25 %; piezas chicas (< 1 m²) se cobran por pieza con mínimo de fabricación."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

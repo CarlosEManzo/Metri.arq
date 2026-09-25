@@ -85,5 +85,6 @@
     "Unidad m² de desarrollo del forro; cajillo de 0.70 m de desarrollo (fondo ≈0.40 + faldón ≈0.30)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Especificación: pieza con bastidor propio, ángulos de amarre y esquineros; costo directo $483.95 = material $251.68 (Construbase $264.50) + M.O. $225.50 (Construbase $169.12). El P.U. actualizado de Construbase ($433.62) es igual a su M.O. más material, sin indirectos ni utilidad; la tarjeta aplica 28.4 % (indirectos 15 %, financiamiento 1.5 %, utilidad 10 %): su costo directo queda a +12% del P.U. actualizado"
 }

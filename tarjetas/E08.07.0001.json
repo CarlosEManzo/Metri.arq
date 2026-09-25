@@ -1,0 +1,88 @@
+{
+  "clave_cb": "E08.07.0001",
+  "gubim": "30.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "DUELA-TRAP6-PINT",
+      "cantidad": 6.25,
+      "desperdicio": 0.08,
+      "nota": "Duela de 6 in a cada 16 cm (traslape visual): 6.25 m/m²"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 1.75,
+      "desperdicio": 0.05,
+      "nota": "PTR 1 1/4 in cal. 14 (1.89 mm, ≈1.75 kg/m) vertical a cada metro: 1 m/m²"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 0.95,
+      "desperdicio": 0.05,
+      "nota": "Solera 1 1/4 x 1/8 in (0.95 kg/m) a cada metro para clips/anclaje: 1 m/m²"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 13,
+      "desperdicio": 0.05,
+      "nota": "2 tornillos por duela y apoyo (6.25 duelas × 2 apoyos/m)"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Anclaje de PTR a estructura: 2 por poste a cada 2 m²"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.07,
+      "desperdicio": 0.05,
+      "nota": "PTR + solera ≈0.55 m²/m² / 8 m²/l"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.07,
+      "desperdicio": 0.05,
+      "nota": "Esmalte a una mano"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Unión solera-PTR"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of + Ay (catálogo 10 m²/jor); incluye pintura de perfiles y trabajo en andamio. APU de celosía/louver de aluminio 8-12 m²/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 1.0,
+      "costo_horario": 4.5
+    },
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.3,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Celosía vertical u horizontal en fachada, altura de trabajo hasta 6 m con andamio (renta $4.5/h por cuerpo, criterio de otras tarjetas).",
+    "Duela trapezoidal de 6 in con separación de 16 cm entre ejes."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -84,5 +84,6 @@
     "Bastidor de 4 postes en esquina más intermedios, canal perimetral anclado; esquineros metálicos en las 4 aristas."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Especificación: 1 m de columna de 0.9 × 0.9 m = 3.6 m² de forro + 4 m de esquinero + 8 m de poste; material $819.37/m (Construbase $1,092.29) y M.O. a 4 m/jor = 14.4 m²/jor. Por m² de forro la tarjeta da $478.63, en línea con el muro de dos caras del tabulador CDMX (GC29IC $473.67, GC29ID $491.20) más las 4 aristas"
 }

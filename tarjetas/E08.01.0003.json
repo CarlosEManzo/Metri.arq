@@ -1,0 +1,97 @@
+{
+  "clave_cb": "E08.01.0003",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si la puerta es interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-BCO",
+      "cantidad": 15.772,
+      "desperdicio": 0.08,
+      "nota": "Hoja(s) 2 × [largueros 2 × 2.20 m × 0.85 + cabezal 1.00 m × 1.1 + zoclo 1.00 m × 2.2] = 14.08 kg; sin marco (solo batiente); junquillo 11.28 m × 0.15 = 1.69 kg; total 15.77 kg; desperdicio 8 %"
+    },
+    {
+      "insumo": "CRISTAL-CLARO-6",
+      "cantidad": 3.456,
+      "desperdicio": 0.1,
+      "nota": "Claro de vidrio 0.90 m de ancho por hoja; 3.456 m² en 2 pieza(s); corte 10 %"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 22.56,
+      "desperdicio": 0.05,
+      "nota": "Vinil en ambas caras de los claros: 11.28 m × 2"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Ensamble de hojas (escuadras y tensores) y marco"
+    },
+    {
+      "insumo": "PIVOTE-DESC",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "1 juego de pivote descentrado por hoja"
+    },
+    {
+      "insumo": "JALADERA-EST-25",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "2 por hoja"
+    },
+    {
+      "insumo": "CERR-PH550-CH",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "1 cerradura por puerta"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Sellado y limpieza de la hoja en el cancel existente"
+    },
+    {
+      "insumo": "PASADOR-EMBUTIR",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Hoja pasiva: pasador de embutir arriba y abajo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.606,
+    "fuente": "Of. aluminero + Ay: corte, ensamble en taller e instalación. Jornadas = 0.75 + 0.45 × 2 hoja(s) = 1.65 jor → 0.61 pza/jor. Catálogo: 1 pza/jor Of+Ay; mercado: 1-1.5 jornadas por puerta batiente sencilla con marco, 1.5-2 la doble"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 3.3,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Puerta 2.00 x 2.20 m, 2 hoja(s) de 1.00 m, línea 1.75 in, acabado pintado blanco.",
+    "\"Acabado pintado\" se toma como pintura electrostática blanca (ALU-PERF-BCO).",
+    "Solo batientes: el marco es parte de la cancelería que se paga aparte (así lo dice el concepto). Cuatro jaladeras (2 por hoja).",
+    "Pesos lineales supuestos de la línea de puerta: largueros (cerco curvo/cerco chapa), cabezal y zoclo de lujo; por validar con el catálogo del extrusor.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

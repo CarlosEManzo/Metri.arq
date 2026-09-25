@@ -1,0 +1,101 @@
+{
+  "clave_cb": "E08.04.0001",
+  "gubim": "40.10.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si es barandal de balcón o de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PASAMANO-ALU-DUR",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m de pasamanos"
+    },
+    {
+      "insumo": "REDONDO-A36",
+      "cantidad": 4.2245,
+      "desperdicio": 0.05,
+      "nota": "5 barrotes/m de 0.85 m × 0.994 kg/m (redondo 1/2 in)"
+    },
+    {
+      "insumo": "SOLERA-A36",
+      "cantidad": 3.81,
+      "desperdicio": 0.05,
+      "nota": "Solera 1 1/2 x 1/4 in inferior y superior (bajo pasamanos): 2 m × 1.905 kg/m"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 1.758,
+      "desperdicio": 0.05,
+      "nota": "Poste PTR 1 1/2 in cal. 1/8 in a cada 2 m: 0.5 pza/m × 1.20 m (0.90 + 0.30 de empotre) × 2.93 kg/m"
+    },
+    {
+      "basico": "CON-200",
+      "cantidad": 0.0034,
+      "desperdicio": 0.05,
+      "nota": "Ahogado del poste: 0.5 pza/m × cepa 15x15x30 cm"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "10 uniones barrote-solera + postes ≈ 0.25 kg/m"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.12,
+      "desperdicio": 0.05,
+      "nota": "Barrotes, soleras y poste ≈ 0.9 m²/m / 8 m²/l"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.12,
+      "desperdicio": 0.05,
+      "nota": "Esmalte, 1 mano, 0.9 m²/m / 8 m²/l"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "Fijación del pasamanos de aluminio a la solera superior"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 m/jor Of herrero + Ay (catálogo: 3 pza/jor); habilitado, soldadura, pintura y colocación del pasamanos. APU publicados de barandal de herrería 3-5 m/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 1.0,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "La unidad del catálogo es PZA pero el P.U. corresponde a un metro lineal de barandal de 0.90 m: se analiza 1 pza = 1 m.",
+    "Máquina de soldar $45/h (mismo criterio de otras tarjetas).",
+    "Barandal recto sobre losa o escalón, altura 0.90 m; acero con primario y esmalte en color del aluminio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

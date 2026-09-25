@@ -1,0 +1,91 @@
+{
+  "clave_cb": "E08.02.0002",
+  "gubim": "40.10.10.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-BCO",
+      "cantidad": 11.68,
+      "desperdicio": 0.08,
+      "nota": "Marco (riel, cabezal y jambas) 7.20 m × 0.45 + hojas 18.40 m × 0.4 + esquinero 1.80 m × 0.6 = 11.68 kg"
+    },
+    {
+      "insumo": "ACRIL-3-CRISTAL",
+      "cantidad": 2.8896,
+      "desperdicio": 0.12,
+      "nota": "4 piezas; 2.890 m²; corte 12 %"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 18.0,
+      "desperdicio": 0.05,
+      "nota": "Vinil perimetral de las piezas de acrílico"
+    },
+    {
+      "insumo": "FELPA",
+      "cantidad": 9.2,
+      "desperdicio": 0.05,
+      "nota": "Felpa en traslapes y laterales de las hojas corredizas"
+    },
+    {
+      "insumo": "CARRETILLA-BANO",
+      "cantidad": 8,
+      "desperdicio": 0.0,
+      "nota": "2 carretillas por hoja (fija y corrediza se cuelgan del riel)"
+    },
+    {
+      "insumo": "JALADERA-BANO",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Jaladera toallero por hoja corrediza"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 5,
+      "desperdicio": 0.0,
+      "nota": "Marco + hojas"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 12,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 5.40 m / 0.45 = 12 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1.35,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 5.40 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.125,
+    "fuente": "Of. aluminero + Ay: jornadas = 0.30 + 0.12 × 3.24 m² + 0.10 × 2 hoja(s) corrediza(s) = 0.89 → 1.13 pza/jor. Catálogo 3 pza/jor; en mercado un cancel de baño se instala en 2-4 h"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 1.7776,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Cancel de 0.90+0.90 m × 1.80 m de altura, cada tramo con una hoja fija y una corrediza, acabado pintado blanco.",
+    "En escuadra: dos tramos de 0.90 m a 90° con poste esquinero; 4 piezas de acrílico (2 fijas y 2 corredizas).",
+    "Perfilería ligera de cancel de baño (riel doble, cabezal, jamba y bastidor de hoja).",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

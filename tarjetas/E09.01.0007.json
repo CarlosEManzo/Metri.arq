@@ -65,25 +65,25 @@
     },
     {
       "insumo": "SELLADOR-MAD",
-      "cantidad": 4.19,
+      "cantidad": 3.49,
       "desperdicio": 0.05,
-      "nota": "41.9 m² / 10 m²/l"
+      "nota": "34.9 m² / 10 m²/l"
     },
     {
       "insumo": "BARNIZ-NAT",
-      "cantidad": 5.62,
+      "cantidad": 4.92,
       "desperdicio": 0.05,
-      "nota": "2 manos en puertas y 1 en casco: 56.2 m² / 10 m²/l"
+      "nota": "2 manos en puertas y 1 en casco: 49.2 m² / 10 m²/l"
     },
     {
       "insumo": "THINNER",
-      "cantidad": 4.91,
+      "cantidad": 4.2,
       "desperdicio": 0,
       "nota": "Dilución y limpieza"
     },
     {
       "insumo": "LIJA-MAD",
-      "cantidad": 28,
+      "cantidad": 24,
       "desperdicio": 0,
       "nota": "1 pliego por 1.5 m²"
     },

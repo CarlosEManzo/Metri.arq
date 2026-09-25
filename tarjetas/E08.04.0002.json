@@ -1,0 +1,65 @@
+{
+  "clave_cb": "E08.04.0002",
+  "gubim": "40.10.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.40",
+      "condicion": "si es barandal de balcón o de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PASAMANO-ALU-DUR",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 m de pasamanos"
+    },
+    {
+      "insumo": "ALU-PERF-DUR",
+      "cantidad": 2.49,
+      "desperdicio": 0.08,
+      "nota": "4 cuadrados/m de 1 1/2 in × 0.85 m × 0.55 kg/m + ángulo de aluminio 1 1/2 x 1/4 in 1.0 m × 0.62 kg/m"
+    },
+    {
+      "insumo": "TAQ-EXP-12",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Taquete de expansión 1/2 in a cada 50 cm en el ángulo de piso"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 10,
+      "desperdicio": 0.0,
+      "nota": "2 tornillos por barrote arriba y abajo + empalmes"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Sellado de anclajes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.5,
+    "fuente": "3.5 m/jor Of aluminero + Ay: todo atornillado, sin soldadura (catálogo: 3 pza/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "La unidad del catálogo es PZA pero el P.U. corresponde a un metro lineal de barandal de 0.90 m: se analiza 1 pza = 1 m.",
+    "Cuadrado de aluminio 1 1/2 in pared 1.3 mm (0.55 kg/m) duranodik; ángulo 1 1/2 in (0.62 kg/m). La medida \"1/4 x 1 1/2\" del ángulo se toma como 1 1/2 in de lado.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

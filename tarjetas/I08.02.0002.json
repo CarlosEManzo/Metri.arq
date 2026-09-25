@@ -1,0 +1,91 @@
+{
+  "clave_cb": "I08.02.0002",
+  "gubim": "30.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-NAT",
+      "cantidad": 3.912,
+      "desperdicio": 0.08,
+      "nota": "Marco 4.20 m × 0.4 kg/m + hojas 6.20 m (perímetro de 2 bastidores con traslape de 5 cm) × 0.36 kg/m = 3.91 kg; desperdicio de despiece en tramos de 6.10 m 8 %"
+    },
+    {
+      "insumo": "CRISTAL-CLARO-6",
+      "cantidad": 0.88,
+      "desperdicio": 0.1,
+      "nota": "2 pieza(s) 0.55x0.80 c/u = 0.880 m²; desperdicio de corte 10 %"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 10.8,
+      "desperdicio": 0.05,
+      "nota": "Vinil en ambas caras del cristal: perímetro 5.40 m × 2"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 bastidor(es): marco + hojas"
+    },
+    {
+      "insumo": "FELPA",
+      "cantidad": 6.2,
+      "desperdicio": 0.05,
+      "nota": "Felpa en el perímetro de las hojas"
+    },
+    {
+      "insumo": "CARRETILLA-2",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "2 carretillas por hoja corrediza × 1"
+    },
+    {
+      "insumo": "CIERRE-VENT",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "1 por hoja corrediza"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 10,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 4.20 m / 0.45 = 10 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1.05,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 4.20 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.105,
+    "fuente": "Of. aluminero + Ay: fabricación en taller e instalación. Jornadas/pza = 0.12 (trazo, traslado y fijación) + 1.08 m² / 8.0 m²/jor (serie 1 1/2 in) + 0.05 × 2 piezas de vidrio + 0.12 × 1 hojas corredizas = 0.475 jor → 2.11 pza/jor. Catálogo: 3 pza/jor Of+Ay sin distinguir tamaño; mercado: 4-8 m²/jor para fijos y 3-5 m²/jor para corredizos según serie"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 0.95,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Vano 1.20 x 0.90 m (1.08 m²), serie 1 1/2 in, acabado anodizado natural; división 2 hojas lado a lado.",
+    "Precio por pieza terminada: perfiles, vidrio, vinil, herrajes, sellado con silicón y fijación con taquete y pija; no incluye mosquitero ni resanes del vano.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio).",
+    "Validación por m²: el P.U. equivale a ≈$2,935/m² de vano (catálogo $2,625/m²). Mercado 2026 por m² de vano (fabricante-instalador): línea española serie 3500 natural con claro 4 mm $1,800-2,200 y con filtrasol 6 mm $2,400-2,800 (aluminioyvidrio.mx, CDMX); ventana 3 in natural con claro 6 mm desde $1,219/m² (grupo de cancelería en Facebook); duranodik y pintado +10-25 %; piezas chicas (< 1 m²) se cobran por pieza con mínimo de fabricación."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

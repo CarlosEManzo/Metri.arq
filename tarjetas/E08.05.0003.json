@@ -1,0 +1,123 @@
+{
+  "clave_cb": "E08.05.0003",
+  "gubim": "70.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.20",
+      "condicion": "si el portón está en la fachada del edificio (cochera integrada)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 96.324,
+      "desperdicio": 0.05,
+      "nota": "PTR 1 1/2 x 1 1/2 x 1/8 in (3.49 kg/m): 2 hojas × [perímetro 7.20 m + 2 travesaños 3.00 m] + marco de muro 7.20 m = 27.60 m"
+    },
+    {
+      "insumo": "DUELA-ALU-DUR",
+      "cantidad": 6.3,
+      "desperdicio": 0.08,
+      "nota": "Forro de duela en una cara: 3.00 x 2.10 = 6.30 m²; desperdicio 8 %"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 76,
+      "desperdicio": 0.05,
+      "nota": "Fijación de duela a bastidor ≈ 12 pzas/m²"
+    },
+    {
+      "insumo": "CERR-SOBREPONER",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PASADOR-PORTACANDADO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PASADOR-MAROMA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Hoja pasiva: piso y cabezal"
+    },
+    {
+      "insumo": "BIBEL-TEJUELO",
+      "cantidad": 6,
+      "desperdicio": 0.0,
+      "nota": "3 juegos por hoja"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.5244,
+      "desperdicio": 0.05,
+      "nota": "PTR 27.60 m × 0.152 m²/m = 4.20 m² / 8 m²/l"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 0.5244,
+      "desperdicio": 0.05,
+      "nota": "Esmalte color duranodik, 1 mano"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.2622,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 2.208,
+      "desperdicio": 0.0,
+      "nota": "≈0.08 kg/m de PTR habilitado (27.60 m)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 4.76,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 6,
+      "desperdicio": 0.0,
+      "nota": "Anclaje del marco al muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.554,
+    "fuente": "Of herrero (bastidor) + Of aluminero (forro) + Ay: 1.80 jor/pza (1.4 base + 0.35 × área / 5.46 m²). Catálogo 1 pza/jor Of+Ay; APU de portón de herrería 5-8 m²/jor por oficial"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 9.0192,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Portón 3.00 x 2.10 m en dos hojas de 1.50 m con bastidor de PTR y dos travesaños intermedios por hoja; marco perimetral de PTR anclado a muro.",
+    "Forro de duela de aluminio duranodik por una cara; la otra cara queda con el bastidor pintado.",
+    "Máquina de soldar $45/h; bibeles y tejuelos 3 por hoja."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

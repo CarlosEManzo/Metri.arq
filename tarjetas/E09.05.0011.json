@@ -6,31 +6,31 @@
   "materiales": [
     {
       "insumo": "TRIPLAY-PINO-16",
-      "cantidad": 0.966,
+      "cantidad": 0.798,
       "desperdicio": 0.15,
-      "nota": "Por metro de repisero: 4 entrepaños 1.00x0.50 = 2.00 m² + laterales 2.10x0.50 a cada 1.20 m = 0.88 m²; total 2.88 m²"
+      "nota": "Por metro de repisero: 3 entrepaños 1.00x0.50 = 1.50 m² + laterales 2.10x0.50 a cada 1.20 m = 0.88 m²; total 2.38 m²"
     },
     {
       "insumo": "MAD-PINO1",
-      "cantidad": 5.3,
+      "cantidad": 4.2,
       "desperdicio": 0.1,
-      "nota": "Frentes 1x2 in de los 4 entrepaños + canto de laterales + largueros de apoyo a muro 1x2 in; × 0.547 pt/m"
+      "nota": "Frentes 1x2 in de los 3 entrepaños + canto de laterales + largueros de apoyo a muro 1x2 in; × 0.547 pt/m"
     },
     {
       "insumo": "SELLADOR-MAD",
-      "cantidad": 0.57,
+      "cantidad": 0.47,
       "desperdicio": 0.05,
       "nota": "Fondo para laca, 2 caras"
     },
     {
       "insumo": "LACA-NITRO",
-      "cantidad": 1.44,
+      "cantidad": 1.19,
       "desperdicio": 0.05,
       "nota": "Laca 2 manos, 2 caras / 8 m²/l"
     },
     {
       "insumo": "THINNER",
-      "cantidad": 1.01,
+      "cantidad": 0.83,
       "desperdicio": 0,
       "nota": ""
     },
@@ -70,12 +70,12 @@
         "personas": 1
       }
     ],
-    "rendimiento": 3.0,
-    "fuente": "3.0 m/jor Of carpintero + Ay por metro de repisero de 4 niveles (el catálogo da 40 m/jor de oficial solo, que corresponde a una repisa suelta y no a su P.U. de $1,838/m)"
+    "rendimiento": 3.5,
+    "fuente": "3.5 m/jor Of carpintero + Ay por metro de repisero de 3 niveles (el catálogo da 40 m/jor de oficial solo, que corresponde a una repisa suelta y no a su P.U. de $1,838/m)"
   },
   "equipo": [],
   "supuestos": [
-    "Se mide por metro lineal de repisero de piso a techo (2.10 m) con 4 entrepaños de 0.50 m de fondo de triplay de pino 16 mm con frente de pino, laterales a cada 1.20 m y largueros a muro; un P.U. de $1,838/m no corresponde a una sola repisa.",
+    "Se mide por metro lineal de repisero de piso a techo (2.10 m) con 3 entrepaños de 0.50 m de fondo de triplay de pino 16 mm con frente de pino, laterales a cada 1.20 m y largueros a muro; un P.U. de $1,838/m no corresponde a una sola repisa.",
     "Acabado laca 2 manos sobre fondo."
   ],
   "elaboro": "Agente de tarjetas",

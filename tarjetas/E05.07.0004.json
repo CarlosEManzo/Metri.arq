@@ -73,5 +73,6 @@
     "Precio de la pieza: ver fuente del insumo. Los modelos sin precio en México se tomaron de la lista Kanopi by Armstrong (EE.UU.) convertida y calibrada con Cortega y Fissured, que sí tienen precio de distribuidor en México."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Precio regional del plafón: PLAF-GEORGIAN-61 $370.00/m² sin IVA (ver fuente del insumo; Cortega en México $1,499-2,398 con IVA por caja de 5.95 m²), contra $1,200.99/m² de material en Construbase actualizado. Suspensión 15/16 ≈$190/m² y M.O. $72.48. Referencia: tabulador CDMX GE12HB, plafón de lana mineral 0.61 × 0.61 con suspensión, $726.66/m² (Cortega de la tarjeta $768.02)"
 }

@@ -80,5 +80,6 @@
     "Separación de postes según el concepto (0.61 m)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Especificación: el murete de 1.20 m lleva por m² 1.67 m de canal (0.67 en muro), 1.67 m de esquinero y tapa superior, y rinde 10 m²/jor; su costo directo es $521.42 contra $522.68 del P.U. actualizado. El muro de la misma sección (E05.01.0009, $510.91) queda dentro de ±11 % del tabulador CDMX (GC29IC $473.67); la relación murete/muro de la tarjeta (1.31) es la de Construbase (1.25) más los esquineros y la tapa"
 }

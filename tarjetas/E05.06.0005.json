@@ -81,8 +81,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 8.0,
-    "fuente": "8.0 m/jor Of yesero + Ay (10.3 m²/jor de forro con tapa y esquineros; murete de 1.20 m rinde 10 m²/jor; el bastidor por metro es el mismo con una o dos caras). Catálogo: 8 m/jor"
+    "rendimiento": 8.5,
+    "fuente": "8.5 m/jor Of yesero + Ay (11.0 m²/jor de forro con tapa y esquineros; murete de 1.20 m rinde 10 m²/jor; el bastidor por metro es el mismo con una o dos caras). Catálogo: 8 m/jor"
   },
   "equipo": [],
   "supuestos": [
@@ -90,5 +90,6 @@
     "Forro en dos caras y tapa superior del mismo panel."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Especificación: pieza con bastidor propio, ángulos de amarre y esquineros; costo directo $492.44 = material $246.52 (Construbase $182.08) + M.O. $238.76 (Construbase $253.69). El P.U. actualizado de Construbase ($435.77) es igual a su M.O. más material, sin indirectos ni utilidad; la tarjeta aplica 28.4 % (indirectos 15 %, financiamiento 1.5 %, utilidad 10 %): su costo directo queda a +13% del P.U. actualizado"
 }

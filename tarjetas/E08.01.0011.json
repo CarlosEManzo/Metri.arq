@@ -1,0 +1,96 @@
+{
+  "clave_cb": "E08.01.0011",
+  "gubim": "30.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.40",
+      "condicion": "si la puerta es interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALU-PERF-NAT",
+      "cantidad": 15.396,
+      "desperdicio": 0.08,
+      "nota": "Hoja(s) 1 × [largueros 2 × 2.17 m × 0.85 + cabezal 1.20 m × 1.1 + zoclo 1.20 m × 2.2] = 7.65 kg; marco 5.60 m × 0.95 = 5.32 kg; intermedio 1.20 m × 1.0 = 1.20 kg; junquillo 8.18 m × 0.15 = 1.23 kg; total 15.40 kg; desperdicio 8 %"
+    },
+    {
+      "insumo": "CRISTAL-TEMP-6",
+      "cantidad": 1.012,
+      "desperdicio": 0.1,
+      "nota": "Claro de vidrio 1.10 m de ancho por hoja; 1.012 m² en 1 pieza(s); corte 10 %"
+    },
+    {
+      "insumo": "DUELA-ALU-NAT",
+      "cantidad": 1.012,
+      "desperdicio": 0.1,
+      "nota": "Tablero de duela 1.012 m²; corte 10 %"
+    },
+    {
+      "insumo": "VINIL-CUNA",
+      "cantidad": 16.36,
+      "desperdicio": 0.05,
+      "nota": "Vinil en ambas caras de los claros: 8.18 m × 2"
+    },
+    {
+      "insumo": "TORN-ESC-ALU",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "Ensamble de hojas (escuadras y tensores) y marco"
+    },
+    {
+      "insumo": "PIVOTE-DESC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "1 juego de pivote descentrado por hoja"
+    },
+    {
+      "insumo": "BARRA-ANTIPANICO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Barra de empuje antipánico"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 13,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 5.60 m / 0.45 = 13 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1.4,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 5.60 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.645,
+    "fuente": "Of. aluminero + Ay: corte, ensamble en taller e instalación. Jornadas = 0.75 + 0.45 × 1 hoja(s) + 0.15 marco + 0.20 herrajes especiales = 1.55 jor → 0.65 pza/jor. Catálogo: 1 pza/jor Of+Ay; mercado: 1-1.5 jornadas por puerta batiente sencilla con marco, 1.5-2 la doble"
+  },
+  "equipo": [
+    {
+      "descripcion": "Tronzadora-ingletadora para aluminio (depreciación y energía)",
+      "horas": 3.1,
+      "costo_horario": 18.0
+    }
+  ],
+  "supuestos": [
+    "Puerta 1.20 x 2.20 m, 1 hoja(s) de 1.20 m, línea 1.75 in, acabado anodizado natural.",
+    "Cierre con barra antipánico (sin cerradura ni jaladera adicional); pivote descentrado.",
+    "Pesos lineales supuestos de la línea de puerta: largueros (cerco curvo/cerco chapa), cabezal y zoclo de lujo; por validar con el catálogo del extrusor.",
+    "Precios de perfil por kg (natural $155, pintado $172, duranodik $190 sin IVA) derivados de listas por tramo de CostoNet/Alumer con pesos lineales supuestos; por validar con distribuidor de Morelia (Cuprum/Aluminio y Vidrio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

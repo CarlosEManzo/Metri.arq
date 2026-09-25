@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E08.06.0030",
+  "gubim": "30.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "VENT-PREF-120x120",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Ventana armada de línea comercial (tipo Cuprum aLumipro) con cristal 3 mm"
+    },
+    {
+      "insumo": "PIJA-TAQ-MARCO",
+      "cantidad": 11,
+      "desperdicio": 0.0,
+      "nota": "Fijación del marco a vano a cada 45 cm: 4.80 m / 0.45 = 11 pzas"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 1.2,
+      "desperdicio": 0.1,
+      "nota": "Sellado perimetral 2 caras: 4.80 m × 2 / 8 m por cartucho"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.631,
+    "fuente": "Solo instalación de ventana armada: 0.12 jor + 0.04 × 1.44 m² = 0.178 jor → 5.63 pza/jor. Catálogo 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ventana prefabricada 1.20 x 1.20 m comprada armada; se instala en vano terminado con taquete y pija y se sella con silicón.",
+    "Precio de la ventana armada: referencia de Home Depot México (Cuprum aLumipro blanca 120x120 $2,799 con IVA); por validar con precio de la versión natural."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
