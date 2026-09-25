@@ -1,0 +1,94 @@
+{
+  "clave_cb": "I03.01.0001",
+  "gubim": "20.20.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.30.10",
+      "condicion": "si la armadura es estructura de cubierta"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 450.0,
+      "desperdicio": 0.06,
+      "nota": "Cuerdas de ángulo 3x1/4 (7.29 kg/m): 45 % de 1,000 kg"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 470.0,
+      "desperdicio": 0.06,
+      "nota": "Diagonales y montantes PTR 3x3 de 4 mm (8.7 kg/m): 47 % de 1,000 kg"
+    },
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 80.0,
+      "desperdicio": 0.08,
+      "nota": "Placas de conexión 3/8: 8 % de 1,000 kg"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 25,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈2.5 % del peso (25 kg/ton)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 12,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 12 pza/ton"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 4.75,
+      "desperdicio": 0.1,
+      "nota": "Primario 1 mano: 38.0 m²/ton (≈0.038 m²/kg) / 8 m²/L"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 2.7125,
+      "desperdicio": 0.0,
+      "nota": "Dilución 15 % + limpieza con solvente 2 L/ton"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1.0
+      },
+      {
+        "categoria": "OF-PIN",
+        "personas": 0.09
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.0
+      }
+    ],
+    "rendimiento": 0.18,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: fabricación (trazo, corte, armado y soldadura) y limpieza a 0.18 ton/jor Of herrero+Ay; primario 38.0 m² a 80 m²/jor Of pintor. Jornadas por ton: OF-HER 5.556, OF-PIN 0.475, AYU 5.556 (M.O. $11,862.81). Rendimiento = 1 / jornadas del oficial principal (OF-HER) = 0.18 ton/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A (renta + energía)",
+      "horas": 44.4444,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 22.2222,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Armadura de cubierta: 45 % ángulo, 47 % PTR y 8 % placa de conexión (proporción supuesta para claros de 10-15 m).",
+    "Incluye elevación y montaje a mano con garrucha a una altura hasta 4 m; sin grúa.",
+    "Rendimiento de fabricación 0.18 ton/jor Of herrero+Ay (catálogo 0.18 ton/jor; publicados 0.15-0.30 ton/jor en taller de obra).",
+    "Soldadora $45/h (renta $250-350/día + energía), esmeriladora $12/h y oxicorte $90/h (gases): referencias sin cotización.",
+    "Precios de perfiles y placa por kg como referencia de mercado (ANG-ACERO, PTR-ACERO, PLACA-A36); variación típica del acero ±15 % en el año."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

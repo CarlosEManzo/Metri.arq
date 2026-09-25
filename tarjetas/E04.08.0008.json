@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E04.08.0008",
+  "gubim": "40.30.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.40.10",
+      "condicion": "si la escalera es exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0476,
+      "desperdicio": 0.05,
+      "nota": "Sección 0.28 × 0.17 × 1.00 = 0.0476 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0031,
+      "desperdicio": 0.1,
+      "nota": "3 varillas #3 longitudinales (1.67 kg) + bastones #3 de 0.60 m @ 25 cm (4 × 0.60 × 0.557 = 1.34 kg) = 3.0 kg/m; 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Amarres"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.492975,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de peralte 1.37 pt + estacas y tapas 0.6 pt = 1.97 pt/m; 4 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.03,
+      "desperdicio": 0.1,
+      "nota": "Clavo de cimbra"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 m/jor Of+Pe. Catálogo: 8 m/jor; se baja por habilitado y armado del acero con la misma cuadrilla; publicados 5-8 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Escalón de concreto f'c=150 hecho en obra armado con varilla #3 (3 longitudinales y bastones @25 cm), sobre relleno compactado o rampa existente.",
+    "Acabado común; recubrimiento final aparte."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

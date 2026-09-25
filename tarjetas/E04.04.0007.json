@@ -1,0 +1,72 @@
+{
+  "clave_cb": "E04.04.0007",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el castillo se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.024,
+      "desperdicio": 0.05,
+      "nota": "0.12 × 0.20 × 1.00 = 0.0240 m³/m; 5 % por derrame y dentado"
+    },
+    {
+      "insumo": "ARMEX-12-20-4",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1.00 m/m; traslape de 40 cm por pieza de 6 m y cortes → 8 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.03,
+      "desperdicio": 0.1,
+      "nota": "Amarre del armex a traslapes, anclajes y cadenas"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.8456,
+      "desperdicio": 0.1,
+      "nota": "Cimbra aparente a 2 caras de 0.20 m con tabla cepillada: 2 × 0.20 × 8.07 = 3.23 pt + barrotes y yugos ≈1.0 pt = 4.23 pt/m; 5 usos con desmoldante"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.04,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m² de contacto"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.04,
+      "desperdicio": 0.1,
+      "nota": "Clavo para tableros y yugos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11.0 m/jor Of+Pe. Catálogo: 8 m/jor. Publicados para castillo con armex: 8.5-12 m/jor en 15x15 y hasta 14-15 en 12x12 (analisisdepreciosunitarios.com, ing. Daniel RG); la tarjeta E04.04.0008 (15x15) usa 10. Aquí se escala por sección con 12.0 m/jor para 12x20 común (el armex llega armado; solo se cimbra a dos caras); acabado aparente ×0.92 por cimbra cepillada, plomeo fino y resane. El peón hace el concreto a mano"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto f'c=150 hecho en obra a mano; castillo en muro con cimbra a dos caras (las otras caras contra el muro dentado).",
+    "Altura hasta 3.00 m sin andamio; anclaje del armex en cimentación y cadena incluido en el desperdicio.",
+    "Precio del armex por regla de escala anclada en el 15-15-4 cotizado (referencia).",
+    "Acabado aparente: tabla de pino de 1a cepillada con desmoldante, 5 usos."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

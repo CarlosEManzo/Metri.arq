@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E03.01.0008",
+  "gubim": "20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.10",
+      "condicion": "si el elemento es columna o castillo"
+    },
+    {
+      "clave": "20.20.20.20",
+      "condicion": "si es trabe"
+    },
+    {
+      "clave": "20.20.20.10",
+      "condicion": "si es losa"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es muro de concreto"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-5",
+      "cantidad": 0.001,
+      "desperdicio": 0.07,
+      "nota": "1 kg de acero medido en proyecto + 7 % por cortes y despuntes"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Amarres: 0.02 kg/kg para #5"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 270,
+    "fuente": "270 kg/jor Of fierrero + Ay (catálogo: 250 para todos los diámetros). Escalado por diámetro: los diámetros chicos (estribos, más cortes y dobleces por kg) rinden 150-200 kg/jor y los grandes 300-350; tablas publicadas: 3/8 180-250, 1/2 250-300, 1\" 300-400 kg/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Acero habilitado en obra y elevado a mano hasta 2 niveles; sin grúa.",
+    "Peso nominal 1.552 kg/m. Silletas y separadores con recortes de varilla o dados de concreto.",
+    "Desperdicio por cortes y despuntes sobre el peso de proyecto (traslapes y ganchos ya medidos en proyecto)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

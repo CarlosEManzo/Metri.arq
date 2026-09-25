@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E04.08.0016",
+  "gubim": "60.10.10.90",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "LAVADERO-CONC",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Lavadero prefabricado de concreto con pileta integrada"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.008,
+      "desperdicio": 0.05,
+      "nota": "Empotre en muro (cajas de 15 × 15 × 20 cm) y asiento"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0012,
+      "desperdicio": 0.0,
+      "nota": "2 anclas #3 de 1.00 m empotradas en muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6 pza/jor Of+Pe (≈1.3 h por pieza: ranurado del muro, anclas, presentación, nivelación y junteo). El catálogo da 2 pza/jor, que con salarios actuales duplica el P.U. de referencia; publicados: colocación de lavadero 4-8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Lavadero prefabricado de concreto con pileta, empotrado en el muro con anclas y mortero, sin apoyos de tabique (si lleva base de tabique se paga aparte).",
+    "Sin llave ni desagüe (se pagan con la instalación hidrosanitaria); color gris natural."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

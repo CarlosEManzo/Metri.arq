@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E04.08.0001",
+  "gubim": "30.20.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.10",
+      "condicion": "si el sardinel se modela con la cubierta"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0048,
+      "desperdicio": 0.1,
+      "nota": "0.06 × 0.08 × 1.00 = 0.0048 m³/m; 10 % por derrame en sección pequeña"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000557,
+      "desperdicio": 0.1,
+      "nota": "1 varilla #3 × 0.557 kg/m; traslapes → 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Amarres y anclas"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.31824,
+      "desperdicio": 0.1,
+      "nota": "Cimbra 2 costados de 8 cm: 2 × 0.08 × 8.07 = 1.29 pt + estacas/separadores 0.3 pt = 1.59 pt/m; 5 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Clavo de cimbra"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20 m/jor Of+Pe. Catálogo: 30 m/jor (valor genérico de azotea). Publicados: sardineles/pretiles pequeños de concreto 15-25 m/jor incluyendo cimbra y colado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sardinel de concreto f'c=150 hecho en obra sobre losa de azotea, anclado con varilla; cimbra a dos costados.",
+    "Elevación manual a azotea de un nivel; acabado común."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

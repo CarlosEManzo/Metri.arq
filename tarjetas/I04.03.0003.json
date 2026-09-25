@@ -1,0 +1,70 @@
+{
+  "clave_cb": "I04.03.0003",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si la dala se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "0.0300 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.002228,
+      "desperdicio": 0.1,
+      "nota": "4 varillas #3 × 0.557 = 2.228 kg/m; traslapes en el 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.000778,
+      "desperdicio": 0.05,
+      "nota": "Estribo #2 de 0.62 m × 0.251 kg/m × 5 pza/m (@20 cm)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.0902,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg × 3.01 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.01,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 0.55 m²/m de contacto: tabla 3/4\" 8.07 pt/m² + barrotes y yugos ≈3 pt/m² = 11 pt/m²; 5 usos → 2.2 pt/m² + puntales"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.066,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m/jor Of+Pe: cerramiento sobre vano con cimbra de fondo y puntales; catálogo 8 m/jor para cadenas; publicados 6-8 m/jor para cerramientos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cerramiento sobre vanos: cimbra de fondo y dos costados (0.55 m²/m) con puntales de polín.",
+    "La descripción dice estribos @0.2 cm: se interpreta @20 cm."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

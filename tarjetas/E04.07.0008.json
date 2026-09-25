@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.07.0008",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.30.10",
+      "condicion": "si es drenaje pluvial exterior o de urbanización"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-CONC-20",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m/m (piezas de 0.90-1.00 m con junta de campana); 3 % por rotura y cortes"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.00104,
+      "desperdicio": 0.1,
+      "nota": "Junteo de campana: anillo π × 0.26 m × 0.03 × 0.02 m por junta, ≈1 junta/m, + chaflán exterior → 0.0010 m³/m"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Prueba de hermeticidad/escurrimiento del tramo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18.0,
+    "fuente": "18.0 m/jor Of+Pe. Catálogo: 15 m/jor para todos los diámetros. Publicados: albañal de concreto 10-15 cm 20-30 m/jor, 20 cm 15-20, 30 cm 10-15 m/jor (analisisdepreciosunitarios.com); los diámetros grandes rinden menos por peso de la pieza"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Colocación en zanja ya excavada y con plantilla (excavación, cama de arena y relleno se pagan aparte).",
+    "Junteo de campana con mortero cemento-arena 1:4 hecho a mano; trazo y nivelación con hilo y nivel de manguera; prueba de escurrimiento con agua.",
+    "Precio del tubo por regla de escala anclada en el tubo de 15 cm (referencia; pedir cotización a fabricante local)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

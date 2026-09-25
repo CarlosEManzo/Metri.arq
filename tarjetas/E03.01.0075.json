@@ -1,0 +1,99 @@
+{
+  "clave_cb": "E03.01.0075",
+  "gubim": "20.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.40",
+      "condicion": "si se modela la vigueta como elemento independiente"
+    },
+    {
+      "clave": "30.20.10.10",
+      "condicion": "si la losa es la cubierta (azotea)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VIGUETA-PRET-12",
+      "cantidad": 1.333,
+      "desperdicio": 0.03,
+      "nota": "Viguetas @ 75 cm: 1/0.75 = 1.333 m/m²"
+    },
+    {
+      "insumo": "BOVEDILLA-EPS-15",
+      "cantidad": 1.093,
+      "desperdicio": 0.03,
+      "nota": "Bovedilla 15x63x122: 1/(0.75 × 1.22) = 1.093 pza/m²"
+    },
+    {
+      "insumo": "MALLA-66-1010",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "Malla en capa de compresión + traslapes"
+    },
+    {
+      "insumo": "CONC-PREM-I-250",
+      "cantidad": 0.072,
+      "desperdicio": 0.05,
+      "nota": "Capa de compresión 5 cm (0.050) + nervios entre bovedillas ≈0.022 m³/m²"
+    },
+    {
+      "insumo": "ADIC-BOMBEABLE",
+      "cantidad": 0.072,
+      "desperdicio": 0.05,
+      "nota": "Concreto bombeable"
+    },
+    {
+      "insumo": "BOMBA-CONC",
+      "cantidad": 0.072,
+      "desperdicio": 0.0,
+      "nota": "Bombeo del volumen colocado"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.5,
+      "desperdicio": 0.1,
+      "nota": "Apuntalamiento: madrinas de polín @ 1.50 y puntales @ 1.20 ≈12 pt/m²; 8 usos"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Amarres de malla y bastones"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 22.0,
+    "fuente": "22 m²/jor 2 Of + 2 Pe (catálogo: 25 m²/jor Of+2Pe). Incluye apuntalar, colocar vigueta y bovedilla, malla, colado bombeado con pulido integral y desapuntalar; publicados 20-30 m²/jor por Of+2Pe solo para colocación"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador de chicote a gasolina",
+      "horas": 0.0288,
+      "costo_horario": 65.0
+    },
+    {
+      "descripcion": "Allanadora/llana mecánica para pulido integral",
+      "horas": 0.05,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Claro máximo 4.00 m, peralte total 20 cm (bovedilla 15 + compresión 5); vigueta pretensada de 12 cm de peralte.",
+    "Concreto f'c=250 clase 1 bombeado; el bombeo de volúmenes chicos puede pagar cargo mínimo.",
+    "No incluye cadenas o trabes de apoyo, bastones adicionales por continuidad ni curado.",
+    "Acabado pulido integral con llana (0.05 h/m² de allanadora, $80/h, referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

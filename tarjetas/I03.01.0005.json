@@ -1,0 +1,93 @@
+{
+  "clave_cb": "I03.01.0005",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.30",
+      "condicion": "si forma parte de una armadura"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 1000.0,
+      "desperdicio": 0.08,
+      "nota": "Placa A-36: dos de 1/2, dos de 5/16 y placas de conexión 0.4×0.5 de 3/8: 100 % de 1,000 kg"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 30,
+      "desperdicio": 0.1,
+      "nota": "Soldadura ≈3.0 % del peso (30 kg/ton)"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 12,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 12 pza/ton"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 3.25,
+      "desperdicio": 0.1,
+      "nota": "Primario 1 mano: 26.0 m²/ton (≈0.026 m²/kg) / 8 m²/L"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 2.4875,
+      "desperdicio": 0.0,
+      "nota": "Dilución 15 % + limpieza con solvente 2 L/ton"
+    },
+    {
+      "insumo": "VELMAR",
+      "cantidad": 6.933333,
+      "desperdicio": 0.05,
+      "nota": "Esmalte 2 manos: 26.0 m² × 2 / 7.5 m²/L"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1.0
+      },
+      {
+        "categoria": "OF-PIN",
+        "personas": 0.15
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.0
+      }
+    ],
+    "rendimiento": 0.18,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: fabricación (trazo, corte, armado y soldadura) y limpieza a 0.18 ton/jor Of herrero+Ay; primario 26.0 m² a 80 m²/jor Of pintor; esmalte 2 manos 26.0 m² a 50 m²/jor Of pintor. Jornadas por ton: OF-HER 5.556, OF-PIN 0.845, AYU 5.556 (M.O. $12,320.69). Rendimiento = 1 / jornadas del oficial principal (OF-HER) = 0.18 ton/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A (renta + energía)",
+      "horas": 44.4444,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 22.2222,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno y acetileno)",
+      "horas": 8,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Trabe armada en cajón o doble alma con 4 placas y 2 placas de conexión; soldadura continua ≈3 % del peso.",
+    "Acabado con esmalte alquidálico Velmar a 2 manos sobre el primario. Montaje con grúa no incluido.",
+    "Rendimiento de fabricación 0.18 ton/jor Of herrero+Ay (catálogo 0.18 ton/jor; publicados 0.15-0.30 ton/jor en taller de obra).",
+    "Soldadora $45/h (renta $250-350/día + energía), esmeriladora $12/h y oxicorte $90/h (gases): referencias sin cotización.",
+    "Precios de perfiles y placa por kg como referencia de mercado (ANG-ACERO, PTR-ACERO, PLACA-A36); variación típica del acero ±15 % en el año."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

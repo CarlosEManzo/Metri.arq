@@ -1,0 +1,71 @@
+{
+  "clave_cb": "E03.02.0004",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 19.9704,
+      "desperdicio": 0.08,
+      "nota": "40x40 cm × 15.9 mm × 7,850 = 19.97 kg; 8 % por cortes"
+    },
+    {
+      "insumo": "REDONDO-A36",
+      "cantidad": 14.3028,
+      "desperdicio": 0.05,
+      "nota": "4 anclas × 0.90 m × 3.973 kg/m = 14.30 kg"
+    },
+    {
+      "insumo": "JTR-1",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "2 tuercas y rondana por ancla (nivelación y apriete)"
+    },
+    {
+      "insumo": "ROSCA-1",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Roscado de un extremo por ancla"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": "Cortes y limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4.0 pza/jor Of herrero + Ay (catálogo: 8). Trazo, corte con oxicorte, 4 barrenos, doblado de anclas, fijación con plantilla y nivelación; publicados 4-8 pza/jor según tamaño"
+  },
+  "equipo": [
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.5,
+      "costo_horario": 90.0
+    },
+    {
+      "descripcion": "Taladro magnético / de banco",
+      "horas": 0.4,
+      "costo_horario": 40.0
+    }
+  ],
+  "supuestos": [
+    "Placa A-36 de 15.9 mm y anclas de redondo liso A-36 de 1\" con gancho a 90° y rosca de 10-12 cm.",
+    "Equipo de oxicorte $90/h (gases y depreciación) y taladro $40/h, referencias sin cotización.",
+    "No incluye grout de asiento (E03.02.0001)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

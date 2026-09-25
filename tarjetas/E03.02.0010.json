@@ -1,0 +1,76 @@
+{
+  "clave_cb": "E03.02.0010",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.40",
+      "condicion": "si el monten trabaja como larguero de cubierta (correa)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MONTEN-ACERO",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 kg de acero de proyecto + 5 % por despuntes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.008,
+      "desperdicio": 0.1,
+      "nota": "Soldadura 0.008 kg/kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.00875,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo una mano: 0.07 m²/kg ÷ 8 m²/L"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.001313,
+      "desperdicio": 0.0,
+      "nota": "Dilución 15 % y limpieza"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 100 kg"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 kg/jor Of herrero + Ay (catálogo: 180). Fabricación en obra, soldadura, primario y montaje; publicados 120-200 kg/jor para estructura ligera y 200-350 para perfiles pesados"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.024,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.004,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Canal monten como largueros/polines atornillados o soldados a clips; área a pintar ≈0.07 m²/kg (cal. 12-14).",
+    "Montaje a 1-2 niveles; soldadora ≈60 % de la jornada ($45/h) y oxicorte ≈10 % ($90/h), referencias sin cotización.",
+    "Precio del perfil por kg es referencia de distribuidor (lote 2f / lote 2c); sin cotización de acerera en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

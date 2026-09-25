@@ -1,0 +1,51 @@
+{
+  "clave_cb": "E03.03.0008",
+  "gubim": "30.20.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.20",
+      "condicion": "si la lámina se usa en fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAM-R101-C24",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1.00 m² útil; 8 % por traslape longitudinal (15 cm) y cortes"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 5.0,
+      "desperdicio": 0.05,
+      "nota": "5 pijas/m² (en cada valle sobre larguero y costuras)"
+    },
+    {
+      "insumo": "CINTA-BUTILO",
+      "cantidad": 0.5,
+      "desperdicio": 0.05,
+      "nota": "Sello en traslapes longitudinales"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of + Ay (catálogo). Publicados 40-60 m²/jor para lámina acanalada sobre largueros"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Lámina R-101 pintro cal. 24 sobre largueros existentes (no incluidos); precio de referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

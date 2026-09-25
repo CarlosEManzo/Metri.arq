@@ -1,0 +1,65 @@
+{
+  "clave_cb": "E04.09.0005",
+  "gubim": "30.20.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.40.10",
+      "condicion": "si se aplica bajo firme o en cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "FESTER-MICROPRIMER",
+      "cantidad": 0.25,
+      "desperdicio": 0.05,
+      "nota": "Impregnación: 4-5 m²/L (ficha Fester) → ≈0.22-0.25 L/m²"
+    },
+    {
+      "insumo": "FESTER-MICROSEAL-2F",
+      "cantidad": 1.8,
+      "desperdicio": 0.05,
+      "nota": "2 capas × 0.9 L/m² (ficha técnica Fester, superficie horizontal)"
+    },
+    {
+      "insumo": "FESTERFLEX",
+      "cantidad": 1,
+      "desperdicio": 0.1,
+      "nota": "1 membrana(s) de refuerzo embebida(s); 10 % de traslapes y recortes"
+    },
+    {
+      "insumo": "ARENA",
+      "cantidad": 0.003,
+      "desperdicio": 0.1,
+      "nota": "Arena cernida espolvoreada sobre la última capa fresca, ≈3 L/m²"
+    },
+    {
+      "insumo": "FESTERBLANC",
+      "cantidad": 0.333,
+      "desperdicio": 0.05,
+      "nota": "Acabado a dos manos: 3 m²/L → 0.333 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor Of+Ay, igual que la tarjeta E04.09.0004 (mismo sistema de 2 capas y 1 malla). Catálogo: 40 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Losa de azotea limpia y con pendiente; chaflanes y calafateo de grietas aparte.",
+    "Elevación manual hasta 2 niveles.",
+    "Microseal 2F a 0.9 L/m² por capa (fibratado aplicado con cepillo, rango de ficha 0.8-1.0 L/m²); precio de Microseal como referencia (lista Fester 2016 actualizada ≈50 %), es el insumo que más pesa."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

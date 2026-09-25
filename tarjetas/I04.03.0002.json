@@ -1,0 +1,70 @@
+{
+  "clave_cb": "I04.03.0002",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si la dala se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.06,
+      "desperdicio": 0.05,
+      "nota": "0.0600 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.003342,
+      "desperdicio": 0.1,
+      "nota": "6 varillas #3 × 0.557 = 3.342 kg/m; traslapes en el 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.001155,
+      "desperdicio": 0.05,
+      "nota": "Estribo #2 de 0.92 m × 0.251 kg/m × 5 pza/m (@20 cm)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1349,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg × 4.50 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.32,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 0.60 m²/m de contacto: tabla 3/4\" 8.07 pt/m² + barrotes y yugos ≈3 pt/m² = 11 pt/m²; 5 usos → 2.2 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.072,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m/jor Of+Pe (rendimiento del catálogo; cadena de 20x30 en elevación, rango 7-10)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Dala intermedia o de remate sobre muro, cimbra en dos costados (0.60 m²/m); concreto hecho en obra a mano, elevado con botes.",
+    "La descripción dice estribos @0.2 cm: se interpreta @20 cm."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

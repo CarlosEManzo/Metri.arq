@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E03.02.0001",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FESTERGROUT-NM600",
+      "cantidad": 69.0,
+      "desperdicio": 0.04,
+      "nota": "Densidad del grout fresco ≈2,070 kg/m³ (rendimiento de fabricante ≈14.5 L/saco) → 69 sacos/m³; 4 % de desperdicio"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": "Agua de mezclado ≈4.3 L/saco"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 15.0,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de fronteras de tabla alrededor de placas: ≈60 pt por m³ de grout (volúmenes de 3-5 L por placa); 4 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.5,
+    "fuente": "0.5 m³/jor Of + Pe (catálogo). Nivelación con cuñas, cimbra perimetral, mezclado en bote con taladro y vaciado por gravedad en decenas de placas: el volumen por placa es muy pequeño"
+  },
+  "equipo": [
+    {
+      "descripcion": "Taladro con aspa mezcladora",
+      "horas": 4.0,
+      "costo_horario": 15.0
+    }
+  ],
+  "supuestos": [
+    "Se usa Festergrout NM 600 (uso general); si el proyecto pide NM 800 o AF el precio del saco sube 20-30 %.",
+    "Espesor de grout de 2.5 a 5 cm bajo placas base; volumen medido neto bajo placas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

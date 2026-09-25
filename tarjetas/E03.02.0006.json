@@ -1,0 +1,69 @@
+{
+  "clave_cb": "E03.02.0006",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.20",
+      "condicion": "si la placa va ahogada en trabe"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 2.983,
+      "desperdicio": 0.08,
+      "nota": "20x20 cm × 9.5 mm × 7,850 = 2.98 kg"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000446,
+      "desperdicio": 0.1,
+      "nota": "4 varillas × 0.20 m × 0.557 kg/m = 0.45 kg"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.12,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de filete de 4 varillas: 0.12 kg"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Cortes y limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10.0 pza/jor Of herrero + Ay (catálogo: 8). Placas chicas de anclaje: trazo, corte, soldar 4 varillas y fijar a la cimbra; publicados 8-15 pza/jor según tamaño"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.4,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.15,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Soldadora trabajando ≈50 % del tiempo, $45/h (energía y depreciación) como referencia sin cotización.",
+    "Placa ahogada en concreto al colar; sin pintura."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,63 @@
+{
+  "clave_cb": "I04.03.0004",
+  "gubim": "20.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.20",
+      "condicion": "si se clasifica como cadena de desplante sobre cimiento"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "0.0300 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "ARMEX-15-20-4",
+      "cantidad": 1.0,
+      "desperdicio": 0.08,
+      "nota": "1.00 m/m; traslape 40 cm por pieza de 6 m y cortes → 8 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.03,
+      "desperdicio": 0.1,
+      "nota": "Amarres de traslapes y anclajes 0.03 kg/m"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.8,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 0.40 m²/m de contacto: tabla 3/4\" 8.07 pt/m² + barrotes y yugos ≈3 pt/m² = 11 pt/m²; 5 usos → 2.2 pt/m² + puntales"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.048,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "12 m/jor Of+Pe: con armex prefabricado no hay habilitado de estribos; catálogo 8 m/jor; E04.04.0008 (castillo con armex) 10 m/jor en elevación; al nivel de desplante 12"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Dala de desplante sobre cimiento con armex 15x20-4 (precio de otro lote, ARMEX-15-20-4), cimbra en dos costados (0.40 m²/m); concreto hecho en obra a mano."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

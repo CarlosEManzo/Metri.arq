@@ -1,0 +1,89 @@
+{
+  "clave_cb": "E04.07.0003",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.30.30",
+      "condicion": "si el registro es de drenaje pluvial exterior/urbanización"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.1024,
+      "desperdicio": 0.05,
+      "nota": "Muro a soga 14 cm: perímetro a eje 2.56 m × 1.00 m = 2.56 m² × 40 pza/m² = 102 pza"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.0768,
+      "desperdicio": 0.03,
+      "nota": "2.56 m² × 0.030 m³/m² de junteo"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.048,
+      "desperdicio": 0.05,
+      "nota": "Firme de 8 cm: 0.68 × 0.88 × 0.08 = 0.048 m³"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0225,
+      "desperdicio": 0.05,
+      "nota": "Tapa de 8 cm colada en el contramarco: 0.44 × 0.64 × 0.08 = 0.0225 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0019,
+      "desperdicio": 0.1,
+      "nota": "Parrilla de tapa #3 @ 15 cm: 3.4 m × 0.557 kg/m = 1.9 kg"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.0336,
+      "desperdicio": 0.05,
+      "nota": "Aplanado interior 1.5 cm: 2.24 m² × 0.015 = 0.0336 m³"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.00224,
+      "desperdicio": 0.0,
+      "nota": "Pulido con cemento espolvoreado: 1 kg/m² × 2.24 m²"
+    },
+    {
+      "insumo": "MARCO-REG-40x60",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Marco y contramarco comercial de ángulo 1 1/4\" con anclas"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Amarres de parrilla de tapa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.6
+      }
+    ],
+    "rendimiento": 1.43,
+    "fuente": "1.43 pza/jor Of+1.6Pe, por partidas escaladas desde la tarjeta E04.07.0002 (0.80 m → 1.6 pza/jor): excavación 1.03 m³ a 3.5 m³/jor-peón, muro 2.56 m² a 8 m²/jor, aplanado pulido 2.24 m² a 10 m²/jor, firme, tapa y marco 0.15 jor, limpieza 0.1 jor Pe → 0.70 jor Of + 1.09 jor Pe. Catálogo: 1 pza/jor Of+Pe; publicados 1-2 registros/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación a mano en terreno compacto (≈1.03 m³ con holgura de trabajo), relleno lateral con producto de la excavación y retiro del sobrante a 20 m.",
+    "Muros de tabique a soga (14 cm), sin castillos; firme y tapa de concreto f'c=150 hecho a mano; tapa colada dentro del contramarco con parrilla #3; aplanado interior pulido con media caña.",
+    "Sin tubería de llegada ni salida (se paga con la red). Misma estructura que la tarjeta E04.07.0002 (0.80 m), escalada por profundidad."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

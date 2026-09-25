@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E03.03.0007",
+  "gubim": "30.20.10.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.20",
+      "condicion": "si se integra al sistema de cubierta prefabricada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAM-PINTRO-C22",
+      "cantidad": 0.61,
+      "desperdicio": 0.1,
+      "nota": "Desarrollo 0.61 m²/m; 10 % traslapes (15 cm por pieza de 3 m) y cortes"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 4.0,
+      "desperdicio": 0.05,
+      "nota": "Fijación a lámina/larguero @ 30-50 cm"
+    },
+    {
+      "insumo": "CINTA-BUTILO",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Sello bajo el remate"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m/jor Of + Ay (catálogo: 30). Remate doblado de fábrica o en dobladora; cortar, presentar y fijar"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Remate cabecero de lámina pintada cal. 22 de 61 cm de desarrollo.",
+    "Clave GuBIM cambiada de 30.20.10.20 a 30.20.10.50 (remates de cubiertas), que describe mejor la pieza.",
+    "Lámina lisa pintro cal. 22 (LAM-PINTRO-C22) doblada; precio de referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

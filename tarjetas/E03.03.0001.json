@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E03.03.0001",
+  "gubim": "30.20.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.10",
+      "condicion": "si se modela como cubierta in-situ"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAM-KR18-C22",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Lámina engargolada continua a la medida; 3 % en remates"
+    },
+    {
+      "insumo": "CLIP-KR18",
+      "cantidad": 1.6,
+      "desperdicio": 0.03,
+      "nota": "Clips ocultos @ 1.00 m sobre largueros cada 61 cm de ancho: ≈1.6 pza/m²"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 3.3,
+      "desperdicio": 0.05,
+      "nota": "2 tornillos por clip"
+    },
+    {
+      "insumo": "CINTA-BUTILO",
+      "cantidad": 0.2,
+      "desperdicio": 0.05,
+      "nota": "Sello en cumbrera y remates"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of + Ay (catálogo). Elevar, fijar clips y engargolar con máquina; publicados 40-60 m²/jor en naves"
+  },
+  "equipo": [
+    {
+      "descripcion": "Engargoladora eléctrica para KR-18 (renta)",
+      "horas": 0.2,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Cubierta sobre largueros existentes (no incluidos), pendiente mínima 2 %; engargoladora a $80/h (referencia).",
+    "Lámina KR-18 cal. 22 bajo pedido; precio de referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

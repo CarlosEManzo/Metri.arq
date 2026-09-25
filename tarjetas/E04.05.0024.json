@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E04.05.0024",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.40",
+      "condicion": "si es plafón exterior (volado o alero)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.02,
+      "desperdicio": 0.08,
+      "nota": "Espesor promedio 2.0 cm incluyendo repellado: 0.020 m³/m²; 8 % por rebote y caída en plafón"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10.0 m²/jor Of+Pe (rendimiento del catálogo, igual a la tarjeta E04.05.0023 (fino en plafón, 10 m²/jor)); publicados: fino en muro 12-16, en plafón 10 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a 2.40-3.00 m sobre losa picada o con lechada de adherencia; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Aplanado a plomo y regla con maestras, acabado fino con llana de madera.",
+    "Mortero cemento-arena 1:5 hecho a mano por el peón."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

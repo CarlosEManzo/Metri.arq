@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E04.07.0011",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.30.10",
+      "condicion": "si es para drenaje exterior o de urbanización"
+    },
+    {
+      "clave": "10.20.30",
+      "condicion": "si se modela como relleno de zanja"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ARENA",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m³ medido colocado; 10 % por abundamiento y compactación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.5,
+    "fuente": "3.5 m³/jor peón (catálogo: 4 m³/jor). Capa delgada de 6 cm: más superficie por m³, se baja a 3.5; publicados 3.5-5 m³/jor-peón"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cama de arena de 6 cm en fondo de zanja ya excavada; incluye trazo, nivelación y acomodo con pala y pisón de mano.",
+    "Arena puesta a pie de zanja (acarreo hasta 20 m)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

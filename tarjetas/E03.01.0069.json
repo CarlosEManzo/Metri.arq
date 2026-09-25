@@ -1,0 +1,96 @@
+{
+  "clave_cb": "E03.01.0069",
+  "gubim": "20.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.10",
+      "condicion": "si la losa es la cubierta (azotea)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-I-250",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "0.10 m³/m² + 5 % por sobreespesor y residuo (tiro directo)"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.00613,
+      "desperdicio": 0.07,
+      "nota": "10.0 m/m² (1 parrilla(s) @ 20 cm en 2 sentidos) × 0.557 kg/m × 1.10 por traslapes y bastones = 6.13 kg/m²"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1839,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.6,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común: cubierta de tabla 3/4\" 8.07 pt/m², 5 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.95,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa de polín y barrote 15.6 pt/m², 8 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 24.19,
+    "fuente": "24.19 m²/jor con cuadrilla integrada (Of carpintero, Of fierrero, Of albañil, 2 Ay, 2 Pe). Se obtiene sumando la M.O. de cada actividad: cimbra 10 m²/jor Of+Ay, acero 250 kg/jor Of+Ay (6.13 kg/m²) y colado 20 m³/jor Of+5Pe (0.1 m³/m²) = $276.23/m². Catálogo: 15 m²/jor Of+5Pe"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador de chicote a gasolina",
+      "horas": 0.04,
+      "costo_horario": 65.0
+    }
+  ],
+  "supuestos": [
+    "Losa maciza de 10 cm con concreto premezclado f'c=250 clase 1 tiro directo (CONC-PREM-I-250), altura de entrepiso hasta 3.00 m.",
+    "Cimbra común de tabla de pino de 3a (misma composición que E03.01.0026).",
+    "La tarjeta usa una sola cuadrilla integrada; su rendimiento equivale a la suma de las actividades (ver fuente).",
+    "No incluye curado, pruebas de laboratorio ni cimbra de fronteras."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

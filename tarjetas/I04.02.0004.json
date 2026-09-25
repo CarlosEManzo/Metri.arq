@@ -1,0 +1,74 @@
+{
+  "clave_cb": "I04.02.0004",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga (mampostería reforzada interiormente)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "BLK-15",
+      "cantidad": 12.5,
+      "desperdicio": 0.05,
+      "nota": "12.50 pza/m² con junta de 1 cm"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.015,
+      "desperdicio": 0.03,
+      "nota": "Junteo 1 cm"
+    },
+    {
+      "insumo": "ESCAL-15",
+      "cantidad": 2.5,
+      "desperdicio": 0.1,
+      "nota": "Cada 2 hiladas (40 cm): 2.5 m/m²; 10 % de traslape"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.012,
+      "desperdicio": 0.1,
+      "nota": "Relleno de 1 celda por metro: hueco ≈0.10 × 0.12 m × 1.00 m = 0.012 m³/m²"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000557,
+      "desperdicio": 0.1,
+      "nota": "1 varilla #3 por castillo ahogado a cada 1.00 m: 1.0 m/m² × 0.557 kg/m; traslapes 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Amarres de varilla a escalerilla"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1.0
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.0
+      }
+    ],
+    "rendimiento": 8.974,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: muro de block 1.00 m² a 14 m²/jor Of+Pe (E04.02.0033); colocación de varilla y colado de celdas 1.0 m/m² a 25 m/jor Of+Pe. Jornadas por m2: OF-ALB 0.111, PEON 0.111 (M.O. $215.11). Rendimiento = 1 / jornadas del oficial principal (OF-ALB) = 8.974 m2/jor."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de block 15x20x40 hasta 3.00 m sin andamio; castillos ahogados con 1 varilla #3 y relleno de concreto f'c=150 en una celda a cada 1.00 m.",
+    "Escalerilla ESCAL-15 cada 2 hiladas. La descripción no dice más refuerzos; cadenas se pagan aparte."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

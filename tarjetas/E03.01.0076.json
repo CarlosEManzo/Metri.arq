@@ -1,0 +1,83 @@
+{
+  "clave_cb": "E03.01.0076",
+  "gubim": "20.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.10",
+      "condicion": "si la losa es la cubierta (azotea)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PANEL-COVINTEC-3",
+      "cantidad": 0.335909,
+      "desperdicio": 0.05,
+      "nota": "Panel estructural 3\" 1.22x2.44 = 2.977 m² (Covintec/panel W, lote 2f)"
+    },
+    {
+      "insumo": "VAR-2.5",
+      "cantidad": 0.001618,
+      "desperdicio": 0.07,
+      "nota": "5/16\": @ 40 cm claro corto (2.50 m/m²) + @ 60 cm claro largo (1.67 m/m²) = 4.17 m × 0.388 kg/m = 1.62 kg/m²"
+    },
+    {
+      "insumo": "MALLA-UNION-COV",
+      "cantidad": 0.9,
+      "desperdicio": 0.05,
+      "nota": "Malla de unión de 25-30 cm en juntas: ≈0.9 m/m² (paneles de 1.22 m) incluidas esquinas"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Amarres de malla y varilla"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Aplanado inferior de 2 cm cemento-arena 1:4"
+    },
+    {
+      "basico": "CON-250",
+      "cantidad": 0.045,
+      "desperdicio": 0.05,
+      "nota": "Capa superior de 4 cm + penetración en la malla ≈0.045 m³/m²"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.5,
+      "desperdicio": 0.1,
+      "nota": "Apuntalamiento de polín y madrinas ≈12 pt/m²; 8 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 13.0,
+    "fuente": "13 m²/jor 2 Of + 2 Pe (catálogo: 25 m²/jor Of+2Pe, que no alcanza a cubrir el aplanado inferior). Colocar panel y varilla ≈40 m²/jor, aplanado inferior en plafón ≈10 m²/jor Of+Pe, colado de capa 40 m²/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora de 1 saco a gasolina",
+      "horas": 0.2,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Claro hasta 3.50 m, apuntalado durante todo el proceso.",
+    "Se usa PANEL-COVINTEC-3 (panel de alambre y poliestireno de 3\", lote 2f) como equivalente del panel W estructural.",
+    "Aplanado inferior MOR-1:4 de 2 cm y capa superior de concreto hecho en obra f'c=250 de 4 cm (CON-250) con revolvedora 0.2 h/m²."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

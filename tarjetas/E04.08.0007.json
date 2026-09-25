@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E04.08.0007",
+  "gubim": "40.30.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.40.10",
+      "condicion": "si la escalera es exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.0476,
+      "desperdicio": 0.05,
+      "nota": "Sección 0.28 × 0.17 × 1.00 = 0.0476 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.492975,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de peralte: 0.17 × 8.07 = 1.37 pt + estacas y tapas 0.6 pt = 1.97 pt/m; 4 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.03,
+      "desperdicio": 0.1,
+      "nota": "Clavo de cimbra"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m/jor Of+Pe. Catálogo: 8 m/jor. El colado con cimbra de peralte y acabado de aristas es más lento que el forjado de tabique; publicados 6-9 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Escalón de concreto f'c=150 hecho en obra, forjado sobre relleno compactado existente; cimbra de peralte y tapas.",
+    "Acabado común; recubrimiento final aparte."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

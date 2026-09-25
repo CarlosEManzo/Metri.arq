@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E03.01.0054",
+  "gubim": "20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.10",
+      "condicion": "si el elemento es columna o castillo"
+    },
+    {
+      "clave": "20.20.20.20",
+      "condicion": "si es trabe"
+    },
+    {
+      "clave": "20.20.20.10",
+      "condicion": "si es losa"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es muro de concreto"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-A-250",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m³ medido en elemento; 3 % por residuo en olla/tubería y sobrecolado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20 m³/jor Of + 5 peones (catálogo: 25). Tiro directo: descarga por canalón y acarreo en carretillas/botes a los elementos, más lento que el bombeado; publicados 15-25 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador de chicote a gasolina",
+      "horas": 0.4,
+      "costo_horario": 65.0
+    }
+  ],
+  "supuestos": [
+    "Concreto premezclado f'c=250 clase 2 (A), tiro directo desde la olla con acarreo en carretillas hasta 2 niveles con rampa o malacate de la obra.",
+    "Vibrador de chicote toda la jornada: 8 h / 20 m³ = 0.40 h/m³ a $65/h (referencia).",
+    "Precio del concreto es referencia regional sin cotización de planta en Morelia (ver fuente del insumo).",
+    "Cimbra, acero, curado y pruebas de laboratorio se pagan por separado. GuBIM genérica 20.20: usar la alternativa según el elemento."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

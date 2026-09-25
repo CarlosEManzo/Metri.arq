@@ -1,0 +1,72 @@
+{
+  "clave_cb": "E04.06.0024",
+  "gubim": "20.10.40.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.30",
+      "condicion": "si la rampa es exterior (acceso vehicular descubierto)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.08,
+      "desperdicio": 0.05,
+      "nota": "1.00 × 1.00 × 0.08 m = 0.080 m³/m²; 5 % por irregularidad de la base"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.043,
+      "desperdicio": 0.0,
+      "nota": "Fronteras con tabla 3/4\" de peralte según espesor a 0.67 m/m² (tableros de 3x3 m) + estacas; 5 usos"
+    },
+    {
+      "insumo": "MALLA-66-1010",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m²/m²; traslape de un cuadro (15 cm) y recortes → 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Amarre de traslapes de malla"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "Cemento espolvoreado para el acabado de rampa: 2 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 14.8,
+    "fuente": "14.8 m²/jor Of+2Pe. Catálogo: 30 m²/jor para todos los espesores y acabados. Base de la familia: firme 10 cm común 30 m²/jor (tarjeta E04.06.0014, ≈3 m³/jor con revolvedora); espesores menores rinden más (33.0 m²/jor a 8 cm, limitado por el tendido y reglado); acabado ×0.5 y malla ×0.9 (tendido y calzado de malla). Publicados: firmes 25-45 m²/jor, pulidos 15-25, estriados 12-18"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.5405,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Terreno o losa base ya nivelado y compactado (se paga aparte).",
+    "Concreto f'c=200 hecho en obra con revolvedora durante toda la jornada de la cuadrilla (8 h / 14.8 m² = 0.5405 h/m²); costo horario $95/h igual al de la tarjeta E04.06.0014, sin cotización propia.",
+    "Acabado estriado para rampa vehicular (flotado, pulido y estrías con rodillo o regla dentada en espina de pescado); sin polietileno y sin curado con membrana. Malla 6x6-10/10 calzada con piedras o silletas de concreto.",
+    "Acarreos hasta 20 m dentro de la obra; clavo de fronteras cubierto por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

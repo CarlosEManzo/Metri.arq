@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E03.01.0022",
+  "gubim": "20.20.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.083977,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22x2.44 = 2.977 m²; 4 usos en acabado aparente; 10 % cortes"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.333333,
+      "desperdicio": 0.1,
+      "nota": "Bastidor de barrote 2x4 de 1a cepillado ≈2.0 pt/m²; 6 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.25,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa / troqueles de pino de 3a ≈18.0 pt/m²; 8 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.18,
+      "desperdicio": 0.1,
+      "nota": "0.18 kg/m²"
+    },
+    {
+      "insumo": "DESMOLD-CIMBRA",
+      "cantidad": 0.08,
+      "desperdicio": 0.05,
+      "nota": "Desmoldante comercial 0.08 L/m² (≈12 m²/L)"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.0077,
+      "desperdicio": 0.1,
+      "nota": "Chaflán 3/4\": 0.2 m por m² × 0.077 pt/m; 2 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of carpintero + Ay (catálogo: 7). Rampa inclinada: puntales de altura variable y contraventeo; 6-8 m²/jor publicados"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Rampa con pendiente hasta 15 %; obra falsa de altura variable hasta 3.00 m."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

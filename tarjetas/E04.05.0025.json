@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E04.05.0025",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.40",
+      "condicion": "si es plafón exterior (volado o alero)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-ALB-2:7",
+      "cantidad": 0.02,
+      "desperdicio": 0.08,
+      "nota": "Espesor promedio 2.0 cm incluyendo repellado: 0.020 m³/m²; 8 % por rebote y caída en plafón"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0015,
+      "desperdicio": 0.0,
+      "nota": "Cemento espolvoreado para pulido con llana metálica: 1.5 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.5,
+    "fuente": "7.5 m²/jor Of+Pe. Catálogo: 10 m²/jor. El pulido con cemento y llana metálica añade una pasada al fino de la tarjeta E04.05.0023 (fino en plafón, 10 m²/jor); publicados: pulido en muro 8-12, en plafón 6-8 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a 2.40-3.00 m sobre losa picada o con lechada de adherencia; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Aplanado fino con maestras y acabado pulido con cemento espolvoreado y llana metálica.",
+    "Mortero mortero (cemento de albañilería)-arena 2:7 hecho a mano por el peón.",
+    "\"Mortero-arena 2:7\" se interpreta como cemento de albañilería (mortero en bulto) y arena en volumen 2:7; básico MOR-ALB-2:7 (precio del cemento de albañilería como referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

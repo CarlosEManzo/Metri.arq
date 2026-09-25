@@ -1,0 +1,145 @@
+{
+  "clave_cb": "I04.04.0002",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.20",
+      "condicion": "si se modela como parte de la red de drenaje"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.07696,
+      "desperdicio": 0.05,
+      "nota": "Muro a soga 14 cm: perímetro a eje 2.96 m × 0.65 m (bajo la dala) = 1.92 m² × 40 pza/m²"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.05772,
+      "desperdicio": 0.03,
+      "nota": "1.92 m² × 0.030 m³/m²"
+    },
+    {
+      "basico": "CON-200",
+      "cantidad": 0.061952,
+      "desperdicio": 0.05,
+      "nota": "Firme de 8 cm: 0.88 × 0.88 × 0.08 (f'c=200 según el concepto)"
+    },
+    {
+      "basico": "CON-200",
+      "cantidad": 0.0675,
+      "desperdicio": 0.05,
+      "nota": "Dala de remate 15x15: 4 × 0.75 m × 0.15 × 0.15 = 0.0675 m³"
+    },
+    {
+      "basico": "CON-200",
+      "cantidad": 0.03136,
+      "desperdicio": 0.05,
+      "nota": "Cubierta de 10 cm dentro del marco: 0.56 × 0.56 × 0.10"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.009179,
+      "desperdicio": 0.1,
+      "nota": "Tapa #3 @15: 2 × 4 × 0.56 m + dala 4 × 3.00 m; × 0.557 = 9.18 kg"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.002088,
+      "desperdicio": 0.05,
+      "nota": "Estribos de dala #2 @20: 16 × 0.52 m × 0.251"
+    },
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 33.8856,
+      "desperdicio": 0.08,
+      "nota": "Contramarco ángulo 3x1/4: 4 × 0.66 × 7.29 + marco ángulo 2 1/2x1/4: 4 × 0.60 × 6.1 = 33.9 kg"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000668,
+      "desperdicio": 0.0,
+      "nota": "4 anclas #3 de 0.30 m soldadas al contramarco"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.5,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de esquinas y anclas"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo a marco y contramarco"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.0342,
+      "desperdicio": 0.05,
+      "nota": "Aplanado interior 1.5 cm: 2.28 m²"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.00228,
+      "desperdicio": 0.0,
+      "nota": "Pulido con cemento espolvoreado 1 kg/m²"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.2,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de dala y tapa: 0.9 m² × 6.5 pt/m² / 5 usos"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Amarres"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.090846,
+      "desperdicio": 0.1,
+      "nota": "Agua para compactar relleno: 0.15 m³/m³ × 0.606 m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1.0
+      },
+      {
+        "categoria": "OF-HER",
+        "personas": 0.36
+      },
+      {
+        "categoria": "AYU",
+        "personas": 0.36
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.56
+      }
+    ],
+    "rendimiento": 1.204,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: excavación a mano 1.36 m³ en terreno blando a 4.0 m³/jor-Pe; muro 1.92 m² a 8 m²/jor Of+Pe; aplanado pulido 2.28 m² a 12 m²/jor Of+Pe; dala de remate 3.0 m a 12 m/jor Of+Pe (a nivel de piso); firme y cubierta armada 0.15 jor Of+Pe; fabricación de marco y contramarco (33.9 kg) 0.30 jor Of herrero+Ay; relleno compactado con pisón 0.61 m³ a 5 m³/jor-Pe. Jornadas por pza: OF-ALB 0.831, OF-HER 0.300, AYU 0.300, PEON 1.293 (M.O. $2,532.48). Rendimiento = 1 / jornadas del oficial principal (OF-ALB) = 1.204 pza/jor. Catálogo: 1 pza/jor Of+Pe."
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 1.0,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Excavación a mano en terreno blando: (0.60+0.28+0.30)² × (0.80+0.10+0.08) = 1.365 m³ por pza (4.0 m³/jor-peón; E02.01.0027 usa 4.0 en material tipo I-A).",
+    "Marco y contramarco fabricados en obra con ángulo de 3x1/4 y 2 1/2x1/4 soldado, con primario; soldadora $45/h (referencia).",
+    "Sin tubería de llegada ni salida (se paga con la red)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E03.01.0023",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.0175,
+      "desperdicio": 0.1,
+      "nota": "Contacto de tabla 3/4\": 8.07 pt/m²; 4 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.666667,
+      "desperdicio": 0.1,
+      "nota": "Yugos, costillas, pies derechos y contraventeo ≈10.0 pt/m²; 6 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.25,
+      "desperdicio": 0.1,
+      "nota": "0.25 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante: 0.10 L/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11 m²/jor Of carpintero + Ay (catálogo: 10). Publicados columna común con tabla 10-12 m²/jor con descimbra"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Columna de 30x30 a 50x50 cm hasta 3.00 m; tableros de tabla de pino de 3a con yugos de barrote y contravientos de polín."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

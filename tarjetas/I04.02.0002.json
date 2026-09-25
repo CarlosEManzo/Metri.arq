@@ -1,0 +1,88 @@
+{
+  "clave_cb": "I04.02.0002",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el muro es de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.046933,
+      "desperdicio": 0.05,
+      "nota": "0.055 millar/m² × 0.853 m² de mampostería neta (descontando castillos y dalas)"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.041813,
+      "desperdicio": 0.03,
+      "nota": "Junteo 0.049 m³/m² × 0.853"
+    },
+    {
+      "basico": "CON-150",
+      "cantidad": 0.029333,
+      "desperdicio": 0.05,
+      "nota": "Castillos 0.2×0.2 × 0.333 m/m² + dalas 0.2×0.20 × 0.400 m/m² = 0.0293 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.001634,
+      "desperdicio": 0.1,
+      "nota": "4 #3 × 0.557 × (0.333 + 0.400) m/m² = 1.634 kg"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.000783,
+      "desperdicio": 0.05,
+      "nota": "Estribos #2: castillo @20 (0.72 m) y dala @15 (0.72 m) = 0.783 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.072517,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.645333,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común de castillos y dalas 0.293 m²/m² × 2.2 pt/m² (5 usos)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.0352,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1.0
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.0
+      }
+    ],
+    "rendimiento": 4.7,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: mampostería 0.853 m² a 6.5 m²/jor Of+Pe; castillos y dalas 0.733 m/m² a 9 m/jor Of+Pe (armado, cimbra y colado a mano). Jornadas por m2: OF-ALB 0.213, PEON 0.213 (M.O. $410.74). Rendimiento = 1 / jornadas del oficial principal (OF-ALB) = 4.7 m2/jor."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Castillos a cada 3.00 m y una dala a cada 2.50 m de altura (modulación supuesta de vivienda); por m² de muro: 0.333 m de castillo y 0.400 m de dala.",
+    "Muro hasta 3.00 m de altura, sin andamio; concreto f'c=150 de castillos y dalas hecho a mano.",
+    "Rendimiento del catálogo 8 m²/jor Of+Pe para muro solo; aquí la mampostería y los refuerzos se suman por partidas.",
+    "Muro de 20 cm con tabique 7x14x28 en aparejo mixto soga-tizón con piezas cortadas: ≈55 pza/m²; mortero 0.20 − 55 × 0.002744 = 0.049 m³/m²."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

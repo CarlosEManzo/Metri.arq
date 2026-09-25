@@ -1,0 +1,53 @@
+{
+  "clave_cb": "I04.05.0001",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20",
+      "condicion": "si el aplanado es en fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "METAL-DESP-10K",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m²/m² con traslapes de 5 cm y cortes → 10 %"
+    },
+    {
+      "insumo": "CLAVO-CONC",
+      "cantidad": 0.04,
+      "desperdicio": 0.0,
+      "nota": "Fijación del metal desplegado: ≈9 clavos de 2 in por m² (0.04 kg)"
+    },
+    {
+      "basico": "MOR-ALB-2:7",
+      "cantidad": 0.022,
+      "desperdicio": 0.05,
+      "nota": "Mortero cemento de albañilería-arena 2:7 (básico de otro lote): espesor 2.0 cm + 0.2 cm por recubrir la malla = 0.022 m³/m²; 5 % por rebote"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "12.0 m²/jor Of+Pe: catálogo 14 m²/jor para aplanado; publicados 12-16 m²/jor (E04.05.0003 usa 14); se baja a 12 por la colocación y fijación del metal desplegado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Mezcla \"mortero-arena 2:7\" = cemento de albañilería (mortero tipo Tolteca) y arena; básico MOR-ALB-2:7 del lote 2e.",
+    "Muro interior hasta 3.00 m; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Metal desplegado 10K del lote 2e (METAL-DESP-10K), precio de referencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

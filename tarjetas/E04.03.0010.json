@@ -1,0 +1,75 @@
+{
+  "clave_cb": "E04.03.0010",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si la cadena se modela como parte del muro de carga confinado"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es cadena de desplante sobre cimiento (viga riostra)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-200",
+      "cantidad": 0.045,
+      "desperdicio": 0.08,
+      "nota": "0.15 × 0.30 × 1.00 = 0.0450 m³/m; 8 % por derrame y sobrante de olla en volúmenes pequeños"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.003976,
+      "desperdicio": 0.1,
+      "nota": "4 varillas #4 × 0.994 kg/m = 3.976 kg/m; traslapes y cortes → 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.001372,
+      "desperdicio": 0.05,
+      "nota": "Estribo #2 de 10x25 cm: perímetro 0.70 m + ganchos 0.12 m = 0.82 m × 0.251 kg/m; 6.67 estribos/m (@15 cm) → 1.372 kg/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.106667,
+      "desperdicio": 0.1,
+      "nota": "27 amarres/m × 0.004 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.2684,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de costados: 2 × 0.30 m² × 8.07 pt/m² = 4.84 pt + yugos y barrotes ≈1.50 pt = 6.34 pt/m; 5 usos → 1.268 pt/m"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.06,
+      "desperdicio": 0.1,
+      "nota": "Clavo para tableros y yugos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10.0 m/jor Of+Pe. Catálogo: 8 m/jor. Base de la familia: cadena 15x20 común 10 m/jor (tarjeta E04.03.0003; publicados 11-12 m/jor, analisisdepreciosunitarios.com); se escala por sección (9.0 m/jor para 15x30 común); ajustes: estribos @15 cm (−0.5), concreto premezclado: no se revuelve a mano (+1.5). La misma cuadrilla habilita, arma, cimbra y cuela"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto premezclado f'c=200 tiro directo, vaciado con botes desde la olla; cadena de cerramiento sobre muro, cimbra en los dos costados.",
+    "Habilitado de acero en obra por la misma cuadrilla (sin fierrero). Altura de trabajo hasta 3.00 m.",
+    "Se supone un pedido de premezclado que se comparte con otros elementos (sin cargo por volumen mínimo); el precio CONC-PREM-200 es de rango de mercado, sin cotización de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

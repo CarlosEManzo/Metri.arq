@@ -1,0 +1,101 @@
+{
+  "clave_cb": "I02.01.0002",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es columna de muro de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.006855,
+      "desperdicio": 0.07,
+      "nota": "#3: estribos 12.31 m/m × 0.557 = 6.86 kg"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.006872,
+      "desperdicio": 0.07,
+      "nota": "#4: 6 var × 1.15 m (traslape de 40φ cada 3.00 m) × 0.996 = 6.87 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.411834,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 13.7 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.92,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 1.400 m² de contacto: 14 pt/m² (tabla, barrotes, estacas) / 5 usos = 2.8 pt/m² (como E02.01.0122)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.252,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.14,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "basico": "CON-250",
+      "cantidad": 0.1,
+      "desperdicio": 0.04,
+      "nota": "0.5 × 0.2 × 1.00 = 0.1000 m³/m; 4 % por desperdicio"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.11
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.39
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.39
+      },
+      {
+        "categoria": "PEON",
+        "personas": 0.57
+      }
+    ],
+    "rendimiento": 5.714,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: acero 13.7 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay, +10 % por elevación); cimbra común de columna 1.40 m² a 8.0 m²/jor Of carpintero+Ay (con descimbrado); concreto hecho en obra con revolvedora y colado 0.100 m³ a 5 m³/jor Of+5Pe. Jornadas por m: OF-ALB 0.020, OF-FIE 0.068, OF-CAR 0.175, AYU 0.243, PEON 0.100 (M.O. $587.10). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 5.714 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.16,
+      "costo_horario": 95.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.16,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Columna de entrepiso hasta 3.00 m; acero total 13.7 kg/m (traslape de 40φ por nivel).",
+    "Concreto f'c=250 hecho en obra con revolvedora y vibrador, elevado con botes (5 m³/jor).",
+    "Rendimiento del catálogo 4 m/jor Of+2Pe (valor global); aquí se arma por partidas.",
+    "Revolvedora 1 saco $95/h y vibrador a gasolina $80/h (rentas CAYAM Maquinaria Morelia + combustible, como E02.01.0098), durante las horas de colado de la cuadrilla."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

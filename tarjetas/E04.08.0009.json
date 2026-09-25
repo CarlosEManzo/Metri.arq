@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E04.08.0009",
+  "gubim": "40.30.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.40.10",
+      "condicion": "si la escalera es exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.03,
+      "desperdicio": 0.08,
+      "nota": "Huella de 0.30 × 0.10 × 1.00 = 0.030 m³/m; 8 % por derrame en charola"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0021,
+      "desperdicio": 0.1,
+      "nota": "2 varillas #3 longitudinales (1.11 kg) + bastones #3 de 0.35 m @ 20 cm (5 × 0.35 × 0.557 = 0.97 kg) = 2.1 kg/m; 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.03,
+      "desperdicio": 0.1,
+      "nota": "Amarres"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.3828,
+      "desperdicio": 0.1,
+      "nota": "Tapas y frentera de 10 cm (0.20 m²/m) × 8.07 + 0.3 pt; 5 usos; el fondo lo da la estructura metálica"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Clavo de cimbra"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11 m/jor Of+Pe. Catálogo: 8 m/jor. Sobre charola o estructura metálica no hay cimbra de fondo ni forjado, solo frentera; publicados 10-14 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Escalón de concreto f'c=200 hecho en obra colado sobre charola de la estructura metálica existente (la estructura se paga aparte).",
+    "Armado con 2 varillas #3 y bastones; acabado escobillado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

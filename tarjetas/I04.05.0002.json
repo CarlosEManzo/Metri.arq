@@ -1,0 +1,53 @@
+{
+  "clave_cb": "I04.05.0002",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20",
+      "condicion": "si el aplanado es en fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "METAL-DESP-10K",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m²/m² con traslapes de 5 cm y cortes → 10 %"
+    },
+    {
+      "insumo": "CLAVO-CONC",
+      "cantidad": 0.04,
+      "desperdicio": 0.0,
+      "nota": "Fijación del metal desplegado: ≈9 clavos de 2 in por m² (0.04 kg)"
+    },
+    {
+      "basico": "YESO-CEM",
+      "cantidad": 0.017,
+      "desperdicio": 0.05,
+      "nota": "Pasta yeso-cemento: espesor 1.5 cm + 0.2 cm por recubrir la malla = 0.017 m³/m²; 5 % por rebote"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16.0,
+    "fuente": "16.0 m²/jor Of+Pe: catálogo 14 m²/jor para aplanado; publicados 12-16 m²/jor (E04.05.0003 usa 14); yeso a regla publicado en 18-20 m²/jor; se baja a 16 por la colocación y fijación del metal desplegado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Pasta de yeso con ≈10 % de cemento (básico YESO-CEM de este lote).",
+    "Muro interior hasta 3.00 m; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Metal desplegado 10K del lote 2e (METAL-DESP-10K), precio de referencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

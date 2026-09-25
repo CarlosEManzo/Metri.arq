@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E04.08.0004",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.0,
+    "fuente": "2.0 viaje/jor con 2 peones cargando a pala (7.0 m³ suelto/jor-peón). Catálogo: 2 viajes/jor; publicados: carga manual a camión 5-8 m³/jor-peón para tierra, menos para escombro"
+  },
+  "equipo": [
+    {
+      "descripcion": "Camión de volteo 7 m³ con operador y diésel",
+      "horas": 3.5,
+      "costo_horario": 687.5
+    }
+  ],
+  "supuestos": [
+    "Carga manual de material producto de la excavación (7 m³ sueltos por viaje) y acarreo en camión de volteo de 7 m³ con operador y diésel; recorrido ida y vuelta hasta 10 km.",
+    "Camión: 3.5 h por viaje (carga 4.0 h de la cuadrilla compartida, traslado, descarga y regreso) × $687.50/h, a partir de renta de $4,500-6,500 por jornada de 8 h con operador y diésel (analisisdepreciosunitarios.com, costo horario de camión de volteo 7 m³, 2025); un viaje suelto se cotiza $1,300-2,200 más carga.",
+    "No incluye derecho de tiro ni cuotas del sitio de disposición."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

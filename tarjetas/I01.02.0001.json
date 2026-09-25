@@ -1,0 +1,108 @@
+{
+  "clave_cb": "I01.02.0001",
+  "gubim": "20.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si forma parte de una zapata corrida"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.093843,
+      "desperdicio": 0.07,
+      "nota": "#3: estribos 81 pza × 2.08 m × 0.557 = 93.84 kg"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.055378,
+      "desperdicio": 0.07,
+      "nota": "#4: 4 corridas × 13.90 m × 0.996 = 55.38 kg"
+    },
+    {
+      "insumo": "VAR-6",
+      "cantidad": 0.213219,
+      "desperdicio": 0.07,
+      "nota": "#6: 6 corridas × 13.90 m (anclajes 2×0.50 + 1 traslape 0.90) + 4 bastones × 3.0 m, × 2.235 = 213.22 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 10.873199,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 362.4 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 55.104,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 19.680 m² de contacto: 14 pt/m² (tabla, barrotes, estacas) / 5 usos = 2.8 pt/m² (como E02.01.0122)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 3.5424,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 1.968,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "basico": "CON-250",
+      "cantidad": 2.88,
+      "desperdicio": 0.04,
+      "nota": "0.30 × 0.80 × 12 = 2.880 m³; 4 % por desperdicio"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.18
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.78
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.78
+      },
+      {
+        "categoria": "PEON",
+        "personas": 0.91
+      }
+    ],
+    "rendimiento": 0.5081,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: acero 362.4 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay); cimbra común de contratrabe 19.68 m² a 10.0 m²/jor Of carpintero+Ay (con descimbrado); concreto hecho en obra con revolvedora y colado 2.880 m³ a 8 m³/jor Of+5Pe. Jornadas por m: OF-ALB 0.360, OF-FIE 1.544, OF-CAR 1.968, AYU 3.512, PEON 1.800 (M.O. $8,819.70). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 0.5081 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 2.88,
+      "costo_horario": 95.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 2.88,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "La unidad del catálogo es M, pero la descripción fija un elemento de 12 m y el P.U. de Construbase (≈$28,850 por \"m\") solo es congruente con la pieza completa; la tarjeta se analiza por la pieza de 12 m (1 unidad = 12 m). P.U. por metro lineal = P.U. / 12.",
+    "Acero total 362.4 kg por pieza (≈30.2 kg/m); bastones promedio 4 #6 de 3 m.",
+    "Contratrabe colada sobre plantilla existente; excavación, plantilla y relleno no incluidos (el concepto no los menciona). Cimbra en costados y frentes.",
+    "Concreto f'c=250 hecho en obra con revolvedora de 1 saco y vibrador.",
+    "Revolvedora 1 saco $95/h y vibrador a gasolina $80/h (rentas CAYAM Maquinaria Morelia + combustible, como E02.01.0098), durante las horas de colado de la cuadrilla."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E04.09.0007",
+  "gubim": "20.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si se modela con el muro estructural que desplanta"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "IMPERFEST-E",
+      "cantidad": 0.3,
+      "desperdicio": 0.1,
+      "nota": "Dos capas de Imperfest E a ≈0.75 L/m² cada una (ficha Fester 1.2-1.5 m²/L por capa) × 0.20 m de ancho = 0.30 L/m; 10 % por escurrimiento en cantos"
+    },
+    {
+      "insumo": "POLIET-800",
+      "cantidad": 0.3,
+      "desperdicio": 0.05,
+      "nota": "Polietileno 800 de 0.30 m de ancho (5 cm de vuelo por lado) × 1.00 m; 5 % por traslapes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100.0,
+    "fuente": "100.0 m/jor Of+Ay. Catálogo: 80 m/jor para ambos anchos; se ajusta por ancho (20 cm: 100, franja angosta de dos capas con brocha; 40 cm: 60). Publicados 60-120 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sobre cadena o dala de desplante limpia; capa de Imperfest E, polietileno 800 embebido y segunda capa de Imperfest E.",
+    "El polietileno se deja volado 5 cm por lado para doblarse contra el muro."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,72 @@
+{
+  "clave_cb": "E03.01.0066",
+  "gubim": "20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.10",
+      "condicion": "si el elemento es columna o castillo"
+    },
+    {
+      "clave": "20.20.20.20",
+      "condicion": "si es trabe"
+    },
+    {
+      "clave": "20.20.20.10",
+      "condicion": "si es losa"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es muro de concreto"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-I-350",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m³ medido en elemento; 3 % por residuo en olla/tubería y sobrecolado"
+    },
+    {
+      "insumo": "ADIC-BOMBEABLE",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Sobreprecio por revenimiento 14 cm y superfluidizante, sobre el volumen suministrado"
+    },
+    {
+      "insumo": "BOMBA-CONC",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Bombeo por m³ colocado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 m³/jor Of + 5 peones (catálogo). Con bomba la cuadrilla recibe, extiende, vibra y regla; publicados 20-40 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador de chicote a gasolina",
+      "horas": 0.32,
+      "costo_horario": 65.0
+    }
+  ],
+  "supuestos": [
+    "Concreto premezclado f'c=350 clase 1, RN 14 cm con superfluidizante, bombeado con bomba pluma o estacionaria ($200/m³, cargo mínimo 15-20 m³ no incluido).",
+    "Vibrador de chicote toda la jornada: 8 h / 25 m³ = 0.32 h/m³ a $65/h (referencia).",
+    "Precio del concreto es referencia regional sin cotización de planta en Morelia (ver fuente del insumo).",
+    "Cimbra, acero, curado y pruebas de laboratorio se pagan por separado. GuBIM genérica 20.20: usar la alternativa según el elemento."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

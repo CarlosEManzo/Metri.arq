@@ -1,0 +1,75 @@
+{
+  "clave_cb": "E03.01.0018",
+  "gubim": "20.20.10.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-19",
+      "cantidad": 0.083977,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22x2.44 = 2.977 m²; 4 usos en acabado aparente; 10 % cortes"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.833333,
+      "desperdicio": 0.1,
+      "nota": "Bastidor de barrote 2x4 de 1a cepillado ≈5.0 pt/m²; 6 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.375,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa / troqueles de pino de 3a ≈3.0 pt/m²; 8 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "DESMOLD-CIMBRA",
+      "cantidad": 0.08,
+      "desperdicio": 0.05,
+      "nota": "Desmoldante comercial 0.08 L/m² (≈12 m²/L)"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.01155,
+      "desperdicio": 0.1,
+      "nota": "Chaflán 3/4\": 0.3 m por m² × 0.077 pt/m; 2 usos"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Moños (amarres) y separadores de alambre: 0.25 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of carpintero + Ay (catálogo: 7). Publicados muros aparentes 7-10 m²/jor con descimbra"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de 15 a 20 cm hasta 3.00 m; separadores y moños de alambre recocido según despiece; chaflanes solo en aristas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

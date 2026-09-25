@@ -1,0 +1,82 @@
+{
+  "clave_cb": "I04.01.0004",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el castillo se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-250",
+      "cantidad": 0.072,
+      "desperdicio": 0.05,
+      "nota": "0.0720 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.007968,
+      "desperdicio": 0.1,
+      "nota": "8 varillas #4 × 0.996 = 7.968 kg/m; traslapes en el 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.001644,
+      "desperdicio": 0.05,
+      "nota": "Estribo + gancho #2: 1.31 m × 0.251 kg/m × 5 pza/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.2884,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg × 9.61 kg"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.0907,
+      "desperdicio": 0.1,
+      "nota": "Cimbra aparente 1.08 m²/m con triplay 16 mm (2.977 m²/hoja), 4 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.944,
+      "desperdicio": 0.1,
+      "nota": "Barrotes y yugos 1.8 pt/m² de contacto"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.1296,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.108,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5 m/jor Of+Pe: castillo aislado de 30x24 con cimbra aparente en 4 caras y 8 varillas #4. Catálogo 8 m/jor para castillos ahogados en muro; con 1.08 m²/m de cimbra de triplay (a ≈8 m²/jor) más acero y colado se baja a 5"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto f'c=250 hecho en obra a mano; castillo exento o en esquina con acabado aparente en sus 4 caras (1.08 m²/m).",
+    "Altura de trabajo hasta 3.00 m sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

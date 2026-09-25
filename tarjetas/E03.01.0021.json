@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E03.01.0021",
+  "gubim": "20.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.083977,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22x2.44 = 2.977 m²; 4 usos en acabado aparente; 10 % cortes"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.666667,
+      "desperdicio": 0.1,
+      "nota": "Bastidor de barrote 2x4 de 1a cepillado ≈4.0 pt/m²; 6 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.5,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa / troqueles de pino de 3a ≈3.0 pt/m²; 6 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "0.2 kg/m²"
+    },
+    {
+      "insumo": "DESMOLD-CIMBRA",
+      "cantidad": 0.08,
+      "desperdicio": 0.05,
+      "nota": "Desmoldante comercial 0.08 L/m² (≈12 m²/L)"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.0385,
+      "desperdicio": 0.1,
+      "nota": "Chaflán 3/4\": 1.0 m por m² × 0.077 pt/m; 2 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of carpintero + Ay (catálogo: 7). Fronteras de losa (h 10-25 cm): mucho corte y troquelado por m²; publicados 6-9 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Frontera de 10 a 25 cm de peralte; tablero de triplay 16 mm con barrote, troqueles y pies de amigo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

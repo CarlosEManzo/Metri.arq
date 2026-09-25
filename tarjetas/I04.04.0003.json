@@ -1,0 +1,118 @@
+{
+  "clave_cb": "I04.04.0003",
+  "gubim": "50.20.20.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.20",
+      "condicion": "si se modela como parte de la red de drenaje"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.443648,
+      "desperdicio": 0.05,
+      "nota": "Muros 3.20 m × 1.08 × 0.10 = 0.346 + piso 0.80×1.00×0.08 = 0.064 + cubierta 0.56×0.76×0.08 = 0.034 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.031749,
+      "desperdicio": 0.1,
+      "nota": "#3 @20: muros 42.5 m + piso 9.8 m + cubierta 4.7 m = 57.0 m × 0.557 = 31.7 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.95247,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg"
+    },
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 15.7984,
+      "desperdicio": 0.08,
+      "nota": "Contramarco ángulo 1 1/2x1/4: 4 × 0.64 × 3.49 + marco 1 1/4x1/4: 4 × 0.60 × 2.86 = 15.8 kg (marco de 0.56×0.76 aprox.)"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.3,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de esquinas y anclas"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 9.6712,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común interior de muros 3.02 m² + fondo de tapa 0.43 m² = 3.45 m² × 2.8 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.5181,
+      "desperdicio": 0.1,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.3454,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.11718,
+      "desperdicio": 0.1,
+      "nota": "Agua para compactar relleno: 0.15 m³/m³ × 0.781 m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.41
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.37
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "OF-HER",
+        "personas": 0.58
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.95
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2.96
+      }
+    ],
+    "rendimiento": 2.316,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: excavación a mano 1.77 m³ en terreno compacto a 3.0 m³/jor-Pe; acero 31.7 kg a 200 kg/jor Of fierrero+Ay; cimbra interior 3.45 m² a 8 m²/jor Of carpintero+Ay; concreto a mano y colado 0.444 m³ a 2.5 m³/jor Of+3Pe; fabricación de marco y contramarco (15.8 kg) 0.25 jor Of herrero+Ay; relleno compactado con pisón 0.78 m³ a 5 m³/jor-Pe. Jornadas por pza: OF-ALB 0.177, OF-FIE 0.159, OF-CAR 0.432, OF-HER 0.250, AYU 0.840, PEON 1.280 (M.O. $2,812.21). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 2.316 pza/jor. Catálogo: 1 pza/jor Of+Pe."
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.8,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Excavación a mano en terreno compacto: (0.80+0.30) × (1.00+0.30) × (1.08+0.08+0.08) = 1.773 m³ por pza (3.0 m³/jor-peón; E02.01.0027 usa 4.0 en material tipo I-A).",
+    "Muros de concreto de 10 cm colados contra el terreno por la cara exterior (terreno compacto, corte a plomo): solo se cimbra la cara interior y el fondo de la tapa.",
+    "Concreto f'c=150 hecho a mano (≈0.45 m³); marco y contramarco fabricados en obra con primario.",
+    "Sin tubería de llegada ni salida (se paga con la red)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E04.05.0021",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.40",
+      "condicion": "si es plafón exterior (volado o alero)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.015,
+      "desperdicio": 0.08,
+      "nota": "Espesor promedio 1.5 cm: 0.015 m³/m²; 8 % por rebote y caída en plafón"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "12.0 m²/jor Of+Pe. Catálogo: 10 m²/jor (mismo valor para todos los acabados). El repellado (sin afine con llana) es más rápido que el fino de la tarjeta E04.05.0023 (fino en plafón, 10 m²/jor); publicados: repellado en muro 16-20, en plafón 12-14 m²/jor (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a 2.40-3.00 m sobre losa picada o con lechada de adherencia; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Acabado repellado: mortero lanzado y reglado a plomo, sin afine con llana.",
+    "Mortero cemento-arena 1:5 hecho a mano por el peón."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

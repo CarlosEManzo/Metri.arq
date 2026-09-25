@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E04.08.0011",
+  "gubim": "30.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.30.10",
+      "condicion": "si fuera relleno de terreno (no aplica en azotea)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TEZONTLE",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "10 cm promedio × 1.00 m² = 0.100 m³/m²; 10 % por acomodo y merma en elevación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45.0 m²/jor por peón (≈4.5 m³/jor) + 0.2 de oficial para maestras de pendiente. Catálogo: 30 m²/jor Of+Pe; tarjeta E04.08.0012 4 m³/jor; publicados 3-5 m³/jor con elevación manual"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Elevación manual con botes a azotea de un nivel; tezontle en greña acomodado a mano siguiendo las pendientes.",
+    "Clave GuBIM cambiada de 10.20.30.10 (Terraplenado, relleno de terreno) a 30.20.10.10 (cubierta in situ), igual que la tarjeta E04.08.0012."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

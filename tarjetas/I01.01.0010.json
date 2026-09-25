@@ -1,0 +1,122 @@
+{
+  "clave_cb": "I01.01.0010",
+  "gubim": "20.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.10",
+      "condicion": "si el dado se modela como arranque de columna"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-100",
+      "cantidad": 0.2645,
+      "desperdicio": 0.05,
+      "nota": "Plantilla de 5 cm: 5.290 m² × 0.05 = 0.2645 m³"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.079839,
+      "desperdicio": 0.07,
+      "nota": "#4: parrilla superior 2 × 12 var × 2.40 m × 0.996 + estribos 12 pza × 1.88 m × 0.996 = 79.84 kg"
+    },
+    {
+      "insumo": "VAR-6",
+      "cantidad": 0.160026,
+      "desperdicio": 0.07,
+      "nota": "#6: parrilla inferior 2 × 12 var × 2.60 m × 2.235 + dado 4 var × 2.30 m × 2.235 = 160.03 kg"
+    },
+    {
+      "insumo": "VAR-8",
+      "cantidad": 0.036552,
+      "desperdicio": 0.07,
+      "nota": "#8: dado 4 var × 2.30 m (con anclaje en zapata) × 3.973 = 36.55 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 8.292509,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 276.4 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 16.352,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 5.840 m² de contacto: 14 pt/m² (tabla, barrotes, estacas) / 5 usos = 2.8 pt/m² (como E02.01.0122)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 1.0512,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.584,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "insumo": "CONC-PREM-250",
+      "cantidad": 1.852,
+      "desperdicio": 0.03,
+      "nota": "Zapata 2.2×2.2×0.3 + dado 0.5×0.5×1.6 = 1.8520 m³; 3 % de residuo y sobrecolado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 1.975725,
+      "desperdicio": 0.1,
+      "nota": "Agua para compactar relleno: 0.15 m³/m³ × 13.172 m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.23
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 1.0
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 0.53
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.53
+      },
+      {
+        "categoria": "PEON",
+        "personas": 3.41
+      }
+    ],
+    "rendimiento": 0.9044,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: excavación a máquina 15.29 m³ (retro 15 m³/h en pozo) con afine manual a 40 m³/jor-Pe; plantilla 5.29 m² a 40 m²/jor Of+2Pe; acero 276.4 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay); cimbra común de zapata y dado 5.84 m² a 10.0 m²/jor Of carpintero+Ay (con descimbrado); colado de concreto premezclado 1.852 m³ a 15 m³/jor Of+4Pe tiro directo; relleno compactado con pisón 13.17 m³ a 5 m³/jor-Pe. Jornadas por pza: OF-ALB 0.256, OF-FIE 1.106, OF-CAR 0.584, AYU 1.690, PEON 3.775 (M.O. $6,361.61). Rendimiento = 1 / jornadas del oficial principal (OF-FIE) = 0.9044 pza/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Retroexcavadora 416 con operador (incl. diésel)",
+      "horas": 1.0192,
+      "costo_horario": 850.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.9877,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Excavación a máquina: (2.2 + 0.60)² × (0.3 + 1.6 + 0.05) = 15.29 m³ por pieza; retroexcavadora 15 m³/h en pozo (E02.01.0019 usa 20 m³/h en cepa corrida), $850/h con operador y diésel.",
+    "Profundidad de desplante 1.95 m (dado de 1.6 m + zapata 0.3 m + plantilla); holgura de 0.30 m por lado para cimbrar.",
+    "Acero total 276.4 kg/pza; 7 % de desperdicio por cortes. Cimbra en cantos de zapata (2.64 m²) y dado (3.20 m²).",
+    "Concreto premezclado f'c=250 (CONC-PREM-250) con tiro directo; sin bomba.",
+    "Relleno compactado con producto de excavación 13.17 m³; sobrante extendido en el predio, sin acarreo fuera de obra.",
+    "Rendimiento del catálogo 1.5 pza/jor Of+5Pe (valor global); aquí se arma por partidas.",
+    "Vibrador a gasolina $80/h (renta CAYAM Maquinaria Morelia + combustible, como E02.01.0098)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

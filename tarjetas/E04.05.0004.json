@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E04.05.0004",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.30",
+      "condicion": "si el aplanado es exterior (acabado de fachada)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.02,
+      "desperdicio": 0.05,
+      "nota": "Espesor promedio 2.0 cm incluyendo repellado: 0.020 m³/m²; 5 % por rebote y caída"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 14.0,
+    "fuente": "14.0 m²/jor Of+Pe (rendimiento del catálogo, igual a la tarjeta E04.05.0003 (fino en muro, 14 m²/jor)); publicados: fino en muro 12-16, en plafón 10 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior hasta 3.00 m de altura; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Aplanado a plomo y regla con maestras, acabado fino con llana de madera.",
+    "Mortero cemento-arena 1:5 hecho a mano por el peón."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

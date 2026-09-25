@@ -1,0 +1,24 @@
+{
+  "clave_cb": "E04.08.0003",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4.0 m³/jor por peón en la 1a estación de 20 m con bote sobre rampa de subida. El catálogo da 12 m³/jor (valor de carretilla en plano), alto para bote al hombro; publicados: acarreo en bote 3-6 m³/jor, en carretilla 6-12 m³/jor; la subida es más lenta"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material suelto (arena, grava, cascajo) llenado en bote de 19 L a pala y transportado al hombro sobre rampa; medido en m³ suelto por estación de 20 m.",
+    "Sin equipo: botes y palas en la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

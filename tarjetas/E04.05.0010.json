@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E04.05.0010",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.30",
+      "condicion": "si la boquilla es exterior (vano de fachada)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-ALB-2:7",
+      "cantidad": 0.003,
+      "desperdicio": 0.1,
+      "nota": "Boquilla de hasta 20 cm de desarrollo: 0.20 m × 1.5 cm = 0.0030 m³/m; 10 % por recortes y aristas"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Regla/tabla de 1x4 para arista, muchos usos: 0.05 pt/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25.0 m/jor Of+Pe. El catálogo da 14 (valor genérico de aplanado por m²). La boquilla se analiza por metro lineal de arista (ver supuestos); publicados: boquillas 20-30 m/jor repellado, 15-20 fino, 12-16 pulido (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "La unidad del catálogo dice M2, pero el alcance (boquilla de vano) y el P.U. de referencia corresponden a metro lineal de boquilla de hasta 20 cm de desarrollo; se analiza por metro lineal y así debe cuantificarse.",
+    "Acabado repellado con arista reglada.",
+    "Mortero mortero (cemento de albañilería)-arena 2:7 hecho a mano. \"Mortero-arena 2:7\" = cemento de albañilería y arena (básico MOR-ALB-2:7)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

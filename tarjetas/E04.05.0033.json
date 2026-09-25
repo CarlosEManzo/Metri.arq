@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.05.0033",
+  "gubim": "40.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.40",
+      "condicion": "si es plafón exterior protegido"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "YESO-CONST",
+      "cantidad": 5.0,
+      "desperdicio": 0.08,
+      "nota": "Espesor 6 mm: ≈5 kg de yeso/m² (≈0.85 t de yeso por m³ de pasta); 8 % por fraguado en artesa y caída"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0005,
+      "desperdicio": 0.08,
+      "nota": "Cemento gris 10 % del peso del yeso (mezcla yeso-cemento)"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.0035,
+      "desperdicio": 0.0,
+      "nota": "Agua de amasado ≈0.7 l/kg"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22.0,
+    "fuente": "22.0 m²/jor Of yesero + Pe. Catálogo: 10 m²/jor (valor genérico de aplanado). Publicados para yeso a plomo y regla: muros 14-20, plafones 10-14, fino de 6 mm 25-35 en muro y 20-25 en plafón, columnas circulares 8-10, sobre metal desplegado 10-14 m²/jor (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Plafón a 2.40-3.00 m; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Fino (afine) de 6 mm de yeso-cemento sobre aplanado existente, a llana.",
+    "Mezcla yeso-cemento con 10 % de cemento en peso, hecha por tandas pequeñas por el peón; uso interior."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

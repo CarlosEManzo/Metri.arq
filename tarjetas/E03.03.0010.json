@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E03.03.0010",
+  "gubim": "30.20.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 5.0,
+      "desperdicio": 0.1,
+      "nota": "Pijas nuevas: no se reutilizan las del desmantelamiento"
+    },
+    {
+      "insumo": "CINTA-BUTILO",
+      "cantidad": 0.5,
+      "desperdicio": 0.05,
+      "nota": "Sello en traslapes"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Sellado de perforaciones viejas"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor Of + Ay (catálogo: 40). Lámina recuperada: selección, limpieza y nuevo barrenado bajan el rendimiento respecto a lámina nueva"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Solo recolocación: la lámina la aporta el desmantelamiento. El P.U. actualizado del catálogo ($516.16) es idéntico al de suministro y colocación de lámina pintro nueva (E03.03.0008), por lo que incluye el precio de la lámina y no es comparable; la alerta contra ese valor se considera explicada."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

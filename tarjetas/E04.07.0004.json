@@ -1,0 +1,94 @@
+{
+  "clave_cb": "E04.07.0004",
+  "gubim": "50.60.30.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.70.30.60",
+      "condicion": "si es registro de voz y datos o señales débiles"
+    },
+    {
+      "clave": "50.100.10.30",
+      "condicion": "si es registro común de instalaciones"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.06144,
+      "desperdicio": 0.05,
+      "nota": "Muro a soga 14 cm: perímetro a eje 2.56 m × 0.60 m = 1.54 m² × 40 pza/m² = 61 pza"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.04608,
+      "desperdicio": 0.03,
+      "nota": "1.54 m² × 0.030 m³/m² de junteo"
+    },
+    {
+      "insumo": "TEZONTLE",
+      "cantidad": 0.024,
+      "desperdicio": 0.15,
+      "nota": "Base de tezontle de 10 cm (drenante): 0.40 × 0.60 × 0.10 = 0.024 m³; 15 % por acomodo"
+    },
+    {
+      "basico": "CON-200",
+      "cantidad": 0.016896,
+      "desperdicio": 0.05,
+      "nota": "Tapa de 6 cm f'c=200 colada en el contramarco: 0.44 × 0.64 × 0.06 = 0.0169 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.0019,
+      "desperdicio": 0.1,
+      "nota": "Parrilla de tapa #3 @ 15 cm: 3.4 m × 0.557 kg/m = 1.9 kg"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.018,
+      "desperdicio": 0.05,
+      "nota": "Aplanado interior 1.5 cm: 1.20 m² × 0.015 = 0.0180 m³"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0012,
+      "desperdicio": 0.0,
+      "nota": "Pulido con cemento espolvoreado: 1 kg/m² × 1.20 m²"
+    },
+    {
+      "insumo": "MARCO-REG-40x60",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Marco y contramarco comercial de ángulo 1 1/4\" con anclas"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Amarres de parrilla de tapa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.6
+      }
+    ],
+    "rendimiento": 2.08,
+    "fuente": "2.08 pza/jor Of+1.6Pe, por partidas escaladas desde la tarjeta E04.07.0002 (0.80 m → 1.6 pza/jor): excavación 0.67 m³ a 3.5 m³/jor-peón, muro 1.54 m² a 8 m²/jor, aplanado pulido 1.20 m² a 10 m²/jor, base de tezontle, tapa y marco 0.15 jor, limpieza 0.1 jor Pe → 0.48 jor Of + 0.77 jor Pe. Catálogo: 1 pza/jor Of+Pe; publicados 1-2 registros/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación a mano (≈0.67 m³), trazo y nivelación, relleno lateral y retiro del sobrante a 20 m.",
+    "Muros de tabique a soga (14 cm) asentados con mortero 1:5, aplanado interior pulido; fondo de tezontle de 10 cm para drenar (sin firme); tapa de 6 cm f'c=200 con parrilla #3 dentro del contramarco.",
+    "Sin tubería conduit (se paga con la canalización).",
+    "Clave GuBIM cambiada: el catálogo propone 50.20.20.50 (arquetas de evacuación de aguas), que es de la red sanitaria; un registro eléctrico es 50.60.30.50 (arquetas y pozos de distribución eléctrica)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

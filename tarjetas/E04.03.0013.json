@@ -1,0 +1,74 @@
+{
+  "clave_cb": "E04.03.0013",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si la cadena se modela como parte del muro de carga confinado"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es cadena de desplante sobre cimiento (viga riostra)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "0.20 × 0.25 × 1.00 = 0.0500 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.002228,
+      "desperdicio": 0.1,
+      "nota": "4 varillas #3 × 0.557 kg/m = 2.228 kg/m; traslapes y cortes → 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.001029,
+      "desperdicio": 0.05,
+      "nota": "Estribo #2 de 15x20 cm: perímetro 0.70 m + ganchos 0.12 m = 0.82 m × 0.251 kg/m; 5.00 estribos/m (@20 cm) → 1.029 kg/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.08,
+      "desperdicio": 0.1,
+      "nota": "20 amarres/m × 0.004 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.077,
+      "desperdicio": 0.1,
+      "nota": "Cimbra de costados: 2 × 0.25 m² × 8.07 pt/m² = 4.04 pt + yugos y barrotes ≈1.35 pt = 5.38 pt/m; 5 usos → 1.077 pt/m"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.06,
+      "desperdicio": 0.1,
+      "nota": "Clavo para tableros y yugos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9.0,
+    "fuente": "9.0 m/jor Of+Pe. Catálogo: 8 m/jor. Base de la familia: cadena 15x20 común 10 m/jor (tarjeta E04.03.0003; publicados 11-12 m/jor, analisisdepreciosunitarios.com); se escala por sección (9.0 m/jor para 20x25 común). La misma cuadrilla habilita, arma, cimbra y cuela"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto f'c=200 hecho en obra a mano; cadena de cerramiento sobre muro, cimbra en los dos costados.",
+    "Habilitado de acero en obra por la misma cuadrilla (sin fierrero). Altura de trabajo hasta 3.00 m."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

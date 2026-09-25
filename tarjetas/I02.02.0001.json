@@ -1,0 +1,114 @@
+{
+  "clave_cb": "I02.02.0001",
+  "gubim": "20.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.10",
+      "condicion": "si la trabe es de concreto postensado o prefabricada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.086212,
+      "desperdicio": 0.07,
+      "nota": "#3: 2 corridas × 13.40 m + estribos 81 × 1.58 m, × 0.557 = 86.21 kg"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.09203,
+      "desperdicio": 0.07,
+      "nota": "#4: 6 corridas × 13.40 m (anclajes 2×0.40 + 1 traslape 0.60) + 4 bastones × 3.0 m, × 0.996 = 92.03 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 5.347286,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 178.2 kg"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 1.461203,
+      "desperdicio": 0.1,
+      "nota": "Cimbra aparente 17.400 m² de contacto con triplay 16 mm (2.977 m²/hoja), 4 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 31.32,
+      "desperdicio": 0.1,
+      "nota": "Bastidores, barrotes y yugos 2x4: 9 pt/m² / 5 usos = 1.8 pt/m² × 17.400 m²"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 45.24,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa (puntales polín 4x4 y cabezales): 2.6 pt/m² de contacto (E03.01.0025)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 3.132,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 1.74,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "basico": "CON-250",
+      "cantidad": 1.8,
+      "desperdicio": 0.04,
+      "nota": "0.25 × 0.60 × 12 = 1.800 m³; 4 % por desperdicio"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.17
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.4
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.4
+      },
+      {
+        "categoria": "PEON",
+        "personas": 0.83
+      }
+    ],
+    "rendimiento": 0.4598,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: acero 178.2 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay, +10 % por elevación); cimbra aparente de trabe 17.40 m² a 8.0 m²/jor Of carpintero+Ay (con descimbrado); concreto hecho en obra con revolvedora y colado 1.800 m³ a 5 m³/jor Of+5Pe. Jornadas por m: OF-ALB 0.360, OF-FIE 0.879, OF-CAR 2.175, AYU 3.054, PEON 1.800 (M.O. $7,891.20). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 0.4598 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 2.88,
+      "costo_horario": 95.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 2.88,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "La unidad del catálogo es M, pero la descripción fija un elemento de 12 m y el P.U. de Construbase (≈$21,008 por \"m\") solo es congruente con la pieza completa; la tarjeta se analiza por la pieza de 12 m (1 unidad = 12 m). P.U. por metro lineal = P.U. / 12.",
+    "Acero total 178.2 kg por pieza; bastones promedio 4 #4 de 3 m.",
+    "Cimbra aparente de fondo y dos costados (1.45 m²/m) con triplay 16 mm y obra falsa de polines (altura de apoyo hasta 3.00 m).",
+    "Concreto f'c=250 hecho en obra con revolvedora y vibrador, elevado con botes (5 m³/jor).",
+    "Revolvedora 1 saco $95/h y vibrador a gasolina $80/h (rentas CAYAM Maquinaria Morelia + combustible, como E02.01.0098), durante las horas de colado de la cuadrilla."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

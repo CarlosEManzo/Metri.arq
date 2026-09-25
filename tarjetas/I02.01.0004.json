@@ -1,0 +1,109 @@
+{
+  "clave_cb": "I02.01.0004",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es columna de muro de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.014054,
+      "desperdicio": 0.07,
+      "nota": "#3: estribos 25.23 m/m × 0.557 = 14.05 kg"
+    },
+    {
+      "insumo": "VAR-6",
+      "cantidad": 0.020562,
+      "desperdicio": 0.07,
+      "nota": "#6: 8 var × 1.15 m (traslape de 40φ cada 3.00 m) × 2.235 = 20.56 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 1.038466,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 34.6 kg"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.167954,
+      "desperdicio": 0.1,
+      "nota": "Cimbra aparente 2.000 m² de contacto con triplay 16 mm (2.977 m²/hoja), 4 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.6,
+      "desperdicio": 0.1,
+      "nota": "Bastidores, barrotes y yugos 2x4: 9 pt/m² / 5 usos = 1.8 pt/m² × 2.000 m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.36,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "insumo": "CONC-PREM-250",
+      "cantidad": 0.25,
+      "desperdicio": 0.03,
+      "nota": "0.5 × 0.5 × 1.00 = 0.2500 m³/m; 3 % de residuo y sobrecolado"
+    },
+    {
+      "insumo": "BOMBA-CONC",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Bombeo por m³ (colado en elevación)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.09
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.59
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.59
+      },
+      {
+        "categoria": "PEON",
+        "personas": 0.35
+      }
+    ],
+    "rendimiento": 3.5,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: acero 34.6 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay, +10 % por elevación); cimbra aparente de columna 2.00 m² a 7.0 m²/jor Of carpintero+Ay (con descimbrado); colado de concreto premezclado 0.250 m³ a 10 m³/jor Of+4Pe con bomba. Jornadas por m: OF-ALB 0.025, OF-FIE 0.168, OF-CAR 0.286, AYU 0.453, PEON 0.100 (M.O. $1,020.58). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 3.5 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.2,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Columna de entrepiso hasta 3.00 m; acero total 34.6 kg/m (traslape de 40φ por nivel).",
+    "Concreto premezclado f'c=250 bombeado (colado en elevación); el bombeo de volúmenes chicos puede pagar cargo mínimo.",
+    "Rendimiento del catálogo 4 m/jor Of+2Pe (valor global); aquí se arma por partidas.",
+    "Acabado aparente: triplay de pino 16 mm (4 usos) con bastidor y yugos de madera de 3a.",
+    "Vibrador a gasolina $80/h (renta CAYAM Maquinaria Morelia + combustible, como E02.01.0098)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

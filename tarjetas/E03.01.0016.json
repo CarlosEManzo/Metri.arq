@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E03.01.0016",
+  "gubim": "20.20",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.10",
+      "condicion": "si es losa o firme estructural"
+    },
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es muro de concreto"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MALLA-66-44",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m² + traslape de un cuadro (15 cm) en ambos sentidos ≈7 % + 3 % de cortes"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Amarres de traslapes y a cimbra/silletas: 0.02 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100,
+    "fuente": "100 m²/jor Of fierrero + Ay (catálogo: 100). Publicados 100-150 m²/jor para malla en losa; se baja con el calibre por el manejo y el corte de alambre más grueso"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Malla 6x6-4/4 en rollo de 2.50 x 40 m, colocada sobre silletas (dados o recortes) en losa o firme hasta 2 niveles."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

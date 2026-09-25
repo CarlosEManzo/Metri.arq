@@ -1,0 +1,85 @@
+{
+  "clave_cb": "E03.03.0003",
+  "gubim": "30.20.10.50",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.20.10.20",
+      "condicion": "si el canalón forma parte del sistema de cubierta prefabricada"
+    },
+    {
+      "clave": "50.20.20.10",
+      "condicion": "si se clasifica con las canalizaciones de aguas pluviales"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAM-GALV-C22",
+      "cantidad": 1.0,
+      "desperdicio": 0.12,
+      "nota": "Desarrollo 1.00 m → 1.00 m²/m; 12 % por traslapes y cortes"
+    },
+    {
+      "insumo": "ANG-ACERO",
+      "cantidad": 2.4,
+      "desperdicio": 0.05,
+      "nota": "Refuerzos de ángulo 1\"x1/8\" (1.19 kg/m) en U @ 1.00 m: ≈2.0 m × 1.19 = 2.4 kg/m"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.08,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de refuerzos"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.06,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de estaño en traslapes de lámina"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.1,
+      "desperdicio": 0.05,
+      "nota": "Primario en ángulos y cara interior"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Cortes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m/jor Of herrero/hojalatero + Ay (catálogo: 30). Canalón fabricado en obra: cortar, doblar, soldar refuerzos, estañar traslapes y montar; 30 m/jor solo aplica a canalón prefabricado"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.4,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Soplete de gas para estañado",
+      "horas": 0.3,
+      "costo_horario": 25.0
+    }
+  ],
+  "supuestos": [
+    "Clave GuBIM cambiada de 30.20.10.20 a 30.20.10.50 (remates de cubiertas): el canalón es un remate/complemento de la cubierta, no la cubierta prefabricada.",
+    "Canalón de desarrollo 1.00 m fabricado en obra; bajadas pluviales no incluidas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

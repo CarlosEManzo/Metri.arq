@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E03.01.0029",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "SONOTUBO-10",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1.00 m de tubo + 5 % por despunte del tramo de 3 m"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.33,
+      "desperdicio": 0.1,
+      "nota": "Contraventeo y collar ≈10.6 pt/m; 8 usos → 1.33 pt/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Amarres del contraventeo: 0.05 kg/m"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "0.05 kg/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20.0 m/jor Of carpintero + Ay (catálogo: 8 para todos los diámetros). Colocar sonotubo, plomear, contraventear y descimbrar (rasgar) es rápido en diámetros chicos (18-24 m/jor) y lento en los grandes por peso y contraventeo (6-10 m/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sonotubo de 10 cm en tramos de 3 m, de un solo uso; se mide por metro lineal de columna/castillo hasta 3.00 m.",
+    "Cimbra de apoyo: 4 contravientos de polín por tramo, collar de barrote en la base y plomeado; madera de 3a con 8 usos."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

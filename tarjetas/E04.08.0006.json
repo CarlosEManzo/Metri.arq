@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E04.08.0006",
+  "gubim": "40.30.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.40.10",
+      "condicion": "si la escalera es exterior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAB-ROJO",
+      "cantidad": 0.0137,
+      "desperdicio": 0.05,
+      "nota": "Sección 0.28 × 0.17 = 0.0476 m³/m; tabique 7x14x28 con junta de 1 cm: 1/(0.08 × 0.15 × 0.29) = 287 pza/m³ → 13.7 pza/m"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.012,
+      "desperdicio": 0.05,
+      "nota": "Junteo ≈25 % del volumen: 0.012 m³/m"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.00675,
+      "desperdicio": 0.05,
+      "nota": "Recubrimiento de huella y peralte 1.5 cm: (0.28 + 0.17) × 0.015 = 0.0068 m³/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m/jor Of+Pe (rendimiento del catálogo). Publicados: escalón forjado de tabique 6-10 m/jor con trazo y remate"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Escalón forjado sobre rampa o relleno existente; trazo, forjado de tabique y recubrimiento con mortero 1:4 acabado común.",
+    "Acabado final (loseta, pulido) se paga aparte."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,51 @@
+{
+  "clave_cb": "E04.09.0006",
+  "gubim": "30.20.10.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.30.10",
+      "condicion": "si se impermeabiliza un muro de contención o cisterna"
+    },
+    {
+      "clave": "40.10.20.20",
+      "condicion": "si es charola de baño interior (revestimiento continuo)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "FESTER-HIDROPRIMER",
+      "cantidad": 0.22,
+      "desperdicio": 0.05,
+      "nota": "Aplicación previa: 4-5 m²/L → 0.22 L/m²"
+    },
+    {
+      "insumo": "FESTER-VAPORTITE550",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Dos manos a razón de 1 L/m² por mano, como indica el concepto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor Of+Ay. Catálogo: 40 m²/jor; tres aplicaciones con brocha en superficie vertical y charolas con recortes; publicados 30-45 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Incluye preparación de la superficie (limpieza con cepillo de alambre y resane menor).",
+    "Muros de contención, cisternas o charolas de concreto; Vaportite 550 a 1 L/m² por mano (dos manos).",
+    "Clave GuBIM del catálogo (30.20.10.40) conservada; ver alternativas según el elemento impermeabilizado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

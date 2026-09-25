@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.05.0017",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.30",
+      "condicion": "si la boquilla es exterior (vano de fachada)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.004,
+      "desperdicio": 0.1,
+      "nota": "Boquilla de hasta 20 cm de desarrollo: 0.20 m × 2.0 cm = 0.0040 m³/m; 10 % por recortes y aristas"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0003,
+      "desperdicio": 0.0,
+      "nota": "Cemento para pulido: 1.5 kg/m² × 0.20 m"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Regla/tabla de 1x4 para arista, muchos usos: 0.05 pt/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 15.0,
+    "fuente": "15.0 m/jor Of+Pe. El catálogo da 14 (valor genérico de aplanado por m²). La boquilla se analiza por metro lineal de arista (ver supuestos); publicados: boquillas 20-30 m/jor repellado, 15-20 fino, 12-16 pulido (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "La unidad del catálogo dice M2, pero el alcance (boquilla de vano) y el P.U. de referencia corresponden a metro lineal de boquilla de hasta 20 cm de desarrollo; se analiza por metro lineal y así debe cuantificarse.",
+    "Acabado pulido con cemento y llana metálica, arista a plomo.",
+    "Mortero cemento-arena 1:4 hecho a mano."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

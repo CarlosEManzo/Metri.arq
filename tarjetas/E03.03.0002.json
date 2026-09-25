@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E03.03.0002",
+  "gubim": "30.20.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "LAM-ACRIL",
+      "cantidad": 1.0,
+      "desperdicio": 0.12,
+      "nota": "1.00 m² + traslapes laterales (1 onda) y longitudinales (15 cm) ≈10 % + 2 % cortes"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 4.0,
+      "desperdicio": 0.05,
+      "nota": "Tornillos con arandela de neopreno y capuchón; 4 pza/m²"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Sellado de traslapes y perforaciones"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor Of + Ay (catálogo). Lámina ligera; perforar con broca mayor al tornillo para dilatación"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Lámina acrílica tipo Acrylit sobre largueros existentes; precio de referencia sin cotización."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

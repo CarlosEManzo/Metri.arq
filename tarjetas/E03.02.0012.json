@@ -1,0 +1,88 @@
+{
+  "clave_cb": "E03.02.0012",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.20.20",
+      "condicion": "si predominan las vigas"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PLACA-A36",
+      "cantidad": 1.0,
+      "desperdicio": 0.07,
+      "nota": "1 kg de acero de proyecto + 7 % por despuntes"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Soldadura 0.02 kg/kg"
+    },
+    {
+      "insumo": "PRIMARIO-ANTIC",
+      "cantidad": 0.00375,
+      "desperdicio": 0.1,
+      "nota": "Primario anticorrosivo una mano: 0.03 m²/kg ÷ 8 m²/L"
+    },
+    {
+      "insumo": "THINNER",
+      "cantidad": 0.000562,
+      "desperdicio": 0.0,
+      "nota": "Dilución 15 % y limpieza"
+    },
+    {
+      "insumo": "DISCO-CORTE",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Discos de corte y desbaste: 1 por cada 100 kg"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Anclajes a concreto: 1 ancla de expansión por cada 50 kg"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 kg/jor Of herrero + Ay (catálogo: 180). Fabricación en obra, soldadura, primario y montaje; publicados 120-200 kg/jor para estructura ligera y 200-350 para perfiles pesados"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.024,
+      "costo_horario": 45.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.004,
+      "costo_horario": 90.0
+    },
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 0.001,
+      "costo_horario": 950.0
+    }
+  ],
+  "supuestos": [
+    "Mezcla de placas base, columnas, placas de anclaje y vigas; anclajes químicos o soldados en concreto.",
+    "Montaje a 1-2 niveles; soldadora ≈60 % de la jornada ($45/h) y oxicorte ≈10 % ($90/h), referencias sin cotización.",
+    "Precio del perfil por kg es referencia de distribuidor (lote 2f / lote 2c); sin cotización de acerera en Morelia.",
+    "Grúa hidráulica 1.0 h por tonelada a $950/h (referencia)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

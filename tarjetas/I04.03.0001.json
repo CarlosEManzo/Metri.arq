@@ -1,0 +1,70 @@
+{
+  "clave_cb": "I04.03.0001",
+  "gubim": "20.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.20",
+      "condicion": "si se clasifica como cadena de desplante sobre cimiento"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 0.03,
+      "desperdicio": 0.05,
+      "nota": "0.0300 m³/m; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.002228,
+      "desperdicio": 0.1,
+      "nota": "4 varillas #3 × 0.557 = 2.228 kg/m; traslapes en el 10 %"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.000778,
+      "desperdicio": 0.05,
+      "nota": "Estribo #2 de 0.62 m × 0.251 kg/m × 5 pza/m (@20 cm; la descripción dice 0.2 cm)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.0902,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg × 3.01 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.8,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 0.40 m²/m de contacto: tabla 3/4\" 8.07 pt/m² + barrotes y yugos ≈3 pt/m² = 11 pt/m²; 5 usos → 2.2 pt/m² + puntales"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.048,
+      "desperdicio": 0.1,
+      "nota": "0.12 kg/m² de contacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11.0,
+    "fuente": "11 m/jor Of+Pe. Catálogo 8 m/jor; E04.03.0003 (cadena 15x20 en elevación) 10 m/jor; al nivel de desplante, sin elevación, rango publicado 11-12 m/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Dala de desplante sobre cimiento, cimbra en dos costados (0.40 m²/m); concreto hecho en obra a mano.",
+    "La descripción dice estribos @0.2 cm: se interpreta @20 cm."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

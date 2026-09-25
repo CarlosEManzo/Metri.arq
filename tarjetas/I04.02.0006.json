@@ -1,0 +1,69 @@
+{
+  "clave_cb": "I04.02.0006",
+  "gubim": "40.10.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.10",
+      "condicion": "si el muro es de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PANEL-COVINTEC-3",
+      "cantidad": 0.335909,
+      "desperdicio": 0.05,
+      "nota": "1/2.977 pza/m² (panel 1.22×2.44)"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000619,
+      "desperdicio": 0.1,
+      "nota": "Anclas #3 @40 cm arriba y abajo: 2 × 2.5 pza/m × 0.60 m × 0.557 kg/m, repartido en 2.70 m de altura"
+    },
+    {
+      "insumo": "MALLA-UNION-COV",
+      "cantidad": 0.6,
+      "desperdicio": 0.1,
+      "nota": "Malla de unión en juntas y esquinas ≈0.60 m/m²"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Amarres de panel, anclas y mallas"
+    },
+    {
+      "basico": "MOR-1:5",
+      "cantidad": 0.04,
+      "desperdicio": 0.08,
+      "nota": "Aplanado 2 caras × 2 cm = 0.040 m³/m²; 8 % por rebote"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 0.29
+      },
+      {
+        "categoria": "PEON",
+        "personas": 0.71
+      }
+    ],
+    "rendimiento": 4.286,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: colocación de panel, anclas y mallas 1.00 m² a 15 m²/jor Of+Ay (catálogo); aplanado fino 2 caras (2.00 m²) a 12 m²/jor Of+Pe. Jornadas por m2: OF-ALB 0.233, AYU 0.067, PEON 0.167 (M.O. $457.05). Rendimiento = 1 / jornadas del oficial principal (OF-ALB) = 4.286 m2/jor."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Panel Covintec 3 in (alma de poliestireno de 3 in, malla de acero cal. 14); espesor total 11 cm con 2 cm de aplanado por cara.",
+    "Anclaje con varilla #3 de 60 cm a cada 40 cm a losa o cimiento, con barreno y resina/mortero; altura de muro 2.70 m.",
+    "Aplanado fino con mortero 1:5 en dos capas (lanzado y afinado); precio del panel como referencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

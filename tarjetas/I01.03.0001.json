@@ -1,0 +1,128 @@
+{
+  "clave_cb": "I01.03.0001",
+  "gubim": "20.10.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si se modela la zapata del muro por separado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-100",
+      "cantidad": 0.065,
+      "desperdicio": 0.05,
+      "nota": "Plantilla de 5 cm: 1.300 m² × 0.05 = 0.0650 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.017963,
+      "desperdicio": 0.07,
+      "nota": "#3: 2a parrilla @20: verticales 5 × 3.30 m + horizontales 15 × 1.05 m, × 0.557 = 17.96 kg"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.01987,
+      "desperdicio": 0.07,
+      "nota": "#4: horizontales @20: 15 × 1.05 m + zapata 4 long. × 1.05 m, × 0.996 = 19.87 kg"
+    },
+    {
+      "insumo": "VAR-5",
+      "cantidad": 0.035179,
+      "desperdicio": 0.07,
+      "nota": "#5: verticales @15: 6.67 × 3.40 m (con anclaje) × 1.552 = 35.18 kg"
+    },
+    {
+      "insumo": "VAR-6",
+      "cantidad": 0.016762,
+      "desperdicio": 0.07,
+      "nota": "#6: transversales de zapata @20: 5 × 1.50 m × 2.235 = 16.76 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 2.693239,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 89.8 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 17.92,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 6.400 m² de contacto: 14 pt/m² (tabla, barrotes, estacas) / 5 usos = 2.8 pt/m² (como E02.01.0122)"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 5.12,
+      "desperdicio": 0.1,
+      "nota": "Obra falsa (puntales polín 4x4 y cabezales): 0.8 pt/m² de contacto (E03.01.0025)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 1.152,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.64,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "insumo": "CONC-PREM-250",
+      "cantidad": 0.99,
+      "desperdicio": 0.03,
+      "nota": "Muro 3.00×0.25 + zapata 1.20×0.20 = 0.990 m³/m; 3 % de residuo y sobrecolado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.20775,
+      "desperdicio": 0.1,
+      "nota": "Agua para compactar relleno: 0.15 m³/m³ × 1.385 m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.22
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.78
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.78
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2.44
+      }
+    ],
+    "rendimiento": 1.875,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: excavación a mano 1.89 m³ en terreno compacto a 3.0 m³/jor-Pe; plantilla 1.30 m² a 40 m²/jor Of+2Pe; acero 89.8 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay, +10 % por elevación); cimbra común de muro y zapata 6.40 m² a 12.0 m²/jor Of carpintero+Ay (con descimbrado); colado de concreto premezclado 0.990 m³ a 12 m³/jor Of+4Pe tiro directo; relleno compactado con pisón 1.39 m³ a 5 m³/jor-Pe. Jornadas por m: OF-ALB 0.115, OF-FIE 0.415, OF-CAR 0.533, AYU 0.948, PEON 1.302 (M.O. $2,968.77). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 1.875 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.66,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Excavación a mano en terreno compacto: (1.2 + 0.60) × (0.2 + 0.05 + 0.80 de desplante bajo el nivel de terreno del lado bajo) = 1.890 m³ por m (3.0 m³/jor-peón; E02.01.0027 usa 4.0 en material tipo I-A).",
+    "Acero total 89.8 kg/m. Cimbra a dos caras del muro (6.0 m²/m) y cantos de zapata con tableros de 5 usos y troqueles y contraventeo (0.8 pt/m² adicional); 12 m²/jor por ser paños planos grandes (publicados 10-14 m²/jor para muros).",
+    "Concreto premezclado f'c=250 con tiro directo y canalón (sin bomba); sin impermeabilización ni drenes (no los pide el concepto).",
+    "Relleno compactado solo en la excavación de la zapata; el relleno del lado contenido (respaldo) no se incluye.",
+    "Rendimiento del catálogo 2 m/jor Of+5Pe (valor global); aquí se arma por partidas.",
+    "Vibrador a gasolina $80/h (renta CAYAM Maquinaria Morelia + combustible, como E02.01.0098)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

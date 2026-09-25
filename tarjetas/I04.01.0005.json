@@ -1,0 +1,71 @@
+{
+  "clave_cb": "I04.01.0005",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el castillo se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-250",
+      "cantidad": 0.19792,
+      "desperdicio": 0.05,
+      "nota": "0.1979 m³/pza; 5 % por derrame"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.011697,
+      "desperdicio": 0.1,
+      "nota": "6 varillas #3 × 3.50 m (2.80 + anclajes en cimiento y cadena) × 0.557 = 11.70 kg"
+    },
+    {
+      "insumo": "ALAMBRON-2",
+      "cantidad": 0.005454,
+      "desperdicio": 0.05,
+      "nota": "24 estribos circulares #2 de 0.91 m × 0.251 kg/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.5145,
+      "desperdicio": 0.1,
+      "nota": "Amarres 0.03 kg/kg × 17.15 kg"
+    },
+    {
+      "insumo": "SONOTUBO-30",
+      "cantidad": 2.8,
+      "desperdicio": 0.05,
+      "nota": "2.80 m por pieza, un uso"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.0,
+      "desperdicio": 0.1,
+      "nota": "Plomeo y contraventeo: 10 pt / 5 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 pza/jor Of+Pe (≈7 m/jor): castillo de 2.80 m con sonotubo; incluye armado, plomeo y colado a mano de 0.20 m³. Catálogo 8 m/jor para castillos lineales"
+  },
+  "equipo": [],
+  "supuestos": [
+    "NOTA DE UNIDAD: el catálogo dice M, pero la descripción fija una pieza de 2.80 m de altura y el P.U. de Construbase ($2,524) solo es congruente con la pieza completa; se analiza 1 unidad = castillo de 2.80 m. P.U. por metro = P.U. / 2.8.",
+    "Cimbra de cartón (sonotubo) de 30 cm de un solo uso para acabado aparente, con plomeo de madera; precio del sonotubo como referencia.",
+    "Concreto f'c=250 hecho en obra a mano."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

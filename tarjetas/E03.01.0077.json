@@ -1,0 +1,113 @@
+{
+  "clave_cb": "E03.01.0077",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "CON-250",
+      "cantidad": 0.09,
+      "desperdicio": 0.05,
+      "nota": "0.30 × 0.30 × 1.00 = 0.09 m³/m + 5 %"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.008765,
+      "desperdicio": 0.07,
+      "nota": "8 #4 × 0.996 kg/m × 1.10 (traslapes) = 8.76 kg/m"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.004211,
+      "desperdicio": 0.07,
+      "nota": "Estribos #3: perímetro 0.88 + ganchos 0.20 = 1.08 m; ≈7 pza/m (@10 en extremos, @20 al centro) × 0.557 = 4.21 kg/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.025 kg/kg"
+    },
+    {
+      "insumo": "TRIPLAY-PINO-19",
+      "cantidad": 0.100773,
+      "desperdicio": 0.1,
+      "nota": "Cimbra aparente 1.20 m²/m; triplay 19 mm, 4 usos"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 1.2,
+      "desperdicio": 0.1,
+      "nota": "Bastidor y yugos de pino de 1a ≈6 pt/m² × 1.20 m²/m; 6 usos"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.6,
+      "desperdicio": 0.1,
+      "nota": "Contravientos de polín ≈4 pt/m² × 1.20; 8 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.24,
+      "desperdicio": 0.1,
+      "nota": "0.20 kg/m² × 1.20"
+    },
+    {
+      "insumo": "DESMOLD-CIMBRA",
+      "cantidad": 0.096,
+      "desperdicio": 0.05,
+      "nota": "0.08 L/m² × 1.20"
+    },
+    {
+      "insumo": "MAD-PINO1",
+      "cantidad": 0.154,
+      "desperdicio": 0.1,
+      "nota": "Chaflán en 4 aristas; 2 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 14.49,
+    "fuente": "14.49 m/jor con cuadrilla integrada (catálogo: 4 m/jor Of+2Pe). Suma de actividades: cimbra aparente 1.20 m²/m a 8 m²/jor Of+Ay, acero 13.0 kg/m a 230 kg/jor Of+Ay, colado 0.09 m³/m a 10 m³/jor Of+5Pe = $461.24/m"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora de 1 saco a gasolina",
+      "horas": 0.072,
+      "costo_horario": 95.0
+    },
+    {
+      "descripcion": "Vibrador de chicote a gasolina",
+      "horas": 0.072,
+      "costo_horario": 65.0
+    }
+  ],
+  "supuestos": [
+    "Columna de 30x30 hasta 3.00 m por tramo, concreto hecho en obra f'c=250 (CON-250) colado con botes.",
+    "Cimbra aparente como E03.01.0017 (triplay 19 mm con chaflanes).",
+    "Cuadrilla integrada; su rendimiento equivale a la suma de actividades (ver fuente)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

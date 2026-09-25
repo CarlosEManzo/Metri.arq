@@ -1,0 +1,62 @@
+{
+  "clave_cb": "E04.06.0008",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.40.10",
+      "condicion": "si se modela como firme de la losa de piso (acabado integral)"
+    },
+    {
+      "clave": "70.30.20",
+      "condicion": "si es firme o piso exterior peatonal (patio, andador)"
+    },
+    {
+      "clave": "70.30.30",
+      "condicion": "si es exterior con tránsito vehicular (cochera descubierta)"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 0.06,
+      "desperdicio": 0.05,
+      "nota": "1.00 × 1.00 × 0.06 m = 0.060 m³/m²; 5 % por irregularidad de la base"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.041,
+      "desperdicio": 0.0,
+      "nota": "Fronteras con tabla 3/4\" de peralte según espesor a 0.67 m/m² (tableros de 3x3 m) + estacas; 5 usos"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 32.3,
+    "fuente": "32.3 m²/jor Of+2Pe. Catálogo: 30 m²/jor para todos los espesores y acabados. Base de la familia: firme 10 cm común 30 m²/jor (tarjeta E04.06.0014, ≈3 m³/jor con revolvedora); espesores menores rinden más (38.0 m²/jor a 6 cm, limitado por el tendido y reglado); acabado ×0.85. Publicados: firmes 25-45 m²/jor, pulidos 15-25, estriados 12-18"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.2477,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Terreno o losa base ya nivelado y compactado (se paga aparte).",
+    "Concreto f'c=150 hecho en obra con revolvedora durante toda la jornada de la cuadrilla (8 h / 32.3 m² = 0.2477 h/m²); costo horario $95/h igual al de la tarjeta E04.06.0014, sin cotización propia.",
+    "Acabado escobillado (flotado y rayado con escoba); sin polietileno y sin curado con membrana.",
+    "Acarreos hasta 20 m dentro de la obra; clavo de fronteras cubierto por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

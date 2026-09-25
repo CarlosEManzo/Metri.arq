@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E04.04.0003",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si el castillo se modela como parte del muro de carga confinado"
+    }
+  ],
+  "materiales": [
+    {
+      "cantidad": 0.016,
+      "desperdicio": 0.05,
+      "nota": "0.16 × 0.10 × 1.00 = 0.0160 m³/m (hueco o dentado del muro); 5 % por derrame",
+      "basico": "CON-150"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.000557,
+      "desperdicio": 0.1,
+      "nota": "1 varilla #3 × 0.557 kg/m; anclaje y traslape → 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Amarre de la varilla en anclajes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45.0 m/jor Of+Pe. Catálogo: 8 m/jor (valor genérico de cadena/castillo cimbrado). El castillo ahogado no lleva cimbra ni estribos: solo se coloca una varilla y se vacía concreto en el hueco del muro; publicados 30-50 m/jor para castillo ahogado de una varilla (analisisdepreciosunitarios.com). Oficial y peón hacen el concreto a mano (≈0.72 m³/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Castillo ahogado en el hueco del block o en el dentado del muro, sin cimbra; el muro se paga aparte.",
+    "Concreto f'c=150 hecho en obra a mano; varilla anclada en cimiento y cadena (incluida en el desperdicio).",
+    "Altura hasta 3.00 m, colado por tramos conforme sube el muro."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

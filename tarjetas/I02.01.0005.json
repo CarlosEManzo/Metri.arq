@@ -1,0 +1,91 @@
+{
+  "clave_cb": "I02.01.0005",
+  "gubim": "20.20.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.20.10.30",
+      "condicion": "si es columna de muro de carga"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.004394,
+      "desperdicio": 0.07,
+      "nota": "#3: estribos 7.89 m/m × 0.557 = 4.39 kg"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.006872,
+      "desperdicio": 0.07,
+      "nota": "#4: 6 var × 1.15 m (traslape de 40φ cada 3.00 m) × 0.996 = 6.87 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.337977,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 11.3 kg"
+    },
+    {
+      "insumo": "SONOTUBO-40",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Cimbra de cartón de 40 cm, un solo uso, 1.00 m/m"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.5,
+      "desperdicio": 0.1,
+      "nota": "Plomeo y contraventeo del sonotubo: 7.5 pt/m / 5 usos"
+    },
+    {
+      "insumo": "CONC-PREM-250",
+      "cantidad": 0.125664,
+      "desperdicio": 0.03,
+      "nota": "π × 0.4²/4 = 0.1257 m³/m; 3 % de residuo y sobrecolado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.25
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.65
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.65
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1.01
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: acero 11.3 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay, +10 % por elevación); colocación, plomeo y retiro del sonotubo 1.00 m a 12 m/jor Of carpintero+Ay; colado de concreto premezclado 0.126 m³ a 6 m³/jor Of+4Pe tiro directo. Jornadas por m: OF-ALB 0.021, OF-FIE 0.054, OF-CAR 0.083, AYU 0.138, PEON 0.084 (M.O. $363.51). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 12.0 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.1676,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Columna de entrepiso hasta 3.00 m; acero total 11.3 kg/m (traslape de 40φ por nivel).",
+    "Concreto premezclado f'c=250 bombeado (colado en elevación); el bombeo de volúmenes chicos puede pagar cargo mínimo.",
+    "Rendimiento del catálogo 4 m/jor Of+2Pe (valor global); aquí se arma por partidas.",
+    "Cimbra circular de cartón (sonotubo, un uso) para acabado aparente; precio de sonotubo como referencia sin cotización.",
+    "Vibrador a gasolina $80/h (renta CAYAM Maquinaria Morelia + combustible, como E02.01.0098)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

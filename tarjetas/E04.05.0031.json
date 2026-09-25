@@ -1,0 +1,71 @@
+{
+  "clave_cb": "E04.05.0031",
+  "gubim": "40.10.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.10.30",
+      "condicion": "si fuera exterior (el yeso no se recomienda en exteriores)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "YESO-CONST",
+      "cantidad": 14.0,
+      "desperdicio": 0.05,
+      "nota": "Espesor 2.0 cm sobre metal desplegado: ≈14 kg de yeso/m² (≈0.85 t de yeso por m³ de pasta); 5 % por fraguado en artesa y caída"
+    },
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.0014,
+      "desperdicio": 0.05,
+      "nota": "Cemento gris 10 % del peso del yeso (mezcla yeso-cemento)"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.0098,
+      "desperdicio": 0.0,
+      "nota": "Agua de amasado ≈0.7 l/kg"
+    },
+    {
+      "insumo": "METAL-DESP-10K",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1.00 m²/m²; traslapes de 5 cm y recortes → 10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Amarres del metal desplegado"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.04,
+      "desperdicio": 0.1,
+      "nota": "Clavos/grapas de fijación a muro o losa"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 13.0,
+    "fuente": "13.0 m²/jor Of yesero + Pe. Catálogo: 14 m²/jor (valor genérico de aplanado). Publicados para yeso a plomo y regla: muros 14-20, plafones 10-14, fino de 6 mm 25-35 en muro y 20-25 en plafón, columnas circulares 8-10, sobre metal desplegado 10-14 m²/jor (analisisdepreciosunitarios.com)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro interior hasta 3.00 m; andamio de burros y tablones cubierto por la herramienta menor.",
+    "Metal desplegado 10K fijado con clavo y alambre; aplanado de yeso-cemento de 2 cm con acabado a llana.",
+    "Mezcla yeso-cemento con 10 % de cemento en peso, hecha por tandas pequeñas por el peón; uso interior."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,116 @@
+{
+  "clave_cb": "I01.01.0007",
+  "gubim": "20.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si se modela la contratrabe por separado de la zapata"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-100",
+      "cantidad": 0.065,
+      "desperdicio": 0.05,
+      "nota": "Plantilla de 5 cm: 1.300 m² × 0.05 = 0.0650 m³"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.013173,
+      "desperdicio": 0.07,
+      "nota": "#3: 3 long. × 1.05 m (traslapes) × 0.557 + transv. 5.00 pza/m × 1.40 m (con ganchos) × 0.557 + 2 var #3 × 1.05 m × 0.557 + estribos 5.00 pza/m × 2.28 m × 0.557 = 13.17 kg"
+    },
+    {
+      "insumo": "VAR-5",
+      "cantidad": 0.006518,
+      "desperdicio": 0.07,
+      "nota": "#5: contratrabe 4 × 1.05 m × 1.552 = 6.52 kg"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.590744,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg/kg × 19.7 kg"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 5.6,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común 2.000 m² de contacto: 14 pt/m² (tabla, barrotes, estacas) / 5 usos = 2.8 pt/m² (como E02.01.0122)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.36,
+      "desperdicio": 0.1,
+      "nota": "Clavo 0.18 kg/m² de contacto"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 L/m² de contacto"
+    },
+    {
+      "basico": "CON-250",
+      "cantidad": 0.4,
+      "desperdicio": 0.04,
+      "nota": "Zapata 1.2×0.2 + contratrabe 0.2×(1.0−0.2) = 0.4000 m³/m; 4 % por desperdicio"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.1665,
+      "desperdicio": 0.1,
+      "nota": "Agua para compactar relleno: 0.15 m³/m³ × 1.110 m³"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 0.41
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 0.46
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1.0
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1.46
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5.31
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "Cuadrilla mixta equivalente armada por partidas: excavación a mano 1.58 m³ en terreno compacto a 3.0 m³/jor-Pe; plantilla 1.30 m² a 40 m²/jor Of+2Pe; acero 19.7 kg (#2-#3 a 200 kg/jor, #4 y mayores a 250 kg/jor Of fierrero+Ay); cimbra común de zapata y contratrabe 2.00 m² a 10.0 m²/jor Of carpintero+Ay (con descimbrado); concreto hecho en obra con revolvedora y colado 0.400 m³ a 8 m³/jor Of+5Pe; relleno compactado con pisón 1.11 m³ a 5 m³/jor-Pe. Jornadas por m: OF-ALB 0.083, OF-FIE 0.092, OF-CAR 0.200, AYU 0.292, PEON 1.062 (M.O. $1,430.55). Rendimiento = 1 / jornadas del oficial principal (OF-CAR) = 5.0 m/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "horas": 0.4,
+      "costo_horario": 95.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "horas": 0.4,
+      "costo_horario": 80.0
+    }
+  ],
+  "supuestos": [
+    "Excavación a mano en terreno compacto: (1.20 + 0.30 de holgura) × (1.00 + 0.05 de plantilla) = 1.575 m³ por m (3.0 m³/jor-peón; E02.01.0027 usa 4.0 en material tipo I-A).",
+    "Contratrabe de 0.2×1.0 m medida en su peralte total desde el lecho bajo de la zapata; parte sobre zapata 0.800 m. Cimbra en costados de zapata y contratrabe: 2 × 1.0 = 2.00 m²/m.",
+    "Acero total 19.7 kg/m; traslapes de varillas longitudinales a 1.05 m/m y 7 % de desperdicio por cortes.",
+    "Concreto f'c=250 hecho en obra con revolvedora de 1 saco y vibrador.",
+    "Relleno con producto de la excavación compactado con pisón; el sobrante (volumen del concreto, abundado) se extiende en el predio; acarreo fuera de obra no incluido.",
+    "Rendimiento del catálogo 6 m/jor Of+5Pe (valor global); aquí se arma por partidas con los rendimientos de las tarjetas ya revisadas (E02.01.0027, E02.01.0087, E02.01.0066, E02.01.0122, E02.01.0098, E02.01.0137).",
+    "Revolvedora 1 saco $95/h y vibrador a gasolina $80/h (rentas CAYAM Maquinaria Morelia + combustible, como E02.01.0098), durante las horas de colado de la cuadrilla."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
