@@ -1,0 +1,65 @@
+{
+  "clave_cb": "E06.03.0096",
+  "gubim": "40.30.20.10",
+  "gubim_confianza": "media",
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.20",
+      "condicion": "si la escalera se presupuesta con el piso"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PIEDRA-MI-CMCLAS-2",
+      "cantidad": 1.0,
+      "desperdicio": 0.12,
+      "nota": "1 m² de huella y peralte; 12 % por cortes a medida de cada escalón"
+    },
+    {
+      "insumo": "CANTO-BOL-2CM",
+      "cantidad": 2.13,
+      "desperdicio": 0.05,
+      "nota": "Nariz boleada: huella 0.30 + peralte 0.17 = 0.47 m² por ml de escalón → 1/0.47 = 2.13 ml de nariz por m²"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.025,
+      "desperdicio": 0.05,
+      "nota": "Asiento de 2.5 cm"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.25,
+      "desperdicio": 0.1,
+      "nota": "Lechada en junta a hueso"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4 m²/jor Of + Ay (≈8.5 ml de escalón/jor). Catálogo: 6 m²/jor; se baja por trazo de cada escalón, cortes y nivelación de huellas y peraltes; APU de forro de escalón pétreo 8-12 ml/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Cortadora de disco de diamante (renta + disco)",
+      "horas": 0.3,
+      "costo_horario": 30.0
+    }
+  ],
+  "supuestos": [
+    "Mármol crema marfil clásico importado de 2 cm a $980/m² (PIEDRA-MI-CMCLAS-2).",
+    "Escalón tipo huella 30 cm y peralte 17 cm, sobre rampa de concreto terminada.",
+    "Acabado pulido de fábrica sin brillar, como indica el concepto (no lleva brillado en sitio)."
+  ]
+}

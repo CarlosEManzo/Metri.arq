@@ -1,0 +1,72 @@
+{
+  "clave_cb": "E06.03.0097",
+  "gubim": "60.20.10.10",
+  "gubim_confianza": "media",
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si solo se presupuesta el zoclo/lambrín del lavabo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAMINA-MARM-CM-2",
+      "cantidad": 0.85,
+      "desperdicio": 0.3,
+      "nota": "Cubierta 0.55 m + zoclo 0.10 m + faldón 0.20 m = 0.85 m²/ml; 30 % de aprovechamiento de lámina 2.80 x 1.80 m y de la perforación"
+    },
+    {
+      "insumo": "MAQUILA-CUB-ML",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Fabricación por ml de cubierta"
+    },
+    {
+      "insumo": "CANTO-BOL-2CM",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Canto frontal boleado del faldón"
+    },
+    {
+      "insumo": "PERF-OVALIN",
+      "cantidad": 0.8,
+      "desperdicio": 0.0,
+      "nota": "1 perforación de ovalín por cada 1.25 ml de cubierta (cubierta tipo de 1.25 m con un lavabo) → 0.8 pza/ml"
+    },
+    {
+      "insumo": "PEGAZULEJO-GRIS",
+      "cantidad": 5.0,
+      "desperdicio": 0.05,
+      "nota": "Asiento de cubierta y zoclo con pegazulejo, llana de 1/4 in: 0.65 m² × ≈7.5 kg/m²"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Sellado perimetral contra muro y ovalín, 1 cartucho por 4 ml"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 ml/jor Of + Ay. Catálogo: 10 ml/jor; se baja por nivelación, pegado de zoclo y sellado de ovalín. Rango de instalación de cubiertas 6-12 ml/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cubierta de mármol crema marfil de 2 cm fabricada a medida (S.M.A.P.: según muestra aprobada por proyecto), 55 cm de fondo, zoclo de 10 cm y faldón de 20 cm.",
+    "Apoyada sobre muretes o mueble existente; ménsulas o soportes metálicos no incluidos.",
+    "No incluye lavabo, llave ni accesorios; solo la perforación.",
+    "Lámina de crema marfil a precio de menudeo en línea ($1,616/m² sin IVA, un proveedor); cotizar con marmolerías de Morelia."
+  ]
+}

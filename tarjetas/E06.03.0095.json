@@ -1,0 +1,71 @@
+{
+  "clave_cb": "E06.03.0095",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si la boquilla se considera parte del lambrín de muro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PIEDRA-MI-CMCLAS-2",
+      "cantidad": 0.2,
+      "desperdicio": 0.1,
+      "nota": "Boquilla de 20 cm de desarrollo (espesor de muro 15 cm + aplanados) × 2 cm = 0.20 m²/ml; 10 % por cortes a inglete"
+    },
+    {
+      "insumo": "CANTO-BOL-2CM",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Arista exterior boleada y pulida"
+    },
+    {
+      "insumo": "CANTO-PUL-RECTO",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Canto interior recto pulido contra el marco"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.005,
+      "desperdicio": 0.05,
+      "nota": "0.20 m × 1.00 m × 0.025 m de mortero"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.05,
+      "desperdicio": 0.1,
+      "nota": "Lechada en juntas"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 15.0,
+    "fuente": "15 ml/jor Of + Pe. Catálogo: 25 ml/jor; se baja porque la boquilla forra jambas y cabezal (trabajo vertical y en plafón, cortes a inglete y apuntalado). Rango de APU de forros de vano 12-25 ml/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Cortadora de disco de diamante (renta + disco)",
+      "horas": 0.1,
+      "costo_horario": 30.0
+    }
+  ],
+  "supuestos": [
+    "Mármol crema marfil clásico importado de 2 cm a $980/m² (PIEDRA-MI-CMCLAS-2, mismo que E06.03.0001).",
+    "Boquilla = forro de vano (jambas, cabezal o repisón) de 20 cm de desarrollo; se mide por ml de boquilla.",
+    "Pieza pulida de fábrica; sin brillado en sitio."
+  ]
+}

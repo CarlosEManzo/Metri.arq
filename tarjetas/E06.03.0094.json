@@ -1,0 +1,71 @@
+{
+  "clave_cb": "E06.03.0094",
+  "gubim": "40.10.20.30",
+  "gubim_confianza": "media",
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.20",
+      "condicion": "si se presupuesta junto con el piso de mármol"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PIEDRA-MN-CM-30",
+      "cantidad": 0.07,
+      "desperdicio": 0.1,
+      "nota": "Zoclo 7 cm de alto: 0.07 m²/ml cortado de loseta 30.5x30.5x1; 10 % por cortes en esquinas y remates"
+    },
+    {
+      "insumo": "CANTO-BOL-2CM",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Canto superior boleado y pulido, 1 ml por ml de zoclo"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.0014,
+      "desperdicio": 0.05,
+      "nota": "0.07 m × 1.00 m × 0.02 m de mortero de asiento"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Lechada en juntas a hueso"
+    },
+    {
+      "insumo": "BRILLADO-MURO",
+      "cantidad": 0.07,
+      "desperdicio": 0.0,
+      "nota": "Brillado final de la cara vista, 0.07 m²/ml"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 0.5
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 ml/jor Of + 1/2 Ay. Catálogo: Of solo 40 ml/jor; se baja por el corte de piezas a 7 cm y los remates en esquinas; APU publicados de zoclo pétreo 25-40 ml/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Cortadora de disco de diamante (renta + disco)",
+      "horas": 0.05,
+      "costo_horario": 30.0
+    }
+  ],
+  "supuestos": [
+    "Piedra crema marfil 30.5x30.5x1 a $730/m² (PIEDRA-MN-CM-30, misma que E06.03.0066); se corta en obra o en marmolería a 7 cm y se bolea el canto superior.",
+    "Zoclo recto sobre muro repellado; se mide por ml a lo largo del muro.",
+    "Canto boleado por maquila de marmolería (CANTO-BOL-2CM, referencia $80/ml)."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "clave_cb": "E06.03.0019",
+  "gubim": "40.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "40.30.20.10",
+      "condicion": "si el piso es en huellas de escalera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "PIEDRA-MI-ALIC-2",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1 m² de placa 2 cm a despiece; 10% por cortes de despiece, ajustes y rotura"
+    },
+    {
+      "basico": "MOR-1:4",
+      "cantidad": 0.025,
+      "desperdicio": 0.05,
+      "nota": "Cama de asiento de 2.5 cm (1.00 × 1.00 × 0.025 m³)"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 0.25,
+      "desperdicio": 0.1,
+      "nota": "Lechada de cemento blanco en junta a hueso (≈1 mm) y llenado de poro"
+    },
+    {
+      "insumo": "PULIDO-MARM-PISO",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pulido en sitio (desbaste de cejas) y brillado/cristalizado del piso terminado, por subcontrato"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-COL",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of colocador + Ay. Catálogo: Of+Ay 6 m²/jor con pulido y brillado por la misma cuadrilla; aquí el pulido va por subcontrato, por eso sube la colocación. APU publicados: loseta de mármol 50x50 con mortero 12-14 m²/jor; placas de 2 cm a despiece y muros rinden menos (5-8)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Cortadora de disco de diamante (renta + disco)",
+      "horas": 0.2,
+      "costo_horario": 30.0
+    }
+  ],
+  "supuestos": [
+    "Piedra: PIEDRA-MI-ALIC-2 $1,490/m² sin IVA (referencia por regla de escala anclada a mercado; ver fuente del insumo). Cotizar con marmolerías de Morelia antes de usar en presupuesto.",
+    "Pieza de fábrica pulida; el pulido y brillado en sitio se cotiza como subcontrato por m² (rango de mercado $45-120/m²).",
+    "Asentado con mortero cemento-arena 1:4 como indica el concepto; junta a hueso con lechada de cemento blanco.",
+    "Cortes en obra con cortadora de disco de diamante: 0.2 h/m² × $30/h (renta y desgaste de disco, referencia sin cotización).",
+    "Sobre firme limpio y nivelado (el firme se paga aparte)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
