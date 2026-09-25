@@ -58,8 +58,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 16.0,
-    "fuente": "16 m/jor Of yesero + Ay (tira de 0.30 m sin bastidor: 4.8 m²/jor más dos ángulos y una arista por metro). Catálogo: 8 m/jor, que ya da una M.O. de $254/m, mayor que su P.U. actualizado ($173.61); es la pieza más simple de la serie"
+    "rendimiento": 20.0,
+    "fuente": "20 m/jor Of yesero + Ay (tira de 0.30 m sin bastidor: 6 m²/jor más dos ángulos y una arista por metro). Catálogo: 8 m/jor en la columna de rendimiento, pero su M.O. actualizada ($105.44/m) implica 19 m/jor; es la pieza más simple de la serie"
   },
   "equipo": [],
   "supuestos": [

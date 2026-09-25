@@ -47,9 +47,9 @@
     },
     {
       "insumo": "PIJA-TAQ-MARCO",
-      "cantidad": 4.9733,
+      "cantidad": 3.2793,
       "desperdicio": 0.05,
-      "nota": "Canal inferior anclado a cada 0.30 m + una pija por escuadra"
+      "nota": "Canal inferior anclado a cada 0.61 m + una pija por escuadra"
     },
     {
       "insumo": "ESQUINERO-MET",
@@ -81,8 +81,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 6.5,
-    "fuente": "6.5 m/jor Of yesero + Ay (8.4 m²/jor de forro con tapa y esquineros; murete de 1.20 m rinde 9 m²/jor). Catálogo: 8 m/jor"
+    "rendimiento": 8.0,
+    "fuente": "8.0 m/jor Of yesero + Ay (10.3 m²/jor de forro con tapa y esquineros; murete de 1.20 m rinde 10 m²/jor; el bastidor por metro es el mismo con una o dos caras). Catálogo: 8 m/jor"
   },
   "equipo": [],
   "supuestos": [
