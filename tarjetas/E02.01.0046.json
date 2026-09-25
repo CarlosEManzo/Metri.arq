@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E02.01.0046",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se paga con la excavación de cimentación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5.0 m³/jor peón (llenado del bote a pala y recorrido de 20 m a hombro); APU publicados 4-6 m³/jor. Catálogo 6 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Bote de 19 L lleno al 80 % (≈80 viajes por m³ suelto); volumen medido en banco.",
+    "Se usa donde no entra la carretilla (pasillos, escaleras, niveles)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

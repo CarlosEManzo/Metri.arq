@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E02.01.0029",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.10",
+      "condicion": "si es excavación general (sótano, plataforma)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.3,
+    "fuente": "3.3 m³/jor peón en cepa de 0 a -2 m, material I-B (escala de la familia: tipo I 3.5-5, tipo II 1.7-2.8 m³/jor, analisisdepreciosunitarios.com y APU publicados; cepa E02.01.0027 = 4.0 en I-A). Catálogo 3.5 m³/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material tipo I-B (tierra semicompacta o arcilla húmeda; pala con ayuda ocasional de pico), medido en banco (volumen geométrico).",
+    "Incluye afine de taludes y fondo; producto depositado a un lado de la excavación. Sin ademe, bombeo ni carga a camión."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E02.01.0005",
+  "gubim": "10.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si es excavación de cepas para cimientos"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "Peón de apoyo 20 m³/jor (retiro de fragmentos grandes, limpieza y afine del fondo con barreta). Catálogo 25 m³/jor para el equipo"
+  },
+  "equipo": [
+    {
+      "descripcion": "Retroexcavadora con martillo hidráulico y operador (incl. diésel)",
+      "horas": 0.2857,
+      "costo_horario": 1300.0
+    },
+    {
+      "descripcion": "Retroexcavadora 416 para extraer el material fracturado (incl. operador y diésel)",
+      "horas": 0.05,
+      "costo_horario": 850.0
+    }
+  ],
+  "supuestos": [
+    "Material tipo III-A (roca fija o tepetate muy duro que no se ataca con cucharón), profundidad 0.00 a -2.00 m, medido en banco.",
+    "Fracturado con martillo hidráulico montado en retroexcavadora: 3.5 m³/h (frente abierto); rango publicado 1.5-5 m³/h según dureza y confinamiento. Catálogo 25 m³/jor ≈3.1 m³/h.",
+    "Extracción del material fracturado con retroexcavadora 416 a 20 m³/h, depositado a un lado; sin carga a camión.",
+    "Retroexcavadora con martillo hidráulico con operador y diésel $1,300/h (rango 2025 $900-2,000/h según región, analisisdepreciosunitarios.com/costo-horario-803); sin cotización de Morelia.",
+    "Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx/cuanto-cuesta-renta-de-retroexcavadora-por-hora-en-mexico/); sin cotización de Morelia.",
+    "Sin explosivos, ademe ni bombeo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,50 @@
+{
+  "clave_cb": "E02.01.0080",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es losa de cimentación"
+    },
+    {
+      "clave": "20.10.40.10",
+      "condicion": "si es firme o solera sobre terreno"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MALLA-66-88",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1 m² + traslape de un cuadro (15 cm) en uniones y cortes ≈10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Amarres en traslapes 0.01 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 130.0,
+    "fuente": "130 m²/jor Of+Ay (malla 8/8 más pesada y rígida que la 10/10 de E02.01.0079, 150 m²/jor); rango publicado 100-200. Catálogo 100 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Malla en rollo 2.50 × 40 m (≈130 kg) colocada sobre silletas o calzas de concreto (incluidas en la herramienta menor).",
+    "Superficie plana (losa de cimentación o firme); en contratrabes o zapatas con dobleces el rendimiento baja."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

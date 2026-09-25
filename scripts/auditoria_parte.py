@@ -44,6 +44,7 @@ def informe(numero, titulo, claves):
             for t in tarjetas if t["referencia_validacion"]]
     alertas = [t for t in tarjetas if t["alerta"]]
     no_comp = [t for t in tarjetas if t["cdmx_no_comparable"]]
+    justif = [t for t in tarjetas if t["desviacion_justificada"]]
     lineas = [
         f"# Auditoría parte {numero}: {titulo}",
         "",
@@ -59,6 +60,7 @@ def informe(numero, titulo, claves):
         f"| Validadas contra CDMX | {sum(1 for t in tarjetas if t['referencia_validacion'] == 'CDMX')} |",
         f"| Validadas contra P.U. actualizado | {sum(1 for t in tarjetas if t['referencia_validacion'] == 'P.U. actualizado')} |",
         f"| Par CDMX no comparable (con razón) | {len(no_comp)} |",
+        f"| Desviación > ±25 % justificada | {len(justif)} |",
         f"| Diferencia mediana contra su referencia | {pct(statistics.median(difs)) if difs else '—'} |",
         f"| Insumos usados que siguen como referencia | {len(insumos_ref)} |",
         "",
@@ -87,6 +89,9 @@ def informe(numero, titulo, claves):
     if no_comp:
         lineas += ["", "## Pares CDMX no comparables", ""]
         lineas += [f"- **{t['clave_cb']}**: {t['cdmx_no_comparable']}" for t in no_comp]
+    if justif:
+        lineas += ["", "## Desviaciones justificadas (±25 % a ±50 %)", ""]
+        lineas += [f"- **{t['clave_cb']}** ({pct(t['dif_vs_cdmx'] if t['referencia_validacion'] == 'CDMX' else t['dif_vs_actualizado'])}): {t['desviacion_justificada']}" for t in justif]
     if alertas:
         lineas += ["", "## Alertas abiertas", ""]
         lineas += [f"- **{t['clave_cb']}**: {t['alerta']}" for t in alertas]

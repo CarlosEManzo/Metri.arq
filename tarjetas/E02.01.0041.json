@@ -1,0 +1,32 @@
+{
+  "clave_cb": "E02.01.0041",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se clasifica con la excavación de cimentación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [],
+    "rendimiento": 1.0,
+    "fuente": "Sin mano de obra (operador en el costo horario del camión); el rendimiento no interviene"
+  },
+  "equipo": [
+    {
+      "descripcion": "Camión de volteo 7 m³ con operador (incl. diésel), km subsecuente ida y vuelta",
+      "horas": 0.0179,
+      "costo_horario": 700.0
+    }
+  ],
+  "supuestos": [
+    "Volumen medido en banco, igual que el primer km (E02.01.0039): 5.6 m³ en banco (7 m³ sueltos) por viaje.",
+    "Cada km subsecuente implica 2 km de recorrido (ida y vuelta) a 20 km/h en zona urbana = 0.10 h/viaje / 5.6 m³ = 0.0179 h/m³-km.",
+    "Camión de volteo 7 m³ con operador y diésel $700/h (costos horarios publicados $650-1,062/h, analisisdepreciosunitarios.com/costo-horario-730); sin cotización de Morelia.",
+    "No incluye derechos de tiro."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

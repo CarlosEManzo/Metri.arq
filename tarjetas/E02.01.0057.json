@@ -1,0 +1,24 @@
+{
+  "clave_cb": "E02.01.0057",
+  "gubim": "80.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.1,
+    "fuente": "2.1 m³/jor peón a 6 m (dos tramos de escalera, el tiempo de subida casi se duplica); rango 1.8-2.5. Catálogo 6 m³/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Altura de elevación 6 m; volumen suelto; bote de 19 L lleno al 80 % (≈65 botes por m³).",
+    "Subida a hombro por escalera o rampa existente; sin andamio."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

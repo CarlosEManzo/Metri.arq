@@ -1,0 +1,24 @@
+{
+  "clave_cb": "E02.01.0060",
+  "gubim": "80.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 3
+      }
+    ],
+    "rendimiento": 4.5,
+    "fuente": "4.5 m³/jor cuadrilla de 3 peones: a 9 m el izado se hace en dos tramos con relevo en el nivel intermedio. Catálogo 6 m³/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Altura de elevación 9 m; volumen suelto; bote de 19 L lleno al 80 % (≈65 botes por m³).",
+    "Polea y cuerda sujetas a la estructura existente; cubiertas por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E02.01.0043",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se clasifica con la excavación de cimentación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "Carga manual a camión 5.0 m³/jor peón (igual que E02.01.0040; rango publicado 5-8 m³/jor)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Camión de volteo 7 m³ en recorrido al tiro (incl. operador y diésel)",
+      "horas": 0.2579,
+      "costo_horario": 700.0
+    },
+    {
+      "descripcion": "Camión de volteo 7 m³ en espera durante la carga manual",
+      "horas": 0.25,
+      "costo_horario": 300.0
+    }
+  ],
+  "supuestos": [
+    "Volumen medido en banco; 5.6 m³ en banco (7 m³ sueltos, abundamiento 25 %) por viaje.",
+    "Sitio de tiro autorizado por el municipio a 15 km de la obra (30 km ida y vuelta a 22 km/h = 1.364 h) + descarga y maniobras 0.08 h.",
+    "Recorrido: 1.444 h/viaje / 5.6 = 0.2579 h/m³.",
+    "Espera del camión durante la carga manual 0.25 h/m³ a $300/h (operador y depreciación sin combustible), con material acamellonado y dos camiones en rotación, igual que E02.01.0040.",
+    "Camión de volteo 7 m³ con operador y diésel $700/h (costos horarios publicados $650-1,062/h, analisisdepreciosunitarios.com/costo-horario-730); sin cotización de Morelia.",
+    "No incluye derechos o cuota del sitio de tiro; si el municipio la cobra se agrega por m³ suelto."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

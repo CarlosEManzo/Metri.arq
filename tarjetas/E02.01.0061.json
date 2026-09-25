@@ -1,0 +1,66 @@
+{
+  "clave_cb": "E02.01.0061",
+  "gubim": "80.10.70.60",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "80.10.70.30",
+      "condicion": "si se clasifica con el retiro de escombro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TAMBO-200",
+      "cantidad": 1.2,
+      "desperdicio": 0.0,
+      "nota": "Tambo de 0.88 m sin fondos, telescopiado ≈5 cm: 1.20 tambos por m"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.003,
+      "desperdicio": 0.05,
+      "nota": "4 varillas longitudinales de 3/8 (4 × 0.557 = 2.23 kg/m) + ménsulas de anclaje ≈0.77 kg/m = 3.0 kg/m"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.6,
+      "desperdicio": 0.0,
+      "nota": "Cordones de unión tambo-tambo y varilla-tambo ≈0.6 kg/m"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Amarres auxiliares al anclaje"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.0,
+    "fuente": "5 m/jor oficial herrero + ayudante (corte de fondos, soldadura, montaje y anclaje a losas); estimación, catálogo 15 m/jor con Of+Pe no incluye la fabricación"
+  },
+  "equipo": [
+    {
+      "descripcion": "Planta de soldar 250 A (renta y energía)",
+      "horas": 1.6,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Ducto de tambos metálicos de 200 L usados (Ø ≈58 cm), sin fondos, unidos con soldadura y reforzados con 4 varillas de 3/8 longitudinales; anclado a cada losa con ménsulas de varilla.",
+    "Planta de soldar $45/h (referencia sin cotización); 8 h/jor ÷ 5 m/jor = 1.6 h/m.",
+    "Tambo usado $350 (Mercado Libre $349); si se usan tambos nuevos ($800-1,500) el P.U. sube ≈$700-1,500/m.",
+    "El desmontaje y la recuperación de los tambos no se consideran."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

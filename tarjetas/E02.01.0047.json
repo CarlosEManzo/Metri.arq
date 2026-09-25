@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E02.01.0047",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se paga con la excavación de cimentación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8.0 m³/jor peón por estación subsecuente de 20 m en bote (solo recorrido); rango 7-10. Catálogo 12 m³/jor, alto para carga a hombro"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Bote de 19 L; estación subsecuente sin carga ni descarga.",
+    "El bote se considera herramienta (herramienta menor)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

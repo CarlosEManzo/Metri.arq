@@ -88,6 +88,11 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
      o un rendimiento implícito irreal, agrega `"cdmx_no_comparable": "<razón>"` a la
      tarjeta: la validación pasa a hacerse contra el P.U. actualizado, que también debe quedar
      dentro de ±25 %.
+   - Si el análisis es correcto, el par es comparable y la diferencia (entre ±25 % y ±50 %)
+     se explica por una causa concreta y verificable (precio regional de un insumo con fuente,
+     especificación distinta), agrega `"desviacion_justificada": "<causa con cifras>"`. La tarjeta
+     deja de contar como alerta y la razón aparece en la auditoría. Arriba de ±50 % la alerta
+     se queda: corrige el análisis. No lo uses para esconder un precio o rendimiento dudoso.
    - Revisa que la composición sea razonable: en albañilería la M.O. suele ser 30–50 % del
      costo directo; en suministros e instalación de equipos, 5–20 %.
 

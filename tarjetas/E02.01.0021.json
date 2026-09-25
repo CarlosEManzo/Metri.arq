@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E02.01.0021",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.10",
+      "condicion": "si es excavación general (sótano, plataforma)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100.0,
+    "fuente": "Peón de apoyo (señalero y afine de fondo) al ritmo de la máquina, 100 m³/jor (E02.01.0019 usa 160 en I-A de 0 a -2 m; baja con la profundidad y la dureza). Catálogo 200 m³/jor para la máquina"
+  },
+  "equipo": [
+    {
+      "descripcion": "Excavadora hidráulica 320 con operador (incl. diésel)",
+      "horas": 0.0455,
+      "costo_horario": 1250.0
+    }
+  ],
+  "supuestos": [
+    "Material tipo I-A, profundidad -4.01 a -6.00 m, medido en banco. Productividad de la máquina 22 m³/h (0.0455 h/m³); catálogo 25 m³/h como valor único, que se reduce con la dureza y la profundidad.",
+    "Excavadora hidráulica tipo CAT 320 (20 t, profundidad máx. ≈6.7 m) con operador y diésel $1,250/h (renta 2025-26 $1,100-1,400/h, analisisdepreciosunitarios.com/costo-horario-829); sin cotización de Morelia.",
+    "De -4.01 a -6.00 m la retroexcavadora 416 (alcance ≈4.3 m) no llega: se usa excavadora de 20 t.",
+    "Producto depositado a un lado de la cepa; carga a camión se paga aparte.",
+    "Sin ademe ni bombeo; afine manual del fondo con el peón."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

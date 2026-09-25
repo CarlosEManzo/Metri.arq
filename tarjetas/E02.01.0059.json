@@ -1,0 +1,24 @@
+{
+  "clave_cb": "E02.01.0059",
+  "gubim": "80.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 5.5,
+    "fuente": "5.5 m³/jor cuadrilla de 2 peones; ciclo ≈50 s a 6 m, eficiencia 60 %. Catálogo 6 m³/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Altura de elevación 6 m; volumen suelto; bote de 19 L lleno al 80 % (≈65 botes por m³).",
+    "Polea y cuerda sujetas a la estructura existente; cubiertas por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

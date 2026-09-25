@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E02.01.0071",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si el acero es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "VAR-10",
+      "cantidad": 0.001,
+      "desperdicio": 0.07,
+      "nota": "1 kg de acero medido en proyecto + 7% por cortes y despuntes"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.01 kg por kg de acero para No. 10 (1 1/4\") (0.008-0.045 kg/kg según diámetro)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 500.0,
+    "fuente": "500 kg/jor Of fierrero + Ay para No. 10 (1 1/4\") (escala de la familia: #2 170, #2.5 190, #3 220 (E02.01.0066), #4 280, #5 330, #6 380, #8 450, #10 500, #12 520 kg/jor; rango publicado 150-550). Catálogo 250 kg/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Acero habilitado y armado en obra con herramienta manual (dobladora y cizalla cubiertas por la herramienta menor); silletas con recortes de varilla o dados de concreto sin costo adicional.",
+    "Cantidad medida en proyecto incluyendo traslapes y ganchos; el desperdicio (7%) cubre cortes y despuntes.",
+    "Diámetros grandes: menos piezas y amarres por kg; dobleces con dobladora de palanca o grifa (herramienta menor). Traslapes largos o conectores mecánicos no incluidos."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

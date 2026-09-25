@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E02.01.0052",
+  "gubim": "80.10.20.40",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 9.2,
+    "fuente": "9.2 m³/jor cuadrilla 2 peones (uno carga abajo, otro recibe y opera arriba). Ciclo de malacate de 500 kg con bote o carretilla de 0.12 m³: carga 1.5 min + izado y descenso 12 m a ≈0.3 m/s + descarga 1 min ≈3.8 min; eficiencia 60 %. Catálogo 6 m³/jor con 2 peones; la altura resta ≈4 % cada 3 m"
+  },
+  "equipo": [
+    {
+      "descripcion": "Malacate eléctrico 500 kg (renta, energía y cable)",
+      "horas": 0.8696,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Altura promedio de elevación 12 m; material a granel o en bote, volumen suelto.",
+    "Malacate eléctrico 500 kg: renta $800/día (ecomaq.mx, Puebla) → ≈$86/h sin IVA + energía ≈$9/h = $95/h; el malacate trabaja al ritmo de la cuadrilla (8 h/jor ÷ rendimiento).",
+    "Incluye el montaje del malacate en la estructura existente (sin torre ni andamio)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

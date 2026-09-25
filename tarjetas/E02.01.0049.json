@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E02.01.0049",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se paga con la excavación de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "COSTAL-RAFIA",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Reposición por desgaste en el traslado adicional"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.5,
+    "fuente": "8.5 m³/jor peón por estación subsecuente de 20 m en costal (solo recorrido a hombro); rango 7-10. Catálogo 12 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Estación subsecuente sin llenado; desgaste del costal 1 pza/m³."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

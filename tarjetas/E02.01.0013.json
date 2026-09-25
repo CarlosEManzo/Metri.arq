@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E02.01.0013",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.10",
+      "condicion": "si es excavación general (sótano, plataforma)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.9,
+    "fuente": "Material tipo I-B promedio (3.3 m³/jor en cepa de 0 a -2 m) con 25 % del volumen bajo -2.00 m que requiere traspaleo a 6 m³/jor: 1/(1/3.3+0.25/6) = 2.9 m³/jor. Catálogo 3.5 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "El concepto remite al estudio de mecánica de suelos; se supone el caso más común en vivienda de Morelia: suelo tipo I-B (arcilla o tierra semicompacta) y cepas de hasta 2.50 m, con 25 % del volumen entre -2.00 y -4.00 m.",
+    "Volumen medido en banco; producto a un lado de la cepa. Sin ademe ni bombeo.",
+    "Si el estudio reporta tepetate (tipo II) usar las tarjetas E02.01.0033 a E02.01.0038."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

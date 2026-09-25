@@ -1,0 +1,56 @@
+{
+  "clave_cb": "E02.01.0075",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si el acero es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ALAMBRON-2-SI",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "1 ton de acero medido en proyecto + 5% por cortes y despuntes"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 45.0,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.045 kg por kg de acero para No. 2 (1/4\") (0.008-0.045 kg/kg según diámetro)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 0.17,
+    "fuente": "170 kg/jor Of fierrero + Ay para No. 2 (1/4\") (escala de la familia: #2 170, #2.5 190, #3 220 (E02.01.0066), #4 280, #5 330, #6 380, #8 450, #10 500, #12 520 kg/jor; rango publicado 150-550). Catálogo 250 kg/jor como valor único"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Acero habilitado y armado en obra con herramienta manual (dobladora y cizalla cubiertas por la herramienta menor); silletas con recortes de varilla o dados de concreto sin costo adicional.",
+    "Cantidad medida en proyecto incluyendo traslapes y ganchos; el desperdicio (5%) cubre cortes y despuntes.",
+    "Alambrón en rollo: se endereza en obra; desperdicio menor (5 %) por no tener despuntes de barra de 12 m. Se usa ALAMBRON-2-SI ($17,586/ton): el insumo ALAMBRON-2 ($20,400/ton) es precio de menudeo con IVA (Home Depot); convertido a sin IVA queda a la par de VAR-3.",
+    "Misma tarjeta que la partida por kg expresada por tonelada (rendimiento 0.170 ton/jor)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

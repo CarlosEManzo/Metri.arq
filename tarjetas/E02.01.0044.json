@@ -1,0 +1,29 @@
+{
+  "clave_cb": "E02.01.0044",
+  "gubim": "80.10.70.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si se paga con la excavación de cimentación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8.0 m³/jor peón (carga a carretilla y recorrido de 20 m con regreso vacío; APU publicados 0.125-0.16 jor/m³ = 6.3-8). Catálogo 6 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Volumen medido en banco; carretilla de 80 L llena al 75 % con material suelto.",
+    "Incluye carga a pala a la carretilla y descarga; recorrido sobre terreno plano o rampa suave."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

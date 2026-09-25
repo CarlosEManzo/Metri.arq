@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E02.01.0016",
+  "gubim": "10.20.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20.20",
+      "condicion": "si es excavación de cepas para cimientos"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.66,
+    "fuente": "2.3 m³/jor peón en excavación a cielo abierto de 0 a -2 m, material II-B (escala de la familia: tipo I 3.5-5, tipo II 1.7-2.8 m³/jor, analisisdepreciosunitarios.com y APU publicados; cepa E02.01.0027 = 4.0 en I-A). Catálogo 3.5 m³/jor como valor único; de -2.01 a -4.00 m se suma un traspaleo a banqueta intermedia a 6 m³/jor: 1/(1/2.3+1/6) = 1.66 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material tipo II-B (tepetate medio o conglomerado cementado; pico y barreta con esfuerzo), medido en banco (volumen geométrico).",
+    "Incluye afine de taludes y fondo; producto depositado a un lado de la excavación. Sin ademe, bombeo ni carga a camión.",
+    "Franja de -2.01 a -4.00 m: el producto se traspalea una vez a banqueta intermedia; taludes estables sin ademe (si el estudio de mecánica de suelos exige ademe, se paga aparte).",
+    "A cielo abierto el frente es más amplio que en cepa, por eso el rendimiento base es mayor que el de la cepa del mismo material."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
