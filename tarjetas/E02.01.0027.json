@@ -27,5 +27,6 @@
     "Alerta +49 % contra CDMX BF13BB ($153.99) revisada: el rendimiento implícito del tabulador (5.9 m³/jor con salarios de Michoacán) está arriba de las referencias disponibles (catálogo 3.5 m³/jor; APU publicado 4.0 m³/jor en material tipo I). Se mantiene 4.0 m³/jor; contra el P.U. actualizado de Construbase la diferencia es -4.1 %. Si en obra el material es arena suelta o tierra vegetal, podría usarse 5.0 m³/jor (P.U. ≈$183)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "cdmx_no_comparable": "Rendimiento implícito CDMX 5.9 m³/jor en excavación a mano, arriba de las referencias publicadas (3.5–4.0)"
 }

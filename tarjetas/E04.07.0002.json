@@ -86,5 +86,6 @@
     "Alerta +38 % contra el tabulador CDMX HE12CB ($2,479.51) revisada y aceptada: es un par aproximado (0.75 m de profundidad, sin desglose; en el tabulador la excavación suele pagarse aparte) y su rendimiento implícito (3.2 pza/jor con salarios CDMX) no alcanza para excavar 1 m³ a mano, levantar 2 m² de muro y pulir 1.8 m². Solo los materiales de esta tarjeta ($1,204: tabique $431, marco $350, morteros $200, concretos $168) ya son 62 % del costo directo implícito del tabulador. Contra el P.U. actualizado de Construbase la diferencia es +17.5 %."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "cdmx_no_comparable": "Par aproximado: CDMX 0.75 m de profundidad y sin excavación; esta tarjeta incluye excavación, firme y aplanado"
 }

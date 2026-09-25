@@ -587,7 +587,7 @@ COLUMNAS_TARJETA = [
     "descripcion", "unidad", "materiales", "mano_obra", "herramienta_equipo", "costo_directo", "indirectos",
     "financiamiento", "utilidad", "cargos_adicionales", "pu", "cuadrilla", "costo_cuadrilla", "rendimiento",
     "jornadas_por_unidad", "hh_por_unidad", "rendimiento_implicito_cdmx", "pu_construbase_2017", "pu_actualizado", "pu_cdmx", "clave_cdmx",
-    "dif_vs_actualizado", "dif_vs_cdmx", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
+    "dif_vs_actualizado", "dif_vs_cdmx", "referencia_validacion", "cdmx_no_comparable", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
 ]
 INDIRECTO_CDMX = 0.2751  # indirecto integrado del tabulador CDMX 2026 (sus P.U. ya sin cargos adicionales)
 UMBRAL_ALERTA = 0.25   # diferencia contra la referencia que merece revisión
@@ -597,7 +597,11 @@ def fila_tarjeta(c):
     t, cat, k = c["def"], c["cat"], c["comparativo"]
     dif_act = c["pu"] / k["pu_act"] - 1 if k["pu_act"] else None
     dif_cdmx = c["pu"] / k["pu_cdmx"] - 1 if k["pu_cdmx"] else None
-    ref = dif_cdmx if dif_cdmx is not None else dif_act
+    # La referencia es la CDMX cuando hay par comparable; si la tarjeta marca el
+    # par como no comparable (otro alcance o sistema), se usa el P.U. actualizado.
+    no_comparable = t.get("cdmx_no_comparable", "")
+    usa_cdmx = dif_cdmx is not None and not no_comparable
+    ref = dif_cdmx if usa_cdmx else dif_act
     # Rendimiento que implica el precio de la CDMX: su costo directo menos los
     # materiales y equipo de esta tarjeta deja la mano de obra (con herramienta).
     rend_cdmx = None
@@ -611,7 +615,7 @@ def fila_tarjeta(c):
             rend_cdmx = round(c["costo_cuadrilla"] / mo_cdmx, 2)
     alerta = ""
     if ref is not None and abs(ref) > UMBRAL_ALERTA:
-        alerta = "Revisar: {:+.0%} contra {}".format(ref, "CDMX" if dif_cdmx is not None else "P.U. actualizado")
+        alerta = "Revisar: {:+.0%} contra {}".format(ref, "CDMX" if usa_cdmx else "P.U. actualizado")
     return {
         "clave_cb": t["clave_cb"], "gubim": t["gubim"], "gubim_nombre": c["gubim_nombre"],
         "gubim_confianza": t.get("gubim_confianza", ""),
@@ -629,6 +633,8 @@ def fila_tarjeta(c):
         "rendimiento_implicito_cdmx": rend_cdmx,
         "dif_vs_actualizado": round(dif_act, 4) if dif_act is not None else None,
         "dif_vs_cdmx": round(dif_cdmx, 4) if dif_cdmx is not None else None,
+        "referencia_validacion": ("CDMX" if usa_cdmx else "P.U. actualizado") if ref is not None else "",
+        "cdmx_no_comparable": no_comparable,
         "alerta": alerta, "estado": "revisada" if t.get("reviso") else "borrador",
         "elaboro": t.get("elaboro", ""), "reviso": t.get("reviso", ""), "fecha_base": c["par"]["fecha_base"],
         "supuestos": " | ".join(t.get("supuestos", [])),
@@ -765,6 +771,8 @@ def validar(clave):
             print(f"  {nombre}: {valor:,.2f}  (diferencia {dif:+.1%})")
     print(f"  Rendimiento {f['rendimiento']} {f['unidad']}/jornada; implícito en el precio CDMX: "
           f"{f['rendimiento_implicito_cdmx'] or 'no aplica (sin par CDMX o precio no comparable)'}")
+    if f["cdmx_no_comparable"]:
+        print(f"  CDMX no comparable: {f['cdmx_no_comparable']}")
     print(f"  {f['alerta'] or 'Sin alerta'}")
     return f
 

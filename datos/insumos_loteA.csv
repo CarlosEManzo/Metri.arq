@@ -1,5 +1,0 @@
-clave,descripcion,unidad,precio,fuente,fecha,estado
-VAR-4,Varilla corrugada #4 (1/2) Fy 4200,ton,17672.00,"Materiales Cortés: tonelada 1/2 GASA $20,500 con IVA → $17,672 sin IVA (https://materialescortes.com.mx/tonelada-de-varilla-corrugada-12-12-metros-gasa); CDMX Salcedo $17,300/ton 3/8 y 1/2; Materiales Cortés $21,500 en otra consulta",2026-09,validado con rango de mercado
-MALLA-66-1010,Malla electrosoldada 6x6-10/10 (rollo 2.50x40 m = 100 m²),m2,24.00,"Rollo 100 m²: Construmarket Bajío $1,900; Termoplásticos $3,291 con IVA ($2,837 sin IVA); Mercado Libre $1,066-2,200; Materiales Cortés $4,700. Se toma $2,400/rollo sin IVA (https://www.construmarketbajio.com/product-page/malla-electrosoldada-rollo-6-6-10-10)",2026-09,validado con rango de mercado
-CLAVO-2.5,Clavo estándar para madera 2 1/2 pulg,kg,40.00,"Estimación de mercado $35-50/kg con IVA en ferreterías (Home Depot, Construrama, Materiales Vite no muestran precio en línea); sin cotización directa",2026-09,referencia
-DIESEL,Diésel (desmoldante para cimbra),l,24.00,"Precio al público ≈$27-28/l con IVA en 2026 → ≈$24/l sin IVA; sin cotización directa",2026-09,referencia

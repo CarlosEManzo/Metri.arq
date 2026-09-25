@@ -1,4 +1,0 @@
-{
-  "MOR-CCA-1:1:8": {"descripcion": "Mortero cemento-cal-arena 1:1:8", "unidad": "m3",
-                    "componentes": [["CEM-GRIS", 0.175], ["CAL-HID", 0.083], ["ARENA", 1.10], ["AGUA", 0.27]]}
-}

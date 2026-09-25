@@ -84,7 +84,10 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
    - Si hay **alerta** (más de ±25 % contra la CDMX, o contra el P.U. actualizado cuando no
      hay par CDMX), revisa cantidades, precios y rendimiento. Corrige lo que esté mal. Si el
      análisis es correcto y la diferencia se explica (otra especificación, precio regional),
-     escríbelo en `supuestos` y déjala.
+     escríbelo en `supuestos`. Si la causa es que el par CDMX tiene otro alcance, otro sistema
+     o un rendimiento implícito irreal, agrega `"cdmx_no_comparable": "<razón>"` a la
+     tarjeta: la validación pasa a hacerse contra el P.U. actualizado, que también debe quedar
+     dentro de ±25 %.
    - Revisa que la composición sea razonable: en albañilería la M.O. suele ser 30–50 % del
      costo directo; en suministros e instalación de equipos, 5–20 %.
 

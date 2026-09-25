@@ -92,5 +92,6 @@
     "Alerta +33 % contra el tabulador CDMX CG16DB ($3,783.40) revisada y aceptada: ese concepto no incluye chambranas, barniz ni cerradura; sin la cerradura la diferencia baja a ≈+25 %, y su rendimiento implícito (4.75 pza/jor) corresponde a puertas fabricadas en taller. Contra el P.U. actualizado de Construbase la diferencia es −9 %."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "cdmx_no_comparable": "Alcance distinto: CDMX sin chambranas, barniz ni cerradura"
 }

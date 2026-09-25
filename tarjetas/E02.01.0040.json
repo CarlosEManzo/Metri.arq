@@ -40,5 +40,6 @@
     "Alerta +70 % contra CDMX BN15BB ($181.21) revisada: el tabulador implica ≈16 m³/jor de carga manual, 2-3 veces los rendimientos publicados (5-8 m³/jor al subir material a la caja de un camión). La M.O. sola con 5 m³/jor es $139/m³. Contra el P.U. actualizado de Construbase la diferencia es -9 %. Se mantiene; con 8 m³/jor y sin tiempo de espera del camión el P.U. bajaría a ≈$170."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "cdmx_no_comparable": "Rendimiento implícito CDMX ~16 m³/jor de carga manual, 2–3 veces lo publicado (5–8)"
 }
