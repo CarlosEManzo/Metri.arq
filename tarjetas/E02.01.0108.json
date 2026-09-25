@@ -1,0 +1,74 @@
+{
+  "clave_cb": "E02.01.0108",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-250",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m³ + 3 % por desperdicio y sobreexcavación"
+    },
+    {
+      "insumo": "BOMBA-CONC",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Bombeo por m³ suministrado"
+    },
+    {
+      "insumo": "CURADOR-TAMBO",
+      "cantidad": 0.4,
+      "desperdicio": 0.05,
+      "nota": "≈2 m² de superficie expuesta por m³ en cimentación × 0.20 l/m² (5 m²/l)"
+    },
+    {
+      "insumo": "PRUEBA-CONC",
+      "cantidad": 0.066667,
+      "desperdicio": 0.0,
+      "nota": "Un muestreo (juego de 4 cilindros y revenimiento) por cada 15 m³ colados"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m³/jor Of+5Pe con bomba (la bomba sustituye el acarreo en carretilla; rango publicado 30-50 m³/jor). Catálogo 25 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "costo_horario": 80.0,
+      "horas": 0.2286
+    }
+  ],
+  "supuestos": [
+    "Concreto premezclado f'c=250 kg/cm² clase 1 (estructural), bombeable con superfluidizante, TMA 19 mm, bombeado con bomba estacionaria o pluma.",
+    "Vibrador trabajando toda la jornada: 8 h / 35 m³ = 0.229 h/m³. Vibrador a gasolina $80/h: renta CAYAM Maquinaria Morelia $550/día ($69/h) + gasolina ≈0.5 l/h ($12/h) (https://www.cayammaquinaria.com/renta-concreto).",
+    "Colados de 20 m³ o más para que el cargo mínimo de la bomba ($200/m³, BOMBA-CONC) se diluya.",
+    "Incluye curado con membrana base agua y muestreo y pruebas de laboratorio (1 juego por 15 m³; la NMX pide al menos uno por colado o por cada 40 m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

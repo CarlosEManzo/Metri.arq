@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E02.01.0130",
+  "gubim": "20.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.0672,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22 × 2.44 m = 2.977 m²; 5 usos con acabado aparente → 0.0672 pza/m²; 10 % por cortes"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.0,
+      "desperdicio": 0.1,
+      "nota": "Bastidores 7 pt + pies derechos y madrinas 8 pt = 15 pt; 5 usos → 3.0 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Amarres y moños 0.1 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.0,
+    "fuente": "7 m²/jor Of carpintero + Ay (bastidores con triplay, plomeo, sellado de juntas y descimbrado cuidadoso). Catálogo 7 m²/jor; rango publicado 6-9 m²/jor en cimbra aparente"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra acabado aparente con triplay de pino de 16 mm (5 usos) sobre bastidores de pino de 3a, medida por m² de contacto.",
+    "Trabes de cimentación con obra falsa hasta 1.50 m.",
+    "Referencia CDMX jul-2026 CC14BL $491.72 (tabulador, sin par cargado en pares_tabulador_cdmx.csv). Si hay alerta contra el P.U. actualizado, se explica igual que en la cimbra común: Construbase subestima la mano de obra de cimbra (criterio de E02.01.0122).",
+    "P.U. de la tarjeta $566.65: +29.9% contra el P.U. actualizado y +15.2% contra la referencia CDMX citada ($491.72)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E02.01.0125",
+  "gubim": "20.10.30.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.0,
+      "desperdicio": 0.1,
+      "nota": "Tablero 8.1 pt + barrotes 4.4 pt + troqueles y contraventeo 2.5 pt = 15 pt; 5 usos → 3.0 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m² (valor usual 0.12-0.20 kg/m² en cimbra de madera)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Amarres y moños 0.15 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.1 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m²/jor Of carpintero + Ay (habilitado, cimbrado y descimbrado). Catálogo 10 m²/jor; rango publicado 8-14 m²/jor en cimbra común de cimentación"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra de madera de pino de 3a, acabado común, medida por m² de contacto; 5 usos de la madera.",
+    "Muros de cimentación o de contención hasta 2.50 m, dos caras con moños de alambre.",
+    "Diferencia contra el P.U. actualizado (alerta si pasa de ±25 %) explicada: se sigue el criterio de E02.01.0122 (cimbra común en zapatas, +17 % contra la CDMX y +47 % contra el P.U. actualizado). El P.U. actualizado de Construbase subestima la mano de obra de cimbra; referencia CDMX jul-2026 CB12BH $345.97 (tabulador, sin par cargado en pares_tabulador_cdmx.csv).",
+    "P.U. de la tarjeta $400.92: +21.2% contra el P.U. actualizado y +15.9% contra la referencia CDMX citada ($345.97)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

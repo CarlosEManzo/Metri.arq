@@ -40,13 +40,14 @@
         "personas": 1
       }
     ],
-    "rendimiento": 20.0,
-    "fuente": "20.0 m/jor Of carpintero + Ay (catálogo: 8 para todos los diámetros). Colocar sonotubo, plomear, contraventear y descimbrar (rasgar) es rápido en diámetros chicos (18-24 m/jor) y lento en los grandes por peso y contraventeo (6-10 m/jor)"
+    "rendimiento": 16.0,
+    "fuente": "16.0 m/jor Of carpintero + Ay (catálogo: 8 para todos los diámetros). Colocar sonotubo, plomear, contraventear y descimbrar (rasgar) es rápido en diámetros chicos (18-24 m/jor) y lento en los grandes por peso y contraventeo (6-10 m/jor)"
   },
   "equipo": [],
   "supuestos": [
     "Sonotubo de 25 cm en tramos de 3 m, de un solo uso; se mide por metro lineal de columna/castillo hasta 3.00 m.",
-    "Cimbra de apoyo: 4 contravientos de polín por tramo, collar de barrote en la base y plomeado; madera de 3a con 8 usos."
+    "Cimbra de apoyo: 4 contravientos de polín por tramo, collar de barrote en la base y plomeado; madera de 3a con 8 usos.",
+    "Precio del tubo por regla de escala ∝ D^1.8 anclada en Tool Ferreterías (20 cm $56/m y 30 cm $117/m sin IVA); ver fuente del insumo."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

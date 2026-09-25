@@ -11,9 +11,9 @@
   "materiales": [
     {
       "insumo": "LAM-GALV-C22",
-      "cantidad": 0.3,
+      "cantidad": 0.25,
       "desperdicio": 0.15,
-      "nota": "Base y cuello de lámina para tubo de 6\": ≈0.30 m²"
+      "nota": "Base 40x40 cm y cuello de lámina para tubo de 6\": ≈0.25 m²"
     },
     {
       "insumo": "SOLD-5050",
@@ -45,8 +45,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 12.0,
-    "fuente": "12 pza/jor Of + Ay (catálogo: 4, que da una M.O. mayor que el precio total del catálogo). Casquillo prefabricado en taller y colocado; publicados 10-16 pza/jor"
+    "rendimiento": 14.0,
+    "fuente": "14 pza/jor Of + Ay (catálogo: 4, que da una M.O. mayor que el precio total del catálogo). Casquillo prefabricado en taller y colocado; publicados 10-16 pza/jor"
   },
   "equipo": [
     {

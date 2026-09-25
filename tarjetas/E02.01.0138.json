@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E02.01.0138",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈150 l/m³ compacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 14.0,
+    "fuente": "14 m³/jor con 2 peones: uno tiende en capas de 20 cm e incorpora agua, otro opera la bailarina (1.75 m³/h). Catálogo 120 m³/jor (dato de equipo pesado, no aplica a bailarina); rango publicado 12-20 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Bailarina (apisonador) a gasolina",
+      "costo_horario": 100.0,
+      "horas": 0.5714
+    }
+  ],
+  "supuestos": [
+    "Material producto de la excavación acamellonado junto a la cepa; medido compacto; capas de 20 cm al 90 % Proctor.",
+    "Bailarina toda la jornada: 8 h / 14 m³ = 0.571 h/m³. Bailarina $100/h: renta en Morelia $600-650/día (CAYAM Andamios / CAYAM Maquinaria, https://www.cayammaquinaria.com/renta-compactacion) ≈$80/h + gasolina ≈1 l/h ($20/h)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

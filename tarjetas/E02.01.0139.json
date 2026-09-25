@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E02.01.0139",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈150 l/m³ compacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 60.0,
+    "fuente": "60 m³/jor: rodillo de 1 t (7.5 m³/h compactos en capas de 20 cm) con 2 peones (operador del rodillo y ayudante de riego y nivelación); tendido con retroexcavadora. Catálogo 120 m³/jor; la CDMX BP12DB ($121.24) implica un equipo más productivo"
+  },
+  "equipo": [
+    {
+      "descripcion": "Rodillo vibratorio doble tambor 1 t",
+      "costo_horario": 300.0,
+      "horas": 0.1333
+    },
+    {
+      "descripcion": "Retroexcavadora 416 con operador (incl. diésel) para tendido",
+      "costo_horario": 850.0,
+      "horas": 0.05
+    }
+  ],
+  "supuestos": [
+    "Material producto de la excavación acamellonado; medido compacto; capas de 20 cm al 90 % Proctor; áreas abiertas (plataformas o cepas anchas).",
+    "Rodillo toda la jornada 8 h / 60 m³ = 0.133 h/m³. Rodillo vibratorio doble tambor 1 t $300/h: renta CAYAM Morelia $2,000/día ($250/h) + diésel ≈2 l/h ($48/h); lo opera un peón de la cuadrilla.",
+    "Tendido del material con retroexcavadora a 20 m³/h (0.05 h/m³). Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx), igual que E02.01.0019; sin cotización de Morelia.",
+    "Referencia CDMX BP12DB $121.24 (comparacion_tabulador.csv, similitud 73; sin par en la validación).",
+    "P.U. de la tarjeta $149.17: -9.3% contra el P.U. actualizado y +23.0% contra la referencia CDMX citada ($121.24)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

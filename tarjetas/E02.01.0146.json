@@ -1,0 +1,50 @@
+{
+  "clave_cb": "E02.01.0146",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "GRAVA-CONTROL",
+      "cantidad": 1.3,
+      "desperdicio": 0.0,
+      "nota": "1.30 m³ sueltos por m³ compacto al 95 %"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈100 l/m³ compacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 m³/jor: vibrocompactador 10 t con peón de apoyo (igual que E02.01.0140), una pasada más al 95 % (0.045 h/m³). Catálogo 120 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrocompactador liso 10 t con operador (incl. diésel)",
+      "costo_horario": 950.0,
+      "horas": 0.045
+    },
+    {
+      "descripcion": "Retroexcavadora 416 con operador (incl. diésel) para tendido",
+      "costo_horario": 850.0,
+      "horas": 0.04
+    }
+  ],
+  "supuestos": [
+    "Grava controlada (base hidráulica) puesta en obra; medida compacta; capas de 20 cm al 95 % Proctor.",
+    "Precio GRAVA-CONTROL $350/m³ como referencia.",
+    "Vibrocompactador liso 10 t con operador y diésel $950/h: referencia (rango usual $800-1,300/h; proveedores de renta en CDMX y Guanajuato no publican precio). Sin cotización de Morelia.",
+    "Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx), igual que E02.01.0019; sin cotización de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

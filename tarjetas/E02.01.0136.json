@@ -1,0 +1,23 @@
+{
+  "clave_cb": "E02.01.0136",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m³/jor peón (relleno a volteo con pala desde el acamellonado, sin compactar; rango publicado 8-12 m³/jor). Catálogo 12 m³/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Material producto de la excavación acamellonado junto a la cepa (sin acarreo); relleno sin compactar, medido colocado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

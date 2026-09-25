@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E02.01.0135",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es frontera de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CIMBRA-MET-USO",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Molde metálico modular por m² de contacto y por uso (incluye pernos y cuñas)"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.08 l/m² sobre lámina"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20 m²/jor Of carpintero + Ay (armado de moldes metálicos modulares y descimbrado; rango publicado 15-25 m²/jor). Catálogo 10 m²/jor, que corresponde a cimbra de madera"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra metálica modular (propia o rentada) para fronteras de losa o zapata corrida de hasta 0.40 m, medida por m² de contacto.",
+    "Costo del molde por uso $30/m² como referencia (panel $2,500-3,000/m² con ≈100 usos más mantenimiento); sin cotización de renta en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E02.01.0090",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-150",
+      "cantidad": 1.0,
+      "desperdicio": 0.02,
+      "nota": "1.00 m³ de concreto elaborado + 2 % por mermas de agregados en el patio de mezclado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10 m³/jor Of+5Pe (rendimiento del catálogo) con revolvedora de 1 saco: acarreo de agregados y cemento a la revolvedora, dosificación y mezclado (≈1.25 m³/h); sin colocación"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "costo_horario": 95.0,
+      "horas": 0.8
+    }
+  ],
+  "supuestos": [
+    "Básico: concreto f'c=150 kg/cm² hecho en obra con revolvedora de 1 saco, TMA 19 mm, resistencia normal; incluye solo materiales, elaboración y equipo de mezclado (la colocación va en los conceptos de concreto en cimentación).",
+    "Revolvedora 8 h / 10 m³ = 0.8 h/m³. Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
+    "Alerta +30 % contra el P.U. actualizado explicada: en Construbase los básicos (conceptos en mayúsculas) se expresan a costo directo, sin indirectos ni utilidad; el costo directo de esta tarjeta queda dentro de ±3 % del P.U. actualizado. El P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

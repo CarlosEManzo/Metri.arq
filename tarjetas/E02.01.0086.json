@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E02.01.0086",
+  "gubim": "20.10.10.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-100",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "0.050 m³/m² + 5 % por irregularidad del fondo"
+    },
+    {
+      "insumo": "CONC-SP-BOMB",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "Mezcla bombeable (RN 14 cm, superfluidizante) sobre el mismo volumen"
+    },
+    {
+      "insumo": "BOMBA-CONC",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "Bombeo por m³ suministrado"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 90.0,
+    "fuente": "90 m²/jor Of+2Pe con bomba (4.5 m³/jor; la bomba elimina el acarreo). Catálogo 40 m²/jor; rango publicado 80-120 m²/jor con bomba"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto premezclado f'c=100 bombeable, colocado con bomba estacionaria o pluma.",
+    "Colado de 20 m³ o más (≥400 m²) para que el cargo mínimo de la bomba se diluya; en colados chicos el bombeo por m³ sube.",
+    "Preparación: limpieza y apisonado ligero del fondo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

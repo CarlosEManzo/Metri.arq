@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E02.01.0144",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "MAT-BANCO",
+      "cantidad": 1.25,
+      "desperdicio": 0.0,
+      "nota": "1 m³ en banco = 1.25 m³ sueltos (abundamiento 25 %); el concepto se mide en banco"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈150 l/m³ compacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 m³/jor: vibrocompactador 10 t con peón de apoyo (igual que E02.01.0140); al 95 % se da una pasada más (0.045 h/m³). Catálogo 120 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrocompactador liso 10 t con operador (incl. diésel)",
+      "costo_horario": 950.0,
+      "horas": 0.045
+    },
+    {
+      "descripcion": "Retroexcavadora 416 con operador (incl. diésel) para tendido",
+      "costo_horario": 850.0,
+      "horas": 0.04
+    }
+  ],
+  "supuestos": [
+    "Volumen medido en banco de préstamo (así lo indica el concepto): 1.25 m³ sueltos por m³ banco; capas de 20 cm al 95 % Proctor con control de laboratorio proporcionado por la constructora (no incluido).",
+    "Vibrocompactador 0.045 h/m³. Vibrocompactador liso 10 t con operador y diésel $950/h: referencia (rango usual $800-1,300/h; proveedores de renta en CDMX y Guanajuato no publican precio). Sin cotización de Morelia.",
+    "Tendido 0.04 h/m³. Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx), igual que E02.01.0019; sin cotización de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

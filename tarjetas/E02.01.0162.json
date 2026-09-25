@@ -1,0 +1,96 @@
+{
+  "clave_cb": "E02.01.0162",
+  "gubim": "20.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "basico": "CON-250",
+      "cantidad": 0.21,
+      "desperdicio": 0.04,
+      "nota": "Zapata 0.80×0.15 = 0.120 + contratrabe 0.15×0.60 = 0.090 → 0.210 m³/m; 4 % desperdicio"
+    },
+    {
+      "insumo": "VAR-3",
+      "cantidad": 0.011864,
+      "desperdicio": 0.07,
+      "nota": "#3: parrilla de zapata 6.85 kg (6.67 bastones × 0.90 m + 6 longitudinales × 1.05) + 2 longitudinales de contratrabe 1.17 kg + estribos @20 (1.38 m c/u) 3.84 kg = 11.86 kg/m (0.557 kg/m); 7 % desperdicio"
+    },
+    {
+      "insumo": "VAR-4",
+      "cantidad": 0.004183,
+      "desperdicio": 0.07,
+      "nota": "#4: 4 varillas × 1.05 (traslapes) × 0.996 kg/m = 4.18 kg/m; 7 % desperdicio"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.481,
+      "desperdicio": 0.0,
+      "nota": "Amarres 0.03 kg por kg de acero"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.36,
+      "desperdicio": 0.1,
+      "nota": "Cimbra común de contratrabe en dos caras 1.20 m²/m × 2.8 pt/m² (5 usos, como E02.01.0122)"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.18,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m² de cimbra"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.12,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m² de cimbra"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 19.19,
+    "fuente": "19.19 m/jor con cuadrilla integrada (1 Of albañil + 1 Of fierrero + 1 Of carpintero + 2 Ay + 5 Pe, $8,761.50/jor), obtenida de las partidas por metro: acero 16.0 kg a 250 kg/jor Of+Ay ($130.27), cimbra 1.20 m² a 12 m²/jor Of+Ay ($202.95), concreto 0.210 m³ a 8 m³/jor Of+5Pe ($123.44). Catálogo 6 m/jor Of+5Pe"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "costo_horario": 95.0,
+      "horas": 0.21
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "costo_horario": 80.0,
+      "horas": 0.21
+    }
+  ],
+  "supuestos": [
+    "Zapata colada contra el terreno (cepa a la medida, sin cimbra en sus cantos); solo se cimbran las dos caras de la contratrabe.",
+    "Contratrabe de 0.15 × 0.60 m sobre la zapata; recubrimientos 5 cm en zapata y 4 cm en contratrabe.",
+    "Concreto f'c=250 hecho en obra (CON-250) con revolvedora y vibrador 1.0 h/m³ (como E02.01.0098). Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
+    "No incluye excavación, plantilla ni relleno."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

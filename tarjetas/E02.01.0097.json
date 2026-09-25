@@ -1,0 +1,62 @@
+{
+  "clave_cb": "E02.01.0097",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "basico": "CON-200",
+      "cantidad": 1.0,
+      "desperdicio": 0.04,
+      "nota": "1.00 m³ + 4 % por desperdicio y sobreexcavación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m³/jor Of+5Pe con revolvedora de 1 saco (bachadas de ≈0.14 m³ cada 8-10 min → ≈1 m³/h; la revolvedora limita el ritmo), igual que E02.01.0098. Catálogo 10 m³/jor; rango publicado 6-10 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Revolvedora 1 saco",
+      "costo_horario": 95.0,
+      "horas": 1.0
+    },
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "costo_horario": 80.0,
+      "horas": 1.0
+    }
+  ],
+  "supuestos": [
+    "Concreto f'c=200 hecho en obra con revolvedora de 1 saco, colado con botes y carretillas en zapatas y contratrabes, vibrado con vibrador de chicote.",
+    "Revolvedora y vibrador trabajando toda la jornada: 8 h / 8 m³ = 1.0 h/m³.",
+    "Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
+    "Vibrador a gasolina $80/h: renta CAYAM Maquinaria Morelia $550/día ($69/h) + gasolina ≈0.5 l/h ($12/h) (https://www.cayammaquinaria.com/renta-concreto).",
+    "Acarreos hasta 20 m; sin bomba ni curado con membrana."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

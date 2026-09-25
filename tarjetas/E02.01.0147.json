@@ -1,0 +1,24 @@
+{
+  "clave_cb": "E02.01.0147",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 m³/jor peón (selección de piedra del producto de excavación, quebrado con marro y acarreo en carretilla hasta 50 m; catálogo 3 m³/jor; rango 2-3)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piedra aprovechable del producto de la excavación, medida acamellonada en el sitio de uso.",
+    "Acarreo en carretilla hasta 50 m; el marro va en la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

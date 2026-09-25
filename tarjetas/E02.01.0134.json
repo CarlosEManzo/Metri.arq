@@ -1,0 +1,65 @@
+{
+  "clave_cb": "E02.01.0134",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es frontera de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.0672,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22 × 2.44 m = 2.977 m²; 5 usos con acabado aparente → 0.0672 pza/m²; 10 % por cortes"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.8,
+      "desperdicio": 0.1,
+      "nota": "Bastidores 5 pt + estacas 4 pt = 9 pt; 5 usos → 1.8 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Amarres y moños 0.05 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of carpintero + Ay (bastidores con triplay, plomeo, sellado de juntas y descimbrado cuidadoso). Catálogo 7 m²/jor; rango publicado 6-9 m²/jor en cimbra aparente"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra acabado aparente con triplay de pino de 16 mm (5 usos) sobre bastidores de pino de 3a, medida por m² de contacto.",
+    "Fronteras de losa de cimentación de hasta 0.40 m de peralte, con chaflán.",
+    "Referencia CDMX jul-2026 sin concepto equivalente de fronteras aparentes (tabulador, sin par cargado en pares_tabulador_cdmx.csv). Si hay alerta contra el P.U. actualizado, se explica igual que en la cimbra común: Construbase subestima la mano de obra de cimbra (criterio de E02.01.0122)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

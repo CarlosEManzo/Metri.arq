@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E02.01.0088",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    },
+    {
+      "clave": "20.10.40.10",
+      "condicion": "si es barrera de vapor bajo firme o solera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "POLIET-600",
+      "cantidad": 1.1,
+      "desperdicio": 0.05,
+      "nota": "1 m² + traslapes de 15 cm (≈10 %); 5 % por cortes y remates"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100.0,
+    "fuente": "100 m²/jor peón (tendido, cortes, traslapes y lastrado del polietileno en fondo de cepa o bajo losa). Catálogo 150 m²/jor; en cepas angostas y con traslapes el rendimiento baja; rango 100-150"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Polietileno negro calibre 600 como barrera de humedad bajo losa de cimentación o firme.",
+    "Diferencia -23 % contra el P.U. actualizado: el polietileno calibre 600 cuesta $11.70/m² sin IVA en 2026; el P.U. de Construbase implica ≈$23/m² de material."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

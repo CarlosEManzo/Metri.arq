@@ -1,0 +1,42 @@
+{
+  "clave_cb": "E02.01.0118",
+  "gubim": "20.10.10.40",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CEM-GRIS",
+      "cantidad": 0.001,
+      "desperdicio": 0.1,
+      "nota": "Espolvoreado de cemento 1 kg/m² para cerrar la superficie"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 80.0,
+    "fuente": "80 m²/jor Of+Pe con allanadora mecánica (rango publicado 80-120 m²/jor con allanadora; 40-60 a mano). Catálogo 60 m²/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Allanadora mecánica de concreto 36 in a gasolina",
+      "costo_horario": 125.0,
+      "horas": 0.1
+    }
+  ],
+  "supuestos": [
+    "Pulido integral (fresco sobre fresco) de losa o firme de cimentación con allanadora de 36 in; incluye espera de fraguado inicial.",
+    "Allanadora 8 h / 80 m² = 0.10 h/m². Allanadora $125/h: renta CAYAM Andamios Morelia $800/día ($100/h) + gasolina ≈1.2 l/h ($25/h).",
+    "Sin endurecedor metálico ni color; si se especifica, se agrega aparte."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

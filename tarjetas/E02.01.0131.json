@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E02.01.0131",
+  "gubim": "20.10.30.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.0672,
+      "desperdicio": 0.1,
+      "nota": "Hoja 1.22 × 2.44 m = 2.977 m²; 5 usos con acabado aparente → 0.0672 pza/m²; 10 % por cortes"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.2,
+      "desperdicio": 0.1,
+      "nota": "Bastidores 7 pt + troqueles y contraventeo 4 pt = 11 pt; 5 usos → 2.2 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m²"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Amarres y moños 0.2 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8 m²/jor Of carpintero + Ay (bastidores con triplay, plomeo, sellado de juntas y descimbrado cuidadoso). Catálogo 7 m²/jor; rango publicado 6-9 m²/jor en cimbra aparente"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra acabado aparente con triplay de pino de 16 mm (5 usos) sobre bastidores de pino de 3a, medida por m² de contacto.",
+    "Muros de cimentación hasta 2.50 m, dos caras; juntas y moños según proyecto (moños de alambre con cono de plástico recuperable).",
+    "Referencia CDMX jul-2026 CC14BH $417.20 (tabulador, sin par cargado en pares_tabulador_cdmx.csv). Si hay alerta contra el P.U. actualizado, se explica igual que en la cimbra común: Construbase subestima la mano de obra de cimbra (criterio de E02.01.0122).",
+    "P.U. de la tarjeta $493.10: +34.5% contra el P.U. actualizado y +18.2% contra la referencia CDMX citada ($417.20)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

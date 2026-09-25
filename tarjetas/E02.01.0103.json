@@ -1,0 +1,54 @@
+{
+  "clave_cb": "E02.01.0103",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-250N",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "1.00 m³ + 3 % por desperdicio y sobreexcavación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 5
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 m³/jor Of+5Pe con tiro directo de la olla y carretillas (rendimiento del catálogo; rango publicado 20-30 m³/jor). Catálogo 25 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Vibrador para concreto a gasolina",
+      "costo_horario": 80.0,
+      "horas": 0.32
+    }
+  ],
+  "supuestos": [
+    "Concreto premezclado f'c=250 kg/cm² clase 2 (resistencia normal; \"clase A\" de Construbase), TMA 19 mm, tiro directo de la olla, carretillas hasta 20 m.",
+    "Vibrador trabajando toda la jornada: 8 h / 25 m³ = 0.320 h/m³. Vibrador a gasolina $80/h: renta CAYAM Maquinaria Morelia $550/día ($69/h) + gasolina ≈0.5 l/h ($12/h) (https://www.cayammaquinaria.com/renta-concreto)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E02.01.0082",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MALLA-66-44",
+      "cantidad": 1.0,
+      "desperdicio": 0.1,
+      "nota": "1 m² + traslape de un cuadro (15 cm) en uniones y cortes ≈10 %"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Amarres en traslapes 0.02 kg/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-FIE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 80.0,
+    "fuente": "80 m²/jor Of fierrero + Ay en cimentación (catálogo 100 m²/jor; rango publicado 80-150). Malla 4-4/4-4 más rígida (≈2.65 kg/m²), corte y acomodo más lentos: 80 m²/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Malla en rollo 2.50 × 40 m colocada sobre silletas o calzas de concreto (en herramienta menor).",
+    "Losa de cimentación, firme o zapata; en elementos con dobleces el rendimiento baja.",
+    "Precio de la malla: MALLA-66-44 (ver insumos_lote2b.csv)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

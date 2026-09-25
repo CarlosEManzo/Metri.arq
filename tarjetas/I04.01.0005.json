@@ -63,7 +63,7 @@
   "equipo": [],
   "supuestos": [
     "NOTA DE UNIDAD: el catálogo dice M, pero la descripción fija una pieza de 2.80 m de altura y el P.U. de Construbase ($2,524) solo es congruente con la pieza completa; se analiza 1 unidad = castillo de 2.80 m. P.U. por metro = P.U. / 2.8.",
-    "Cimbra de cartón (sonotubo) de 30 cm de un solo uso para acabado aparente, con plomeo de madera; precio del sonotubo como referencia.",
+    "Cimbra de cartón (sonotubo) de 30 cm de un solo uso para acabado aparente, con plomeo de madera; precio del sonotubo de Tool Ferreterías (tramo de 3 m).",
     "Concreto f'c=250 hecho en obra a mano."
   ],
   "elaboro": "Agente de tarjetas",

@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E02.01.0084",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Humedecido del fondo ≈10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 m²/jor peón operando la bailarina (afine a mano previo y compactación mecánica). Catálogo 60 m²/jor; rango publicado 40-60"
+  },
+  "equipo": [
+    {
+      "descripcion": "Bailarina (apisonador) a gasolina",
+      "costo_horario": 100.0,
+      "horas": 0.2
+    }
+  ],
+  "supuestos": [
+    "Fondo de cepa en material tipo I-II, sin agua; afine de hasta 5 cm.",
+    "Bailarina trabajando toda la jornada: 8 h / 40 m² = 0.20 h/m².",
+    "Bailarina $100/h: renta en Morelia $600-650/día (CAYAM Andamios / CAYAM Maquinaria, https://www.cayammaquinaria.com/renta-compactacion) ≈$80/h + gasolina ≈1 l/h ($20/h)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

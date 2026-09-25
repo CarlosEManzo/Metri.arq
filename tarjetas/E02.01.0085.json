@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E02.01.0085",
+  "gubim": "20.10.10.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CONC-PREM-100",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "1.00 × 1.00 × 0.05 m = 0.050 m³/m²; 5 % por irregularidad del fondo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 70.0,
+    "fuente": "70 m²/jor Of+2Pe (3.5 m³/jor de concreto de olla vaciado con canalón y carretilla; sin mezclado). Catálogo 40 m²/jor (que corresponde a concreto hecho en obra, E02.01.0087); rango publicado 60-80 m²/jor con premezclado"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concreto premezclado f'c=100 clase 2, tiro directo desde la olla o con carretilla hasta 20 m.",
+    "Volumen por colado ≥ 3.5 m³ (70 m²); sin cargo por viaje incompleto.",
+    "Preparación: limpieza y apisonado ligero del fondo; compactación con equipo aparte.",
+    "Diferencia +23 % contra el P.U. actualizado: Construbase 2017 pone la plantilla premezclada más barata que la hecha en obra (E02.01.0087, $181.77); con precios 2026 el concreto de olla ($2,350/m³) cuesta más que el hecho en obra."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

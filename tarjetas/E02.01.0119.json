@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E02.01.0119",
+  "gubim": "20.10.10",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "20.10.10.20",
+      "condicion": "si es de zapatas"
+    },
+    {
+      "clave": "20.10.10.10",
+      "condicion": "si es de contratrabes o trabes de liga"
+    },
+    {
+      "clave": "20.10.10.40",
+      "condicion": "si es de losa de cimentación"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CURADOR-TAMBO",
+      "cantidad": 0.2,
+      "desperdicio": 0.05,
+      "nota": "5 m²/l → 0.20 l/m²; 5 % por pérdidas en la aspersión"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 150.0,
+    "fuente": "150 m²/jor peón con aspersor manual (rendimiento del catálogo; rango publicado 150-250 m²/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Membrana de curado base agua comprada en tambor de 200 L (CURADOR-TAMBO, $37/l); en cubeta de 19 L (CURADOR, $92/l) el P.U. sube ≈$14/m².",
+    "Aspersor de mochila cubierto por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

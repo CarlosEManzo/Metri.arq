@@ -1,0 +1,50 @@
+{
+  "clave_cb": "E02.01.0145",
+  "gubim": "10.20.30.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "GRAVA-CONTROL",
+      "cantidad": 1.25,
+      "desperdicio": 0.0,
+      "nota": "1.25 m³ sueltos por m³ compacto (material granular)"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "Agua para humedad óptima ≈100 l/m³ compacto"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 60.0,
+    "fuente": "60 m³/jor: rodillo de 1 t con 2 peones, tendido con retroexcavadora (igual que E02.01.0139). Catálogo 120 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Rodillo vibratorio doble tambor 1 t",
+      "costo_horario": 300.0,
+      "horas": 0.1333
+    },
+    {
+      "descripcion": "Retroexcavadora 416 con operador (incl. diésel) para tendido",
+      "costo_horario": 850.0,
+      "horas": 0.05
+    }
+  ],
+  "supuestos": [
+    "Grava controlada (base hidráulica) puesta en obra; medida compacta; capas de 20 cm al 90 % Proctor.",
+    "Precio GRAVA-CONTROL $350/m³ como referencia (sin precio publicado confiable).",
+    "Rodillo vibratorio doble tambor 1 t $300/h: renta CAYAM Morelia $2,000/día ($250/h) + diésel ≈2 l/h ($48/h); lo opera un peón de la cuadrilla.",
+    "Retroexcavadora tipo CAT 416 con operador y diésel $850/h (rango 2026 $800-1,500/h, mecanicaavanzada.com.mx), igual que E02.01.0019; sin cotización de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

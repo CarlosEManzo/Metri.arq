@@ -1,0 +1,32 @@
+{
+  "clave_cb": "E02.01.0083",
+  "gubim": "10.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Humedecido del fondo ≈10 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor peón: afine a mano del fondo (espesor promedio 5 cm), nivelación y apisonado con pisón. Catálogo 60 m²/jor; APU publicados 25-40 m²/jor para afine y compactación manual"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Fondo de cepa en material tipo I-II, sin agua; afine de hasta 5 cm de espesor promedio.",
+    "Compactación con pisón de mano (sin control de laboratorio).",
+    "Se toma 30 m²/jor porque a 60 m²/jor el peón no alcanza a afinar y compactar; con 60 el P.U. sería ≈$17."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E02.01.0127",
+  "gubim": "20.10.40.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 3.6,
+      "desperdicio": 0.1,
+      "nota": "Tarima 8.1 pt + largueros inclinados 5.0 pt + pies derechos y contraventeo 4.9 pt = 18 pt; 5 usos → 3.6 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "0.15 kg/m² (valor usual 0.12-0.20 kg/m² en cimbra de madera)"
+    },
+    {
+      "insumo": "ALAMBRE-REC",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Amarres y moños 0.08 kg/m²"
+    },
+    {
+      "insumo": "DIESEL",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Desmoldante 0.1 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9.0,
+    "fuente": "9 m²/jor Of carpintero + Ay (habilitado, cimbrado y descimbrado). Catálogo 10 m²/jor; rango publicado 8-14 m²/jor en cimbra común de cimentación"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cimbra de madera de pino de 3a, acabado común, medida por m² de contacto; 5 usos de la madera.",
+    "Rampas de cimentación con pendiente hasta 15 %, obra falsa hasta 1.50 m, fronteras incluidas.",
+    "Diferencia contra el P.U. actualizado (alerta si pasa de ±25 %) explicada: se sigue el criterio de E02.01.0122 (cimbra común en zapatas, +17 % contra la CDMX y +47 % contra el P.U. actualizado). El P.U. actualizado de Construbase subestima la mano de obra de cimbra; referencia CDMX jul-2026 CB12BK $382.05 (tabulador, sin par cargado en pares_tabulador_cdmx.csv).",
+    "P.U. de la tarjeta $450.20: +18.6% contra el P.U. actualizado y +17.8% contra la referencia CDMX citada ($382.05)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
