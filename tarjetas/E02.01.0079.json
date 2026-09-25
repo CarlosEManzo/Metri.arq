@@ -8,8 +8,8 @@
       "condicion": "si es losa de cimentación"
     },
     {
-      "clave": "20.10.40.10",
-      "condicion": "si es firme o solera sobre terreno"
+      "clave": "40.20.10.30",
+      "condicion": "si es firme sobre terreno"
     }
   ],
   "materiales": [

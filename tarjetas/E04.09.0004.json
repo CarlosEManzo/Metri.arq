@@ -4,8 +4,8 @@
   "gubim_confianza": "alta",
   "gubim_alternativas": [
     {
-      "clave": "20.10.40.10",
-      "condicion": "si se aplica bajo firme o en cimentación (barrera de vapor)"
+      "clave": "40.20.10.30",
+      "condicion": "si se aplica bajo firme (barrera de vapor)"
     }
   ],
   "materiales": [

@@ -84,7 +84,7 @@ R = [
     (None, r"aplanados", r"exterior|fachada", "30.10.10.40", "alta"),
     (None, r"aplanados", None, "40.10.20.20", "media"),
     (None, r"pisos y firmes", r"rampa", "20.10.40.20", "alta"),
-    (None, r"pisos y firmes", r"^firme", "20.10.40.10", "alta"),
+    (None, r"pisos y firmes", r"^firme", "40.20.10.30", "alta"),  # firme = recrecido (decisión Carlos, 2026-09-25)
     (None, r"pisos y firmes", None, "40.20.20.20", "media"),
     (None, None, r"^(registro|brocal|pozo de visita)", "50.20.20.50", "alta"),
     (None, r"registros y tuberia", None, "50.20.20.20", "media"),
