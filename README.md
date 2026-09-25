@@ -4,7 +4,7 @@ Herramientas de costos de Métrica Estudio R&P para presupuestar desde modelos B
 
 ## Construbase → GuBIMclass
 
-Tabla que une el catálogo de precios unitarios **Construbase 2017** con la clasificación **GuBIMclass v1.2**, que en Revit es el *Assembly Code*. A cada concepto le agrega un rendimiento y el tiempo de ejecución estimado.
+Tabla que une el catálogo de precios unitarios **Construbase 2017** con la clasificación **GuBIMclass v1.2**, que en Revit es el *Assembly Code*. A cada concepto le agrega el precio actualizado a 2026 para Michoacán, un rendimiento y el tiempo de ejecución estimado.
 
 | Archivo | Contenido |
 |---|---|
@@ -28,6 +28,7 @@ python3 scripts/generar_tabla.py
 
 - Las reglas de correspondencia están en `scripts/reglas_gubim.py`.
 - Los rendimientos de referencia están en `scripts/rendimientos.py`.
-- Para actualizar precios no hace falta regenerar: se capturan los índices INPP en la hoja *Parámetros* del Excel.
+- Los factores de actualización y sus fuentes están en `scripts/actualizacion.py`.
+- Para cambiar la actualización no hace falta regenerar: en la hoja *Parámetros* del Excel se editan los factores de materiales y de mano de obra, o se captura el INPP de Morelia.
 
 > Los rendimientos **no vienen de Construbase**, porque el export no trae las matrices de precios unitarios. Son valores de referencia por validar; ver `AUDITORIA.md`.

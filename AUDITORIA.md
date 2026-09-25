@@ -15,7 +15,7 @@ Revisión de la tabla `salida/Construbase_GuBIM.xlsx`, generada con `scripts/gen
 | Precios atípicos | 61 |
 | Duplicados con precio distinto | 28 conceptos (14 pares) |
 | Fórmulas del Excel | Sin errores (verificado con evaluador independiente) |
-| Precio actualizado | **Pendiente**: falta capturar los índices INPP del INEGI |
+| Precio actualizado | Ago-2026, mercado Michoacán, por componentes: factor efectivo 1.60 (provisional hasta capturar el INPP de Morelia) |
 
 ## 2. Fuentes
 
@@ -113,19 +113,54 @@ Son proporciones razonables: mucha mano de obra en obra negra y poca en equipos 
   - Centros de carga I-LINE, de $44,000 a $81,000: se explica por la capacidad.
 - **Duplicados con precio distinto** (14 pares). Tienen la misma descripción y distinto precio. Los pares en Urbanización (drenaje contra agua potable) y en puertas de aluminio de Base Intelimat son los más notorios; hay que elegir uno.
 - **31 pares de duplicados idénticos** (62 conceptos), es decir, conceptos repetidos en dos capítulos. Solo se reportan en el Catálogo.
-- **Actualización.** No hubo acceso a INEGI desde este entorno, así que el factor queda como parámetro. Referencias públicas encontradas: la construcción residencial subió 3.94 % en 2023 y 4.52 % en 2025. Con 9 años de antigüedad, el factor total probablemente ronda 1.6 a 1.8, pero **debe calcularse con el INPP oficial** (sep-2017 contra el último mes). Un solo índice general además no distingue entre materiales (acero, cobre) y mano de obra, que subieron a ritmos distintos.
+- **Actualización.** Ver la sección 7.
 
-## 7. Verificación del Excel
+## 7. Actualización a 2026 (mercado Michoacán)
+
+**Fuente ideal y por qué no se usó.** El índice que mejor refleja Michoacán es el INPP "Construcción residencial" de **Morelia** (INEGI), que además trae los componentes de materiales, mano de obra y maquinaria. La red de este entorno bloquea inegi.org.mx, cmic.org.mx y banxico.org.mx. Por eso se usaron búsquedas web y se contrastaron varias fuentes.
+
+**Fuentes consultadas** (detalle en la hoja *Fuentes* del Excel):
+
+| Fuente | Dato | Factor sep-2017 → ago-2026 |
+|---|---|---|
+| INPC nacional (INEGI) | 96.09 → 145.462 | 1.51 (piso: inflación general) |
+| INPC Michoacán | 3.77 % anual en ago-2026, contra 3.26 % nacional | algo mayor que el nacional |
+| Construcción residencial nacional (CEICO/INEGI) | 2023 +3.94 %, 2024 +3.93 %, 2025 +4.52 %; materias primas +29 % de 2020 a 2022 | 1.60–1.70 (estimado; faltan 2017–2022 exactos) |
+| Mano de obra Michoacán (CONASAMI, Indeed Morelia) | Oficial ≈ $560/día en 2026 contra $350–400 en 2017; mínimo general $80 → $315 | ≈ 1.65 |
+| Materiales (cemento, varilla, cable, cobre) | Cemento ≈ 1.2x; varilla ≈ 1.5x; cable +17 % solo en 2025 | ≈ 1.60 |
+
+**Método elegido (el más cercano al mercado de Michoacán).** Se actualiza por componentes:
+
+`P.U. 2026 = P.U. 2017 × [ %M.O. × 1.65 + (1 − %M.O.) × 1.60 ]`
+
+- %M.O. es la mano de obra estimada del concepto (cuadrilla ÷ rendimiento), con un tope de 60 %.
+- El resultado es un factor efectivo de **1.600 a 1.618** según el capítulo, **1.602** en conjunto.
+- En Michoacán la mano de obra subió más que los materiales por los aumentos al salario mínimo. Con este método, los conceptos de mucha mano de obra (excavación manual, aplanados, cimbra) suben un poco más.
+
+**Contraste con precios de mercado 2026:**
+- Muro de block de 15 cm: **$419/m²** en la tabla, contra $420–480/m² instalado según referencias de mercado.
+- Concreto f'c=250 colocado: **$3,502/m³** en la tabla, contra $2,400–2,900/m³ solo el suministro. La diferencia corresponde a colocación, vibrado, acarreos e indirectos, así que es coherente.
+
+**Limitaciones:**
+- Los factores son **estimaciones**, no el índice oficial de Morelia. En cuanto se capture el INPP de Morelia (sep-2017 y último mes) en *Parámetros*, sustituye a este cálculo.
+- Un factor por componente no distingue entre materiales: el acero y el cobre subieron más que el cemento.
+- La separación entre mano de obra y materiales depende de rendimientos de referencia sin validar.
+
+## 8. Verificación del Excel
 
 - LibreOffice no funciona en este contenedor. Las fórmulas se evaluaron con `pycel`, un evaluador independiente, sobre 450 filas al azar.
-- Se probaron los dos modos de actualización: por índices INPP (factor 1.655) y por factor manual (1.5).
+- Se probaron los modos de actualización: por índices INPP (factor 1.655), por factor manual (1.5 y 1.7) y por componentes (materiales 1.60, M.O. 1.65). En el método por componentes, el Excel coincide al centavo con el cálculo en Python en 200 filas al azar.
 - Resultado: **0 errores**. P.U. actualizado, rendimiento, jornadas, horas-hombre y % de M.O. calculan bien. La única diferencia que apareció fue de redondeo en la propia prueba en Python; Excel redondea correctamente.
 - El libro tiene activado el recálculo completo al abrir.
 
-## 8. Pendientes recomendados
+## 9. Pendientes recomendados
 
-1. Capturar el INPP de "Construcción residencial" de sep-2017 y del último mes en la hoja Parámetros.
+1. Capturar el INPP de "Construcción residencial" de **Morelia** (sep-2017 y último mes) en la hoja Parámetros.
 2. Ajustar el costo de las cuadrillas en Parámetros al salario real de la zona (Querétaro o Morelia).
 3. Revisar las 326 alertas de rendimiento y los 14 pares duplicados.
-4. Conseguir el export de Construbase con matrices para sustituir los rendimientos de referencia.
+4. Validar los rendimientos sin tarjetas de P.U. de Construbase. Opciones, de la más rápida a la más sólida:
+   - Contrastar con el Tabulador General de Precios Unitarios de la CDMX (público, actualización mensual 2026) y con tabuladores de dependencias (SICT, IMSS, INIFECH).
+   - Tomar rendimientos de bibliografía de costos (Suárez Salazar, *Costo y tiempo en edificación*; Varela, *Ingeniería de costos*).
+   - Medirlos en obra propia (por ejemplo Casa Querétaro): unidades hechas por jornada de cada cuadrilla.
+   - Pedir a quien tenga licencia de Construbase/Neodata el reporte "análisis de precios unitarios" solo de los conceptos que más se usen.
 5. Validar con un proyecto real (por ejemplo Casa Querétaro) que las claves GuBIM coinciden con el Assembly Code usado en Revit.

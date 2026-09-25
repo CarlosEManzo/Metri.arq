@@ -2,7 +2,7 @@
 
 Salidas (carpeta salida/):
   Construbase_GuBIM.xlsx  libro de trabajo con fórmulas editables
-  construbase_gubim.csv   misma tabla en texto plano (valores a precio 2017)
+  construbase_gubim.csv   misma tabla en texto plano (precio 2017 y actualizado con los factores por defecto)
 
 Uso:  python3 scripts/generar_tabla.py
 """
@@ -18,6 +18,7 @@ from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
+import actualizacion
 import leer_construbase
 import reglas_gubim
 import rendimientos
@@ -112,6 +113,12 @@ def construir():
         c["alertas"] = []
         costo = rendimientos.CUADRILLAS[c["cuadrilla"]][2] if c["cuadrilla"] else None
         c["mo_pct"] = costo / c["rendimiento"] / c["precio_2017"] if costo else None
+        # Actualización por componentes con los factores por defecto (mismo
+        # cálculo que las fórmulas del Excel).
+        mo = min(c["mo_pct"] or 0, actualizacion.TOPE_MO)
+        c["mo_act"] = round(c["precio_2017"] * mo * actualizacion.FACTOR_MO, 2)
+        c["mat_act"] = round(c["precio_2017"] * (1 - mo) * actualizacion.FACTOR_MATERIALES, 2)
+        c["pu_act"] = round(c["mo_act"] + c["mat_act"], 2)
     detectar_alertas(conceptos)
     return conceptos, gub
 
@@ -134,17 +141,20 @@ def hoja_leame(wb, n):
         ("Construbase 2017 → GuBIMclass v1.2: precios y rendimientos", True),
         ("", False),
         ("Hojas", True),
-        ("Parámetros: índices INPP para actualizar precios y costo por jornada de las cuadrillas (celdas amarillas).", False),
+        ("Parámetros: factores de actualización y costo por jornada de las cuadrillas (celdas amarillas).", False),
+        ("Fuentes: de dónde salen los factores de actualización.", False),
         (f"Catálogo: los {n} conceptos con clave propia, clave GuBIM, precio 2017, precio actualizado y rendimiento.", False),
         ("Rendimientos: tabla de actividades con cuadrilla y rendimiento (unidades por jornada de 8 h). Editable.", False),
         ("GuBIM: las 533 claves de GuBIMclass con el número de conceptos asignados a cada una.", False),
         ("Resumen: estadísticas de precio por capítulo y reparto de la confianza de la clave GuBIM.", False),
         ("Alertas: conceptos a revisar (precio atípico, duplicados, mano de obra estimada mayor al precio, clave genérica).", False),
         ("", False),
-        ("Cómo actualizar los precios", True),
-        ("1. Descarga del INEGI el Índice Nacional de Precios Productor, 'Construcción residencial' (o 'Edificación').", False),
-        ("2. Captura en Parámetros el valor de septiembre 2017 y el del mes más reciente. El factor y la columna", False),
-        ("   'P.U. actualizado' se calculan solos. También puedes escribir un factor manual.", False),
+        ("Cómo se actualizan los precios (" + actualizacion.PERIODO + ", mercado Michoacán)", True),
+        ("Por componentes: cada P.U. 2017 se divide en mano de obra (cuadrilla / rendimiento, con tope) y", False),
+        ("materiales y equipo. La mano de obra se multiplica por el factor de M.O. y el resto por el de materiales.", False),
+        ("Así funciona como una tarjeta paramétrica: sin matrices de Construbase, pero con la M.O. separada.", False),
+        ("Si capturas en Parámetros el INPP Construcción residencial de Morelia (sep-2017 y mes actual) o un", False),
+        ("factor manual, ese factor único sustituye a los dos factores por componente.", False),
         ("", False),
         ("Rendimientos: importante", True),
         ("El export de Construbase NO incluye las matrices de precios unitarios, por lo tanto no trae rendimientos.", False),
@@ -170,39 +180,67 @@ def hoja_leame(wb, n):
 
 def hoja_parametros(wb):
     ws = wb.create_sheet("Parámetros")
-    ws.column_dimensions["A"].width = 48
+    ws.column_dimensions["A"].width = 52
     ws.column_dimensions["B"].width = 16
     ws.column_dimensions["C"].width = 70
+    ws.column_dimensions["D"].width = 20
+    ws.column_dimensions["E"].width = 22
     filas = [
-        ("Actualización de precios", None, None),
-        ("INPP Construcción residencial, sep-2017", None, "Capturar valor INEGI (misma base que el actual)"),
-        ("INPP Construcción residencial, mes actual", None, "Capturar valor INEGI del mes más reciente"),
+        ("Actualización de precios (" + actualizacion.PERIODO + ")", None, None),
+        ("Método A – índice único (si se captura, tiene prioridad)", None, None),
+        ("INPP Construcción residencial Morelia, sep-2017", None, "INEGI, Índices de precios > Construcción residencial por ciudad"),
+        ("INPP Construcción residencial Morelia, mes actual", None, "Misma serie y base que el valor de 2017"),
         ("Factor manual (opcional)", None, "Si se captura, sustituye al cálculo con INPP"),
-        ("Factor de actualización", '=IF(B5<>"",B5,IF(AND(N(B3)>0,N(B4)>0),B4/B3,""))', "Se aplica a todos los P.U. 2017"),
-        ("Mes/año del precio actualizado", None, "Referencia informativa, p. ej. ago-2026"),
+        ("Factor único", '=IF(B6<>"",B6,IF(AND(N(B4)>0,N(B5)>0),B5/B4,""))',
+         "Vacío = se usa el método B"),
+        ("Método B – por componentes (se usa si el factor único está vacío)", None, None),
+        ("Factor materiales y equipo", actualizacion.FACTOR_MATERIALES,
+         "Estimación Michoacán; fuentes en la hoja Fuentes"),
+        ("Factor mano de obra", actualizacion.FACTOR_MO,
+         "Salario real de cuadrilla Michoacán 2026 / 2017"),
+        ("Tope de % de mano de obra por concepto", actualizacion.TOPE_MO,
+         "Limita la M.O. estimada cuando el rendimiento es incongruente"),
+        ("Factor equivalente si % M.O. = 25 %", "=0.25*B10+0.75*B9", "Referencia para comparar con índices"),
     ]
     ws.append(["Parámetro", "Valor", "Nota"])
     for f in filas:
         ws.append(list(f))
-    for r in (3, 4, 5, 7):
+    for r in (4, 5, 6, 9, 10, 11):
         ws.cell(row=r, column=2).fill = FONDO_PARAM
-    ws.cell(row=2, column=1).font = Font(bold=True)
-    ws.cell(row=6, column=1).font = Font(bold=True)
-    ws["B6"].number_format = "0.0000"
+    for r in (2, 3, 8):
+        ws.cell(row=r, column=1).font = Font(bold=True)
+    for r in (7, 9, 10, 12):
+        ws.cell(row=r, column=2).number_format = "0.000"
+    ws["B11"].number_format = "0%"
     for c in ws[1]:
         c.font, c.fill = ENCABEZADO, FONDO_ENC
 
     ws.append([])
     ws.append(["Cuadrillas (costo por jornada, salario real con FSR)", None, None])
     ws.cell(row=ws.max_row, column=1).font = Font(bold=True)
-    ws.append(["Clave", "Personas", "Descripción", "Costo jornada 2017"])
+    ws.append(["Clave", "Personas", "Descripción", "Costo jornada 2017", "Costo jornada actualizado"])
     fila_ini = ws.max_row + 1
     for clave, (desc, personas, costo) in rendimientos.CUADRILLAS.items():
-        ws.append([clave, personas, desc, costo])
-        ws.cell(row=ws.max_row, column=4).fill = FONDO_PARAM
-        ws.cell(row=ws.max_row, column=4).number_format = "$#,##0.00"
-    ws.column_dimensions["D"].width = 20
-    return "Parámetros!$B$6", "Parámetros!$A${}:$D${}".format(fila_ini, ws.max_row)
+        f = ws.max_row + 1
+        ws.append([clave, personas, desc, costo, f'=IF(D{f}="","",ROUND(D{f}*IF($B$7<>"",$B$7,$B$10),2))'])
+        ws.cell(row=f, column=4).fill = FONDO_PARAM
+        ws.cell(row=f, column=4).number_format = "$#,##0.00"
+        ws.cell(row=f, column=5).number_format = "$#,##0.00"
+    celdas = {"unico": "Parámetros!$B$7", "mat": "Parámetros!$B$9",
+              "mo": "Parámetros!$B$10", "tope": "Parámetros!$B$11"}
+    return celdas, "Parámetros!$A${}:$D${}".format(fila_ini, ws.max_row)
+
+
+def hoja_fuentes(wb):
+    ws = wb.create_sheet("Fuentes")
+    encabezar(ws, ["Fuente", "Dato", "Uso en la actualización"], [48, 70, 70])
+    for fila in actualizacion.FUENTES:
+        ws.append(list(fila))
+        for c in ws[ws.max_row]:
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+    ws.append([])
+    ws.append(["Pendiente", "Capturar el INPP Construcción residencial de Morelia (sep-2017 y último mes) en Parámetros",
+               "Es el índice oficial más cercano al mercado de Michoacán; sustituye a la estimación"])
 
 
 def hoja_rendimientos(wb):
@@ -220,40 +258,72 @@ def hoja_rendimientos(wb):
     return "Rendimientos!$A$2:$E${}".format(ws.max_row)
 
 
-def hoja_catalogo(wb, conceptos, gub, celda_factor, rango_cuad, rango_rend):
+def hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend):
     ws = wb.create_sheet("Catálogo")
-    cols = ["Clave CB", "Sección", "Capítulo", "Subcapítulo", "Descripción", "Unidad",
-            "P.U. 2017", "P.U. actualizado", "Clave GuBIM", "Descripción GuBIM", "Nivel",
-            "Confianza", "Actividad", "Cuadrilla", "Rendimiento (u/jornada)",
-            "Jornadas por unidad", "Horas-hombre por unidad", "% M.O. estimada",
-            "Alertas", "Fila origen"]
-    encabezar(ws, cols, [13, 12, 20, 22, 70, 7, 12, 13, 12, 34, 6, 9, 22, 8, 12, 11, 11, 10, 50, 8])
+    columnas = [
+        # (clave interna, encabezado, ancho, formato)
+        ("clave", "Clave CB", 13, None),
+        ("seccion", "Sección", 12, None),
+        ("capitulo", "Capítulo", 20, None),
+        ("subcapitulo", "Subcapítulo", 22, None),
+        ("descripcion", "Descripción", 70, None),
+        ("unidad", "Unidad", 7, None),
+        ("pu17", "P.U. 2017", 12, "$#,##0.00"),
+        ("mo_act", "% M.O. para actualizar", 11, "0%"),
+        ("mo_imp", "M.O. actualizada", 12, "$#,##0.00"),
+        ("mat_imp", "Materiales y equipo actualizados", 13, "$#,##0.00"),
+        ("pu_act", "P.U. actualizado", 13, "$#,##0.00"),
+        ("gubim", "Clave GuBIM", 12, None),
+        ("gubim_desc", "Descripción GuBIM", 34, None),
+        ("nivel", "Nivel", 6, None),
+        ("confianza", "Confianza", 9, None),
+        ("actividad", "Actividad", 22, None),
+        ("cuadrilla", "Cuadrilla", 8, None),
+        ("rend", "Rendimiento (u/jornada)", 12, None),
+        ("jornadas", "Jornadas por unidad", 11, "0.0000"),
+        ("hh", "Horas-hombre por unidad", 11, "0.00"),
+        ("mo17", "% M.O. estimada 2017", 10, "0%"),
+        ("alertas", "Alertas", 50, None),
+        ("fila", "Fila origen", 8, None),
+    ]
+    L = {k: get_column_letter(i) for i, (k, *_ ) in enumerate(columnas, start=1)}
+    encabezar(ws, [c[1] for c in columnas], [c[2] for c in columnas])
+    unico, fmat, fmo, tope = celdas["unico"], celdas["mat"], celdas["mo"], celdas["tope"]
     for c in conceptos:
         f = ws.max_row + 1
         desc_g, nivel = gub.get(c["gubim"], ("", None)) if c["gubim"] else ("", None)
         act = c["actividad"] or ""
-        ws.append([
-            c["clave"], c["seccion"], c["capitulo"], c["subcapitulo"], c["descripcion"], c["unidad"],
-            c["precio_2017"],
-            f'=IF({celda_factor}="","",ROUND(G{f}*{celda_factor},2))',
-            c["gubim"] or "", desc_g, nivel, c["confianza"], act, c["cuadrilla"] or "",
-            f'=IFERROR(VLOOKUP(M{f},{rango_rend},5,0),"")' if act else "",
-            f'=IF(O{f}="","",1/O{f})' if act else "",
-            f'=IF(O{f}="","",VLOOKUP(N{f},{rango_cuad},2,0)*8/O{f})' if act else "",
-            (f'=IF(OR(O{f}="",VLOOKUP(N{f},{rango_cuad},4,0)=""),"",'
-             f'VLOOKUP(N{f},{rango_cuad},4,0)/O{f}/G{f})') if act else "",
-            "; ".join(c["alertas"]), c["fila_origen"],
-        ])
-        for col, fmt in ((7, "$#,##0.00"), (8, "$#,##0.00"), (16, "0.0000"),
-                         (17, "0.00"), (18, "0%")):
-            ws.cell(row=f, column=col).number_format = fmt
+        col = lambda k: f"{L[k]}{f}"
+        costo_cuad = f"VLOOKUP({col('cuadrilla')},{rango_cuad},4,0)"
+        valores = {
+            "clave": c["clave"], "seccion": c["seccion"], "capitulo": c["capitulo"],
+            "subcapitulo": c["subcapitulo"], "descripcion": c["descripcion"], "unidad": c["unidad"],
+            "pu17": c["precio_2017"],
+            "mo_act": f'=IF(N({col("mo17")})=0,0,MIN({col("mo17")},{tope}))',
+            "mo_imp": f'=ROUND({col("pu17")}*{col("mo_act")}*IF({unico}<>"",{unico},{fmo}),2)',
+            "mat_imp": f'=ROUND({col("pu17")}*(1-{col("mo_act")})*IF({unico}<>"",{unico},{fmat}),2)',
+            "pu_act": f'={col("mo_imp")}+{col("mat_imp")}',
+            "gubim": c["gubim"] or "", "gubim_desc": desc_g, "nivel": nivel,
+            "confianza": c["confianza"], "actividad": act, "cuadrilla": c["cuadrilla"] or "",
+            "rend": f'=IFERROR(VLOOKUP({col("actividad")},{rango_rend},5,0),"")' if act else "",
+            "jornadas": f'=IF({col("rend")}="","",1/{col("rend")})' if act else "",
+            "hh": f'=IF({col("rend")}="","",VLOOKUP({col("cuadrilla")},{rango_cuad},2,0)*8/{col("rend")})' if act else "",
+            "mo17": (f'=IF(OR({col("rend")}="",{costo_cuad}=""),"",'
+                     f'{costo_cuad}/{col("rend")}/{col("pu17")})') if act else "",
+            "alertas": "; ".join(c["alertas"]), "fila": c["fila_origen"],
+        }
+        ws.append([valores[k] for k, *_ in columnas])
+        for i, (_, _, _, fmt) in enumerate(columnas, start=1):
+            if fmt:
+                ws.cell(row=f, column=i).number_format = fmt
     ultima = ws.max_row
-    ws.auto_filter.ref = f"A1:T{ultima}"
+    ws.auto_filter.ref = f"A1:{L['fila']}{ultima}"
     rojo = PatternFill("solid", fgColor="F8CBAD")
-    ws.conditional_formatting.add(f"R2:R{ultima}", CellIsRule(operator="greaterThan", formula=["1"], fill=rojo))
+    ws.conditional_formatting.add(f"{L['mo17']}2:{L['mo17']}{ultima}",
+                                  CellIsRule(operator="greaterThan", formula=["1"], fill=rojo))
     dv = DataValidation(type="list", formula1='"alta,media,baja,insumo"', allow_blank=True)
     ws.add_data_validation(dv)
-    dv.add(f"L2:L{ultima}")
+    dv.add(f"{L['confianza']}2:{L['confianza']}{ultima}")
 
 
 def hoja_gubim(wb, conceptos, gub):
@@ -280,7 +350,8 @@ def hoja_resumen(wb, conceptos):
     ws = wb.create_sheet("Resumen")
     encabezar(ws, ["Sección", "Capítulo", "Conceptos", "P.U. mínimo", "P.U. mediano", "P.U. máximo",
                    "Confianza alta", "Confianza media", "Confianza baja", "Insumo",
-                   "Alertas de precio", "M.O. > 100 %"], [14, 34, 10, 12, 12, 14, 10, 10, 10, 8, 10, 10])
+                   "Alertas de precio", "M.O. > 100 %", "Factor de actualización medio"],
+             [14, 34, 10, 12, 12, 14, 10, 10, 10, 8, 10, 10, 12])
     grupos = collections.defaultdict(list)
     for c in conceptos:
         grupos[(c["seccion"], c["capitulo"])].append(c)
@@ -290,12 +361,16 @@ def hoja_resumen(wb, conceptos):
         ws.append([sec, cap, len(lista), min(precios), statistics.median(precios), max(precios),
                    conf["alta"], conf["media"], conf["baja"], conf["insumo"],
                    sum(any(a.startswith(("Precio atípico", "Duplicado con")) for a in c["alertas"]) for c in lista),
-                   sum(1 for c in lista if c["mo_pct"] and c["mo_pct"] > MO_ALERTA)])
+                   sum(1 for c in lista if c["mo_pct"] and c["mo_pct"] > MO_ALERTA),
+                   sum(c["pu_act"] for c in lista) / sum(precios)])
+        ws.cell(row=ws.max_row, column=13).number_format = "0.000"
         for col in (4, 5, 6):
             ws.cell(row=ws.max_row, column=col).number_format = "$#,##0.00"
     total = ws.max_row
     ws.append(["TOTAL", "", f"=SUM(C2:C{total})", "", "", "", f"=SUM(G2:G{total})", f"=SUM(H2:H{total})",
-               f"=SUM(I2:I{total})", f"=SUM(J2:J{total})", f"=SUM(K2:K{total})", f"=SUM(L2:L{total})"])
+               f"=SUM(I2:I{total})", f"=SUM(J2:J{total})", f"=SUM(K2:K{total})", f"=SUM(L2:L{total})",
+               sum(c["pu_act"] for c in conceptos) / sum(c["precio_2017"] for c in conceptos)])
+    ws.cell(row=ws.max_row, column=13).number_format = "0.000"
     for cel in ws[ws.max_row]:
         cel.font = Font(bold=True)
 
@@ -328,7 +403,8 @@ def escribir_csv(conceptos, gub):
         w = csv.writer(f)
         w.writerow(["clave_cb", "seccion", "capitulo", "subcapitulo", "descripcion", "unidad",
                     "pu_2017", "clave_gubim", "descripcion_gubim", "confianza", "actividad",
-                    "cuadrilla", "rendimiento_u_jornada", "horas_hombre_u", "mo_estimada_pct", "alertas"])
+                    "cuadrilla", "rendimiento_u_jornada", "horas_hombre_u", "mo_estimada_pct",
+                    "mo_actualizada", "materiales_actualizados", "pu_actualizado", "alertas"])
         for c in conceptos:
             hh = (rendimientos.CUADRILLAS[c["cuadrilla"]][1] * 8 / c["rendimiento"]) if c["rendimiento"] else ""
             w.writerow([c["clave"], c["seccion"], c["capitulo"], c["subcapitulo"], c["descripcion"],
@@ -336,7 +412,8 @@ def escribir_csv(conceptos, gub):
                         gub.get(c["gubim"], ("",))[0] if c["gubim"] else "", c["confianza"],
                         c["actividad"] or "", c["cuadrilla"] or "", c["rendimiento"] or "",
                         round(hh, 4) if hh != "" else "",
-                        round(c["mo_pct"], 3) if c["mo_pct"] else "", "; ".join(c["alertas"])])
+                        round(c["mo_pct"], 3) if c["mo_pct"] else "",
+                        c["mo_act"], c["mat_act"], c["pu_act"], "; ".join(c["alertas"])])
 
 
 def main():
@@ -344,13 +421,14 @@ def main():
     conceptos, gub = construir()
     wb = Workbook()
     hoja_leame(wb, len(conceptos))
-    celda_factor, rango_cuad = hoja_parametros(wb)
+    celdas, rango_cuad = hoja_parametros(wb)
     rango_rend = hoja_rendimientos(wb)
-    hoja_catalogo(wb, conceptos, gub, celda_factor, rango_cuad, rango_rend)
+    hoja_catalogo(wb, conceptos, gub, celdas, rango_cuad, rango_rend)
     hoja_gubim(wb, conceptos, gub)
     hoja_resumen(wb, conceptos)
     hoja_alertas(wb, conceptos)
-    wb.move_sheet("Catálogo", offset=-2)
+    hoja_fuentes(wb)
+    wb.move_sheet("Catálogo", offset=-3)
     wb.calculation.fullCalcOnLoad = True
     wb.save(SALIDA / "Construbase_GuBIM.xlsx")
     escribir_csv(conceptos, gub)
