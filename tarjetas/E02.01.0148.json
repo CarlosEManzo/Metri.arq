@@ -34,7 +34,6 @@
     "Básico de Construbase (concepto en mayúsculas): se valida su costo directo contra el P.U. actualizado (\"comparar_costo_directo\"); el P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
   ],
   "comparar_costo_directo": true,
-  "cdmx_no_comparable": "El tabulador CDMX F2*A01 ($2,847.35) es un básico a costo directo, sin indirectos: no se compara con el P.U. de la tarjeta (con factor 1.284); se valida el costo directo contra el P.U. actualizado",
   "elaboro": "Agente de tarjetas",
   "reviso": ""
 }

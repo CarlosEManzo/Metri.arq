@@ -57,7 +57,7 @@ def informe(numero, titulo, claves):
         "|---|---|",
         f"| Tarjetas | {len(tarjetas)} de {len(claves)} |",
         f"| Con alerta (±25 % contra su referencia) | {len(alertas)} |",
-        f"| Validadas contra CDMX | {sum(1 for t in tarjetas if t['referencia_validacion'] == 'CDMX')} |",
+        f"| Validadas contra CDMX | {sum(1 for t in tarjetas if t['referencia_validacion'].startswith('CDMX'))} |",
         f"| Validadas contra P.U. actualizado | {sum(1 for t in tarjetas if t['referencia_validacion'].startswith('P.U. actualizado'))} |",
         f"| Par CDMX no comparable (con razón) | {len(no_comp)} |",
         f"| Desviación > ±25 % justificada | {len(justif)} |",

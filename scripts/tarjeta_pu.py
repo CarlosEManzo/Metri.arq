@@ -597,16 +597,18 @@ TOPE_JUSTIFICABLE = 0.50  # arriba de esto la alerta queda aunque la tarjeta tra
 def fila_tarjeta(c):
     t, cat, k = c["def"], c["cat"], c["comparativo"]
     # Los básicos de Construbase (conceptos en mayúsculas: concretos, morteros) están
-    # a costo directo; esas tarjetas comparan su costo directo contra el P.U. actualizado.
+    # a costo directo, igual que los Básicos (BAS) del tabulador CDMX: esas tarjetas
+    # comparan su costo directo contra ambas referencias.
     a_cd = bool(t.get("comparar_costo_directo"))
-    dif_act = (c["cd"] if a_cd else c["pu"]) / k["pu_act"] - 1 if k["pu_act"] else None
-    dif_cdmx = c["pu"] / k["pu_cdmx"] - 1 if k["pu_cdmx"] else None
+    base = c["cd"] if a_cd else c["pu"]
+    dif_act = base / k["pu_act"] - 1 if k["pu_act"] else None
+    dif_cdmx = base / k["pu_cdmx"] - 1 if k["pu_cdmx"] else None
     # La referencia es la CDMX cuando hay par comparable; si la tarjeta marca el
     # par como no comparable (otro alcance o sistema), se usa el P.U. actualizado.
     no_comparable = t.get("cdmx_no_comparable", "")
     usa_cdmx = dif_cdmx is not None and not no_comparable
     ref = dif_cdmx if usa_cdmx else dif_act
-    nombre_ref = "CDMX" if usa_cdmx else ("P.U. actualizado (a costo directo)" if a_cd else "P.U. actualizado")
+    nombre_ref = ("CDMX" if usa_cdmx else "P.U. actualizado") + (" (a costo directo)" if a_cd else "")
     # Si el P.U. actualizado del catálogo es erróneo (rompe la progresión de su familia,
     # incluye otro alcance), la tarjeta puede dar una referencia sustituta con su razón.
     sust = t.get("referencia_sustituta")
@@ -616,7 +618,7 @@ def fila_tarjeta(c):
     # materiales y equipo de esta tarjeta deja la mano de obra (con herramienta).
     rend_cdmx = None
     if k["pu_cdmx"]:
-        cd_cdmx = k["pu_cdmx"] / (1 + INDIRECTO_CDMX)
+        cd_cdmx = k["pu_cdmx"] if a_cd else k["pu_cdmx"] / (1 + INDIRECTO_CDMX)
         otros = sum(e["importe"] for e in c["equipo"][1:])
         mo_cdmx = (cd_cdmx - c["sub_mat"] - otros) / (1 + c["par"]["herramienta_menor"])
         # Solo tiene sentido si el precio CDMX deja una mano de obra razonable
