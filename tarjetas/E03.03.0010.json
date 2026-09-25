@@ -42,5 +42,9 @@
     "Solo recolocación: la lámina la aporta el desmantelamiento. El P.U. actualizado del catálogo ($516.16) es idéntico al de suministro y colocación de lámina pintro nueva (E03.03.0008), por lo que incluye el precio de la lámina y no es comparable; la alerta contra ese valor se considera explicada."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 88.0,
+    "razon": "El P.U. del catálogo ($516.16) es igual al de suministrar y colocar lámina nueva (E03.03.0008), así que incluye la lámina. Referencia: P.U. de la tarjeta E03.03.0008 ($400.00) menos la lámina con su desperdicio integrada a P.U. ($225 × 1.08 × 1.284 = $312)."
+  }
 }

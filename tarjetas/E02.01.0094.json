@@ -52,5 +52,6 @@
     "Alerta +30 % contra el P.U. actualizado explicada: en Construbase los básicos (conceptos en mayúsculas) se expresan a costo directo, sin indirectos ni utilidad; el costo directo de esta tarjeta queda dentro de ±3 % del P.U. actualizado. El P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "comparar_costo_directo": true
 }

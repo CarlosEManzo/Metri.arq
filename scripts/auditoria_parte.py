@@ -7,7 +7,7 @@ Uso:
 Lee salida/tarjetas.sqlite (reconstruir antes con `python3 scripts/tarjeta_pu.py`) y
 escribe auditorias/parte_<numero>.md con: resumen, tabla por tarjeta contra las
 referencias, alertas, pares CDMX no comparables, insumos usados que siguen como
-referencia y rendimientos.
+referencia y rendimientos. Si existe auditorias/notas/parte_<numero>.md se agrega al final.
 """
 import sqlite3
 import statistics
@@ -40,11 +40,11 @@ def informe(numero, titulo, claves):
             WHERE m.clave_cb IN ({marcas}) AND m.tipo != 'basico' AND i.estado = 'referencia'
             GROUP BY m.clave ORDER BY n DESC""", claves).fetchall()
 
-    difs = [t["dif_vs_cdmx"] if t["referencia_validacion"] == "CDMX" else t["dif_vs_actualizado"]
-            for t in tarjetas if t["referencia_validacion"]]
+    difs = [t["dif_vs_referencia"] for t in tarjetas if t["referencia_validacion"]]
     alertas = [t for t in tarjetas if t["alerta"]]
     no_comp = [t for t in tarjetas if t["cdmx_no_comparable"]]
     justif = [t for t in tarjetas if t["desviacion_justificada"]]
+    sustit = [t for t in tarjetas if t["referencia_sustituta"]]
     lineas = [
         f"# Auditoría parte {numero}: {titulo}",
         "",
@@ -58,9 +58,11 @@ def informe(numero, titulo, claves):
         f"| Tarjetas | {len(tarjetas)} de {len(claves)} |",
         f"| Con alerta (±25 % contra su referencia) | {len(alertas)} |",
         f"| Validadas contra CDMX | {sum(1 for t in tarjetas if t['referencia_validacion'] == 'CDMX')} |",
-        f"| Validadas contra P.U. actualizado | {sum(1 for t in tarjetas if t['referencia_validacion'] == 'P.U. actualizado')} |",
+        f"| Validadas contra P.U. actualizado | {sum(1 for t in tarjetas if t['referencia_validacion'].startswith('P.U. actualizado'))} |",
         f"| Par CDMX no comparable (con razón) | {len(no_comp)} |",
         f"| Desviación > ±25 % justificada | {len(justif)} |",
+        f"| Con referencia sustituta (catálogo erróneo) | {len(sustit)} |",
+        f"| Básicos comparados a costo directo | {sum(1 for t in tarjetas if 'costo directo' in (t['referencia_validacion'] or ''))} |",
         f"| Diferencia mediana contra su referencia | {pct(statistics.median(difs)) if difs else '—'} |",
         f"| Insumos usados que siguen como referencia | {len(insumos_ref)} |",
         "",
@@ -89,9 +91,12 @@ def informe(numero, titulo, claves):
     if no_comp:
         lineas += ["", "## Pares CDMX no comparables", ""]
         lineas += [f"- **{t['clave_cb']}**: {t['cdmx_no_comparable']}" for t in no_comp]
+    if sustit:
+        lineas += ["", "## Referencias sustitutas (P.U. del catálogo erróneo)", ""]
+        lineas += [f"- **{t['clave_cb']}** ({pct(t['dif_vs_referencia'])}): {t['referencia_sustituta']}" for t in sustit]
     if justif:
         lineas += ["", "## Desviaciones justificadas (±25 % a ±50 %)", ""]
-        lineas += [f"- **{t['clave_cb']}** ({pct(t['dif_vs_cdmx'] if t['referencia_validacion'] == 'CDMX' else t['dif_vs_actualizado'])}): {t['desviacion_justificada']}" for t in justif]
+        lineas += [f"- **{t['clave_cb']}** ({pct(t['dif_vs_referencia'])}): {t['desviacion_justificada']}" for t in justif]
     if alertas:
         lineas += ["", "## Alertas abiertas", ""]
         lineas += [f"- **{t['clave_cb']}**: {t['alerta']}" for t in alertas]
@@ -102,6 +107,10 @@ def informe(numero, titulo, claves):
                    for i in insumos_ref]
     lineas += ["", "## Supuestos por tarjeta", ""]
     lineas += [f"- **{t['clave_cb']}**: {t['supuestos'] or '—'}" for t in tarjetas]
+    # Decisiones tomadas al consolidar la parte (se escriben a mano y se conservan).
+    notas = DESTINO / "notas" / f"parte_{int(numero):02d}.md"
+    if notas.exists():
+        lineas += ["", notas.read_text(encoding="utf-8").strip()]
     DESTINO.mkdir(exist_ok=True)
     ruta = DESTINO / f"parte_{int(numero):02d}.md"
     ruta.write_text("\n".join(lineas) + "\n", encoding="utf-8")

@@ -583,11 +583,11 @@ BASE_SQLITE = RAIZ / "salida" / "tarjetas.sqlite"
 BASE_EXCEL = RAIZ / "salida" / "Base_tarjetas_PU.xlsx"
 
 COLUMNAS_TARJETA = [
-    "clave_cb", "gubim", "gubim_nombre", "gubim_confianza", "gubim_alternativas", "capitulo", "subcapitulo",
+    "clave_cb", "gubim", "gubim_catalogo", "gubim_nombre", "gubim_confianza", "gubim_alternativas", "capitulo", "subcapitulo",
     "descripcion", "unidad", "materiales", "mano_obra", "herramienta_equipo", "costo_directo", "indirectos",
     "financiamiento", "utilidad", "cargos_adicionales", "pu", "cuadrilla", "costo_cuadrilla", "rendimiento",
     "jornadas_por_unidad", "hh_por_unidad", "rendimiento_implicito_cdmx", "pu_construbase_2017", "pu_actualizado", "pu_cdmx", "clave_cdmx",
-    "dif_vs_actualizado", "dif_vs_cdmx", "referencia_validacion", "cdmx_no_comparable", "desviacion_justificada", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
+    "dif_vs_actualizado", "dif_vs_cdmx", "dif_vs_referencia", "referencia_validacion", "referencia_sustituta", "cdmx_no_comparable", "desviacion_justificada", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
 ]
 INDIRECTO_CDMX = 0.2751  # indirecto integrado del tabulador CDMX 2026 (sus P.U. ya sin cargos adicionales)
 UMBRAL_ALERTA = 0.25   # diferencia contra la referencia que merece revisión
@@ -596,13 +596,22 @@ TOPE_JUSTIFICABLE = 0.50  # arriba de esto la alerta queda aunque la tarjeta tra
 
 def fila_tarjeta(c):
     t, cat, k = c["def"], c["cat"], c["comparativo"]
-    dif_act = c["pu"] / k["pu_act"] - 1 if k["pu_act"] else None
+    # Los básicos de Construbase (conceptos en mayúsculas: concretos, morteros) están
+    # a costo directo; esas tarjetas comparan su costo directo contra el P.U. actualizado.
+    a_cd = bool(t.get("comparar_costo_directo"))
+    dif_act = (c["cd"] if a_cd else c["pu"]) / k["pu_act"] - 1 if k["pu_act"] else None
     dif_cdmx = c["pu"] / k["pu_cdmx"] - 1 if k["pu_cdmx"] else None
     # La referencia es la CDMX cuando hay par comparable; si la tarjeta marca el
     # par como no comparable (otro alcance o sistema), se usa el P.U. actualizado.
     no_comparable = t.get("cdmx_no_comparable", "")
     usa_cdmx = dif_cdmx is not None and not no_comparable
     ref = dif_cdmx if usa_cdmx else dif_act
+    nombre_ref = "CDMX" if usa_cdmx else ("P.U. actualizado (a costo directo)" if a_cd else "P.U. actualizado")
+    # Si el P.U. actualizado del catálogo es erróneo (rompe la progresión de su familia,
+    # incluye otro alcance), la tarjeta puede dar una referencia sustituta con su razón.
+    sust = t.get("referencia_sustituta")
+    if sust and not usa_cdmx:
+        ref, nombre_ref = c["pu"] / sust["pu"] - 1, "Referencia sustituta"
     # Rendimiento que implica el precio de la CDMX: su costo directo menos los
     # materiales y equipo de esta tarjeta deja la mano de obra (con herramienta).
     rend_cdmx = None
@@ -620,11 +629,12 @@ def fila_tarjeta(c):
     alerta = ""
     if ref is not None and abs(ref) > UMBRAL_ALERTA:
         if not justificada or abs(ref) > TOPE_JUSTIFICABLE:
-            alerta = "Revisar: {:+.0%} contra {}".format(ref, "CDMX" if usa_cdmx else "P.U. actualizado")
+            alerta = "Revisar: {:+.0%} contra {}".format(ref, nombre_ref)
     else:
         justificada = ""
     return {
-        "clave_cb": t["clave_cb"], "gubim": t["gubim"], "gubim_nombre": c["gubim_nombre"],
+        "clave_cb": t["clave_cb"], "gubim": t["gubim"], "gubim_catalogo": cat.get("clave_gubim", ""),
+        "gubim_nombre": c["gubim_nombre"],
         "gubim_confianza": t.get("gubim_confianza", ""),
         "gubim_alternativas": "; ".join(f"{a['clave']} {a['condicion']}" for a in t.get("gubim_alternativas", [])),
         "capitulo": cat.get("capitulo", ""), "subcapitulo": cat.get("subcapitulo", ""),
@@ -640,7 +650,9 @@ def fila_tarjeta(c):
         "rendimiento_implicito_cdmx": rend_cdmx,
         "dif_vs_actualizado": round(dif_act, 4) if dif_act is not None else None,
         "dif_vs_cdmx": round(dif_cdmx, 4) if dif_cdmx is not None else None,
-        "referencia_validacion": ("CDMX" if usa_cdmx else "P.U. actualizado") if ref is not None else "",
+        "dif_vs_referencia": round(ref, 4) if ref is not None else None,
+        "referencia_validacion": nombre_ref if ref is not None else "",
+        "referencia_sustituta": f"{sust['pu']:,.2f}: {sust['razon']}" if sust and not usa_cdmx else "",
         "cdmx_no_comparable": no_comparable, "desviacion_justificada": justificada,
         "alerta": alerta, "estado": "revisada" if t.get("reviso") else "borrador",
         "elaboro": t.get("elaboro", ""), "reviso": t.get("reviso", ""), "fecha_base": c["par"]["fecha_base"],
@@ -780,6 +792,8 @@ def validar(clave):
           f"{f['rendimiento_implicito_cdmx'] or 'no aplica (sin par CDMX o precio no comparable)'}")
     if f["cdmx_no_comparable"]:
         print(f"  CDMX no comparable: {f['cdmx_no_comparable']}")
+    if f["referencia_sustituta"]:
+        print(f"  Referencia sustituta: {f['referencia_sustituta']}")
     if f["desviacion_justificada"]:
         print(f"  Desviación justificada: {f['desviacion_justificada']}")
     print(f"  {f['alerta'] or 'Sin alerta'}")
@@ -803,6 +817,9 @@ if __name__ == "__main__":
             print(f"  ERROR {clave}: {err}")
         alertas = [f for f in filas if f["alerta"]]
         print(f"  {len(alertas)} con alerta de precio")
+        distintas = [f["clave_cb"] for f in filas if f["gubim"] != f["gubim_catalogo"]]
+        if distintas:
+            print(f"  {len(distintas)} con GuBIM distinto del catálogo: {', '.join(distintas[:20])}")
     elif args[0] == "--validar":
         for clave in args[1:]:
             validar(clave)
@@ -823,7 +840,10 @@ if __name__ == "__main__":
             except (ErrorTarjeta, KeyError, ValueError) as err:
                 errores.append(f"{clave}: {err}")
                 continue
-            dif = f["dif_vs_cdmx"] if f["referencia_validacion"] == "CDMX" else f["dif_vs_actualizado"]
+            dif = f["dif_vs_referencia"]
+            if f["gubim"] != f["gubim_catalogo"]:
+                errores.append(f"{clave}: GuBIM {f['gubim']} distinto del catálogo ({f['gubim_catalogo']}); "
+                               "regenera la tabla (python3 scripts/generar_tabla.py) o ajusta la regla")
             print(f"{clave} {f['unidad']:<4} PU {f['pu']:>11,.2f}  ref {f['referencia_validacion'] or '-':<16} "
                   f"{'' if dif is None else f'{dif:+.0%}':>6}  MO {f['mano_obra'] / f['costo_directo']:.0%}"
                   f"  {f['alerta'] or ('justificada' if f['desviacion_justificada'] else '')}")

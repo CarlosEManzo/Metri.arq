@@ -1,4 +1,0 @@
-{
-  "CON-300": {"descripcion": "Concreto hecho en obra f'c=300 kg/cm2, TMA 19 mm", "unidad": "m3", "componentes": [["CEM-GRIS", 0.45], ["ARENA", 0.45], ["GRAVA-19", 0.62], ["AGUA", 0.21]]},
-  "CON-350": {"descripcion": "Concreto hecho en obra f'c=350 kg/cm2, TMA 19 mm", "unidad": "m3", "componentes": [["CEM-GRIS", 0.5], ["ARENA", 0.42], ["GRAVA-19", 0.61], ["AGUA", 0.21]]}
-}

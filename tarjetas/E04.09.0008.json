@@ -33,8 +33,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 60.0,
-    "fuente": "60.0 m/jor Of+Ay. Catálogo: 80 m/jor para ambos anchos; se ajusta por ancho (20 cm: 100, franja angosta de dos capas con brocha; 40 cm: 60). Publicados 60-120 m/jor"
+    "rendimiento": 70.0,
+    "fuente": "70.0 m/jor Of+Ay (28 m²/jor de franja de 40 cm a dos capas). Catálogo: 80 m/jor para ambos anchos; se ajusta por ancho (20 cm: 100; 40 cm: 70). Publicados 60-120 m/jor"
   },
   "equipo": [],
   "supuestos": [

@@ -60,4 +60,14 @@ CANASTA = [
     # Carpintería y exteriores
     ("E09.02.0008", "CG16DB", 1, "aproximada", "Puerta de tambor 0.90x2.10 de triplay de pino"),
     ("E16.01.0017", "VC12BC", 1, "aproximada", "Pasto en rollo (alfombra contra San Agustín)"),
+    # Parte 2: cimbras de cimentación y castillo aparente (pares verificados en el tabulador)
+    ("E02.01.0120", "CB12BD", 1, "exacta", "Cimbra común en contratrabes de cimentación"),
+    ("E02.01.0121", "CB12BD", 1, "exacta", "Cimbra común en dados de cimentación"),
+    ("E02.01.0123", "CB12BG", 1, "aproximada", "Cimbra común en columnas (CDMX columnas hasta 4 m)"),
+    ("E02.01.0124", "CB12BL", 1, "aproximada", "Cimbra común en trabes (CDMX trabes aisladas hasta 4 m)"),
+    ("E02.01.0129", "CC14BG", 1, "aproximada", "Cimbra aparente en columnas (CDMX columnas hasta 4 m)"),
+    ("E02.01.0130", "CC14BL", 1, "aproximada", "Cimbra aparente en trabes (CDMX trabes aisladas hasta 4 m)"),
+    ("E02.01.0131", "CC14BH", 1, "exacta", "Cimbra aparente en muros"),
+    ("E02.01.0132", "CC14BJ", 1, "aproximada", "Cimbra aparente en losas (CDMX losas y trabes)"),
+    ("E04.04.0009", "GC31JC", 1, "aproximada", "Castillo 15x15 aparente (armex contra 4 varillas 3/8\", CDMX acabado común)"),
 ]

@@ -162,5 +162,85 @@
         0.27
       ]
     ]
+  },
+  "CON-350": {
+    "descripcion": "Concreto hecho en obra f'c=350 kg/cm2, TMA 19 mm",
+    "unidad": "m3",
+    "componentes": [
+      [
+        "CEM-GRIS",
+        0.5
+      ],
+      [
+        "ARENA",
+        0.42
+      ],
+      [
+        "GRAVA-19",
+        0.61
+      ],
+      [
+        "AGUA",
+        0.21
+      ]
+    ]
+  },
+  "CON-300": {
+    "descripcion": "Concreto hecho en obra f'c=300 kg/cm2, TMA 19 mm",
+    "unidad": "m3",
+    "componentes": [
+      [
+        "CEM-GRIS",
+        0.45
+      ],
+      [
+        "ARENA",
+        0.45
+      ],
+      [
+        "GRAVA-19",
+        0.62
+      ],
+      [
+        "AGUA",
+        0.21
+      ]
+    ]
+  },
+  "MOR-ALB-2:7": {
+    "descripcion": "Mortero de cemento de albañilería-arena 2:7 (1:3.5)",
+    "unidad": "m3",
+    "componentes": [
+      [
+        "MORTERO-ALB",
+        0.3
+      ],
+      [
+        "ARENA",
+        1.06
+      ],
+      [
+        "AGUA",
+        0.27
+      ]
+    ]
+  },
+  "YESO-CEM": {
+    "descripcion": "Pasta de yeso-cemento para aplanado (≈10 % de cemento en peso)",
+    "unidad": "m3",
+    "componentes": [
+      [
+        "YESO-CONST",
+        900
+      ],
+      [
+        "CEM-GRIS",
+        0.09
+      ],
+      [
+        "AGUA",
+        0.55
+      ]
+    ]
   }
 }

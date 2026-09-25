@@ -6,7 +6,7 @@
   "materiales": [
     {
       "insumo": "MAD-PINO3",
-      "cantidad": 3.0,
+      "cantidad": 2.9,
       "desperdicio": 0.1,
       "nota": "Tablero 8.1 pt + barrotes y yugos 5.0 pt + troqueles 1.9 pt = 15 pt; 5 usos → 3.0 pt/m²"
     },
@@ -40,8 +40,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 9.0,
-    "fuente": "9 m²/jor Of carpintero + Ay (habilitado, cimbrado y descimbrado). Catálogo 10 m²/jor; rango publicado 8-14 m²/jor en cimbra común de cimentación"
+    "rendimiento": 9.5,
+    "fuente": "9.5 m²/jor Of carpintero + Ay (habilitado, cimbrado y descimbrado); 5 % abajo de zapatas (E02.01.0122, 10 m²/jor) por ser cajones chicos con más esquinas. Catálogo 10 m²/jor; rango publicado 8-14 m²/jor. La CDMX (CB12BD) usa un mismo precio para zapatas, contratrabes y dados"
   },
   "equipo": [],
   "supuestos": [

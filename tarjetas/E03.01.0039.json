@@ -51,5 +51,9 @@
     "El P.U. actualizado del catálogo para 65 cm ($369.86) es anómalo: queda por debajo del de 60 cm ($739.45) y del de 70 cm ($1,168.41); la tarjeta sigue la progresión de la familia y la alerta contra ese valor se considera explicada."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 953.5,
+    "razon": "El P.U. actualizado del catálogo ($369.86) es menor que el de 60 cm ($739) y rompe la progresión de la familia; se usa la interpolación lineal entre 60 cm y 70 cm ($739 y $1,168)."
+  }
 }

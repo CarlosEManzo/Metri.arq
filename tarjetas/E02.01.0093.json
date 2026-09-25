@@ -48,9 +48,10 @@
   "supuestos": [
     "Básico: concreto f'c=300 kg/cm² hecho en obra con revolvedora de 1 saco, TMA 19 mm, resistencia normal; incluye solo materiales, elaboración y equipo de mezclado (la colocación va en los conceptos de concreto en cimentación).",
     "Revolvedora 8 h / 10 m³ = 0.8 h/m³. Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
-    "Dosificación del básico CON-300 (en basicos_lote2b.json): cemento 450 kg/m³, relación a/c ≈0.47. Un f'c=300 hecho en obra exige control de dosificación por peso y pruebas; se recomienda premezclado.",
+    "Dosificación del básico CON-300 (en basicos_lote2c.json): cemento 450 kg/m³, relación a/c ≈0.47. Un f'c=300 hecho en obra exige control de dosificación por peso y pruebas; se recomienda premezclado.",
     "Alerta +30 % contra el P.U. actualizado explicada: en Construbase los básicos (conceptos en mayúsculas) se expresan a costo directo, sin indirectos ni utilidad; el costo directo de esta tarjeta queda dentro de ±3 % del P.U. actualizado. El P.U. de la tarjeta sí lleva indirectos, financiamiento y utilidad (factor 1.284)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "comparar_costo_directo": true
 }

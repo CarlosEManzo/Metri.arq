@@ -1,4 +1,4 @@
-# Auditoría parte 1: Canasta de 41 conceptos de vivienda
+# Auditoría parte 1: Canasta CDMX
 
 Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
 
@@ -11,6 +11,9 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | Validadas contra CDMX | 32 |
 | Validadas contra P.U. actualizado | 9 |
 | Par CDMX no comparable (con razón) | 9 |
+| Desviación > ±25 % justificada | 0 |
+| Con referencia sustituta (catálogo erróneo) | 0 |
+| Básicos comparados a costo directo | 0 |
 | Diferencia mediana contra su referencia | +5.0% |
 | Insumos usados que siguen como referencia | 44 |
 
@@ -36,11 +39,11 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E03.01.0064 | 20.20 | Concreto premezclado en estructura, de F'c=250 kg/cm2, clase | M3 | 4,574.11 | 3,986.02 | 4,076.61 | +14.8% | +12.2% | CDMX | — |
 | E04.02.0002 | 40.10.10.10 | Muro de 14 cm. de espesor, de tabique rojo recocido, asentad | M2 | 622.68 | 576.93 | 681.42 | +7.9% | -8.6% | CDMX | — |
 | E04.02.0033 | 40.10.10.10 | Muro de 15 cm. de block de concreto de 15x20x40 cm. asentado | M2 | 450.48 | 417.84 | 531.16 | +7.8% | -15.2% | CDMX | — |
-| E04.03.0003 | 20.20.20.20 | Cadena de 15x20 cm. de concreto hecho en obra de F'c=200 kg/ | M | 460.42 | 384.42 | 453.93 | +19.8% | +1.4% | CDMX | — |
+| E04.03.0003 | 20.20.20.20 | Cadena de 15x20 cm. de concreto hecho en obra de F'c=200 kg/ | M | 457.45 | 384.42 | 453.93 | +19.0% | +0.8% | CDMX | — |
 | E04.04.0008 | 20.20.10.10 | Castillo de 15x15 cm. de concreto hecho en obra de F'c=150 k | M | 382.29 | 292.91 | 393.38 | +30.5% | -2.8% | CDMX | — |
 | E04.05.0003 | 40.10.20.20 | Aplanado acabado fino sobre muros, con mezcla cemento arena  | M2 | 236.50 | 264.05 | 221.68 | -10.4% | +6.7% | CDMX | — |
 | E04.05.0023 | 40.20.20.10 | Aplanado acabado fino en plafones, con mezcla cemento arena  | M2 | 310.98 | 321.88 | 268.56 | -3.4% | +15.8% | CDMX | — |
-| E04.06.0014 | 20.10.40.10 | Firme de 10 cm acabado común, de concreto F'c= 150 kg/cm2, i | M2 | 413.50 | 430.89 | 337.64 | -4.0% | +22.5% | CDMX | — |
+| E04.06.0014 | 40.20.10.30 | Firme de 10 cm acabado común, de concreto F'c= 150 kg/cm2, i | M2 | 413.50 | 430.89 | 337.64 | -4.0% | +22.5% | CDMX | — |
 | E04.07.0002 | 50.20.20.50 | Registro sanitario con mediadas interiores de 0.4 x 0.6 y 0. | PZA | 3,278.15 | 2,916.79 | 2,479.51 | +12.4% | +32.2% | P.U. actualizado | — |
 | E04.08.0012 | 30.20.10.10 | Relleno de tezontle en azotea para dar pendientes, incluye:  | M3 | 1,196.90 | 923.33 | 1,250.16 | +29.6% | -4.3% | CDMX | — |
 | E04.08.0013 | 30.20.10.10 | Entortado de 4 cm. de espesor a base de mezcla cemento-cal-a | M2 | 189.55 | 186.27 | 172.00 | +1.8% | +10.2% | CDMX | — |
@@ -82,7 +85,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E03.01.0064 | 94% | 5% | 1% | 1 Oficial albañil + 5 Peón | 25.0 | 1.92 | — |
 | E04.02.0002 | 49% | 50% | 1% | 1 Oficial albañil + 1 Peón | 8.0 | 2.0 | 6.67 |
 | E04.02.0033 | 60% | 39% | 1% | 1 Oficial albañil + 1 Peón | 14.0 | 1.1429 | 9.57 |
-| E04.03.0003 | 45% | 54% | 2% | 1 Oficial albañil + 1 Peón | 10.0 | 1.6 | 10.13 |
+| E04.03.0003 | 44% | 54% | 2% | 1 Oficial albañil + 1 Peón | 10.0 | 1.6 | 10.01 |
 | E04.04.0008 | 33% | 65% | 2% | 1 Oficial albañil + 1 Peón | 10.0 | 1.6 | 9.49 |
 | E04.05.0003 | 23% | 75% | 2% | 1 Oficial albañil + 1 Peón | 14.0 | 1.1429 | 15.1 |
 | E04.05.0023 | 18% | 80% | 2% | 1 Oficial albañil + 1 Peón | 10.0 | 1.6 | 11.89 |
@@ -162,7 +165,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | CANAL-LISTON-C26 | Canal listón galvanizado cal. 26 (pieza 3.05 m) | m | 15.00 | 1 | Pieza 3.05 m ≈ $46 sin IVA; referencia: similar a canaleta de carga cal. 22 ($45-62/pza, MN Home Center); precio web de canal listón no visible |
 | BISAGRA-LAT-35 | Bisagra latonada 3 1/2 x 3 1/2 in | pza | 45.00 | 1 | Bisagra latonada 3x3 par en Lewonski / Home Depot; 3 1/2 in $40-70 con IVA; estimación |
 | BARNIZ-NAT | Barniz natural para madera interior (poliuretano/nitro) | l | 300.00 | 1 | Comex Polyform barniz 1 L ≈$320-420 con IVA (comex.com.mx, mercadolibre); estimación |
-| ALAMBRON-2 | Alambrón #2 (1/4 in) para estribos | ton | 20,400.00 | 1 | Menudeo $20.4/kg (Home Depot México, https://www.homedepot.com.mx/p/alambron-de-acero-1-4-o-635-mm-025o-venta-por-kilo-01-abr-749917, según resumen de búsqueda); ferreterías hasta $80/kg en piezas sueltas. Se toma $20,400/ton, a la par de VAR-3 |
+| ALAMBRON-2 | Alambrón #2 (1/4 in) para estribos | ton | 17,586.21 | 1 | Menudeo $20.4/kg (Home Depot México, https://www.homedepot.com.mx/p/alambron-de-acero-1-4-o-635-mm-025o-venta-por-kilo-01-abr-749917, según resumen de búsqueda); ferreterías hasta $80/kg en piezas sueltas. Se toma $20,400/ton, a la par de VAR-3 · convertido a precio sin IVA (÷1.16) |
 | ALAMBRE-GALV-12 | Alambre galvanizado cal. 12 para colgantes | kg | 55.00 | 1 | Referencia de mercado ferretería $55-70/kg con IVA |
 | ADH-CREST-BLANCO | Adhesivo Crest blanco para loseta (saco 20 kg) | kg | 11.50 | 1 | Saco 20 kg ≈ $230 sin IVA (Home Depot / Bedon / Matefast listan el producto; precio no visible en consulta; rango de mercado $240-290 con IVA). Rendimiento del fabricante 6.0 m²/saco (https://crest.com.mx/crest-blanco/) |
 | ABRAZ-CU-13 | Abrazadera tipo U para tubo de 13 mm con taquete y pija | pza | 5.00 | 1 | Estimación de ferretería (abrazadera $3 + taquete y pija $2); sin cotización directa |

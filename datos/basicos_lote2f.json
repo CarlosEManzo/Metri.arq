@@ -1,7 +1,0 @@
-{
-  "YESO-CEM": {
-    "descripcion": "Pasta de yeso-cemento para aplanado (≈10 % de cemento en peso)",
-    "unidad": "m3",
-    "componentes": [["YESO-CONST", 900], ["CEM-GRIS", 0.09], ["AGUA", 0.55]]
-  }
-}

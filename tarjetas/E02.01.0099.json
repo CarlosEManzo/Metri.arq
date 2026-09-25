@@ -56,7 +56,7 @@
     "Revolvedora 1 saco $95/h: renta CAYAM Maquinaria Morelia $600/día ($75/h) + gasolina ≈0.8 l/h ($19/h) (https://www.cayammaquinaria.com/renta-revolvedora).",
     "Vibrador a gasolina $80/h: renta CAYAM Maquinaria Morelia $550/día ($69/h) + gasolina ≈0.5 l/h ($12/h) (https://www.cayammaquinaria.com/renta-concreto).",
     "Acarreos hasta 20 m; sin bomba ni curado con membrana.",
-    "Básico CON-300 nuevo (basicos_lote2b.json): cemento 450 kg/m³. Un f'c=300 hecho en obra exige dosificación por peso y pruebas; se recomienda premezclado."
+    "Básico CON-300 (basicos_lote2c.json): cemento 450 kg/m³. Un f'c=300 hecho en obra exige dosificación por peso y pruebas; se recomienda premezclado."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

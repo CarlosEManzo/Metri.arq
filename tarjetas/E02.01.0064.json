@@ -18,7 +18,7 @@
   ],
   "materiales": [
     {
-      "insumo": "ALAMBRON-2-SI",
+      "insumo": "ALAMBRON-2",
       "cantidad": 0.001,
       "desperdicio": 0.05,
       "nota": "1 kg de acero medido en proyecto + 5% por cortes y despuntes"
@@ -48,7 +48,7 @@
   "supuestos": [
     "Acero habilitado y armado en obra con herramienta manual (dobladora y cizalla cubiertas por la herramienta menor); silletas con recortes de varilla o dados de concreto sin costo adicional.",
     "Cantidad medida en proyecto incluyendo traslapes y ganchos; el desperdicio (5%) cubre cortes y despuntes.",
-    "Alambrón en rollo: se endereza en obra; desperdicio menor (5 %) por no tener despuntes de barra de 12 m. Se usa ALAMBRON-2-SI ($17,586/ton): el insumo ALAMBRON-2 ($20,400/ton) es precio de menudeo con IVA (Home Depot); convertido a sin IVA queda a la par de VAR-3."
+    "Alambrón en rollo: se endereza en obra; desperdicio menor (5 %) por no tener despuntes de barra de 12 m. ALAMBRON-2 a $17,586/ton sin IVA (Home Depot menudeo $20.4/kg con IVA ÷ 1.16)."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

@@ -55,12 +55,21 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
 - La herramienta menor la agrega el cálculo; en `equipo` solo va maquinaria (horas por unidad × costo horario).
 - Deja `reviso` vacío: la tarjeta queda como borrador hasta que una persona la revise.
 
+## Antes de empezar
+
+1. Trae la rama al día (`git pull`) y regenera la tabla con `python3 scripts/generar_tabla.py`.
+   Si trabajas con una copia vieja del catálogo, las claves GuBIM de tus tarjetas saldrán con
+   reglas ya corregidas (así se colaron firmes con 20.10.40.10 en lugar de 40.20.10.30).
+2. `--validar-lote` marca como error toda tarjeta cuyo GuBIM difiera del catálogo. Si el cambio
+   de clave es correcto, no lo dejes solo en la tarjeta: propón la regla en `scripts/reglas_gubim.py`
+   en tu reporte para que catálogo y tarjetas digan lo mismo.
+
 ## Procedimiento por concepto
 
 1. **Lee el concepto** en el catálogo: descripción completa, unidad, lo que "incluye" y
    lo que no. Si un alcance es ambiguo, decide el supuesto más común en vivienda y escríbelo en `supuestos`.
 2. **GuBIM.** Usa la `clave_gubim` del catálogo. Solo cámbiala si es claramente
-   incorrecta, explicando por qué en `supuestos`. Pon en `gubim_alternativas` las claves
+   incorrecta, explicando por qué en `supuestos` y proponiendo la regla (ver *Antes de empezar*). Pon en `gubim_alternativas` las claves
    que aplican según el uso (fachada, carga, exterior…).
 3. **Materiales.** Descompón el concepto en insumos con cantidades de ingeniería:
    - calcula las cantidades teóricas por geometría (piezas por m², volumen de mortero

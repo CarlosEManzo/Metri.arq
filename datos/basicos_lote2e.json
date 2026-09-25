@@ -1,7 +1,0 @@
-{
-  "MOR-ALB-2:7": {
-    "descripcion": "Mortero de cemento de albañilería-arena 2:7 (1:3.5)",
-    "unidad": "m3",
-    "componentes": [["MORTERO-ALB", 0.30], ["ARENA", 1.06], ["AGUA", 0.27]]
-  }
-}

@@ -44,6 +44,7 @@ R = [
     (None, None, r"^mejoramiento", "10.20.30.20", "alta"),
     (None, None, r"^(formacion y compactacion de terraplen|formacion y compactacon de terraplen)", "10.20.30.10", "alta"),
     (None, r"base y sub-base", None, "70.30.10", "alta"),
+    (None, None, r"^relleno .*tezontle en azotea", "30.20.10.10", "media"),  # relleno de pendientes forma parte de la cubierta
     (None, None, r"^(relleno|acostillado|plantilla de (arena|material))", "10.20.30.10", "alta"),
 
     # --- 20: cimentación y estructura ---------------------------------------
@@ -70,6 +71,7 @@ R = [
     (r"estructura", r"cubiertas de lamina", r"multymuro|en muros", "30.10.10.20", "alta"),
     (r"estructura", r"cubiertas de lamina", r"turbo|extractor|ventila", "50.30.10.80", "alta"),
     (r"estructura", r"cubiertas de lamina", r"traslucid|tragaluz|domo", "30.20.20.10", "media"),
+    (r"estructura", r"cubiertas de lamina", r"^(canalon|caballete|casquillo|gotero|remate)", "30.20.10.50", "alta"),
     (r"estructura", r"cubiertas de lamina", None, "30.20.10.20", "alta"),
     (r"estructura", r"estructura metalica", None, "20.20.20.20", "media"),
     (r"estructura", None, None, "20.20", "baja"),
@@ -86,6 +88,7 @@ R = [
     (None, r"pisos y firmes", r"rampa", "20.10.40.20", "alta"),
     (None, r"pisos y firmes", r"^firme", "40.20.10.30", "alta"),  # firme = recrecido (decisión Carlos, 2026-09-25)
     (None, r"pisos y firmes", None, "40.20.20.20", "media"),
+    (None, None, r"^registro electrico", "50.60.30.50", "alta"),
     (None, None, r"^(registro|brocal|pozo de visita)", "50.20.20.50", "alta"),
     (None, r"registros y tuberia", None, "50.20.20.20", "media"),
     (None, None, r"^escalon", "40.30.10.10", "media"),
