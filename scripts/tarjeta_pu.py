@@ -599,7 +599,9 @@ def fila_tarjeta(c):
         cd_cdmx = k["pu_cdmx"] / (1 + INDIRECTO_CDMX)
         otros = sum(e["importe"] for e in c["equipo"][1:])
         mo_cdmx = (cd_cdmx - c["sub_mat"] - otros) / (1 + c["par"]["herramienta_menor"])
-        if mo_cdmx > 0:
+        # Solo tiene sentido si el precio CDMX deja una mano de obra razonable
+        # (entre 1/4 y 4 veces el rendimiento de la tarjeta); si no, el par no es comparable.
+        if mo_cdmx > 0 and c["rendimiento"] / 4 <= c["costo_cuadrilla"] / mo_cdmx <= c["rendimiento"] * 4:
             rend_cdmx = round(c["costo_cuadrilla"] / mo_cdmx, 2)
     alerta = ""
     if ref is not None and abs(ref) > UMBRAL_ALERTA:
@@ -756,7 +758,7 @@ def validar(clave):
         if valor:
             print(f"  {nombre}: {valor:,.2f}  (diferencia {dif:+.1%})")
     print(f"  Rendimiento {f['rendimiento']} {f['unidad']}/jornada; implícito en el precio CDMX: "
-          f"{f['rendimiento_implicito_cdmx'] or 'sin par CDMX'}")
+          f"{f['rendimiento_implicito_cdmx'] or 'no aplica (sin par CDMX o precio no comparable)'}")
     print(f"  {f['alerta'] or 'Sin alerta'}")
     return f
 

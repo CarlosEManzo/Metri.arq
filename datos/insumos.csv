@@ -1,5 +1,5 @@
 clave,descripcion,unidad,precio,fuente,fecha,estado
-CEM-GRIS,Cemento gris CPC 30R (bulto 50 kg),ton,5200.00,"Bulto $260 (rango nacional 2026 $240-280, Construction Supply Magazine)",2026-08,referencia
+CEM-GRIS,Cemento gris CPC 30R (bulto 50 kg),ton,5200.00,"Bulto $260 (rango nacional 2026 $240-280, Construction Supply Magazine)",2026-08,validado con rango de mercado
 CAL-HID,Cal hidratada (bulto 25 kg),ton,3600.00,Referencia de mercado,2026-08,referencia
 ARENA,Arena de río puesta en obra,m3,550.00,Rango 2026 $400-600/m3 a granel; hasta $730-760 con entrega (Construction Supply Magazine). Se toma valor puesto en obra,2026-08,validado con rango de mercado
 GRAVA-19,Grava de 19 mm puesta en obra,m3,600.00,Rango 2026 $450-650/m3 a granel; hasta $730-760 con entrega (Construction Supply Magazine). Se toma valor puesto en obra,2026-08,validado con rango de mercado
