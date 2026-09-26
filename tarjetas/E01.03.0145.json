@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0145",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.30",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): canalizaciones eléctricas"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 82.0,
+    "fuente": "82 m/jor electricista + ayudante: tubo conduit galvanizado de 38 mm, retiro de abrazaderas o unicanal, desenroscado de coples, bajada de tramos y acarreo; sin cable. Escala de la familia (común con el lote 4c): 13 mm 125, 19 118, 25 110, 32 98, 38 82, 51 65, 64 55, 75 46, 100 28 m/jor. Catálogo: 60 m/jor genérico; el P.U. actualizado implica ≈210-280 m/jor con esa cuadrilla. Tabulador CDMX BK14BB (13-32 mm) $24.89/m y BK14BC (38-101 mm) $49.77/m (no cargados; incluyen la desinstalación del cable) implican ≈100-130 m/jor en diámetros chicos."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.0976,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Conduit galvanizado visible hasta 6 m sobre abrazaderas o unicanal, andamio de 2 cuerpos; el cable ya retirado (descableado aparte, E01.03.0109-0115).",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "referencia_sustituta": {
+    "pu": 38.73,
+    "razon": "El P.U. actualizado ($12.89/m) implica ≈210 m/jor de electricista + ayudante, fuera de rango. Se ancla al tabulador CDMX BK14BC 'desmontaje de tubo conduit visible de 38 a 101 mm' $49.77/m (÷1.2751 × 1.284 = $50.12/m) en 64 mm (E01.03.0147, $16.68 act.) con la progresión del catálogo, igual que las tarjetas de 51-100 mm del lote 4c: $50.12 × 12.89/16.68 = $38.73/m."
+  },
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

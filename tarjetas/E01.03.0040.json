@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E01.03.0040",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.20",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): evacuación de aguas"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 0.5
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 24.0,
+    "fuente": "24.0 m/jor peón con plomero media jornada para bajada de PVC de 150 mm hasta 7 m: retiro de abrazaderas, demolición del sello en el paso de losa (≈1 por cada 3 m), corte o desacople de juntas, bajada de tramos y acarreo. Catálogo: 60 m/jor genérico. CDMX BK13BB 'desmantelamiento de bajada de fierro fundido de 10 cm' $72.31/m (no cargado, sin demolición de paso de losa ni recuperación)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 3 cuerpos (renta)",
+      "horas": 0.3333,
+      "costo_horario": 13.5
+    }
+  ],
+  "supuestos": [
+    "Bajada adosada a muro hasta 7 m, andamio de 3 cuerpos. Se mide por metro de tubería desmontada.",
+    "Andamio tubular de 3 cuerpos para trabajar hasta 7 m: 3 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "El resane del paso de losa se paga aparte.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "referencia_sustituta": {
+    "pu": 74.95,
+    "razon": "P.U. actualizado $524.62 ÷ 7 m. El catálogo mide por metro pero el precio corresponde a la bajada completa de 7 m (la descripción dice 'hasta una altura de 7 m'): Fo.Fo. 100 mm a $1,397/m sería 7 veces la tubería de acero de 100 mm con oxicorte (E01.03.0036, $200.09/m) y 20 veces el Fo.Fo. de campana 100 mm (E01.03.0055, $70.83/m). Dividido entre 7 da $74.95/m; en PVC el tubo pesa ≈1/5 que el Fo.Fo. y se corta con segueta, por eso queda del orden del tabulador CDMX BK13BB ($72.31/m, Fo.Fo. 100 mm) pese a incluir el paso de losa."
+  },
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

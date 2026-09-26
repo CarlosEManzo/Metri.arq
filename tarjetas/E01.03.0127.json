@@ -1,0 +1,56 @@
+{
+  "clave_cb": "E01.03.0127",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): equipos eléctricos principales"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      },
+      {
+        "categoria": "PEON",
+        "personas": 4
+      }
+    ],
+    "rendimiento": 0.85,
+    "fuente": "0.85 pza/jor (≈9.4 h) cuadrilla de electricista, plomero, 2 ayudantes y 4 peones: desconexión eléctrica, de diésel y del ducto de ventilación de lámina; traslado de la planta de 3200 kg sobre tanquetas desde el cuarto de máquinas y carga con grúa. Catálogo: 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 5.0,
+      "costo_horario": 950.0
+    },
+    {
+      "descripcion": "Juego de tanquetas (patines de carga 2-6 t) y gato hidráulico (renta)",
+      "horas": 9.4118,
+      "costo_horario": 25.0
+    }
+  ],
+  "supuestos": [
+    "Planta de 400 kVA de ≈3200 kg; grúa 5.0 h por pieza (posicionamiento, izaje y descarga en el almacén).",
+    "Grúa hidráulica 12-15 t con operador $950/h (mismo costo horario que las tarjetas E03.02.0009 y siguientes).",
+    "Tanquetas y gato hidráulico $25/h (≈$200/día) de renta: referencia sin cotización; horas = 8 h / rendimiento.",
+    "El tanque de diésel se entrega vacío; el combustible retirado se deposita en tambores de la obra.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

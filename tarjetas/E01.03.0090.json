@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0090",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.50",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): iluminación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22.0,
+    "fuente": "22 pza/jor electricista + ayudante: desconexión, retiro de difusor, gabinete y soportería, limpieza y acarreo a bodega. Catálogo: 20 pza/jor genérico. A 6 m rinde ≈70 % de lo que rinde a 4 m por el movimiento del andamio. CDMX KM16BC 'desmontaje de lámpara de 2x78 W' $138.65 (no cargado, par aproximado)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.3636,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Luminaria fluorescente de 0.30x2.40 m (2x75 W) hasta 5 m. Circuito desenergizado; puntas de cable aisladas con cinta (herramienta menor).",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

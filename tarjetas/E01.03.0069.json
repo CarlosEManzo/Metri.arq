@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0069",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.20",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): fontanería"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 0.25
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100.0,
+    "fuente": "100 m/jor ayudante de plomero con el oficial 1/4 de jornada: PVC de 25 mm, corte con segueta junto a las conexiones cementadas, retiro de abrazaderas y acarreo; es la tubería más rápida (ligera, sin juntas que aflojar). Escala de la familia: 13 mm 110, 19 105, 25 100, 32 94, 38 88, 51 80, 64 72, 75 65, 100 55, 150 42, 200 34 m/jor (misma cuadrilla que cobre y galvanizado). Catálogo: 60 m/jor genérico con plomero + ayudante; el P.U. actualizado implica ≈190-210 m/jor con esa cuadrilla. El tabulador CDMX BK13BC ($27.32/m, 13-51 mm) no se toma como par: corresponde a tubo hidráulico metálico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.08,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Tubería visible o en plafón hasta 6 m, andamio de 2 cuerpos. 'Con recuperación': tramos rectos cortados; las conexiones cementadas se pierden.",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

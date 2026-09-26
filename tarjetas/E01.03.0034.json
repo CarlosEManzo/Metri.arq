@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E01.03.0034",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.20",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): fontanería"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22.0,
+    "fuente": "22 m/jor plomero + ayudante para tubería de acero soldable de 64 mm: cortes con oxiacetileno en las juntas soldadas, retiro de soportes, bajada y acarreo. Rendimiento decreciente con el diámetro (peso por metro de 1.3 kg en 13 mm a 16 kg en 100 mm, cédula 40). Catálogo: 60 m/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.05,
+      "costo_horario": 90.0
+    },
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.3636,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Oxicorte 0.05 h/m (≈1 corte cada 1.5-3 m, más lento en diámetros mayores).",
+    "Tubería colgada o adosada hasta 6 m de altura, andamio de 2 cuerpos.",
+    "Equipo de oxicorte $90/h (mismo costo horario que las tarjetas E03.02 de estructura metálica), solo por las horas de corte.",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

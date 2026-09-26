@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0140",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.70.30",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): canalizaciones de señales débiles (interfón)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4 sal/jor electricista + ayudante, igual que la línea de 16 m con conduit de 19 mm (E01.03.0128): la salida de interfón va del frente o la puerta de acceso hasta el departamento. Catálogo: 20 sal/jor genérico, pero su P.U. ($657.94) es el mismo de E01.03.0128."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 2.0,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Salida de interfón con ≈16 m de conduit de 19 mm, cables, cajas y soportería (el P.U. del catálogo es idéntico al de la línea E01.03.0128). El aparato se retira con la salida.",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

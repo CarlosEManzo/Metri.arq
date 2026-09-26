@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E01.03.0010",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): fontanería"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.5,
+    "fuente": "Cuadrilla de plomero y ayudante para la desconexión y un peón para el descenso con cuerdas desde 7 m. 10.5 pza/jor. Catálogo: 20 pza/jor genérico. CDMX BK13DB 'desmontaje de tinaco de polietileno a cualquier altura' $306.91/pza (no cargado). Polietileno 500 l ≈15-20 kg."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco de polietileno de 500 l vacío, descenso con cuerdas desde 7 m.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

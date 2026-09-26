@@ -1,0 +1,39 @@
+{
+  "clave_cb": "E01.03.0087",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.20",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): red de fontanería o de bombeo"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 200.0,
+    "fuente": "200 kg/jor plomero + ayudante + peón: aflojar y retirar tornillos de bridas, empaques, maniobra de piezas de 15-80 kg y acarreo. Catálogo: 250 kg/jor."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Válvulas y conexiones bridadas a nivel de piso o de cuarto de máquinas; tornillos y empaques se retiran y se entregan con la pieza.",
+    "Sin equipo de izaje: piezas mayores de 80 kg requieren polipasto, que se paga aparte.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

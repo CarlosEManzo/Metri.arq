@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0095",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.50",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): iluminación"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 40.0,
+    "fuente": "40 pza/jor electricista + ayudante: desconexión, retiro de difusor, gabinete y soportería, limpieza y acarreo a bodega. Catálogo: 20 pza/jor genérico. A 6 m rinde ≈70 % de lo que rinde a 4 m por el movimiento del andamio."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.2,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Luminaria tipo spot hasta 4 m. Circuito desenergizado; puntas de cable aisladas con cinta (herramienta menor).",
+    "Andamio tubular: renta ≈$35/día por cuerpo ($4.50/h) como referencia sin cotización (misma base que E01.04.0032); horas = 8 h / rendimiento, el andamio acompaña a la cuadrilla.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

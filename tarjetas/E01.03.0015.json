@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0015",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): fontanería"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5.75,
+    "fuente": "5.75 pza/jor plomero + ayudante: cerrar gas y agua, drenar, desconectar alimentaciones, retirar tubo de chimenea y bajar el equipo. Catálogo: 20 pza/jor genérico; escala por capacidad según el P.U. relativo de Construbase."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Calentador de depósito G-20 (≈76 l, 20 gal). Se drena antes de retirarlo; la línea de gas se tapona con tapón macho de la obra.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

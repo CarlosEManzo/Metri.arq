@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E01.03.0007",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): muebles de cuartos húmedos"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9.0,
+    "fuente": "9.0 pza/jor. Plomero + ayudante; tiempo por pieza estimado por operación (cerrar llaves, desconectar alimentaciones y céspol, retirar pijas/taquetes, bajar la pieza, limpiarla y llevarla al almacén). Catálogo: 20 pza/jor genérico para toda la familia. Escala entre piezas según el P.U. relativo de Construbase. CDMX BK13GB 'desmontaje de mueble sanitario' $296.09/pza (no cargado; equivale a los muebles completos: W.C. con fluxómetro o tanque y bidet)."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Bidet con recuperación: dos alimentaciones y desagüe con céspol.",
+    "Desmontaje a nivel de piso, sin andamio. Las llaves de paso se cierran y las alimentaciones y el desagüe se taponan con tapones de la obra o de la herramienta menor.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

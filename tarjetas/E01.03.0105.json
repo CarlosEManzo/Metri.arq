@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E01.03.0105",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.40.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): alumbrado exterior de urbanización"
+    },
+    {
+      "clave": "00.20.30",
+      "condicion": "si el poste pertenece al alumbrado público (servicio urbano preexistente)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.5,
+    "fuente": "3.5 pza/jor electricista + ayudante + peón: desconexión en el registro, retiro de tuercas de anclas, izaje del poste de 6 m con la luminaria y acarreo. Catálogo: 3 pza/jor."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 0.75,
+      "costo_horario": 950.0
+    }
+  ],
+  "supuestos": [
+    "Poste metálico de 6 m con luminaria, desmontado completo con grúa (0.75 h/pieza, incluye posicionamiento). La base de concreto se queda.",
+    "Grúa hidráulica 12-15 t con operador $950/h (mismo costo horario que las tarjetas E03.02.0009 y siguientes).",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

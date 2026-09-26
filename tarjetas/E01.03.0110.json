@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E01.03.0110",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.30",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): canalizaciones eléctricas"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 0.25
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 430.0,
+    "fuente": "430 m/jor peón con electricista 1/4 de jornada: se desconecta en ambos extremos y se jalan del ducto todos los conductores del circuito a la vez; se mide por metro de cable calibre 8 y 6. Escala: 14-10 650, 8-6 430, 4-2 360, 1/0-2/0 300, 3/0-4/0 240, 250-350 kcmil 180, 400-500 kcmil 125 m/jor. Catálogo: 400 m/jor; baja con el calibre por el peso (0.03 kg/m en 12 AWG a 2.5 kg/m en 500 kcmil) y la fuerza de jalado. CDMX TE12BB 'desinstalación y retiro de cable del No. 6' $4.07/m (no cargado, par aproximado: alumbrado público en ducto subterráneo); la tarjeta queda entre el P.U. actualizado y ese valor."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cable en tubería conduit o charola, jalado desde registros y cajas accesibles; escalera de tijera dentro de la herramienta menor.",
+    "Cable enrollado y entregado en bodega como material de recuperación o chatarra.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

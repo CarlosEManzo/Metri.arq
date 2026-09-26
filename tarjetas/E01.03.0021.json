@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E01.03.0021",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.50.10",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): extinción de incendios"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.75,
+    "fuente": "2.75 pza/jor (≈2.9 h de cuadrilla): plomero desconecta la toma y retira manguera y extintor; el peón hace el recorte perimetral con cincel y maceta. Catálogo: 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Gabinete empotrado de lámina de ≈0.80x0.80 m; el resane del hueco no se incluye.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

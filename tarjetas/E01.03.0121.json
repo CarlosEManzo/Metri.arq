@@ -1,0 +1,28 @@
+{
+  "clave_cb": "E01.03.0121",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.60.40",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): dispositivos de maniobra y control"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 48.0,
+    "fuente": "48 pza/jor electricista solo: retiro de tapa, desconexión del conductor y del interruptor de la barra. Catálogo: 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Interruptor termomagnético de 1 polo en centro de carga o tablero existente (el tablero se queda)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

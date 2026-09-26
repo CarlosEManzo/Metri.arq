@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0057",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.20",
+      "condicion": "si el modelo clasifica el desmontaje con el sistema existente que se retira (elemento en fase 'Existente' / 'Derribado' de Revit): evacuación de aguas"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 24.0,
+    "fuente": "24 m/jor plomero + ayudante + peón para fierro fundido campana de 200 mm (junta de campana con plomo y estopa: hay que quemar/retirar el plomo, rinde como el tar del diámetro siguiente). Peso ≈32 kg/m. Catálogo: 60 m/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.3333,
+      "costo_horario": 9.0
+    }
+  ],
+  "supuestos": [
+    "Tubería colgada o adosada hasta 6 m, andamio de 2 cuerpos; tramos bajados a mano con cuerda.",
+    "Andamio tubular de 2 cuerpos para trabajar hasta 5-6 m: 2 × $4.50/h (referencia, misma base que E01.04.0032); horas = 8 h / rendimiento.",
+    "Acarreo a mano hasta el almacén o bodega de la obra a no más de 50 m, incluido en el tiempo de la cuadrilla; fuera de la obra se paga aparte.",
+    "Sin materiales: es mano de obra; tapones, cinta y amarres menores quedan dentro de la herramienta menor (3 % de la M.O.)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
