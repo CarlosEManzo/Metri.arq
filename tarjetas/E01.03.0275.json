@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E01.03.0275",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ELE",
+        "personas": 0.5
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 3.333,
+    "fuente": "0.3 jor de cuadrilla Of. hojalatero + 0.5 Of. electricista + 2 Ay por ventilador de 100 kg. Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 1.0,
+      "costo_horario": 950.0
+    }
+  ],
+  "supuestos": [
+    "Ventilador de extracción de 100 kg a 12 m (azotea); desconexión eléctrica y de ductos, descenso y acarreo al almacén.",
+    "Grúa hidráulica 12-15 t con operador $950/h (criterio de las demás tarjetas, referencia sin cotización). 1.0 h por pieza.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0278",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    },
+    {
+      "clave": "00.20.30",
+      "condicion": "si el equipo o la instalación es parte de un servicio urbano preexistente (acometida)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "0.4 jor de Of. plomero (gas) + 2 Ay por tanque de 500 L (≈190 kg vacío): desconexión de regulador y tubería, retiro de base, descenso desde 7 m y acarreo. Catálogo 3 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Malacate eléctrico 500 kg (renta, energía y cable)",
+      "horas": 1.2,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Tanque estacionario de gas L.P. de 500 L, vacío y purgado por el distribuidor antes del desmontaje (no incluido).",
+    "Malacate eléctrico 500 kg $95/h (renta, energía y cable; criterio de las demás tarjetas). 1.2 h por tanque, con polea y cuerdas guía.",
+    "No incluye dictamen de la unidad verificadora ni retiro de la tubería de gas.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0188",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.478,
+    "fuente": "2.3 h de Of. herrero + Ay por puerta → 3.48 pza/jor: retirar hoja, cortar anclas o grapas del marco con esmeriladora, picar el empotre, bajar el marco, limpiar y acarrear. Escala 1.62 h (0.70 m) a 1.95 h (1.20 m); 1.40 m es de dos hojas (2.30 h). Catálogo 20 pza/jor genérico. CDMX: hoja BK15EB $47.95 + marco metálico BK15CB $143.81 = $191.76 (sin picado ni limpieza)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.5,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Puerta metálica de 1.40 x 2.10 m con marco de lámina o tubular empotrado en muro; se recuperan hoja y marco.",
+    "El resane del vano no se incluye.",
+    "Esmeriladora $12/h con disco de corte.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0245",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7.428,
+    "fuente": "Tiempo Of. aluminero + Ay = 0.30 h + 0.37 h/m² = 1.08 h → 7.43 pza/jor (mismo modelo que las ventanas de aluminio). Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta de aluminio de 1.00 x 2.10 m con marco y cristal o panel, con recuperación.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

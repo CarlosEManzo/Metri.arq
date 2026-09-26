@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0232",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18,
+    "fuente": "18 m²/jor Of. aluminero + Ay en fachada con andamio, recuperando cristales y perfiles (catálogo 40 m²/jor genérico). CDMX BK15GB cancelería de aluminio con vidrios $63.91/m² (sin andamio ni recuperación)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 3 cuerpos (renta)",
+      "horas": 1.3333,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Cancelería de aluminio de 3 in con cristal en fachada hasta 6 m; se recuperan cristales y perfiles.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 3 cuerpos.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

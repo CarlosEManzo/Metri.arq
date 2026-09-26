@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E01.03.0182",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es del entorno urbano preexistente (cerca, portón o reja de límite de predio)"
+    },
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 75,
+    "fuente": "75 m²/jor Of. herrero + Ay (≈31 m/jor de cerca de 2.40 m, igual que E01.03.0180). Catálogo 40 m²/jor genérico. CDMX BK16CB $15.99/m² solo malla de 2.00 m (postes aparte en BK16EB-HB $79.90-95.85/pza)."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Malla ciclónica con postes, altura promedio 2.40 m, con recuperación.",
+    "El dado del poste se rompe con marro y barreta.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

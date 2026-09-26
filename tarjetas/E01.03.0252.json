@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0252",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 14,
+    "fuente": "14 m²/jor Of. vidriero/aluminero + Ay: ≈45 piezas de 0.3 m² (≈10 min c/u), retirar junquillo o masilla, bajar el cristal completo y limpiar el perfil. Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cristal de 3-6 mm en cancelería metálica interior, sección menor de 0.50 m², con recuperación del cristal.",
+    "Trabajo desde escalera (herramienta menor).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

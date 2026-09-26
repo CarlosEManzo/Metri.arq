@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0225",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.5,
+    "fuente": "8.5 m²/jor Of. carpintero + Ay (ventana tipo de 1.5-2.25 m² con el modelo de la familia: 0.94-1.19 h/m²). Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ventana de madera con vidrio, medida por m².",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0205",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.8,
+    "fuente": "8.8 m²/jor Of. herrero + Ay: ventana tipo de 1.8 m² con el modelo de la familia (1.0 h + 0.40 h/m² = 1.72 h → 0.96 h/m²). Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.9091,
+      "costo_horario": 4.5
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.17,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Ventana de perfil tubular, medida por m², tamaño promedio 1.8 m².",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

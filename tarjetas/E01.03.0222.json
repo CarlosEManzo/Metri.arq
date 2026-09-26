@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0222",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.061,
+    "fuente": "Tiempo Of. carpintero + Ay = 0.75 h + 0.38 h/m² = 1.32 h → 6.06 pza/jor (retirar junquillos y vidrio, desclavar marco). Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ventana de madera de 1.00 x 1.50 m con vidrio sencillo; se recuperan vidrio y ventana.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

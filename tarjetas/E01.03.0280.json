@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.03.0280",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 115,
+    "fuente": "115 m²/jor peón: corte en tiras, enrollado de alfombra y bajo alfombra, retiro de tira de púas con barreta. Catálogo 40 m²/jor genérico (Of+Ay)."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Alfombra residencial o comercial tendida sobre bajo alfombra con tira de púas; sin recuperación.",
+    "No incluye retiro de adhesivo ni resane del firme.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

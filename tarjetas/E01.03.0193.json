@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E01.03.0193",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es del entorno urbano preexistente (cerca, portón o reja de límite de predio)"
+    },
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 23,
+    "fuente": "23 m²/jor Of. herrero + 2 Ay (portón promedio de 7-9 m²: 2.7-3.0 h por pieza, igual que E01.03.0189-0190). Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.08,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Portón metálico con recuperación, medido por m² de hoja.",
+    "Equipo de oxicorte $90/h incluidos oxígeno y acetileno (criterio de las demás tarjetas).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

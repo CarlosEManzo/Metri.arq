@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E01.03.0195",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.993,
+    "fuente": "Tiempo Of. herrero + Ay = 1.0 h fija (retiro de vidrios, picado y corte de grapas) + 0.40 h/m² = 1.14 h → 6.99 pza/jor. Catálogo 20 pza/jor genérico. CDMX BK15BB cancel o ventana metálica $82.96/m² (sin picado de grapas empotradas)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 1.144,
+      "costo_horario": 4.5
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.3,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Ventana de perfil tubular de 0.60 x 0.60 m (0.36 m²) con grapas empotradas; se retiran vidrios y se recupera la ventana.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 1 cuerpo.",
+    "No incluye resane del vano.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

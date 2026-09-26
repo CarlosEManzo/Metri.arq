@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0240",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.141,
+    "fuente": "Tiempo Of. aluminero + Ay = 0.30 h + 0.37 h/m² = 1.93 h → 4.14 pza/jor (retirar sello, pijas, cristal y marco). Mismo modelo que las puertas E01.03.0242-0246. Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 1.9317,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Ventana de aluminio de 2.10 x 2.10 m (4.41 m²) fijada con pijas y sellador; se recuperan cristal y perfiles.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 1 cuerpo.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

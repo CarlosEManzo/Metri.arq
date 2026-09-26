@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E01.03.0177",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22,
+    "fuente": "22 m²/jor Of. herrero + Ay en fachada con andamio (catálogo 40 m²/jor genérico): retiro de cristales o láminas, desanclaje de perfiles y limpieza."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.7273,
+      "costo_horario": 4.5
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.1,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Cancelería de perfil tubular o tipo Tubular/Multypanel en fachada, hasta 4 m; incluye retirar cristales.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 2 cuerpos.",
+    "Esmeriladora $12/h para cortar anclas soldadas.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

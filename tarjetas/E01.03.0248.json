@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0248",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9.95,
+    "fuente": "Tiempo Of. aluminero + Ay = 0.30 h + 0.20 h/m² = 0.80 h → 9.95 pza/jor (cortar silicón, retirar hojas corredizas, rieles y jambas). Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cancel de baño de 1.40 x 1.80 m (2.52 m²) de aluminio con acrílico o cristal templado, fijado con pijas y silicón; con recuperación.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0208",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 33,
+    "fuente": "33 m²/jor Of. carpintero + Ay con recuperación, incluye retirar bastidor (catálogo 40 m²/jor genérico)."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Lambrín de duela o tablero sobre bastidor de madera taquetado, hasta 2.70 m.",
+    "No incluye resane de muro.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

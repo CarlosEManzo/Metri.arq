@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0260",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 280,
+    "fuente": "280 kg/jor Of. hojalatero (ductero) + Ay sin recuperación hasta 8 m (≈32 m/jor de ducto de 40x40 cm cal. 24, 8.8 kg/m). Escala 340 kg/jor a 4 m → 230 kg/jor a 12 m. Catálogo 250 kg/jor genérico. CDMX BK12BB tramo de 0.40x0.40x0.52 m en azotea $29.78/pza (≈$6.5/kg)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 4 cuerpos (renta)",
+      "horas": 0.1143,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Ducto de lámina galvanizada cal. 22-26, con o sin forro, colgado de soportes hasta 8 m; se corta en tramos, sin recuperación.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 4 cuerpos.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

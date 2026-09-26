@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0270",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ELE",
+        "personas": 0.5
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 1.25,
+    "fuente": "0.8 jor de cuadrilla Of. plomero + 0.5 Of. electricista + 2 Ay por unidad de 600 kg (10 TR): desconexión eléctrica, drenado y desconexión de agua helada, desacople de ductos, aparejo, izaje y acarreo. Escala 0.50 jor (130 kg) a 1.30 jor (2,400 kg). Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 2.0,
+      "costo_horario": 950.0
+    }
+  ],
+  "supuestos": [
+    "Unidad manejadora de aire de 600 kg (10 TR) en azotea o entrepiso a 12 m; se baja completa con grúa y se lleva al almacén de la obra.",
+    "Grúa hidráulica 12-15 t con operador $950/h (criterio de las demás tarjetas, referencia sin cotización). 2.0 h por unidad (maniobra, sin traslado: se asume la grúa en la obra para varias maniobras).",
+    "No incluye recuperación de refrigerante ni tapones de las tuberías que quedan.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E01.03.0170",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 430,
+    "fuente": "430 kg/jor Of. herrero + 2 Ay (estructura ligera, con grúa, 10 m). Escala del lote: ligera sin grúa 350→290 kg/jor de 6 a 12 m; ligera con grúa 460→410; pesada con grúa 700→610. Catálogo 250 kg/jor genérico (Of+Ay). CDMX BM12BB desmantelamiento de estructura de acero $7.06/kg."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 0.0026,
+      "costo_horario": 950.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.007,
+      "costo_horario": 90.0
+    },
+    {
+      "descripcion": "Andamio tubular 5 cuerpos (renta)",
+      "horas": 0.093,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Estructura ligera (perfiles hasta ≈20 kg/m: largueros, monten, armaduras de ángulo) hasta 10 m; corte con oxiacetileno en conexiones, descenso con grúa y acarreo al almacén del sitio.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 5 cuerpos para 10 m.",
+    "Equipo de oxicorte $90/h incluidos oxígeno y acetileno (criterio de las demás tarjetas). 7 h de soplete por tonelada.",
+    "Grúa hidráulica 12-15 t con operador $950/h (criterio de las demás tarjetas, referencia sin cotización). 2.6 h de grúa por tonelada (izaje por pieza de 150-600 kg, grúa compartida con otras maniobras del día).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

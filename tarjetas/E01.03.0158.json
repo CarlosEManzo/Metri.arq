@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0158",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.333,
+    "fuente": "Tiempo de cuadrilla Of. electricista + Ay = 0.9 h (desenergizar, retirar frente, barras y gabinete) + 0.075 h por circuito = 2.40 h → 3.33 pza/jor. Catálogo 3 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tablero NQOD de 20 circuitos con interruptores derivados, de sobreponer o empotrado en muro de tablaroca/block; se recupera.",
+    "No incluye resane del muro ni retiro de alimentadores (descableado por separado).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

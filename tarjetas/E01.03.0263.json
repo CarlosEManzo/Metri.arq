@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0263",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 0.5
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 44,
+    "fuente": "44 pza/jor Ay con 0.5 Of. hojalatero (el oficial reparte su jornada con el retiro de ductos). Escala 8x8 44, 12x12 40, 18x18 35, 24x24 29 pza/jor. Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 2 cuerpos (renta)",
+      "horas": 0.3636,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Rejilla o difusor de aluminio de 8\"x8\" atornillado a cuello de ducto, hasta 4 m, con recuperación.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 2 cuerpos.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

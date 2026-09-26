@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E01.03.0274",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "OF-ELE",
+        "personas": 0.5
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 6.667,
+    "fuente": "0.15 jor de cuadrilla Of. hojalatero + 0.5 Of. electricista + 2 Ay por ventilador de 50 kg. Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Malacate eléctrico 500 kg (renta, energía y cable)",
+      "horas": 1.0,
+      "costo_horario": 95.0
+    }
+  ],
+  "supuestos": [
+    "Ventilador de extracción de 50 kg a 12 m (azotea); desconexión eléctrica y de ductos, descenso y acarreo al almacén.",
+    "Malacate eléctrico 500 kg $95/h (renta, energía y cable; criterio de las demás tarjetas). El ventilador de 50 kg se baja con malacate: no amerita grúa (el P.U. del catálogo, 3.5 veces menor que el de 100 kg, tampoco la incluye).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

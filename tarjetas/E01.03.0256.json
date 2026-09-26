@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0256",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 27,
+    "fuente": "27 m²/jor Of. aluminero + Ay: cristal con vinil o junquillo de aluminio, más rápido que con masilla. Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cristal de 6 mm en cancelería de aluminio interior, piezas mayores de 0.50 m², con recuperación.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

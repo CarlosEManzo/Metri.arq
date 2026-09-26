@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0207",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30,
+    "fuente": "30 m²/jor Of. carpintero + Ay hasta 6 m (−12 % contra 4 m por altura y movimientos de andamio)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 3 cuerpos (renta)",
+      "horas": 0.8,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Plafón de duela machihembrada clavada a bastidor, sin retirar bastidor.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 3 cuerpos.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

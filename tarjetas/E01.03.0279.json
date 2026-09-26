@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E01.03.0279",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    },
+    {
+      "clave": "00.20.30",
+      "condicion": "si el equipo o la instalación es parte de un servicio urbano preexistente (acometida)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 1.429,
+    "fuente": "0.7 jor de Of. plomero (gas) + 2 Ay por tanque de 1000 L (≈380 kg vacío): desconexión de regulador y tubería, retiro de base, descenso desde 7 m y acarreo. Catálogo 3 pza/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Grúa hidráulica 12-15 t con operador",
+      "horas": 1.6,
+      "costo_horario": 950.0
+    }
+  ],
+  "supuestos": [
+    "Tanque estacionario de gas L.P. de 1000 L, vacío y purgado por el distribuidor antes del desmontaje (no incluido).",
+    "Grúa hidráulica 12-15 t con operador $950/h (criterio de las demás tarjetas, referencia sin cotización). 1.6 h por tanque.",
+    "No incluye dictamen de la unidad verificadora ni retiro de la tubería de gas.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

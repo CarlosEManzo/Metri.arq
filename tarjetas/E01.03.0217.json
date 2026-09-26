@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E01.03.0217",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es del entorno urbano preexistente (cerca, portón o reja de límite de predio)"
+    },
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 5.926,
+    "fuente": "1.35 h Of. carpintero + 2 Ay por portón de 2.4x2.2 m → 5.93 pza/jor. Catálogo 20 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Portón de madera de 2.40 x 2.20 m de dos hojas, con recuperación.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

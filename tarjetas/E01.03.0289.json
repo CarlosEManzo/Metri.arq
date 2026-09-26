@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0289",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-YES",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 90,
+    "fuente": "90 m²/jor Of. plafonero + Ay: placas más suspensión (tes, ángulo perimetral y colgantes). Catálogo 40 m²/jor genérico. CDMX BL12JC desmantelamiento de falso plafón con bastidor $55.29/m² (placas de yeso o celotex con bastidor, más pesado)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.0889,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Plafón modular de 0.60 x 0.60 m con suspensión de lámina galvanizada, hasta 3.5 m; sin recuperación de la suspensión.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 1 cuerpo.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0194",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 28,
+    "fuente": "28 m²/jor Of. herrero + Ay: corte de anclas con oxiacetileno, retiro y acarreo (catálogo 40 m²/jor genérico)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.05,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Protección de varilla, solera o tubular en ventana, empotrada o soldada a anclas.",
+    "Equipo de oxicorte $90/h incluidos oxígeno y acetileno (criterio de las demás tarjetas).",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

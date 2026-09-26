@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0163",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 1.818,
+    "fuente": "Of. electricista + 2 Ay, 4.4 h por tablero → 1.82 pza/jor: desconexión de alimentador principal y derivados, desmontaje de interruptores I-LINE enchufables y del gabinete (≈150-250 kg) con 3 personas. Catálogo 3 pza/jor genérico."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tablero I-LINE de hasta 42 espacios, gabinete autosoportado o de sobreponer, a nivel de piso; se maniobra con patín o diablo.",
+    "No incluye retiro de alimentadores ni base de concreto.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

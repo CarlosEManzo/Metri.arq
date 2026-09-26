@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E01.03.0152",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 9.524,
+    "fuente": "Tiempo de cuadrilla Of. electricista + Ay = 0.45 h (desenergizar, abrir, retirar tapa y caja) + 0.065 h por espacio (desconectar, etiquetar y retirar interruptor y conductor) = 0.84 h → 9.52 pza/jor. Catálogo 20 pza/jor genérico; el P.U. actualizado implica 3.4-12.5 pza/jor según tamaño."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Centro de carga QO de 6 espacios de sobreponer o semiempotrado, con interruptores; se recuperan caja e interruptores.",
+    "La desenergización la autoriza el cliente; no incluye trámites con CFE ni demolición de muro para cajas empotradas.",
+    "Trabajo a nivel de piso (≤2 m): escalera incluida en la herramienta menor.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

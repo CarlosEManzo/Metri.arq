@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E01.03.0282",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 65,
+    "fuente": "65 m²/jor ayudante (≈20 cortinas de 3 m² con cortinero atornillado). Catálogo 40 m²/jor genérico (Of+Ay)."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.1231,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Cortina de tela con cortinero de riel o tubo atornillado a muro o losa.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 1 cuerpo.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

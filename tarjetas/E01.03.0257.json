@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E01.03.0257",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.1,
+    "fuente": "12.1 m²/jor efectivos Of. aluminero + Ay: 16 m²/jor desmontando desde hamaca más 2 jornadas de montaje y desmontaje de la hamaca prorrateadas en 100 m² (100 / (6.25 + 2) jor). Catálogo 40 m²/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Hamaca (andamio colgante manual 3-6 m con 2 malacates, renta)",
+      "horas": 0.66,
+      "costo_horario": 60.0
+    }
+  ],
+  "supuestos": [
+    "Cristal de fachada en piezas de 1-3 m², hasta 12 m de altura; mínimo 100 m² por montaje de hamaca, como indica el concepto.",
+    "Hamaca manual: renta de referencia $60/h (≈$480/día) sin cotización; arrendadoras de CDMX (MAEQ, Equiconstructor, ANSUR) la rentan por día sin precio publicado. Horas por m² = 8.25 jor × 8 h / 100 m².",
+    "No incluye protección peatonal ni lonas en planta baja.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

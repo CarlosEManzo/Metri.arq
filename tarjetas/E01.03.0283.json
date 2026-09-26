@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E01.03.0283",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 105,
+    "fuente": "105 m²/jor Of. laminero + Ay; frágil: se desatornilla y se baja lámina por lámina. Catálogo 40 m²/jor genérico. CDMX BK16PB techumbre de lámina de caseta $33.18/m²."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Lámina acrílica sobre estructura existente hasta 10 m; descenso con cuerda y polea y acarreo al almacén del sitio.",
+    "Trabajo sobre la cubierta con línea de vida (herramienta menor); sin andamio.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

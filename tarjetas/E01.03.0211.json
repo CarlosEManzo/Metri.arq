@@ -1,0 +1,33 @@
+{
+  "clave_cb": "E01.03.0211",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.421,
+    "fuente": "0.95 h Of. carpintero + Ay → 8.42 pza/jor: retirar hoja y chapa, desclavar o despijar marco y chambranas sin romper, acarrear. Escala 0.95 h (0.70 m) a 1.27 h (1.20 m). Catálogo 20 pza/jor genérico. CDMX hoja BK15EB $47.95 + marco BK15CD $79.93."
+  },
+  "equipo": [],
+  "supuestos": [
+    "Puerta de tambor o tablero de 0.70 x 2.10 m con marco y chambranas de madera, con recuperación de hoja, marco, bisagras y chapa.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}

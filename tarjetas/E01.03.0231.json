@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E01.03.0231",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 310,
+    "fuente": "310 pie-tabla/jor Of. carpintero + Ay (equivale a ≈47 m/jor de viga 4x6); catálogo 150 PT/jor genérico."
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 3 cuerpos (renta)",
+      "horas": 0.0774,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Viga de madera de sección media (4x6 a 4x8), con recuperación, hasta 6 m.",
+    "Andamio tubular: renta de referencia $4.50/h por cuerpo (≈$35/día, criterio de las demás tarjetas, sin cotización); horas = cuerpos × 8 h / rendimiento. 3 cuerpos.",
+    "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
+  ],
+  "elaboro": "Agente de tarjetas (lote 4c)",
+  "reviso": ""
+}
