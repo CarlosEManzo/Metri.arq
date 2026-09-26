@@ -109,6 +109,9 @@ marca como referencia por validar; nunca presentes un supuesto como dato cotizad
    - Los **básicos de Construbase** (conceptos en mayúsculas: concretos, morteros, mezclas) están
      a costo directo, sin indirectos ni utilidad. Su tarjeta lleva el básico de `datos/basicos.json`
      más la elaboración, y `"comparar_costo_directo": true` para validar su costo directo.
+   - Si calibras rendimientos o cantidades para que el P.U. caiga cerca del catálogo (sin otra
+     fuente que lo respalde), dilo con `"validacion_no_independiente": "<qué se calibró>"`: la
+     auditoría las cuenta aparte porque su diferencia contra el P.U. actualizado no las valida.
    - Si el par CDMX no está en `salida/pares_tabulador_cdmx.csv` pero encontraste uno equivalente en
      el tabulador (`referencias/tabulador_cdmx_2026-07.pdf`), repórtalo con clave, precio y
      equivalencia (exacta/aproximada): se agrega a la canasta en la consolidación.

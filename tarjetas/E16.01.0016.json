@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E16.01.0016",
+  "gubim": "70.50.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "70.30.20",
+      "condicion": "si se clasifica como pavimento peatonal"
+    },
+    {
+      "clave": "70.30.30",
+      "condicion": "si es estacionamiento (pavimento para tráfico rodado)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TIERRA-VEG",
+      "cantidad": 0.036,
+      "desperdicio": 0.1,
+      "nota": "Relleno de huecos: adopasto de 8 cm con ≈45 % de hueco → 0.036 m³/m²"
+    },
+    {
+      "insumo": "PASTO-ROLLO",
+      "cantidad": 0.5,
+      "desperdicio": 0.2,
+      "nota": "Pasto en rollo cortado en tapetes para los huecos (≈50 % del área); 20 % de desperdicio por cortes"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Riego 10 l/m²/día × 15 días"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 15.0,
+    "fuente": "15 m²/jor peón: relleno de huecos con tierra, corte y colocación del pasto en ≈60 huecos/m², apisonado y riego (catálogo 40 m²/jor, que corresponde a pasto en rollo corrido)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "El adopasto ya está colocado y se paga en su concepto.",
+    "Pasto San Agustín en rollo cortado; 15 días de riego.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

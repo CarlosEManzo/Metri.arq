@@ -1,0 +1,42 @@
+{
+  "clave_cb": "E10.04.0007",
+  "gubim": "60.10.10.70",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TARJA-EB-C200",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "EB Técnica C-200, 51x57 cm; incluye grapas de fijación de fábrica"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.216,
+      "desperdicio": 0.05,
+      "nota": "Sello perimetral: perímetro 2.16 m ÷ 10 m por cartucho de 300 ml (cordón de 6 mm)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4 pza/jor Of plomero + Ay: tarja de empotrar hasta 1.01 m, solo presentación, sellado y fijación con grapas (catálogo 3 pza/jor; APU publicados 3-5 pza/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Alcance: suministro, presentación, sellado y fijación de la tarja en cubierta ya perforada. La contracanasta, el céspol, la mezcladora o llaves y las conexiones se pagan en sus conceptos (E10.01.0039, E11.05.0144, E10.01.0023/24), igual que en Construbase.",
+    "Salidas hidráulica y sanitaria ya existentes; el hueco en la cubierta lo hace el marmolero o el carpintero.",
+    "Precio de la tarja: ver fuente de TARJA-EB-C200 en datos/insumos_lote4f.csv; es el ≈80-90 % del costo directo y conviene cotizarlo con distribuidor EB Técnica en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

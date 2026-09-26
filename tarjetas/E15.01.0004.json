@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E15.01.0004",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.10",
+      "condicion": "vidrio de ventanas de fachada"
+    },
+    {
+      "clave": "40.10.10.40",
+      "condicion": "vidrio de cancelería interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.005,
+      "desperdicio": 0.0,
+      "nota": "5 g/m²"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.006,
+      "desperdicio": 0.0,
+      "nota": "Secado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "2 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 45.0,
+    "fuente": "45 m²/jor peón por una cara con retiro de residuos (catálogo 80 m²/jor; ≈1.8 veces el rendimiento a dos caras)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.089,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Vidrios de obra con residuos de construcción, una cara; hasta 3 m de altura.",
+    "Andamio tubular de 1 cuerpo en la mitad de la superficie: 0.5 × 8 h / 45 m² = 0.089 h/m² a $4.50/h (sin cotización).",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

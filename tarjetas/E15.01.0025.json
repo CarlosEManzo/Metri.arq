@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E15.01.0025",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.50",
+      "condicion": "si la limpieza se asigna a la bañera"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CLORO-6",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": "Desinfección"
+    },
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Jabón en solución"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Secado y trapeado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.08,
+      "desperdicio": 0.0,
+      "nota": "Lavado y enjuague"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6.0,
+    "fuente": "6.0 pza/jor peón; catálogo 25 pza/jor (el rendimiento baja con el tamaño de la tina)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tina para dos personas.",
+    "Limpieza de fin de obra: retiro de etiquetas, restos de mortero, boquilla, yeso y pintura; mueble ya instalado.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

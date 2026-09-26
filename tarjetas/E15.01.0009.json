@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E15.01.0009",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.10",
+      "condicion": "muro interior (Tabiques)"
+    },
+    {
+      "clave": "30.10.10.10",
+      "condicion": "muro de fachada"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Jabón en solución"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Secado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Lavado y enjuague"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 14.0,
+    "fuente": "14 m²/jor peón por ambas caras, con retiro de mortero en juntas y cara vidriada (catálogo 80 m²/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Muro de block vidriado limpio por ambas caras, hasta 3 m de altura, sin andamio.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

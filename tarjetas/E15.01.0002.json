@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E15.01.0002",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.20",
+      "condicion": "si se asigna al pavimento que se limpia"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "20 g/m² en solución"
+    },
+    {
+      "insumo": "ACIDO-MURIATICO",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Retoque de manchas de cemento, dilución 1:10"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "1 fibra por 50 m²"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "1 jerga por 50 m²"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.005,
+      "desperdicio": 0.0,
+      "nota": "5 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 35.0,
+    "fuente": "35 m²/jor peón: limpieza fina de pisos, muros, puertas, herrajes y muebles para entrega (catálogo 80 m²/jor; APU publicados 30-60 m²/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Limpieza fina para entrega medida en m² de área construida; no incluye vidrios (E15.01.0003/0004) ni muebles sanitarios (E15.01.0005 y siguientes).",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

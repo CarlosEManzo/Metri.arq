@@ -48,6 +48,7 @@ def informe(numero, titulo, claves):
             GROUP BY m.clave_cb
             HAVING SUM(CASE WHEN i.estado = 'derivado del catálogo' THEN m.importe ELSE 0 END) > 0.5 * SUM(m.importe)""",
         claves)}
+    derivadas |= {t["clave_cb"] for t in tarjetas if t["validacion_no_independiente"]}
     difs = [t["dif_vs_referencia"] for t in tarjetas if t["referencia_validacion"]]
     alertas = [t for t in tarjetas if t["alerta"]]
     no_comp = [t for t in tarjetas if t["cdmx_no_comparable"]]
@@ -71,7 +72,7 @@ def informe(numero, titulo, claves):
         f"| Desviación > ±25 % justificada | {len(justif)} |",
         f"| Con referencia sustituta (catálogo erróneo) | {len(sustit)} |",
         f"| Básicos comparados a costo directo | {sum(1 for t in tarjetas if 'costo directo' in (t['referencia_validacion'] or ''))} |",
-        f"| Material mayormente derivado del catálogo (validación no independiente) | {len(derivadas)} |",
+        f"| Validación no independiente (material derivado o rendimiento ajustado al catálogo) | {len(derivadas)} |",
         f"| Diferencia mediana contra su referencia | {pct(statistics.median(difs)) if difs else '—'} |",
         f"| Insumos usados que siguen como referencia | {sum(1 for i in insumos_ref if i['estado'] == 'referencia')} |",
         f"| Insumos con precio derivado del catálogo (validación no independiente) | {sum(1 for i in insumos_ref if i['estado'] != 'referencia')} |",
@@ -89,7 +90,7 @@ def informe(numero, titulo, claves):
         lineas.append(
             f"| {t['clave_cb']} | {t['gubim']} | {t['descripcion'][:60]} | {t['unidad']} | {mx(t['pu'])} | "
             f"{mx(t['pu_actualizado'])} | {mx(t['pu_cdmx'])} | {pct(t['dif_vs_actualizado'])} | {pct(t['dif_vs_cdmx'])} | "
-            f"{t['referencia_validacion']}{' · material derivado del catálogo' if t['clave_cb'] in derivadas else ''} | {t['alerta'] or '—'} |")
+            f"{t['referencia_validacion']}{' · no independiente' if t['clave_cb'] in derivadas else ''} | {t['alerta'] or '—'} |")
     lineas += ["", "## Composición y rendimiento", "",
                "| Clave | Materiales | M.O. | Herr./equipo | Cuadrilla | Rendimiento | HH/unidad | Rend. implícito CDMX |",
                "|---|---|---|---|---|---|---|---|"]

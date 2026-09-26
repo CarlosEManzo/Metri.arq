@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E15.01.0018",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.10.30",
+      "condicion": "si la limpieza se asigna al depósito (Depósitos, acumuladores y calentadores)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CLORO-6",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Desinfección con solución clorada"
+    },
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.4,
+      "desperdicio": 0.0,
+      "nota": "Tallado interior"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Secado y recoger sedimento"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.4,
+      "desperdicio": 0.0,
+      "nota": "Enjuague"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.6,
+    "fuente": "1.6 pza/jor peón: cierre de válvula, vaciado por el desagüe, tallado, desinfección y enjuague, con subida a azotea (catálogo 25 pza/jor, irreal)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco de polietileno de 2,500 l en azotea con acceso por escalera; sin andamio.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

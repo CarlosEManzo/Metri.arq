@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E15.01.0003",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "30.10.20.10",
+      "condicion": "vidrio de ventanas de fachada"
+    },
+    {
+      "clave": "40.10.10.40",
+      "condicion": "vidrio de cancelería interior"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Jabón en solución, 10 g/m²"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "Secado; 1 jerga por 100 m²"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.003,
+      "desperdicio": 0.0,
+      "nota": "3 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 m²/jor peón por ambas caras, incluye retiro de restos de pintura, yeso y silicón con navaja (catálogo 80 m²/jor; tabulador CDMX ZB15BB implica ≈35-45 m²/jor en vidrio sin residuos de obra)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.16,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Vidrios de obra con residuos de construcción, a ambas caras; hasta 3 m de altura.",
+    "Andamio tubular de 1 cuerpo en la mitad de la superficie: 0.5 × 8 h / 25 m² = 0.16 h/m² a $4.50/h (renta ≈$35/día por cuerpo, misma base que otras tarjetas; sin cotización).",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

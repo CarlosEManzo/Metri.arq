@@ -587,7 +587,7 @@ COLUMNAS_TARJETA = [
     "descripcion", "unidad", "materiales", "mano_obra", "herramienta_equipo", "costo_directo", "indirectos",
     "financiamiento", "utilidad", "cargos_adicionales", "pu", "cuadrilla", "costo_cuadrilla", "rendimiento",
     "jornadas_por_unidad", "hh_por_unidad", "rendimiento_implicito_cdmx", "pu_construbase_2017", "pu_actualizado", "pu_cdmx", "clave_cdmx",
-    "dif_vs_actualizado", "dif_vs_cdmx", "dif_vs_referencia", "referencia_validacion", "referencia_sustituta", "cdmx_no_comparable", "desviacion_justificada", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
+    "dif_vs_actualizado", "dif_vs_cdmx", "dif_vs_referencia", "referencia_validacion", "referencia_sustituta", "cdmx_no_comparable", "desviacion_justificada", "validacion_no_independiente", "alerta", "estado", "elaboro", "reviso", "fecha_base", "supuestos",
 ]
 INDIRECTO_CDMX = 0.2751  # indirecto integrado del tabulador CDMX 2026 (sus P.U. ya sin cargos adicionales)
 UMBRAL_ALERTA = 0.25   # diferencia contra la referencia que merece revisión
@@ -656,6 +656,9 @@ def fila_tarjeta(c):
         "referencia_validacion": nombre_ref if ref is not None else "",
         "referencia_sustituta": f"{sust['pu']:,.2f}: {sust['razon']}" if sust and not usa_cdmx else "",
         "cdmx_no_comparable": no_comparable, "desviacion_justificada": justificada,
+        # El análisis se ajustó al P.U. del catálogo (rendimientos calibrados para caer
+        # cerca de él): la comparación contra el P.U. actualizado no lo valida.
+        "validacion_no_independiente": t.get("validacion_no_independiente", ""),
         "alerta": alerta, "estado": "revisada" if t.get("reviso") else "borrador",
         "elaboro": t.get("elaboro", ""), "reviso": t.get("reviso", ""), "fecha_base": c["par"]["fecha_base"],
         "supuestos": " | ".join(t.get("supuestos", [])),

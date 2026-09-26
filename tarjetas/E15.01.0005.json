@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E15.01.0005",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.10",
+      "condicion": "si la limpieza se asigna al inodoro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ACIDO-MURIATICO",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Rebajado con agua 1:10"
+    },
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Jabón en solución"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Secado y trapeado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Lavado y enjuague"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "12 pza/jor peón (taza y tanque); catálogo 25 pza/jor; tabulador CDMX ZB13BC implica ≈15-20 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Inodoro de tanque bajo (taza, tanque y asiento).",
+    "Limpieza de fin de obra: retiro de etiquetas, restos de mortero, boquilla, yeso y pintura; mueble ya instalado.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

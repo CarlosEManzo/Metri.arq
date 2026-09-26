@@ -26,5 +26,6 @@
     "Desmontaje sin materiales: el material recuperado queda en la bodega de la obra; no incluye carga ni acarreo fuera de la obra."
   ],
   "elaboro": "Agente de tarjetas (lote 4c)",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Rendimiento modelado por pieza, peso y altura y calibrado para caer cerca del P.U. del catálogo (sin rendimiento publicado que lo respalde); la diferencia contra el P.U. actualizado confirma coherencia, no el precio."
 }

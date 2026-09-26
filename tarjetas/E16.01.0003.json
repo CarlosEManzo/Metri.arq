@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E16.01.0003",
+  "gubim": "70.50.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PLANTA-HORTENSIA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Hortensia en bolsa o maceta de 3-4 L, 30-40 cm"
+    },
+    {
+      "insumo": "TIERRA-VEG",
+      "cantidad": 0.02,
+      "desperdicio": 0.05,
+      "nota": "Relleno de cepa de 30x30x30 cm con tierra vegetal"
+    },
+    {
+      "insumo": "COMPOSTA",
+      "cantidad": 0.003,
+      "desperdicio": 0.05,
+      "nota": "≈15 % del relleno"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Riego de asiento y 15 días de riego"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25 pza/jor peón: trazo, cepa de 30 cm, plantación, relleno y riego (rendimiento del catálogo)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Planta en bolsa de vivero, tamaño de mercado común para jardín residencial (Hortensia en bolsa o maceta de 3-4 L, 30-40 cm).",
+    "Terreno ya preparado con tierra vegetal; el suelo de la cepa se esparce en el sitio.",
+    "Incluye 15 días de riego; no incluye mantenimiento posterior ni reposición.",
+    "Precio de la planta: referencia sin cotización de vivero de Morelia; es el 55-75 % del costo directo y es la prioridad para cotizar.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

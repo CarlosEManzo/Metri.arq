@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E16.01.0001",
+  "gubim": "70.50.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "70.50.10.20",
+      "condicion": "si es la base de un área de pasto"
+    },
+    {
+      "clave": "70.50.10.30",
+      "condicion": "si es relleno de arriates con arbustos"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TIERRA-VEG",
+      "cantidad": 0.9,
+      "desperdicio": 0.1,
+      "nota": "90 % tierra negra; 10 % de merma y acomodo"
+    },
+    {
+      "insumo": "COMPOSTA",
+      "cantidad": 0.1,
+      "desperdicio": 0.1,
+      "nota": "10 % composta para tierra preparada"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4 m³/jor peón: acarreo en carretilla hasta 20 m, mezcla, tendido y nivelado (rendimiento del catálogo; APU publicados 3-5 m³/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tierra vegetal preparada: mezcla 9:1 de tierra negra y composta, medida colocada suelta.",
+    "Acarreo libre hasta 20 m; distancias mayores se pagan aparte.",
+    "Par de referencia: tabulador CDMX VB13BD tierra preparada con hoja $892.83/m³.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

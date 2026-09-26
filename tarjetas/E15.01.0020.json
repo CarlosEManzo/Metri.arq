@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E15.01.0020",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.10.10.50",
+      "condicion": "si se asigna a protecciones interiores (cortinas)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "LAVADO-CORTINA-SERV",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Lavado y planchado por tintorería, por m² de cortina"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor ayudante: desmontaje, traslado a la tintorería, recolección y montaje (catálogo 80 m²/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Cortina de tela medida en m² de cortina desplegada; el lavado y planchado lo hace una tintorería.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

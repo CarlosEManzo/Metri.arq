@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E15.01.0019",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.20",
+      "condicion": "si se asigna al pavimento (alfombra)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 100.0,
+    "fuente": "100 m²/jor peón con aspiradora industrial, aspirado de polvo de obra (catálogo 80 m²/jor; APU publicados 100-150 m²/jor)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Aspiradora industrial 1.5 HP (depreciación, energía y filtros)",
+      "horas": 0.08,
+      "costo_horario": 12.0
+    }
+  ],
+  "supuestos": [
+    "Aspiradora industrial en seco/húmedo 1.5 HP: $12/h (compra ≈$4,000, vida 2,000 h, energía y bolsas); 8 h/100 m² = 0.08 h/m²; referencia sin cotización.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

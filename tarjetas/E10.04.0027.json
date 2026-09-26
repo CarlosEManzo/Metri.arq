@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E10.04.0027",
+  "gubim": "60.10.10.70",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TARJA-EB-CS300",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "EB Técnica CS-300-7, 46x60 cm; incluye grapas de fijación de fábrica"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.212,
+      "desperdicio": 0.05,
+      "nota": "Sello perimetral: perímetro 2.12 m ÷ 10 m por cartucho de 300 ml (cordón de 6 mm)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of plomero + Ay (rendimiento del catálogo): tarja de submontar, fijación con grapas y sellado bajo cubierta de piedra o cuarzo"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Alcance: suministro, presentación, sellado y fijación de la tarja en cubierta ya perforada. La contracanasta, el céspol, la mezcladora o llaves y las conexiones se pagan en sus conceptos (E10.01.0039, E11.05.0144, E10.01.0023/24), igual que en Construbase.",
+    "Salidas hidráulica y sanitaria ya existentes; el hueco en la cubierta lo hace el marmolero o el carpintero.",
+    "Precio de la tarja: ver fuente de TARJA-EB-CS300 en datos/insumos_lote4f.csv; es el ≈80-90 % del costo directo y conviene cotizarlo con distribuidor EB Técnica en Morelia.",
+    "Tarja de submontar: requiere cubierta de granito, cuarzo o superficie sólida con el corte pulido; el sellado es con silicón neutro de la misma partida."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,69 @@
+{
+  "clave_cb": "E15.01.0012",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.10.30",
+      "condicion": "si la limpieza se asigna al depósito (Depósitos, acumuladores y calentadores)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CLORO-6",
+      "cantidad": 4.0,
+      "desperdicio": 0.0,
+      "nota": "0.4 l/m³ × 10 m³: desinfección de muros, piso y losa con solución clorada"
+    },
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "0.1 kg/m³ × 10 m³"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Secado y recoger lodos"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Enjuague ≈10 % de la capacidad"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 1.75,
+    "fuente": "1.75 pza/jor con 2 peones (uno dentro y uno fuera por seguridad en espacio confinado); escala de 3 pza/jor en 3 m³ a 1.1 pza/jor en 20 m³ por superficie a tallar. Catálogo 25 pza/jor con 1 peón, irreal para una cisterna"
+  },
+  "equipo": [
+    {
+      "descripcion": "Bomba sumergible 1/2 HP con manguera (achique del remanente y enjuague)",
+      "horas": 1.5,
+      "costo_horario": 15.0
+    }
+  ],
+  "supuestos": [
+    "Cisterna de 10 m³ de concreto; se vacía por consumo antes de la limpieza y la bomba solo achica el remanente y el agua de enjuague.",
+    "Procedimiento: achique, retiro de lodos, tallado con jabón, desinfección con solución clorada, enjuague y achique final.",
+    "Bomba sumergible 1/2 HP: $15/h (compra $1,800-2,500, vida ≈1,000 h, energía y manguera); referencia sin cotización.",
+    "El P.U. de Construbase (MO de 1.2-3.6 %) parece incluir un servicio especializado; esta tarjeta lo arma con peones.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

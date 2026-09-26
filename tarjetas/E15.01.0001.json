@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E15.01.0001",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "80.10.70.30",
+      "condicion": "si se separa el retiro de escombro como partida propia (Escombros)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "RETIRO-ESCOMBRO",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Escombro y basura de obra ≈0.02 m³ suelto por m² por pasada; flete en volteo 7 m³ y derecho de tiro"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.005,
+      "desperdicio": 0.0,
+      "nota": "Riego antipolvo 5 l/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 50.0,
+    "fuente": "50 m²/jor peón: barrido, recolección, apilado y carga manual al camión (catálogo 80 m²/jor sin carga; APU publicados 40-100 m²/jor según suciedad)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Limpieza gruesa por pasada durante la obra, medida en m² de área construida.",
+    "Incluye el retiro del escombro al tiro autorizado (≈0.02 m³/m²); si la obra tiene contenedor o el acarreo se paga aparte, quitar RETIRO-ESCOMBRO (−$8.73 de P.U.).",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

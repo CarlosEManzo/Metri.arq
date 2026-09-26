@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E15.01.0007",
+  "gubim": "80.10.70",
+  "gubim_confianza": "baja",
+  "gubim_alternativas": [
+    {
+      "clave": "40.20.20.20",
+      "condicion": "si es piso (Pavimentos)"
+    },
+    {
+      "clave": "40.10.20.10",
+      "condicion": "si es lambrín (Revestimientos discontinuos)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ACIDO-MURIATICO",
+      "cantidad": 0.045,
+      "desperdicio": 0.0,
+      "nota": "Solución 1:10, 0.5 l/m² → 0.045 l de ácido/m²"
+    },
+    {
+      "insumo": "DETERGENTE-POLVO",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Lavado final"
+    },
+    {
+      "insumo": "FIBRA-VERDE",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Tallado"
+    },
+    {
+      "insumo": "JERGA",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Trapeado"
+    },
+    {
+      "insumo": "AGUA",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": "10 l/m² lavado y enjuague"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30.0,
+    "fuente": "30 m²/jor peón: retiro de lechada de boquilla y cemento con ácido, tallado y enjuague (catálogo 80 m²/jor; tabulador CDMX ZB14BC/ZB12BC implica ≈40-50 m²/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Piso o lambrín de azulejo recién junteado, con residuos de boquilla.",
+    "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
