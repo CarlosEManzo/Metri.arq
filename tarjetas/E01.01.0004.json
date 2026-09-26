@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E01.01.0004",
+  "gubim": "10.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CAL-HID",
+      "cantidad": 5e-05,
+      "desperdicio": 0.1,
+      "nota": "Marcado de ejes con calhidra: ≈0.05 kg/m² de planta"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Estacas y puentes de trazo de pino 3a: ≈0.15 pt/m² de planta, 5 usos → 0.03 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "Clavo para puentes de trazo ≈2 g/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "TOPO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 750,
+    "fuente": "750 m²/jor: en superficies mayores a 1,000 m² los ejes son más largos y se instalan menos estaciones por m² (catálogo 600 m²/jor; +25 % por escala, consistente con la baja de 14 % del P.U. del catálogo entre 0003 y 0004)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Estación total y nivel automático (renta)",
+      "horas": 0.0107,
+      "costo_horario": 120.0
+    }
+  ],
+  "supuestos": [
+    "Superficie mayor a 1,000 m².",
+    "Estación total + nivel $120/h (≈$960/día) como referencia sin cotización, igual que E01.01.0002; horas = 8 h / 750 m².",
+    "Materiales por m² iguales al trazo hasta 1,000 m² (estacas y calhidra en proporción al área)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

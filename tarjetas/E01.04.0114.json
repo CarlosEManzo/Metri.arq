@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.04.0114",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es de entorno urbano preexistente (banqueta, guarnición, pavimento)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16,
+    "fuente": "16 m²/jor peón = 0.80 m³/jor con pico y barreta (catálogo 20 m²/jor). CDMX BL12DB (bacheo manual) $623.20/m³ implica 1.2-1.5 m³/jor, alto para carpeta completa"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Carpeta asfáltica de 5 cm, rota a mano con pico y barreta sin afectar la base.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E01.04.0093",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.5,
+    "fuente": "4.5 m²/jor peón a marro (catálogo 20 m²/jor): ≈0.6 m³/jor de concreto armado, igual que la losa maciza (E01.04.0089)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Losa reticular de 30 cm aligerada con casetón de poliestireno (≈0.14 m³ de concreto por m²), rota a mano con marro; el poliestireno y la bovedilla se retiran con el escombro.",
+    "Losa de azotea o entrepiso a cualquier altura hasta 3.00 m; el apuntalamiento provisional que pudiera requerir se paga aparte. El refuerzo se corta con cizalla, segueta o esmeriladora.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

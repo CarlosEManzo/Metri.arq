@@ -1,0 +1,26 @@
+{
+  "clave_cb": "E01.01.0007",
+  "gubim": "80.10.30.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "SAN-PORT-MES",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Renta de un mes con 3 servicios semanales (succión, lavado, químico y papel)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [],
+    "rendimiento": 1.0,
+    "fuente": "Sin mano de obra propia: el servicio lo presta el arrendador; el rendimiento no interviene"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Un sanitario portátil estándar para obra, con entrega, instalación, retiro y 3 servicios de limpieza por semana.",
+    "Precio de renta mensual sin IVA con fuente y rango en datos/insumos_lote4a.csv (SAN-PORT-MES)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

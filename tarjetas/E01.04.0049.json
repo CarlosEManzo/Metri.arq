@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E01.04.0049",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18,
+    "fuente": "18 m²/jor peón (catálogo 20)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Enladrillado de 2 cm con su mortero de asiento, demolido a mano con marro, cincel o espátula; sin recuperación.",
+    "Trabajo sobre la losa de azotea: no requiere andamio aunque la descripción lo mencione (el acceso se hace por escalera de la obra).",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

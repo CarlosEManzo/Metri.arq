@@ -1,0 +1,42 @@
+{
+  "clave_cb": "E01.02.0003",
+  "gubim": "70.50.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si se clasifica como retiro de elemento de entorno preexistente (no plantación)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5,
+    "fuente": "5 pza/jor ayudante (motosierrista) + peón; catálogo 8 pza/jor con 2 peones. Se baja por el uso de motosierra y el troceo de ramas en árboles de 11-20 cm (≈5-8 m de altura)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Motosierra 18-20 in a gasolina (renta o depreciación, gasolina, aceite y cadena)",
+      "horas": 0.8,
+      "costo_horario": 60.0
+    }
+  ],
+  "supuestos": [
+    "Árbol aislado en predio, con espacio para caída dirigida; sin extracción de tocón ni raíces.",
+    "Troceo del tronco y ramas en piezas manejables y acopio dentro del predio (acarreo libre 20 m); carga y retiro aparte.",
+    "No incluye permisos de derribo ni compensación ambiental.",
+    "Motosierra 0.8 h por árbol.",
+    "Motosierra 18-20 in $60/h como referencia (renta ≈$400-500/día o depreciación de equipo propio + gasolina, aceite y afilado de cadena); sin cotización de Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

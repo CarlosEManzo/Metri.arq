@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E01.04.0118",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es de entorno urbano preexistente (banqueta, guarnición, pavimento)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 80,
+    "fuente": "80 m²/jor = 8.0 m³/jor con martillo neumático y pala de corte (catálogo 20 m²/jor con peón). La carpeta se levanta en placas; un operador con martillo de 60 lb rinde 8-10 m²/h"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresor 185 PCM a diésel con martillo rompedor neumático 60-90 lb (renta, diésel y mangueras)",
+      "horas": 0.1,
+      "costo_horario": 280.0
+    }
+  ],
+  "supuestos": [
+    "Carpeta asfáltica de 10 cm levantada con martillo neumático con pala; el mismo peón opera el martillo y hace a un lado las placas.",
+    "Compresor 0.100 h/m².",
+    "Compresor 185 PCM a diésel con un martillo neumático $280/h como referencia: renta ≈$1,600-2,000/día con martillo y mangueras (Hemoeco, MAEQ, Rensa publican el equipo a cotizar) + diésel ≈3 l/h × $24; sin cotización de Morelia.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

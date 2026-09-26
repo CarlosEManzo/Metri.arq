@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E01.01.0001",
+  "gubim": "10.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CAL-HID",
+      "cantidad": 5e-05,
+      "desperdicio": 0.1,
+      "nota": "Marcado de ejes con calhidra: ≈0.05 kg/m² de planta"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Estacas y puentes de trazo de pino 3a: ≈0.15 pt/m² de planta, 5 usos → 0.03 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "Clavo para puentes de trazo ≈2 g/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 250,
+    "fuente": "250 m²/jor Of+Pe (rendimiento del catálogo). Trazo con cinta, hilo y nivel de manguera; rango publicado 200-300 m²/jor para trazo manual de desplante"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Trazo de desplante en planta medido por m² de superficie trazada, con cinta, escuadra de hilos y nivel de manguera; banco de nivel referido a un punto dado por la supervisión.",
+    "Mismos materiales que el trazo con equipo topográfico (E01.01.0002).",
+    "Hilo, pintura en aerosol y nivel de manguera: cubiertos por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

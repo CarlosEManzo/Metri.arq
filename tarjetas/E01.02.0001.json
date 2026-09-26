@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.02.0001",
+  "gubim": "10.20.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "10.20.20",
+      "condicion": "si se agrupa con los movimientos de tierra"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 75,
+    "fuente": "75 m²/jor peón con machete y azadón (catálogo 120 m²/jor). Rango publicado 60-120 m²/jor según densidad de la hierba; el tabulador CDMX BC12BB ($12.01) implica ≈70 m²/jor, por eso se toma el valor bajo del rango"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Terreno con hierba y maleza baja (sin árboles ni arbustos leñosos), deshierbe con machete y azadón.",
+    "La quema de hierba está restringida por la normativa ambiental; se considera acopio en montones dentro del predio (acarreo libre 20 m). Carga y retiro en camión aparte.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.04.0056",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 15,
+    "fuente": "15 m²/jor peón = 1.80 m³/jor de concreto simple a mano (catálogo 20 m²/jor). Referencia publicada ≈1.2 m³/jor para concreto simple; el firme sobre terreno se rompe más fácil (1.6-1.8 m³/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Firme de concreto simple de 12 cm sobre terreno, roto a mano con marro, cuña y barreta.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

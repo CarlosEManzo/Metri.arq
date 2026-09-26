@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E01.01.0003",
+  "gubim": "10.20.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CAL-HID",
+      "cantidad": 5e-05,
+      "desperdicio": 0.1,
+      "nota": "Marcado de ejes con calhidra: ≈0.05 kg/m² de planta"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Estacas y puentes de trazo de pino 3a: ≈0.15 pt/m² de planta, 5 usos → 0.03 pt/m²"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.002,
+      "desperdicio": 0.0,
+      "nota": "Clavo para puentes de trazo ≈2 g/m²"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "TOPO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 600,
+    "fuente": "600 m²/jor (rendimiento del catálogo, igual que E01.01.0002). Cuadrilla Topógrafo + ayudante + peón; el tabulador CDMX AF13DB ($10.10) implica ≈650 m²/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Estación total y nivel automático (renta)",
+      "horas": 0.0133,
+      "costo_horario": 120.0
+    }
+  ],
+  "supuestos": [
+    "Superficie hasta 1,000 m²: se usa el mismo análisis que E01.01.0002 (trazo con equipo topográfico sin límite de área).",
+    "Estación total + nivel $120/h (≈$960/día) como referencia sin cotización, igual que E01.01.0002; horas = 8 h / 600 m².",
+    "Hilo, pintura en aerosol y trompos: cubiertos por la herramienta menor."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

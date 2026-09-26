@@ -1,0 +1,56 @@
+{
+  "clave_cb": "E01.01.0006",
+  "gubim": "80.10.40.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TRIPLAY-PINO-16",
+      "cantidad": 0.4031,
+      "desperdicio": 0.05,
+      "nota": "2.40 m² por m / 2.977 m² por hoja = 0.806 hoja/m; 2 usos (se recupera al desmantelar) → 0.403 hoja/m"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 1.793,
+      "desperdicio": 0.05,
+      "nota": "Polín 4x4 in × 3.00 m (0.60 m hincado) @ 2.44 m = 13.1 pt / 2.44 m = 5.37 pt/m; 3 usos (se recupera al desmantelar)"
+    },
+    {
+      "insumo": "MAD-PINO3",
+      "cantidad": 2.023,
+      "desperdicio": 0.05,
+      "nota": "Barrote 1 1/2 x 3 1/2 in (1.435 pt/m): 3 largueros + contraviento de 3.00 m por polín = 6.07 pt/m; 3 usos"
+    },
+    {
+      "insumo": "CLAVO-2.5",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Clavo 2 1/2 in ≈0.25 kg/m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-CAR",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10,
+    "fuente": "10 m/jor carpintero + peón: 12 m/jor del catálogo para la colocación (hincado de polines y contraventeo) más ≈0.13 jor/m del desmontaje al término de la obra, que la descripción incluye"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tapial de 2.40 m de triplay de pino 16 mm sobre polines de 4x4 in @ 2.44 m hincados 0.60 m, largueros y contravientos de barrote 1 1/2 x 3 1/2 in.",
+    "Triplay a 2 usos y polines y barrotes a 3 usos: se recuperan al desmantelar el tapial (la descripción incluye el desmontaje). Con triplay de un solo uso el P.U. sube a ≈$1,000/m.",
+    "Tabulador CDMX CF12BG (tapial de triplay de 12 mm, polines @ 1.22 m) $228.17/m² × 2.40 m = $547.61/m, sin desmontaje; par aproximado.",
+    "Triplay de pino 16 mm $560/hoja sin IVA (TRIPLAY-PINO-16); en Michoacán se publica hasta $1,040 con IVA (Maderería Mil Cumbres), así que el valor adoptado es conservador.",
+    "No incluye pintura, rótulos ni puertas."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

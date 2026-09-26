@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E01.04.0005",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 13,
+    "fuente": "Cantera de 3 cm con mortero: piezas pesadas; 13 m²/jor peón (catálogo 20)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Retiro a mano con marro, cincel y espátula, sin recuperación de piezas; se deja la superficie lista para recibir el nuevo acabado.",
+    "Trabajo a nivel de piso, sin andamio.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

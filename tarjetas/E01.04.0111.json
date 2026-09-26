@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.04.0111",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es de entorno urbano preexistente (banqueta, guarnición, pavimento)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22,
+    "fuente": "22 m²/jor peón = 1.76 m³/jor (igual que el firme de 8 cm, E01.04.0054). CDMX BL12CH (guarnición y banqueta simple) $639.23/m³ × 0.08 = $51.14/m²"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Banqueta de concreto simple de 8 cm, rota a mano con marro y barreta.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

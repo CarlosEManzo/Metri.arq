@@ -1,0 +1,102 @@
+{
+  "clave_cb": "E01.01.0005",
+  "gubim": "80.10.40.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "LAM-R101-C24",
+      "cantidad": 2.0,
+      "desperdicio": 0.05,
+      "nota": "Lámina R-101 pintro, 2.00 m de altura × 1 m (ancho útil 1.00 m); traslapes en el desperdicio"
+    },
+    {
+      "insumo": "LAM-R101-C24",
+      "cantidad": 0.32,
+      "desperdicio": 0.05,
+      "nota": "Forro de 2 puertas de 4.80 × 2.00 m = 19.2 m², prorrateado en 60 m de tapial"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 2.6,
+      "desperdicio": 0.05,
+      "nota": "Postes PTR 2x2 in cal. 12 (≈3.0 kg/m) de 2.60 m (0.60 m anclado) @ 3.00 m: 7.8 kg / 3 m"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 3.2,
+      "desperdicio": 0.05,
+      "nota": "2 largueros PTR 1 1/2 in cal. 14 (≈1.6 kg/m) a 0.30 y 1.70 m"
+    },
+    {
+      "insumo": "PTR-ACERO",
+      "cantidad": 2.2,
+      "desperdicio": 0.05,
+      "nota": "Bastidor de las 2 puertas: ≈22 m de PTR 2x2 cal. 12 (66 kg) por puerta, prorrateado en 60 m"
+    },
+    {
+      "insumo": "BISAGRA-TUB-1",
+      "cantidad": 0.1333,
+      "desperdicio": 0.0,
+      "nota": "4 bisagras con grasera por puerta, prorrateadas"
+    },
+    {
+      "insumo": "PASADOR-PORTACANDADO",
+      "cantidad": 0.0333,
+      "desperdicio": 0.0,
+      "nota": "1 pasador portacandado por puerta, prorrateado"
+    },
+    {
+      "insumo": "TORN-AUTOTAL",
+      "cantidad": 8.0,
+      "desperdicio": 0.05,
+      "nota": "Tornillo autotaladrante: 2 largueros × 4 por m de lámina"
+    },
+    {
+      "insumo": "ELECTRODO-6013",
+      "cantidad": 0.12,
+      "desperdicio": 0.1,
+      "nota": "Soldadura de largueros a postes y bastidores de puertas"
+    },
+    {
+      "basico": "CON-100",
+      "cantidad": 0.018,
+      "desperdicio": 0.05,
+      "nota": "Dado de anclaje 0.30 × 0.30 × 0.60 m (0.054 m³) por poste @ 3.00 m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-HER",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12,
+    "fuente": "12 m/jor (rendimiento del catálogo) para la cuadrilla herrero + ayudante + peón (el peón excava y cuela los dados); incluye el armado prorrateado de las puertas"
+  },
+  "equipo": [
+    {
+      "descripcion": "Máquina de soldar eléctrica 250 A",
+      "horas": 0.3,
+      "costo_horario": 45.0
+    }
+  ],
+  "supuestos": [
+    "Tapial de 2.00 m de lámina R-101 pintro cal. 24 sobre postes PTR 2x2 in @ 3.00 m anclados en dados de concreto f'c=100 hecho en obra.",
+    "Las dos puertas de 4.80 m se prorratean en un tapial de 60 m (frente y colindancias de un predio típico); en tramos más cortos el costo por metro sube.",
+    "Material de un solo uso, sin recuperación ni pintura adicional (la lámina viene prepintada).",
+    "Máquina de soldar $45/h (mismo costo que otras tarjetas); 0.30 h/m.",
+    "No incluye el desmantelamiento al término de la obra."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

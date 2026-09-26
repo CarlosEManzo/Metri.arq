@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E01.04.0073",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.75,
+    "fuente": "3.75 m/jor peón = 0.3 m³/jor a marro (0.080 m³/m; catálogo 20 m/jor genérico). Trabe sobre la cabeza: por debajo del rango publicado 0.55-0.70 m³/jor"
+  },
+  "equipo": [
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.3,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 2.1333,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Trabe de concreto armado de 20 × 40 cm hasta 3.00 m de altura, rota a mano con marro.",
+    "Equipo de corte: esmeriladora 0.3 h/m para las varillas longitudinales y estribos.",
+    "Esmeriladora angular $12/h (mismo costo horario que otras tarjetas) para cortar varilla y malla; el disco se incluye en el costo horario.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

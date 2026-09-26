@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E01.04.0091",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 m³/jor 2 peones = 2.5 m³/jor con rompedora neumática 60-90 lb (catálogo 20 m³/jor peón genérico)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresor 185 PCM a diésel con martillo rompedor neumático 60-90 lb (renta, diésel y mangueras)",
+      "horas": 3.2,
+      "costo_horario": 280.0
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.8,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Cortadora de disco de diamante (renta + disco)",
+      "horas": 0.5,
+      "costo_horario": 30.0
+    }
+  ],
+  "supuestos": [
+    "Losa de concreto armado medida en volumen colocado. Losa de azotea o entrepiso a cualquier altura hasta 3.00 m; el apuntalamiento provisional que pudiera requerir se paga aparte. El refuerzo se corta con cizalla, segueta o esmeriladora.",
+    "Cuadrilla de 2 peones: uno opera la rompedora neumática y otro corta el refuerzo y retira el escombro.",
+    "Esmeriladora 2 h por jornada para cortar el refuerzo. Esmeriladora angular $12/h (mismo costo horario que otras tarjetas) para cortar varilla y malla; el disco se incluye en el costo horario.",
+    "Corte perimetral con disco 0.5 h/m³. Cortadora de disco de diamante $30/h (renta + disco, mismo costo que las tarjetas de cortes) para el corte perimetral que evita dañar lo que queda.",
+    "Compresor 185 PCM a diésel con un martillo neumático $280/h como referencia: renta ≈$1,600-2,000/día con martillo y mangueras (Hemoeco, MAEQ, Rensa publican el equipo a cotizar) + diésel ≈3 l/h × $24; sin cotización de Morelia.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

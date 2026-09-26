@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.04.0113",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si el elemento es de entorno urbano preexistente (banqueta, guarnición, pavimento)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 17,
+    "fuente": "17 m/jor peón = 1.2 m³/jor (0.07 m³/m); menos que el firme porque hay que descalzar la pieza y extraer la pedacería. CDMX BL12CH $639.23/m³ × 0.07 = $44.75/m"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Guarnición trapezoidal de concreto simple 15 × 20 × 40 cm (0.07 m³/m), rota a mano con marro y barreta, con extracción de la pedacería.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

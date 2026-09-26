@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E01.04.0013",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18,
+    "fuente": "Aplanado de yeso de 2 cm en plafón; 18 m²/jor peón (catálogo 20). CDMX BL12JB (yeso en plafón) $49.77"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.4444,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Retiro a mano con marro, cincel y espátula, sin recuperación de piezas; se deja la superficie lista para recibir el nuevo acabado.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E01.04.0034",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.21,
+    "fuente": "10.21 m²/jor peón = 1 / suma de tiempos: muro 20.0 m²/jor (2.8 m³/jor de tabique); castillos y cadenas 0.0182 m³/m² de concreto armado a 0.5 m³/jor; aplanado en ambas caras +0.018 jor/m². Base: E01.04.0032 (tabique 14 cm, 20 m²/jor = 2.8 m³/jor, validada contra CDMX BL12FB); tablas publicadas 22-26 m²/jor para tabique o block. Catálogo 20 m²/jor genérico"
+  },
+  "equipo": [
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.7835,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Muro de tabique rojo recocido de 14 cm hasta 3.00 m de altura, demolido a mano con marro y cincel; sin recuperación de piezas.",
+    "Castillos @ 3.00 m y cadena de cerramiento de 14 × 15-20 cm (13 % del área del muro): varilla cortada con cizalla o segueta (herramienta menor).",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E01.04.0060",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7,
+    "fuente": "7 m²/jor peón = 0.84 m³/jor a marro y cuña (catálogo 20 m²/jor). Referencia publicada 0.55-0.70 m³/jor para concreto armado; el firme sobre terreno con refuerzo ligero rinde algo más"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Firme de concreto armado de 12 cm (varilla) sobre terreno, roto a mano con marro y cuña; el refuerzo se corta con cizalla o segueta (herramienta menor).",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E01.04.0110",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 20,
+    "fuente": "Peones de apoyo 20 m³/jor (2 peones cortan el refuerzo con oxicorte y separan el acero); la retroexcavadora con martillo hidráulico fractura 2.5 m³/h de concreto armado (rango publicado 1.5-4 m³/h según armado y confinamiento)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Retroexcavadora con martillo hidráulico y operador (incl. diésel)",
+      "horas": 0.4,
+      "costo_horario": 1300.0
+    },
+    {
+      "descripcion": "Equipo de oxicorte (oxígeno-acetileno)",
+      "horas": 0.4,
+      "costo_horario": 90.0
+    }
+  ],
+  "supuestos": [
+    "Concreto armado accesible desde el terreno (cimentaciones, muros bajos, losas de piso), fracturado con martillo hidráulico montado en retroexcavadora; volumen medido colocado.",
+    "Retroexcavadora con martillo hidráulico y operador $1,300/h (mismo costo horario que E02.01.0005: rango 2025 $900-2,000/h); 0.40 h/m³.",
+    "Oxicorte $90/h (mismo costo que otras tarjetas) 0.40 h/m³ para cortar el acero de refuerzo.",
+    "No incluye andamios: el equipo trabaja desde el piso aunque la descripción los mencione.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

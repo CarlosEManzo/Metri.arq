@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E01.04.0075",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 17.5,
+    "fuente": "17.5 m/jor 2 peones = 1.4 m³/jor (0.080 m³/m) con rompedora neumática 60-90 lb (catálogo 20 m/jor peón genérico). Trabe sobre la cabeza: rinde menos que el muro o la columna"
+  },
+  "equipo": [
+    {
+      "descripcion": "Compresor 185 PCM a diésel con martillo rompedor neumático 60-90 lb (renta, diésel y mangueras)",
+      "horas": 0.4571,
+      "costo_horario": 280.0
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.3,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.4571,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Trabe de concreto armado de 20 × 40 cm hasta 3.00 m de altura; trabajo sobre la cabeza desde andamio.",
+    "Cuadrilla de 2 peones: uno opera la rompedora neumática y otro corta el refuerzo y retira el escombro.",
+    "Esmeriladora 5 h por jornada para cortar el refuerzo. Esmeriladora angular $12/h (mismo costo horario que otras tarjetas) para cortar varilla y malla; el disco se incluye en el costo horario.",
+    "Compresor 185 PCM a diésel con un martillo neumático $280/h como referencia: renta ≈$1,600-2,000/día con martillo y mangueras (Hemoeco, MAEQ, Rensa publican el equipo a cotizar) + diésel ≈3 l/h × $24; sin cotización de Morelia.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

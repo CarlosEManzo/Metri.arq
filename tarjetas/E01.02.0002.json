@@ -1,0 +1,31 @@
+{
+  "clave_cb": "E01.02.0002",
+  "gubim": "70.50.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.20",
+      "condicion": "si se clasifica como retiro de elemento de entorno preexistente (no plantación)"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor 2 peones (rendimiento del catálogo) para árbol hasta 10 cm, con hacha y serrucho"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Árbol aislado en predio, con espacio para caída dirigida; sin extracción de tocón ni raíces.",
+    "Troceo del tronco y ramas en piezas manejables y acopio dentro del predio (acarreo libre 20 m); carga y retiro aparte.",
+    "No incluye permisos de derribo ni compensación ambiental.",
+    "Árbol hasta 10 cm de diámetro (≈4 m de altura): se tala con hacha y serrucho, sin motosierra."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

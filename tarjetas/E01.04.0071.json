@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E01.04.0071",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 22.22,
+    "fuente": "22.22 m/jor 2 peones = 1.0 m³/jor (0.045 m³/m) con rompedora eléctrica 30 kg (catálogo 20 m/jor peón genérico). Trabe sobre la cabeza: rinde menos que el muro o la columna"
+  },
+  "equipo": [
+    {
+      "descripcion": "Rompedora (martillo demoledor) eléctrica 30 kg: renta, energía y desgaste de cincel",
+      "horas": 0.36,
+      "costo_horario": 75.0
+    },
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.25,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.36,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Trabe de concreto armado de 15 × 30 cm hasta 3.00 m de altura; trabajo sobre la cabeza desde andamio.",
+    "Cuadrilla de 2 peones: uno opera la rompedora eléctrica y otro corta el refuerzo y retira el escombro.",
+    "Esmeriladora 6 h por jornada para cortar el refuerzo. Esmeriladora angular $12/h (mismo costo horario que otras tarjetas) para cortar varilla y malla; el disco se incluye en el costo horario.",
+    "Rompedora eléctrica 30 kg $75/h como referencia: renta de mercado ≈$450-600/día (arrendadoras de maquinaria ligera en CDMX, León y Guadalajara publican el equipo con precio a cotizar) + energía ≈2 kW y desgaste de cincel; sin cotización de Morelia.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E01.04.0028",
+  "gubim": "00.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "00.20.10",
+      "condicion": "si el elemento pertenece a una edificación colindante o preexistente específica"
+    }
+  ],
+  "materiales": [],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 11,
+    "fuente": "11 m²/jor peón (catálogo 20): el panel de malla electrosoldada y poliestireno con aplanado en ambas caras se rompe a marro y la malla se corta con esmeriladora; sin rendimiento publicado específico"
+  },
+  "equipo": [
+    {
+      "descripcion": "Esmeriladora angular 4 1/2 in",
+      "horas": 0.15,
+      "costo_horario": 12.0
+    },
+    {
+      "descripcion": "Andamio tubular 1 cuerpo (renta)",
+      "horas": 0.7273,
+      "costo_horario": 4.5
+    }
+  ],
+  "supuestos": [
+    "Panel tipo Covintec de 10 cm terminado (5 cm de poliestireno + 2.5 cm de mortero por cara) hasta 3.00 m de altura.",
+    "Malla cortada con esmeriladora 0.15 h/m².",
+    "Esmeriladora angular $12/h (mismo costo horario que otras tarjetas) para cortar varilla y malla; el disco se incluye en el costo horario.",
+    "Cuadrilla de peón; la herramienta menor (3 % de la M.O.) cubre marro, cincel, cuña, barreta, pala y carretilla.",
+    "Andamio tubular de 1 cuerpo, renta ≈$35/día ($4.50/h) como referencia sin cotización (mismo valor que E01.04.0032); horas = 8 h / rendimiento.",
+    "Sin recuperación de material. El escombro se deja apilado dentro de la obra con acarreo libre hasta 20 m; la carga y el acarreo en camión fuera de la obra se pagan aparte (E02.01.0039/0040)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
