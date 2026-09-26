@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E10.01.0016",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-MI01",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "HVX-TH058",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "MANG-FLEX-AGUA-40",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Alimentación fría y caliente"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "≈1 m de cinta"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Sello de base contra cubierta"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "El MI-01 original incluía contra; el vigente MI-01-S/C se vende sin contra, así que se agrega la contra TH-058.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

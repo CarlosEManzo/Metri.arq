@@ -1,0 +1,54 @@
+{
+  "clave_cb": "E10.01.0046",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-E61",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "4 uniones soldadas de 13 mm (≈7 g c/u)"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 jgo/jor plomero (catálogo 8): 2 llaves soldadas, prueba y chapetones"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ranura y resane del muro fuera del alcance.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

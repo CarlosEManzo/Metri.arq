@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E10.01.0013",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.10.20",
+      "condicion": "si es repisa o portatoallas de estante"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-122",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10,
+    "fuente": "10 pza/jor oficial (catálogo 8): dos piezas (carrete y gancho) en muros opuestos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "GuBIM del catálogo 50.10.20.60 no corresponde a un tendedero; se conserva y se propone 60.10.10.80.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

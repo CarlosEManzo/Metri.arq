@@ -1,0 +1,56 @@
+{
+  "clave_cb": "E10.02.0033",
+  "gubim": "60.10.10.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-RONDALYN",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Llaves de paso angulares fría y caliente"
+    },
+    {
+      "insumo": "CESPOL-PVC-LAV",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Céspol de PVC con contra"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.25,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral con la cubierta (≈75 ml)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Rondalyn 01640 sustituido por el vigente 01659.",
+    "Grifería fuera del alcance.",
+    "Salidas hidráulica y sanitaria existentes.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El Rondalyn vigente 01659 tiene lista de $2,477.76 con IVA ($1,815.60 sin IVA con 15 %). Con 2 llaves angulares, céspol y M.O. Of+Ay a 3 pza/jor ($676.50), el P.U. es $3,678. El P.U. actualizado ($2,689) deja ≈$1,400 para el lavabo, menos que la lista 2026."
+}

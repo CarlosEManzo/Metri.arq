@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E10.03.0051",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "JOFEL-PH52001",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Porta rollo azur maxi blanco PH52001 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 pijas con taquete"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor oficial (rendimiento del catálogo)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "El PH52001 está marcado como descontinuado por el distribuidor; su sustituto vigente es el Azur maxi PH53001 de precio similar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (JOFEL-PH52001) cuesta $805.88 sin IVA según Jofel PH52001 Azur maxi: lista $1,068.36, venta $801.27 con IVA (mueblesparabano.mx; modelo marcado 'ya no fabricado'); se toma el punto medio $934.82 ÷ 1.16; es el 83% del costo directo. P.U. tarjeta $1,245.09 contra P.U. actualizado $952.71 (+31%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo."
+}

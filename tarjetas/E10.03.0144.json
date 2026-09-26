@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E10.03.0144",
+  "gubim": "50.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.20.10",
+      "condicion": "si presuriza una instalación térmica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ROTO-HIDRO-1-72",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Equipo hidroneumático Rotoplas 1 HP con tanque de 72 L"
+    },
+    {
+      "insumo": "VALV-CHECK-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Retención en la descarga"
+    },
+    {
+      "insumo": "TUERCA-UNION-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Succión y descarga"
+    },
+    {
+      "insumo": "NIPLE-GALV-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.2,
+    "fuente": "1.2 pza/jor Of plomero + Ay: tanque grande, presostato, manómetro, conexiones y prueba. Catálogo 1 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Base, succión, descarga y contacto eléctrico existentes.",
+    "Precio del equipo derivado del P.U. de Construbase: los precios de mercado encontrados para 1 HP con tanque de 72 y 132 L van de $7,010 a $20,620 con IVA y no permiten fijar uno. Prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

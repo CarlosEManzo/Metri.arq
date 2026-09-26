@@ -1,0 +1,54 @@
+{
+  "clave_cb": "E10.01.0022",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-E74",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "4 uniones soldadas de 13 mm (≈7 g c/u)"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.01,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 pza/jor plomero (catálogo 8): válvula empotrada con 4 uniones soldadas, prueba y chapetón"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Línea Axiss descontinuada; precio derivado del catálogo. Ranura y resane de muro fuera del alcance.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

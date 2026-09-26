@@ -1,0 +1,67 @@
+{
+  "clave_cb": "E10.02.0021",
+  "gubim": "60.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-WC-0021",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CUELLO-CERA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso angular"
+    },
+    {
+      "insumo": "MANG-COFLEX-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Fijación a piso"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral en base"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor; APU publicados 3-4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo de 2017 descontinuado o sin precio publicado; derivado del catálogo.",
+    "Salidas hidráulica y sanitaria existentes.",
+    "Asiento fuera del alcance salvo que el modelo lo incluya (E10.02.0002-0008).",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

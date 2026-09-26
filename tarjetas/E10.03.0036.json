@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E10.03.0036",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "JOFEL-AH14000",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Dispensador de toalla Z-600 metal inox AH14000 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 pijas con taquete (incluye plantilla del fabricante)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor oficial (rendimiento del catálogo; APU publicados 8-10 pza/jor para accesorios de sobreponer)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

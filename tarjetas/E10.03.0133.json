@@ -1,0 +1,58 @@
+{
+  "clave_cb": "E10.03.0133",
+  "gubim": "50.20.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-BIO-1300",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Biodigestor autolimpiable Rotoplas 1300 L con accesorios (filtro, válvula de extracción de lodos)"
+    },
+    {
+      "insumo": "TUBO-PVC-SAN-100",
+      "cantidad": 3,
+      "desperdicio": 0.03,
+      "nota": "Tramos de entrada, salida y extracción de lodos"
+    },
+    {
+      "insumo": "CODO-PVC-SAN-100",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of plomero + Ay + 1 peón: descenso a la excavación, nivelación, conexión y llenado de prueba. Catálogo 1 pza/jor Of+Ay"
+  },
+  "equipo": [],
+  "supuestos": [
+    "El 'Fosaplas con autolimpieza' de 2017 es hoy el Biodigestor Autolimpiable Rotoplas; se cotiza ese equivalente vigente.",
+    "Excavación, cama de arena, relleno, registro de lodos y pozo o zanja de absorción se pagan por separado."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-BIO-1300) cuesta $14,003.45 sin IVA según Biodigestor autolimpiable 1,300 L: $16,244 con IVA (FH); Home Depot $17,899; Plomería Universal $13,596-16,995. Se toma $16,244 ÷ 1.16; es el 87% del costo directo. P.U. tarjeta $20,761.59 contra P.U. actualizado $15,444.08 (+34%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo."
+}

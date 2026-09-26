@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.02.0001",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-ACC-HABITAT",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 3.0,
+      "desperdicio": 0.05,
+      "nota": "Asentar 6 piezas (≈0.5 kg c/u)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 jgo/jor oficial (catálogo Of 4): 6 piezas empotradas en azulejo"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Línea de accesorios de porcelana Habitat sin precio publicado; derivado del catálogo.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

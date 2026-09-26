@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E10.03.0018",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "JOFEL-DJ61000",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Dispensador de jabón empotrar c/depósito DJ61000 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "4 pijas con taquete para el depósito"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 pza/jor oficial: dispensador de empotrar, ajuste en hueco preparado (catálogo 8 pza/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "Precio del accesorio derivado del P.U. de Construbase (no se encontró precio público 2026 del modelo); prioridad para cotizar con distribuidor Jofel (Gustamar, Surtidor).",
+    "Hueco en muro preparado por albañilería (no incluido)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

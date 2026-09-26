@@ -1,0 +1,77 @@
+{
+  "clave_cb": "E10.03.0146",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.10.50",
+      "condicion": "si alimenta una instalación térmica (termoacumulador)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CALOREX-G-10",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Calentador de depósito Calorex G-10 gas LP 38 L, 1 servicio"
+    },
+    {
+      "insumo": "MANG-FLEX-AGUA-40",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Agua fría y caliente"
+    },
+    {
+      "insumo": "VALV-ESF-13",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de agua fría"
+    },
+    {
+      "insumo": "CONEC-GAS-38-150",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Conexión a la línea de gas"
+    },
+    {
+      "insumo": "LLAVE-GAS-38",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de gas"
+    },
+    {
+      "insumo": "VENT-CAL-3",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Chimenea con sombrerete"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "3 pza/jor Of plomero + Ay (catálogo 3 pza/jor para calentadores domésticos)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Salidas de agua fría, caliente y gas LP existentes a pie del calentador; se asienta sobre piso firme (sin base metálica).",
+    "Incluye chimenea de 1 m con sombrerete, conectores flexibles y llaves de paso.",
+    "El modelo 'G-10 STD' de 2017 corresponde hoy a la línea Calorex Maximus G-10."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

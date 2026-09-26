@@ -1,0 +1,64 @@
+{
+  "clave_cb": "E10.03.0140",
+  "gubim": "50.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.20.10",
+      "condicion": "si recircula agua de una instalación térmica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ROTO-BOMBA-140",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Bomba centrífuga Rotoplas 1 HP"
+    },
+    {
+      "insumo": "VALV-CHECK-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Retención en la descarga"
+    },
+    {
+      "insumo": "TUERCA-UNION-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Succión y descarga"
+    },
+    {
+      "insumo": "NIPLE-GALV-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of plomero + Ay: fijación en base, conexión de succión y descarga con tuerca unión y prueba. Catálogo 1 pza/jor (16 hh) excesivo para una bomba doméstica"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Base o losa existente, tubería de succión y descarga hasta 1 m de la bomba y contacto eléctrico con protección existentes.",
+    "La rotobomba de 2017 corresponde a la línea vigente de bombas Rotoplas de la misma potencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

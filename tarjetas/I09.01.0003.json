@@ -1,0 +1,48 @@
+{
+  "clave_cb": "I09.01.0003",
+  "gubim": "40.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "SNLK-0003",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 8,
+      "desperdicio": 0.0,
+      "nota": "2 anclas por pilastra/poste a piso"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 21,
+      "desperdicio": 0.0,
+      "nota": "Escuadras de panel y pilastra a muro (3 por lado)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALU",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1,
+    "fuente": "1 jgo/jor Of+Ay (catálogo Of+Ay 1): armado, nivelación y anclaje"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sanilock no publica precios (solo cotización); precio derivado del catálogo. Prioridad para cotizar con el fabricante.",
+    "Si el fabricante instala (el concepto dice 'instalación y viáticos'), la M.O. de esta tarjeta sustituye a la suya; no se duplica.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

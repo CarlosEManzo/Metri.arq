@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E10.03.0124",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-TIN-JET-124",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tinaco Rotoplas Jet 1100 L con accesorios"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Liga de alimentación y salida a la red"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2.5,
+    "fuente": "2.5 pza/jor Of plomero + Ay: tinaco horizontal con soportes (más maniobra que el vertical de 1100 L, 3 pza/jor). Catálogo 1 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco sobre base existente, elevación manual hasta 2 niveles; alimentación y salida existentes.",
+    "Precio del tinaco derivado del P.U. de Construbase; prioridad para cotizar con distribuidor Rotoplas en Morelia.",
+    "La línea 'Jet' de 2017 no aparece en el catálogo vigente de Rotoplas; no se identificó un equivalente directo."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

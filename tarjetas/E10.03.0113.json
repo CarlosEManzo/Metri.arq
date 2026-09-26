@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E10.03.0113",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-CIS-1000-H",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cisterna/tanque horizontal Rotoplas 1,000 L (sin bomba)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Alimentación, succión y descarga"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of plomero + Ay (catálogo 1 pza/jor): colocación en excavación preparada y conexiones"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación, plantilla, relleno y losa tapa por separado.",
+    "Precio del tanque derivado del P.U. de Construbase; el modelo horizontal de 1,000 L no aparece en la lista vigente de Rotoplas. Prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

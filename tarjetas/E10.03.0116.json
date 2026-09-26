@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E10.03.0116",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-CIS-5000-EQ",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cisterna Rotoplas 5,000 L equipada (bomba, filtro, flotador, válvulas)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Alimentación, succión y descarga"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 2
+      }
+    ],
+    "rendimiento": 1.2,
+    "fuente": "1.2 pza/jor Of plomero + Ay + 2 peón: bajar a la excavación, nivelar, conectar alimentación, succión y descarga, colocar bomba y probar. Catálogo 1 pza/jor Of+Ay para todas las capacidades"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación, plantilla de concreto, relleno y losa tapa se pagan por separado; la cisterna se coloca en excavación preparada.",
+    "La bomba se conecta a un contacto o arrancador existente junto a la cisterna."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-CIS-5000-EQ) cuesta $19,124.14 sin IVA según FH Ferreterías 2026: con equipo desde $22,184 con IVA (sin equipo $18,359) ÷ 1.16; es el 85% del costo directo. P.U. tarjeta $28,742.78 contra P.U. actualizado $21,299.66 (+35%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo. El tabulador CDMX JG15BG ($27,481.41, mismo tipo de equipo Rotoplas) queda a +5% de la tarjeta."
+}

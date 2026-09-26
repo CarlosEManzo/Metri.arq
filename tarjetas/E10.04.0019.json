@@ -36,8 +36,13 @@
     "Alcance: suministro, presentación, sellado y fijación de la tarja en cubierta ya perforada. La contracanasta, el céspol, la mezcladora o llaves y las conexiones se pagan en sus conceptos (E10.01.0039, E11.05.0144, E10.01.0023/24), igual que en Construbase.",
     "Salidas hidráulica y sanitaria ya existentes; el hueco en la cubierta lo hace el marmolero o el carpintero.",
     "Precio de la tarja: ver fuente de TARJA-EB-MS100 en datos/insumos_lote4f.csv; es el ≈80-90 % del costo directo y conviene cotizarlo con distribuidor EB Técnica en Morelia.",
-    "Tarja de submontar: requiere cubierta de granito, cuarzo o superficie sólida con el corte pulido; el sellado es con silicón neutro de la misma partida."
+    "Tarja de submontar: requiere cubierta de granito, cuarzo o superficie sólida con el corte pulido; el sellado es con silicón neutro de la misma partida.",
+    "El P.U. actualizado de Construbase del MS-100 (material $444.62) es incongruente con la lista EB Técnica 2021 (MS-100 $492 + IVA, CS-214 $3,126): se valida contra una referencia sustituta derivada de la familia."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 1758.9,
+    "razon": "El P.U. actualizado de Construbase rompe la progresión de la familia: en las tarjas de empotrar la línea Mark cuesta ≈0.52 de la Clásica equivalente (material actualizado M-100/C-100 = 708.30/1,380.30 = 0.513; M-101/C-101 = 1,211.86/2,321.74 = 0.522; media 0.518), pero el material del MS-100 es solo 0.21 del de su par de submontar Clásica. Sustituta = M.O. del catálogo $676.50 + 0.518 × material actualizado de E10.04.0025 CS-100 ($2,089.58) = $1,758.90."
+  }
 }

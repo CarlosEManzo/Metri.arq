@@ -1,0 +1,39 @@
+{
+  "clave_cb": "E10.02.0006",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.10",
+      "condicion": "si se modela como parte del inodoro"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "AS-M147",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12,
+    "fuente": "12 pza/jor plomero (catálogo 8): retirar y colocar asiento con sus tornillos, 30-40 min"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de referencia (escala o equivalente, ver fuente en datos/insumos_lote4d.csv); cotizar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "referencia_sustituta": {
+    "pu": 756.07,
+    "razon": "El P.U. actualizado ($4,815.75) es 6 veces el de los demás asientos de la familia E10.02.0002-0008 ($756-806) y 12 veces el del tabulador CDMX HI13DB para el mismo M-147 ($404.21); se usa el P.U. actualizado del asiento Líder M-135 (E10.02.0007), de la misma línea"
+  }
+}

@@ -49,5 +49,6 @@
     "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Rendimiento (15 m²/jor) y desperdicio del pasto cortado (20 %) ajustados después de ver que la primera versión quedaba −40 % contra el catálogo; sin APU publicado de pasto en adopasto."
 }

@@ -48,5 +48,7 @@
     "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "El P.U. de Construbase ($79.58) queda fuera de línea: es 3.8 veces el tabulador CDMX VD43BB (panalillo 10-12 cm, $20.94 con plantación y 45 días de mantenimiento) y 22 % mayor que la lágrima de niño del mismo catálogo ($65.46), cubresuelo equivalente. La planta en bolsa de 1 L se toma a $25 (rango $20-35); esta tarjeta da $59.40, igual que la lágrima de niño.",
+  "validacion_no_independiente": "Precio de la planta estimado dentro de un rango amplio sin cotización (belén, croto, cissus y aretillo se subieron de tamaño de bolsa al ver el P.U. del catálogo); la diferencia contra el catálogo no lo valida."
 }

@@ -1,0 +1,90 @@
+{
+  "clave_cb": "E10.02.0048",
+  "gubim": "60.10.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "DICA-JGO-BANO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CUELLO-CERA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "WC y lavabo"
+    },
+    {
+      "insumo": "MANG-COFLEX-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "MANG-FLEX-AGUA-40",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 8,
+      "desperdicio": 0.0,
+      "nota": "Lavabo y accesorios"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 1.5,
+      "desperdicio": 0.05,
+      "nota": "Accesorios de porcelana"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.3,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1,
+    "fuente": "Catálogo: Of+Ay 1 jgo/jor (inodoro 1/3, lavabo 1/3, regadera y accesorios 1/3 de jornada)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Paquete Dica (tipo 4204) sin precio publicado localizado; derivado del catálogo.",
+    "El céspol de PVC, cuello de cera y pijas vienen en el paquete según la descripción; se agregan llaves angulares y mangueras.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E10.03.0012",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.30.70",
+      "condicion": "si es un cesto suelto (pedal, balancín) en interior"
+    },
+    {
+      "clave": "70.60.10",
+      "condicion": "si es papelera/cenicero de exterior (mobiliario exterior)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "JOFEL-BG88210",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cenicero basurero 1/2 luna inoxidable BG88210 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-EXP-38x5",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "2 taquetes de expansión a muro o poste"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor oficial: fijación a muro/poste exterior con taquete de expansión (catálogo 8 pza/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "Precio del accesorio derivado del P.U. de Construbase (no se encontró precio público 2026 del modelo); prioridad para cotizar con distribuidor Jofel (Gustamar, Surtidor)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

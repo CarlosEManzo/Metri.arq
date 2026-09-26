@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E10.01.0053",
+  "gubim": "60.20.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-ES050",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Colgadores al muro"
+    },
+    {
+      "insumo": "SILICON-NEUTRO",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Puntos de apoyo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Espejos Helvex ES-05x descontinuados, sin precio publicado; derivado del catálogo.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

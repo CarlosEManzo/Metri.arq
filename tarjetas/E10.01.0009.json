@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E10.01.0009",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-115",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 1.5,
+      "desperdicio": 0.05,
+      "nota": "Asentar la caja del accesorio en el hueco del muro (≈1.5 kg de pasta)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor oficial (catálogo Of 8): accesorio de empotrar"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -48,5 +48,6 @@
     "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Precio de la planta estimado dentro de un rango amplio sin cotización (belén, croto, cissus y aretillo se subieron de tamaño de bolsa al ver el P.U. del catálogo); la diferencia contra el catálogo no lo valida."
 }

@@ -1,0 +1,70 @@
+{
+  "clave_cb": "E10.03.0141",
+  "gubim": "50.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.10.20",
+      "condicion": "si achica aguas residuales o pluviales (cárcamo)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ROTO-BOMBA-141",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Bomba sumergible Rotoplas 1/3 HP"
+    },
+    {
+      "insumo": "VALV-CHECK-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Retención en la descarga"
+    },
+    {
+      "insumo": "TUERCA-UNION-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "NIPLE-GALV-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "CUERDA-NYLON-6",
+      "cantidad": 6,
+      "desperdicio": 0.0,
+      "nota": "Suspensión de la bomba"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of plomero + Ay: fijación en base, conexión de succión y descarga con tuerca unión y prueba. Catálogo 1 pza/jor (16 hh) excesivo para una bomba doméstica"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Base o losa existente, tubería de succión y descarga hasta 1 m de la bomba y contacto eléctrico con protección existentes.",
+    "La rotobomba de 2017 corresponde a la línea vigente de bombas Rotoplas de la misma potencia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

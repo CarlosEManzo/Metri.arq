@@ -1,0 +1,35 @@
+{
+  "clave_cb": "E10.01.0051",
+  "gubim": "60.20.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "espejo de aumento como accesorio del baño"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-ES001",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12,
+    "fuente": "12 pza/jor oficial (catálogo 8): brazo con base de 3 barrenos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

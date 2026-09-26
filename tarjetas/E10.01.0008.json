@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.01.0008",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-114",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CEM-BLANCO",
+      "cantidad": 1.5,
+      "desperdicio": 0.05,
+      "nota": "Asentar la caja del accesorio en el hueco del muro (≈1.5 kg de pasta)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor oficial (catálogo Of 8): accesorio de empotrar"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El portapapel con cubierta 114 se vende en $622-1,298 con IVA (Gersa, Megaferreterías); aun con el precio alto ($1,118.80 sin IVA) la tarjeta da $1,664. El P.U. actualizado ($2,280) supone el 114 un 33 % más caro que el 104 (E10.01.0001, $1,709), relación que no sostiene el mercado 2026 (104: lista $1,782 con IVA)."
+}

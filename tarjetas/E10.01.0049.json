@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.01.0049",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.20.30",
+      "condicion": "en sanitarios públicos o institucionales"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-MB1012",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor electricista (catálogo 8): fijación con el kit incluido y conexión a salida eléctrica existente"
+  },
+  "equipo": [],
+  "supuestos": [
+    "MB-1008 descontinuado; se cotiza el vigente MB-1012 (sensor).",
+    "La salida eléctrica existe; no se incluye cableado.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

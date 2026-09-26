@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E10.01.0021",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-E90",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Conexión de las mangueras integradas a las llaves angulares"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Sello de base contra cubierta"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Línea Axiss descontinuada; precio derivado del catálogo. El monomando trae mangueras integradas.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

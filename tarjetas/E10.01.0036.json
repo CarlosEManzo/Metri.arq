@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E10.01.0036",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-TV296C",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "MANG-FLEX-AGUA-40",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Alimentación de agua"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "≈0.5 m de cinta"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Sello de base contra cubierta"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor plomero (catálogo 8): llave de sensor con ajuste de rango y prueba"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo Tron TV-399 descontinuado; se cotiza el equivalente vigente Argos TV-296-C (corriente).",
+    "La salida eléctrica (contacto) bajo el lavabo existe; el transformador viene con la llave.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

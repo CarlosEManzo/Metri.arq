@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E10.01.0057",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.20.50",
+      "condicion": "si el proyecto es asistencial / accesible"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-B305S",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor; anclaje a muro sólido con la tornillería incluida"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Sin lista publicada para B-305-S (una tienda muestra $1,515.50 sin identificar el modelo); derivado del catálogo.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,47 @@
+{
+  "clave_cb": "E10.03.0128",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-TIN-TRI-750",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tinaco Rotoplas tricapa 750 L equipado (válvula de llenado, flotador, multiconector con válvula, jarro de aire, filtro)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Liga de alimentación y salida a la red"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 pza/jor Of plomero + Ay: elevación, colocación y conexión de accesorios. Catálogo 1 pza/jor (16 hh) es excesivo para un tinaco equipado; la colocación y conexión del tabulador CDMX (JG14BB $592.17) implica ≈4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco sobre base existente en azotea de hasta 2 niveles, elevación manual con cuerda (incluida en la cuadrilla).",
+    "Alimentación y salida hidráulica existentes a pie de tinaco."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

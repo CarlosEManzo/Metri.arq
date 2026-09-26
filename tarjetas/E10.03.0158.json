@@ -1,0 +1,76 @@
+{
+  "clave_cb": "E10.03.0158",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.10.50",
+      "condicion": "si alimenta una instalación térmica (termoacumulador)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "MAGAMEX-38-LP",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Calentador de depósito económico 38 L (10 gal) gas LP, 1 servicio (Magamex Arturito ecológico o similar)"
+    },
+    {
+      "insumo": "MANG-FLEX-AGUA-40",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Agua fría y caliente"
+    },
+    {
+      "insumo": "VALV-ESF-13",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de agua fría"
+    },
+    {
+      "insumo": "CONEC-GAS-38-150",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Conexión a la línea de gas"
+    },
+    {
+      "insumo": "LLAVE-GAS-38",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de gas"
+    },
+    {
+      "insumo": "VENT-CAL-3",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Chimenea con sombrerete"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "3 pza/jor Of plomero + Ay (rendimiento del catálogo)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "'10 lt' se interpreta como 10 galones (38 L), la capacidad de la línea económica de depósito; no existen calentadores de depósito de 10 litros.",
+    "Salidas de agua fría, caliente y gas LP existentes; incluye chimenea, conectores y llaves de paso."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

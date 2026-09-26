@@ -1,0 +1,87 @@
+{
+  "clave_cb": "E10.03.0153",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.10.50",
+      "condicion": "si alimenta una instalación térmica (termoacumulador)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "CALOREX-100-83-CX",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Calentador de depósito Calorex 100-83 CX gas LP 360 L, 9 servicios (comercial)"
+    },
+    {
+      "insumo": "VALV-ESF-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de agua fría 1 in"
+    },
+    {
+      "insumo": "TUERCA-UNION-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Conexión de agua fría y caliente 1 in"
+    },
+    {
+      "insumo": "NIPLE-GALV-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "CONEC-GAS-38-150",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Conexión a la línea de gas"
+    },
+    {
+      "insumo": "LLAVE-GAS-38",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Llave de paso de gas"
+    },
+    {
+      "insumo": "VENT-CAL-6",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Chimenea con sombrerete"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1,
+    "fuente": "1 pza/jor Of plomero + Ay + peón (maniobra de equipo de ≈150 kg) (catálogo 3 pza/jor para calentadores domésticos; los de 200 L y más rinden menos)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Salidas de agua fría, caliente y gas LP existentes a pie del calentador; se asienta sobre piso firme (sin base metálica).",
+    "Incluye chimenea de 1 m con sombrerete, conectores flexibles y llaves de paso.",
+    "Calorex ya no fabrica la serie 'G-100 STD'; el equivalente vigente de esa capacidad es el comercial 100-83 CX, cuyo precio 2026 duplica el nivel del catálogo (ver alerta)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

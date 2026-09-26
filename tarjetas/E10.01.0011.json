@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.01.0011",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.20.50",
+      "condicion": "si el proyecto es asistencial / accesible"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-118",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor; anclaje firme para carga"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo 118 descontinuado; el vigente es la agarradera 158 con jabonera, sin precio publicado localizado.",
+    "GuBIM del catálogo 50.10.20.60 no corresponde a una agarradera; se conserva y se propone 60.10.10.80.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

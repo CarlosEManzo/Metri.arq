@@ -1,0 +1,56 @@
+{
+  "clave_cb": "E10.02.0045",
+  "gubim": "60.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-NIAGARA2",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "KIT-MING",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Empaque de spud y sello de salida"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Fijación de soportes al muro"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Sello contra muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Niágara 01247 sustituido por el vigente Niágara II.",
+    "Fluxómetro fuera del alcance.",
+    "Salidas hidráulica y sanitaria existentes.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Niágara II 6002001MX: lista $6,448.44 con IVA ($4,725.15 sin IVA con 15 %). El P.U. actualizado ($5,133) es del Niágara 01247 de 2017. Tabulador CDMX HI13CP Niágara II $5,403.81 ($5,208 sin cargos adicionales): la tarjeta queda +38 % por el precio de lista y la M.O. de Of+Ay a 3 pza/jor."
+}

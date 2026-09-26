@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E10.03.0120",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-TIN-TRI-750",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tinaco Rotoplas tricapa 750 L equipado (válvula de llenado, flotador, multiconector con válvula, jarro de aire, filtro)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Liga de alimentación y salida a la red"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4,
+    "fuente": "4 pza/jor Of plomero + Ay: elevación, colocación y conexión de accesorios. Catálogo 1 pza/jor (16 hh) es excesivo para un tinaco equipado; la colocación y conexión del tabulador CDMX (JG14BB $592.17) implica ≈4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco sobre base existente en azotea de hasta 2 niveles, elevación manual con cuerda (incluida en la cuadrilla).",
+    "Alimentación y salida hidráulica existentes a pie de tinaco.",
+    "Rotoplas ya no comercializa la línea bicapa; se cotiza el equivalente vigente, tinaco tricapa equipado de la misma capacidad."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-TIN-TRI-750) cuesta $2,471.36 sin IVA según Regla: tricapa 1100 L equipado ($3,800 con IVA) × relación de precios por capacidad de Plomería Selecta (1,827.13/2,421.92 = 0.754) ÷ 1.16; es el 78% del costo directo. P.U. tarjeta $4,056.02 contra P.U. actualizado $3,126.39 (+30%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo. El tabulador CDMX JG12FK ($5,277.72, mismo tipo de equipo Rotoplas) queda a -23% de la tarjeta."
+}

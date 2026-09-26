@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E10.01.0038",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.20.60",
+      "condicion": "céspol / desagüe: terminal de drenaje (regla propuesta)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-TV017",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "HVX-TH061",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.05,
+      "desperdicio": 0.0,
+      "nota": "Sello de la contra en el mueble"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de referencia (escala o equivalente, ver fuente en datos/insumos_lote4d.csv); cotizar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

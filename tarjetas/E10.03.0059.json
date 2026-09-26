@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.03.0059",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "JOFEL-PH51310",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Porta rollo altera mini trans/gris PH51310 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 3,
+      "desperdicio": 0.0,
+      "nota": "3 pijas con taquete"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor oficial (rendimiento del catálogo)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "Precio del accesorio derivado del P.U. de Construbase (no se encontró precio público 2026 del modelo); prioridad para cotizar con distribuidor Jofel (Gustamar, Surtidor)."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

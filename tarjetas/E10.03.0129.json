@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E10.03.0129",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-TIN-TRI-1100",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tinaco Rotoplas tricapa 1100 L equipado (válvula de llenado, flotador, multiconector con válvula, jarro de aire, filtro)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Liga de alimentación y salida a la red"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "3 pza/jor Of plomero + Ay: elevación, colocación y conexión de accesorios. Catálogo 1 pza/jor (16 hh) es excesivo para un tinaco equipado; la colocación y conexión del tabulador CDMX (JG14BB $592.17) implica ≈4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco sobre base existente en azotea de hasta 2 niveles, elevación manual con cuerda (incluida en la cuadrilla).",
+    "Alimentación y salida hidráulica existentes a pie de tinaco."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-TIN-TRI-1100) cuesta $3,275.86 sin IVA según Tricapa 1100 L equipado: Home Depot $3,099 (promoción) a $4,239; Plomería Selecta Plus equipado $3,480-4,578 con IVA. Se toma $3,800 ÷ 1.16; es el 79% del costo directo. P.U. tarjeta $5,312.64 contra P.U. actualizado $3,980.84 (+33%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo. El tabulador CDMX JG12HL ($5,097.10, mismo tipo de equipo Rotoplas) queda a +4% de la tarjeta."
+}

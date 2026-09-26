@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E10.03.0096",
+  "gubim": "60.10.10.50",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "PLASBAR-ITALIANA-TOP-HM-1825X138-MARFIL",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tina italiana top HM 182.5x138 marfil Plasbar (hidromasaje, con motobomba)"
+    },
+    {
+      "insumo": "DESAGUE-TINA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Desagüe con rebosadero, conexión al céspol existente"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral contra muro y faldón"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.0,
+    "fuente": "1 pza/jor Of plomero + Ay (rendimiento del catálogo): presentación, nivelación, desagüe, conexión y prueba de hidromasaje"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tina de hidromasaje Plasbar con motobomba; se asienta sobre base o faldón existente (albañilería, forjado y lambrín no incluidos).",
+    "Salidas hidráulica, sanitaria (céspol) y eléctrica con contacto GFCI existentes; la grifería se paga aparte.",
+    "Precio de la tina derivado del P.U. de Construbase: no hay precio público 2026 de la línea 'top HM'. Referencias de mercado de líneas vigentes (surtidor.com, con IVA): Alemana HS 180x117 y Española HS 180x120 $29,217 lista/$24,834 venta; Ibiza HM Relax 180x91 $28,066; Mexicana HM Relax/Blow/Aqua 165x165 $49,669. Prioridad para cotizar con Plasbar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

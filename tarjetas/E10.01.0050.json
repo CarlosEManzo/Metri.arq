@@ -1,0 +1,38 @@
+{
+  "clave_cb": "E10.01.0050",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.20.30",
+      "condicion": "en sanitarios públicos o institucionales"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-MB1011",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor electricista (catálogo 8): fijación con el kit incluido y conexión a salida eléctrica existente"
+  },
+  "equipo": [],
+  "supuestos": [
+    "MB-1009 descontinuado; se cotiza el vigente MB-1011 (botón).",
+    "La salida eléctrica existe; no se incluye cableado.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "Modelo vigente MB-1011: lista Helvex $9,698 con IVA, $6,270 sin IVA con 25 %. El tabulador CDMX HI16EC para el mismo MB-1011 es $8,041.55 ($7,750 sin cargos adicionales): la tarjeta queda +7 % contra ese precio. El P.U. actualizado ($13,203) es del MB-1009 de 2017, descontinuado."
+}

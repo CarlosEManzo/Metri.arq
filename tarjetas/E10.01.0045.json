@@ -1,0 +1,42 @@
+{
+  "clave_cb": "E10.01.0045",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.10.10.80",
+      "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-E60",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Roscas de las 2 llaves"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5,
+    "fuente": "5 jgo/jor plomero (catálogo 8): 2 llaves roscadas empotradas, prueba y chapetones (la soldable E-61 rinde 4)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Ranura y resane del muro fuera del alcance.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

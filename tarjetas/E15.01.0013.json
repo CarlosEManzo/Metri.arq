@@ -65,5 +65,6 @@
     "Salario de peón $693/jor (parametros_tarjeta.json); el agua sale de la toma de la obra a precio de pipa (AGUA $60/m³)."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Rendimiento del peón (y en cisternas y tinacos la escala por tamaño) estimado sin APU publicado específico; se eligió revisando el P.U. del catálogo, así que la diferencia contra él no lo valida."
 }

@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E10.02.0028",
+  "gubim": "60.10.10.10",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-01850",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "CUELLO-CERA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "PIJA-TAQ-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Fijación a piso"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral en base"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo sin precio publicado; derivado del catálogo.",
+    "Fluxómetro fuera del alcance (se cotiza aparte).",
+    "Salidas hidráulica y sanitaria existentes.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

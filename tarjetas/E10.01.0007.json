@@ -1,0 +1,36 @@
+{
+  "clave_cb": "E10.01.0007",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.10.20",
+      "condicion": "si es repisa o portatoallas de estante"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "HVX-110",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "Catálogo: Of 8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "GuBIM del catálogo 50.10.20.60 (terminal de fontanería) no corresponde a una repisa; se conserva y se propone la regla a 60.10.10.80.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

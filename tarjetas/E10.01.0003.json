@@ -1,0 +1,30 @@
+{
+  "clave_cb": "E10.01.0003",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-106",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16,
+    "fuente": "16 pza/jor oficial (catálogo 8): pieza de 2 barrenos; 8 pza/jor deja la M.O. en 22 % de una pieza de $520"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

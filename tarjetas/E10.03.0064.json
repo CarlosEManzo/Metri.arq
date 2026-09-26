@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E10.03.0064",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "JOFEL-AA13126",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Secador de manos futura pulsador blanco AA13126 Jofel (Jofel)"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "4 pijas con taquete (plantilla del fabricante)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ELE",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor oficial electricista: fijación y conexión a salida eléctrica existente (catálogo 8 pza/jor sin conexión)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "Salida eléctrica 127 V con su circuito ya existente junto al punto de colocación."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,53 @@
+{
+  "clave_cb": "E10.03.0122",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-TIN-TRI-2500",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Tinaco Rotoplas tricapa 2500 L equipado (válvula de llenado, flotador, multiconector con válvula, jarro de aire, filtro)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Liga de alimentación y salida a la red"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 2,
+    "fuente": "2 pza/jor Of plomero + Ay + peón: elevación, colocación y conexión de accesorios. Catálogo 1 pza/jor (16 hh) es excesivo para un tinaco equipado; la colocación y conexión del tabulador CDMX (JG14BB $592.17) implica ≈4 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tinaco sobre base existente en azotea de hasta 2 niveles, elevación manual con cuerda (incluida en la cuadrilla).",
+    "Alimentación y salida hidráulica existentes a pie de tinaco.",
+    "Rotoplas ya no comercializa la línea bicapa; se cotiza el equivalente vigente, tinaco tricapa equipado de la misma capacidad."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-TIN-TRI-2500) cuesta $7,327.59 sin IVA según Tricapa Plus 2500 L equipado: Coppel $7,999 (promoción) / $9,999 lista con IVA (jul-2026). Se toma $8,500 ÷ 1.16; es el 82% del costo directo. P.U. tarjeta $11,420.54 contra P.U. actualizado $8,128.72 (+40%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo."
+}

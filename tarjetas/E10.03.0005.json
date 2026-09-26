@@ -1,0 +1,41 @@
+{
+  "clave_cb": "E10.03.0005",
+  "gubim": "60.10.10.80",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "60.20.30.70",
+      "condicion": "si es un cesto suelto (pedal, balancín) en interior"
+    },
+    {
+      "clave": "70.60.10",
+      "condicion": "si es papelera/cenicero de exterior (mobiliario exterior)"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "JOFEL-BE75500",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Basurero balancin chico BE75500 Jofel (Jofel)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16,
+    "fuente": "16 pza/jor oficial: pieza suelta, solo desempaque, armado y colocación (catálogo 8 pza/jor con fijación)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Accesorio Jofel de sobreponer; muro o firme terminado, sin resanes.",
+    "Precio del accesorio derivado del P.U. de Construbase (no se encontró precio público 2026 del modelo); prioridad para cotizar con distribuidor Jofel (Gustamar, Surtidor).",
+    "Cesto de piso sin fijación."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

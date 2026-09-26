@@ -1,0 +1,61 @@
+{
+  "clave_cb": "E10.02.0042",
+  "gubim": "60.10.10.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-VERACRUZ",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Llaves de paso angulares fría y caliente"
+    },
+    {
+      "insumo": "CESPOL-PVC-LAV",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Céspol de PVC con contra"
+    },
+    {
+      "insumo": "TAQ-PIJA-ACC",
+      "cantidad": 4,
+      "desperdicio": 0.0,
+      "nota": "Fijación de ménsulas / mueble al muro"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.1,
+      "desperdicio": 0.0,
+      "nota": "Sello contra muro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Grifería fuera del alcance.",
+    "Salidas hidráulica y sanitaria existentes.",
+    "Precio del producto de lista o tienda 2026 con fuente en datos/insumos_lote4d.csv, sin IVA y puesto en obra; confirmar con distribuidor en Morelia.",
+    "Alerta +132 % sin resolver. El Veracruz 01017 tiene lista Surtidor de $2,208.64 con IVA ($1,618.40 sin IVA con 15 %; Limsa $1,450.23), mayor que todo el P.U. actualizado ($1,471.68). El tabulador CDMX HI16CB ($1,865.30 con céspol de PVC) también queda abajo. Hay que cotizarlo en Morelia; con el precio de Limsa la tarjeta bajaría a ≈$2,940."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

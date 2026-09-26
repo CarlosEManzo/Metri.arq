@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E10.03.0114",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-CIS-1200-B",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cisterna Rotoplas 1,200 L con bomba centrífuga 1/2 HP (sin accesorios)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Alimentación, succión y descarga"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of plomero + Ay: bajar a la excavación, nivelar, conectar alimentación, succión y descarga, colocar bomba y probar. Catálogo 1 pza/jor Of+Ay para todas las capacidades"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación, plantilla de concreto, relleno y losa tapa se pagan por separado; la cisterna se coloca en excavación preparada.",
+    "La bomba se conecta a un contacto o arrancador existente junto a la cisterna."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "desviacion_justificada": "El equipo (ROTO-CIS-1200-B) cuesta $6,177.20 sin IVA según Plomerama/Construrama: cisterna 1,200 L con bomba $6,177.20 antes de IVA (con 15 % de descuento); es el 78% del costo directo. P.U. tarjeta $10,144.42 contra P.U. actualizado $7,584.38 (+34%): el factor general de actualización de Construbase no sigue el precio 2026 de este equipo. El tabulador CDMX JG15BB ($8,923.95, mismo tipo de equipo Rotoplas) queda a +14% de la tarjeta."
+}

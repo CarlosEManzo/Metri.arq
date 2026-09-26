@@ -1,0 +1,32 @@
+{
+  "clave_cb": "E10.01.0014",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-123",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-ALB",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16,
+    "fuente": "16 pza/jor oficial (catálogo 8): pieza de 2 barrenos"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Modelo 123 descontinuado, sin precio publicado.",
+    "GuBIM del catálogo 50.10.20.60 no corresponde; se conserva y se propone 60.10.10.80.",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

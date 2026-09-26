@@ -1,0 +1,51 @@
+{
+  "clave_cb": "E10.03.0115",
+  "gubim": "50.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "ROTO-CIS-2800-EQ",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Cisterna Rotoplas 2,800 L equipada (bomba 1/2 HP, filtro, flotador, válvulas)"
+    },
+    {
+      "insumo": "JGO-CONEX-TINACO",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Alimentación, succión y descarga"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      },
+      {
+        "categoria": "PEON",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of plomero + Ay + 1 peón: bajar a la excavación, nivelar, conectar alimentación, succión y descarga, colocar bomba y probar. Catálogo 1 pza/jor Of+Ay para todas las capacidades"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Excavación, plantilla de concreto, relleno y losa tapa se pagan por separado; la cisterna se coloca en excavación preparada.",
+    "La bomba se conecta a un contacto o arrancador existente junto a la cisterna."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

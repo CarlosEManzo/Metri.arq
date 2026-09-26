@@ -1,0 +1,63 @@
+{
+  "clave_cb": "E10.03.0143",
+  "gubim": "50.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.20.10",
+      "condicion": "si presuriza una instalación térmica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "ROTO-HIDRO-34-24",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Equipo hidroneumático Rotoplas 3/4 HP (bomba Jet 600) con tanque de 24 L"
+    },
+    {
+      "insumo": "VALV-CHECK-25",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Retención en la descarga"
+    },
+    {
+      "insumo": "TUERCA-UNION-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Succión y descarga"
+    },
+    {
+      "insumo": "NIPLE-GALV-25",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 1.5,
+    "fuente": "1.5 pza/jor Of plomero + Ay: bomba, tanque precargado, presostato, conexiones y prueba de presión. Catálogo 1 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Base, succión, descarga y contacto eléctrico existentes."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

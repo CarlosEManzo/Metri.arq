@@ -1,0 +1,63 @@
+{
+  "clave_cb": "E10.03.0157",
+  "gubim": "50.10.10.20",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [
+    {
+      "clave": "50.30.20.10",
+      "condicion": "si recircula agua de una instalación térmica"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "SIEMENS-MB-157",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Motobomba centrífuga Siemens 1 1/2 HP"
+    },
+    {
+      "insumo": "VALV-CHECK-38",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Retención en la descarga"
+    },
+    {
+      "insumo": "TUERCA-UNION-38",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "NIPLE-GALV-38",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor Of plomero + Ay: fijación, conexión de succión y descarga y prueba. Catálogo 1 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Base, succión, descarga y contacto eléctrico existentes."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

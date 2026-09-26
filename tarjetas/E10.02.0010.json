@@ -1,0 +1,60 @@
+{
+  "clave_cb": "E10.02.0010",
+  "gubim": "60.10.10.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "AS-01396",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Producto de marca, suministro"
+    },
+    {
+      "insumo": "LLAVE-ANGULAR",
+      "cantidad": 2,
+      "desperdicio": 0.0,
+      "nota": "Llaves de paso angulares fría y caliente"
+    },
+    {
+      "insumo": "CESPOL-PVC-LAV",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Céspol de PVC para el desagüe"
+    },
+    {
+      "insumo": "PIJA-TAQ-WC",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Fijación a piso"
+    },
+    {
+      "insumo": "SILICON-CART",
+      "cantidad": 0.15,
+      "desperdicio": 0.0,
+      "nota": "Sello perimetral en base"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3,
+    "fuente": "Catálogo: Of+Ay 3 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Bidet sin precio publicado en México; derivado del catálogo.",
+    "Grifería del bidet fuera del alcance (E10.01.0020).",
+    "Precio del producto derivado del P.U. de Construbase (datos/insumos_lote4d.csv): la coincidencia con el P.U. actualizado es por construcción y no valida la tarjeta; es prioridad para cotizar."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
