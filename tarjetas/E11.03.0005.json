@@ -1,0 +1,59 @@
+{
+  "clave_cb": "E11.03.0005",
+  "gubim": "50.40.30.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.50.10.50",
+      "condicion": "si la línea es de protección contra incendio (hidrantes, rociadores)"
+    },
+    {
+      "clave": "50.30.30.20",
+      "condicion": "si la línea conduce vapor o agua caliente de calefacción"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "FN-TUBO-38",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Tramos de 6.40 m; 3 % por cortes, roscas y despuntes"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.0147,
+      "desperdicio": 0.1,
+      "nota": "1 junta en el cople de cada tramo (1/6.40 = 0.156 juntas/m) × 0.94 m de cinta por junta; rollo de 10 m. El sellado de roscas a conexiones va en cada conexión"
+    },
+    {
+      "insumo": "FN-ABRAZ-38",
+      "cantidad": 0.333,
+      "desperdicio": 0.0,
+      "nota": "Abrazadera cada 3.0 m (separación usual de soportes para tubo de acero de 38 mm)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 22,
+    "fuente": "22 m/jor Of plomero + Ay, tubería roscada. Catálogo: 30 m/jor (13-38 mm) y 15 m/jor (51 mm y mayores); se reparte por diámetro porque el corte y roscado con tarraja crece con el espesor (APU publicados de tubería roscada 1/2-2 in: 15-35 m/jor)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería roscada NPT (NOM-004-SEDG para gas: uniones roscadas hasta 51 mm); incluye cortes y roscado en obra con tarraja manual (herramienta menor), cinta teflón en la junta del cople de cada tramo y prueba de hermeticidad con manómetro.",
+    "Tubería visible sobre muro, azotea o en ducto, fijada con abrazaderas; ranuras, trincheras, pasos en losa y resanes se pagan aparte.",
+    "Conexiones (codos, tees, reducciones, tuercas unión) y válvulas se pagan en sus conceptos.",
+    "No incluye primario ni pintura de identificación (el concepto no la pide).",
+    "Precios del tubo sin IVA, puestos en obra; el acero varía ±15 % en el año."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
