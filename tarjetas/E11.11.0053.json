@@ -1,0 +1,82 @@
+{
+  "clave_cb": "E11.11.0053",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBO-CU-M-13",
+      "cantidad": 1.5,
+      "desperdicio": 0.03,
+      "nota": ""
+    },
+    {
+      "insumo": "CODO-CU-13",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "COLADERA-HELVEX-24",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "TUBO-FOFO-100",
+      "cantidad": 1.5,
+      "desperdicio": 0.05,
+      "nota": ""
+    },
+    {
+      "insumo": "CODO-FOFO-100",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "CONECTOR-FOFO-CU-50",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.008,
+      "desperdicio": 0.1,
+      "nota": ""
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.001,
+      "desperdicio": 0.0,
+      "nota": ""
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 0.006,
+      "desperdicio": 0.0,
+      "nota": ""
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3.0 salidas/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Salida hidrosanitaria."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}
