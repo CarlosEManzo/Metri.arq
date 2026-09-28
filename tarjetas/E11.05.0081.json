@@ -7,19 +7,19 @@
       "insumo": "YEE-RED-PVC-SAN-150-100",
       "cantidad": 1.0,
       "desperdicio": 0.0,
-      "nota": "Yee 150x100mm"
+      "nota": "Yee reducción de PVC sanitario multicopl"
     },
     {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -34,12 +34,12 @@
       }
     ],
     "rendimiento": 3.0,
-    "fuente": "3 pza/jor; INSTRUCCIONES_PARTE5.md"
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Yee 150x100mm con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 150mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }

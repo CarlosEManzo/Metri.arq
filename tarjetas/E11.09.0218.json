@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E11.09.0218",
+  "gubim": "50.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "VALV-RET-HOR-03T-25",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Retención horizontal Fig.03T 25 mm roscable"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.0036,
+      "desperdicio": 0.1,
+      "nota": "Aproximadamente 3.6 m de cinta por junta (rollo de 10 m)"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "Catálogo rendimiento 12 pza/jor para 25 mm. Rango de referencias: 13-25 mm 14-20 pza/jor; 32-50 mm 8-12 pza/jor; 64-100 mm 4-8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Válvula de retención horizontal de latón/bronce Fig.03T, 25 mm, unión roscable, suministro e instalación con herramientas menores.",
+    "Incluye sellado de roscas (teflón) o preparación de soldadura según corresponda.",
+    "Andamio, cimbra y equipos especiales se pagan aparte.",
+    "Prueba de hermeticidad con manómetro incluida en rendimiento."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

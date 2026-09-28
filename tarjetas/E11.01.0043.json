@@ -5,14 +5,14 @@
   "gubim_alternativas": [],
   "materiales": [
     {
-      "insumo": "CODO-CU-13",
+      "insumo": "CODO-CU-75",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Pieza"
     },
     {
       "insumo": "SOLD-5050",
-      "cantidad": 0.003,
+      "cantidad": 0.0173,
       "desperdicio": 0.1,
       "nota": "3 g"
     },
@@ -24,7 +24,7 @@
     },
     {
       "insumo": "GAS-SOPLETE",
-      "cantidad": 0.001,
+      "cantidad": 0.0058,
       "desperdicio": 0.0,
       "nota": "Gas"
     }
@@ -40,8 +40,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 18,
-    "fuente": "18 pza/jor"
+    "rendimiento": 4,
+    "fuente": "4 pza/jor (catálogo)"
   },
   "equipo": [],
   "supuestos": [

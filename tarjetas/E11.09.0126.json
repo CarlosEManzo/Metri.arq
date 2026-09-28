@@ -1,0 +1,55 @@
+{
+  "clave_cb": "E11.09.0126",
+  "gubim": "50.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "VALV-COMP-702-32",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Compuerta Fig.702 32 mm soldable"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.003,
+      "desperdicio": 0.1,
+      "nota": "≈3 g para dos juntas de soldadura (válvula con 2 bocas)"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.0015,
+      "desperdicio": 0.0,
+      "nota": "≈1.5 g (≈0.5 g por junta)"
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 2e-05,
+      "desperdicio": 0.0,
+      "nota": "Cartucho de 400 g cubre ~20,000 juntas"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "Catálogo rendimiento 10 pza/jor para 32 mm. Rango de referencias: 13-25 mm 14-20 pza/jor; 32-50 mm 8-12 pza/jor; 64-100 mm 4-8 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Válvula de compuerta de latón/bronce Fig.702, 32 mm, unión soldable, suministro e instalación con herramientas menores.",
+    "Incluye sellado de roscas (teflón) o preparación de soldadura según corresponda.",
+    "Andamio, cimbra y equipos especiales se pagan aparte.",
+    "Prueba de hermeticidad con manómetro incluida en rendimiento."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -4,16 +4,22 @@
   "gubim_confianza": "media",
   "materiales": [
     {
+      "insumo": "TEE-RED-PVC-SAN-75-50",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Tee reducción de PVC sanitario anger de "
+    },
+    {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -28,12 +34,12 @@
       }
     ],
     "rendimiento": 6.0,
-    "fuente": "6 pza/jor; INSTRUCCIONES_PARTE5.md"
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Tee 75x50mm con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 75mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }

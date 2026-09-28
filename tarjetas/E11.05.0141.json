@@ -7,19 +7,19 @@
       "insumo": "CESPOL-PVC-SAN-50",
       "cantidad": 1.0,
       "desperdicio": 0.0,
-      "nota": "Pieza Cespol de pvc anger con 3 salidas, incluye: materiales, acar"
+      "nota": "Cespol de pvc anger con 3 salidas, inclu"
     },
     {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento para cementación"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza pre-cementación"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -33,13 +33,13 @@
         "personas": 1
       }
     ],
-    "rendimiento": 10.0,
-    "fuente": "INSTRUCCIONES_PARTE5.md (referencia por diámetro)"
+    "rendimiento": 12.0,
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Cespol de pvc anger con 3 salidas, incluye: materiales, acar con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 50mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_v3.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }

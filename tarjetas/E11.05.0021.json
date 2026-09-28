@@ -7,19 +7,19 @@
       "insumo": "CODO-PVC-SAN-45-45-ANGER",
       "cantidad": 1.0,
       "desperdicio": 0.0,
-      "nota": "Codo 45mm"
+      "nota": "Codo de PVC sanitario anger de 45°x40 mm"
     },
     {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -34,12 +34,12 @@
       }
     ],
     "rendimiento": 12.0,
-    "fuente": "12 pza/jor; INSTRUCCIONES_PARTE5.md"
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Codo 45mm con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 45mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }

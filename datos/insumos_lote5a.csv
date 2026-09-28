@@ -21,7 +21,14 @@ ABRAZA-FF-6,"Abrazadera fijación tubo 6"" (152mm) con pija",pza,50.0,Referencia
 "ABRAZA-FF-6""","Abrazadera de fijación para tubo de fierro fundido 6"" diámetro con pija y taquete",pza,50.0,Estimado de ferretería (por validar),2026-09,referencia
 ABRAZA-FF-8,"Abrazadera fijación tubo 8"" (202mm) con pija",pza,75.0,Referencia ferretería 2026,2026-09,referencia
 "ABRAZA-FF-8""","Abrazadera de fijación para tubo de fierro fundido 8"" diámetro con pija y taquete",pza,75.0,Estimado de ferretería (por validar),2026-09,referencia
+ADAPT-PVC-SAN-100,ADAPT-PVC-SAN-100,pza,90.00,Estimación 2026,2026-09,referencia
+ADAPT-PVC-SAN-40,ADAPT-PVC-SAN-40,pza,50.00,Estimación 2026,2026-09,referencia
+ADAPT-PVC-SAN-50,ADAPT-PVC-SAN-50,pza,55.00,Estimación 2026,2026-09,referencia
+ADAPT-PVC-SAN-75,ADAPT-PVC-SAN-75,pza,70.00,Estimación 2026,2026-09,referencia
 CEMENTO-PVC,Cemento para PVC bote 250 ml,pza,68.00,"Foset/Truper PPVC-250 $79 con IVA (elferretero.com.mx, truper.com); rango $79-155 con IVA",2026-09,validado con rango de mercado
+CESPOL-PVC-SAN-40,CESPOL-PVC-SAN-40,pza,120.00,Estimación 2026,2026-09,referencia
+CESPOL-PVC-SAN-50,CESPOL-PVC-SAN-50,pza,140.00,Estimación 2026,2026-09,referencia
+CESPOL-PVC-SAN-75,CESPOL-PVC-SAN-75,pza,180.00,Estimación 2026,2026-09,referencia
 CODO-CU-10,Codo de cobre 90° 10 mm,pza,11,Escala por diámetro,2026-09,referencia
 CODO-CU-102,Codo de cobre 90° 102 mm,pza,780,Escala por diámetro,2026-09,referencia
 CODO-CU-16,Codo de cobre 90° 16 mm,pza,22,Escala por diámetro,2026-09,referencia
@@ -54,6 +61,8 @@ CODO-PVC-SAN-75-45,Codo PVC sanitario 75 mm x 45° para cementar,pza,72.24,Deriv
 CODO-PVC-SAN-75-45-ANGER,Codo PVC sanitario 75 mm x 45° anger,pza,81.16,Catálogo E11.05.0023 (material ≈85% del P.U.),2026-09,derivado del catálogo
 CODO-PVC-SAN-75-90,Codo PVC sanitario 75 mm x 90° para cementar,pza,69.05,Derivado de catálogo E11.05.0008 (material ≈85% del P.U.),2026-09,derivado del catálogo
 CODO-PVC-SAN-75-90-ANGER,Codo PVC sanitario 75 mm x 90° anger,pza,87.26,Derivado de catálogo E11.05.0018 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COLADERA-PVC-SAN,COLADERA-PVC-SAN,pza,80.00,Estimación 2026,2026-09,referencia
+COLADERA-PVC-SAN-REJ,COLADERA-PVC-SAN-REJ,pza,150.00,Estimación 2026,2026-09,referencia
 CONECTOR-CU-10,Conector de cobre 10 mm,pza,14,Escala por diámetro,2026-09,referencia
 CONECTOR-CU-102,Conector de cobre 102 mm,pza,1100,Escala por diámetro,2026-09,referencia
 CONECTOR-CU-13,Conector de cobre 13 mm,pza,20,Escala por diámetro,2026-09,referencia
@@ -82,6 +91,24 @@ CONEX-HIDR-ADAPT-38,Adaptador roscado PVC hidráulico de 38 mm,pza,30.90,Catálo
 CONEX-HIDR-ADAPT-50,Adaptador roscado PVC hidráulico de 50 mm,pza,39.98,Catálogo Construbase P.U. actualizado $46.38 con IVA,2026-09,referencia
 CONEX-HIDR-ADAPT-60,Adaptador roscado PVC hidráulico de 60 mm,pza,47.43,Catálogo Construbase P.U. actualizado $55.02 con IVA,2026-09,referencia
 CONEX-HIDR-ADAPT-75,Adaptador roscado PVC hidráulico de 75 mm,pza,71.41,Catálogo Construbase P.U. actualizado $82.84 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-100,Adaptador hembra PVC hidráulico 100 mm,pza,146.98,Estimación: adaptador roscado de 100 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-13,Adaptador hembra PVC hidráulico 13 mm,pza,34.48,Estimación: adaptador roscado de 13 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-19,Adaptador hembra PVC hidráulico 19 mm,pza,42.24,Estimación: adaptador roscado de 19 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-25,Adaptador hembra PVC hidráulico 25 mm,pza,50.00,Estimación: adaptador roscado de 25 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-32,Adaptador hembra PVC hidráulico 32 mm,pza,59.05,Estimación: adaptador roscado de 32 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-38,Adaptador hembra PVC hidráulico 38 mm,pza,66.81,Estimación: adaptador roscado de 38 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-50,Adaptador hembra PVC hidráulico 50 mm,pza,82.33,Estimación: adaptador roscado de 50 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-60,Adaptador hembra PVC hidráulico 60 mm,pza,95.26,Estimación: adaptador roscado de 60 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-75,Adaptador hembra PVC hidráulico 75 mm,pza,114.66,Estimación: adaptador roscado de 75 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-100,Adaptador macho PVC hidráulico 100 mm,pza,146.98,Estimación: adaptador roscado de 100 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-13,Adaptador macho PVC hidráulico 13 mm,pza,34.48,Estimación: adaptador roscado de 13 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-19,Adaptador macho PVC hidráulico 19 mm,pza,42.24,Estimación: adaptador roscado de 19 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-25,Adaptador macho PVC hidráulico 25 mm,pza,50.00,Estimación: adaptador roscado de 25 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-32,Adaptador macho PVC hidráulico 32 mm,pza,59.05,Estimación: adaptador roscado de 32 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-38,Adaptador macho PVC hidráulico 38 mm,pza,66.81,Estimación: adaptador roscado de 38 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-50,Adaptador macho PVC hidráulico 50 mm,pza,82.33,Estimación: adaptador roscado de 50 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-60,Adaptador macho PVC hidráulico 60 mm,pza,95.26,Estimación: adaptador roscado de 60 mm,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-75,Adaptador macho PVC hidráulico 75 mm,pza,114.66,Estimación: adaptador roscado de 75 mm,2026-09,referencia
 CONEX-HIDR-BRIDA-100,Brida roscada PVC hidráulico de 100 mm,pza,400.36,Catálogo Construbase P.U. actualizado $464.42 con IVA,2026-09,referencia
 CONEX-HIDR-BRIDA-150,Brida roscada PVC hidráulico de 150 mm,pza,717.44,Catálogo Construbase P.U. actualizado $832.23 con IVA,2026-09,referencia
 CONEX-HIDR-BRIDA-50,Brida roscada PVC hidráulico de 50 mm,pza,170.63,Catálogo Construbase P.U. actualizado $197.93 con IVA,2026-09,referencia
@@ -245,6 +272,60 @@ COPLE-PVC-SAN-50,Cople PVC sanitario 50 mm para cementar,pza,52.97,Derivado de c
 COPLE-PVC-SAN-50-ANGER,Cople PVC sanitario 50 mm anger,pza,149.50,Derivado de catálogo E11.05.0048 (material ≈85% del P.U.),2026-09,derivado del catálogo
 COPLE-PVC-SAN-75,Cople PVC sanitario 75 mm para cementar,pza,68.91,Derivado de catálogo E11.05.0044 (material ≈85% del P.U.),2026-09,derivado del catálogo
 COPLE-PVC-SAN-75-ANGER,Cople PVC sanitario 75 mm anger,pza,231.80,Derivado de catálogo E11.05.0049 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CPVC-ADAPT-HEM-BR-13,Adaptador hembra rosca bronce CPVC 13 mm,pza,35.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-BR-19,Adaptador hembra rosca bronce CPVC 19 mm,pza,48.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-BR-25,Adaptador hembra rosca bronce CPVC 25 mm,pza,72.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-BR-32,Adaptador hembra rosca bronce CPVC 32 mm,pza,110.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-BR-38,Adaptador hembra rosca bronce CPVC 38 mm,pza,155.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-BR-51,Adaptador hembra rosca bronce CPVC 51 mm,pza,275.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-PL-13,Adaptador hembra rosca plástica CPVC 13 mm,pza,18.5,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-PL-19,Adaptador hembra rosca plástica CPVC 19 mm,pza,26.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-HEM-PL-25,Adaptador hembra rosca plástica CPVC 25 mm,pza,38.5,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-BR-13,Adaptador macho rosca bronce CPVC 13 mm,pza,32.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-BR-19,Adaptador macho rosca bronce CPVC 19 mm,pza,45.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-BR-25,Adaptador macho rosca bronce CPVC 25 mm,pza,68.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-PL-13,Adaptador macho rosca plástica CPVC 13 mm,pza,16.5,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-PL-19,Adaptador macho rosca plástica CPVC 19 mm,pza,23.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-PL-25,Adaptador macho rosca plástica CPVC 25 mm,pza,35.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-PL-32,Adaptador macho rosca plástica CPVC 32 mm,pza,60.0,Referencia distribuidor,2026-09,referencia
+CPVC-ADAPT-MACH-PL-38,Adaptador macho rosca plástica CPVC 38 mm,pza,95.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-45-13,Codo CPVC 45° 13 mm,pza,8.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-45-19,Codo CPVC 45° 19 mm,pza,12.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-45-25,Codo CPVC 45° 25 mm,pza,17.5,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-13,Codo CPVC 90° 13 mm,pza,8.5,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-19,Codo CPVC 90° 19 mm,pza,12.5,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-25,Codo CPVC 90° 25 mm,pza,18.5,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-32,Codo CPVC 90° 32 mm,pza,32.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-38,Codo CPVC 90° 38 mm,pza,50.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-90-50,Codo CPVC 90° 50 mm,pza,85.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-90-13,Codo macho hembra CPVC 90° 13 mm,pza,15.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-90-19,Codo macho hembra CPVC 90° 19 mm,pza,22.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-90-25,Codo macho hembra CPVC 90° 25 mm,pza,32.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-OREJA-13,Codo CPVC con oreja 13 mm,pza,22.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-13,Cople CPVC 13 mm,pza,5.5,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-19,Cople CPVC 19 mm,pza,8.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-25,Cople CPVC 25 mm,pza,12.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-32,Cople CPVC 32 mm,pza,20.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-38,Cople CPVC 38 mm,pza,35.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-51,Cople CPVC 51 mm,pza,65.0,Referencia distribuidor,2026-09,referencia
+CPVC-RED-25-19,Reducción bushing CPVC 25x19 mm,pza,10.5,Referencia distribuidor,2026-09,referencia
+CPVC-RED-32-19,Reducción bushing CPVC 32x19 mm,pza,16.0,Referencia distribuidor,2026-09,referencia
+CPVC-RED-32-25,Reducción bushing CPVC 32x25 mm,pza,18.5,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-13,Tee CPVC 13 mm,pza,12.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-19,Tee CPVC 19 mm,pza,18.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-25,Tee CPVC 25 mm,pza,28.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-32,Tee CPVC 32 mm,pza,50.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-38,Tee CPVC 38 mm,pza,75.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-51,Tee CPVC 51 mm,pza,140.0,Referencia distribuidor,2026-09,referencia
+CPVC-TUBO-13,Tubo CPVC 13 mm (RD 13.5),m,42.5,Referencia Home Depot MX,2026-09,referencia
+CPVC-TUBO-19,Tubo CPVC 19 mm (RD 13.5),m,64.2,Referencia Home Depot MX,2026-09,referencia
+CPVC-TUBO-25,Tubo CPVC 25 mm (RD 13.5),m,108.5,Referencia Home Depot MX,2026-09,referencia
+CPVC-TUBO-32,Tubo CPVC 32 mm (RD 13.5),m,182.0,Referencia distribuidor,2026-09,referencia
+CPVC-TUBO-38,Tubo CPVC 38 mm (RD 13.5),m,230.5,Referencia distribuidor,2026-09,referencia
+CPVC-TUBO-51,Tubo CPVC 51 mm (RD 13.5),m,355.0,Referencia distribuidor,2026-09,referencia
+CPVC-VALVE-GLOBO-13,Válvula globo CPVC 13 mm,pza,120.0,Referencia distribuidor,2026-09,referencia
+CPVC-VALVE-GLOBO-19,Válvula globo CPVC 19 mm,pza,185.0,Referencia distribuidor,2026-09,referencia
+CPVC-VALVE-GLOBO-25,Válvula globo CPVC 25 mm,pza,320.0,Referencia distribuidor,2026-09,referencia
 CRUZ-CU-13,Cruz de cobre 13 mm,pza,32,Escala por diámetro,2026-09,referencia
 CRUZ-CU-19,Cruz de cobre 19 mm,pza,75,Escala por diámetro,2026-09,referencia
 CRUZ-CU-25,Cruz de cobre 25 mm,pza,130,Escala por diámetro,2026-09,referencia
@@ -957,7 +1038,7 @@ HVX-FC185-19,Fluxómetro sensor electrónico modelo FC-185-19,pza,13500.0,Estima
 HVX-FC18519,Fluxómetro sensor modelo FC-185-19,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
 HVX-IG20,Interceptor grasas modelo IG-20,pza,14400.0,Estimación Helvex (por cotizar),2026-09,referencia
 HVX-IG40,Interceptor grasas modelo IG-40,pza,23000.0,Estimación Helvex (por cotizar),2026-09,referencia
-HVX-VD1176,Válvula drenaje 150mm modelo V.D. 1176,pza,6400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-VD1176,Válvula drenaje 150mm modelo V.D. 1176 Helvex,pza,6400.0,Estimación Helvex,2026-09,referencia
 LIMPIADOR-PVC,Limpiador/solvente para PVC (bote 240-500 ml),bote,65.00,Tangit/Presto rango ferreterías 2026 ($80-150 con IVA); estimación $75 sin IVA,2026-09,validado con rango de mercado
 PLOMO-10,"Plomo para juntas campana 10""",kg,120.0,Referencia mercado 2026,2026-09,referencia
 PLOMO-2,"Plomo para juntas campana 2""",kg,120.0,Referencia mercado 2026,2026-09,referencia
@@ -1006,7 +1087,21 @@ RED-CAMP-CU-51X19,Reducción campana de cobre 51x19 mm,pza,50,Escala por diámet
 RED-CAMP-CU-51X25,Reducción campana de cobre 51x25 mm,pza,50,Escala por diámetro,2026-09,referencia
 RED-CAMP-CU-51X32,Reducción campana de cobre 51x32 mm,pza,50,Escala por diámetro,2026-09,referencia
 RED-CAMP-CU-51X38,Reducción campana de cobre 51x38 mm,pza,240,Escala por diámetro,2026-09,referencia
+RED-PVC-SAN-102-50,RED-PVC-SAN-102-50,pza,50.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-102-50-ANGER,RED-PVC-SAN-102-50-ANGER,pza,65.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-102-75,RED-PVC-SAN-102-75,pza,55.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-102-75-ANGER,RED-PVC-SAN-102-75-ANGER,pza,75.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-150-102,RED-PVC-SAN-150-102,pza,100.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-150-102-ANGER,RED-PVC-SAN-150-102-ANGER,pza,130.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-50-40,RED-PVC-SAN-50-40,pza,30.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-50-40-ANGER,RED-PVC-SAN-50-40-ANGER,pza,40.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-75-50,RED-PVC-SAN-75-50,pza,40.00,Estimación 2026,2026-09,referencia
+RED-PVC-SAN-75-50-ANGER,RED-PVC-SAN-75-50-ANGER,pza,50.00,Estimación 2026,2026-09,referencia
 SOPORTE-HIDR,Abrazadera/soporte galvanizado para tubería de PVC,pza,8.62,Interpolación: ferretería $9-15 con IVA; se toma $10 sin IVA (estimación),2026-09,referencia
+TAPON-PVC-SAN-100,TAPON-PVC-SAN-100,pza,50.00,Estimación 2026,2026-09,referencia
+TAPON-PVC-SAN-150,TAPON-PVC-SAN-150,pza,100.00,Estimación 2026,2026-09,referencia
+TAPON-PVC-SAN-50,TAPON-PVC-SAN-50,pza,30.00,Estimación 2026,2026-09,referencia
+TAPON-PVC-SAN-75,TAPON-PVC-SAN-75,pza,40.00,Estimación 2026,2026-09,referencia
 TAPÓN_CAPA-CU-10,Tapón capa de cobre 10 mm,pza,7,Escala por diámetro,2026-09,referencia
 TAPÓN_CAPA-CU-13,Tapón capa de cobre 13 mm,pza,10,Escala por diámetro,2026-09,referencia
 TAPÓN_CAPA-CU-19,Tapón capa de cobre 19 mm,pza,22,Escala por diámetro,2026-09,referencia
@@ -1028,6 +1123,8 @@ TEE-CU-6,Tee de cobre 6 mm,pza,12,Escala por diámetro,2026-09,referencia
 TEE-CU-64,Tee de cobre 64 mm,pza,620,Escala por diámetro,2026-09,referencia
 TEE-CU-75,Tee de cobre 75 mm,pza,850,Escala por diámetro,2026-09,referencia
 TEE-CU-8,Tee de cobre 8 mm,pza,14,Escala por diámetro,2026-09,referencia
+TEE-DBL-PVC-SAN-102,TEE-DBL-PVC-SAN-102,pza,140.00,Estimación 2026,2026-09,referencia
+TEE-DBL-PVC-SAN-50,TEE-DBL-PVC-SAN-50,pza,80.00,Estimación 2026,2026-09,referencia
 TEE-PVC-SAN-100,Tee PVC sanitario 100 mm para cementar,pza,121.60,Catálogo E11.05.0029 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TEE-PVC-SAN-100-ANGER,Tee PVC sanitario 100 mm anger,pza,179.21,Catálogo E11.05.0037 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TEE-PVC-SAN-150,Tee PVC sanitario 150 mm para cementar,pza,236.95,Catálogo E11.05.0030 (material ≈85% del P.U.),2026-09,derivado del catálogo
@@ -1038,6 +1135,10 @@ TEE-PVC-SAN-50,Tee PVC sanitario 50 mm para cementar,pza,69.69,Catálogo E11.05.
 TEE-PVC-SAN-50-ANGER,Tee PVC sanitario 50 mm anger,pza,89.15,Catálogo E11.05.0035 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TEE-PVC-SAN-75,Tee PVC sanitario 75 mm para cementar,pza,100.27,Catálogo E11.05.0028 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TEE-PVC-SAN-75-ANGER,Tee PVC sanitario 75 mm anger,pza,125.15,Catálogo E11.05.0036 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-RED-PVC-SAN-100-50,TEE-RED-PVC-SAN-100-50,pza,85.00,Estimación 2026,2026-09,referencia
+TEE-RED-PVC-SAN-150-100,TEE-RED-PVC-SAN-150-100,pza,200.00,Estimación 2026,2026-09,referencia
+TEE-RED-PVC-SAN-75-50,TEE-RED-PVC-SAN-75-50,pza,70.00,Estimación 2026,2026-09,referencia
+TERMOFUSORA-600W,Termofusora Rotoplas 600W,hora,150.0,Renta o amortización profesional,2026-09,referencia
 TUBO-CU-K-13,Tubo de cobre rígido tipo K 13 mm (5.0 in) por metro,m,120.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
 TUBO-CU-K-19,Tubo de cobre rígido tipo K 19 mm (7.0 in) por metro,m,230.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
 TUBO-CU-K-25,Tubo de cobre rígido tipo K 25 mm (10.0 in) por metro,m,380.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
@@ -1090,18 +1191,122 @@ TUBO-PVC-SAN-150,Tubo PVC sanitario 150 mm en tramo de 6 m,m,354.59,Derivado de 
 TUBO-PVC-SAN-40,Tubo PVC sanitario 40 mm en tramo de 6 m,m,91.14,Derivado de catálogo E11.05.0001 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TUBO-PVC-SAN-50,Tubo PVC sanitario 50 mm en tramo de 6 m,m,97.25,Derivado de catálogo E11.05.0002 (material ≈85% del P.U.),2026-09,derivado del catálogo
 TUBO-PVC-SAN-75,Tubo PVC sanitario 75 mm en tramo de 6 m,m,131.06,Derivado de catálogo E11.05.0003 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUBOPLUS-BRIDA-110,Brida unión Tuboplus 110mm,pza,1800.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-40,Brida unión Tuboplus 40mm,pza,285.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-50,Brida unión Tuboplus 50mm,pza,450.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-63,Brida unión Tuboplus 63mm,pza,620.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-75,Brida unión Tuboplus 75mm,pza,850.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-90,Brida unión Tuboplus 90mm,pza,1200.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-110-100,Brida unión mixta Tuboplus 110x100,pza,1500.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-40-32,Brida unión mixta Tuboplus 40x32,pza,250.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-50-38,Brida unión mixta Tuboplus 50x38,pza,380.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-63-51,Brida unión mixta Tuboplus 63x51,pza,520.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-75-64,Brida unión mixta Tuboplus 75x64,pza,720.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-BRIDA-MIX-90-75,Brida unión mixta Tuboplus 90x75,pza,1000.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-110,Codo 45° Tuboplus 110mm,pza,1050.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-20,Codo 45° Tuboplus 20mm,pza,33.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-25,Codo 45° Tuboplus 25mm,pza,49.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-32,Codo 45° Tuboplus 32mm,pza,80.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-40,Codo 45° Tuboplus 40mm,pza,130.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-50,Codo 45° Tuboplus 50mm,pza,200.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-63,Codo 45° Tuboplus 63mm,pza,310.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-75,Codo 45° Tuboplus 75mm,pza,460.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-45-90,Codo 45° Tuboplus 90mm,pza,680.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-110,Codo 90° Tuboplus 110mm,pza,1100.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-20,Codo 90° Tuboplus 20mm,pza,35.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-25,Codo 90° Tuboplus 25mm,pza,52.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-32,Codo 90° Tuboplus 32mm,pza,85.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-40,Codo 90° Tuboplus 40mm,pza,135.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-50,Codo 90° Tuboplus 50mm,pza,210.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-63,Codo 90° Tuboplus 63mm,pza,330.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-75,Codo 90° Tuboplus 75mm,pza,480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-90-90,Codo 90° Tuboplus 90mm,pza,720.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-MH-45-20,Codo macho hembra 45° Tuboplus 20mm,pza,40.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-MH-45-25,Codo macho hembra 45° Tuboplus 25mm,pza,62.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-MH-45-32,Codo macho hembra 45° Tuboplus 32mm,pza,95.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-MH-90-20,Codo macho hembra 90° Tuboplus 20mm,pza,42.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-MH-90-25,Codo macho hembra 90° Tuboplus 25mm,pza,65.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-20-13,Conector hembra Tuboplus 20x13,pza,55.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-20-19,Conector hembra Tuboplus 20x19,pza,58.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-25-13,Conector hembra Tuboplus 25x13,pza,65.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-25-19,Conector hembra Tuboplus 25x19,pza,68.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-32-19,Conector hembra Tuboplus 32x19,pza,82.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-32-25,Conector hembra Tuboplus 32x25,pza,88.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-40-32,Conector hembra Tuboplus 40x32,pza,128.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-50-38,Conector hembra Tuboplus 50x38,pza,198.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-63-51,Conector hembra Tuboplus 63x51,pza,310.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-75-64,Conector hembra Tuboplus 75x64,pza,480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-HEM-90-75,Conector hembra Tuboplus 90x75,pza,720.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-20-13,Conector macho Tuboplus 20x13,pza,52.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-20-19,Conector macho Tuboplus 20x19,pza,55.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-25-13,Conector macho Tuboplus 25x13,pza,62.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-25-19,Conector macho Tuboplus 25x19,pza,65.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-32-19,Conector macho Tuboplus 32x19,pza,78.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-32-25,Conector macho Tuboplus 32x25,pza,84.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-40-32,Conector macho Tuboplus 40x32,pza,122.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-50-38,Conector macho Tuboplus 50x38,pza,188.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-63-51,Conector macho Tuboplus 63x51,pza,295.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-75-64,Conector macho Tuboplus 75x64,pza,455.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CONECTOR-MACH-90-75,Conector macho Tuboplus 90x75,pza,680.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-110-75,Reducción Tuboplus 110x75,pza,720.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-110-90,Reducción Tuboplus 110x90,pza,800.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-25-20,Reducción Tuboplus 25x20,pza,45.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-32-20,Reducción Tuboplus 32x20,pza,55.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-32-25,Reducción Tuboplus 32x25,pza,60.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-40-25,Reducción Tuboplus 40x25,pza,80.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-40-32,Reducción Tuboplus 40x32,pza,88.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-50-32,Reducción Tuboplus 50x32,pza,125.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-50-40,Reducción Tuboplus 50x40,pza,140.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-63-40,Reducción Tuboplus 63x40,pza,185.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-63-50,Reducción Tuboplus 63x50,pza,205.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-75-50,Reducción Tuboplus 75x50,pza,310.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-75-63,Reducción Tuboplus 75x63,pza,340.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-90-63,Reducción Tuboplus 90x63,pza,480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-RED-90-75,Reducción Tuboplus 90x75,pza,520.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-110,Tee Tuboplus 110mm,pza,2200.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-20,Tee Tuboplus 20mm,pza,70.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-25,Tee Tuboplus 25mm,pza,105.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-32,Tee Tuboplus 32mm,pza,168.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-40,Tee Tuboplus 40mm,pza,268.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-50,Tee Tuboplus 50mm,pza,420.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-63,Tee Tuboplus 63mm,pza,650.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-75,Tee Tuboplus 75mm,pza,980.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-90,Tee Tuboplus 90mm,pza,1480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-110,Tubo Tuboplus 110 mm (100 mm interior),m,1350.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-20,Tubo Tuboplus 20 mm (13 mm interior),m,45.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-25,Tubo Tuboplus 25 mm (19 mm interior),m,68.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-32,Tubo Tuboplus 32 mm (25 mm interior),m,105.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-40,Tubo Tuboplus 40 mm (32 mm interior),m,155.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-50,Tubo Tuboplus 50 mm (38 mm interior),m,220.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-63,Tubo Tuboplus 63 mm (51 mm interior),m,340.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-75,Tubo Tuboplus 75 mm (64 mm interior),m,680.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TUBO-90,Tubo Tuboplus 90 mm (75 mm interior),m,900.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-UNION-20,Tuerca unión Tuboplus 20mm,pza,78.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-UNION-25,Tuerca unión Tuboplus 25mm,pza,118.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-UNION-32,Tuerca unión Tuboplus 32mm,pza,188.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-VALVE-ESFERA-20,Válvula de esfera Tuboplus 20mm,pza,165.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-VALVE-ESFERA-25,Válvula de esfera Tuboplus 25mm,pza,245.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-VALVE-ESFERA-32,Válvula de esfera Tuboplus 32mm,pza,385.0,Referencia Rotoplas,2026-09,referencia
 TUERCA_UNIÓN-CU-13,Tuerca unión de cobre 13 mm,pza,20,Escala por diámetro,2026-09,referencia
 TUERCA_UNIÓN-CU-19,Tuerca unión de cobre 19 mm,pza,45,Escala por diámetro,2026-09,referencia
 TUERCA_UNIÓN-CU-25,Tuerca unión de cobre 25 mm,pza,75,Escala por diámetro,2026-09,referencia
 TUERCA_UNIÓN-CU-32,Tuerca unión de cobre 32 mm,pza,120,Escala por diámetro,2026-09,referencia
 TUERCA_UNIÓN-CU-38,Tuerca unión de cobre 38 mm,pza,180,Escala por diámetro,2026-09,referencia
 TUERCA_UNIÓN-CU-51,Tuerca unión de cobre 51 mm,pza,280,Escala por diámetro,2026-09,referencia
+VENT-PVC-SAN-50,VENT-PVC-SAN-50,pza,45.00,Estimación 2026,2026-09,referencia
+VENT-PVC-SAN-50-ANGER,VENT-PVC-SAN-50-ANGER,pza,55.00,Estimación 2026,2026-09,referencia
 YEE-CU-13,Yee de cobre 13 mm,pza,40,Escala por diámetro,2026-09,referencia
 YEE-CU-19,Yee de cobre 19 mm,pza,95,Escala por diámetro,2026-09,referencia
 YEE-CU-25,Yee de cobre 25 mm,pza,165,Escala por diámetro,2026-09,referencia
 YEE-CU-32,Yee de cobre 32 mm,pza,280,Escala por diámetro,2026-09,referencia
 YEE-CU-38,Yee de cobre 38 mm,pza,435,Escala por diámetro,2026-09,referencia
 YEE-CU-51,Yee de cobre 51 mm,pza,690,Escala por diámetro,2026-09,referencia
+YEE-DBL-PVC-SAN-102,YEE-DBL-PVC-SAN-102,pza,140.00,Estimación 2026,2026-09,referencia
+YEE-DBL-PVC-SAN-102-ANGER,YEE-DBL-PVC-SAN-102-ANGER,pza,180.00,Estimación 2026,2026-09,referencia
+YEE-DBL-PVC-SAN-50,YEE-DBL-PVC-SAN-50,pza,80.00,Estimación 2026,2026-09,referencia
+YEE-DBL-PVC-SAN-50-ANGER,YEE-DBL-PVC-SAN-50-ANGER,pza,100.00,Estimación 2026,2026-09,referencia
+YEE-DBL-RED-PVC-SAN-100-50,YEE-DBL-RED-PVC-SAN-100-50,pza,100.00,Estimación 2026,2026-09,referencia
+YEE-DBL-RED-PVC-SAN-100-50-ANGER,YEE-DBL-RED-PVC-SAN-100-50-ANGER,pza,130.00,Estimación 2026,2026-09,referencia
 YEE-PVC-SAN-102,Yee PVC sanitario 102 mm para cementar,pza,145.02,Derivado de catálogo E11.05.0055 (material ≈85% del P.U.),2026-09,derivado del catálogo
 YEE-PVC-SAN-102-ANGER,Yee PVC sanitario 102 mm anger,pza,252.84,Derivado de catálogo E11.05.0063 (material ≈85% del P.U.),2026-09,derivado del catálogo
 YEE-PVC-SAN-152,Yee PVC sanitario 152 mm para cementar,pza,400.01,Derivado de catálogo E11.05.0056 (material ≈85% del P.U.),2026-09,derivado del catálogo
@@ -1112,3 +1317,10 @@ YEE-PVC-SAN-50,Yee PVC sanitario 50 mm para cementar,pza,88.54,Derivado de catá
 YEE-PVC-SAN-50-ANGER,Yee PVC sanitario 50 mm anger,pza,136.80,Derivado de catálogo E11.05.0061 (material ≈85% del P.U.),2026-09,derivado del catálogo
 YEE-PVC-SAN-75,Yee PVC sanitario 75 mm para cementar,pza,96.81,Derivado de catálogo E11.05.0054 (material ≈85% del P.U.),2026-09,derivado del catálogo
 YEE-PVC-SAN-75-ANGER,Yee PVC sanitario 75 mm anger,pza,137.34,Derivado de catálogo E11.05.0062 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-RED-PVC-SAN-100-50,YEE-RED-PVC-SAN-100-50,pza,85.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-100-50-ANGER,YEE-RED-PVC-SAN-100-50-ANGER,pza,110.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-100-75-ANGER,YEE-RED-PVC-SAN-100-75-ANGER,pza,120.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-150-100,YEE-RED-PVC-SAN-150-100,pza,200.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-150-100-ANGER,YEE-RED-PVC-SAN-150-100-ANGER,pza,250.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-75-50,YEE-RED-PVC-SAN-75-50,pza,70.00,Estimación 2026,2026-09,referencia
+YEE-RED-PVC-SAN-75-50-ANGER,YEE-RED-PVC-SAN-75-50-ANGER,pza,90.00,Estimación 2026,2026-09,referencia

@@ -4,16 +4,22 @@
   "gubim_confianza": "media",
   "materiales": [
     {
+      "insumo": "VENT-PVC-SAN-50",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Remate ventilación de pvc cementar 50 mm"
+    },
+    {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -28,12 +34,12 @@
       }
     ],
     "rendimiento": 12.0,
-    "fuente": "12 pza/jor; INSTRUCCIONES_PARTE5.md"
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Remate 50mm con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 50mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }

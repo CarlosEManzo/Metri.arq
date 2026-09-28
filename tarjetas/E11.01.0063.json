@@ -5,7 +5,7 @@
   "gubim_alternativas": [],
   "materiales": [
     {
-      "insumo": "CODO-CU-13",
+      "insumo": "CODO-CU-38",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Pieza"
@@ -22,8 +22,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 18,
-    "fuente": "18 pza/jor"
+    "rendimiento": 8,
+    "fuente": "8 pza/jor (catálogo)"
   },
   "equipo": [],
   "supuestos": [

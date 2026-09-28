@@ -8,31 +8,31 @@
       "insumo": "TUBO-CU-M-64",
       "cantidad": 1.0,
       "desperdicio": 0.03,
-      "nota": "Tramos 6.10 m; 3% cortes"
+      "nota": "Tramos 6 m; 3% cortes"
     },
     {
       "insumo": "CODO-CU-64",
       "cantidad": 0.5,
       "desperdicio": 0.0,
-      "nota": "1 codo cada 2 m"
+      "nota": "1 cada 2 m"
     },
     {
       "insumo": "TEE-CU-64",
       "cantidad": 0.2,
       "desperdicio": 0.0,
-      "nota": "1 tee cada 5 m"
+      "nota": "1 cada 5 m"
     },
     {
       "insumo": "COPLE-CU-64",
       "cantidad": 0.17,
       "desperdicio": 0.0,
-      "nota": "1 cople por tramo"
+      "nota": "1 por tramo"
     },
     {
       "insumo": "SOLD-5050",
       "cantidad": 0.0098,
       "desperdicio": 0.1,
-      "nota": "≈3 g junta"
+      "nota": "3 g junta"
     },
     {
       "insumo": "FUNDENTE",
@@ -65,12 +65,11 @@
       }
     ],
     "rendimiento": 11,
-    "fuente": "11 m/jor (catálogo base)"
+    "fuente": "11 m/jor (catálogo)"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación en muro o ducto.",
-    "Conexiones proporcionales de red."
+    "Instalación en muro o ducto."
   ],
   "elaboro": "Generador 5a",
   "reviso": ""

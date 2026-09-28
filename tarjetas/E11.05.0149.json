@@ -7,19 +7,19 @@
       "insumo": "TAPON-PVC-SAN-100",
       "cantidad": 1.0,
       "desperdicio": 0.0,
-      "nota": "Pieza Tapón de pvc de inserción de 100 mm, incluye: materiales, ac"
+      "nota": "Tapón de pvc de inserción de 100 mm, inc"
     },
     {
       "insumo": "CEM-PVC-250",
       "cantidad": 0.06,
       "desperdicio": 0.05,
-      "nota": "Cemento para cementación"
+      "nota": "Cement"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.03,
       "desperdicio": 0.0,
-      "nota": "Limpieza pre-cementación"
+      "nota": "Cleaner"
     }
   ],
   "mano_obra": {
@@ -34,12 +34,12 @@
       }
     ],
     "rendimiento": 6.0,
-    "fuente": "INSTRUCCIONES_PARTE5.md (referencia por diámetro)"
+    "fuente": "INSTRUCCIONES_PARTE5.md"
   },
   "equipo": [],
   "supuestos": [
-    "Instalación de Tapón de pvc de inserción de 100 mm, incluye: materiales, ac con preparación, limpieza, cementación y prueba"
+    "PVC sanitario 100mm; typical installation conditions"
   ],
-  "elaboro": "Agente de tarjetas (gen5e_v3.py)",
+  "elaboro": "gen5e_final.py",
   "reviso": ""
 }
