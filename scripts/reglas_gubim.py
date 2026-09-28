@@ -161,6 +161,8 @@ R = [
     (None, r"cocinas", r"cocina integral|gabinete|alacena", "60.20.10.50", "alta"),
     (None, None, r"^(porta|jabonera|toallero|gancho|barra de seguridad|dispensador|secador|cesto|basurero|cenicero|asiento|accesorios de bano)", "60.10.10.80", "alta"),
     (None, None, r"^juego de muebles de bano", "60.10.10", "media"),
+    (None, None, r"^(repisa|agarradera|tendedero|destapador)", "60.10.10.80", "alta"),
+    (None, r"llaves y accesorios", r"^(cespol|desague|salida (de |para )?tina)", "50.20.20.60", "alta"),  # terminales de drenaje
     (None, r"llaves y accesorios", None, "50.10.20.60", "alta"),
     (r"muebles de bano", None, None, "60.10.10.80", "baja"),
 

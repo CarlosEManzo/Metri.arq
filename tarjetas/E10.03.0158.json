@@ -72,5 +72,6 @@
     "Salidas de agua fría, caliente y gas LP existentes; incluye chimenea, conectores y llaves de paso."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Par CDMX aproximado (HJ12BP, calentador de 38 L). El calentador Magamex 38 L a $2,369.83 sin IVA (Azulemex 2026) ya es el 59 % del costo directo CDMX; la tarjeta suma además el kit de instalación a gas (conector flexible, llave de gas, tubo de ventilación, válvula y mangueras: ≈$965) y 3 pza/jor Of+Ay. Contra el P.U. actualizado queda en +16 %."
 }

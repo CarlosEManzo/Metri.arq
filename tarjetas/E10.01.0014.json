@@ -1,8 +1,13 @@
 {
   "clave_cb": "E10.01.0014",
-  "gubim": "50.10.20.60",
+  "gubim": "60.10.10.80",
   "gubim_confianza": "alta",
-  "gubim_alternativas": [],
+  "gubim_alternativas": [
+    {
+      "clave": "50.10.20.60",
+      "condicion": "clave anterior (terminales de fontanería)"
+    }
+  ],
   "materiales": [
     {
       "insumo": "HVX-123",

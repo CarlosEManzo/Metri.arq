@@ -1,11 +1,15 @@
 {
   "clave_cb": "E10.01.0047",
-  "gubim": "50.10.20.60",
+  "gubim": "50.20.20.60",
   "gubim_confianza": "alta",
   "gubim_alternativas": [
     {
       "clave": "60.10.10.80",
       "condicion": "si se clasifica con el equipamiento del cuarto húmedo"
+    },
+    {
+      "clave": "50.10.20.60",
+      "condicion": "clave anterior (terminales de fontanería)"
     }
   ],
   "materiales": [

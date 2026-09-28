@@ -1,6 +1,6 @@
 # Auditoría parte 1: Canasta CDMX
 
-Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
+Generado el 2026-09-28 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
 
 ## Resumen
 
@@ -14,7 +14,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | Desviación > ±25 % justificada | 0 |
 | Con referencia sustituta (catálogo erróneo) | 0 |
 | Básicos comparados a costo directo | 0 |
-| Material mayormente derivado del catálogo (validación no independiente) | 0 |
+| Validación no independiente (material derivado o rendimiento ajustado al catálogo) | 0 |
 | Diferencia mediana contra su referencia | +5.0% |
 | Insumos usados que siguen como referencia | 44 |
 | Insumos con precio derivado del catálogo (validación no independiente) | 0 |

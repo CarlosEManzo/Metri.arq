@@ -16,13 +16,13 @@
         "personas": 1
       }
     ],
-    "rendimiento": 11,
-    "fuente": "Azulejo en muro con pegazulejo, dejando el muro limpio de adhesivo; 11 m²/jor peón (catálogo 20). CDMX BL12IB $66.34 implica ≈14 m²/jor"
+    "rendimiento": 14.0,
+    "fuente": "Azulejo en muro con pegazulejo, dejando el muro limpio de adhesivo; 14 m²/jor peón, el implícito en CDMX BL12IB ($66.34, misma partida). Catálogo 20 m²/jor."
   },
   "equipo": [
     {
       "descripcion": "Andamio tubular 1 cuerpo (renta)",
-      "horas": 0.7273,
+      "horas": 0.5714,
       "costo_horario": 4.5
     }
   ],

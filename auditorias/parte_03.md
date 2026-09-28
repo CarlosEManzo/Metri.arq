@@ -1,6 +1,6 @@
 # Auditoría parte 3: Acabados: muros y plafones, pisos, mármol, pinturas, alfombra, herrería, aluminio, cristales y carpintería
 
-Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
+Generado el 2026-09-28 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
 
 ## Resumen
 
@@ -14,7 +14,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | Desviación > ±25 % justificada | 63 |
 | Con referencia sustituta (catálogo erróneo) | 4 |
 | Básicos comparados a costo directo | 12 |
-| Material mayormente derivado del catálogo (validación no independiente) | 358 |
+| Validación no independiente (material derivado o rendimiento ajustado al catálogo) | 358 |
 | Diferencia mediana contra su referencia | +0.7% |
 | Insumos usados que siguen como referencia | 231 |
 | Insumos con precio derivado del catálogo (validación no independiente) | 255 |
@@ -93,7 +93,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E05.07.0003 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Fine fissured  | M2 | 857.00 | 1,268.64 |  | -32.5% |  | P.U. actualizado | — |
 | E05.07.0004 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Georgian suspe | M2 | 857.00 | 1,268.64 |  | -32.5% |  | P.U. actualizado | — |
 | E05.07.0005 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Dune suspensio | M2 | 897.45 | 1,374.82 |  | -34.7% |  | P.U. actualizado | — |
-| E05.07.0006 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Tundra suspens | M2 | 958.11 | 1,525.35 |  | -37.2% |  | P.U. actualizado · material derivado del catálogo | — |
+| E05.07.0006 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Tundra suspens | M2 | 958.11 | 1,525.35 |  | -37.2% |  | P.U. actualizado · no independiente | — |
 | E05.07.0007 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Cleanroom Myla | M2 | 1,695.38 | 1,838.83 |  | -7.8% |  | P.U. actualizado | — |
 | E05.07.0008 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Cirrus suspens | M2 | 1,160.35 | 1,838.83 |  | -36.9% |  | P.U. actualizado | — |
 | E05.07.0009 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Cirrus suspens | M2 | 1,265.52 | 1,838.83 |  | -31.2% |  | P.U. actualizado | — |
@@ -102,216 +102,216 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E05.07.0012 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Optima vector  | M2 | 2,477.31 | 3,091.44 |  | -19.9% |  | P.U. actualizado | — |
 | E05.07.0013 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Woodworks vect | M2 | 9,277.57 | 14,154.24 |  | -34.4% |  | P.U. actualizado | — |
 | E05.07.0014 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Metalworks vec | M2 | 6,349.43 | 5,778.95 |  | +9.9% |  | P.U. actualizado | — |
-| E05.07.0015 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Fine fis fine  | M2 | 1,520.11 | 2,405.51 |  | -36.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E05.07.0016 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Graphis wrappe | M2 | 1,493.15 | 2,371.23 |  | -37.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E05.07.0017 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Fissured suspe | M2 | 679.79 | 999.07 |  | -32.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E05.07.0018 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Shasta F.V. su | M2 | 679.79 | 999.07 |  | -32.0% |  | P.U. actualizado · material derivado del catálogo | — |
+| E05.07.0015 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Fine fis fine  | M2 | 1,520.11 | 2,405.51 |  | -36.8% |  | P.U. actualizado · no independiente | — |
+| E05.07.0016 | 40.20.10.10 | Falso plafond modular de 0.61x0.61 cm. modelo Graphis wrappe | M2 | 1,493.15 | 2,371.23 |  | -37.0% |  | P.U. actualizado · no independiente | — |
+| E05.07.0017 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Fissured suspe | M2 | 679.79 | 999.07 |  | -32.0% |  | P.U. actualizado · no independiente | — |
+| E05.07.0018 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Shasta F.V. su | M2 | 679.79 | 999.07 |  | -32.0% |  | P.U. actualizado · no independiente | — |
 | E05.07.0019 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Cortega suspen | M2 | 632.60 | 917.76 |  | -31.1% |  | P.U. actualizado | — |
-| E05.07.0020 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Cortega sec lo | M2 | 652.83 | 949.17 |  | -31.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0001 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 1.3 mm, de la m | M2 | 196.08 | 144.74 |  | +35.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0002 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
-| E06.01.0003 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 3.1 mm, de la m | M2 | 399.65 | 323.04 | 401.72 | +23.7% | -0.5% | CDMX · material derivado del catálogo | — |
-| E06.01.0004 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Solid de 1.6 mm, de la marca | M2 | 239.22 | 182.03 | 240.60 | +31.4% | -0.6% | CDMX · material derivado del catálogo | — |
-| E06.01.0005 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Solid de 3.1 mm, de la marca | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · material derivado del catálogo | — |
-| E06.01.0006 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Marble de 3.1 mm, de | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · material derivado del catálogo | — |
-| E06.01.0007 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Serie 100 de 3.1 mm, de la m | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · material derivado del catálogo | — |
-| E06.01.0008 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Quartz de 3.1 mm, de | M2 | 446.83 | 363.73 |  | +22.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0009 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Evolution de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
-| E06.01.0010 | 40.20.20.20 | Loseta vinílica de 30x30 modelo ML de 1.3 mm, de la marca Vi | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0011 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Slip Grip de 3.1 mm, de la m | M2 | 468.40 | 382.99 |  | +22.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0012 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Terra Bellum de 1.6 mm, de l | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
-| E06.01.0013 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Van de 1.6 mm, de la marca V | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
-| E06.01.0014 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Vetta de 1.3 mm, de la marca | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0015 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 1.3 mm, de l | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0016 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 3.1 mm, de l | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · material derivado del catálogo | — |
-| E06.01.0017 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 2 mm, de la  | M2 | 279.66 | 218.40 |  | +28.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.01.0018 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Greco de 1.6 mm, de la marca | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
-| E06.01.0019 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Deco Wood de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · material derivado del catálogo | — |
+| E05.07.0020 | 40.20.10.10 | Falso plafond modular de 0.61x1.22 cm. modelo Cortega sec lo | M2 | 652.83 | 949.17 |  | -31.2% |  | P.U. actualizado · no independiente | — |
+| E06.01.0001 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 1.3 mm, de la m | M2 | 196.08 | 144.74 |  | +35.5% |  | P.U. actualizado · no independiente | — |
+| E06.01.0002 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
+| E06.01.0003 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Thru Chip de 3.1 mm, de la m | M2 | 399.65 | 323.04 | 401.72 | +23.7% | -0.5% | CDMX · no independiente | — |
+| E06.01.0004 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Solid de 1.6 mm, de la marca | M2 | 239.22 | 182.03 | 240.60 | +31.4% | -0.6% | CDMX · no independiente | — |
+| E06.01.0005 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Solid de 3.1 mm, de la marca | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · no independiente | — |
+| E06.01.0006 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Marble de 3.1 mm, de | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · no independiente | — |
+| E06.01.0007 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Serie 100 de 3.1 mm, de la m | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · no independiente | — |
+| E06.01.0008 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Quartz de 3.1 mm, de | M2 | 446.83 | 363.73 |  | +22.9% |  | P.U. actualizado · no independiente | — |
+| E06.01.0009 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Evolution de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
+| E06.01.0010 | 40.20.20.20 | Loseta vinílica de 30x30 modelo ML de 1.3 mm, de la marca Vi | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · no independiente | — |
+| E06.01.0011 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Slip Grip de 3.1 mm, de la m | M2 | 468.40 | 382.99 |  | +22.3% |  | P.U. actualizado · no independiente | — |
+| E06.01.0012 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Terra Bellum de 1.6 mm, de l | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
+| E06.01.0013 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Van de 1.6 mm, de la marca V | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
+| E06.01.0014 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Vetta de 1.3 mm, de la marca | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · no independiente | — |
+| E06.01.0015 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 1.3 mm, de l | M2 | 178.55 | 129.35 |  | +38.0% |  | P.U. actualizado · no independiente | — |
+| E06.01.0016 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 3.1 mm, de l | M2 | 407.74 | 329.47 | 401.72 | +23.8% | +1.5% | CDMX · no independiente | — |
+| E06.01.0017 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Premium Wood de 2 mm, de la  | M2 | 279.66 | 218.40 |  | +28.1% |  | P.U. actualizado · no independiente | — |
+| E06.01.0018 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Greco de 1.6 mm, de la marca | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
+| E06.01.0019 | 40.20.20.20 | Loseta vinílica de 30x30 modelo Deco Wood de 1.6 mm, de la m | M2 | 231.13 | 175.60 | 240.60 | +31.6% | -3.9% | CDMX · no independiente | — |
 | E06.01.0020 | 40.30.20.10 | Nariz vilílico de escalón de la marca Vinylasa, incluye: sum | M | 151.32 | 103.00 |  | +46.9% |  | P.U. actualizado | — |
-| E06.01.0021 | 40.10.20.30 | Zoclo vilílico Vinyzoclo de 6.5 cm. y 2 mm de espesor de la  | M | 80.22 | 69.21 |  | +15.9% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.01.0021 | 40.10.20.30 | Zoclo vilílico Vinyzoclo de 6.5 cm. y 2 mm de espesor de la  | M | 80.22 | 69.21 |  | +15.9% |  | P.U. actualizado · no independiente | — |
 | E06.01.0022 | 40.10.20.30 | Zoclo vilílico de 7 cm. de la marca Vinylasa, incluye: sumin | M | 40.33 | 34.92 | 41.34 | +15.5% | -2.4% | CDMX | — |
 | E06.01.0023 | 40.10.20.30 | Zoclo vilílico de 10 cm. de la marca Vinylasa, incluye: sumi | M | 45.36 | 41.76 | 59.25 | +8.6% | -23.4% | CDMX | — |
-| E06.02.0001 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul acero Kolorines, asentado c | M2 | 1,175.89 | 1,010.35 |  | +16.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0002 | 40.20.20.20 | Mosaico veneciano de 5x5 cm blanco hielo Kolorines, asentado | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0003 | 40.20.20.20 | Mosaico veneciano de 5x5 cm miel obscuro Kolorines, asentado | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0004 | 40.20.20.20 | Mosaico veneciano de 5x5 cm negro Kolorines, asentado con me | M2 | 1,655.84 | 1,379.95 |  | +20.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0005 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde esmerlda Kolorines, asenta | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0006 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul acapulco Kolorines, asentad | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0007 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul cancun Kolorines, asentado  | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0008 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul cobalto Kolorines, asentado | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0009 | 40.20.20.20 | Mosaico veneciano de 5x5 cm cobalto obscuro Kolorines, asent | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0010 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul ixtapa Kolorines, asentado  | M2 | 1,175.89 | 1,010.35 |  | +16.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0011 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul mar Kolorines, asentado con | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0012 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul turquesa Kolorines, asentad | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0013 | 40.20.20.20 | Mosaico veneciano de 5x5 cm blanco ostion Kolorines, asentad | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0014 | 40.20.20.20 | Mosaico veneciano de 5x5 cm gris perla Kolorines, asentado c | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0015 | 40.20.20.20 | Mosaico veneciano de 5x5 cm miel Kolorines, asentado con mez | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0016 | 40.20.20.20 | Mosaico veneciano de 5x5 cm trigo Kolorines, asentado con me | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0017 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde agua Kolorines, asentado c | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0018 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde cuernavaca Kolorines, asen | M2 | 1,112.53 | 961.63 |  | +15.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0019 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul k-5 Kolorines, asentado con | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0020 | 40.20.20.20 | Mosaico veneciano de 2x2 cm amarillo Kolorines, asentado con | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0021 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul acapulco Kolorines, asentad | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0022 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul aqua Kolorines, asentado co | M2 | 1,217.57 | 962.46 |  | +26.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0023 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul cancun Kolorines, asentado  | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0024 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul cristal Kolorines, asentado | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0025 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul mar Kolorines, asentado con | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0026 | 40.20.20.20 | Mosaico veneciano de 2x2 cm blanco hielo Kolorines, asentado | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0027 | 40.20.20.20 | Mosaico veneciano de 2x2 cm blanco ostion Kolorines, asentad | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0028 | 40.20.20.20 | Mosaico veneciano de 2x2 cm cobalto obscuro Kolorines, asent | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0029 | 40.20.20.20 | Mosaico veneciano de 2x2 cm gris perla Kolorines, asentado c | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0030 | 40.20.20.20 | Mosaico veneciano de 2x2 cm miel Kolorines, asentado con mez | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0031 | 40.20.20.20 | Mosaico veneciano de 2x2 cm mandarina Kolorines, asentado co | M2 | 1,685.38 | 1,323.98 |  | +27.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0032 | 40.20.20.20 | Mosaico veneciano de 2x2 cm negro Kolorines, asentado con me | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0033 | 40.20.20.20 | Mosaico veneciano de 2x2 cm rojo carmin Kolorines, asentado  | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0034 | 40.20.20.20 | Mosaico veneciano de 2x2 cm rojo escarlata Kolorines, asenta | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0035 | 40.20.20.20 | Mosaico veneciano de 2x2 cm bermellon Kolorines, asentado co | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0036 | 40.20.20.20 | Mosaico veneciano de 2x2 cm trigo Kolorines, asentado con me | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0037 | 40.20.20.20 | Mosaico veneciano de 2x2 cm verde esmeralda Kolorines, asent | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0038 | 40.20.20.20 | Mosaico veneciano de 2x2 cm verde cuernavaca Kolorines, asen | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0039 | 40.20.20.20 | Piso de loseta de barro Línea económica de 30X30 cm. asentad | M2 | 616.42 | 536.15 |  | +15.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.02.0040 | 40.20.20.20 | Piso de loseta interceramic según muestra aprobada en obra,a | M2 | 773.09 | 709.49 |  | +9.0% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.02.0001 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul acero Kolorines, asentado c | M2 | 1,175.89 | 1,010.35 |  | +16.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0002 | 40.20.20.20 | Mosaico veneciano de 5x5 cm blanco hielo Kolorines, asentado | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0003 | 40.20.20.20 | Mosaico veneciano de 5x5 cm miel obscuro Kolorines, asentado | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0004 | 40.20.20.20 | Mosaico veneciano de 5x5 cm negro Kolorines, asentado con me | M2 | 1,655.84 | 1,379.95 |  | +20.0% |  | P.U. actualizado · no independiente | — |
+| E06.02.0005 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde esmerlda Kolorines, asenta | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0006 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul acapulco Kolorines, asentad | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0007 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul cancun Kolorines, asentado  | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0008 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul cobalto Kolorines, asentado | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0009 | 40.20.20.20 | Mosaico veneciano de 5x5 cm cobalto obscuro Kolorines, asent | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0010 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul ixtapa Kolorines, asentado  | M2 | 1,175.89 | 1,010.35 |  | +16.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0011 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul mar Kolorines, asentado con | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0012 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul turquesa Kolorines, asentad | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0013 | 40.20.20.20 | Mosaico veneciano de 5x5 cm blanco ostion Kolorines, asentad | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0014 | 40.20.20.20 | Mosaico veneciano de 5x5 cm gris perla Kolorines, asentado c | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0015 | 40.20.20.20 | Mosaico veneciano de 5x5 cm miel Kolorines, asentado con mez | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0016 | 40.20.20.20 | Mosaico veneciano de 5x5 cm trigo Kolorines, asentado con me | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0017 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde agua Kolorines, asentado c | M2 | 1,204.20 | 1,032.19 |  | +16.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0018 | 40.20.20.20 | Mosaico veneciano de 5x5 cm verde cuernavaca Kolorines, asen | M2 | 1,112.53 | 961.63 |  | +15.7% |  | P.U. actualizado · no independiente | — |
+| E06.02.0019 | 40.20.20.20 | Mosaico veneciano de 5x5 cm azul k-5 Kolorines, asentado con | M2 | 1,268.92 | 1,080.91 |  | +17.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0020 | 40.20.20.20 | Mosaico veneciano de 2x2 cm amarillo Kolorines, asentado con | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0021 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul acapulco Kolorines, asentad | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · no independiente | — |
+| E06.02.0022 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul aqua Kolorines, asentado co | M2 | 1,217.57 | 962.46 |  | +26.5% |  | P.U. actualizado · no independiente | — |
+| E06.02.0023 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul cancun Kolorines, asentado  | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · no independiente | — |
+| E06.02.0024 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul cristal Kolorines, asentado | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0025 | 40.20.20.20 | Mosaico veneciano de 2x2 cm azul mar Kolorines, asentado con | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · no independiente | — |
+| E06.02.0026 | 40.20.20.20 | Mosaico veneciano de 2x2 cm blanco hielo Kolorines, asentado | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0027 | 40.20.20.20 | Mosaico veneciano de 2x2 cm blanco ostion Kolorines, asentad | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0028 | 40.20.20.20 | Mosaico veneciano de 2x2 cm cobalto obscuro Kolorines, asent | M2 | 1,030.17 | 817.98 |  | +25.9% |  | P.U. actualizado · no independiente | — |
+| E06.02.0029 | 40.20.20.20 | Mosaico veneciano de 2x2 cm gris perla Kolorines, asentado c | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0030 | 40.20.20.20 | Mosaico veneciano de 2x2 cm miel Kolorines, asentado con mez | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0031 | 40.20.20.20 | Mosaico veneciano de 2x2 cm mandarina Kolorines, asentado co | M2 | 1,685.38 | 1,323.98 |  | +27.3% |  | P.U. actualizado · no independiente | — |
+| E06.02.0032 | 40.20.20.20 | Mosaico veneciano de 2x2 cm negro Kolorines, asentado con me | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0033 | 40.20.20.20 | Mosaico veneciano de 2x2 cm rojo carmin Kolorines, asentado  | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0034 | 40.20.20.20 | Mosaico veneciano de 2x2 cm rojo escarlata Kolorines, asenta | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0035 | 40.20.20.20 | Mosaico veneciano de 2x2 cm bermellon Kolorines, asentado co | M2 | 1,748.75 | 1,372.38 |  | +27.4% |  | P.U. actualizado · no independiente | — |
+| E06.02.0036 | 40.20.20.20 | Mosaico veneciano de 2x2 cm trigo Kolorines, asentado con me | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0037 | 40.20.20.20 | Mosaico veneciano de 2x2 cm verde esmeralda Kolorines, asent | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0038 | 40.20.20.20 | Mosaico veneciano de 2x2 cm verde cuernavaca Kolorines, asen | M2 | 1,054.44 | 836.46 |  | +26.1% |  | P.U. actualizado · no independiente | — |
+| E06.02.0039 | 40.20.20.20 | Piso de loseta de barro Línea económica de 30X30 cm. asentad | M2 | 616.42 | 536.15 |  | +15.0% |  | P.U. actualizado · no independiente | — |
+| E06.02.0040 | 40.20.20.20 | Piso de loseta interceramic según muestra aprobada en obra,a | M2 | 773.09 | 709.49 |  | +9.0% |  | P.U. actualizado · no independiente | — |
 | E06.02.0041 | 40.10.20.30 | Zoclo de 8 cm. de loseta interceramic según muestra aprobada | M | 177.11 | 170.00 |  | +4.2% |  | P.U. actualizado | — |
-| E06.02.0043 | 40.10.20.10 | Lambrin de loseta interceramic según muestra aprobada en obr | M2 | 718.14 | 655.25 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0001 | 40.20.20.20 | Mármol crema marfil clásico de 2 cm de espesor, acabado puli | M2 | 1,949.60 | 1,942.59 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0002 | 40.10.20.10 | Mármol crema marfil clásico de 2 cm de espesor, acabado puli | M2 | 2,055.15 | 2,029.95 |  | +1.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0003 | 40.20.20.20 | Mármol importado crema marfil extra de 2 cm, acabado pulido  | M2 | 2,514.55 | 2,521.00 |  | -0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0004 | 40.10.20.10 | Mármol importado crema marfil extra de 2 cm, acabado pulido  | M2 | 2,620.10 | 2,608.36 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0005 | 40.20.20.20 | Mármol importado crema marfil comercial de 2 cm, acabado pul | M2 | 2,232.08 | 2,238.30 |  | -0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0006 | 40.10.20.10 | Mármol importado crema marfil comercial de 2 cm, acabado pul | M2 | 2,337.63 | 2,325.66 |  | +0.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0007 | 40.20.20.20 | Mármol importado blanco carrara de 2 cm, acabado pulido y br | M2 | 2,359.19 | 2,354.83 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0008 | 40.10.20.10 | Mármol importado blanco carrara de 2 cm, acabado pulido y br | M2 | 2,464.74 | 2,442.19 |  | +0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0009 | 40.20.20.20 | Mármol importado blanco carrara giogia de 2 cm, acabado puli | M2 | 2,599.29 | 2,599.63 |  | -0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0010 | 40.10.20.10 | Mármol importado blanco carrara giogia de 2 cm, acabado puli | M2 | 2,704.84 | 2,686.99 |  | +0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0011 | 40.20.20.20 | Mármol importado arabescato de 2 cm, acabado pulido y brilla | M2 | 3,347.85 | 3,346.47 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0012 | 40.10.20.10 | Mármol importado arabescato de 2 cm, acabado pulido y brilla | M2 | 3,453.41 | 3,433.83 |  | +0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0013 | 40.20.20.20 | Mármol importado calacata de 2 cm, acabado pulido y brillado | M2 | 5,438.16 | 4,110.44 |  | +32.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0014 | 40.10.20.10 | Mármol importado calacata de 2 cm, acabado pulido y brillado | M2 | 5,543.71 | 4,197.80 |  | +32.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0015 | 40.20.20.20 | Mármol importado café marrón emperador de 2 cm, acabado puli | M2 | 2,669.91 | 2,665.18 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0016 | 40.10.20.10 | Mármol importado café marrón emperador de 2 cm, acabado puli | M2 | 2,775.46 | 2,752.54 |  | +0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0017 | 40.20.20.20 | Mármol importado café marrón emperador extra de 2 cm, acabad | M2 | 2,797.03 | 2,796.57 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0018 | 40.10.20.10 | Mármol importado café marrón emperador extra de 2 cm, acabad | M2 | 2,902.58 | 2,883.93 |  | +0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0019 | 40.20.20.20 | Mármol importado rojo Alicante de 2 cm, acabado pulido y bri | M2 | 2,669.91 | 2,665.18 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0020 | 40.10.20.10 | Mármol importado rojo Alicante de 2 cm, acabado pulido y bri | M2 | 2,775.46 | 2,752.54 |  | +0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0021 | 40.20.20.20 | Mármol importado rojo Alicante extra de 2 cm, acabado pulido | M2 | 2,966.50 | 2,960.94 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0022 | 40.10.20.10 | Mármol importado rojo Alicante extra de 2 cm, acabado pulido | M2 | 3,072.06 | 3,048.30 |  | +0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0023 | 40.20.20.20 | Mármol importado rojo coralito de 2 cm, acabado pulido y bri | M2 | 2,429.80 | 2,435.26 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0024 | 40.10.20.10 | Mármol importado rojo coralito de 2 cm, acabado pulido y bri | M2 | 2,535.36 | 2,522.62 |  | +0.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0025 | 40.20.20.20 | Mármol importado boticcino fiorito de 2 cm, acabado pulido y | M2 | 2,867.65 | 2,862.36 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0026 | 40.10.20.10 | Mármol importado boticcino fiorito de 2 cm, acabado pulido y | M2 | 2,973.19 | 2,949.72 |  | +0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0027 | 40.20.20.20 | Mármol importado sky blue de 2 cm, acabado pulido y brillado | M2 | 2,472.17 | 2,468.04 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0028 | 40.10.20.10 | Mármol importado sky blue de 2 cm, acabado pulido y brillado | M2 | 2,577.73 | 2,555.40 |  | +0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0029 | 40.20.20.20 | Mármol nacional beige maya de 2 cm acabado pulido y brillado | M2 | 2,048.46 | 1,928.17 |  | +6.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0030 | 40.20.20.20 | Mármol nacional dorado tepeji de 2 cm acabado pulido y brill | M2 | 2,048.46 | 1,928.17 |  | +6.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0031 | 40.20.20.20 | Mármol nacional gris tepeaca de 2 cm acabado pulido y brilla | M2 | 1,794.24 | 1,689.27 |  | +6.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0032 | 40.20.20.20 | Mármol nacional santo tomas lila de 2 cm acabado pulido y br | M2 | 1,794.24 | 1,689.27 |  | +6.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0033 | 40.20.20.20 | Mármol nacional travertino amarillo de 2 cm acabado pulido y | M2 | 1,667.13 | 1,571.15 |  | +6.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0034 | 40.20.20.20 | Mármol nacional travertino fiorito de 2 cm acabado pulido y  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0035 | 40.20.20.20 | Mármol nacional travertino veteado de 2 cm acabado pulido y  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0036 | 40.20.20.20 | Mármol nacional travertino san pablo de 2 cm acabado pulido  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0037 | 40.20.20.20 | Mármol nacional travertino rojo de 2 cm acabado pulido y bri | M2 | 1,836.60 | 1,734.89 |  | +5.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0038 | 40.20.20.20 | Mármol nacional travertino 2000 de 2 cm acabado pulido y bri | M2 | 1,695.38 | 1,605.34 |  | +5.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0039 | 40.20.20.20 | Mármol nacional blanco veneciano de 2 cm acabado pulido y br | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0040 | 40.20.20.20 | Mármol nacional blanco perla de 2 cm acabado pulido y brilla | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0041 | 40.20.20.20 | Mármol nacional blanco guadiana de 2 cm acabado pulido y bri | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0042 | 40.20.20.20 | Mármol nacional rojo grecia de 2 cm acabado pulido y brillad | M2 | 2,302.70 | 2,163.80 |  | +6.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0043 | 40.10.20.10 | Mármol nacional rojo grecia de 2 cm, acabado pulido y brilla | M2 | 2,408.24 | 2,251.16 |  | +7.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0044 | 40.20.20.20 | Mármol beige maya de 30.5x30.5x1 cm. nacional, acabado pulid | M2 | 1,370.07 | 1,418.94 |  | -3.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0045 | 40.10.20.10 | Mármol beige maya de 30.5x30.5x1 cm. nacional, acabado pulid | M2 | 1,396.80 | 1,477.18 |  | -5.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0046 | 40.20.20.20 | Mármol dorado tepeji de 30.5x30.5x1 cm. nacional, acabado pu | M2 | 1,585.77 | 1,647.75 |  | -3.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0047 | 40.10.20.10 | Mármol dorado tepeji de 30.5x30.5x1 cm. nacional, acabado pu | M2 | 1,612.50 | 1,705.99 |  | -5.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0048 | 40.20.20.20 | Mármol gris tepeaca de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,370.07 | 1,413.88 |  | -3.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0049 | 40.10.20.10 | Mármol gris tepeaca de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,396.80 | 1,472.12 |  | -5.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0050 | 40.20.20.20 | Mármol santo tomas lila de 30.5x30.5x1 cm. nacional, acabado | M2 | 1,289.18 | 1,325.63 |  | -2.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0051 | 40.10.20.10 | Mármol santo tomas lila de 30.5x30.5x1 cm. nacional, acabado | M2 | 1,315.91 | 1,383.87 |  | -4.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0052 | 40.20.20.20 | Mármol travertino amarillo de 30.5x30.5x1 cm. nacional, acab | M2 | 1,302.65 | 1,340.14 |  | -2.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0053 | 40.10.20.10 | Mármol travertino amarillo de 30.5x30.5x1 cm. nacional, acab | M2 | 1,329.39 | 1,340.14 |  | -0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0054 | 40.20.20.20 | Mármol travertino fiorito de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,248.73 | 1,281.90 |  | -2.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0055 | 40.10.20.10 | Mármol travertino fiorito de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,275.47 | 1,340.14 |  | -4.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0056 | 40.20.20.20 | Mármol travertino veteado de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,154.36 | 1,185.66 |  | -2.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0057 | 40.10.20.10 | Mármol travertino veteado de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,181.09 | 1,243.90 |  | -5.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0058 | 40.20.20.20 | Mármol travertino san pablo de 30.5x30.5x1 cm. nacional, aca | M2 | 1,154.36 | 1,185.66 |  | -2.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0059 | 40.10.20.10 | Mármol travertino san pablo de 30.5x30.5x1 cm. nacional, aca | M2 | 1,181.09 | 1,243.90 |  | -5.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0060 | 40.20.20.20 | Mármol travertino rojo de 30.5x30.5x1 cm. nacional, acabado  | M2 | 1,248.73 | 1,281.90 |  | -2.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0061 | 40.10.20.10 | Mármol travertino rojo de 30.5x30.5x1 cm. nacional, acabado  | M2 | 1,275.47 | 1,340.14 |  | -4.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0062 | 40.20.20.20 | Mármol blanco perla de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,383.55 | 1,423.61 |  | -2.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0063 | 40.10.20.10 | Mármol blanco perla de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,410.29 | 1,481.85 |  | -4.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0064 | 40.20.20.20 | Mármol rojo grecia de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,801.48 | 1,872.70 |  | -3.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0065 | 40.10.20.10 | Mármol rojo grecia de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,828.21 | 1,930.94 |  | -5.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0066 | 40.20.20.20 | Mármol crema marfi de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,464.43 | 1,509.91 |  | -3.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0067 | 40.10.20.10 | Mármol crema marfi de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,491.17 | 1,568.15 |  | -4.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0068 | 40.20.20.20 | Mármol crema marfi de 40x40x2 cm. importado, acabado pulido  | M2 | 1,754.01 | 1,747.90 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0069 | 40.10.20.10 | Mármol crema marfi de 40x40x2 cm. importado, acabado pulido  | M2 | 1,818.03 | 1,806.14 |  | +0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0070 | 40.20.20.20 | Mármol crema marfi de 40x60x2 cm. importado, acabado pulido  | M2 | 1,932.61 | 1,927.53 |  | +0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0071 | 40.10.20.10 | Mármol crema marfi de 40x60x2 cm. importado, acabado pulido  | M2 | 1,996.63 | 1,927.53 |  | +3.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0072 | 40.20.20.20 | Mármol crema marfi de 45.7x45.7x1.5 cm. importado, acabado p | M2 | 1,950.29 | 1,944.04 |  | +0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0073 | 40.10.20.10 | Mármol crema marfi de 45.7x45.7x1.5 cm. importado, acabado p | M2 | 2,017.18 | 2,002.28 |  | +0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0074 | 40.20.20.20 | Mármol crema marfi de 60x60x1.5 cm. importado, acabado pulid | M2 | 2,101.42 | 2,100.92 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0075 | 40.10.20.10 | Mármol crema marfi de 60x60x1.5 cm. importado, acabado pulid | M2 | 2,168.30 | 2,159.16 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0076 | 40.20.20.20 | Mármol blanco carrara de 30.5x30.5x1 cm. importado, acabado  | M2 | 1,666.67 | 1,661.95 |  | +0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0077 | 40.10.20.10 | Mármol blanco carrara de 30.5x30.5x1 cm. importado, acabado  | M2 | 1,693.40 | 1,720.19 |  | -1.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0078 | 40.20.20.20 | Mármol blanco carrara de 40x40x2 cm. importado, acabado puli | M2 | 2,097.48 | 2,095.50 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0079 | 40.10.20.10 | Mármol blanco carrara de 40x40x2 cm. importado, acabado puli | M2 | 2,161.50 | 2,153.74 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0080 | 40.20.20.20 | Mármol blanco carrara de 40x60x2 cm. importado, acabado puli | M2 | 2,097.48 | 2,095.50 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0081 | 40.10.20.10 | Mármol blanco carrara de 40x60x2 cm. importado, acabado puli | M2 | 2,161.50 | 2,153.74 |  | +0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0082 | 40.20.20.20 | Mármol rojo Alicante de 30.5x30.5x1 cm. importado, acabado p | M2 | 2,165.48 | 2,163.53 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0083 | 40.10.20.10 | Mármol rojo Alicante de 30.5x30.5x1 cm. importado, acabado p | M2 | 2,192.22 | 2,221.77 |  | -1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0084 | 40.20.20.20 | Mármol café marrón de 30.5x30.5x1 cm. importado, acabado pul | M2 | 2,165.48 | 2,163.53 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0085 | 40.10.20.10 | Mármol café marrón de 30.5x30.5x1 cm. importado, acabado pul | M2 | 2,192.22 | 2,221.77 |  | -1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0086 | 40.20.20.20 | Mármol verde tinos de 30.5x30.5x1 cm. importado, acabado pul | M2 | 3,351.88 | 3,355.07 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0087 | 40.10.20.10 | Mármol verde tinos de 30.5x30.5x1 cm. importado, acabado pul | M2 | 3,378.62 | 3,413.31 |  | -1.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0088 | 40.20.20.20 | Mármol blanco thassos ex. De 61x61x2 cm. importado, acabado  | M2 | 6,150.34 | 6,145.45 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0089 | 40.10.20.10 | Mármol blanco thassos ex. De 61x61x2 cm. importado, acabado  | M2 | 6,214.36 | 6,203.69 |  | +0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0090 | 40.20.20.20 | Mármol blanco thassos ex. De 10x30x1 cm. importado, acabado  | M2 | 1,563.89 | 1,558.92 |  | +0.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0091 | 40.10.20.10 | Mármol blanco thassos ex. De 10x30x1 cm. importado, acabado  | M2 | 1,609.99 | 1,617.16 |  | -0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0092 | 40.20.20.20 | Mármol blanco thassos ex. De 15x30x1 cm. importado, acabado  | M2 | 1,702.56 | 1,705.90 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0093 | 40.10.20.10 | Mármol blanco thassos ex. De 15x30x1 cm. importado, acabado  | M2 | 1,748.66 | 1,764.14 |  | -0.9% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.02.0043 | 40.10.20.10 | Lambrin de loseta interceramic según muestra aprobada en obr | M2 | 718.14 | 655.25 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0001 | 40.20.20.20 | Mármol crema marfil clásico de 2 cm de espesor, acabado puli | M2 | 1,949.60 | 1,942.59 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0002 | 40.10.20.10 | Mármol crema marfil clásico de 2 cm de espesor, acabado puli | M2 | 2,055.15 | 2,029.95 |  | +1.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0003 | 40.20.20.20 | Mármol importado crema marfil extra de 2 cm, acabado pulido  | M2 | 2,514.55 | 2,521.00 |  | -0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0004 | 40.10.20.10 | Mármol importado crema marfil extra de 2 cm, acabado pulido  | M2 | 2,620.10 | 2,608.36 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0005 | 40.20.20.20 | Mármol importado crema marfil comercial de 2 cm, acabado pul | M2 | 2,232.08 | 2,238.30 |  | -0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0006 | 40.10.20.10 | Mármol importado crema marfil comercial de 2 cm, acabado pul | M2 | 2,337.63 | 2,325.66 |  | +0.5% |  | P.U. actualizado · no independiente | — |
+| E06.03.0007 | 40.20.20.20 | Mármol importado blanco carrara de 2 cm, acabado pulido y br | M2 | 2,359.19 | 2,354.83 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0008 | 40.10.20.10 | Mármol importado blanco carrara de 2 cm, acabado pulido y br | M2 | 2,464.74 | 2,442.19 |  | +0.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0009 | 40.20.20.20 | Mármol importado blanco carrara giogia de 2 cm, acabado puli | M2 | 2,599.29 | 2,599.63 |  | -0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0010 | 40.10.20.10 | Mármol importado blanco carrara giogia de 2 cm, acabado puli | M2 | 2,704.84 | 2,686.99 |  | +0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0011 | 40.20.20.20 | Mármol importado arabescato de 2 cm, acabado pulido y brilla | M2 | 3,347.85 | 3,346.47 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0012 | 40.10.20.10 | Mármol importado arabescato de 2 cm, acabado pulido y brilla | M2 | 3,453.41 | 3,433.83 |  | +0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0013 | 40.20.20.20 | Mármol importado calacata de 2 cm, acabado pulido y brillado | M2 | 5,438.16 | 4,110.44 |  | +32.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0014 | 40.10.20.10 | Mármol importado calacata de 2 cm, acabado pulido y brillado | M2 | 5,543.71 | 4,197.80 |  | +32.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0015 | 40.20.20.20 | Mármol importado café marrón emperador de 2 cm, acabado puli | M2 | 2,669.91 | 2,665.18 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0016 | 40.10.20.10 | Mármol importado café marrón emperador de 2 cm, acabado puli | M2 | 2,775.46 | 2,752.54 |  | +0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0017 | 40.20.20.20 | Mármol importado café marrón emperador extra de 2 cm, acabad | M2 | 2,797.03 | 2,796.57 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0018 | 40.10.20.10 | Mármol importado café marrón emperador extra de 2 cm, acabad | M2 | 2,902.58 | 2,883.93 |  | +0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0019 | 40.20.20.20 | Mármol importado rojo Alicante de 2 cm, acabado pulido y bri | M2 | 2,669.91 | 2,665.18 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0020 | 40.10.20.10 | Mármol importado rojo Alicante de 2 cm, acabado pulido y bri | M2 | 2,775.46 | 2,752.54 |  | +0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0021 | 40.20.20.20 | Mármol importado rojo Alicante extra de 2 cm, acabado pulido | M2 | 2,966.50 | 2,960.94 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0022 | 40.10.20.10 | Mármol importado rojo Alicante extra de 2 cm, acabado pulido | M2 | 3,072.06 | 3,048.30 |  | +0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0023 | 40.20.20.20 | Mármol importado rojo coralito de 2 cm, acabado pulido y bri | M2 | 2,429.80 | 2,435.26 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0024 | 40.10.20.10 | Mármol importado rojo coralito de 2 cm, acabado pulido y bri | M2 | 2,535.36 | 2,522.62 |  | +0.5% |  | P.U. actualizado · no independiente | — |
+| E06.03.0025 | 40.20.20.20 | Mármol importado boticcino fiorito de 2 cm, acabado pulido y | M2 | 2,867.65 | 2,862.36 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0026 | 40.10.20.10 | Mármol importado boticcino fiorito de 2 cm, acabado pulido y | M2 | 2,973.19 | 2,949.72 |  | +0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0027 | 40.20.20.20 | Mármol importado sky blue de 2 cm, acabado pulido y brillado | M2 | 2,472.17 | 2,468.04 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0028 | 40.10.20.10 | Mármol importado sky blue de 2 cm, acabado pulido y brillado | M2 | 2,577.73 | 2,555.40 |  | +0.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0029 | 40.20.20.20 | Mármol nacional beige maya de 2 cm acabado pulido y brillado | M2 | 2,048.46 | 1,928.17 |  | +6.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0030 | 40.20.20.20 | Mármol nacional dorado tepeji de 2 cm acabado pulido y brill | M2 | 2,048.46 | 1,928.17 |  | +6.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0031 | 40.20.20.20 | Mármol nacional gris tepeaca de 2 cm acabado pulido y brilla | M2 | 1,794.24 | 1,689.27 |  | +6.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0032 | 40.20.20.20 | Mármol nacional santo tomas lila de 2 cm acabado pulido y br | M2 | 1,794.24 | 1,689.27 |  | +6.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0033 | 40.20.20.20 | Mármol nacional travertino amarillo de 2 cm acabado pulido y | M2 | 1,667.13 | 1,571.15 |  | +6.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0034 | 40.20.20.20 | Mármol nacional travertino fiorito de 2 cm acabado pulido y  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0035 | 40.20.20.20 | Mármol nacional travertino veteado de 2 cm acabado pulido y  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0036 | 40.20.20.20 | Mármol nacional travertino san pablo de 2 cm acabado pulido  | M2 | 1,780.12 | 1,681.15 |  | +5.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0037 | 40.20.20.20 | Mármol nacional travertino rojo de 2 cm acabado pulido y bri | M2 | 1,836.60 | 1,734.89 |  | +5.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0038 | 40.20.20.20 | Mármol nacional travertino 2000 de 2 cm acabado pulido y bri | M2 | 1,695.38 | 1,605.34 |  | +5.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0039 | 40.20.20.20 | Mármol nacional blanco veneciano de 2 cm acabado pulido y br | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0040 | 40.20.20.20 | Mármol nacional blanco perla de 2 cm acabado pulido y brilla | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0041 | 40.20.20.20 | Mármol nacional blanco guadiana de 2 cm acabado pulido y bri | M2 | 2,119.08 | 1,986.62 |  | +6.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0042 | 40.20.20.20 | Mármol nacional rojo grecia de 2 cm acabado pulido y brillad | M2 | 2,302.70 | 2,163.80 |  | +6.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0043 | 40.10.20.10 | Mármol nacional rojo grecia de 2 cm, acabado pulido y brilla | M2 | 2,408.24 | 2,251.16 |  | +7.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0044 | 40.20.20.20 | Mármol beige maya de 30.5x30.5x1 cm. nacional, acabado pulid | M2 | 1,370.07 | 1,418.94 |  | -3.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0045 | 40.10.20.10 | Mármol beige maya de 30.5x30.5x1 cm. nacional, acabado pulid | M2 | 1,396.80 | 1,477.18 |  | -5.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0046 | 40.20.20.20 | Mármol dorado tepeji de 30.5x30.5x1 cm. nacional, acabado pu | M2 | 1,585.77 | 1,647.75 |  | -3.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0047 | 40.10.20.10 | Mármol dorado tepeji de 30.5x30.5x1 cm. nacional, acabado pu | M2 | 1,612.50 | 1,705.99 |  | -5.5% |  | P.U. actualizado · no independiente | — |
+| E06.03.0048 | 40.20.20.20 | Mármol gris tepeaca de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,370.07 | 1,413.88 |  | -3.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0049 | 40.10.20.10 | Mármol gris tepeaca de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,396.80 | 1,472.12 |  | -5.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0050 | 40.20.20.20 | Mármol santo tomas lila de 30.5x30.5x1 cm. nacional, acabado | M2 | 1,289.18 | 1,325.63 |  | -2.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0051 | 40.10.20.10 | Mármol santo tomas lila de 30.5x30.5x1 cm. nacional, acabado | M2 | 1,315.91 | 1,383.87 |  | -4.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0052 | 40.20.20.20 | Mármol travertino amarillo de 30.5x30.5x1 cm. nacional, acab | M2 | 1,302.65 | 1,340.14 |  | -2.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0053 | 40.10.20.10 | Mármol travertino amarillo de 30.5x30.5x1 cm. nacional, acab | M2 | 1,329.39 | 1,340.14 |  | -0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0054 | 40.20.20.20 | Mármol travertino fiorito de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,248.73 | 1,281.90 |  | -2.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0055 | 40.10.20.10 | Mármol travertino fiorito de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,275.47 | 1,340.14 |  | -4.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0056 | 40.20.20.20 | Mármol travertino veteado de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,154.36 | 1,185.66 |  | -2.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0057 | 40.10.20.10 | Mármol travertino veteado de 30.5x30.5x1 cm. nacional, acaba | M2 | 1,181.09 | 1,243.90 |  | -5.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0058 | 40.20.20.20 | Mármol travertino san pablo de 30.5x30.5x1 cm. nacional, aca | M2 | 1,154.36 | 1,185.66 |  | -2.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0059 | 40.10.20.10 | Mármol travertino san pablo de 30.5x30.5x1 cm. nacional, aca | M2 | 1,181.09 | 1,243.90 |  | -5.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0060 | 40.20.20.20 | Mármol travertino rojo de 30.5x30.5x1 cm. nacional, acabado  | M2 | 1,248.73 | 1,281.90 |  | -2.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0061 | 40.10.20.10 | Mármol travertino rojo de 30.5x30.5x1 cm. nacional, acabado  | M2 | 1,275.47 | 1,340.14 |  | -4.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0062 | 40.20.20.20 | Mármol blanco perla de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,383.55 | 1,423.61 |  | -2.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0063 | 40.10.20.10 | Mármol blanco perla de 30.5x30.5x1 cm. nacional, acabado pul | M2 | 1,410.29 | 1,481.85 |  | -4.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0064 | 40.20.20.20 | Mármol rojo grecia de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,801.48 | 1,872.70 |  | -3.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0065 | 40.10.20.10 | Mármol rojo grecia de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,828.21 | 1,930.94 |  | -5.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0066 | 40.20.20.20 | Mármol crema marfi de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,464.43 | 1,509.91 |  | -3.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0067 | 40.10.20.10 | Mármol crema marfi de 30.5x30.5x1 cm. nacional, acabado puli | M2 | 1,491.17 | 1,568.15 |  | -4.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0068 | 40.20.20.20 | Mármol crema marfi de 40x40x2 cm. importado, acabado pulido  | M2 | 1,754.01 | 1,747.90 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0069 | 40.10.20.10 | Mármol crema marfi de 40x40x2 cm. importado, acabado pulido  | M2 | 1,818.03 | 1,806.14 |  | +0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0070 | 40.20.20.20 | Mármol crema marfi de 40x60x2 cm. importado, acabado pulido  | M2 | 1,932.61 | 1,927.53 |  | +0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0071 | 40.10.20.10 | Mármol crema marfi de 40x60x2 cm. importado, acabado pulido  | M2 | 1,996.63 | 1,927.53 |  | +3.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0072 | 40.20.20.20 | Mármol crema marfi de 45.7x45.7x1.5 cm. importado, acabado p | M2 | 1,950.29 | 1,944.04 |  | +0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0073 | 40.10.20.10 | Mármol crema marfi de 45.7x45.7x1.5 cm. importado, acabado p | M2 | 2,017.18 | 2,002.28 |  | +0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0074 | 40.20.20.20 | Mármol crema marfi de 60x60x1.5 cm. importado, acabado pulid | M2 | 2,101.42 | 2,100.92 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0075 | 40.10.20.10 | Mármol crema marfi de 60x60x1.5 cm. importado, acabado pulid | M2 | 2,168.30 | 2,159.16 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0076 | 40.20.20.20 | Mármol blanco carrara de 30.5x30.5x1 cm. importado, acabado  | M2 | 1,666.67 | 1,661.95 |  | +0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0077 | 40.10.20.10 | Mármol blanco carrara de 30.5x30.5x1 cm. importado, acabado  | M2 | 1,693.40 | 1,720.19 |  | -1.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0078 | 40.20.20.20 | Mármol blanco carrara de 40x40x2 cm. importado, acabado puli | M2 | 2,097.48 | 2,095.50 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0079 | 40.10.20.10 | Mármol blanco carrara de 40x40x2 cm. importado, acabado puli | M2 | 2,161.50 | 2,153.74 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0080 | 40.20.20.20 | Mármol blanco carrara de 40x60x2 cm. importado, acabado puli | M2 | 2,097.48 | 2,095.50 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0081 | 40.10.20.10 | Mármol blanco carrara de 40x60x2 cm. importado, acabado puli | M2 | 2,161.50 | 2,153.74 |  | +0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0082 | 40.20.20.20 | Mármol rojo Alicante de 30.5x30.5x1 cm. importado, acabado p | M2 | 2,165.48 | 2,163.53 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0083 | 40.10.20.10 | Mármol rojo Alicante de 30.5x30.5x1 cm. importado, acabado p | M2 | 2,192.22 | 2,221.77 |  | -1.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0084 | 40.20.20.20 | Mármol café marrón de 30.5x30.5x1 cm. importado, acabado pul | M2 | 2,165.48 | 2,163.53 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0085 | 40.10.20.10 | Mármol café marrón de 30.5x30.5x1 cm. importado, acabado pul | M2 | 2,192.22 | 2,221.77 |  | -1.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0086 | 40.20.20.20 | Mármol verde tinos de 30.5x30.5x1 cm. importado, acabado pul | M2 | 3,351.88 | 3,355.07 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0087 | 40.10.20.10 | Mármol verde tinos de 30.5x30.5x1 cm. importado, acabado pul | M2 | 3,378.62 | 3,413.31 |  | -1.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0088 | 40.20.20.20 | Mármol blanco thassos ex. De 61x61x2 cm. importado, acabado  | M2 | 6,150.34 | 6,145.45 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0089 | 40.10.20.10 | Mármol blanco thassos ex. De 61x61x2 cm. importado, acabado  | M2 | 6,214.36 | 6,203.69 |  | +0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0090 | 40.20.20.20 | Mármol blanco thassos ex. De 10x30x1 cm. importado, acabado  | M2 | 1,563.89 | 1,558.92 |  | +0.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0091 | 40.10.20.10 | Mármol blanco thassos ex. De 10x30x1 cm. importado, acabado  | M2 | 1,609.99 | 1,617.16 |  | -0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0092 | 40.20.20.20 | Mármol blanco thassos ex. De 15x30x1 cm. importado, acabado  | M2 | 1,702.56 | 1,705.90 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0093 | 40.10.20.10 | Mármol blanco thassos ex. De 15x30x1 cm. importado, acabado  | M2 | 1,748.66 | 1,764.14 |  | -0.9% |  | P.U. actualizado · no independiente | — |
 | E06.03.0094 | 40.10.20.30 | Zoclo de mármol crema marfi de 7x30.5x1 cm. nacional, acabad | M | 262.10 | 317.37 |  | -17.4% |  | P.U. actualizado | — |
-| E06.03.0095 | 40.20.20.20 | Boquilla de mármol crema marfil, incluye: suministro de mate | M | 620.26 | 759.40 |  | -18.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0096 | 40.30.20.10 | Forrado de escalones con mármol crema marfil en huellas y pe | M2 | 2,393.20 | 2,598.44 |  | -7.9% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.03.0095 | 40.20.20.20 | Boquilla de mármol crema marfil, incluye: suministro de mate | M | 620.26 | 759.40 |  | -18.3% |  | P.U. actualizado · no independiente | — |
+| E06.03.0096 | 40.30.20.10 | Forrado de escalones con mármol crema marfil en huellas y pe | M2 | 2,393.20 | 2,598.44 |  | -7.9% |  | P.U. actualizado · no independiente | — |
 | E06.03.0097 | 60.20.10.10 | Cubierta de mármol para lavabo S.M.A.P., con perforaciones p | M | 4,818.58 | 5,920.17 |  | -18.6% |  | P.U. actualizado | — |
-| E06.03.0098 | 40.20.20.20 | Granito importado rosa porriño de 2 cm, acabado pulido y bri | M2 | 2,649.08 | 2,648.09 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0099 | 40.10.20.10 | Granito importado rosa porriño de 2 cm, acabado pulido y bri | M2 | 2,711.84 | 2,735.45 |  | -0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0100 | 40.20.20.20 | Granito importado azul platino de 2 cm, acabado pulido y bri | M2 | 3,454.13 | 3,454.62 |  | -0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0101 | 40.10.20.10 | Granito importado azul platino de 2 cm, acabado pulido y bri | M2 | 3,516.90 | 3,541.98 |  | -0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0102 | 40.20.20.20 | Granito importado blanco diamante de 2 cm, acabado pulido y  | M2 | 3,581.24 | 3,576.83 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0103 | 40.10.20.10 | Granito importado blanco diamante de 2 cm, acabado pulido y  | M2 | 3,644.01 | 3,664.19 |  | -0.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0104 | 40.20.20.20 | Granito importado negro absoluto de 2 cm, acabado pulido y b | M2 | 4,188.56 | 4,187.83 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0105 | 40.10.20.10 | Granito importado negro absoluto de 2 cm, acabado pulido y b | M2 | 4,251.34 | 4,275.19 |  | -0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0106 | 40.20.20.20 | Granito importado amarilo veneciano de 2 cm, acabado pulido  | M2 | 4,725.26 | 4,730.38 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0107 | 40.10.20.10 | Granito importado amarilo veneciano de 2 cm, acabado pulido  | M2 | 4,788.04 | 4,817.74 |  | -0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0108 | 40.20.20.20 | Granito importado baltic brown de 2 cm, acabado pulido y bri | M2 | 3,849.59 | 3,845.64 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0109 | 40.10.20.10 | Granito importado baltic brown de 2 cm, acabado pulido y bri | M2 | 3,912.36 | 3,933.00 |  | -0.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0110 | 40.20.20.20 | Granito importado verde colibrí de 2 cm, acabado pulido y br | M2 | 3,440.01 | 3,442.39 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0111 | 40.10.20.10 | Granitoimportado verde colibrí de 2 cm, acabado pulido y bri | M2 | 3,502.77 | 3,529.75 |  | -0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0112 | 40.20.20.20 | Granito importado oro carioca de 2 cm, acabado pulido y bril | M2 | 3,920.21 | 3,918.99 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0113 | 40.10.20.10 | Granito importado oro carioca de 2 cm, acabado pulido y bril | M2 | 3,982.98 | 4,006.35 |  | -0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0114 | 40.20.20.20 | Granito importado azul ala de mosca de 2 cm, acabado pulido  | M2 | 4,965.37 | 4,969.90 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0115 | 40.10.20.10 | Granito importado azul ala de mosca de 2 cm, acabado pulido  | M2 | 5,028.13 | 5,057.26 |  | -0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0116 | 40.20.20.20 | Granito importado crema perla de 2 cm, acabado pulido y bril | M2 | 2,747.94 | 2,745.87 |  | +0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0117 | 40.10.20.10 | Granito importado crema perla de 2 cm, acabado pulido y bril | M2 | 2,810.71 | 2,833.23 |  | -0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0118 | 40.20.20.20 | Granito importado amarillo santa cecilia de 2 cm, acabado pu | M2 | 3,793.10 | 3,796.78 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0119 | 40.10.20.10 | Granito importado amarillo santa cecilia de 2 cm, acabado pu | M2 | 3,855.86 | 3,884.14 |  | -0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0120 | 40.20.20.20 | Granito importado rojo capao bonito de 2 cm, acabado pulido  | M2 | 3,891.97 | 3,894.54 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0121 | 40.10.20.10 | Granito importado rojo capao bonito de 2 cm, acabado pulido  | M2 | 3,954.73 | 3,981.90 |  | -0.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0122 | 40.20.20.20 | Granito importado rojo imperial de 2 cm, acabado pulido y br | M2 | 5,191.34 | 5,189.87 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0123 | 40.10.20.10 | Granito importado rojo imperial de 2 cm, acabado pulido y br | M2 | 5,254.12 | 5,277.23 |  | -0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0124 | 40.20.20.20 | Granito importado rojo dragón de 2 cm, acabado pulido y bril | M2 | 3,496.49 | 3,503.50 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0125 | 40.10.20.10 | Granito importado rojo dragón de 2 cm, acabado pulido y bril | M2 | 3,559.27 | 3,590.86 |  | -0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0126 | 40.20.20.20 | Granito importado rojo sierra chica de 2 cm, acabado pulido  | M2 | 3,327.02 | 3,332.41 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0127 | 40.10.20.10 | Granito importado rojo sierra chica de 2 cm, acabado pulido  | M2 | 3,389.78 | 3,419.77 |  | -0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0128 | 40.20.20.20 | Granito importado emerald pearl de 2 cm, acabado pulido y br | M2 | 4,527.53 | 4,529.99 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0129 | 40.10.20.10 | Granito importado emerald pearl de 2 cm, acabado pulido y br | M2 | 4,590.30 | 4,617.35 |  | -0.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0130 | 40.20.20.20 | Granito importado azul bahía de 2 cm, acabado pulido y brill | M2 | 34,385.09 | 34,382.20 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0131 | 40.10.20.10 | Granito importado azul bahía de 2 cm, acabado pulido y brill | M2 | 34,447.85 | 34,527.80 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0132 | 40.20.20.20 | Granito importado azul macaubas de 2 cm, acabado pulido y br | M2 | 33,467.04 | 33,463.90 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0133 | 40.10.20.10 | Granito importado azul macaubas de 2 cm, acabado pulido y br | M2 | 33,529.82 | 33,609.50 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0134 | 40.20.20.20 | Granito importado azul boquira de 2 cm, acabado pulido y bri | M2 | 40,882.00 | 40,887.16 |  | -0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0135 | 40.10.20.10 | Granito importado azul boquira de 2 cm, acabado pulido y bri | M2 | 40,944.77 | 41,032.76 |  | -0.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0136 | 40.20.20.20 | Granito importado verde ubatuba de 2 cm, acabado pulido y br | M2 | 2,917.43 | 2,916.92 |  | +0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0137 | 40.10.20.10 | Granito importado verde ubatuba de 2 cm, acabado pulido y br | M2 | 2,980.20 | 3,004.28 |  | -0.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0138 | 40.20.20.20 | Granito importado amarillo himalaya de 2 cm, acabado pulido  | M2 | 3,623.61 | 3,625.71 |  | -0.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.03.0139 | 40.10.20.10 | Granito importado amarillo himalaya de 2 cm, acabado pulido  | M2 | 3,686.39 | 3,713.07 |  | -0.7% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.03.0098 | 40.20.20.20 | Granito importado rosa porriño de 2 cm, acabado pulido y bri | M2 | 2,649.08 | 2,648.09 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0099 | 40.10.20.10 | Granito importado rosa porriño de 2 cm, acabado pulido y bri | M2 | 2,711.84 | 2,735.45 |  | -0.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0100 | 40.20.20.20 | Granito importado azul platino de 2 cm, acabado pulido y bri | M2 | 3,454.13 | 3,454.62 |  | -0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0101 | 40.10.20.10 | Granito importado azul platino de 2 cm, acabado pulido y bri | M2 | 3,516.90 | 3,541.98 |  | -0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0102 | 40.20.20.20 | Granito importado blanco diamante de 2 cm, acabado pulido y  | M2 | 3,581.24 | 3,576.83 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0103 | 40.10.20.10 | Granito importado blanco diamante de 2 cm, acabado pulido y  | M2 | 3,644.01 | 3,664.19 |  | -0.5% |  | P.U. actualizado · no independiente | — |
+| E06.03.0104 | 40.20.20.20 | Granito importado negro absoluto de 2 cm, acabado pulido y b | M2 | 4,188.56 | 4,187.83 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0105 | 40.10.20.10 | Granito importado negro absoluto de 2 cm, acabado pulido y b | M2 | 4,251.34 | 4,275.19 |  | -0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0106 | 40.20.20.20 | Granito importado amarilo veneciano de 2 cm, acabado pulido  | M2 | 4,725.26 | 4,730.38 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0107 | 40.10.20.10 | Granito importado amarilo veneciano de 2 cm, acabado pulido  | M2 | 4,788.04 | 4,817.74 |  | -0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0108 | 40.20.20.20 | Granito importado baltic brown de 2 cm, acabado pulido y bri | M2 | 3,849.59 | 3,845.64 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0109 | 40.10.20.10 | Granito importado baltic brown de 2 cm, acabado pulido y bri | M2 | 3,912.36 | 3,933.00 |  | -0.5% |  | P.U. actualizado · no independiente | — |
+| E06.03.0110 | 40.20.20.20 | Granito importado verde colibrí de 2 cm, acabado pulido y br | M2 | 3,440.01 | 3,442.39 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0111 | 40.10.20.10 | Granitoimportado verde colibrí de 2 cm, acabado pulido y bri | M2 | 3,502.77 | 3,529.75 |  | -0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0112 | 40.20.20.20 | Granito importado oro carioca de 2 cm, acabado pulido y bril | M2 | 3,920.21 | 3,918.99 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0113 | 40.10.20.10 | Granito importado oro carioca de 2 cm, acabado pulido y bril | M2 | 3,982.98 | 4,006.35 |  | -0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0114 | 40.20.20.20 | Granito importado azul ala de mosca de 2 cm, acabado pulido  | M2 | 4,965.37 | 4,969.90 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0115 | 40.10.20.10 | Granito importado azul ala de mosca de 2 cm, acabado pulido  | M2 | 5,028.13 | 5,057.26 |  | -0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0116 | 40.20.20.20 | Granito importado crema perla de 2 cm, acabado pulido y bril | M2 | 2,747.94 | 2,745.87 |  | +0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0117 | 40.10.20.10 | Granito importado crema perla de 2 cm, acabado pulido y bril | M2 | 2,810.71 | 2,833.23 |  | -0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0118 | 40.20.20.20 | Granito importado amarillo santa cecilia de 2 cm, acabado pu | M2 | 3,793.10 | 3,796.78 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0119 | 40.10.20.10 | Granito importado amarillo santa cecilia de 2 cm, acabado pu | M2 | 3,855.86 | 3,884.14 |  | -0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0120 | 40.20.20.20 | Granito importado rojo capao bonito de 2 cm, acabado pulido  | M2 | 3,891.97 | 3,894.54 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0121 | 40.10.20.10 | Granito importado rojo capao bonito de 2 cm, acabado pulido  | M2 | 3,954.73 | 3,981.90 |  | -0.7% |  | P.U. actualizado · no independiente | — |
+| E06.03.0122 | 40.20.20.20 | Granito importado rojo imperial de 2 cm, acabado pulido y br | M2 | 5,191.34 | 5,189.87 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0123 | 40.10.20.10 | Granito importado rojo imperial de 2 cm, acabado pulido y br | M2 | 5,254.12 | 5,277.23 |  | -0.4% |  | P.U. actualizado · no independiente | — |
+| E06.03.0124 | 40.20.20.20 | Granito importado rojo dragón de 2 cm, acabado pulido y bril | M2 | 3,496.49 | 3,503.50 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0125 | 40.10.20.10 | Granito importado rojo dragón de 2 cm, acabado pulido y bril | M2 | 3,559.27 | 3,590.86 |  | -0.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0126 | 40.20.20.20 | Granito importado rojo sierra chica de 2 cm, acabado pulido  | M2 | 3,327.02 | 3,332.41 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0127 | 40.10.20.10 | Granito importado rojo sierra chica de 2 cm, acabado pulido  | M2 | 3,389.78 | 3,419.77 |  | -0.9% |  | P.U. actualizado · no independiente | — |
+| E06.03.0128 | 40.20.20.20 | Granito importado emerald pearl de 2 cm, acabado pulido y br | M2 | 4,527.53 | 4,529.99 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0129 | 40.10.20.10 | Granito importado emerald pearl de 2 cm, acabado pulido y br | M2 | 4,590.30 | 4,617.35 |  | -0.6% |  | P.U. actualizado · no independiente | — |
+| E06.03.0130 | 40.20.20.20 | Granito importado azul bahía de 2 cm, acabado pulido y brill | M2 | 34,385.09 | 34,382.20 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0131 | 40.10.20.10 | Granito importado azul bahía de 2 cm, acabado pulido y brill | M2 | 34,447.85 | 34,527.80 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0132 | 40.20.20.20 | Granito importado azul macaubas de 2 cm, acabado pulido y br | M2 | 33,467.04 | 33,463.90 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0133 | 40.10.20.10 | Granito importado azul macaubas de 2 cm, acabado pulido y br | M2 | 33,529.82 | 33,609.50 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0134 | 40.20.20.20 | Granito importado azul boquira de 2 cm, acabado pulido y bri | M2 | 40,882.00 | 40,887.16 |  | -0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0135 | 40.10.20.10 | Granito importado azul boquira de 2 cm, acabado pulido y bri | M2 | 40,944.77 | 41,032.76 |  | -0.2% |  | P.U. actualizado · no independiente | — |
+| E06.03.0136 | 40.20.20.20 | Granito importado verde ubatuba de 2 cm, acabado pulido y br | M2 | 2,917.43 | 2,916.92 |  | +0.0% |  | P.U. actualizado · no independiente | — |
+| E06.03.0137 | 40.10.20.10 | Granito importado verde ubatuba de 2 cm, acabado pulido y br | M2 | 2,980.20 | 3,004.28 |  | -0.8% |  | P.U. actualizado · no independiente | — |
+| E06.03.0138 | 40.20.20.20 | Granito importado amarillo himalaya de 2 cm, acabado pulido  | M2 | 3,623.61 | 3,625.71 |  | -0.1% |  | P.U. actualizado · no independiente | — |
+| E06.03.0139 | 40.10.20.10 | Granito importado amarillo himalaya de 2 cm, acabado pulido  | M2 | 3,686.39 | 3,713.07 |  | -0.7% |  | P.U. actualizado · no independiente | — |
 | E06.04.0001 | 40.10.10.10 | Muro de 20 cm. de block de tepetate de 40x25x20 cm. asentado | M2 | 732.61 | 1,446.45 |  | -49.4% |  | P.U. actualizado | — |
 | E06.04.0002 | 40.20.20.20 | Adocreto cuadrado de 4x14x14 cm. color rosa, asentado sobre  | M2 | 513.32 | 551.12 |  | -6.9% |  | P.U. actualizado | — |
 | E06.04.0003 | 40.20.20.20 | Adocreto cuadrado de 4x14x14 cm. color negro, asentado sobre | M2 | 513.32 | 551.12 |  | -6.9% |  | P.U. actualizado | — |
@@ -327,23 +327,23 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E06.04.0013 | 30.20.10.40 | Teja de barro de ala esmaltada de 25x35 cm. asentada con mor | M2 | 1,152.21 | 976.39 |  | +18.0% |  | P.U. actualizado | — |
 | E06.04.0014 | 40.20.20.20 | Piso de cuarterón de barro natural de 4x40x40 cm. asentado c | M2 | 651.17 | 830.43 |  | -21.6% |  | P.U. actualizado | — |
 | E06.04.0015 | 40.20.20.20 | Piso de cuarterón hexagonal de barro natural de 4x40x40 cm.  | M2 | 699.09 | 830.43 |  | -15.8% |  | P.U. actualizado | — |
-| E06.04.0016 | 40.20.20.20 | Piso de loseta de barro natural de 2x25x25 cm. asentado con  | M2 | 672.05 | 803.69 |  | -16.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0017 | 40.20.20.20 | Piso de loseta de barro natural de 2x25x50 cm. asentado con  | M2 | 667.39 | 883.90 |  | -24.5% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.04.0016 | 40.20.20.20 | Piso de loseta de barro natural de 2x25x25 cm. asentado con  | M2 | 672.05 | 803.69 |  | -16.4% |  | P.U. actualizado · no independiente | — |
+| E06.04.0017 | 40.20.20.20 | Piso de loseta de barro natural de 2x25x50 cm. asentado con  | M2 | 667.39 | 883.90 |  | -24.5% |  | P.U. actualizado · no independiente | — |
 | E06.04.0018 | 40.20.20.20 | Piso de recinto rústico de 6 cm. de espesor, asentado con mo | M2 | 1,777.48 | 2,078.55 |  | -14.5% |  | P.U. actualizado | — |
 | E06.04.0019 | 40.20.20.20 | Piso de recinto laminado de 2 cm. de espesor, asentado con m | M2 | 1,027.31 | 1,178.33 |  | -12.8% |  | P.U. actualizado | — |
 | E06.04.0020 | 40.20.20.20 | Piso de adoquin natural de 40x40 cm., asentado con mortero c | M2 | 1,135.21 | 1,104.14 |  | +2.8% |  | P.U. actualizado | — |
 | E06.04.0021 | 40.20.20.20 | Piso de piedra bola de rio de 3" y 4", asentado con mortero  | M2 | 727.47 | 869.64 |  | -16.4% |  | P.U. actualizado | — |
-| E06.04.0022 | 40.10.20.10 | Recubrimiento de cantera galarza de 40x40 cm., asentado con  | M2 | 1,078.70 | 1,326.75 |  | -18.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0023 | 40.10.20.10 | Recubrimiento de cantera blanca de 40x40 cm., asentado con m | M2 | 901.48 | 1,148.51 |  | -21.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0024 | 40.10.20.10 | Recubrimiento de cantera mamey de 40x40x2 cm., asentado con  | M2 | 847.90 | 1,095.08 |  | -22.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0025 | 40.10.20.10 | Recubrimiento de cantera america roja de 40x40x2 cm., asenta | M2 | 856.14 | 1,103.80 |  | -22.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0026 | 40.10.20.10 | Recubrimiento de cantera piñon de 40x40x2 cm., asentado con  | M2 | 900.10 | 1,147.40 |  | -21.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0027 | 40.10.20.10 | Recubrimiento de cantera verde guanajuato 40x40x2 cm., asent | M2 | 1,205.11 | 1,452.65 |  | -17.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0028 | 40.10.20.10 | Recubrimiento de cantera gris de los remedios de 40x40x2 cm. | M2 | 856.14 | 1,103.80 |  | -22.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0029 | 40.10.20.10 | Recubrimiento de cantera corcho de 40x40x2 cm., asentado con | M2 | 901.48 | 1,148.51 |  | -21.5% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.04.0022 | 40.10.20.10 | Recubrimiento de cantera galarza de 40x40 cm., asentado con  | M2 | 1,078.70 | 1,326.75 |  | -18.7% |  | P.U. actualizado · no independiente | — |
+| E06.04.0023 | 40.10.20.10 | Recubrimiento de cantera blanca de 40x40 cm., asentado con m | M2 | 901.48 | 1,148.51 |  | -21.5% |  | P.U. actualizado · no independiente | — |
+| E06.04.0024 | 40.10.20.10 | Recubrimiento de cantera mamey de 40x40x2 cm., asentado con  | M2 | 847.90 | 1,095.08 |  | -22.6% |  | P.U. actualizado · no independiente | — |
+| E06.04.0025 | 40.10.20.10 | Recubrimiento de cantera america roja de 40x40x2 cm., asenta | M2 | 856.14 | 1,103.80 |  | -22.4% |  | P.U. actualizado · no independiente | — |
+| E06.04.0026 | 40.10.20.10 | Recubrimiento de cantera piñon de 40x40x2 cm., asentado con  | M2 | 900.10 | 1,147.40 |  | -21.6% |  | P.U. actualizado · no independiente | — |
+| E06.04.0027 | 40.10.20.10 | Recubrimiento de cantera verde guanajuato 40x40x2 cm., asent | M2 | 1,205.11 | 1,452.65 |  | -17.0% |  | P.U. actualizado · no independiente | — |
+| E06.04.0028 | 40.10.20.10 | Recubrimiento de cantera gris de los remedios de 40x40x2 cm. | M2 | 856.14 | 1,103.80 |  | -22.4% |  | P.U. actualizado · no independiente | — |
+| E06.04.0029 | 40.10.20.10 | Recubrimiento de cantera corcho de 40x40x2 cm., asentado con | M2 | 901.48 | 1,148.51 |  | -21.5% |  | P.U. actualizado · no independiente | — |
 | E06.04.0030 | 40.10.20.10 | Recubrimiento de cantera rosa de 40x40x2 cm., asentado con m | M2 | 878.13 | 1,125.61 |  | -22.0% |  | P.U. actualizado | — |
-| E06.04.0031 | 40.20.20.20 | Piso de cantera gris de los remedios de 40x40x2 cm., asentad | M2 | 784.82 | 1,014.75 |  | -22.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.04.0032 | 40.10.20.30 | Zoclo de cantera gris de los remedios de 7x40 cm., asentado  | M2 | 296.97 | 329.95 |  | -10.0% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.04.0031 | 40.20.20.20 | Piso de cantera gris de los remedios de 40x40x2 cm., asentad | M2 | 784.82 | 1,014.75 |  | -22.7% |  | P.U. actualizado · no independiente | — |
+| E06.04.0032 | 40.10.20.30 | Zoclo de cantera gris de los remedios de 7x40 cm., asentado  | M2 | 296.97 | 329.95 |  | -10.0% |  | P.U. actualizado · no independiente | — |
 | E06.05.0001 | 40.10.20.40 | MEZCLA CAL-CEMENTO B.-POLVO DE MARMOL | M3 | 7,996.33 | 5,262.94 |  | +18.3% |  | P.U. actualizado (a costo directo) | — |
 | E06.05.0002 | 40.20.20.10 | Tirol rústico en plafond a base de cemento blanco-cal-cero f | M2 | 110.48 | 98.51 |  | +12.2% |  | P.U. actualizado | — |
 | E06.05.0003 | 40.10.20.40 | Tirol planchado en muros a base de cemento blanco-cal-cero f | M2 | 107.14 | 95.13 |  | +12.6% |  | P.U. actualizado | — |
@@ -404,148 +404,148 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | E06.05.0060 | 30.10.10.40 | Pasta en fachadas granoplast 4, de la marca Corev, para apli | M2 | 403.40 | 379.90 |  | +6.2% |  | P.U. actualizado | — |
 | E06.05.0061 | 40.10.20.40 | Pasta de marmol natural pietraplast romano, de la marca Core | M2 | 474.46 | 461.80 |  | +2.7% |  | P.U. actualizado | — |
 | E06.05.0062 | 40.10.20.40 | Pasta de marmol natural pietraplast veneciano, de la marca C | M2 | 422.57 | 393.55 |  | +7.4% |  | P.U. actualizado | — |
-| E06.06.0001 | 40.20.20.20 | Alfombra Luxor diseño Arquitextura SB de Poliester rasurado, | M2 | 581.13 | 525.60 |  | +10.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0002 | 40.20.20.20 | Alfombra Luxor diseño Aruba de Poliester rasurado, incluye:  | M2 | 502.74 | 453.18 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0003 | 40.20.20.20 | Alfombra Luxor diseño Athletic Turf de Pasto uv resitant, in | M2 | 946.30 | 914.61 |  | +3.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0004 | 40.20.20.20 | Alfombra Luxor diseño Big Leagues de Polipropileno Graphics, | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0005 | 40.20.20.20 | Alfombra Luxor diseño Brussels de Polipropileno Berber, incl | M2 | 357.51 | 317.81 |  | +12.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0006 | 40.20.20.20 | Alfombra Luxor diseño Casa Grande (4m.ancho) de Polipropilen | M2 | 523.84 | 484.22 |  | +8.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0007 | 40.20.20.20 | Alfombra Luxor diseño Castellon de Polipr/Nyl/Berber, incluy | M2 | 589.75 | 533.89 |  | +10.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0008 | 40.20.20.20 | Alfombra Luxor diseño Cricket 30 de Naylon rasurado, incluye | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0009 | 40.20.20.20 | Alfombra Luxor diseño Cricket 36 de Naylon rasurado, incluye | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0010 | 40.20.20.20 | Alfombra Luxor diseño Cricket 42 de Naylon rasurado, incluye | M2 | 638.65 | 579.41 |  | +10.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0011 | 40.20.20.20 | Alfombra Luxor diseño Dunas de Poliester frieze, incluye: su | M2 | 480.46 | 432.49 |  | +11.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0012 | 40.20.20.20 | Alfombra Luxor diseño Fall Spells SB de Poliester frieze, in | M2 | 776.70 | 707.69 |  | +9.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0013 | 40.20.20.20 | Alfombra Luxor diseño Fifth Avenue SB de Poliester Hilo Fino | M2 | 687.54 | 624.93 |  | +10.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0014 | 40.20.20.20 | Alfombra Luxor diseño Giardino de Poliester Berber, incluye: | M2 | 445.23 | 399.39 |  | +11.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0015 | 40.20.20.20 | Alfombra Luxor diseño Grand Slam de Polipropileno Graphics,  | M2 | 307.42 | 266.09 |  | +15.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0016 | 40.20.20.20 | Alfombra Luxor diseño Green Valley de Polipropileno uv resis | M2 | 342.51 | 342.64 |  | -0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0017 | 40.20.20.20 | Alfombra Luxor diseño Handicap de Poliester rasurado, incluy | M2 | 317.24 | 280.57 |  | +13.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0018 | 40.20.20.20 | Alfombra Luxor diseño Innsbruck de Polipropileno Berber, inc | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0019 | 40.20.20.20 | Alfombra Luxor diseño Jazz de Poliester rasurado, incluye: s | M2 | 571.78 | 517.34 |  | +10.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0020 | 40.20.20.20 | Alfombra Luxor diseño Legacy de Poliester semiras., incluye: | M2 | 520.73 | 469.74 |  | +10.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0021 | 40.20.20.20 | Alfombra Luxor diseño Los Andes de Polipropileno Berber, inc | M2 | 310.78 | 274.35 |  | +13.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0022 | 40.20.20.20 | Alfombra Luxor diseño Magnificient SB de Poliester frieze, i | M2 | 967.96 | 885.65 |  | +9.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0023 | 40.20.20.20 | Alfombra Luxor diseño Marathon PLus de Polipropileno, incluy | M2 | 261.88 | 228.83 |  | +14.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0024 | 40.20.20.20 | Alfombra Luxor diseño Maraton 23 de Poligr Graphics, incluye | M2 | 334.75 | 290.91 |  | +15.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0025 | 40.20.20.20 | Alfombra Luxor diseño Marbella de Polipr/Nyl/Berber, incluye | M2 | 598.39 | 542.16 |  | +10.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0026 | 40.20.20.20 | Alfombra Luxor diseño Montecarlo Plus de Poliester rasurado, | M2 | 351.04 | 311.61 |  | +12.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0027 | 40.20.20.20 | Alfombra Luxor diseño Nature de Polipropileno Graphics, incl | M2 | 364.28 | 317.81 |  | +14.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0028 | 40.20.20.20 | Alfombra Luxor diseño North Shore de Polipropileno, incluye: | M2 | 384.11 | 342.64 |  | +12.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0029 | 40.20.20.20 | Alfombra Luxor diseño Oleo de Poliester rasurado, incluye: s | M2 | 734.27 | 668.37 |  | +9.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0030 | 40.20.20.20 | Alfombra Luxor diseño Pasto Garden de Polipropileno, incluye | M2 | 204.81 | 212.29 |  | -3.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0031 | 40.20.20.20 | Alfombra Luxor diseño Pasto Ingles de Polipropileno uv resis | M2 | 461.15 | 455.26 |  | +1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0032 | 40.20.20.20 | Alfombra Luxor diseño Pasto Park de Polipropileno, incluye:  | M2 | 266.24 | 270.22 |  | -1.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0033 | 40.20.20.20 | Alfombra Luxor diseño Pasto Park Azul de Polipropileno, incl | M2 | 276.84 | 280.57 |  | -1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0034 | 40.20.20.20 | Alfombra Luxor diseño Porto Alegre de Polipropileno Naylon b | M2 | 540.87 | 488.33 |  | +10.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0035 | 40.20.20.20 | Alfombra Luxor diseño Scotland de Polipropileno Graphics, in | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0036 | 40.20.20.20 | Alfombra Luxor diseño Sprint Plus de Polipropileno, incluye: | M2 | 241.75 | 210.22 | 220.37 | +15.0% | +9.7% | CDMX · material derivado del catálogo | — |
-| E06.06.0037 | 40.20.20.20 | Alfombra Luxor diseño Super Bowl de Polipropileno Graphics,  | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0038 | 40.20.20.20 | Alfombra Luxor diseño Track & Field de Polipropileno Graphic | M2 | 357.62 | 311.61 |  | +14.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0039 | 40.20.20.20 | Alfombra Luxor diseño Venus de Poliester rasurado, incluye:  | M2 | 447.39 | 401.45 |  | +11.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0040 | 40.20.20.20 | Alfombra Luxor diseño Versalles SB de Nylon texture, incluye | M2 | 821.28 | 749.09 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0041 | 40.20.20.20 | Alfombra Luxor diseño Viaggio (4.12m ancho) de Polipropileno | M2 | 475.82 | 438.70 |  | +8.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0042 | 40.20.20.20 | Alfombra Luxor diseño Wimbledon de Pasto uv resitant, incluy | M2 | 472.45 | 465.58 |  | +1.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0043 | 40.20.20.20 | Alfombra Luxor diseño Yorkshire de Nylon Rizo, incluye: sumi | M2 | 527.20 | 475.93 |  | +10.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0044 | 40.20.20.20 | Alfombra Tersa diseño Action Turf c/Backing de Pasto uv resi | M2 | 946.30 | 914.61 |  | +3.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0045 | 40.20.20.20 | Alfombra Tersa diseño Artisan Illusions de Wooltex Berber, i | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0046 | 40.20.20.20 | Alfombra Tersa diseño Aspen de Poliester frieze, incluye: su | M2 | 630.01 | 571.12 |  | +10.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0047 | 40.20.20.20 | Alfombra Tersa diseño Asturias de Polipropileno berber, incl | M2 | 443.07 | 397.29 |  | +11.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0048 | 40.20.20.20 | Alfombra Tersa diseño Bayfield de Polipropileno Graphics, in | M2 | 366.48 | 319.87 |  | +14.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0049 | 40.20.20.20 | Alfombra Tersa diseño Bertinni de Polipropileno berber, incl | M2 | 487.65 | 438.70 |  | +11.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0050 | 40.20.20.20 | Alfombra Tersa diseño Bolom II de Poliester Frieze, incluye: | M2 | 353.20 | 313.68 |  | +12.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0051 | 40.20.20.20 | Alfombra Tersa diseño Brittany de Poliester rasurada, incluy | M2 | 581.13 | 525.60 |  | +10.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0052 | 40.20.20.20 | Alfombra Tersa diseño Cardiff SB de Nylon texture, incluye:  | M2 | 821.28 | 749.09 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0053 | 40.20.20.20 | Alfombra Tersa diseño Cartagena de Polipropileno berber, inc | M2 | 451.70 | 405.60 |  | +11.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0054 | 40.20.20.20 | Alfombra Tersa diseño Designer's Choise de Poliester rasurad | M2 | 885.27 | 809.07 |  | +9.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0055 | 40.20.20.20 | Alfombra Tersa diseño Dreamweaver de Poliester shag, incluye | M2 | 645.13 | 585.61 |  | +10.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0056 | 40.20.20.20 | Alfombra Tersa diseño Ejecutiva de Polipropileno, incluye: s | M2 | 384.11 | 342.64 |  | +12.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0057 | 40.20.20.20 | Alfombra Tersa diseño Eminence 30 de Naylon rasurado, incluy | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0058 | 40.20.20.20 | Alfombra Tersa diseño Eminence 36 de Naylon rasurado, incluy | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0059 | 40.20.20.20 | Alfombra Tersa diseño Eminence 42 de Naylon rasurado, incluy | M2 | 638.65 | 579.41 |  | +10.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0060 | 40.20.20.20 | Alfombra Tersa diseño Evolution de Polipropileno. Graphics,  | M2 | 307.42 | 266.09 |  | +15.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0061 | 40.20.20.20 | Alfombra Tersa diseño Field de Polipropileno uv resistant, i | M2 | 461.15 | 455.26 |  | +1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0062 | 40.20.20.20 | Alfombra Tersa diseño Flaire Plus de Polipropileno Graphics, | M2 | 348.03 | 303.33 |  | +14.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0063 | 40.20.20.20 | Alfombra Tersa diseño Freeport SB de Poliester rasurados, in | M2 | 811.93 | 740.78 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0064 | 40.20.20.20 | Alfombra Tersa diseño Golf III de Polipropileno uv resistant | M2 | 342.51 | 342.64 |  | -0.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0065 | 40.20.20.20 | Alfombra Tersa diseño Guerrero II de Polipropileno, incluye: | M2 | 241.75 | 210.22 |  | +15.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0066 | 40.20.20.20 | Alfombra Tersa diseño Key West de Poliester semiras, incluye | M2 | 520.73 | 469.74 |  | +10.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0067 | 40.20.20.20 | Alfombra Tersa diseño La Silla de Poliester rasurado, incluy | M2 | 447.39 | 401.45 |  | +11.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0068 | 40.20.20.20 | Alfombra Tersa diseño Lifestyle SB de Poliester hilo fino ra | M2 | 843.57 | 769.77 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0069 | 40.20.20.20 | Alfombra Tersa diseño Lux II de Poliester rasurado, incluye: | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0070 | 40.20.20.20 | Alfombra Tersa diseño Monticello SB de Poliester rasurado, i | M2 | 892.46 | 815.29 |  | +9.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0071 | 40.20.20.20 | Alfombra Tersa diseño Napa II de Polipropileno berber, inclu | M2 | 286.33 | 251.58 |  | +13.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0072 | 40.20.20.20 | Alfombra Tersa diseño Olefina 1500 de Polipropileno, incluye | M2 | 261.88 | 228.83 |  | +14.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0073 | 40.20.20.20 | Alfombra Tersa diseño Olefina 2300 de Polipropileno, incluye | M2 | 328.76 | 290.91 |  | +13.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0074 | 40.20.20.20 | Alfombra Tersa diseño Oxford de Poliester rasurada, incluye: | M2 | 652.31 | 591.82 |  | +10.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0075 | 40.20.20.20 | Alfombra Tersa diseño Parksville de Nylon Rizo, incluye: sum | M2 | 527.20 | 475.93 |  | +10.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0076 | 40.20.20.20 | Alfombra Tersa diseño Pasto I de Polipropileno, incluye: sum | M2 | 204.81 | 212.29 |  | -3.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0077 | 40.20.20.20 | Alfombra Tersa diseño Pasto II de Polipropileno, incluye: su | M2 | 266.24 | 270.22 |  | -1.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0078 | 40.20.20.20 | Alfombra Tersa diseño Pasto II Azul de Polipropileno, incluy | M2 | 276.84 | 280.57 |  | -1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0079 | 40.20.20.20 | Alfombra Tersa diseño Rhombus de Polipropileno Graphics, inc | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0080 | 40.20.20.20 | Alfombra Tersa diseño Rustic de Poliester frieze, incluye: s | M2 | 561.00 | 506.97 |  | +10.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0081 | 40.20.20.20 | Alfombra Tersa diseño Santa Fé de Polipropileno. (Berber), i | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0082 | 40.20.20.20 | Alfombra Tersa diseño Sta Monica de Poliester rasurado, incl | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0083 | 40.20.20.20 | Alfombra Tersa diseño Strategy de Polipropileno Graphics, in | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0084 | 40.20.20.20 | Alfombra Tersa diseño Stripes de Polipropileno Graphics, inc | M2 | 364.28 | 317.81 |  | +14.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0085 | 40.20.20.20 | Alfombra Tersa diseño Supra de 50% PP.,50% Naylon, incluye:  | M2 | 406.41 | 363.33 |  | +11.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0086 | 40.20.20.20 | Alfombra Tersa diseño Website de Polipropileno Graphics, inc | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0087 | 40.20.20.20 | Alfombra Tersa diseño World cup de Pasto uv resistant, inclu | M2 | 472.45 | 465.58 |  | +1.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0088 | 40.20.20.20 | Alfombra Tersa diseño Xcaret SB de Naylon berber, incluye: s | M2 | 860.84 | 786.30 |  | +9.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0089 | 40.20.20.20 | Alfombra Tamsa diseño Authority (Beaulieu) de Nylon Rasurada | M2 | 696.88 | 633.20 |  | +10.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0090 | 40.20.20.20 | Alfombra Tamsa diseño Canasta (Beaulieu) de 79%pp 21%Nay. Gr | M2 | 402.67 | 352.99 |  | +14.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0091 | 40.20.20.20 | Alfombra Tamsa diseño Casper (Beaulieu) de 91%pp 9%Nay. Berb | M2 | 558.84 | 504.89 |  | +10.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0092 | 40.20.20.20 | Alfombra Tamsa diseño City Plaza (Beaulieu) de Nylon Rasurad | M2 | 463.20 | 415.93 |  | +11.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0093 | 40.20.20.20 | Alfombra Tamsa diseño Coloso de Polipropileno Nudo, incluye: | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0094 | 40.20.20.20 | Alfombra Tamsa diseño Emperatríz de Poliester Rasurada, incl | M2 | 317.24 | 280.57 |  | +13.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0095 | 40.20.20.20 | Alfombra Tamsa diseño High Roller (Beaulieu) de 90%pp 10%Nay | M2 | 445.23 | 399.39 |  | +11.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0096 | 40.20.20.20 | Alfombra Tamsa diseño High Society de 100% Polipr. Berber, i | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0097 | 40.20.20.20 | Alfombra Tamsa diseño Kid Proof 950 de Polipropileno Rasurad | M2 | 361.82 | 321.97 |  | +12.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0098 | 40.20.20.20 | Alfombra Tamsa diseño New Graphics de Polipropileno Grafica, | M2 | 295.60 | 255.74 |  | +15.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0099 | 40.20.20.20 | Alfombra Tamsa diseño Pasillo Royal .70 cms ancho de Polipro | M2 | 281.69 | 208.16 |  | +35.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0100 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bent ahulado de Polipropileno Cu | M2 | 209.04 | 216.43 |  | -3.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0101 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bent doble base de Polipropileno | M2 | 216.11 | 222.62 |  | -2.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0102 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda ahulado de Polipropileno | M2 | 244.35 | 249.53 |  | -2.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0103 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda doble base de Polipropil | M2 | 252.84 | 257.81 |  | -1.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0104 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda Plus Ahulado de Poliprop | M2 | 283.18 | 286.78 |  | -1.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0105 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda plus doble base de Polip | M2 | 296.60 | 299.21 |  | -0.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0106 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Caribeam Blue de Polipropileno C | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0107 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Dune d/base de Polipropileno Cut | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0108 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Rugby de 700 grs de Polipropilen | M2 | 324.85 | 326.09 |  | -0.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0109 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Safari Doble Base de Polipropile | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0110 | 40.20.20.20 | Alfombra Tamsa diseño Winner Automotriz ahulado de Poliester | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0111 | 40.20.20.20 | Alfombra Tamsa diseño Winner II de Poliester Rasurada, inclu | M2 | 230.96 | 199.87 |  | +15.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0112 | 40.20.20.20 | Alfombra Tamsa diseño Winner Ultra de Poliester Rasurada, in | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0113 | 40.20.20.20 | Alfombra Nobilis diseño Belmont de Poliester Rasurado, inclu | M2 | 375.49 | 334.37 |  | +12.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0114 | 40.20.20.20 | Alfombra Nobilis diseño Calgary de Poliester Trackless, incl | M2 | 491.96 | 442.81 |  | +11.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0115 | 40.20.20.20 | Alfombra Nobilis diseño California Dream de Polipropileno Be | M2 | 399.93 | 357.13 |  | +12.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0116 | 40.20.20.20 | Alfombra Nobilis diseño Casa Blanca de Polipropileno Berber, | M2 | 543.03 | 490.41 |  | +10.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0117 | 40.20.20.20 | Alfombra Nobilis diseño Catalystic de Polipropileno Rizo, in | M2 | 228.09 | 197.81 |  | +15.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0118 | 40.20.20.20 | Alfombra Nobilis diseño Color Magic II de Polipropileno Rizo | M2 | 277.70 | 243.33 |  | +14.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0119 | 40.20.20.20 | Alfombra Nobilis diseño Coventry de Polipropileno Berber, in | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0120 | 40.20.20.20 | Alfombra Nobilis diseño Derby II de Polipropileno Rizo, incl | M2 | 237.44 | 206.08 |  | +15.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0121 | 40.20.20.20 | Alfombra Nobilis diseño Discovery II de Polipropileno Rizo,  | M2 | 339.54 | 301.26 |  | +12.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0122 | 40.20.20.20 | Alfombra Nobilis diseño Edinburg de Poliester Rasurado, incl | M2 | 652.31 | 591.82 |  | +10.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0123 | 40.20.20.20 | Alfombra Nobilis diseño Four Seasons de Poliester Trackless, | M2 | 683.23 | 620.78 |  | +10.1% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0124 | 40.20.20.20 | Alfombra Nobilis diseño Grand Mirage de Poliester Rasurado,  | M2 | 898.94 | 821.49 |  | +9.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0125 | 40.20.20.20 | Alfombra Nobilis diseño Grand Nobility de Poliester Trackles | M2 | 878.81 | 802.86 |  | +9.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0126 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills I de Polipropileno Rasur | M2 | 308.62 | 272.29 |  | +13.3% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0127 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills II de Polipropileno Rasu | M2 | 388.43 | 346.80 |  | +12.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0128 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills III de Polipropileno Ras | M2 | 502.74 | 453.18 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0129 | 40.20.20.20 | Alfombra Nobilis diseño King's Palace de Poliester Rasurado, | M2 | 827.75 | 755.29 |  | +9.6% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0130 | 40.20.20.20 | Alfombra Nobilis diseño Legacy II de Poliester Rasurado, inc | M2 | 571.78 | 517.34 |  | +10.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0131 | 40.20.20.20 | Alfombra Nobilis diseño Lexus II de Polipropileno Dibujo Var | M2 | 362.05 | 315.74 |  | +14.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0132 | 40.20.20.20 | Alfombra Nobilis diseño London Square de Polipropileno Graph | M2 | 593.88 | 525.60 |  | +13.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0133 | 40.20.20.20 | Alfombra Nobilis diseño Masterpiece II de Poliester Rasurado | M2 | 894.62 | 817.37 |  | +9.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0134 | 40.20.20.20 | Alfombra Nobilis diseño Montclair de Polipropileno Berber, i | M2 | 312.93 | 276.45 |  | +13.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0135 | 40.20.20.20 | Alfombra Nobilis diseño Mystique de Poliester Rasurado, incl | M2 | 518.57 | 467.66 |  | +10.9% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0136 | 40.20.20.20 | Alfombra Nobilis diseño Natural Collection de Polipropileno  | M2 | 346.01 | 307.47 |  | +12.5% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0137 | 40.20.20.20 | Alfombra Nobilis diseño Nautica de Polipropileno Graphics, i | M2 | 325.14 | 282.65 |  | +15.0% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0138 | 40.20.20.20 | Alfombra Nobilis diseño Nevada de Poliester Razurado, incluy | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0139 | 40.20.20.20 | Alfombra Nobilis diseño North Star de Polipropileno Graphics | M2 | 320.72 | 278.51 |  | +15.2% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0140 | 40.20.20.20 | Alfombra Nobilis diseño Quest de Polipropileno Graphics, inc | M2 | 293.40 | 253.69 |  | +15.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0141 | 40.20.20.20 | Alfombra Nobilis diseño Wembly II de Polipropileno Dibujo Va | M2 | 359.83 | 313.68 |  | +14.7% |  | P.U. actualizado · material derivado del catálogo | — |
-| E06.06.0142 | 40.20.20.20 | Alfombra Nobilis diseño Windstar de Poliester Rasurado, incl | M2 | 357.51 | 317.81 |  | +12.5% |  | P.U. actualizado · material derivado del catálogo | — |
+| E06.06.0001 | 40.20.20.20 | Alfombra Luxor diseño Arquitextura SB de Poliester rasurado, | M2 | 581.13 | 525.60 |  | +10.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0002 | 40.20.20.20 | Alfombra Luxor diseño Aruba de Poliester rasurado, incluye:  | M2 | 502.74 | 453.18 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0003 | 40.20.20.20 | Alfombra Luxor diseño Athletic Turf de Pasto uv resitant, in | M2 | 946.30 | 914.61 |  | +3.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0004 | 40.20.20.20 | Alfombra Luxor diseño Big Leagues de Polipropileno Graphics, | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0005 | 40.20.20.20 | Alfombra Luxor diseño Brussels de Polipropileno Berber, incl | M2 | 357.51 | 317.81 |  | +12.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0006 | 40.20.20.20 | Alfombra Luxor diseño Casa Grande (4m.ancho) de Polipropilen | M2 | 523.84 | 484.22 |  | +8.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0007 | 40.20.20.20 | Alfombra Luxor diseño Castellon de Polipr/Nyl/Berber, incluy | M2 | 589.75 | 533.89 |  | +10.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0008 | 40.20.20.20 | Alfombra Luxor diseño Cricket 30 de Naylon rasurado, incluye | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0009 | 40.20.20.20 | Alfombra Luxor diseño Cricket 36 de Naylon rasurado, incluye | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0010 | 40.20.20.20 | Alfombra Luxor diseño Cricket 42 de Naylon rasurado, incluye | M2 | 638.65 | 579.41 |  | +10.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0011 | 40.20.20.20 | Alfombra Luxor diseño Dunas de Poliester frieze, incluye: su | M2 | 480.46 | 432.49 |  | +11.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0012 | 40.20.20.20 | Alfombra Luxor diseño Fall Spells SB de Poliester frieze, in | M2 | 776.70 | 707.69 |  | +9.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0013 | 40.20.20.20 | Alfombra Luxor diseño Fifth Avenue SB de Poliester Hilo Fino | M2 | 687.54 | 624.93 |  | +10.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0014 | 40.20.20.20 | Alfombra Luxor diseño Giardino de Poliester Berber, incluye: | M2 | 445.23 | 399.39 |  | +11.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0015 | 40.20.20.20 | Alfombra Luxor diseño Grand Slam de Polipropileno Graphics,  | M2 | 307.42 | 266.09 |  | +15.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0016 | 40.20.20.20 | Alfombra Luxor diseño Green Valley de Polipropileno uv resis | M2 | 342.51 | 342.64 |  | -0.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0017 | 40.20.20.20 | Alfombra Luxor diseño Handicap de Poliester rasurado, incluy | M2 | 317.24 | 280.57 |  | +13.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0018 | 40.20.20.20 | Alfombra Luxor diseño Innsbruck de Polipropileno Berber, inc | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0019 | 40.20.20.20 | Alfombra Luxor diseño Jazz de Poliester rasurado, incluye: s | M2 | 571.78 | 517.34 |  | +10.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0020 | 40.20.20.20 | Alfombra Luxor diseño Legacy de Poliester semiras., incluye: | M2 | 520.73 | 469.74 |  | +10.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0021 | 40.20.20.20 | Alfombra Luxor diseño Los Andes de Polipropileno Berber, inc | M2 | 310.78 | 274.35 |  | +13.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0022 | 40.20.20.20 | Alfombra Luxor diseño Magnificient SB de Poliester frieze, i | M2 | 967.96 | 885.65 |  | +9.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0023 | 40.20.20.20 | Alfombra Luxor diseño Marathon PLus de Polipropileno, incluy | M2 | 261.88 | 228.83 |  | +14.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0024 | 40.20.20.20 | Alfombra Luxor diseño Maraton 23 de Poligr Graphics, incluye | M2 | 334.75 | 290.91 |  | +15.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0025 | 40.20.20.20 | Alfombra Luxor diseño Marbella de Polipr/Nyl/Berber, incluye | M2 | 598.39 | 542.16 |  | +10.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0026 | 40.20.20.20 | Alfombra Luxor diseño Montecarlo Plus de Poliester rasurado, | M2 | 351.04 | 311.61 |  | +12.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0027 | 40.20.20.20 | Alfombra Luxor diseño Nature de Polipropileno Graphics, incl | M2 | 364.28 | 317.81 |  | +14.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0028 | 40.20.20.20 | Alfombra Luxor diseño North Shore de Polipropileno, incluye: | M2 | 384.11 | 342.64 |  | +12.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0029 | 40.20.20.20 | Alfombra Luxor diseño Oleo de Poliester rasurado, incluye: s | M2 | 734.27 | 668.37 |  | +9.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0030 | 40.20.20.20 | Alfombra Luxor diseño Pasto Garden de Polipropileno, incluye | M2 | 204.81 | 212.29 |  | -3.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0031 | 40.20.20.20 | Alfombra Luxor diseño Pasto Ingles de Polipropileno uv resis | M2 | 461.15 | 455.26 |  | +1.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0032 | 40.20.20.20 | Alfombra Luxor diseño Pasto Park de Polipropileno, incluye:  | M2 | 266.24 | 270.22 |  | -1.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0033 | 40.20.20.20 | Alfombra Luxor diseño Pasto Park Azul de Polipropileno, incl | M2 | 276.84 | 280.57 |  | -1.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0034 | 40.20.20.20 | Alfombra Luxor diseño Porto Alegre de Polipropileno Naylon b | M2 | 540.87 | 488.33 |  | +10.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0035 | 40.20.20.20 | Alfombra Luxor diseño Scotland de Polipropileno Graphics, in | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0036 | 40.20.20.20 | Alfombra Luxor diseño Sprint Plus de Polipropileno, incluye: | M2 | 241.75 | 210.22 | 220.37 | +15.0% | +9.7% | CDMX · no independiente | — |
+| E06.06.0037 | 40.20.20.20 | Alfombra Luxor diseño Super Bowl de Polipropileno Graphics,  | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0038 | 40.20.20.20 | Alfombra Luxor diseño Track & Field de Polipropileno Graphic | M2 | 357.62 | 311.61 |  | +14.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0039 | 40.20.20.20 | Alfombra Luxor diseño Venus de Poliester rasurado, incluye:  | M2 | 447.39 | 401.45 |  | +11.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0040 | 40.20.20.20 | Alfombra Luxor diseño Versalles SB de Nylon texture, incluye | M2 | 821.28 | 749.09 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0041 | 40.20.20.20 | Alfombra Luxor diseño Viaggio (4.12m ancho) de Polipropileno | M2 | 475.82 | 438.70 |  | +8.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0042 | 40.20.20.20 | Alfombra Luxor diseño Wimbledon de Pasto uv resitant, incluy | M2 | 472.45 | 465.58 |  | +1.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0043 | 40.20.20.20 | Alfombra Luxor diseño Yorkshire de Nylon Rizo, incluye: sumi | M2 | 527.20 | 475.93 |  | +10.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0044 | 40.20.20.20 | Alfombra Tersa diseño Action Turf c/Backing de Pasto uv resi | M2 | 946.30 | 914.61 |  | +3.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0045 | 40.20.20.20 | Alfombra Tersa diseño Artisan Illusions de Wooltex Berber, i | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0046 | 40.20.20.20 | Alfombra Tersa diseño Aspen de Poliester frieze, incluye: su | M2 | 630.01 | 571.12 |  | +10.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0047 | 40.20.20.20 | Alfombra Tersa diseño Asturias de Polipropileno berber, incl | M2 | 443.07 | 397.29 |  | +11.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0048 | 40.20.20.20 | Alfombra Tersa diseño Bayfield de Polipropileno Graphics, in | M2 | 366.48 | 319.87 |  | +14.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0049 | 40.20.20.20 | Alfombra Tersa diseño Bertinni de Polipropileno berber, incl | M2 | 487.65 | 438.70 |  | +11.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0050 | 40.20.20.20 | Alfombra Tersa diseño Bolom II de Poliester Frieze, incluye: | M2 | 353.20 | 313.68 |  | +12.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0051 | 40.20.20.20 | Alfombra Tersa diseño Brittany de Poliester rasurada, incluy | M2 | 581.13 | 525.60 |  | +10.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0052 | 40.20.20.20 | Alfombra Tersa diseño Cardiff SB de Nylon texture, incluye:  | M2 | 821.28 | 749.09 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0053 | 40.20.20.20 | Alfombra Tersa diseño Cartagena de Polipropileno berber, inc | M2 | 451.70 | 405.60 |  | +11.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0054 | 40.20.20.20 | Alfombra Tersa diseño Designer's Choise de Poliester rasurad | M2 | 885.27 | 809.07 |  | +9.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0055 | 40.20.20.20 | Alfombra Tersa diseño Dreamweaver de Poliester shag, incluye | M2 | 645.13 | 585.61 |  | +10.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0056 | 40.20.20.20 | Alfombra Tersa diseño Ejecutiva de Polipropileno, incluye: s | M2 | 384.11 | 342.64 |  | +12.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0057 | 40.20.20.20 | Alfombra Tersa diseño Eminence 30 de Naylon rasurado, incluy | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0058 | 40.20.20.20 | Alfombra Tersa diseño Eminence 36 de Naylon rasurado, incluy | M2 | 553.81 | 500.78 |  | +10.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0059 | 40.20.20.20 | Alfombra Tersa diseño Eminence 42 de Naylon rasurado, incluy | M2 | 638.65 | 579.41 |  | +10.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0060 | 40.20.20.20 | Alfombra Tersa diseño Evolution de Polipropileno. Graphics,  | M2 | 307.42 | 266.09 |  | +15.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0061 | 40.20.20.20 | Alfombra Tersa diseño Field de Polipropileno uv resistant, i | M2 | 461.15 | 455.26 |  | +1.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0062 | 40.20.20.20 | Alfombra Tersa diseño Flaire Plus de Polipropileno Graphics, | M2 | 348.03 | 303.33 |  | +14.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0063 | 40.20.20.20 | Alfombra Tersa diseño Freeport SB de Poliester rasurados, in | M2 | 811.93 | 740.78 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0064 | 40.20.20.20 | Alfombra Tersa diseño Golf III de Polipropileno uv resistant | M2 | 342.51 | 342.64 |  | -0.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0065 | 40.20.20.20 | Alfombra Tersa diseño Guerrero II de Polipropileno, incluye: | M2 | 241.75 | 210.22 |  | +15.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0066 | 40.20.20.20 | Alfombra Tersa diseño Key West de Poliester semiras, incluye | M2 | 520.73 | 469.74 |  | +10.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0067 | 40.20.20.20 | Alfombra Tersa diseño La Silla de Poliester rasurado, incluy | M2 | 447.39 | 401.45 |  | +11.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0068 | 40.20.20.20 | Alfombra Tersa diseño Lifestyle SB de Poliester hilo fino ra | M2 | 843.57 | 769.77 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0069 | 40.20.20.20 | Alfombra Tersa diseño Lux II de Poliester rasurado, incluye: | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0070 | 40.20.20.20 | Alfombra Tersa diseño Monticello SB de Poliester rasurado, i | M2 | 892.46 | 815.29 |  | +9.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0071 | 40.20.20.20 | Alfombra Tersa diseño Napa II de Polipropileno berber, inclu | M2 | 286.33 | 251.58 |  | +13.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0072 | 40.20.20.20 | Alfombra Tersa diseño Olefina 1500 de Polipropileno, incluye | M2 | 261.88 | 228.83 |  | +14.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0073 | 40.20.20.20 | Alfombra Tersa diseño Olefina 2300 de Polipropileno, incluye | M2 | 328.76 | 290.91 |  | +13.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0074 | 40.20.20.20 | Alfombra Tersa diseño Oxford de Poliester rasurada, incluye: | M2 | 652.31 | 591.82 |  | +10.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0075 | 40.20.20.20 | Alfombra Tersa diseño Parksville de Nylon Rizo, incluye: sum | M2 | 527.20 | 475.93 |  | +10.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0076 | 40.20.20.20 | Alfombra Tersa diseño Pasto I de Polipropileno, incluye: sum | M2 | 204.81 | 212.29 |  | -3.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0077 | 40.20.20.20 | Alfombra Tersa diseño Pasto II de Polipropileno, incluye: su | M2 | 266.24 | 270.22 |  | -1.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0078 | 40.20.20.20 | Alfombra Tersa diseño Pasto II Azul de Polipropileno, incluy | M2 | 276.84 | 280.57 |  | -1.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0079 | 40.20.20.20 | Alfombra Tersa diseño Rhombus de Polipropileno Graphics, inc | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0080 | 40.20.20.20 | Alfombra Tersa diseño Rustic de Poliester frieze, incluye: s | M2 | 561.00 | 506.97 |  | +10.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0081 | 40.20.20.20 | Alfombra Tersa diseño Santa Fé de Polipropileno. (Berber), i | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0082 | 40.20.20.20 | Alfombra Tersa diseño Sta Monica de Poliester rasurado, incl | M2 | 507.07 | 457.31 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0083 | 40.20.20.20 | Alfombra Tersa diseño Strategy de Polipropileno Graphics, in | M2 | 322.94 | 280.57 |  | +15.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0084 | 40.20.20.20 | Alfombra Tersa diseño Stripes de Polipropileno Graphics, inc | M2 | 364.28 | 317.81 |  | +14.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0085 | 40.20.20.20 | Alfombra Tersa diseño Supra de 50% PP.,50% Naylon, incluye:  | M2 | 406.41 | 363.33 |  | +11.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0086 | 40.20.20.20 | Alfombra Tersa diseño Website de Polipropileno Graphics, inc | M2 | 479.45 | 422.16 |  | +13.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0087 | 40.20.20.20 | Alfombra Tersa diseño World cup de Pasto uv resistant, inclu | M2 | 472.45 | 465.58 |  | +1.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0088 | 40.20.20.20 | Alfombra Tersa diseño Xcaret SB de Naylon berber, incluye: s | M2 | 860.84 | 786.30 |  | +9.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0089 | 40.20.20.20 | Alfombra Tamsa diseño Authority (Beaulieu) de Nylon Rasurada | M2 | 696.88 | 633.20 |  | +10.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0090 | 40.20.20.20 | Alfombra Tamsa diseño Canasta (Beaulieu) de 79%pp 21%Nay. Gr | M2 | 402.67 | 352.99 |  | +14.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0091 | 40.20.20.20 | Alfombra Tamsa diseño Casper (Beaulieu) de 91%pp 9%Nay. Berb | M2 | 558.84 | 504.89 |  | +10.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0092 | 40.20.20.20 | Alfombra Tamsa diseño City Plaza (Beaulieu) de Nylon Rasurad | M2 | 463.20 | 415.93 |  | +11.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0093 | 40.20.20.20 | Alfombra Tamsa diseño Coloso de Polipropileno Nudo, incluye: | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0094 | 40.20.20.20 | Alfombra Tamsa diseño Emperatríz de Poliester Rasurada, incl | M2 | 317.24 | 280.57 |  | +13.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0095 | 40.20.20.20 | Alfombra Tamsa diseño High Roller (Beaulieu) de 90%pp 10%Nay | M2 | 445.23 | 399.39 |  | +11.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0096 | 40.20.20.20 | Alfombra Tamsa diseño High Society de 100% Polipr. Berber, i | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0097 | 40.20.20.20 | Alfombra Tamsa diseño Kid Proof 950 de Polipropileno Rasurad | M2 | 361.82 | 321.97 |  | +12.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0098 | 40.20.20.20 | Alfombra Tamsa diseño New Graphics de Polipropileno Grafica, | M2 | 295.60 | 255.74 |  | +15.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0099 | 40.20.20.20 | Alfombra Tamsa diseño Pasillo Royal .70 cms ancho de Polipro | M2 | 281.69 | 208.16 |  | +35.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0100 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bent ahulado de Polipropileno Cu | M2 | 209.04 | 216.43 |  | -3.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0101 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bent doble base de Polipropileno | M2 | 216.11 | 222.62 |  | -2.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0102 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda ahulado de Polipropileno | M2 | 244.35 | 249.53 |  | -2.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0103 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda doble base de Polipropil | M2 | 252.84 | 257.81 |  | -1.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0104 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda Plus Ahulado de Poliprop | M2 | 283.18 | 286.78 |  | -1.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0105 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Bermuda plus doble base de Polip | M2 | 296.60 | 299.21 |  | -0.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0106 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Caribeam Blue de Polipropileno C | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0107 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Dune d/base de Polipropileno Cut | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0108 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Rugby de 700 grs de Polipropilen | M2 | 324.85 | 326.09 |  | -0.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0109 | 40.20.20.20 | Alfombra Tamsa diseño Pasto Safari Doble Base de Polipropile | M2 | 270.48 | 274.35 |  | -1.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0110 | 40.20.20.20 | Alfombra Tamsa diseño Winner Automotriz ahulado de Poliester | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0111 | 40.20.20.20 | Alfombra Tamsa diseño Winner II de Poliester Rasurada, inclu | M2 | 230.96 | 199.87 |  | +15.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0112 | 40.20.20.20 | Alfombra Tamsa diseño Winner Ultra de Poliester Rasurada, in | M2 | 243.90 | 212.29 |  | +14.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0113 | 40.20.20.20 | Alfombra Nobilis diseño Belmont de Poliester Rasurado, inclu | M2 | 375.49 | 334.37 |  | +12.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0114 | 40.20.20.20 | Alfombra Nobilis diseño Calgary de Poliester Trackless, incl | M2 | 491.96 | 442.81 |  | +11.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0115 | 40.20.20.20 | Alfombra Nobilis diseño California Dream de Polipropileno Be | M2 | 399.93 | 357.13 |  | +12.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0116 | 40.20.20.20 | Alfombra Nobilis diseño Casa Blanca de Polipropileno Berber, | M2 | 543.03 | 490.41 |  | +10.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0117 | 40.20.20.20 | Alfombra Nobilis diseño Catalystic de Polipropileno Rizo, in | M2 | 228.09 | 197.81 |  | +15.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0118 | 40.20.20.20 | Alfombra Nobilis diseño Color Magic II de Polipropileno Rizo | M2 | 277.70 | 243.33 |  | +14.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0119 | 40.20.20.20 | Alfombra Nobilis diseño Coventry de Polipropileno Berber, in | M2 | 337.37 | 299.21 |  | +12.8% |  | P.U. actualizado · no independiente | — |
+| E06.06.0120 | 40.20.20.20 | Alfombra Nobilis diseño Derby II de Polipropileno Rizo, incl | M2 | 237.44 | 206.08 |  | +15.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0121 | 40.20.20.20 | Alfombra Nobilis diseño Discovery II de Polipropileno Rizo,  | M2 | 339.54 | 301.26 |  | +12.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0122 | 40.20.20.20 | Alfombra Nobilis diseño Edinburg de Poliester Rasurado, incl | M2 | 652.31 | 591.82 |  | +10.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0123 | 40.20.20.20 | Alfombra Nobilis diseño Four Seasons de Poliester Trackless, | M2 | 683.23 | 620.78 |  | +10.1% |  | P.U. actualizado · no independiente | — |
+| E06.06.0124 | 40.20.20.20 | Alfombra Nobilis diseño Grand Mirage de Poliester Rasurado,  | M2 | 898.94 | 821.49 |  | +9.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0125 | 40.20.20.20 | Alfombra Nobilis diseño Grand Nobility de Poliester Trackles | M2 | 878.81 | 802.86 |  | +9.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0126 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills I de Polipropileno Rasur | M2 | 308.62 | 272.29 |  | +13.3% |  | P.U. actualizado · no independiente | — |
+| E06.06.0127 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills II de Polipropileno Rasu | M2 | 388.43 | 346.80 |  | +12.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0128 | 40.20.20.20 | Alfombra Nobilis diseño Green Hills III de Polipropileno Ras | M2 | 502.74 | 453.18 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0129 | 40.20.20.20 | Alfombra Nobilis diseño King's Palace de Poliester Rasurado, | M2 | 827.75 | 755.29 |  | +9.6% |  | P.U. actualizado · no independiente | — |
+| E06.06.0130 | 40.20.20.20 | Alfombra Nobilis diseño Legacy II de Poliester Rasurado, inc | M2 | 571.78 | 517.34 |  | +10.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0131 | 40.20.20.20 | Alfombra Nobilis diseño Lexus II de Polipropileno Dibujo Var | M2 | 362.05 | 315.74 |  | +14.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0132 | 40.20.20.20 | Alfombra Nobilis diseño London Square de Polipropileno Graph | M2 | 593.88 | 525.60 |  | +13.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0133 | 40.20.20.20 | Alfombra Nobilis diseño Masterpiece II de Poliester Rasurado | M2 | 894.62 | 817.37 |  | +9.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0134 | 40.20.20.20 | Alfombra Nobilis diseño Montclair de Polipropileno Berber, i | M2 | 312.93 | 276.45 |  | +13.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0135 | 40.20.20.20 | Alfombra Nobilis diseño Mystique de Poliester Rasurado, incl | M2 | 518.57 | 467.66 |  | +10.9% |  | P.U. actualizado · no independiente | — |
+| E06.06.0136 | 40.20.20.20 | Alfombra Nobilis diseño Natural Collection de Polipropileno  | M2 | 346.01 | 307.47 |  | +12.5% |  | P.U. actualizado · no independiente | — |
+| E06.06.0137 | 40.20.20.20 | Alfombra Nobilis diseño Nautica de Polipropileno Graphics, i | M2 | 325.14 | 282.65 |  | +15.0% |  | P.U. actualizado · no independiente | — |
+| E06.06.0138 | 40.20.20.20 | Alfombra Nobilis diseño Nevada de Poliester Razurado, incluy | M2 | 306.46 | 270.22 |  | +13.4% |  | P.U. actualizado · no independiente | — |
+| E06.06.0139 | 40.20.20.20 | Alfombra Nobilis diseño North Star de Polipropileno Graphics | M2 | 320.72 | 278.51 |  | +15.2% |  | P.U. actualizado · no independiente | — |
+| E06.06.0140 | 40.20.20.20 | Alfombra Nobilis diseño Quest de Polipropileno Graphics, inc | M2 | 293.40 | 253.69 |  | +15.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0141 | 40.20.20.20 | Alfombra Nobilis diseño Wembly II de Polipropileno Dibujo Va | M2 | 359.83 | 313.68 |  | +14.7% |  | P.U. actualizado · no independiente | — |
+| E06.06.0142 | 40.20.20.20 | Alfombra Nobilis diseño Windstar de Poliester Rasurado, incl | M2 | 357.51 | 317.81 |  | +12.5% |  | P.U. actualizado · no independiente | — |
 | E07.01.0001 | 30.10.20.20 | Puerta metálica abatible de 0.60x0.60 m. a base de marco y c | PZA | 1,249.40 | 1,155.05 |  | +8.2% |  | P.U. actualizado | — |
 | E07.01.0002 | 30.10.20.20 | Puerta metálica abatible de 0.50x1.00, de tablero de lámina  | PZA | 1,690.40 | 1,716.98 |  | -1.6% |  | P.U. actualizado | — |
 | E07.01.0003 | 30.10.20.20 | Puerta metálica de 0.9 m. de ancho por 2.1 m. de altura, con | PZA | 5,788.61 | 6,120.04 |  | -5.4% |  | P.U. actualizado | — |

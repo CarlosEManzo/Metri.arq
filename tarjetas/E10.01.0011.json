@@ -1,11 +1,15 @@
 {
   "clave_cb": "E10.01.0011",
-  "gubim": "50.10.20.60",
+  "gubim": "60.10.10.80",
   "gubim_confianza": "alta",
   "gubim_alternativas": [
     {
       "clave": "60.10.20.50",
       "condicion": "si el proyecto es asistencial / accesible"
+    },
+    {
+      "clave": "50.10.20.60",
+      "condicion": "clave anterior (terminales de fontanería)"
     }
   ],
   "materiales": [

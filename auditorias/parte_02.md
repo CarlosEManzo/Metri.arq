@@ -1,6 +1,6 @@
 # Auditoría parte 2: Obra negra: cimentaciones, estructura y albañilería
 
-Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
+Generado el 2026-09-28 desde `salida/tarjetas.sqlite`. Todas las tarjetas son borradores del agente de tarjetas, pendientes de revisión humana.
 
 ## Resumen
 
@@ -14,7 +14,7 @@ Generado el 2026-09-25 desde `salida/tarjetas.sqlite`. Todas las tarjetas son bo
 | Desviación > ±25 % justificada | 3 |
 | Con referencia sustituta (catálogo erróneo) | 2 |
 | Básicos comparados a costo directo | 6 |
-| Material mayormente derivado del catálogo (validación no independiente) | 0 |
+| Validación no independiente (material derivado o rendimiento ajustado al catálogo) | 0 |
 | Diferencia mediana contra su referencia | +6.9% |
 | Insumos usados que siguen como referencia | 111 |
 | Insumos con precio derivado del catálogo (validación no independiente) | 0 |
