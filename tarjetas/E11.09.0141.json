@@ -29,14 +29,14 @@
       }
     ],
     "rendimiento": 14.0,
-    "fuente": "Catálogo: 14 pza/jor para 19 mm. Rango de referencias: 13-25 mm 14-20; 32-50 mm 8-12; 64-100 mm 4-8 pza/jor"
+    "fuente": "Catálogo Construbase: 14 pza/jor para 19 mm. Referencias plomería: 13-25 mm 14-20 pza/jor; 32-50 mm 8-12 pza/jor; 64-100 mm 4-8 pza/jor"
   },
   "equipo": [],
   "supuestos": [
     "Válvula de compuerta de latón/bronce Fig.29, 19 mm, unión roscable.",
-    "Suministro e instalación con herramientas menores (teflón o equipo de soldadura).",
-    "Andamio, cimbra y equipos especiales se pagan aparte.",
-    "Prueba de hermeticidad con manómetro incluida."
+    "Suministro e instalación con herramientas menores (teflón tape, equipo de soldadura).",
+    "Conectada a tubería existente; ranurado y resane se pagan aparte.",
+    "Prueba de hermeticidad con manómetro incluida en MOL."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""
