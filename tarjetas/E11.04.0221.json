@@ -1,0 +1,43 @@
+{
+  "clave_cb": "E11.04.0221",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FG-NIPLE-38x200",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Niple cuerda corrida 38 mm Ø × 200 mm largo; 5% por daño en manejo"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.007,
+      "desperdicio": 0.1,
+      "nota": "2 juntas × 0.35 m cinta"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor Of plomero + Ay, niples 38 mm Ø × 200 mm. Estimación: rendimiento base 12 pza/jor para 10 cm, escala inversamente con longitud"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 200 mm largo.",
+    "Incluye enroscado y sellado con cinta teflón en ambos extremos.",
+    "No incluye soportes ni fijaciones."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "validacion_no_independiente": "Precios de insumos escalados desde E11.03 (fierro negro) × 1.20 (galvanizado); niples y conexiones especiales estimados por proporciones de mercado. Requiere cotización directa para validación independiente."
+}

@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E11.05.0082",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "materiales": [
+    {
+      "insumo": "YEE-RED-PVC-SAN-150-100",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Yee 150x100mm"
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.06,
+      "desperdicio": 0.05,
+      "nota": "Cemento"
+    },
+    {
+      "insumo": "LIMPIADOR-PVC",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Limpieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 3.0,
+    "fuente": "3 pza/jor; INSTRUCCIONES_PARTE5.md"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Instalación de Yee 150x100mm con preparación, limpieza, cementación y prueba"
+  ],
+  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "reviso": ""
+}

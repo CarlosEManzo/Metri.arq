@@ -1,0 +1,49 @@
+{
+  "clave_cb": "E11.06.0026",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBO-HIDR-CAMP-100",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Tramos de 6 m; 5 % por cortes y ajustes"
+    },
+    {
+      "insumo": "CEMENTO-PVC",
+      "cantidad": 0.04,
+      "desperdicio": 0.05,
+      "nota": "0.67 juntas/m (1 de unión del tramo + conexiones proporcionales); 1 bote 250 ml rinde ≈16 juntas → 0.04 botes/m"
+    },
+    {
+      "insumo": "LIMPIADOR-PVC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Limpieza con solvente de las bocas previo cementado; requiere ~0.5 veces la cantidad de cemento"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10,
+    "fuente": "10 m/jor Of plomero + Ay, tubería con campana cementada (referencia: 28-26 m/jor para 13-25 mm; baja respecto a extremos lisos por cementado)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería visible sobre muro o en ducto, fijada con abrazaderas; ranuras, trincheras y pasos en losa se pagan aparte.",
+    "Campana para cementar (en PVC hidráulico típicamente RD-21/RD-26); el cemento y limpiador van en cantidades proporcionales.",
+    "Conexiones (codos, tees, reducciones) se pagan en sus conceptos.",
+    "Prueba de hermeticidad con agua de la obra, 24 h después de la última junta cementada."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.08.0111",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBOPLUS-RED-75-50",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Reducción Tuboplus 75x50"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 12.0,
+    "fuente": "12.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Termofusora Rotoplas 600W",
+      "horas": 0.03333333333333333,
+      "costo_horario": 150.0
+    }
+  ],
+  "supuestos": [
+    "Concepto: Reducción 75(64)x50(38) tuboplus, incluye: suministro, acarreos, instalación, pr"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

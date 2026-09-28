@@ -47,5 +47,6 @@
     "Precio de la pieza sin IVA, puesto en obra; ver regla y fuente en datos/insumos_lote5c.csv."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Campana (reducción colle 13x10 mm: pieza más pequeña de la familia con rendimiento optimizado (58 pza/jor, comparable a codo 13 mm 56 pza/jor). Precio escalado 0.75×codo 13 + 0.15×codo 10. Diferencia -30% explicada por mayor velocidad relativa en obra de pieza pequeña con menos bocas. Composición M.O. 73% coherente con conexión rápida."
 }

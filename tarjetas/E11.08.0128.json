@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.08.0128",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBOPLUS-TEE-20",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Tee Tuboplus 20mm"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "10.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Termofusora Rotoplas 600W",
+      "horas": 0.03333333333333333,
+      "costo_horario": 150.0
+    }
+  ],
+  "supuestos": [
+    "Concepto: Tee de 20 (13) tuboplus, incluye: suministro, acarreos, instalación, pruebas, ma"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

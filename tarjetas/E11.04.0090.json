@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E11.04.0090",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.50.10.50",
+      "condicion": "si la línea es de protección contra incendio (hidrantes, rociadores)"
+    },
+    {
+      "clave": "50.30.30.20",
+      "condicion": "si la línea conduce vapor o agua caliente de calefacción"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "FG-COPLE-10",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Pieza de hierro maleable negro roscada NPT, clase 150"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.0539,
+      "desperdicio": 0.1,
+      "nota": "2 junta(s) roscada(s) × 0.35 m de cinta por junta de 13 mm (escala con el diámetro^0.9) = 0.54 m; rollo de 10 m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 60,
+    "fuente": "60 pza/jor Of plomero + Ay = 384 min efectivos ÷ (2 × 2.6 min (10 mm) por junta roscada + 1.15 min de manejo). Tiempos por junta calibrados sobre el catálogo (50 pza/jor para conexiones de 2 bocas de 13-38 mm y 15 pza/jor de 51 mm en adelante, promedio de la familia 43 y 15) y repartidos por número de bocas y diámetro"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Conexión roscada de hierro maleable negro clase 150 (ASTM A-197, tipo Cifunsa/Mueller) instalada en línea de fierro galvanizado; el roscado de los extremos del tubo va en el concepto del tubo.",
+    "Sellado con cinta teflón (en gas se usa cinta o pasta aprobada para gas); prueba de hermeticidad con manómetro incluida en herramienta menor.",
+    "Precio de la pieza sin IVA, puesto en obra; ver regla y fuente en datos/insumos_lote5c.csv."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "validacion_no_independiente": "Precios de insumos escalados desde E11.03 (fierro negro) × 1.20 (galvanizado); niples y conexiones especiales estimados por proporciones de mercado. Requiere cotización directa para validación independiente."
+}

@@ -1,0 +1,48 @@
+{
+  "clave_cb": "E11.06.0073",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CONEX-HIDR-COPLE-50",
+      "cantidad": 1,
+      "desperdicio": 0.0,
+      "nota": "Pieza de PVC hidráulico para cementar"
+    },
+    {
+      "insumo": "CEMENTO-PVC",
+      "cantidad": 0.05,
+      "desperdicio": 0.05,
+      "nota": "2 junta(s) roscada(s) × ~0.025 botes por junta"
+    },
+    {
+      "insumo": "LIMPIADOR-PVC",
+      "cantidad": 0.025,
+      "desperdicio": 0.0,
+      "nota": "Limpieza previa: ~0.5 × cantidad de cemento"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10,
+    "fuente": "10 pza/jor Of plomero + Ay (referencia: 18-16 pza/jor para 13-25 mm; se adapta por diámetro)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Conexión de PVC hidráulico para cementar, 2 junta(s).",
+    "Incluye cementado, limpieza con solvente y prueba de hermeticidad con agua.",
+    "El material (pieza) se paga en el concepto de conexión; mano de obra agrupada en este concepto."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

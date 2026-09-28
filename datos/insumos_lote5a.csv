@@ -1,0 +1,1114 @@
+clave,descripcion,unidad,precio,fuente,fecha,estado
+ABRAZ-CU-10,Abrazadera tipo U para tubo 10 mm con taquete,pza,5,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-102,Abrazadera tipo U para tubo 102 mm con taquete,pza,76.2,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-16,Abrazadera tipo U para tubo 16 mm con taquete,pza,7.4,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-19,Abrazadera tipo U para tubo 19 mm con taquete,pza,9.8,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-25,Abrazadera tipo U para tubo 25 mm con taquete,pza,14.600000000000001,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-32,Abrazadera tipo U para tubo 32 mm con taquete,pza,20.200000000000003,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-38,Abrazadera tipo U para tubo 38 mm con taquete,pza,25.0,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-51,Abrazadera tipo U para tubo 51 mm con taquete,pza,35.400000000000006,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-6,Abrazadera tipo U para tubo 6 mm con taquete,pza,5,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-64,Abrazadera tipo U para tubo 64 mm con taquete,pza,45.800000000000004,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-75,Abrazadera tipo U para tubo 75 mm con taquete,pza,54.6,Referencia de ferretería,2026-09,referencia
+ABRAZ-CU-8,Abrazadera tipo U para tubo 8 mm con taquete,pza,5,Referencia de ferretería,2026-09,referencia
+ABRAZA-FF-10,"Abrazadera fijación tubo 10"" (254mm) con pija",pza,100.0,Referencia ferretería 2026,2026-09,referencia
+"ABRAZA-FF-10""","Abrazadera de fijación para tubo de fierro fundido 10"" diámetro con pija y taquete",pza,75.0,Estimado de ferretería (por validar),2026-09,referencia
+ABRAZA-FF-2,"Abrazadera fijación tubo 2"" (51mm) con pija",pza,25.0,Referencia ferretería 2026,2026-09,referencia
+"ABRAZA-FF-2""","Abrazadera de fijación para tubo de fierro fundido 2"" diámetro con pija y taquete",pza,25.0,Estimado de ferretería (por validar),2026-09,referencia
+ABRAZA-FF-4,"Abrazadera fijación tubo 4"" (102mm) con pija",pza,35.0,Referencia ferretería 2026,2026-09,referencia
+"ABRAZA-FF-4""","Abrazadera de fijación para tubo de fierro fundido 4"" diámetro con pija y taquete",pza,35.0,Estimado de ferretería (por validar),2026-09,referencia
+ABRAZA-FF-6,"Abrazadera fijación tubo 6"" (152mm) con pija",pza,50.0,Referencia ferretería 2026,2026-09,referencia
+"ABRAZA-FF-6""","Abrazadera de fijación para tubo de fierro fundido 6"" diámetro con pija y taquete",pza,50.0,Estimado de ferretería (por validar),2026-09,referencia
+ABRAZA-FF-8,"Abrazadera fijación tubo 8"" (202mm) con pija",pza,75.0,Referencia ferretería 2026,2026-09,referencia
+"ABRAZA-FF-8""","Abrazadera de fijación para tubo de fierro fundido 8"" diámetro con pija y taquete",pza,75.0,Estimado de ferretería (por validar),2026-09,referencia
+CEMENTO-PVC,Cemento para PVC bote 250 ml,pza,68.00,"Foset/Truper PPVC-250 $79 con IVA (elferretero.com.mx, truper.com); rango $79-155 con IVA",2026-09,validado con rango de mercado
+CODO-CU-10,Codo de cobre 90° 10 mm,pza,11,Escala por diámetro,2026-09,referencia
+CODO-CU-102,Codo de cobre 90° 102 mm,pza,780,Escala por diámetro,2026-09,referencia
+CODO-CU-16,Codo de cobre 90° 16 mm,pza,22,Escala por diámetro,2026-09,referencia
+CODO-CU-19,Codo de cobre 90° 19 mm,pza,35,Escala por diámetro,2026-09,referencia
+CODO-CU-25,Codo de cobre 90° 25 mm,pza,60,Escala por diámetro,2026-09,referencia
+CODO-CU-32,Codo de cobre 90° 32 mm,pza,100,Escala por diámetro,2026-09,referencia
+CODO-CU-38,Codo de cobre 90° 38 mm,pza,145,Escala por diámetro,2026-09,referencia
+CODO-CU-51,Codo de cobre 90° 51 mm,pza,220,Escala por diámetro,2026-09,referencia
+CODO-CU-6,Codo de cobre 90° 6 mm,pza,8,Escala por diámetro,2026-09,referencia
+CODO-CU-64,Codo de cobre 90° 64 mm,pza,380,Escala por diámetro,2026-09,referencia
+CODO-CU-75,Codo de cobre 90° 75 mm,pza,520,Escala por diámetro,2026-09,referencia
+CODO-CU-8,Codo de cobre 90° 8 mm,pza,9,Escala por diámetro,2026-09,referencia
+CODO-PVC-SAN-102-45,Codo PVC sanitario 102 mm x 45° para cementar,pza,100.99,Derivado de catálogo E11.05.0014 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-102-45-ANGER,Codo PVC sanitario 102 mm x 45° anger,pza,137.10,Catálogo E11.05.0024 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-102-90,Codo PVC sanitario 102 mm x 90° para cementar,pza,88.24,Derivado de catálogo E11.05.0009 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-102-90-ANGER,Codo PVC sanitario 102 mm x 90° anger,pza,140.84,Derivado de catálogo E11.05.0019 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-150-45,Codo PVC sanitario 150 mm x 45° para cementar,pza,188.30,Derivado de catálogo E11.05.0015 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-150-45-ANGER,Codo PVC sanitario 150 mm x 45° anger,pza,249.53,Catálogo E11.05.0025 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-150-90,Codo PVC sanitario 150 mm x 90° para cementar,pza,178.05,Derivado de catálogo E11.05.0010 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-150-90-ANGER,Codo PVC sanitario 150 mm x 90° anger,pza,335.07,Derivado de catálogo E11.05.0020 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-40-45,Codo PVC sanitario 40 mm x 45° para cementar,pza,51.25,Derivado de catálogo E11.05.0011 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-40-45-ANGER,Codo PVC sanitario 40 mm x 45° anger,pza,65.44,Catálogo E11.05.0021 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-40-90,Codo PVC sanitario 40 mm x 90° para cementar,pza,50.29,Derivado de catálogo E11.05.0006 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-40-90-ANGER,Codo PVC sanitario 40 mm x 90° anger,pza,55.46,Derivado de catálogo E11.05.0016 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-50-45,Codo PVC sanitario 50 mm x 45° para cementar,pza,54.77,Derivado de catálogo E11.05.0012 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-50-45-ANGER,Codo PVC sanitario 50 mm x 45° anger,pza,74.11,Catálogo E11.05.0022 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-50-90,Codo PVC sanitario 50 mm x 90° para cementar,pza,49.92,Derivado de catálogo E11.05.0007 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-50-90-ANGER,Codo PVC sanitario 50 mm x 90° anger,pza,66.07,Derivado de catálogo E11.05.0017 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-75-45,Codo PVC sanitario 75 mm x 45° para cementar,pza,72.24,Derivado de catálogo E11.05.0013 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-75-45-ANGER,Codo PVC sanitario 75 mm x 45° anger,pza,81.16,Catálogo E11.05.0023 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-75-90,Codo PVC sanitario 75 mm x 90° para cementar,pza,69.05,Derivado de catálogo E11.05.0008 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CODO-PVC-SAN-75-90-ANGER,Codo PVC sanitario 75 mm x 90° anger,pza,87.26,Derivado de catálogo E11.05.0018 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CONECTOR-CU-10,Conector de cobre 10 mm,pza,14,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-102,Conector de cobre 102 mm,pza,1100,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-13,Conector de cobre 13 mm,pza,20,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-19,Conector de cobre 19 mm,pza,45,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-25,Conector de cobre 25 mm,pza,75,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-32,Conector de cobre 32 mm,pza,130,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-38,Conector de cobre 38 mm,pza,190,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-51,Conector de cobre 51 mm,pza,300,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-64,Conector de cobre 64 mm,pza,520,Escala por diámetro,2026-09,referencia
+CONECTOR-CU-75,Conector de cobre 75 mm,pza,720,Escala por diámetro,2026-09,referencia
+CONEX-HIDR-ABRAZ-100x13,Abrazadera de PVC para toma salida roscada de 100x13 mm,pza,203.72,Catálogo Construbase P.U. actualizado $236.32 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-100x19,Abrazadera de PVC para toma salida roscada de 100x19 mm,pza,236.34,Catálogo Construbase P.U. actualizado $274.16 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-38x13,Abrazadera de PVC para toma salida roscada de 38x13 mm,pza,76.42,Catálogo Construbase P.U. actualizado $88.65 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-50x13,Abrazadera de PVC para toma salida roscada de 50x13 mm,pza,90.43,Catálogo Construbase P.U. actualizado $104.90 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-50x19,Abrazadera de PVC para toma salida roscada de 50x19 mm,pza,102.90,Catálogo Construbase P.U. actualizado $119.36 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-60x13,Abrazadera de PVC para toma salida roscada de 60x13 mm,pza,106.71,Catálogo Construbase P.U. actualizado $123.78 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-60x19,Abrazadera de PVC para toma salida roscada de 60x19 mm,pza,122.30,Catálogo Construbase P.U. actualizado $141.87 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-75x13,Abrazadera de PVC para toma salida roscada de 75x13 mm,pza,152.34,Catálogo Construbase P.U. actualizado $176.71 con IVA,2026-09,referencia
+CONEX-HIDR-ABRAZ-75x19,Abrazadera de PVC para toma salida roscada de 75x19 mm,pza,175.97,Catálogo Construbase P.U. actualizado $204.12 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-100,Adaptador roscado PVC hidráulico de 100 mm,pza,95.00,Catálogo Construbase P.U. actualizado $110.20 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-13,Adaptador roscado PVC hidráulico de 13 mm,pza,17.12,Catálogo Construbase P.U. actualizado $19.86 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-19,Adaptador roscado PVC hidráulico de 19 mm,pza,19.09,Catálogo Construbase P.U. actualizado $22.15 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-25,Adaptador roscado PVC hidráulico de 25 mm,pza,23.45,Catálogo Construbase P.U. actualizado $27.20 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-32,Adaptador roscado PVC hidráulico de 32 mm,pza,27.59,Catálogo Construbase P.U. actualizado $32.00 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-38,Adaptador roscado PVC hidráulico de 38 mm,pza,30.90,Catálogo Construbase P.U. actualizado $35.84 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-50,Adaptador roscado PVC hidráulico de 50 mm,pza,39.98,Catálogo Construbase P.U. actualizado $46.38 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-60,Adaptador roscado PVC hidráulico de 60 mm,pza,47.43,Catálogo Construbase P.U. actualizado $55.02 con IVA,2026-09,referencia
+CONEX-HIDR-ADAPT-75,Adaptador roscado PVC hidráulico de 75 mm,pza,71.41,Catálogo Construbase P.U. actualizado $82.84 con IVA,2026-09,referencia
+CONEX-HIDR-BRIDA-100,Brida roscada PVC hidráulico de 100 mm,pza,400.36,Catálogo Construbase P.U. actualizado $464.42 con IVA,2026-09,referencia
+CONEX-HIDR-BRIDA-150,Brida roscada PVC hidráulico de 150 mm,pza,717.44,Catálogo Construbase P.U. actualizado $832.23 con IVA,2026-09,referencia
+CONEX-HIDR-BRIDA-50,Brida roscada PVC hidráulico de 50 mm,pza,170.63,Catálogo Construbase P.U. actualizado $197.93 con IVA,2026-09,referencia
+CONEX-HIDR-BRIDA-60,Brida roscada PVC hidráulico de 60 mm,pza,213.36,Catálogo Construbase P.U. actualizado $247.50 con IVA,2026-09,referencia
+CONEX-HIDR-BRIDA-75,Brida roscada PVC hidráulico de 75 mm,pza,298.74,Catálogo Construbase P.U. actualizado $346.54 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-100x19,Reducción bushing PVC hidráulico de 100x19 mm para cementar,pza,146.92,Catálogo Construbase P.U. actualizado $170.43 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-100x25,Reducción bushing PVC hidráulico de 100x25 mm para cementar,pza,154.17,Catálogo Construbase P.U. actualizado $178.84 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-100x32,Reducción bushing PVC hidráulico de 100x32 mm para cementar,pza,163.01,Catálogo Construbase P.U. actualizado $189.09 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-100x38,Reducción bushing PVC hidráulico de 100x38 mm para cementar,pza,172.66,Catálogo Construbase P.U. actualizado $200.28 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-100x50,Reducción bushing PVC hidráulico de 100x50 mm para cementar,pza,193.56,Catálogo Construbase P.U. actualizado $224.53 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-19x13,Reducción bushing PVC hidráulico de 19x13 mm para cementar,pza,40.69,Catálogo Construbase P.U. actualizado $47.20 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-25x13,Reducción bushing PVC hidráulico de 25x13 mm para cementar,pza,45.41,Catálogo Construbase P.U. actualizado $52.67 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-25x19,Reducción bushing PVC hidráulico de 25x19 mm para cementar,pza,47.07,Catálogo Construbase P.U. actualizado $54.60 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-32x13,Reducción bushing PVC hidráulico de 32x13 mm para cementar,pza,50.82,Catálogo Construbase P.U. actualizado $58.95 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-32x19,Reducción bushing PVC hidráulico de 32x19 mm para cementar,pza,52.99,Catálogo Construbase P.U. actualizado $61.47 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-32x25,Reducción bushing PVC hidráulico de 32x25 mm para cementar,pza,54.66,Catálogo Construbase P.U. actualizado $63.40 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-38x13,Reducción bushing PVC hidráulico de 38x13 mm para cementar,pza,56.04,Catálogo Construbase P.U. actualizado $65.01 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-38x19,Reducción bushing PVC hidráulico de 38x19 mm para cementar,pza,58.52,Catálogo Construbase P.U. actualizado $67.88 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-38x25,Reducción bushing PVC hidráulico de 38x25 mm para cementar,pza,60.60,Catálogo Construbase P.U. actualizado $70.30 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-38x32,Reducción bushing PVC hidráulico de 38x32 mm para cementar,pza,62.87,Catálogo Construbase P.U. actualizado $72.93 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-50x13,Reducción bushing PVC hidráulico de 50x13 mm para cementar,pza,68.84,Catálogo Construbase P.U. actualizado $79.86 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-50x19,Reducción bushing PVC hidráulico de 50x19 mm para cementar,pza,72.91,Catálogo Construbase P.U. actualizado $84.58 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-50x25,Reducción bushing PVC hidráulico de 50x25 mm para cementar,pza,76.59,Catálogo Construbase P.U. actualizado $88.85 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-50x32,Reducción bushing PVC hidráulico de 50x32 mm para cementar,pza,80.78,Catálogo Construbase P.U. actualizado $93.70 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-50x38,Reducción bushing PVC hidráulico de 50x38 mm para cementar,pza,84.86,Catálogo Construbase P.U. actualizado $98.44 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-60x13,Reducción bushing PVC hidráulico de 60x13 mm para cementar,pza,79.72,Catálogo Construbase P.U. actualizado $92.47 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-60x19,Reducción bushing PVC hidráulico de 60x19 mm para cementar,pza,84.50,Catálogo Construbase P.U. actualizado $98.02 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-60x25,Reducción bushing PVC hidráulico de 60x25 mm para cementar,pza,88.81,Catálogo Construbase P.U. actualizado $103.02 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-60x32,Reducción bushing PVC hidráulico de 60x32 mm para cementar,pza,93.82,Catálogo Construbase P.U. actualizado $108.83 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-60x38,Reducción bushing PVC hidráulico de 60x38 mm para cementar,pza,99.01,Catálogo Construbase P.U. actualizado $114.85 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-75x19,Reducción bushing PVC hidráulico de 75x19 mm para cementar,pza,110.92,Catálogo Construbase P.U. actualizado $128.67 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-75x25,Reducción bushing PVC hidráulico de 75x25 mm para cementar,pza,116.46,Catálogo Construbase P.U. actualizado $135.09 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-75x32,Reducción bushing PVC hidráulico de 75x32 mm para cementar,pza,123.41,Catálogo Construbase P.U. actualizado $143.15 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-75x38,Reducción bushing PVC hidráulico de 75x38 mm para cementar,pza,130.34,Catálogo Construbase P.U. actualizado $151.20 con IVA,2026-09,referencia
+CONEX-HIDR-BUSH-75x50,Reducción bushing PVC hidráulico de 75x50 mm para cementar,pza,145.37,Catálogo Construbase P.U. actualizado $168.63 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-100x75,Reducción campana PVC hidráulico de 100x75 mm,pza,241.47,Catálogo Construbase P.U. actualizado $280.11 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-150x100,Reducción campana PVC hidráulico de 150x100 mm,pza,420.59,Catálogo Construbase P.U. actualizado $487.89 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-50x38,Reducción campana PVC hidráulico de 50x38 mm,pza,83.10,Catálogo Construbase P.U. actualizado $96.40 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-60x50,Reducción campana PVC hidráulico de 60x50 mm,pza,117.51,Catálogo Construbase P.U. actualizado $136.31 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-75x50,Reducción campana PVC hidráulico de 75x50 mm,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA,2026-09,referencia
+CONEX-HIDR-CAMP-75x60,Reducción campana PVC hidráulico de 75x60 mm,pza,184.53,Catálogo Construbase P.U. actualizado $214.05 con IVA,2026-09,referencia
+CONEX-HIDR-CODO45-100,Codo 45° PVC hidráulico de 100 mm para cementar,pza,245.64,Catálogo Construbase P.U. actualizado $284.94 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-13,Codo 45° PVC hidráulico de 13 mm para cementar,pza,44.74,Catálogo Construbase P.U. actualizado $51.90 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-19,Codo 45° PVC hidráulico de 19 mm para cementar,pza,49.03,Catálogo Construbase P.U. actualizado $56.88 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-25,Codo 45° PVC hidráulico de 25 mm para cementar,pza,62.06,Catálogo Construbase P.U. actualizado $71.99 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-32,Codo 45° PVC hidráulico de 32 mm para cementar,pza,76.42,Catálogo Construbase P.U. actualizado $88.65 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-38,Codo 45° PVC hidráulico de 38 mm para cementar,pza,83.10,Catálogo Construbase P.U. actualizado $96.40 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-50,Codo 45° PVC hidráulico de 50 mm para cementar,pza,106.71,Catálogo Construbase P.U. actualizado $123.78 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-60,Codo 45° PVC hidráulico de 60 mm para cementar,pza,123.63,Catálogo Construbase P.U. actualizado $143.41 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO45-75,Codo 45° PVC hidráulico de 75 mm para cementar,pza,186.09,Catálogo Construbase P.U. actualizado $215.86 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-100,Codo 90° PVC hidráulico de 100 mm para cementar,pza,220.05,Catálogo Construbase P.U. actualizado $255.26 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-13,Codo 90° PVC hidráulico de 13 mm para cementar,pza,40.24,Catálogo Construbase P.U. actualizado $46.68 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-150,Codo 90° PVC hidráulico de 150 mm para cementar,pza,396.11,Catálogo Construbase P.U. actualizado $459.49 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-19,Codo 90° PVC hidráulico de 19 mm para cementar,pza,44.74,Catálogo Construbase P.U. actualizado $51.90 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-200,Codo 90° PVC hidráulico de 200 mm para cementar,pza,588.79,Catálogo Construbase P.U. actualizado $683.00 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-25,Codo 90° PVC hidráulico de 25 mm para cementar,pza,55.14,Catálogo Construbase P.U. actualizado $63.96 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-32,Codo 90° PVC hidráulico de 32 mm para cementar,pza,68.21,Catálogo Construbase P.U. actualizado $79.12 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-38,Codo 90° PVC hidráulico de 38 mm para cementar,pza,74.46,Catálogo Construbase P.U. actualizado $86.37 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-50,Codo 90° PVC hidráulico de 50 mm para cementar,pza,95.65,Catálogo Construbase P.U. actualizado $110.95 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-60,Codo 90° PVC hidráulico de 60 mm para cementar,pza,110.92,Catálogo Construbase P.U. actualizado $128.67 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-CODO90-75,Codo 90° PVC hidráulico de 75 mm para cementar,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-COPLE-100,Cople PVC hidráulico de 100 mm para cementar,pza,170.84,Catálogo Construbase P.U. actualizado $198.17 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-13,Cople PVC hidráulico de 13 mm para cementar,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-19,Cople PVC hidráulico de 19 mm para cementar,pza,34.71,Catálogo Construbase P.U. actualizado $40.26 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-25,Cople PVC hidráulico de 25 mm para cementar,pza,42.72,Catálogo Construbase P.U. actualizado $49.55 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-32,Cople PVC hidráulico de 32 mm para cementar,pza,50.17,Catálogo Construbase P.U. actualizado $58.20 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-38,Cople PVC hidráulico de 38 mm para cementar,pza,56.15,Catálogo Construbase P.U. actualizado $65.13 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-50,Cople PVC hidráulico de 50 mm para cementar,pza,72.16,Catálogo Construbase P.U. actualizado $83.71 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-60,Cople PVC hidráulico de 60 mm para cementar,pza,85.66,Catálogo Construbase P.U. actualizado $99.36 con IVA,2026-09,referencia
+CONEX-HIDR-COPLE-75,Cople PVC hidráulico de 75 mm para cementar,pza,128.91,Catálogo Construbase P.U. actualizado $149.54 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-100,Cruz PVC hidráulico de 100 mm para cementar,pza,535.57,Catálogo Construbase P.U. actualizado $621.26 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-13,Cruz PVC hidráulico de 13 mm para cementar,pza,92.72,Catálogo Construbase P.U. actualizado $107.55 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-19,Cruz PVC hidráulico de 19 mm para cementar,pza,104.36,Catálogo Construbase P.U. actualizado $121.06 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-25,Cruz PVC hidráulico de 25 mm para cementar,pza,127.01,Catálogo Construbase P.U. actualizado $147.33 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-32,Cruz PVC hidráulico de 32 mm para cementar,pza,151.64,Catálogo Construbase P.U. actualizado $175.90 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-38,Cruz PVC hidráulico de 38 mm para cementar,pza,169.78,Catálogo Construbase P.U. actualizado $196.94 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-50,Cruz PVC hidráulico de 50 mm para cementar,pza,220.90,Catálogo Construbase P.U. actualizado $256.24 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-60,Cruz PVC hidráulico de 60 mm para cementar,pza,267.05,Catálogo Construbase P.U. actualizado $309.78 con IVA,2026-09,referencia
+CONEX-HIDR-CRUZ-75,Cruz PVC hidráulico de 75 mm para cementar,pza,400.82,Catálogo Construbase P.U. actualizado $464.95 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-100,Extremidad/pase de pared PVC hidráulico de 100 mm,pza,158.22,Catálogo Construbase P.U. actualizado $183.54 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-13,Extremidad/pase de pared PVC hidráulico de 13 mm,pza,28.24,Catálogo Construbase P.U. actualizado $32.76 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-150,Extremidad/pase de pared PVC hidráulico de 150 mm,pza,284.48,Catálogo Construbase P.U. actualizado $330.00 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-19,Extremidad/pase de pared PVC hidráulico de 19 mm,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-200,Extremidad/pase de pared PVC hidráulico de 200 mm,pza,422.41,Catálogo Construbase P.U. actualizado $490.00 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-25,Extremidad/pase de pared PVC hidráulico de 25 mm,pza,38.77,Catálogo Construbase P.U. actualizado $44.97 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-32,Extremidad/pase de pared PVC hidráulico de 32 mm,pza,45.67,Catálogo Construbase P.U. actualizado $52.98 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-38,Extremidad/pase de pared PVC hidráulico de 38 mm,pza,51.28,Catálogo Construbase P.U. actualizado $59.49 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-50,Extremidad/pase de pared PVC hidráulico de 50 mm,pza,66.29,Catálogo Construbase P.U. actualizado $76.90 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-60,Extremidad/pase de pared PVC hidráulico de 60 mm,pza,78.87,Catálogo Construbase P.U. actualizado $91.49 con IVA,2026-09,referencia
+CONEX-HIDR-EXTREM-75,Extremidad/pase de pared PVC hidráulico de 75 mm,pza,118.65,Catálogo Construbase P.U. actualizado $137.63 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-13x13,Niple roscado PVC hidráulico de 13x13 mm,pza,31.31,Catálogo Construbase P.U. actualizado $36.32 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-19x13,Niple roscado PVC hidráulico de 19x13 mm,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-19x19,Niple roscado PVC hidráulico de 19x19 mm,pza,35.16,Catálogo Construbase P.U. actualizado $40.78 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-25x19,Niple roscado PVC hidráulico de 25x19 mm,pza,34.71,Catálogo Construbase P.U. actualizado $40.26 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-25x25,Niple roscado PVC hidráulico de 25x25 mm,pza,43.37,Catálogo Construbase P.U. actualizado $50.31 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-32x25,Niple roscado PVC hidráulico de 32x25 mm,pza,39.65,Catálogo Construbase P.U. actualizado $45.99 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-32x32,Niple roscado PVC hidráulico de 32x32 mm,pza,51.28,Catálogo Construbase P.U. actualizado $59.49 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-38x32,Niple roscado PVC hidráulico de 38x32 mm,pza,47.07,Catálogo Construbase P.U. actualizado $54.60 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-38x38,Niple roscado PVC hidráulico de 38x38 mm,pza,57.59,Catálogo Construbase P.U. actualizado $66.80 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-50x38,Niple roscado PVC hidráulico de 50x38 mm,pza,55.84,Catálogo Construbase P.U. actualizado $64.77 con IVA,2026-09,referencia
+CONEX-HIDR-NIPLE-50x50,Niple roscado PVC hidráulico de 50x50 mm,pza,74.77,Catálogo Construbase P.U. actualizado $86.73 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-100,Tapón capa PVC hidráulico de 100 mm para cementar,pza,144.35,Catálogo Construbase P.U. actualizado $167.45 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-13,Tapón capa PVC hidráulico de 13 mm para cementar,pza,25.71,Catálogo Construbase P.U. actualizado $29.82 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-150,Tapón capa PVC hidráulico de 150 mm para cementar,pza,260.59,Catálogo Construbase P.U. actualizado $302.28 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-19,Tapón capa PVC hidráulico de 19 mm para cementar,pza,28.85,Catálogo Construbase P.U. actualizado $33.47 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-200,Tapón capa PVC hidráulico de 200 mm para cementar,pza,388.79,Catálogo Construbase P.U. actualizado $451.00 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-25,Tapón capa PVC hidráulico de 25 mm para cementar,pza,35.49,Catálogo Construbase P.U. actualizado $41.17 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-32,Tapón capa PVC hidráulico de 32 mm para cementar,pza,41.79,Catálogo Construbase P.U. actualizado $48.48 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-38,Tapón capa PVC hidráulico de 38 mm para cementar,pza,47.20,Catálogo Construbase P.U. actualizado $54.75 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-50,Tapón capa PVC hidráulico de 50 mm para cementar,pza,60.47,Catálogo Construbase P.U. actualizado $70.15 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-60,Tapón capa PVC hidráulico de 60 mm para cementar,pza,72.16,Catálogo Construbase P.U. actualizado $83.71 con IVA,2026-09,referencia
+CONEX-HIDR-TAPON-75,Tapón capa PVC hidráulico de 75 mm para cementar,pza,108.83,Catálogo Construbase P.U. actualizado $126.24 con IVA,2026-09,referencia
+CONEX-HIDR-TEE-100,Tee PVC hidráulico de 100 mm para cementar,pza,298.22,Catálogo Construbase P.U. actualizado $345.94 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-13,Tee PVC hidráulico de 13 mm para cementar,pza,56.45,Catálogo Construbase P.U. actualizado $65.48 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-150,Tee PVC hidráulico de 150 mm para cementar,pza,516.03,Catálogo Construbase P.U. actualizado $598.59 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-19,Tee PVC hidráulico de 19 mm para cementar,pza,63.20,Catálogo Construbase P.U. actualizado $73.31 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-200,Tee PVC hidráulico de 200 mm para cementar,pza,757.76,Catálogo Construbase P.U. actualizado $879.00 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-25,Tee PVC hidráulico de 25 mm para cementar,pza,77.80,Catálogo Construbase P.U. actualizado $90.25 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-32,Tee PVC hidráulico de 32 mm para cementar,pza,92.72,Catálogo Construbase P.U. actualizado $107.55 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-38,Tee PVC hidráulico de 38 mm para cementar,pza,103.97,Catálogo Construbase P.U. actualizado $120.61 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-50,Tee PVC hidráulico de 50 mm para cementar,pza,135.86,Catálogo Construbase P.U. actualizado $157.60 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-60,Tee PVC hidráulico de 60 mm para cementar,pza,161.57,Catálogo Construbase P.U. actualizado $187.42 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-TEE-75,Tee PVC hidráulico de 75 mm para cementar,pza,222.94,Catálogo Construbase P.U. actualizado $258.61 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
+CONEX-HIDR-UNION-13,Tuerca unión PVC hidráulico de 13 mm,pza,58.12,Catálogo Construbase P.U. actualizado $67.42 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-19,Tuerca unión PVC hidráulico de 19 mm,pza,64.52,Catálogo Construbase P.U. actualizado $74.84 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-25,Tuerca unión PVC hidráulico de 25 mm,pza,79.53,Catálogo Construbase P.U. actualizado $92.26 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-32,Tuerca unión PVC hidráulico de 32 mm,pza,93.66,Catálogo Construbase P.U. actualizado $108.65 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-38,Tuerca unión PVC hidráulico de 38 mm,pza,104.93,Catálogo Construbase P.U. actualizado $121.72 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-50,Tuerca unión PVC hidráulico de 50 mm,pza,135.86,Catálogo Construbase P.U. actualizado $157.60 con IVA,2026-09,referencia
+CONEX-HIDR-UNION-60,Tuerca unión PVC hidráulico de 60 mm,pza,162.48,Catálogo Construbase P.U. actualizado $188.48 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-100,Yee PVC hidráulico de 100 mm para cementar,pza,400.36,Catálogo Construbase P.U. actualizado $464.42 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-13,Yee PVC hidráulico de 13 mm para cementar,pza,68.84,Catálogo Construbase P.U. actualizado $79.86 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-150,Yee PVC hidráulico de 150 mm para cementar,pza,717.44,Catálogo Construbase P.U. actualizado $832.23 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-19,Yee PVC hidráulico de 19 mm para cementar,pza,77.26,Catálogo Construbase P.U. actualizado $89.62 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-200,Yee PVC hidráulico de 200 mm para cementar,pza,1063.79,Catálogo Construbase P.U. actualizado $1234.00 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-25,Yee PVC hidráulico de 25 mm para cementar,pza,95.00,Catálogo Construbase P.U. actualizado $110.20 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-32,Yee PVC hidráulico de 32 mm para cementar,pza,113.23,Catálogo Construbase P.U. actualizado $131.35 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-38,Yee PVC hidráulico de 38 mm para cementar,pza,126.41,Catálogo Construbase P.U. actualizado $146.63 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-50,Yee PVC hidráulico de 50 mm para cementar,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-60,Yee PVC hidráulico de 60 mm para cementar,pza,199.21,Catálogo Construbase P.U. actualizado $231.08 con IVA,2026-09,referencia
+CONEX-HIDR-YEE-75,Yee PVC hidráulico de 75 mm para cementar,pza,298.74,Catálogo Construbase P.U. actualizado $346.54 con IVA,2026-09,referencia
+COPLE-CU-10,Cople de cobre 10 mm,pza,8,Escala por diámetro,2026-09,referencia
+COPLE-CU-102,Cople de cobre 102 mm,pza,560,Escala por diámetro,2026-09,referencia
+COPLE-CU-16,Cople de cobre 16 mm,pza,15,Escala por diámetro,2026-09,referencia
+COPLE-CU-19,Cople de cobre 19 mm,pza,25,Escala por diámetro,2026-09,referencia
+COPLE-CU-25,Cople de cobre 25 mm,pza,42,Escala por diámetro,2026-09,referencia
+COPLE-CU-32,Cople de cobre 32 mm,pza,70,Escala por diámetro,2026-09,referencia
+COPLE-CU-38,Cople de cobre 38 mm,pza,100,Escala por diámetro,2026-09,referencia
+COPLE-CU-51,Cople de cobre 51 mm,pza,155,Escala por diámetro,2026-09,referencia
+COPLE-CU-6,Cople de cobre 6 mm,pza,6,Escala por diámetro,2026-09,referencia
+COPLE-CU-64,Cople de cobre 64 mm,pza,270,Escala por diámetro,2026-09,referencia
+COPLE-CU-75,Cople de cobre 75 mm,pza,370,Escala por diámetro,2026-09,referencia
+COPLE-CU-8,Cople de cobre 8 mm,pza,7,Escala por diámetro,2026-09,referencia
+COPLE-PVC-SAN-102,Cople PVC sanitario 102 mm para cementar,pza,82.98,Derivado de catálogo E11.05.0045 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-102-ANGER,Cople PVC sanitario 102 mm anger,pza,170.68,Derivado de catálogo E11.05.0050 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-150,Cople PVC sanitario 150 mm para cementar,pza,151.59,Derivado de catálogo E11.05.0046 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-150-ANGER,Cople PVC sanitario 150 mm anger,pza,360.58,Derivado de catálogo E11.05.0051 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-40,Cople PVC sanitario 40 mm para cementar,pza,48.62,Derivado de catálogo E11.05.0042 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-40-ANGER,Cople PVC sanitario 40 mm anger,pza,124.82,Derivado de catálogo E11.05.0047 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-50,Cople PVC sanitario 50 mm para cementar,pza,52.97,Derivado de catálogo E11.05.0043 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-50-ANGER,Cople PVC sanitario 50 mm anger,pza,149.50,Derivado de catálogo E11.05.0048 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-75,Cople PVC sanitario 75 mm para cementar,pza,68.91,Derivado de catálogo E11.05.0044 (material ≈85% del P.U.),2026-09,derivado del catálogo
+COPLE-PVC-SAN-75-ANGER,Cople PVC sanitario 75 mm anger,pza,231.80,Derivado de catálogo E11.05.0049 (material ≈85% del P.U.),2026-09,derivado del catálogo
+CRUZ-CU-13,Cruz de cobre 13 mm,pza,32,Escala por diámetro,2026-09,referencia
+CRUZ-CU-19,Cruz de cobre 19 mm,pza,75,Escala por diámetro,2026-09,referencia
+CRUZ-CU-25,Cruz de cobre 25 mm,pza,130,Escala por diámetro,2026-09,referencia
+CRUZ-CU-32,Cruz de cobre 32 mm,pza,220,Escala por diámetro,2026-09,referencia
+CRUZ-CU-38,Cruz de cobre 38 mm,pza,340,Escala por diámetro,2026-09,referencia
+CRUZ-CU-51,Cruz de cobre 51 mm,pza,540,Escala por diámetro,2026-09,referencia
+ESTOPA-10,"Estopa para calafateo 10""",kg,48.0,Referencia mercado 2026,2026-09,referencia
+ESTOPA-2,"Estopa para calafateo 2""",kg,48.0,Referencia mercado 2026,2026-09,referencia
+ESTOPA-4,"Estopa para calafateo 4""",kg,48.0,Referencia mercado 2026,2026-09,referencia
+ESTOPA-6,"Estopa para calafateo 6""",kg,48.0,Referencia mercado 2026,2026-09,referencia
+ESTOPA-8,"Estopa para calafateo 8""",kg,48.0,Referencia mercado 2026,2026-09,referencia
+"ESTOPA-JNT-10""","Estopa para calafateo de junta campana de tubo 10""",kg,45.0,Estimado (por validar con distribuidor),2026-09,referencia
+"ESTOPA-JNT-2""","Estopa para calafateo de junta campana de tubo 2""",kg,45.0,Estimado (por validar con distribuidor),2026-09,referencia
+"ESTOPA-JNT-4""","Estopa para calafateo de junta campana de tubo 4""",kg,45.0,Estimado (por validar con distribuidor),2026-09,referencia
+"ESTOPA-JNT-6""","Estopa para calafateo de junta campana de tubo 6""",kg,45.0,Estimado (por validar con distribuidor),2026-09,referencia
+"ESTOPA-JNT-8""","Estopa para calafateo de junta campana de tubo 8""",kg,45.0,Estimado (por validar con distribuidor),2026-09,referencia
+"FF-CASQUILLO-10""","Casquillo de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-CASQUILLO-2""","Casquillo de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-CASQUILLO-4""","Casquillo de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-CASQUILLO-6""","Casquillo de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-CASQUILLO-8""","Casquillo de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CASX-10,"CASX Fo.Fo. campana 10"" (254mm) Tisa",pza,3500.0,Estimación catálogo (por validar),2026-09,referencia
+FF-CASX-2,"CASX Fo.Fo. campana 2"" (51mm) Tisa",pza,400.0,Estimación catálogo (por validar),2026-09,referencia
+FF-CASX-4,"CASX Fo.Fo. campana 4"" (102mm) Tisa",pza,800.0,Estimación catálogo (por validar),2026-09,referencia
+FF-CASX-6,"CASX Fo.Fo. campana 6"" (152mm) Tisa",pza,1400.0,Estimación catálogo (por validar),2026-09,referencia
+FF-CASX-8,"CASX Fo.Fo. campana 8"" (202mm) Tisa",pza,2300.0,Estimación catálogo (por validar),2026-09,referencia
+FF-CODO-10,"CODO Fo.Fo. campana 10"" (254mm) Tisa",pza,3500.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CODO-10""","Codo de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CODO-2,"CODO Fo.Fo. campana 2"" (51mm) Tisa",pza,400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CODO-2""","Codo de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CODO-4,"CODO Fo.Fo. campana 4"" (102mm) Tisa",pza,800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CODO-4""","Codo de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CODO-6,"CODO Fo.Fo. campana 6"" (152mm) Tisa",pza,1400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CODO-6""","Codo de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CODO-8,"CODO Fo.Fo. campana 8"" (202mm) Tisa",pza,2300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CODO-8""","Codo de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-10,"COPLE Fo.Fo. campana 10"" (254mm) Tisa",pza,3500.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-COPLE-10""","Cople de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-2,"COPLE Fo.Fo. campana 2"" (51mm) Tisa",pza,400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-COPLE-2""","Cople de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-4,"COPLE Fo.Fo. campana 4"" (102mm) Tisa",pza,800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-COPLE-4""","Cople de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-6,"COPLE Fo.Fo. campana 6"" (152mm) Tisa",pza,1400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-COPLE-6""","Cople de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-8,"COPLE Fo.Fo. campana 8"" (202mm) Tisa",pza,2300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-COPLE-8""","Cople de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-TAR-10,"Cople TAR 10"" (254mm) Tisa",pza,1283.83,Catálogo Construbase,2026-09,validado con rango de mercado
+"FF-COPLE-TAR-10""","Cople para tubo Tisa-TAR de 10"" diámetro",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-TAR-2,"Cople TAR 2"" (51mm) Tisa",pza,177.62,Catálogo Construbase,2026-09,validado con rango de mercado
+"FF-COPLE-TAR-2""","Cople para tubo Tisa-TAR de 2"" diámetro",pza,80.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-TAR-4,"Cople TAR 4"" (102mm) Tisa",pza,241.41,Catálogo Construbase,2026-09,validado con rango de mercado
+"FF-COPLE-TAR-4""","Cople para tubo Tisa-TAR de 4"" diámetro",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-TAR-6,"Cople TAR 6"" (152mm) Tisa",pza,509.96,Catálogo Construbase,2026-09,validado con rango de mercado
+"FF-COPLE-TAR-6""","Cople para tubo Tisa-TAR de 6"" diámetro",pza,250.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-COPLE-TAR-8,"Cople TAR 8"" (202mm) Tisa",pza,909.81,Catálogo Construbase,2026-09,validado con rango de mercado
+"FF-COPLE-TAR-8""","Cople para tubo Tisa-TAR de 8"" diámetro",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CRUZ-10,"CRUZ Fo.Fo. campana 10"" (254mm) Tisa",pza,5250.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CRUZ-10""","Cruz de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CRUZ-2,"CRUZ Fo.Fo. campana 2"" (51mm) Tisa",pza,600.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CRUZ-2""","Cruz de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CRUZ-4,"CRUZ Fo.Fo. campana 4"" (102mm) Tisa",pza,1200.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CRUZ-4""","Cruz de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CRUZ-6,"CRUZ Fo.Fo. campana 6"" (152mm) Tisa",pza,2100.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CRUZ-6""","Cruz de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-CRUZ-8,"CRUZ Fo.Fo. campana 8"" (202mm) Tisa",pza,3450.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-CRUZ-8""","Cruz de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-REDUC-10,"REDUC Fo.Fo. campana 10"" (254mm) Tisa",pza,3150.0,Estimación catálogo (por validar),2026-09,referencia
+FF-REDUC-2,"REDUC Fo.Fo. campana 2"" (51mm) Tisa",pza,360.0,Estimación catálogo (por validar),2026-09,referencia
+FF-REDUC-4,"REDUC Fo.Fo. campana 4"" (102mm) Tisa",pza,720.0,Estimación catálogo (por validar),2026-09,referencia
+FF-REDUC-6,"REDUC Fo.Fo. campana 6"" (152mm) Tisa",pza,1260.0,Estimación catálogo (por validar),2026-09,referencia
+FF-REDUC-8,"REDUC Fo.Fo. campana 8"" (202mm) Tisa",pza,2070.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-REDUCCIÓN-10""","Reducción de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-REDUCCIÓN-2""","Reducción de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-REDUCCIÓN-4""","Reducción de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-REDUCCIÓN-6""","Reducción de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-REDUCCIÓN-8""","Reducción de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-SALIDA-10,"SALIDA Fo.Fo. campana 10"" (254mm) Tisa",pza,3150.0,Estimación catálogo (por validar),2026-09,referencia
+FF-SALIDA-2,"SALIDA Fo.Fo. campana 2"" (51mm) Tisa",pza,360.0,Estimación catálogo (por validar),2026-09,referencia
+FF-SALIDA-4,"SALIDA Fo.Fo. campana 4"" (102mm) Tisa",pza,720.0,Estimación catálogo (por validar),2026-09,referencia
+FF-SALIDA-6,"SALIDA Fo.Fo. campana 6"" (152mm) Tisa",pza,1260.0,Estimación catálogo (por validar),2026-09,referencia
+FF-SALIDA-8,"SALIDA Fo.Fo. campana 8"" (202mm) Tisa",pza,2070.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAPON-10,"TAPON Fo.Fo. campana 10"" (254mm) Tisa",pza,3150.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAPON-2,"TAPON Fo.Fo. campana 2"" (51mm) Tisa",pza,360.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAPON-4,"TAPON Fo.Fo. campana 4"" (102mm) Tisa",pza,720.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAPON-6,"TAPON Fo.Fo. campana 6"" (152mm) Tisa",pza,1260.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAPON-8,"TAPON Fo.Fo. campana 8"" (202mm) Tisa",pza,2070.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CASQUILLO-10""","Casquillo de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-CASQUILLO-2""","Casquillo de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-CASQUILLO-4""","Casquillo de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-CASQUILLO-6""","Casquillo de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-CASQUILLO-8""","Casquillo de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CASX-10,"CASX Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2700.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-CASX-2,"CASX Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,300.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-CASX-4,"CASX Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,600.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-CASX-6,"CASX Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1100.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-CASX-8,"CASX Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1800.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-CODO-10,"CODO Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2700.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CODO-10""","Codo de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CODO-2,"CODO Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CODO-2""","Codo de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CODO-4,"CODO Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,600.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CODO-4""","Codo de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CODO-6,"CODO Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1100.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CODO-6""","Codo de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CODO-8,"CODO Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CODO-8""","Codo de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-COPLE-10,"COPLE Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2700.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-COPLE-10""","Cople de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-COPLE-2,"COPLE Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-COPLE-2""","Cople de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-COPLE-4,"COPLE Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,600.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-COPLE-4""","Cople de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-COPLE-6,"COPLE Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1100.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-COPLE-6""","Cople de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-COPLE-8,"COPLE Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-COPLE-8""","Cople de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CRUZ-10,"CRUZ Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,4050.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CRUZ-10""","Cruz de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CRUZ-2,"CRUZ Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,450.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CRUZ-2""","Cruz de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CRUZ-4,"CRUZ Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,900.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CRUZ-4""","Cruz de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CRUZ-6,"CRUZ Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1650.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CRUZ-6""","Cruz de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-CRUZ-8,"CRUZ Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,2700.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-CRUZ-8""","Cruz de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-REDUC-10,"REDUC Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2430.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-REDUC-2,"REDUC Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,270.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-REDUC-4,"REDUC Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,540.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-REDUC-6,"REDUC Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,990.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-REDUC-8,"REDUC Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1620.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-REDUCCIÓN-10""","Reducción de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-REDUCCIÓN-2""","Reducción de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-REDUCCIÓN-4""","Reducción de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-REDUCCIÓN-6""","Reducción de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+"FF-TAR-REDUCCIÓN-8""","Reducción de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-SALIDA-10,"SALIDA Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2430.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-SALIDA-2,"SALIDA Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,270.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-SALIDA-4,"SALIDA Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,540.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-SALIDA-6,"SALIDA Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,990.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-SALIDA-8,"SALIDA Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1620.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TAPON-10,"TAPON Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2430.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TAPON-2,"TAPON Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,270.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TAPON-4,"TAPON Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,540.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TAPON-6,"TAPON Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,990.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TAPON-8,"TAPON Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1620.0,Estimación catálogo (por validar),2026-09,referencia
+FF-TAR-TEE-10,"TEE Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,3240.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TEE-10""","Tee de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TEE-2,"TEE Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,360.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TEE-2""","Tee de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TEE-4,"TEE Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,720.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TEE-4""","Tee de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TEE-6,"TEE Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1320.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TEE-6""","Tee de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TEE-8,"TEE Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,2160.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TEE-8""","Tee de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TRAMPA-10,"TRAMPA Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,2700.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TRAMPA-10""","Trampa de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TRAMPA-2,"TRAMPA Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TRAMPA-2""","Trampa de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TRAMPA-4,"TRAMPA Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,600.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TRAMPA-4""","Trampa de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TRAMPA-6,"TRAMPA Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1100.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TRAMPA-6""","Trampa de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-TRAMPA-8,"TRAMPA Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,1800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-TRAMPA-8""","Trampa de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-YEE-10,"YEE Fo.Fo. TAR 10"" (254mm) Tisa-TAR",pza,3779.9999999999995,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-YEE-10""","Yee de fierro fundido 10"" marca Tisa-TAR (tar type)",pza,1500.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-YEE-2,"YEE Fo.Fo. TAR 2"" (51mm) Tisa-TAR",pza,420.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-YEE-2""","Yee de fierro fundido 2"" marca Tisa-TAR (tar type)",pza,150.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-YEE-4,"YEE Fo.Fo. TAR 4"" (102mm) Tisa-TAR",pza,840.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-YEE-4""","Yee de fierro fundido 4"" marca Tisa-TAR (tar type)",pza,300.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-YEE-6,"YEE Fo.Fo. TAR 6"" (152mm) Tisa-TAR",pza,1540.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-YEE-6""","Yee de fierro fundido 6"" marca Tisa-TAR (tar type)",pza,600.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TAR-YEE-8,"YEE Fo.Fo. TAR 8"" (202mm) Tisa-TAR",pza,2520.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TAR-YEE-8""","Yee de fierro fundido 8"" marca Tisa-TAR (tar type)",pza,1000.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TEE-10,"TEE Fo.Fo. campana 10"" (254mm) Tisa",pza,4200.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TEE-10""","Tee de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TEE-2,"TEE Fo.Fo. campana 2"" (51mm) Tisa",pza,480.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TEE-2""","Tee de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TEE-4,"TEE Fo.Fo. campana 4"" (102mm) Tisa",pza,960.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TEE-4""","Tee de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TEE-6,"TEE Fo.Fo. campana 6"" (152mm) Tisa",pza,1680.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TEE-6""","Tee de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TEE-8,"TEE Fo.Fo. campana 8"" (202mm) Tisa",pza,2760.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TEE-8""","Tee de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TRAMPA-10,"TRAMPA Fo.Fo. campana 10"" (254mm) Tisa",pza,3500.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TRAMPA-10""","Trampa de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TRAMPA-2,"TRAMPA Fo.Fo. campana 2"" (51mm) Tisa",pza,400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TRAMPA-2""","Trampa de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TRAMPA-4,"TRAMPA Fo.Fo. campana 4"" (102mm) Tisa",pza,800.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TRAMPA-4""","Trampa de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TRAMPA-6,"TRAMPA Fo.Fo. campana 6"" (152mm) Tisa",pza,1400.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TRAMPA-6""","Trampa de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TRAMPA-8,"TRAMPA Fo.Fo. campana 8"" (202mm) Tisa",pza,2300.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-TRAMPA-8""","Trampa de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-TUBO-10,"Tubo Fo.Fo. campana 10"" (254mm) Tisa, por metro",m,4195.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-10""","Tubo de fierro fundido 10"" diámetro marca Tisa campana, por metro",m,1800.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-2,"Tubo Fo.Fo. campana 2"" (51mm) Tisa, por metro",m,820.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-2""","Tubo de fierro fundido 2"" diámetro marca Tisa campana, por metro",m,500.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-4,"Tubo Fo.Fo. campana 4"" (102mm) Tisa, por metro",m,1155.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-4""","Tubo de fierro fundido 4"" diámetro marca Tisa campana, por metro",m,700.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-6,"Tubo Fo.Fo. campana 6"" (152mm) Tisa, por metro",m,2050.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-6""","Tubo de fierro fundido 6"" diámetro marca Tisa campana, por metro",m,1000.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-8,"Tubo Fo.Fo. campana 8"" (202mm) Tisa, por metro",m,2925.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-8""","Tubo de fierro fundido 8"" diámetro marca Tisa campana, por metro",m,1400.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-TAR-10,"Tubo Fo.Fo. TAR 10"" (254mm) Tisa-TAR, por metro",m,3065.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-TAR-10""","Tubo de fierro fundido 10"" diámetro marca Tisa-TAR (tar type), por metro",m,1500.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-TAR-2,"Tubo Fo.Fo. TAR 2"" (51mm) Tisa-TAR, por metro",m,572.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-TAR-2""","Tubo de fierro fundido 2"" diámetro marca Tisa-TAR (tar type), por metro",m,400.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-TAR-4,"Tubo Fo.Fo. TAR 4"" (102mm) Tisa-TAR, por metro",m,850.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-TAR-4""","Tubo de fierro fundido 4"" diámetro marca Tisa-TAR (tar type), por metro",m,550.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-TAR-6,"Tubo Fo.Fo. TAR 6"" (152mm) Tisa-TAR, por metro",m,1340.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-TAR-6""","Tubo de fierro fundido 6"" diámetro marca Tisa-TAR (tar type), por metro",m,800.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-TUBO-TAR-8,"Tubo Fo.Fo. TAR 8"" (202mm) Tisa-TAR, por metro",m,1920.0,Catálogo Construbase escalado a metro,2026-09,derivado del catálogo
+"FF-TUBO-TAR-8""","Tubo de fierro fundido 8"" diámetro marca Tisa-TAR (tar type), por metro",m,1100.0,Estimado por escala del catálogo (por validar),2026-09,referencia
+FF-YEE-10,"YEE Fo.Fo. campana 10"" (254mm) Tisa",pza,4900.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-YEE-10""","Yee de fierro fundido 10"" marca Tisa (campana)",pza,1800.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-YEE-2,"YEE Fo.Fo. campana 2"" (51mm) Tisa",pza,560.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-YEE-2""","Yee de fierro fundido 2"" marca Tisa (campana)",pza,200.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-YEE-4,"YEE Fo.Fo. campana 4"" (102mm) Tisa",pza,1120.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-YEE-4""","Yee de fierro fundido 4"" marca Tisa (campana)",pza,400.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-YEE-6,"YEE Fo.Fo. campana 6"" (152mm) Tisa",pza,1959.9999999999998,Estimación catálogo (por validar),2026-09,referencia
+"FF-YEE-6""","Yee de fierro fundido 6"" marca Tisa (campana)",pza,700.0,Estimado por catálogo (por validar),2026-09,referencia
+FF-YEE-8,"YEE Fo.Fo. campana 8"" (202mm) Tisa",pza,3220.0,Estimación catálogo (por validar),2026-09,referencia
+"FF-YEE-8""","Yee de fierro fundido 8"" marca Tisa (campana)",pza,1200.0,Estimado por catálogo (por validar),2026-09,referencia
+FG-ABRAZ-100,Abrazadera tipo uña/omega galvanizada para tubo de acero de 100 mm con taquete y pija,pza,33.60,Basado en FN-ABRAZ-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-13,Abrazadera tipo uña/omega galvanizada para tubo de acero de 13 mm con taquete y pija,pza,6.00,Basado en FN-ABRAZ-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-19,Abrazadera tipo uña/omega galvanizada para tubo de acero de 19 mm con taquete y pija,pza,7.91,Basado en FN-ABRAZ-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-25,Abrazadera tipo uña/omega galvanizada para tubo de acero de 25 mm con taquete y pija,pza,9.80,Basado en FN-ABRAZ-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-32,Abrazadera tipo uña/omega galvanizada para tubo de acero de 32 mm con taquete y pija,pza,12.02,Basado en FN-ABRAZ-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-38,Abrazadera tipo uña/omega galvanizada para tubo de acero de 38 mm con taquete y pija,pza,13.93,Basado en FN-ABRAZ-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-51,Abrazadera tipo uña/omega galvanizada para tubo de acero de 51 mm con taquete y pija,pza,18.06,Basado en FN-ABRAZ-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-64,Abrazadera tipo uña/omega galvanizada para tubo de acero de 64 mm con taquete y pija,pza,22.18,Basado en FN-ABRAZ-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-ABRAZ-75,Abrazadera tipo uña/omega galvanizada para tubo de acero de 75 mm con taquete y pija,pza,25.67,Basado en FN-ABRAZ-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x25,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 25 mm",pza,326.70,Basado en FN-BUSH-100x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x32,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 32 mm",pza,333.74,Basado en FN-BUSH-100x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x38,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 38 mm",pza,339.77,Basado en FN-BUSH-100x38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x51,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 51 mm",pza,352.85,Basado en FN-BUSH-100x51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x64,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 64 mm",pza,365.92,Basado en FN-BUSH-100x64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-100x75,"Reducción bushing de hierro maleable galvanizado roscada, 100 x 75 mm",pza,376.97,Basado en FN-BUSH-100x75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-13x10,"Reducción bushing de hierro maleable galvanizado roscada, 13 x 10 mm",pza,10.09,Basado en FN-BUSH-13x10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-19x10,"Reducción bushing de hierro maleable galvanizado roscada, 19 x 10 mm",pza,10.73,Basado en FN-BUSH-19x10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-19x13,"Reducción bushing de hierro maleable galvanizado roscada, 19 x 13 mm",pza,11.21,Basado en FN-BUSH-19x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-25x13,"Reducción bushing de hierro maleable galvanizado roscada, 25 x 13 mm",pza,19.51,Basado en FN-BUSH-25x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-25x19,"Reducción bushing de hierro maleable galvanizado roscada, 25 x 19 mm",pza,20.84,Basado en FN-BUSH-25x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-32x13,"Reducción bushing de hierro maleable galvanizado roscada, 32 x 13 mm",pza,30.66,Basado en FN-BUSH-32x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-32x19,"Reducción bushing de hierro maleable galvanizado roscada, 32 x 19 mm",pza,32.34,Basado en FN-BUSH-32x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-32x25,"Reducción bushing de hierro maleable galvanizado roscada, 32 x 25 mm",pza,34.03,Basado en FN-BUSH-32x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-38x13,"Reducción bushing de hierro maleable galvanizado roscada, 38 x 13 mm",pza,44.62,Basado en FN-BUSH-38x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-38x19,"Reducción bushing de hierro maleable galvanizado roscada, 38 x 19 mm",pza,46.72,Basado en FN-BUSH-38x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-38x25,"Reducción bushing de hierro maleable galvanizado roscada, 38 x 25 mm",pza,48.83,Basado en FN-BUSH-38x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-38x32,"Reducción bushing de hierro maleable galvanizado roscada, 38 x 32 mm",pza,51.29,Basado en FN-BUSH-38x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-51x13,"Reducción bushing de hierro maleable galvanizado roscada, 51 x 13 mm",pza,74.24,Basado en FN-BUSH-51x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-51x19,"Reducción bushing de hierro maleable galvanizado roscada, 51 x 19 mm",pza,76.92,Basado en FN-BUSH-51x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-51x25,"Reducción bushing de hierro maleable galvanizado roscada, 51 x 25 mm",pza,79.61,Basado en FN-BUSH-51x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-51x32,"Reducción bushing de hierro maleable galvanizado roscada, 51 x 32 mm",pza,82.74,Basado en FN-BUSH-51x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-51x38,"Reducción bushing de hierro maleable galvanizado roscada, 51 x 38 mm",pza,85.42,Basado en FN-BUSH-51x38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-64x25,"Reducción bushing de hierro maleable galvanizado roscada, 64 x 25 mm",pza,142.37,Basado en FN-BUSH-64x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-64x32,"Reducción bushing de hierro maleable galvanizado roscada, 64 x 32 mm",pza,146.96,Basado en FN-BUSH-64x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-64x38,"Reducción bushing de hierro maleable galvanizado roscada, 64 x 38 mm",pza,150.90,Basado en FN-BUSH-64x38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-64x51,"Reducción bushing de hierro maleable galvanizado roscada, 64 x 51 mm",pza,159.43,Basado en FN-BUSH-64x51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-75x25,"Reducción bushing de hierro maleable galvanizado roscada, 75 x 25 mm",pza,232.51,Basado en FN-BUSH-75x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-75x32,"Reducción bushing de hierro maleable galvanizado roscada, 75 x 32 mm",pza,239.03,Basado en FN-BUSH-75x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-75x38,"Reducción bushing de hierro maleable galvanizado roscada, 75 x 38 mm",pza,244.61,Basado en FN-BUSH-75x38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-75x51,"Reducción bushing de hierro maleable galvanizado roscada, 75 x 51 mm",pza,256.70,Basado en FN-BUSH-75x51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-BUSH-75x64,"Reducción bushing de hierro maleable galvanizado roscada, 75 x 64 mm",pza,268.79,Basado en FN-BUSH-75x64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-100x75,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 100 x 75 mm",pza,429.29,Basado en FN-CAMP-100x75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-13x10,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 13 x 10 mm",pza,13.09,Basado en FN-CAMP-13x10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-19x10,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 19 x 10 mm",pza,14.46,Basado en FN-CAMP-19x10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-19x13,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 19 x 13 mm",pza,13.42,Basado en FN-CAMP-19x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-25x13,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 25 x 13 mm",pza,22.80,Basado en FN-CAMP-25x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-25x19,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 25 x 19 mm",pza,23.08,Basado en FN-CAMP-25x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-32x13,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 32 x 13 mm",pza,35.76,Basado en FN-CAMP-32x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-32x19,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 32 x 19 mm",pza,36.04,Basado en FN-CAMP-32x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-32x25,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 32 x 25 mm",pza,37.91,Basado en FN-CAMP-32x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-38x13,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 38 x 13 mm",pza,52.07,Basado en FN-CAMP-38x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-38x19,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 38 x 19 mm",pza,52.34,Basado en FN-CAMP-38x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-38x25,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 38 x 25 mm",pza,54.22,Basado en FN-CAMP-38x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-38x32,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 38 x 32 mm",pza,56.81,Basado en FN-CAMP-38x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-51x13,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 51 x 13 mm",pza,87.54,Basado en FN-CAMP-51x13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-51x19,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 51 x 19 mm",pza,87.82,Basado en FN-CAMP-51x19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-51x25,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 51 x 25 mm",pza,89.69,Basado en FN-CAMP-51x25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-51x32,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 51 x 32 mm",pza,92.28,Basado en FN-CAMP-51x32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-51x38,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 51 x 38 mm",pza,95.54,Basado en FN-CAMP-51x38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-64x51,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 64 x 51 mm",pza,174.56,Basado en FN-CAMP-64x51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-75x51,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 75 x 51 mm",pza,278.69,Basado en FN-CAMP-75x51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CAMP-75x64,"Reducción campana (cople reducción) de hierro maleable galvanizado roscada, 75 x 64 mm",pza,293.08,Basado en FN-CAMP-75x64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO-NIPLE-13,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 13 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-NIPLE-19,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 19 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-NIPLE-25,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 25 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-NIPLE-32,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 32 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-NIPLE-38,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 38 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-NIPLE-51,"Codo niple 90° de acero galvanizado, cédula 40, clase 150, 51 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-RINCON-13,"Codo rincón de acero galvanizado, cédula 40, clase 150, 13 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-RINCON-19,"Codo rincón de acero galvanizado, cédula 40, clase 150, 19 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO-RINCON-25,"Codo rincón de acero galvanizado, cédula 40, clase 150, 25 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-CODO45-100,"Codo 45° de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,600.74,Basado en FN-CODO45-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-13,"Codo 45° de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,16.07,Basado en FN-CODO45-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-19,"Codo 45° de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,18.25,Basado en FN-CODO45-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-25,"Codo 45° de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,33.26,Basado en FN-CODO45-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-32,"Codo 45° de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,60.56,Basado en FN-CODO45-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-38,"Codo 45° de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,77.36,Basado en FN-CODO45-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-51,"Codo 45° de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,136.85,Basado en FN-CODO45-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-64,"Codo 45° de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,244.60,Basado en FN-CODO45-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO45-75,"Codo 45° de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,418.54,Basado en FN-CODO45-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-100,"Codo 90° de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,502.62,Basado en FN-CODO90-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-13,"Codo 90° de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,13.39,Basado en FN-CODO90-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-19,"Codo 90° de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,15.20,Basado en FN-CODO90-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-25,"Codo 90° de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,27.72,Basado en FN-CODO90-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-32,"Codo 90° de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,45.00,Basado en FN-CODO90-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-38,"Codo 90° de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,66.74,Basado en FN-CODO90-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-51,"Codo 90° de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,114.04,Basado en FN-CODO90-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-64,"Codo 90° de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,209.95,Basado en FN-CODO90-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CODO90-75,"Codo 90° de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,348.78,Basado en FN-CODO90-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-10,"Cople de hierro maleable galvanizado roscado clase 150, 10 mm (3/8 in)",pza,10.16,Basado en FN-COPLE-10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-100,"Cople de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,251.32,Basado en FN-COPLE-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-13,"Cople de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,6.70,Basado en FN-COPLE-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-19,"Cople de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,7.61,Basado en FN-COPLE-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-25,"Cople de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,13.86,Basado en FN-COPLE-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-32,"Cople de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,22.50,Basado en FN-COPLE-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-38,"Cople de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,33.37,Basado en FN-COPLE-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-51,"Cople de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,57.02,Basado en FN-COPLE-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-64,"Cople de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,104.98,Basado en FN-COPLE-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-COPLE-75,"Cople de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,174.38,Basado en FN-COPLE-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-100,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,1306.82,Basado en FN-CRUZ-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-13,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,34.82,Basado en FN-CRUZ-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-19,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,39.54,Basado en FN-CRUZ-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-25,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,72.08,Basado en FN-CRUZ-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-32,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,117.00,Basado en FN-CRUZ-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-38,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,173.53,Basado en FN-CRUZ-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-51,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,296.51,Basado en FN-CRUZ-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-64,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,545.87,Basado en FN-CRUZ-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-CRUZ-75,"Cruz Cifunsa de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,906.82,Basado en FN-CRUZ-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-NIPLE-10,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-100,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-100x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-100x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-100x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-100x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-100x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-100x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 100 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x38,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 38 mm",pza,13.30,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-10x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 10 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-13x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x38,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 38 mm",pza,13.30,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-13x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 13 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-19x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x38,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 38 mm",pza,13.30,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-19x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 19 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-25x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-25x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 25 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-32x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-32x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 32 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-38x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x51,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 51 mm",pza,17.85,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-38x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 38 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-51x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x64,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 64 mm",pza,22.40,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-51x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 51 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-64x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-64x75,"Niple cuerda corrida de acero galvanizado, cédula 40, 64 mm Ø × 75 mm",pza,26.25,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm, 10 cm",pza,0.00,Estimación por diámetro; requiere cotización,2026-09,referencia
+FG-NIPLE-75x100,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 100 mm",pza,35.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75x125,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 125 mm",pza,43.75,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75x150,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 150 mm",pza,52.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75x200,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 200 mm",pza,70.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75x250,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 250 mm",pza,87.50,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-NIPLE-75x300,"Niple cuerda corrida de acero galvanizado, cédula 40, 75 mm Ø × 300 mm",pza,105.00,Estimación por longitud (base 10cm ~$35); requiere cotización,2026-09,referencia
+FG-TAPH-10,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 10 mm (3/8 in)",pza,13.22,Basado en FN-TAPH-10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-100,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,326.70,Basado en FN-TAPH-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-13,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,8.70,Basado en FN-TAPH-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-19,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,9.89,Basado en FN-TAPH-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-25,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,18.02,Basado en FN-TAPH-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-32,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,29.26,Basado en FN-TAPH-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-38,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,43.38,Basado en FN-TAPH-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-51,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,74.12,Basado en FN-TAPH-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-64,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,136.46,Basado en FN-TAPH-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPH-75,"Tapón hembra (capa) de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,226.70,Basado en FN-TAPH-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-10,"Tapón macho de hierro maleable galvanizado roscado clase 150, 10 mm (3/8 in)",pza,10.16,Basado en FN-TAPM-10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-100,"Tapón macho de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,251.32,Basado en FN-TAPM-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-13,"Tapón macho de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,6.70,Basado en FN-TAPM-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-19,"Tapón macho de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,7.61,Basado en FN-TAPM-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-25,"Tapón macho de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,13.86,Basado en FN-TAPM-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-32,"Tapón macho de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,22.50,Basado en FN-TAPM-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-38,"Tapón macho de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,33.37,Basado en FN-TAPM-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-51,"Tapón macho de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,57.02,Basado en FN-TAPM-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-64,"Tapón macho de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,104.98,Basado en FN-TAPM-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TAPM-75,"Tapón macho de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,174.38,Basado en FN-TAPM-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-10,"Tee de hierro maleable galvanizado roscado clase 150, 10 mm (3/8 in)",pza,28.48,Basado en FN-TEE-10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-100,"Tee de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,703.67,Basado en FN-TEE-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-13,"Tee de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,18.76,Basado en FN-TEE-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-19,"Tee de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,21.29,Basado en FN-TEE-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-25,"Tee de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,38.81,Basado en FN-TEE-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-32,"Tee de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,63.00,Basado en FN-TEE-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-38,"Tee de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,93.44,Basado en FN-TEE-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-51,"Tee de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,159.66,Basado en FN-TEE-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-64,"Tee de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,293.93,Basado en FN-TEE-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TEE-75,"Tee de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,488.29,Basado en FN-TEE-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-10,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 10 mm (3/8 in)",pza,50.84,Basado en FN-TU-10 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-100,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,1256.56,Basado en FN-TU-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-13,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,33.48,Basado en FN-TU-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-19,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,38.02,Basado en FN-TU-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-25,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,69.31,Basado en FN-TU-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-32,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,112.50,Basado en FN-TU-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-38,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,166.86,Basado en FN-TU-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-51,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,285.11,Basado en FN-TU-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-64,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,524.88,Basado en FN-TU-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TU-75,"Tuerca unión de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,871.94,Basado en FN-TU-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-100,"Tubo de acero galvanizado ced. 40 A-53 con costura, 100 mm (4 in), tramo 6.40 m",m,858.14,Basado en FN-TUBO-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-13,"Tubo de acero galvanizado ced. 40 A-53 con costura, roscado con cople, 13 mm (1/2 in), tramo 6.40 m",m,70.02,Basado en FN-TUBO-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-19,"Tubo de acero galvanizado ced. 40 A-53 con costura, roscado con cople, 19 mm (3/4 in), tramo 6.40 m",m,93.28,Basado en FN-TUBO-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-25,"Tubo de acero galvanizado ced. 40 A-53 con costura, roscado con cople, 25 mm (1 in), tramo 6.40 m",m,134.51,Basado en FN-TUBO-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-32,"Tubo de acero galvanizado ced. 40 A-53 con costura, 32 mm (1 1/4 in), tramo 6.40 m",m,181.03,Basado en FN-TUBO-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-38,"Tubo de acero galvanizado ced. 40 A-53 con costura, 38 mm (1 1/2 in), tramo 6.40 m",m,216.26,Basado en FN-TUBO-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-51,"Tubo de acero galvanizado ced. 40 A-53 con costura, roscado con cople, 51 mm (2 in), tramo 6.40 m",m,291.26,Basado en FN-TUBO-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-64,"Tubo de acero galvanizado ced. 40 A-53 con costura, 64 mm (2 1/2 in), tramo 6.40 m",m,460.85,Basado en FN-TUBO-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUBO-75,"Tubo de acero galvanizado ced. 40 A-53 con costura, 75 mm (3 in), tramo 6.40 m",m,602.88,Basado en FN-TUBO-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-TUERCA-UNION-102,"Tuerca unión de acero galvanizado, cédula 40, 102 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-TUERCA-UNION-75,"Tuerca unión de acero galvanizado, cédula 40, 75 mm",pza,0.00,Estimación; requiere cotización,2026-09,referencia
+FG-YEE-100,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 100 mm (4 in)",pza,1507.87,Basado en FN-YEE-100 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-13,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 13 mm (1/2 in)",pza,40.18,Basado en FN-YEE-13 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-19,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 19 mm (3/4 in)",pza,45.62,Basado en FN-YEE-19 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-25,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 25 mm (1 in)",pza,83.17,Basado en FN-YEE-25 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-32,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 32 mm (1 1/4 in)",pza,135.00,Basado en FN-YEE-32 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-38,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 38 mm (1 1/2 in)",pza,200.23,Basado en FN-YEE-38 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-51,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 51 mm (2 in)",pza,342.12,Basado en FN-YEE-51 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-64,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 64 mm (2 1/2 in)",pza,629.86,Basado en FN-YEE-64 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FG-YEE-75,"Yee (ye 45°) de hierro maleable galvanizado roscado clase 150, 75 mm (3 in)",pza,1046.33,Basado en FN-YEE-75 (negro) × 1.2 por galvanizado (15-25 % premium),2026-09,referencia
+FN-ABRAZ-100,Abrazadera tipo uña/omega galvanizada para tubo de acero de 100 mm con taquete y pija,pza,28.00,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-13,Abrazadera tipo uña/omega galvanizada para tubo de acero de 13 mm con taquete y pija,pza,5.00,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-19,Abrazadera tipo uña/omega galvanizada para tubo de acero de 19 mm con taquete y pija,pza,6.59,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-25,Abrazadera tipo uña/omega galvanizada para tubo de acero de 25 mm con taquete y pija,pza,8.17,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-32,Abrazadera tipo uña/omega galvanizada para tubo de acero de 32 mm con taquete y pija,pza,10.02,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-38,Abrazadera tipo uña/omega galvanizada para tubo de acero de 38 mm con taquete y pija,pza,11.61,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-51,Abrazadera tipo uña/omega galvanizada para tubo de acero de 51 mm con taquete y pija,pza,15.05,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-64,Abrazadera tipo uña/omega galvanizada para tubo de acero de 64 mm con taquete y pija,pza,18.48,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-ABRAZ-75,Abrazadera tipo uña/omega galvanizada para tubo de acero de 75 mm con taquete y pija,pza,21.39,"Interpolación por diámetro entre ABRAZ-CU-13 ($5, U con taquete y pija) y SOP-TUBO-100 ($28, omega con taquete y pija), ambos estimación de ferretería",2026-09,referencia
+FN-BUSH-100x25,"Reducción bushing de hierro maleable negro roscada, 100 x 25 mm",pza,272.25,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 25/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-100x32,"Reducción bushing de hierro maleable negro roscada, 100 x 32 mm",pza,278.12,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 32/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-100x38,"Reducción bushing de hierro maleable negro roscada, 100 x 38 mm",pza,283.14,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 38/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-100x51,"Reducción bushing de hierro maleable negro roscada, 100 x 51 mm",pza,294.04,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 51/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-100x64,"Reducción bushing de hierro maleable negro roscada, 100 x 64 mm",pza,304.93,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 64/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-100x75,"Reducción bushing de hierro maleable negro roscada, 100 x 75 mm",pza,314.14,Regla de escala: codo 90° de 100 mm ($418.85) × (0.6 + 0.2 × 75/100); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-13x10,"Reducción bushing de hierro maleable negro roscada, 13 x 10 mm",pza,8.41,Regla de escala: codo 90° de 13 mm ($11.16) × (0.6 + 0.2 × 10/13); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-19x10,"Reducción bushing de hierro maleable negro roscada, 19 x 10 mm",pza,8.94,Regla de escala: codo 90° de 19 mm ($12.67) × (0.6 + 0.2 × 10/19); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-19x13,"Reducción bushing de hierro maleable negro roscada, 19 x 13 mm",pza,9.34,Regla de escala: codo 90° de 19 mm ($12.67) × (0.6 + 0.2 × 13/19); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-25x13,"Reducción bushing de hierro maleable negro roscada, 25 x 13 mm",pza,16.26,Regla de escala: codo 90° de 25 mm ($23.10) × (0.6 + 0.2 × 13/25); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-25x19,"Reducción bushing de hierro maleable negro roscada, 25 x 19 mm",pza,17.37,Regla de escala: codo 90° de 25 mm ($23.10) × (0.6 + 0.2 × 19/25); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-32x13,"Reducción bushing de hierro maleable negro roscada, 32 x 13 mm",pza,25.55,Regla de escala: codo 90° de 32 mm ($37.50) × (0.6 + 0.2 × 13/32); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-32x19,"Reducción bushing de hierro maleable negro roscada, 32 x 19 mm",pza,26.95,Regla de escala: codo 90° de 32 mm ($37.50) × (0.6 + 0.2 × 19/32); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-32x25,"Reducción bushing de hierro maleable negro roscada, 32 x 25 mm",pza,28.36,Regla de escala: codo 90° de 32 mm ($37.50) × (0.6 + 0.2 × 25/32); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-38x13,"Reducción bushing de hierro maleable negro roscada, 38 x 13 mm",pza,37.18,Regla de escala: codo 90° de 38 mm ($55.62) × (0.6 + 0.2 × 13/38); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-38x19,"Reducción bushing de hierro maleable negro roscada, 38 x 19 mm",pza,38.93,Regla de escala: codo 90° de 38 mm ($55.62) × (0.6 + 0.2 × 19/38); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-38x25,"Reducción bushing de hierro maleable negro roscada, 38 x 25 mm",pza,40.69,Regla de escala: codo 90° de 38 mm ($55.62) × (0.6 + 0.2 × 25/38); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-38x32,"Reducción bushing de hierro maleable negro roscada, 38 x 32 mm",pza,42.74,Regla de escala: codo 90° de 38 mm ($55.62) × (0.6 + 0.2 × 32/38); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-51x13,"Reducción bushing de hierro maleable negro roscada, 51 x 13 mm",pza,61.87,Regla de escala: codo 90° de 51 mm ($95.03) × (0.6 + 0.2 × 13/51); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-51x19,"Reducción bushing de hierro maleable negro roscada, 51 x 19 mm",pza,64.10,Regla de escala: codo 90° de 51 mm ($95.03) × (0.6 + 0.2 × 19/51); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-51x25,"Reducción bushing de hierro maleable negro roscada, 51 x 25 mm",pza,66.34,Regla de escala: codo 90° de 51 mm ($95.03) × (0.6 + 0.2 × 25/51); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-51x32,"Reducción bushing de hierro maleable negro roscada, 51 x 32 mm",pza,68.95,Regla de escala: codo 90° de 51 mm ($95.03) × (0.6 + 0.2 × 32/51); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-51x38,"Reducción bushing de hierro maleable negro roscada, 51 x 38 mm",pza,71.18,Regla de escala: codo 90° de 51 mm ($95.03) × (0.6 + 0.2 × 38/51); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-64x25,"Reducción bushing de hierro maleable negro roscada, 64 x 25 mm",pza,118.64,Regla de escala: codo 90° de 64 mm ($174.96) × (0.6 + 0.2 × 25/64); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-64x32,"Reducción bushing de hierro maleable negro roscada, 64 x 32 mm",pza,122.47,Regla de escala: codo 90° de 64 mm ($174.96) × (0.6 + 0.2 × 32/64); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-64x38,"Reducción bushing de hierro maleable negro roscada, 64 x 38 mm",pza,125.75,Regla de escala: codo 90° de 64 mm ($174.96) × (0.6 + 0.2 × 38/64); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-64x51,"Reducción bushing de hierro maleable negro roscada, 64 x 51 mm",pza,132.86,Regla de escala: codo 90° de 64 mm ($174.96) × (0.6 + 0.2 × 51/64); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-75x25,"Reducción bushing de hierro maleable negro roscada, 75 x 25 mm",pza,193.76,Regla de escala: codo 90° de 75 mm ($290.65) × (0.6 + 0.2 × 25/75); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-75x32,"Reducción bushing de hierro maleable negro roscada, 75 x 32 mm",pza,199.19,Regla de escala: codo 90° de 75 mm ($290.65) × (0.6 + 0.2 × 32/75); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-75x38,"Reducción bushing de hierro maleable negro roscada, 75 x 38 mm",pza,203.84,Regla de escala: codo 90° de 75 mm ($290.65) × (0.6 + 0.2 × 38/75); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-75x51,"Reducción bushing de hierro maleable negro roscada, 75 x 51 mm",pza,213.92,Regla de escala: codo 90° de 75 mm ($290.65) × (0.6 + 0.2 × 51/75); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-BUSH-75x64,"Reducción bushing de hierro maleable negro roscada, 75 x 64 mm",pza,223.99,Regla de escala: codo 90° de 75 mm ($290.65) × (0.6 + 0.2 × 64/75); contraste Surtidor bushing Cifunsa negro 32x13 $35.71 y 75x51 $226.59 con IVA con descuento (0.82 y 0.67 × codo),2026-09,referencia
+FN-CAMP-100x75,"Reducción campana (cople reducción) de hierro maleable negro roscada, 100 x 75 mm",pza,357.74,Regla de escala: 0.75 × codo 90° de 100 mm ($418.85) + 0.15 × codo 90° de 75 mm ($290.65); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-13x10,"Reducción campana (cople reducción) de hierro maleable negro roscada, 13 x 10 mm",pza,10.91,Regla de escala: 0.75 × codo 90° de 13 mm ($11.16) + 0.15 × codo 90° de 10 mm ($16.95); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-19x10,"Reducción campana (cople reducción) de hierro maleable negro roscada, 19 x 10 mm",pza,12.05,Regla de escala: 0.75 × codo 90° de 19 mm ($12.67) + 0.15 × codo 90° de 10 mm ($16.95); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-19x13,"Reducción campana (cople reducción) de hierro maleable negro roscada, 19 x 13 mm",pza,11.18,Regla de escala: 0.75 × codo 90° de 19 mm ($12.67) + 0.15 × codo 90° de 13 mm ($11.16); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-25x13,"Reducción campana (cople reducción) de hierro maleable negro roscada, 25 x 13 mm",pza,19.00,Regla de escala: 0.75 × codo 90° de 25 mm ($23.10) + 0.15 × codo 90° de 13 mm ($11.16); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-25x19,"Reducción campana (cople reducción) de hierro maleable negro roscada, 25 x 19 mm",pza,19.23,Regla de escala: 0.75 × codo 90° de 25 mm ($23.10) + 0.15 × codo 90° de 19 mm ($12.67); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-32x13,"Reducción campana (cople reducción) de hierro maleable negro roscada, 32 x 13 mm",pza,29.80,Regla de escala: 0.75 × codo 90° de 32 mm ($37.50) + 0.15 × codo 90° de 13 mm ($11.16); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-32x19,"Reducción campana (cople reducción) de hierro maleable negro roscada, 32 x 19 mm",pza,30.03,Regla de escala: 0.75 × codo 90° de 32 mm ($37.50) + 0.15 × codo 90° de 19 mm ($12.67); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-32x25,"Reducción campana (cople reducción) de hierro maleable negro roscada, 32 x 25 mm",pza,31.59,Regla de escala: 0.75 × codo 90° de 32 mm ($37.50) + 0.15 × codo 90° de 25 mm ($23.10); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-38x13,"Reducción campana (cople reducción) de hierro maleable negro roscada, 38 x 13 mm",pza,43.39,Regla de escala: 0.75 × codo 90° de 38 mm ($55.62) + 0.15 × codo 90° de 13 mm ($11.16); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-38x19,"Reducción campana (cople reducción) de hierro maleable negro roscada, 38 x 19 mm",pza,43.62,Regla de escala: 0.75 × codo 90° de 38 mm ($55.62) + 0.15 × codo 90° de 19 mm ($12.67); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-38x25,"Reducción campana (cople reducción) de hierro maleable negro roscada, 38 x 25 mm",pza,45.18,Regla de escala: 0.75 × codo 90° de 38 mm ($55.62) + 0.15 × codo 90° de 25 mm ($23.10); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-38x32,"Reducción campana (cople reducción) de hierro maleable negro roscada, 38 x 32 mm",pza,47.34,Regla de escala: 0.75 × codo 90° de 38 mm ($55.62) + 0.15 × codo 90° de 32 mm ($37.50); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-51x13,"Reducción campana (cople reducción) de hierro maleable negro roscada, 51 x 13 mm",pza,72.95,Regla de escala: 0.75 × codo 90° de 51 mm ($95.03) + 0.15 × codo 90° de 13 mm ($11.16); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-51x19,"Reducción campana (cople reducción) de hierro maleable negro roscada, 51 x 19 mm",pza,73.18,Regla de escala: 0.75 × codo 90° de 51 mm ($95.03) + 0.15 × codo 90° de 19 mm ($12.67); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-51x25,"Reducción campana (cople reducción) de hierro maleable negro roscada, 51 x 25 mm",pza,74.74,Regla de escala: 0.75 × codo 90° de 51 mm ($95.03) + 0.15 × codo 90° de 25 mm ($23.10); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-51x32,"Reducción campana (cople reducción) de hierro maleable negro roscada, 51 x 32 mm",pza,76.90,Regla de escala: 0.75 × codo 90° de 51 mm ($95.03) + 0.15 × codo 90° de 32 mm ($37.50); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-51x38,"Reducción campana (cople reducción) de hierro maleable negro roscada, 51 x 38 mm",pza,79.62,Regla de escala: 0.75 × codo 90° de 51 mm ($95.03) + 0.15 × codo 90° de 38 mm ($55.62); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-64x51,"Reducción campana (cople reducción) de hierro maleable negro roscada, 64 x 51 mm",pza,145.47,Regla de escala: 0.75 × codo 90° de 64 mm ($174.96) + 0.15 × codo 90° de 51 mm ($95.03); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-75x51,"Reducción campana (cople reducción) de hierro maleable negro roscada, 75 x 51 mm",pza,232.24,Regla de escala: 0.75 × codo 90° de 75 mm ($290.65) + 0.15 × codo 90° de 51 mm ($95.03); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CAMP-75x64,"Reducción campana (cople reducción) de hierro maleable negro roscada, 75 x 64 mm",pza,244.23,Regla de escala: 0.75 × codo 90° de 75 mm ($290.65) + 0.15 × codo 90° de 64 mm ($174.96); listas de conexiones maleables: cople reducción 0.7-1.1 × codo del diámetro mayor,2026-09,referencia
+FN-CODO45-100,"Codo 45° de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,500.62,DepotMX codo negro 45° 100 mm $580.72 con IVA (https://depotmx.com/producto/codo-negro-45-100mm/),2026-09,referencia
+FN-CODO45-13,"Codo 45° de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,13.39,"Regla de escala: 1.2 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX 45°/90° = 1.16-1.35",2026-09,referencia
+FN-CODO45-19,"Codo 45° de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,15.21,"Regla de escala: 1.2 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX 19 mm $40.32 con IVA se descarta por romper la progresión (queda arriba del de 25 mm); DepotMX 45°/90° = 1.16-1.35",2026-09,referencia
+FN-CODO45-25,"Codo 45° de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,27.72,"Regla de escala: 1.2 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX 45°/90° = 1.16-1.35",2026-09,referencia
+FN-CODO45-32,"Codo 45° de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,50.47,DepotMX codo negro 45° 32 mm $58.54 con IVA (https://depotmx.com/producto/codo-negro-45-32mm/),2026-09,referencia
+FN-CODO45-38,"Codo 45° de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,64.47,DepotMX codo negro 45° 38 mm $74.78 con IVA (https://depotmx.com/producto/codo-negro-45-38mm/),2026-09,referencia
+FN-CODO45-51,"Codo 45° de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,114.04,"Regla de escala: 1.2 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX 45°/90° = 1.16-1.35",2026-09,referencia
+FN-CODO45-64,"Codo 45° de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,203.83,DepotMX codo negro 45° 64 mm $236.44 con IVA (https://depotmx.com/producto/codo-negro-45-64mm/),2026-09,referencia
+FN-CODO45-75,"Codo 45° de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,348.78,"Regla de escala: 1.2 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX 45°/90° = 1.16-1.35",2026-09,referencia
+FN-CODO90-100,"Codo 90° de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,418.85,DepotMX codo negro 90° 100 mm $485.87 con IVA (https://depotmx.com/producto/codo-negro-90-100mm/),2026-09,referencia
+FN-CODO90-13,"Codo 90° de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,11.16,Regla: DepotMX codo 90° 25 mm ($26.80 con IVA) ÷ 2.07 (razón de lista 1 in/1/2 in en conexiones maleables); CostoNet codo negro 90-13 mm $7.08; DepotMX 19 mm $14.70 con IVA,2026-09,referencia
+FN-CODO90-19,"Codo 90° de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,12.67,DepotMX codo negro 90° 19 mm $14.70 con IVA (https://depotmx.com/producto/codo-negro-90-19mm/); CostoNet $21.54,2026-09,validado con rango de mercado
+FN-CODO90-25,"Codo 90° de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,23.10,DepotMX codo negro 90° 25 mm $26.80 con IVA (https://depotmx.com/producto/codo-negro-90-25mm/); CostoNet $35.2,2026-09,validado con rango de mercado
+FN-CODO90-32,"Codo 90° de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,37.50,DepotMX codo negro 90° 32 mm $43.50 con IVA (https://depotmx.com/producto/codo-negro-90-32mm/),2026-09,referencia
+FN-CODO90-38,"Codo 90° de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,55.62,DepotMX codo negro 90° 38 mm $64.52 con IVA (https://depotmx.com/producto/codo-negro-90-38mm/); CostoNet $38.95-61.55,2026-09,validado con rango de mercado
+FN-CODO90-51,"Codo 90° de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,95.03,DepotMX codo negro 90° 51 mm $110.24 con IVA (https://depotmx.com/producto/codo-negro-90-50mm/); CostoNet $96.47,2026-09,validado con rango de mercado
+FN-CODO90-64,"Codo 90° de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,174.96,Regla: DepotMX codo 45° 64 mm $236.44 con IVA ÷ 1.165 (razón 45°/90° de DepotMX en 38 y 100 mm),2026-09,referencia
+FN-CODO90-75,"Codo 90° de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,290.65,DepotMX codo negro 90° 75 mm $337.15 con IVA (https://depotmx.com/producto/codo-negro-90-75mm/),2026-09,referencia
+FN-COPLE-10,"Cople de hierro maleable negro roscado clase 150, 10 mm (3/8 in)",pza,8.47,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($16.95 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-100,"Cople de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,209.43,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-13,"Cople de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,5.58,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-19,"Cople de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,6.34,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-25,"Cople de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,11.55,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-32,"Cople de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,18.75,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-38,"Cople de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,27.81,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-51,"Cople de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,47.52,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-64,"Cople de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,87.48,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-COPLE-75,"Cople de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,145.32,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX cople negro 51 mm $56.70 con IVA = 0.51 × codo; CostoNet cople negro 38 mm $21.05 y 64 mm $69.32 = 0.38-0.40 × codo",2026-09,referencia
+FN-CRUZ-100,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,1089.02,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-13,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,29.02,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-19,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,32.95,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-25,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,60.07,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-32,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,97.50,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-38,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,144.61,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-51,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,247.09,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-64,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,454.89,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-CRUZ-75,"Cruz Cifunsa de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,755.68,"Regla de escala: 2.6 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); listas Anvil: cruz 2.5-3.0 × codo",2026-09,referencia
+FN-TAPH-10,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 10 mm (3/8 in)",pza,11.02,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($16.95 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-100,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,272.25,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-13,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,7.25,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-19,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,8.24,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-25,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,15.02,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-32,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,24.38,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-38,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,36.15,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-51,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,61.77,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-64,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,113.72,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPH-75,"Tapón hembra (capa) de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,188.92,"Regla de escala: 0.65 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-10,"Tapón macho de hierro maleable negro roscado clase 150, 10 mm (3/8 in)",pza,8.47,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($16.95 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-100,"Tapón macho de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,209.43,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-13,"Tapón macho de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,5.58,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-19,"Tapón macho de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,6.34,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-25,"Tapón macho de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,11.55,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-32,"Tapón macho de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,18.75,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-38,"Tapón macho de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,27.81,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-51,"Tapón macho de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,47.52,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-64,"Tapón macho de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,87.48,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TAPM-75,"Tapón macho de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,145.32,"Regla de escala: 0.5 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller)",2026-09,referencia
+FN-TEE-10,"Tee de hierro maleable negro roscado clase 150, 10 mm (3/8 in)",pza,23.73,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($16.95 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-100,"Tee de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,586.39,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-13,"Tee de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,15.63,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-19,"Tee de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,17.74,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-25,"Tee de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,32.34,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-32,"Tee de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,52.50,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-38,"Tee de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,77.87,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-51,"Tee de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,133.05,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-64,"Tee de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,244.94,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TEE-75,"Tee de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,406.91,"Regla de escala: 1.4 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); DepotMX tee negra 38 mm $89.75 con IVA = 1.39 × codo",2026-09,referencia
+FN-TU-10,"Tuerca unión de hierro maleable negro roscado clase 150, 10 mm (3/8 in)",pza,42.37,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($16.95 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-100,"Tuerca unión de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,1047.13,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-13,"Tuerca unión de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,27.90,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-19,"Tuerca unión de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,31.68,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-25,"Tuerca unión de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,57.76,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-32,"Tuerca unión de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,93.75,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-38,"Tuerca unión de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,139.05,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-51,"Tuerca unión de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,237.59,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-64,"Tuerca unión de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,437.40,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TU-75,"Tuerca unión de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,726.62,"Regla de escala: 2.5 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet tuerca unión negra 100 mm $1,015.27 = 2.4 × codo",2026-09,referencia
+FN-TUBO-100,"Tubo de acero negro ced. 40 A-53 con costura, 100 mm (4 in), tramo 6.40 m",m,715.12,"Regla de escala por peso: 16.07 kg/m (ced. 40 nominal) × $44.5/kg sin IVA, promedio de Surtidor Mueller C-40 13/19/25/51 mm ($44.6-46.0/kg sin IVA con descuento 15 %). Surtidor 32 mm $896.86 con IVA ($35.6/kg) queda abajo; sin precio visible de Casa Myers, DepotMX ni Construrama",2026-09,referencia
+FN-TUBO-13,"Tubo de acero negro ced. 40 A-53 con costura, roscado con cople, 13 mm (1/2 in), tramo 6.40 m",m,58.35,"Surtidor, Tubo negro Mueller C-40 con rosca 6.40 m 13 mm: $433.19 con IVA con descuento 15 % (lista $509.63; https://www.surtidor.com/) → $58.35/m sin IVA = $45.9/kg; Tool Ferreterías 1 in ced. 40 $112.76/m con IVA; analisisdepreciosunitarios.com: tramo 1 in 6.4 m $470-1,350",2026-09,validado con rango de mercado
+FN-TUBO-19,"Tubo de acero negro ced. 40 A-53 con costura, roscado con cople, 19 mm (3/4 in), tramo 6.40 m",m,77.73,"Surtidor, Tubo negro Mueller C-40 con rosca 6.40 m 19 mm: $577.07 con IVA con descuento 15 % (lista $678.90; https://www.surtidor.com/) → $77.73/m sin IVA = $46.0/kg; Tool Ferreterías 1 in ced. 40 $112.76/m con IVA; analisisdepreciosunitarios.com: tramo 1 in 6.4 m $470-1,350",2026-09,validado con rango de mercado
+FN-TUBO-25,"Tubo de acero negro ced. 40 A-53 con costura, roscado con cople, 25 mm (1 in), tramo 6.40 m",m,112.09,"Surtidor, Tubo negro Mueller C-40 con rosca 6.40 m 25 mm: $832.18 con IVA con descuento 15 % (lista $979.03; https://www.surtidor.com/) → $112.09/m sin IVA = $44.8/kg; Tool Ferreterías 1 in ced. 40 $112.76/m con IVA; analisisdepreciosunitarios.com: tramo 1 in 6.4 m $470-1,350",2026-09,validado con rango de mercado
+FN-TUBO-32,"Tubo de acero negro ced. 40 A-53 con costura, 32 mm (1 1/4 in), tramo 6.40 m",m,150.86,"Regla de escala por peso: 3.39 kg/m (ced. 40 nominal) × $44.5/kg sin IVA, promedio de Surtidor Mueller C-40 13/19/25/51 mm ($44.6-46.0/kg sin IVA con descuento 15 %). Surtidor 32 mm $896.86 con IVA ($35.6/kg) queda abajo; sin precio visible de Casa Myers, DepotMX ni Construrama",2026-09,referencia
+FN-TUBO-38,"Tubo de acero negro ced. 40 A-53 con costura, 38 mm (1 1/2 in), tramo 6.40 m",m,180.22,"Regla de escala por peso: 4.05 kg/m (ced. 40 nominal) × $44.5/kg sin IVA, promedio de Surtidor Mueller C-40 13/19/25/51 mm ($44.6-46.0/kg sin IVA con descuento 15 %). Surtidor 32 mm $896.86 con IVA ($35.6/kg) queda abajo; sin precio visible de Casa Myers, DepotMX ni Construrama",2026-09,referencia
+FN-TUBO-51,"Tubo de acero negro ced. 40 A-53 con costura, roscado con cople, 51 mm (2 in), tramo 6.40 m",m,242.72,"Surtidor, Tubo negro Mueller C-40 con rosca 6.40 m 51 mm: $1,801.95 con IVA con descuento 15 % (lista $1,801.95; https://www.surtidor.com/) → $242.72/m sin IVA = $44.6/kg; Tool Ferreterías 1 in ced. 40 $112.76/m con IVA; analisisdepreciosunitarios.com: tramo 1 in 6.4 m $470-1,350",2026-09,validado con rango de mercado
+FN-TUBO-64,"Tubo de acero negro ced. 40 A-53 con costura, 64 mm (2 1/2 in), tramo 6.40 m",m,384.04,"Regla de escala por peso: 8.63 kg/m (ced. 40 nominal) × $44.5/kg sin IVA, promedio de Surtidor Mueller C-40 13/19/25/51 mm ($44.6-46.0/kg sin IVA con descuento 15 %). Surtidor 32 mm $896.86 con IVA ($35.6/kg) queda abajo; sin precio visible de Casa Myers, DepotMX ni Construrama",2026-09,referencia
+FN-TUBO-75,"Tubo de acero negro ced. 40 A-53 con costura, 75 mm (3 in), tramo 6.40 m",m,502.40,"Regla de escala por peso: 11.29 kg/m (ced. 40 nominal) × $44.5/kg sin IVA, promedio de Surtidor Mueller C-40 13/19/25/51 mm ($44.6-46.0/kg sin IVA con descuento 15 %). Surtidor 32 mm $896.86 con IVA ($35.6/kg) queda abajo; sin precio visible de Casa Myers, DepotMX ni Construrama",2026-09,referencia
+FN-YEE-100,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 100 mm (4 in)",pza,1256.56,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($418.85 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-13,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 13 mm (1/2 in)",pza,33.48,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($11.16 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-19,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 19 mm (3/4 in)",pza,38.02,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($12.67 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-25,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 25 mm (1 in)",pza,69.31,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($23.10 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-32,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 32 mm (1 1/4 in)",pza,112.50,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($37.50 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-38,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 38 mm (1 1/2 in)",pza,166.86,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($55.62 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-51,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 51 mm (2 in)",pza,285.10,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($95.03 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-64,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 64 mm (2 1/2 in)",pza,524.88,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($174.96 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+FN-YEE-75,"Yee (ye 45°) de hierro maleable negro roscado clase 150, 75 mm (3 in)",pza,871.94,"Regla de escala: 3.0 × codo 90° negro del mismo diámetro ($290.65 sin IVA, DepotMX); razón usual de listas de conexiones maleables clase 150 (Anvil/Mueller); CostoNet yee negra 51 mm $287.36 = 3.0 × codo",2026-09,referencia
+HVX-110-32,Fluxómetro modelo 110-32mm palanca WC,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-110-38,Fluxómetro modelo 110-38mm palanca WC,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-11032MM,Fluxómetro modelo 110-32mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-11038MM,Fluxómetro modelo 110-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-117-38,Fluxómetro modelo 117-38mm palanca alta WC,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-11738MM,Fluxómetro modelo 117-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-134235CH,Coladera baño modelo 1342-35-CH,pza,2500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-134235CHL,Coladera baño modelo 1342-35-CHL,pza,2800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-1342H,Coladera baño modelo 1342-H,pza,1900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-1342HL,Coladera baño modelo 1342-HL,pza,2200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-210-32,Fluxómetro modelo 210-32mm palanca WC,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-210-38,Fluxómetro modelo 210-38mm palanca WC,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-21032MM,Fluxómetro modelo 210-32mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-21038MM,Fluxómetro modelo 210-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24,Coladera piso modelo 24,pza,1200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24CH,Coladera piso modelo 24-CH,pza,1300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24CHL,Coladera piso modelo 24-CHL,pza,1450.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24HL,Coladera piso modelo 24-HL,pza,1350.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25,Coladera piso modelo 25,pza,1500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2514,Coladera piso con campana modelo 2514,pza,1900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2584,Coladera piso 25 cm modelo 2584,pza,5300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25CH,Coladera piso modelo 25-CH,pza,1600.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25CHL,Coladera piso modelo 25-CHL,pza,1800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25HL,Coladera piso modelo 25-HL,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-26,Coladera piso modelo 26,pza,1400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-27,Coladera piso modelo 27,pza,1600.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2714,Coladera piso rectangular modelo 2714,pza,4400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28,Coladera piso modelo 28,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28235CH,Coladera baño modelo 282-35-CH,pza,2900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28235CHL,Coladera baño modelo 282-35-CHL,pza,3200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-282H,Coladera baño modelo 282-H,pza,2200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-282HL,Coladera baño modelo 282-HL,pza,2500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-285-19,Fluxómetro modelo 285-19mm palanca mingitorio,pza,5200.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-28519MM,Fluxómetro modelo 285-19mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-310-19,Fluxómetro modelo 310-19mm pedal mingitorio,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-310-32,Fluxómetro modelo 310-32mm pedal WC,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-310-38,Fluxómetro modelo 310-38mm pedal WC,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-31019MM,Fluxómetro modelo 310-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-31032MM,Fluxómetro modelo 310-32mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-31038MM,Fluxómetro modelo 310-38mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-323-19,Fluxómetro modelo 323-19mm pedal mingitorio,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-32319MM,Fluxómetro modelo 323-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-342C,Rebosadero modelo 342-C,pza,800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-342R,Rebosadero modelo 342-R,pza,700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-410-19,Fluxómetro modelo 410-19mm pedal mingitorio,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-410-32,Fluxómetro modelo 410-32mm pedal WC,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-410-38,Fluxómetro modelo 410-38mm pedal WC,pza,6100.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-41019MM,Fluxómetro modelo 410-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-41032MM,Fluxómetro modelo 410-32mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-41038MM,Fluxómetro modelo 410-38mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-444,Coladera cúpula azotea modelo 444,pza,1500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-444X,Coladera cúpula azotea modelo 444-X,pza,1750.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-446X,Coladera cúpula azotea modelo 446-X,pza,3200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-4954,Coladera pretil modelo 4954,pza,2100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-5424,Coladera azoteas modelo 5424,pza,2300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-632H,Rebosadero modelo 632-H,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB110-32,Fluxómetro sensor electrónico modelo FB-110-32,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FB110-38,Fluxómetro sensor electrónico modelo FB-110-38,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FB11032,Fluxómetro sensor modelo FB-110-32,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB11038,Fluxómetro sensor modelo FB-110-38,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB185-19,Fluxómetro sensor electrónico modelo FB-185-19,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FB18519,Fluxómetro sensor modelo FB-185-19,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC110-32,Fluxómetro sensor electrónico modelo FC-110-32,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FC110-38,Fluxómetro sensor electrónico modelo FC-110-38,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FC11032,Fluxómetro sensor modelo FC-110-32,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC11038,Fluxómetro sensor modelo FC-110-38,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC185-19,Fluxómetro sensor electrónico modelo FC-185-19,pza,13500.0,Estimación Helvex (por cotizar con distribuidor),2026-09,referencia
+HVX-FC18519,Fluxómetro sensor modelo FC-185-19,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-IG20,Interceptor grasas modelo IG-20,pza,14400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-IG40,Interceptor grasas modelo IG-40,pza,23000.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-VD1176,Válvula drenaje 150mm modelo V.D. 1176,pza,6400.0,Estimación Helvex (por cotizar),2026-09,referencia
+LIMPIADOR-PVC,Limpiador/solvente para PVC (bote 240-500 ml),bote,65.00,Tangit/Presto rango ferreterías 2026 ($80-150 con IVA); estimación $75 sin IVA,2026-09,validado con rango de mercado
+PLOMO-10,"Plomo para juntas campana 10""",kg,120.0,Referencia mercado 2026,2026-09,referencia
+PLOMO-2,"Plomo para juntas campana 2""",kg,120.0,Referencia mercado 2026,2026-09,referencia
+PLOMO-4,"Plomo para juntas campana 4""",kg,120.0,Referencia mercado 2026,2026-09,referencia
+PLOMO-6,"Plomo para juntas campana 6""",kg,120.0,Referencia mercado 2026,2026-09,referencia
+PLOMO-8,"Plomo para juntas campana 8""",kg,120.0,Referencia mercado 2026,2026-09,referencia
+"PLOMO-JNT-10""","Plomo para calafateo de junta campana de tubo 10""",kg,120.0,Estimado (por validar con distribuidor),2026-09,referencia
+"PLOMO-JNT-2""","Plomo para calafateo de junta campana de tubo 2""",kg,120.0,Estimado (por validar con distribuidor),2026-09,referencia
+"PLOMO-JNT-4""","Plomo para calafateo de junta campana de tubo 4""",kg,120.0,Estimado (por validar con distribuidor),2026-09,referencia
+"PLOMO-JNT-6""","Plomo para calafateo de junta campana de tubo 6""",kg,120.0,Estimado (por validar con distribuidor),2026-09,referencia
+"PLOMO-JNT-8""","Plomo para calafateo de junta campana de tubo 8""",kg,120.0,Estimado (por validar con distribuidor),2026-09,referencia
+RED-BUSH-CU-100X51,reducción_bushing cobre,pza,700,Escala,2026-09,referencia
+RED-BUSH-CU-100X64,reducción_bushing cobre,pza,800,Escala,2026-09,referencia
+RED-BUSH-CU-100X75,reducción_bushing cobre,pza,950,Escala,2026-09,referencia
+RED-BUSH-CU-13X10,Reducción bushing de cobre 13x10 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-19X13,Reducción bushing de cobre 19x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-25X13,Reducción bushing de cobre 25x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-25X19,Reducción bushing de cobre 25x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-32X13,Reducción bushing de cobre 32x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-32X19,Reducción bushing de cobre 32x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-32X25,Reducción bushing de cobre 32x25 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-38X19,Reducción bushing de cobre 38x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-38X25,Reducción bushing de cobre 38x25 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-38X32,Reducción bushing de cobre 38x32 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-51X25,Reducción bushing de cobre 51x25 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-51X32,Reducción bushing de cobre 51x32 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-51X38,Reducción bushing de cobre 51x38 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-64X32,Reducción bushing de cobre 64x32 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-64X38,Reducción bushing de cobre 64x38 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-64X51,Reducción bushing de cobre 64x51 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-75X38,Reducción bushing de cobre 75x38 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-75X51,Reducción bushing de cobre 75x51 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-BUSH-CU-75X64,Reducción bushing de cobre 75x64 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-13X10,Reducción campana de cobre 13x10 mm,pza,12,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-19X13,Reducción campana de cobre 19x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-25X13,Reducción campana de cobre 25x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-25X19,Reducción campana de cobre 25x19 mm,pza,45,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-32X13,Reducción campana de cobre 32x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-32X19,Reducción campana de cobre 32x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-32X25,Reducción campana de cobre 32x25 mm,pza,85,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-38X13,Reducción campana de cobre 38x13 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-38X19,Reducción campana de cobre 38x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-38X25,Reducción campana de cobre 38x25 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-38X32,Reducción campana de cobre 38x32 mm,pza,140,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-51X19,Reducción campana de cobre 51x19 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-51X25,Reducción campana de cobre 51x25 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-51X32,Reducción campana de cobre 51x32 mm,pza,50,Escala por diámetro,2026-09,referencia
+RED-CAMP-CU-51X38,Reducción campana de cobre 51x38 mm,pza,240,Escala por diámetro,2026-09,referencia
+SOPORTE-HIDR,Abrazadera/soporte galvanizado para tubería de PVC,pza,8.62,Interpolación: ferretería $9-15 con IVA; se toma $10 sin IVA (estimación),2026-09,referencia
+TAPÓN_CAPA-CU-10,Tapón capa de cobre 10 mm,pza,7,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-13,Tapón capa de cobre 13 mm,pza,10,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-19,Tapón capa de cobre 19 mm,pza,22,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-25,Tapón capa de cobre 25 mm,pza,38,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-32,Tapón capa de cobre 32 mm,pza,65,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-38,Tapón capa de cobre 38 mm,pza,100,Escala por diámetro,2026-09,referencia
+TAPÓN_CAPA-CU-51,Tapón capa de cobre 51 mm,pza,160,Escala por diámetro,2026-09,referencia
+TAPÓN_MACHO-CU-13,Tapón macho de cobre 13 mm,pza,18,Escala por diámetro,2026-09,referencia
+TAPÓN_MACHO-CU-19,Tapón macho de cobre 19 mm,pza,40,Escala por diámetro,2026-09,referencia
+TEE-CU-10,Tee de cobre 10 mm,pza,16,Escala por diámetro,2026-09,referencia
+TEE-CU-102,Tee de cobre 102 mm,pza,1280,Escala por diámetro,2026-09,referencia
+TEE-CU-16,Tee de cobre 16 mm,pza,32,Escala por diámetro,2026-09,referencia
+TEE-CU-19,Tee de cobre 19 mm,pza,55,Escala por diámetro,2026-09,referencia
+TEE-CU-25,Tee de cobre 25 mm,pza,95,Escala por diámetro,2026-09,referencia
+TEE-CU-32,Tee de cobre 32 mm,pza,160,Escala por diámetro,2026-09,referencia
+TEE-CU-38,Tee de cobre 38 mm,pza,235,Escala por diámetro,2026-09,referencia
+TEE-CU-51,Tee de cobre 51 mm,pza,360,Escala por diámetro,2026-09,referencia
+TEE-CU-6,Tee de cobre 6 mm,pza,12,Escala por diámetro,2026-09,referencia
+TEE-CU-64,Tee de cobre 64 mm,pza,620,Escala por diámetro,2026-09,referencia
+TEE-CU-75,Tee de cobre 75 mm,pza,850,Escala por diámetro,2026-09,referencia
+TEE-CU-8,Tee de cobre 8 mm,pza,14,Escala por diámetro,2026-09,referencia
+TEE-PVC-SAN-100,Tee PVC sanitario 100 mm para cementar,pza,121.60,Catálogo E11.05.0029 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-100-ANGER,Tee PVC sanitario 100 mm anger,pza,179.21,Catálogo E11.05.0037 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-150,Tee PVC sanitario 150 mm para cementar,pza,236.95,Catálogo E11.05.0030 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-150-ANGER,Tee PVC sanitario 150 mm anger,pza,428.43,Catálogo E11.05.0038 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-40,Tee PVC sanitario 40 mm para cementar,pza,104.54,Catálogo E11.05.0091 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-40-ANGER,Tee PVC sanitario 40 mm anger,pza,85.14,Catálogo E11.05.0034 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-50,Tee PVC sanitario 50 mm para cementar,pza,69.69,Catálogo E11.05.0027 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-50-ANGER,Tee PVC sanitario 50 mm anger,pza,89.15,Catálogo E11.05.0035 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-75,Tee PVC sanitario 75 mm para cementar,pza,100.27,Catálogo E11.05.0028 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TEE-PVC-SAN-75-ANGER,Tee PVC sanitario 75 mm anger,pza,125.15,Catálogo E11.05.0036 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUBO-CU-K-13,Tubo de cobre rígido tipo K 13 mm (5.0 in) por metro,m,120.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-K-19,Tubo de cobre rígido tipo K 19 mm (7.0 in) por metro,m,230.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-K-25,Tubo de cobre rígido tipo K 25 mm (10.0 in) por metro,m,380.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-K-32,Tubo de cobre rígido tipo K 32 mm (12.0 in) por metro,m,500.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-K-38,Tubo de cobre rígido tipo K 38 mm (15.0 in) por metro,m,680.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-K-51,Tubo de cobre rígido tipo K 51 mm (20.0 in) por metro,m,950.0,Escala mercado: tipo K $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-10,Tubo de cobre rígido tipo L 10 mm (4.0 in) por metro,m,62.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-102,Tubo de cobre rígido tipo L 102 mm (40.0 in) por metro,m,2100.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-13,Tubo de cobre rígido tipo L 13 mm (5.0 in) por metro,m,85.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-16,Tubo de cobre rígido tipo L 16 mm (6.0 in) por metro,m,110.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-19,Tubo de cobre rígido tipo L 19 mm (7.0 in) por metro,m,165.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-25,Tubo de cobre rígido tipo L 25 mm (10.0 in) por metro,m,270.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-32,Tubo de cobre rígido tipo L 32 mm (12.0 in) por metro,m,350.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-38,Tubo de cobre rígido tipo L 38 mm (15.0 in) por metro,m,480.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-51,Tubo de cobre rígido tipo L 51 mm (20.0 in) por metro,m,720.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-6,Tubo de cobre rígido tipo L 6 mm (2.0 in) por metro,m,45.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-64,Tubo de cobre rígido tipo L 64 mm (25.0 in) por metro,m,1200.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-75,Tubo de cobre rígido tipo L 75 mm (30.0 in) por metro,m,1550.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-L-8,Tubo de cobre rígido tipo L 8 mm (3.0 in) por metro,m,52.0,Escala mercado: tipo L $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-10,Tubo de cobre rígido tipo M 10 mm (4.0 in) por metro,m,55.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-102,Tubo de cobre rígido tipo M 102 mm (40.0 in) por metro,m,1680.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-19,Tubo de cobre rígido tipo M 19 mm (7.0 in) por metro,m,120.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-25,Tubo de cobre rígido tipo M 25 mm (10.0 in) por metro,m,195.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-32,Tubo de cobre rígido tipo M 32 mm (12.0 in) por metro,m,280.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-38,Tubo de cobre rígido tipo M 38 mm (15.0 in) por metro,m,385.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-51,Tubo de cobre rígido tipo M 51 mm (20.0 in) por metro,m,580.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-64,Tubo de cobre rígido tipo M 64 mm (25.0 in) por metro,m,950.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-CU-M-75,Tubo de cobre rígido tipo M 75 mm (30.0 in) por metro,m,1250.0,Escala mercado: tipo M $45-2100/m por diámetro,2026-09,referencia
+TUBO-HIDR-CAMP-100,"Tubo PVC hidráulico de 100 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,295.69,"Catálogo Construbase P.U. actualizado $343.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-13,"Tubo PVC hidráulico de 13 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,50.41,"Catálogo Construbase P.U. actualizado $58.48 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-150,"Tubo PVC hidráulico de 150 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,553.26,"Catálogo Construbase P.U. actualizado $641.78 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-19,"Tubo PVC hidráulico de 19 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,57.64,"Catálogo Construbase P.U. actualizado $66.86 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-200,"Tubo PVC hidráulico de 200 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,871.60,"Catálogo Construbase P.U. actualizado $1011.06 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-25,"Tubo PVC hidráulico de 25 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,68.21,"Catálogo Construbase P.U. actualizado $79.12 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-32,"Tubo PVC hidráulico de 32 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,67.24,"Catálogo Construbase P.U. actualizado $78.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-38,"Tubo PVC hidráulico de 38 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,81.90,"Catálogo Construbase P.U. actualizado $95.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-50,"Tubo PVC hidráulico de 50 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,117.51,"Catálogo Construbase P.U. actualizado $136.31 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-60,"Tubo PVC hidráulico de 60 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,153.60,"Catálogo Construbase P.U. actualizado $178.18 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-CAMP-75,"Tubo PVC hidráulico de 75 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,202.09,"Catálogo Construbase P.U. actualizado $234.42 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
+TUBO-HIDR-LISO-100,"Tubo PVC hidráulico de 100 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,243.07,"Catálogo Construbase P.U. actualizado $281.96 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-13,"Tubo PVC hidráulico de 13 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,52.16,"Catálogo Construbase P.U. actualizado $60.51 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-19,"Tubo PVC hidráulico de 19 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,59.90,"Catálogo Construbase P.U. actualizado $69.48 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-25,"Tubo PVC hidráulico de 25 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,87.52,"Catálogo Construbase P.U. actualizado $101.52 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-32,"Tubo PVC hidráulico de 32 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,73.20,"Catálogo Construbase P.U. actualizado $84.91 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-38,"Tubo PVC hidráulico de 38 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,85.58,"Catálogo Construbase P.U. actualizado $99.27 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-50,"Tubo PVC hidráulico de 50 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,105.47,"Catálogo Construbase P.U. actualizado $122.35 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-60,"Tubo PVC hidráulico de 60 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,112.15,"Catálogo Construbase P.U. actualizado $130.09 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-HIDR-LISO-75,"Tubo PVC hidráulico de 75 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,172.46,"Catálogo Construbase P.U. actualizado $200.05 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
+TUBO-PVC-SAN-150,Tubo PVC sanitario 150 mm en tramo de 6 m,m,354.59,Derivado de catálogo E11.05.0005 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUBO-PVC-SAN-40,Tubo PVC sanitario 40 mm en tramo de 6 m,m,91.14,Derivado de catálogo E11.05.0001 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUBO-PVC-SAN-50,Tubo PVC sanitario 50 mm en tramo de 6 m,m,97.25,Derivado de catálogo E11.05.0002 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUBO-PVC-SAN-75,Tubo PVC sanitario 75 mm en tramo de 6 m,m,131.06,Derivado de catálogo E11.05.0003 (material ≈85% del P.U.),2026-09,derivado del catálogo
+TUERCA_UNIÓN-CU-13,Tuerca unión de cobre 13 mm,pza,20,Escala por diámetro,2026-09,referencia
+TUERCA_UNIÓN-CU-19,Tuerca unión de cobre 19 mm,pza,45,Escala por diámetro,2026-09,referencia
+TUERCA_UNIÓN-CU-25,Tuerca unión de cobre 25 mm,pza,75,Escala por diámetro,2026-09,referencia
+TUERCA_UNIÓN-CU-32,Tuerca unión de cobre 32 mm,pza,120,Escala por diámetro,2026-09,referencia
+TUERCA_UNIÓN-CU-38,Tuerca unión de cobre 38 mm,pza,180,Escala por diámetro,2026-09,referencia
+TUERCA_UNIÓN-CU-51,Tuerca unión de cobre 51 mm,pza,280,Escala por diámetro,2026-09,referencia
+YEE-CU-13,Yee de cobre 13 mm,pza,40,Escala por diámetro,2026-09,referencia
+YEE-CU-19,Yee de cobre 19 mm,pza,95,Escala por diámetro,2026-09,referencia
+YEE-CU-25,Yee de cobre 25 mm,pza,165,Escala por diámetro,2026-09,referencia
+YEE-CU-32,Yee de cobre 32 mm,pza,280,Escala por diámetro,2026-09,referencia
+YEE-CU-38,Yee de cobre 38 mm,pza,435,Escala por diámetro,2026-09,referencia
+YEE-CU-51,Yee de cobre 51 mm,pza,690,Escala por diámetro,2026-09,referencia
+YEE-PVC-SAN-102,Yee PVC sanitario 102 mm para cementar,pza,145.02,Derivado de catálogo E11.05.0055 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-102-ANGER,Yee PVC sanitario 102 mm anger,pza,252.84,Derivado de catálogo E11.05.0063 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-152,Yee PVC sanitario 152 mm para cementar,pza,400.01,Derivado de catálogo E11.05.0056 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-152-ANGER,Yee PVC sanitario 152 mm anger,pza,506.09,Derivado de catálogo E11.05.0064 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-40,Yee PVC sanitario 40 mm para cementar,pza,75.38,Derivado de catálogo E11.05.0052 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-40-ANGER,Yee PVC sanitario 40 mm anger,pza,108.64,Derivado de catálogo E11.05.0060 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-50,Yee PVC sanitario 50 mm para cementar,pza,88.54,Derivado de catálogo E11.05.0053 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-50-ANGER,Yee PVC sanitario 50 mm anger,pza,136.80,Derivado de catálogo E11.05.0061 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-75,Yee PVC sanitario 75 mm para cementar,pza,96.81,Derivado de catálogo E11.05.0054 (material ≈85% del P.U.),2026-09,derivado del catálogo
+YEE-PVC-SAN-75-ANGER,Yee PVC sanitario 75 mm anger,pza,137.34,Derivado de catálogo E11.05.0062 (material ≈85% del P.U.),2026-09,derivado del catálogo

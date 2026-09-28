@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.08.0182",
+  "gubim": "50.10.20.10",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBOPLUS-VALVE-ESFERA-32",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Válvula de esfera Tuboplus 32mm"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8.0,
+    "fuente": "8.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Termofusora Rotoplas 600W",
+      "horas": 0.03333333333333333,
+      "costo_horario": 150.0
+    }
+  ],
+  "supuestos": [
+    "Concepto: Válvula de esfera desmontable 32(25), incluye: suministro, acarreos, instalación"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

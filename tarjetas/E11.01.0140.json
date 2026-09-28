@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E11.01.0140",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TEE-CU-51",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 5,
+    "fuente": "5 pza/jor"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Suministro e instalación."
+  ],
+  "elaboro": "Generador 5a",
+  "reviso": ""
+}

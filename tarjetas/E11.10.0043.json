@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E11.10.0043",
+  "gubim": "50.10.20.60",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-31032MM",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza Helvex modelo 31032mm"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 6,
+    "fuente": "6 pza/jor, pieza acabada Helvex"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Pieza acabada Helvex marca, suministro e instalación."
+  ],
+  "elaboro": "Agente lote 5b",
+  "reviso": ""
+}

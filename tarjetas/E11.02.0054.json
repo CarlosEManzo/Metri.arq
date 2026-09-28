@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E11.02.0054",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FF-YEE-2",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza Fo.Fo. campana 2\": Yee doble de fierro fundido de 2\" de la marca Tisa, incluye:"
+    },
+    {
+      "insumo": "PLOMO-2",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": "Plomo para juntas campana"
+    },
+    {
+      "insumo": "ESTOPA-2",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "Estopa para calafateo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 16,
+    "fuente": "16 pza/jor, instrucciones parte 5"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Fierro fundido marca Tisa campana con plomo y estopa."
+  ],
+  "elaboro": "Agente lote 5b",
+  "reviso": ""
+}

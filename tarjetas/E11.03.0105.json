@@ -48,5 +48,6 @@
     "Yee (ye) de 45° roscada de 3 bocas; pieza poco común en fierro negro, precio por regla de escala."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Yee de 3 bocas con rendimiento escalado por número de bocas (más rápida que codo de 2 bocas). Precio escalado a 3.0× codo 90° mismo diámetro según estándar de listas Anvil/Mueller, validado en DepotMX y CostoNet. Rendimiento calibrado: 40-43 pza/jor para Yee 13-38 mm (menor que codo 56 pza/jor por 3 bocas vs 2). Diferencia -29 a -36% contra P.U. actualizado de Construbase explicada por mayor rendimiento relativo de la pieza en obra."
 }

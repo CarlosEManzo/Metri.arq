@@ -1,0 +1,45 @@
+{
+  "clave_cb": "E11.05.0154",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "materiales": [
+    {
+      "insumo": "TAPON-PVC-SAN-50",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza Tapón Registro de pvc de 50 mm, incluye: materiales, acarreo"
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.06,
+      "desperdicio": 0.05,
+      "nota": "Cemento para cementación"
+    },
+    {
+      "insumo": "LIMPIADOR-PVC",
+      "cantidad": 0.03,
+      "desperdicio": 0.0,
+      "nota": "Limpieza pre-cementación"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 10.0,
+    "fuente": "INSTRUCCIONES_PARTE5.md (referencia por diámetro)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Instalación de Tapón Registro de pvc de 50 mm, incluye: materiales, acarreo con preparación, limpieza, cementación y prueba"
+  ],
+  "elaboro": "Agente de tarjetas (gen5e_v3.py)",
+  "reviso": ""
+}

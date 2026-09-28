@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.08.0003",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBOPLUS-TUBO-32",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Tubo Tuboplus 32mm"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25.0,
+    "fuente": "25.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Termofusora Rotoplas 600W",
+      "horas": 0.03333333333333333,
+      "costo_horario": 150.0
+    }
+  ],
+  "supuestos": [
+    "Concepto: Tuboplus de 32mm (25mm), incluye: suministro, acarreos, instalación, pruebas, ma"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

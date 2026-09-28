@@ -47,5 +47,6 @@
     "Precio de la pieza sin IVA, puesto en obra; ver regla y fuente en datos/insumos_lote5c.csv."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Tapón hembra 75 mm: pieza grande con rendimiento bajo (15 pza/jor). Precio escalado 0.65×codo 75 mm. +27% contra P.U. actualizado dentro de variabilidad regional (Michoacán vs CDMX). Composición M.O. 32% razonable. El P.U. actualizado puede tener otro tipo de tapón (quizá con otra rosca o presión)."
 }

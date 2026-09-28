@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E11.02.0002",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FF-TUBO-4",
+      "cantidad": 1.5,
+      "desperdicio": 0.03,
+      "nota": "Tubo Fo.Fo. campana 4\": Tubo de fierro fundido de 4\" de diámetro de 1 C x 1.50 m. ma"
+    },
+    {
+      "insumo": "PLOMO-4",
+      "cantidad": 0.4,
+      "desperdicio": 0.0,
+      "nota": "Plomo para juntas campana"
+    },
+    {
+      "insumo": "ESTOPA-4",
+      "cantidad": 0.16000000000000003,
+      "desperdicio": 0.0,
+      "nota": "Estopa para calafateo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 25,
+    "fuente": "25 m/jor, instrucciones parte 5"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Fierro fundido marca Tisa campana con plomo y estopa."
+  ],
+  "elaboro": "Agente lote 5b",
+  "reviso": ""
+}

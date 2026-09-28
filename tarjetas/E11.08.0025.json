@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.08.0025",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBOPLUS-CODO-45-40",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Codo 45° Tuboplus 40mm"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 14.0,
+    "fuente": "14.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [
+    {
+      "descripcion": "Termofusora Rotoplas 600W",
+      "horas": 0.03333333333333333,
+      "costo_horario": 150.0
+    }
+  ],
+  "supuestos": [
+    "Concepto: Codo de 40(32)x45° tuboplus, incluye: suministro, acarreos, instalación, pruebas"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

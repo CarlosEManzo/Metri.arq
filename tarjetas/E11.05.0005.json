@@ -1,0 +1,52 @@
+{
+  "clave_cb": "E11.05.0005",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [
+    {
+      "clave": "50.20.30",
+      "condicion": "si conduce agua pluvial"
+    }
+  ],
+  "materiales": [
+    {
+      "insumo": "TUBO-PVC-SAN-150",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Tubo: cortes, despuntes"
+    },
+    {
+      "insumo": "CEM-PVC-250",
+      "cantidad": 0.04,
+      "desperdicio": 0.05,
+      "nota": "≈0.67 juntas/m"
+    },
+    {
+      "insumo": "LIMPIADOR-PVC",
+      "cantidad": 0.02,
+      "desperdicio": 0.0,
+      "nota": "Limpieza de juntas"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 15.0,
+    "fuente": "15 m/jor; INSTRUCCIONES_PARTE5.md + ejemplo E11.05.0004 (20 m/jor para 100mm)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería 150mm colgada de losa, juntas cada 6m",
+    "Prueba de estanqueidad"
+  ],
+  "elaboro": "Agente de tarjetas (gen5e_final.py)",
+  "reviso": ""
+}

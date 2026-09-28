@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E11.10.0008",
+  "gubim": "50.20.20.60",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "HVX-25CHL",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza Helvex modelo 25CHL"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor, pieza acabada Helvex"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Pieza acabada Helvex marca, suministro e instalación."
+  ],
+  "elaboro": "Agente lote 5b",
+  "reviso": ""
+}

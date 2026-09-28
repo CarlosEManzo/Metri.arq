@@ -1,0 +1,77 @@
+{
+  "clave_cb": "E11.01.0024",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBO-CU-M-19",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Tramos 6.10 m; 3% cortes"
+    },
+    {
+      "insumo": "CODO-CU-19",
+      "cantidad": 0.5,
+      "desperdicio": 0.0,
+      "nota": "1 codo cada 2 m"
+    },
+    {
+      "insumo": "TEE-CU-19",
+      "cantidad": 0.2,
+      "desperdicio": 0.0,
+      "nota": "1 tee cada 5 m"
+    },
+    {
+      "insumo": "COPLE-CU-19",
+      "cantidad": 0.17,
+      "desperdicio": 0.0,
+      "nota": "1 cople por tramo"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.0029,
+      "desperdicio": 0.1,
+      "nota": "≈3 g junta"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.0007,
+      "desperdicio": 0.0,
+      "nota": "0.5 g"
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 0.0146,
+      "desperdicio": 0.0,
+      "nota": "1 cartucho"
+    },
+    {
+      "insumo": "ABRAZ-CU-19",
+      "cantidad": 0.55,
+      "desperdicio": 0.0,
+      "nota": "Cada 1.5 m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 30,
+    "fuente": "30 m/jor (catálogo base)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Instalación en muro o ducto.",
+    "Conexiones proporcionales de red."
+  ],
+  "elaboro": "Generador 5a",
+  "reviso": ""
+}

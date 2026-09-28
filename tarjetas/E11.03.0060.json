@@ -47,5 +47,6 @@
     "Precio de la pieza sin IVA, puesto en obra; ver regla y fuente en datos/insumos_lote5c.csv."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Reducción bushing de diámetro grande (75 mm) con rendimiento reducido (17.5 pza/jor). Precio escalado por regla: 0.6 + 0.2×(d/75)× codo 75mm ($290.65), validado en Surtidor con descuento 15%. Composición razonable (M.O. 36-37%). Diferencia +26 a +37% contra P.U. actualizado dentro del rango de variabilidad regional de renders para conexiones grandes."
 }

@@ -1,0 +1,40 @@
+{
+  "clave_cb": "E11.07.0044",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CPVC-COPLE-13",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Cople CPVC 13mm"
+    },
+    {
+      "insumo": "CPVC-CEMENTO",
+      "cantidad": 0.0004,
+      "desperdicio": 0.0,
+      "nota": "Cementado CPVC"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 20.0,
+    "fuente": "20.0 unid/jor (ref. instrucciones lote 5g)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Concepto: Cople de CPVC 13 mm, Incluye: suministro de materiales, acarreos, instalación, p"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

@@ -1,0 +1,37 @@
+{
+  "clave_cb": "E11.06.0005",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "alta",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBO-HIDR-LISO-38",
+      "cantidad": 1.0,
+      "desperdicio": 0.05,
+      "nota": "Tramos de 6 m; 5 % por cortes y ajustes"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 24,
+    "fuente": "24 m/jor Of plomero + Ay (referencia de lote: rango 30-30 m/jor para 13-25 mm; se adapta por diámetro)"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Tubería visible sobre muro o en ducto, fijada con abrazaderas; ranuras, trincheras y pasos en losa se pagan aparte.",
+    "Extremos lisos: para uniones internas (campana dentro del tubo) o conexiones roscadas externas.",
+    "Incluye cortes en obra si es necesario; conexiones (codos, tees, reducciones) se pagan en sus conceptos.",
+    "Prueba de hermeticidad con agua de la obra."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

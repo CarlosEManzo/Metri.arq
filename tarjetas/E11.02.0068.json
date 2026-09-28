@@ -1,0 +1,46 @@
+{
+  "clave_cb": "E11.02.0068",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FF-COPLE-6",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Pieza Fo.Fo. campana 6\": Cople de fierro fundido de 6\" de la marca Tisa, incluye: mat"
+    },
+    {
+      "insumo": "PLOMO-6",
+      "cantidad": 0.6,
+      "desperdicio": 0.0,
+      "nota": "Plomo para juntas campana"
+    },
+    {
+      "insumo": "ESTOPA-6",
+      "cantidad": 0.24,
+      "desperdicio": 0.0,
+      "nota": "Estopa para calafateo"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 8,
+    "fuente": "8 pza/jor, instrucciones parte 5"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Fierro fundido marca Tisa campana con plomo y estopa."
+  ],
+  "elaboro": "Agente lote 5b",
+  "reviso": ""
+}

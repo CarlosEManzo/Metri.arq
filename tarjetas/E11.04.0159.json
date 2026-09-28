@@ -1,0 +1,44 @@
+{
+  "clave_cb": "E11.04.0159",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "FG-CODO-NIPLE-51",
+      "cantidad": 1.0,
+      "desperdicio": 0.03,
+      "nota": "Codo niple 90° 51 mm; 3% por daño en manejo"
+    },
+    {
+      "insumo": "TEFLON-CINTA",
+      "cantidad": 0.007,
+      "desperdicio": 0.1,
+      "nota": "Sellado de rosca hembra, entrada al codo; ~0.35m cinta"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 7,
+    "fuente": "7 pza/jor Of plomero + Ay, codos niple 51 mm. Referencia: codo 90° solo es más lento porque se rosca tubo; codo niple ya viene hecho"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Codo niple 90° de acero galvanizado, cédula 40, hierro maleable clase 150.",
+    "Incluye enroscado en tuberías y sellado con cinta teflón.",
+    "No incluye abrazaderas ni soportes.",
+    "Accesorio preformado, no requiere corte en obra."
+  ],
+  "elaboro": "Agente de tarjetas",
+  "reviso": "",
+  "validacion_no_independiente": "Precios de insumos escalados desde E11.03 (fierro negro) × 1.20 (galvanizado); niples y conexiones especiales estimados por proporciones de mercado. Requiere cotización directa para validación independiente."
+}
