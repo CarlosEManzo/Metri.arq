@@ -102,6 +102,8 @@ Después de corregirlo quedan **326 conceptos a revisar** (hoja Alertas, tipo "R
 
 Son proporciones razonables: mucha mano de obra en obra negra y poca en equipos y muebles.
 
+**Calibración del muro de block (2026-09-28).** Carlos indicó que 8 a 10 m²/jornada (CMIC/OneEstimate) es más realista que los 14 de los APU publicados. Se fijó 9 m²/jornada en `scripts/rendimientos.py` (`muro_block`) y las 33 tarjetas de muro de block se escalaron ×9/14 (cada una conserva su rendimiento anterior en la fuente). El P.U. del muro de 15 cm pasa de $489.68 a $551.79/m²: +31 % sobre el P.U. actualizado de Construbase y +4 % sobre el tabulador CDMX. Las tarjetas afectadas llevan `desviacion_justificada`.
+
 **Los rendimientos no están validados contra obra.** 123 conceptos son de maquinaria, así que no se pueden revisar con esta prueba de mano de obra. Antes de usarlos para programar obra se deben contrastar con las matrices de Construbase (si se consigue el export con análisis de P.U.) o con datos propios.
 
 ## 6. Precios

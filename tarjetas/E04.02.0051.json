@@ -43,8 +43,8 @@
         "personas": 1
       }
     ],
-    "rendimiento": 8.4,
-    "fuente": "Rendimiento base Of+Pe 12.0 m²/jor para block de 20 cm (catálogo 14 m²/jor; APU publicados 12-16, menor en piezas más pesadas); muro curvo −30 % → 8.4 m²/jor. El peón elabora el mortero"
+    "rendimiento": 5.4,
+    "fuente": "Rendimiento base Of+Pe 12.0 m²/jor para block de 20 cm (catálogo 14 m²/jor; APU publicados 12-16, menor en piezas más pesadas); muro curvo −30 % → 8.4 m²/jor. El peón elabora el mortero | Calibración 2026-09-28: ×9/14 (rendimiento de referencia 8-10 m²/jor, decisión de Carlos; antes 8.4)"
   },
   "equipo": [],
   "supuestos": [
@@ -55,5 +55,6 @@
     "Refuerzo horizontal con 2 alambrón(es) de 1/4 in a cada 2 hiladas, ahogado en la junta."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "desviacion_justificada": "Rendimiento calibrado a 9 m²/jornada por criterio de Carlos (2026-09-28): 8 a 10 m²/jornada según CMIC/OneEstimate, más realista que los 14 m²/jornada de los APU publicados. El P.U. actualizado de Construbase supone la productividad de esos APU, por eso el P.U. de la tarjeta queda por encima. Referencia externa (solo muro de block de 15 cm): tabulador CDMX GC23CN $531.16/m², +4 % contra esta tarjeta."
 }
