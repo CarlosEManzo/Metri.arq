@@ -1,5 +1,15 @@
 # Instrucciones comunes para los lotes de la Parte 5 (instalaciones hidrosanitarias)
 
+> Segunda pasada. La primera (hecha con otro modelo) se descartó por estos errores, que **no deben repetirse**:
+> - insumos referenciados en tarjetas sin crearlos (el validador da error "Faltan datos de referencia");
+> - copiar al CSV del lote insumos que ya existen en otros archivos (duplicados);
+> - precios sin fuente o absurdos (tubo a $0.50/m) y precios sacados del P.U. del catálogo;
+> - esconder alertas con `cdmx_no_comparable` especulativo ("probablemente…"). Una razón de no comparabilidad debe ser
+>   **verificable**: cita el concepto CDMX (está en `salida/pares_tabulador_cdmx.csv`) y di qué cambia, con cifras.
+>   Ejemplo válido (lote 5c): "el tabulador paga $113 de costo directo por un codo que cuesta $95 en el mercado: no alcanza
+>   para instalarlo". Si el concepto CDMX es la misma pieza, el par ES comparable: corrige precio o rendimiento.
+> Meta: 0 errores y alertas solo excepcionales, cada una documentada.
+
 Sigue `.claude/agents/tarjetas-pu.md`. Además:
 
 **Trabajo en paralelo** (hay varios agentes a la vez):
@@ -15,7 +25,7 @@ Sigue `.claude/agents/tarjetas-pu.md`. Además:
 **Cómo trabajar (lotes grandes):**
 1. Lee el catálogo de tus claves:
    `python3 -c "import csv;L=open('auditorias/listas/parte_5X.txt').read().split();[print(r['clave_cb'],r['unidad'],r['pu_actualizado'],r['descripcion'][:150]) for r in csv.DictReader(open('salida/construbase_gubim.csv',encoding='utf-8-sig')) if r['clave_cb'] in L]"`
-2. Mira 2–3 tarjetas terminadas como ejemplo: `tarjetas/E11.03.0001.json` (fierro negro, recién hecha) y `tarjetas/E11.01.0023.json` (cobre, de la canasta).
+2. Mira 2–3 tarjetas terminadas como ejemplo: `tarjetas/E11.03.0020.json` (codo de fierro negro), `tarjetas/E11.03.0001.json` y `tarjetas/E11.05.0004.json` / `tarjetas/E11.01.0023.json` (canasta, con par CDMX). Los precios de fierro negro validados están en `datos/insumos_lote5c.csv`.
 3. Escribe **un script de Python** en `/tmp/claude-0/-home-user-Metri-arq/67aa2765-a490-59ee-9a40-1b93b94192e7/scratchpad/gen5X.py`. El script genera todas las tarjetas por familia, con tablas de precio por diámetro y rendimiento por diámetro, y escribe tu CSV de insumos. Así, si te cortan, se regenera todo.
 4. Escribe las tarjetas **pronto**, aunque sean preliminares, y después afínalas.
 5. Valida con `python3 scripts/tarjeta_pu.py --validar-lote auditorias/listas/parte_5X.txt` hasta tener 0 errores. Revisa las alertas.

@@ -1,0 +1,53 @@
+clave,descripcion,unidad,precio,fuente,fecha,estado
+HVX-24,Coladera piso modelo 24,pza,1200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24CH,Coladera piso modelo 24-CH,pza,1300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24HL,Coladera piso modelo 24-HL,pza,1350.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-24CHL,Coladera piso modelo 24-CHL,pza,1450.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25,Coladera piso modelo 25,pza,1500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25CH,Coladera piso modelo 25-CH,pza,1600.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25HL,Coladera piso modelo 25-HL,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-25CHL,Coladera piso modelo 25-CHL,pza,1800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-26,Coladera piso modelo 26,pza,1400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-27,Coladera piso modelo 27,pza,1600.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28,Coladera piso modelo 28,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-282H,Coladera baño modelo 282-H,pza,2200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-282HL,Coladera baño modelo 282-HL,pza,2500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28235CHL,Coladera baño modelo 282-35-CHL,pza,3200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-632H,Rebosadero modelo 632-H,pza,1700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-342R,Rebosadero modelo 342-R,pza,700.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-342C,Rebosadero modelo 342-C,pza,800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-1342H,Coladera baño modelo 1342-H,pza,1900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-1342HL,Coladera baño modelo 1342-HL,pza,2200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-134235CHL,Coladera baño modelo 1342-35-CHL,pza,2800.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2584,Coladera piso 25 cm modelo 2584,pza,5300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28235CH,Coladera baño modelo 282-35-CH,pza,2900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-134235CH,Coladera baño modelo 1342-35-CH,pza,2500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-444,Coladera cúpula azotea modelo 444,pza,1500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-444X,Coladera cúpula azotea modelo 444-X,pza,1750.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-446X,Coladera cúpula azotea modelo 446-X,pza,3200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2514,Coladera piso con campana modelo 2514,pza,1900.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-2714,Coladera piso rectangular modelo 2714,pza,4400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-4954,Coladera pretil modelo 4954,pza,2100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-5424,Coladera azoteas modelo 5424,pza,2300.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-VD1176,Válvula drenaje 150mm modelo V.D. 1176 Helvex,pza,6400.0,Estimación Helvex,2026-09,referencia
+HVX-IG20,Interceptor grasas modelo IG-20,pza,14400.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-IG40,Interceptor grasas modelo IG-40,pza,23000.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-11032MM,Fluxómetro modelo 110-32mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-11038MM,Fluxómetro modelo 110-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-11738MM,Fluxómetro modelo 117-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-21032MM,Fluxómetro modelo 210-32mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-21038MM,Fluxómetro modelo 210-38mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-28519MM,Fluxómetro modelo 285-19mm,pza,5200.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-31019MM,Fluxómetro modelo 310-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-31032MM,Fluxómetro modelo 310-32mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-31038MM,Fluxómetro modelo 310-38mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-32319MM,Fluxómetro modelo 323-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-41019MM,Fluxómetro modelo 410-19mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-41032MM,Fluxómetro modelo 410-32mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-41038MM,Fluxómetro modelo 410-38mm,pza,6100.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC11032,Fluxómetro sensor modelo FC-110-32,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC11038,Fluxómetro sensor modelo FC-110-38,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FC18519,Fluxómetro sensor modelo FC-185-19,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB11032,Fluxómetro sensor modelo FB-110-32,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB11038,Fluxómetro sensor modelo FB-110-38,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
+HVX-FB18519,Fluxómetro sensor modelo FB-185-19,pza,13500.0,Estimación Helvex (por cotizar),2026-09,referencia
