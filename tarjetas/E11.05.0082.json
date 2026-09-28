@@ -4,7 +4,7 @@
   "gubim_confianza": "media",
   "materiales": [
     {
-      "insumo": "YEE-DBL-RED-PVC-SAN-100",
+      "insumo": "YEE-DBL-RED-PVC-SAN-150-100",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Yee doble reducción de PVC sanitario mul"
@@ -38,7 +38,7 @@
   },
   "equipo": [],
   "supuestos": [
-    "PVC sanitario 150mm; typical installation conditions"
+    "PVC sanitario 150mm; standard installation"
   ],
   "elaboro": "gen5e_final.py",
   "reviso": ""

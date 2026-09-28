@@ -1,0 +1,80 @@
+{
+  "clave_cb": "E11.11.0002",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "TUBO-CU-M-13",
+      "cantidad": 8.0,
+      "desperdicio": 0.03,
+      "nota": "4 m + 4 m adicionales"
+    },
+    {
+      "insumo": "CODO-CU-13",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": "3 codos"
+    },
+    {
+      "insumo": "TEE-CU-13",
+      "cantidad": 3,
+      "desperdicio": 0,
+      "nota": "3 tee"
+    },
+    {
+      "insumo": "TAPON-CAPA",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": "2 tapones"
+    },
+    {
+      "insumo": "CONECTOR-CUERDA-INT",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "1 conector"
+    },
+    {
+      "insumo": "LLAVE-EMPOTRADA",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": "2 llaves"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.02,
+      "desperdicio": 0.1,
+      "nota": "Soldadura"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.004,
+      "desperdicio": 0,
+      "nota": "Fundente"
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 0.015,
+      "desperdicio": 0,
+      "nota": "Gas"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.0,
+    "fuente": "4 salidas/jor: tuberías extendidas"
+  },
+  "equipo": [],
+  "supuestos": [],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

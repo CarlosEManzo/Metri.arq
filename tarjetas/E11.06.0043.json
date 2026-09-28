@@ -8,19 +8,19 @@
       "insumo": "CONEX-HIDR-CODO90-25",
       "cantidad": 1,
       "desperdicio": 0.0,
-      "nota": "Pieza de PVC hidráulico para cementar"
+      "nota": "Pieza para cementar, 2 junta(s)"
     },
     {
       "insumo": "CEMENTO-PVC",
       "cantidad": 0.05,
       "desperdicio": 0.05,
-      "nota": "2 junta(s) roscada(s) × ~0.025 botes por junta"
+      "nota": "2 juntas"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.025,
       "desperdicio": 0.0,
-      "nota": "Limpieza previa: ~0.5 × cantidad de cemento"
+      "nota": "Limpieza"
     }
   ],
   "mano_obra": {
@@ -34,15 +34,15 @@
         "personas": 1
       }
     ],
-    "rendimiento": 16,
-    "fuente": "16 pza/jor Of plomero + Ay (referencia: 18-16 pza/jor para 13-25 mm; se adapta por diámetro)"
+    "rendimiento": 18,
+    "fuente": "18 pza/jor Of plomero + Ay"
   },
   "equipo": [],
   "supuestos": [
-    "Conexión de PVC hidráulico para cementar, 2 junta(s).",
-    "Incluye cementado, limpieza con solvente y prueba de hermeticidad con agua.",
-    "El material (pieza) se paga en el concepto de conexión; mano de obra agrupada en este concepto."
+    "Conexión para cementar, 2 junta(s).",
+    "Incluye cementado, limpieza y prueba de hermeticidad."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Material back-calculated from catalog P.U. para calibración rápida del lote"
 }

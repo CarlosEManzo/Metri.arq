@@ -4,7 +4,7 @@
   "gubim_confianza": "media",
   "materiales": [
     {
-      "insumo": "CODO-PVC-SAN-100-45-ANGER",
+      "insumo": "CODO-PVC-SAN-50-90-ANGER",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Codo de pvc sanitario anger 100 mm, sali"
@@ -38,7 +38,7 @@
   },
   "equipo": [],
   "supuestos": [
-    "PVC sanitario 100mm; typical installation conditions"
+    "PVC sanitario 100mm; standard installation"
   ],
   "elaboro": "gen5e_final.py",
   "reviso": ""

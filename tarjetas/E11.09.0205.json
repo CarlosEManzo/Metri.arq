@@ -14,7 +14,7 @@
       "insumo": "TEFLON-CINTA",
       "cantidad": 0.0036,
       "desperdicio": 0.1,
-      "nota": "Aproximadamente 3.6 m de cinta por junta (rollo de 10 m)"
+      "nota": "Aproximadamente 3.6 m de cinta por junta"
     }
   ],
   "mano_obra": {
@@ -29,14 +29,14 @@
       }
     ],
     "rendimiento": 10.0,
-    "fuente": "Catálogo rendimiento 10 pza/jor para 32 mm. Rango de referencias: 13-25 mm 14-20 pza/jor; 32-50 mm 8-12 pza/jor; 64-100 mm 4-8 pza/jor"
+    "fuente": "Catálogo: 10 pza/jor para 32 mm. Rango de referencias: 13-25 mm 14-20; 32-50 mm 8-12; 64-100 mm 4-8 pza/jor"
   },
   "equipo": [],
   "supuestos": [
-    "Válvula de retención columpio de latón/bronce Fig.87T, 32 mm, unión roscable, suministro e instalación con herramientas menores.",
-    "Incluye sellado de roscas (teflón) o preparación de soldadura según corresponda.",
+    "Válvula de retención columpio de latón/bronce Fig.87T, 32 mm, unión roscable.",
+    "Suministro e instalación con herramientas menores (teflón o equipo de soldadura).",
     "Andamio, cimbra y equipos especiales se pagan aparte.",
-    "Prueba de hermeticidad con manómetro incluida en rendimiento."
+    "Prueba de hermeticidad con manómetro incluida."
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": ""

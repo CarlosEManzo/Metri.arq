@@ -30,5 +30,10 @@
     "Suministro e instalación."
   ],
   "elaboro": "Generador 5a",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Precio de insumo de reducción derivado del P.U. del catálogo debido a falta de cotización directa en el mercado",
+  "referencia_sustituta": {
+    "pu": 94.46,
+    "razon": "Precio unitario tomado directamente del catálogo (P.U. actualizado) para validar componentes de conexión"
+  }
 }

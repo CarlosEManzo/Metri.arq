@@ -25,6 +25,9 @@ CPVC-CODO-90-25,Codo CPVC 90° 25 mm,pza,18.5,Referencia distribuidor,2026-09,re
 CPVC-CODO-90-32,Codo CPVC 90° 32 mm,pza,32.0,Referencia distribuidor,2026-09,referencia
 CPVC-CODO-90-38,Codo CPVC 90° 38 mm,pza,50.0,Referencia distribuidor,2026-09,referencia
 CPVC-CODO-90-50,Codo CPVC 90° 50 mm,pza,85.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-45-13,Codo macho hembra CPVC 45° 13 mm,pza,12.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-45-19,Codo macho hembra CPVC 45° 19 mm,pza,18.0,Referencia distribuidor,2026-09,referencia
+CPVC-CODO-MH-45-25,Codo macho hembra CPVC 45° 25 mm,pza,28.0,Referencia distribuidor,2026-09,referencia
 CPVC-CODO-MH-90-13,Codo macho hembra CPVC 90° 13 mm,pza,15.0,Referencia distribuidor,2026-09,referencia
 CPVC-CODO-MH-90-19,Codo macho hembra CPVC 90° 19 mm,pza,22.0,Referencia distribuidor,2026-09,referencia
 CPVC-CODO-MH-90-25,Codo macho hembra CPVC 90° 25 mm,pza,32.0,Referencia distribuidor,2026-09,referencia
@@ -35,15 +38,28 @@ CPVC-COPLE-25,Cople CPVC 25 mm,pza,12.0,Referencia distribuidor,2026-09,referenc
 CPVC-COPLE-32,Cople CPVC 32 mm,pza,20.0,Referencia distribuidor,2026-09,referencia
 CPVC-COPLE-38,Cople CPVC 38 mm,pza,35.0,Referencia distribuidor,2026-09,referencia
 CPVC-COPLE-51,Cople CPVC 51 mm,pza,65.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-RED-19-13,Cople reducción CPVC 19x13 mm,pza,9.0,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-TRANS-HEM-13,Cople transición hembra CPVC 13 mm,pza,7.5,Referencia distribuidor,2026-09,referencia
+CPVC-COPLE-TRANS-MACH-13,Cople transición macho CPVC 13 mm,pza,8.5,Referencia distribuidor,2026-09,referencia
 CPVC-RED-25-19,Reducción bushing CPVC 25x19 mm,pza,10.5,Referencia distribuidor,2026-09,referencia
 CPVC-RED-32-19,Reducción bushing CPVC 32x19 mm,pza,16.0,Referencia distribuidor,2026-09,referencia
 CPVC-RED-32-25,Reducción bushing CPVC 32x25 mm,pza,18.5,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-13,Tapón capa CPVC 13 mm,pza,4.5,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-19,Tapón capa CPVC 19 mm,pza,6.5,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-25,Tapón capa CPVC 25 mm,pza,9.5,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-32,Tapón capa CPVC 32 mm,pza,16.0,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-38,Tapón capa CPVC 38 mm,pza,24.0,Referencia distribuidor,2026-09,referencia
+CPVC-TAPON-51,Tapón capa CPVC 51 mm,pza,45.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-13,Tee CPVC 13 mm,pza,12.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-19,Tee CPVC 19 mm,pza,18.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-25,Tee CPVC 25 mm,pza,28.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-32,Tee CPVC 32 mm,pza,50.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-38,Tee CPVC 38 mm,pza,75.0,Referencia distribuidor,2026-09,referencia
 CPVC-TEE-51,Tee CPVC 51 mm,pza,140.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-RED-19-13-13,Tee reducción CPVC 19x13x13 mm,pza,16.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-RED-19-19-13,Tee reducción CPVC 19x19x13 mm,pza,16.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-RED-25-25-19,Tee reducción CPVC 25x25x19 mm,pza,26.0,Referencia distribuidor,2026-09,referencia
+CPVC-TEE-RED-32-25-25,Tee reducción CPVC 32x25x25 mm,pza,45.0,Referencia distribuidor,2026-09,referencia
 CPVC-TUBO-13,Tubo CPVC 13 mm (RD 13.5),m,42.5,Referencia Home Depot MX,2026-09,referencia
 CPVC-TUBO-19,Tubo CPVC 19 mm (RD 13.5),m,64.2,Referencia Home Depot MX,2026-09,referencia
 CPVC-TUBO-25,Tubo CPVC 25 mm (RD 13.5),m,108.5,Referencia Home Depot MX,2026-09,referencia
@@ -89,6 +105,12 @@ TUBOPLUS-CODO-MH-45-25,Codo macho hembra 45° Tuboplus 25mm,pza,62.0,Referencia 
 TUBOPLUS-CODO-MH-45-32,Codo macho hembra 45° Tuboplus 32mm,pza,95.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CODO-MH-90-20,Codo macho hembra 90° Tuboplus 20mm,pza,42.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CODO-MH-90-25,Codo macho hembra 90° Tuboplus 25mm,pza,65.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-EXT-20,Codo 90° rosca exterior Tuboplus 20mm,pza,60.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-EXT-25,Codo 90° rosca exterior Tuboplus 25mm,pza,85.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-EXT-32,Codo 90° rosca exterior Tuboplus 32mm,pza,135.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-INT-20,Codo 90° rosca interior Tuboplus 20mm,pza,55.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-INT-25,Codo 90° rosca interior Tuboplus 25mm,pza,78.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CODO-ROS-INT-32,Codo 90° rosca interior Tuboplus 32mm,pza,125.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CONECTOR-HEM-20-13,Conector hembra Tuboplus 20x13,pza,55.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CONECTOR-HEM-20-19,Conector hembra Tuboplus 20x19,pza,58.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CONECTOR-HEM-25-13,Conector hembra Tuboplus 25x13,pza,65.0,Referencia Rotoplas,2026-09,referencia
@@ -111,6 +133,29 @@ TUBOPLUS-CONECTOR-MACH-50-38,Conector macho Tuboplus 50x38,pza,188.0,Referencia 
 TUBOPLUS-CONECTOR-MACH-63-51,Conector macho Tuboplus 63x51,pza,295.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CONECTOR-MACH-75-64,Conector macho Tuboplus 75x64,pza,455.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-CONECTOR-MACH-90-75,Conector macho Tuboplus 90x75,pza,680.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-110,Cople Tuboplus 110mm,pza,1350.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-20,Cople Tuboplus 20mm,pza,45.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-25,Cople Tuboplus 25mm,pza,68.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-32,Cople Tuboplus 32mm,pza,105.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-40,Cople Tuboplus 40mm,pza,155.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-50,Cople Tuboplus 50mm,pza,220.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-63,Cople Tuboplus 63mm,pza,340.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-75,Cople Tuboplus 75mm,pza,680.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-COPLE-90,Cople Tuboplus 90mm,pza,900.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-CRUZ-20,Cruz Tuboplus 20mm,pza,95.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-LLAVE-20,Llave de empotrar Tuboplus 20mm,pza,280.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-LLAVE-25,Llave de empotrar Tuboplus 25mm,pza,420.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-110-20,Montura derivación Tuboplus 110x20,pza,720.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-110-25,Montura derivación Tuboplus 110x25,pza,800.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-110-32,Montura derivación Tuboplus 110x32,pza,880.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-63-20,Montura derivación Tuboplus 63x20,pza,185.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-63-25,Montura derivación Tuboplus 63x25,pza,205.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-75-20,Montura derivación Tuboplus 75x20,pza,310.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-75-25,Montura derivación Tuboplus 75x25,pza,340.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-75-32,Montura derivación Tuboplus 75x32,pza,380.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-90-20,Montura derivación Tuboplus 90x20,pza,480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-90-25,Montura derivación Tuboplus 90x25,pza,520.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-MONTURA-90-32,Montura derivación Tuboplus 90x32,pza,580.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-RED-110-75,Reducción Tuboplus 110x75,pza,720.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-RED-110-90,Reducción Tuboplus 110x90,pza,800.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-RED-25-20,Reducción Tuboplus 25x20,pza,45.0,Referencia Rotoplas,2026-09,referencia
@@ -126,6 +171,15 @@ TUBOPLUS-RED-75-50,Reducción Tuboplus 75x50,pza,310.0,Referencia Rotoplas,2026-
 TUBOPLUS-RED-75-63,Reducción Tuboplus 75x63,pza,340.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-RED-90-63,Reducción Tuboplus 90x63,pza,480.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-RED-90-75,Reducción Tuboplus 90x75,pza,520.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-110,Tapón Tuboplus 110mm,pza,430.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-20,Tapón Tuboplus 20mm,pza,15.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-25,Tapón Tuboplus 25mm,pza,22.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-32,Tapón Tuboplus 32mm,pza,35.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-40,Tapón Tuboplus 40mm,pza,52.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-50,Tapón Tuboplus 50mm,pza,80.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-63,Tapón Tuboplus 63mm,pza,125.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-75,Tapón Tuboplus 75mm,pza,190.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TAPON-90,Tapón Tuboplus 90mm,pza,285.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TEE-110,Tee Tuboplus 110mm,pza,2200.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TEE-20,Tee Tuboplus 20mm,pza,70.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TEE-25,Tee Tuboplus 25mm,pza,105.0,Referencia Rotoplas,2026-09,referencia
@@ -135,6 +189,33 @@ TUBOPLUS-TEE-50,Tee Tuboplus 50mm,pza,420.0,Referencia Rotoplas,2026-09,referenc
 TUBOPLUS-TEE-63,Tee Tuboplus 63mm,pza,650.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TEE-75,Tee Tuboplus 75mm,pza,980.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TEE-90,Tee Tuboplus 90mm,pza,1480.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-25-20-20,Tee reducción Tuboplus 25x20x20,pza,120.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-25-20-25,Tee reducción Tuboplus 25x20x25,pza,120.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-25-25-20,Tee reducción Tuboplus 25x25x20,pza,120.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-20-20,Tee reducción Tuboplus 32x20x20,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-20-25,Tee reducción Tuboplus 32x20x25,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-20-32,Tee reducción Tuboplus 32x20x32,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-25-20,Tee reducción Tuboplus 32x25x20,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-25-25,Tee reducción Tuboplus 32x25x25,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-25-32,Tee reducción Tuboplus 32x25x32,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-32-20,Tee reducción Tuboplus 32x32x20,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-32-32-25,Tee reducción Tuboplus 32x32x25,pza,180.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-40-40-25,Tee reducción Tuboplus 40x40x25,pza,280.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-40-40-32,Tee reducción Tuboplus 40x40x32,pza,280.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-50-50-32,Tee reducción Tuboplus 50x50x32,pza,430.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-50-50-40,Tee reducción Tuboplus 50x50x40,pza,430.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-63-63-40,Tee reducción Tuboplus 63x63x40,pza,660.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-63-63-50,Tee reducción Tuboplus 63x63x50,pza,660.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-75-75-50,Tee reducción Tuboplus 75x75x50,pza,1000.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-75-75-63,Tee reducción Tuboplus 75x75x63,pza,1000.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-90-90-63,Tee reducción Tuboplus 90x90x63,pza,1500.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-RED-90-90-75,Tee reducción Tuboplus 90x90x75,pza,1500.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-EXT-20,Tee rosca exterior central Tuboplus 20mm,pza,105.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-EXT-25,Tee rosca exterior central Tuboplus 25mm,pza,160.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-EXT-32,Tee rosca exterior central Tuboplus 32mm,pza,250.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-INT-20,Tee rosca interior central Tuboplus 20mm,pza,95.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-INT-25,Tee rosca interior central Tuboplus 25mm,pza,145.0,Referencia Rotoplas,2026-09,referencia
+TUBOPLUS-TEE-ROS-INT-32,Tee rosca interior central Tuboplus 32mm,pza,225.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TUBO-110,Tubo Tuboplus 110 mm (100 mm interior),m,1350.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TUBO-20,Tubo Tuboplus 20 mm (13 mm interior),m,45.0,Referencia Rotoplas,2026-09,referencia
 TUBOPLUS-TUBO-25,Tubo Tuboplus 25 mm (19 mm interior),m,68.0,Referencia Rotoplas,2026-09,referencia

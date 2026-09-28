@@ -1,201 +1,210 @@
 clave,descripcion,unidad,precio,fuente,fecha,estado
-TUBO-HIDR-LISO-13,"Tubo PVC hidráulico de 13 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,52.16,"Catálogo Construbase P.U. actualizado $60.51 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-19,"Tubo PVC hidráulico de 19 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,59.90,"Catálogo Construbase P.U. actualizado $69.48 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-25,"Tubo PVC hidráulico de 25 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,87.52,"Catálogo Construbase P.U. actualizado $101.52 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-32,"Tubo PVC hidráulico de 32 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,73.20,"Catálogo Construbase P.U. actualizado $84.91 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-38,"Tubo PVC hidráulico de 38 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,85.58,"Catálogo Construbase P.U. actualizado $99.27 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-50,"Tubo PVC hidráulico de 50 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,105.47,"Catálogo Construbase P.U. actualizado $122.35 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-60,"Tubo PVC hidráulico de 60 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,112.15,"Catálogo Construbase P.U. actualizado $130.09 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-75,"Tubo PVC hidráulico de 75 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,172.46,"Catálogo Construbase P.U. actualizado $200.05 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-LISO-100,"Tubo PVC hidráulico de 100 mm extremos lisos (RD-26 o mayor, RD-21/RD-32.5 diámetros chicos), tramo 6 m",m,243.07,"Catálogo Construbase P.U. actualizado $281.96 con IVA (derivado: sin cemento ni anillo, extremos lisos para unión por campana interna o conexión roscada externa); rango de mercado estimado $55-125 con IVA",2026-09,referencia
-TUBO-HIDR-CAMP-13,"Tubo PVC hidráulico de 13 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,50.41,"Catálogo Construbase P.U. actualizado $58.48 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-19,"Tubo PVC hidráulico de 19 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,57.64,"Catálogo Construbase P.U. actualizado $66.86 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-25,"Tubo PVC hidráulico de 25 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,68.21,"Catálogo Construbase P.U. actualizado $79.12 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-32,"Tubo PVC hidráulico de 32 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,67.24,"Catálogo Construbase P.U. actualizado $78.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-38,"Tubo PVC hidráulico de 38 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,81.90,"Catálogo Construbase P.U. actualizado $95.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-50,"Tubo PVC hidráulico de 50 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,117.51,"Catálogo Construbase P.U. actualizado $136.31 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-60,"Tubo PVC hidráulico de 60 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,153.60,"Catálogo Construbase P.U. actualizado $178.18 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-75,"Tubo PVC hidráulico de 75 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,202.09,"Catálogo Construbase P.U. actualizado $234.42 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-100,"Tubo PVC hidráulico de 100 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,295.69,"Catálogo Construbase P.U. actualizado $343.00 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-150,"Tubo PVC hidráulico de 150 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,553.26,"Catálogo Construbase P.U. actualizado $641.78 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
-TUBO-HIDR-CAMP-200,"Tubo PVC hidráulico de 200 mm campana para cementar (RD-21/RD-26/RD-32.5), tramo 6 m",m,871.60,"Catálogo Construbase P.U. actualizado $1011.06 con IVA (tubo con campana preparada para cementar, incluye: suministro de materiales, instalación)",2026-09,referencia
 CEMENTO-PVC,Cemento para PVC bote 250 ml,pza,68.00,"Foset/Truper PPVC-250 $79 con IVA (elferretero.com.mx, truper.com); rango $79-155 con IVA",2026-09,validado con rango de mercado
-LIMPIADOR-PVC,Limpiador para PVC bote 355 ml,pza,45.00,"Cleaner PVC profesional (Foset, Truper); rango de mercado $45-80 con IVA, se toma $50 sin IVA (estimación)",2026-09,referencia
-CONEX-HIDR-CODO90-13,Codo 90° PVC hidráulico de 13 mm para cementar,pza,40.24,Catálogo Construbase P.U. actualizado $46.68 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-19,Codo 90° PVC hidráulico de 19 mm para cementar,pza,44.74,Catálogo Construbase P.U. actualizado $51.90 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-25,Codo 90° PVC hidráulico de 25 mm para cementar,pza,55.14,Catálogo Construbase P.U. actualizado $63.96 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-32,Codo 90° PVC hidráulico de 32 mm para cementar,pza,68.21,Catálogo Construbase P.U. actualizado $79.12 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-38,Codo 90° PVC hidráulico de 38 mm para cementar,pza,74.46,Catálogo Construbase P.U. actualizado $86.37 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-50,Codo 90° PVC hidráulico de 50 mm para cementar,pza,95.65,Catálogo Construbase P.U. actualizado $110.95 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-60,Codo 90° PVC hidráulico de 60 mm para cementar,pza,110.92,Catálogo Construbase P.U. actualizado $128.67 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-75,Codo 90° PVC hidráulico de 75 mm para cementar,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-100,Codo 90° PVC hidráulico de 100 mm para cementar,pza,220.05,Catálogo Construbase P.U. actualizado $255.26 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-150,Codo 90° PVC hidráulico de 150 mm para cementar,pza,396.11,Catálogo Construbase P.U. actualizado $459.49 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO90-200,Codo 90° PVC hidráulico de 200 mm para cementar,pza,588.79,Catálogo Construbase P.U. actualizado $683.00 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-13,Tee PVC hidráulico de 13 mm para cementar,pza,56.45,Catálogo Construbase P.U. actualizado $65.48 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-19,Tee PVC hidráulico de 19 mm para cementar,pza,63.20,Catálogo Construbase P.U. actualizado $73.31 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-25,Tee PVC hidráulico de 25 mm para cementar,pza,77.80,Catálogo Construbase P.U. actualizado $90.25 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-32,Tee PVC hidráulico de 32 mm para cementar,pza,92.72,Catálogo Construbase P.U. actualizado $107.55 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-38,Tee PVC hidráulico de 38 mm para cementar,pza,103.97,Catálogo Construbase P.U. actualizado $120.61 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-50,Tee PVC hidráulico de 50 mm para cementar,pza,135.86,Catálogo Construbase P.U. actualizado $157.60 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-60,Tee PVC hidráulico de 60 mm para cementar,pza,161.57,Catálogo Construbase P.U. actualizado $187.42 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-75,Tee PVC hidráulico de 75 mm para cementar,pza,222.94,Catálogo Construbase P.U. actualizado $258.61 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-100,Tee PVC hidráulico de 100 mm para cementar,pza,298.22,Catálogo Construbase P.U. actualizado $345.94 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-150,Tee PVC hidráulico de 150 mm para cementar,pza,516.03,Catálogo Construbase P.U. actualizado $598.59 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-TEE-200,Tee PVC hidráulico de 200 mm para cementar,pza,757.76,Catálogo Construbase P.U. actualizado $879.00 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-13,Codo 45° PVC hidráulico de 13 mm para cementar,pza,44.74,Catálogo Construbase P.U. actualizado $51.90 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-19,Codo 45° PVC hidráulico de 19 mm para cementar,pza,49.03,Catálogo Construbase P.U. actualizado $56.88 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-25,Codo 45° PVC hidráulico de 25 mm para cementar,pza,62.06,Catálogo Construbase P.U. actualizado $71.99 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-32,Codo 45° PVC hidráulico de 32 mm para cementar,pza,76.42,Catálogo Construbase P.U. actualizado $88.65 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-38,Codo 45° PVC hidráulico de 38 mm para cementar,pza,83.10,Catálogo Construbase P.U. actualizado $96.40 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-50,Codo 45° PVC hidráulico de 50 mm para cementar,pza,106.71,Catálogo Construbase P.U. actualizado $123.78 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-60,Codo 45° PVC hidráulico de 60 mm para cementar,pza,123.63,Catálogo Construbase P.U. actualizado $143.41 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-75,Codo 45° PVC hidráulico de 75 mm para cementar,pza,186.09,Catálogo Construbase P.U. actualizado $215.86 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-CODO45-100,Codo 45° PVC hidráulico de 100 mm para cementar,pza,245.64,Catálogo Construbase P.U. actualizado $284.94 con IVA (pieza de PVC hidráulico para cementar),2026-09,referencia
-CONEX-HIDR-BUSH-19x13,Reducción bushing PVC hidráulico de 19x13 mm para cementar,pza,40.69,Catálogo Construbase P.U. actualizado $47.20 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-25x13,Reducción bushing PVC hidráulico de 25x13 mm para cementar,pza,45.41,Catálogo Construbase P.U. actualizado $52.67 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-25x19,Reducción bushing PVC hidráulico de 25x19 mm para cementar,pza,47.07,Catálogo Construbase P.U. actualizado $54.60 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-32x13,Reducción bushing PVC hidráulico de 32x13 mm para cementar,pza,50.82,Catálogo Construbase P.U. actualizado $58.95 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-32x19,Reducción bushing PVC hidráulico de 32x19 mm para cementar,pza,52.99,Catálogo Construbase P.U. actualizado $61.47 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-32x25,Reducción bushing PVC hidráulico de 32x25 mm para cementar,pza,54.66,Catálogo Construbase P.U. actualizado $63.40 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-38x13,Reducción bushing PVC hidráulico de 38x13 mm para cementar,pza,56.04,Catálogo Construbase P.U. actualizado $65.01 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-38x19,Reducción bushing PVC hidráulico de 38x19 mm para cementar,pza,58.52,Catálogo Construbase P.U. actualizado $67.88 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-38x25,Reducción bushing PVC hidráulico de 38x25 mm para cementar,pza,60.60,Catálogo Construbase P.U. actualizado $70.30 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-38x32,Reducción bushing PVC hidráulico de 38x32 mm para cementar,pza,62.87,Catálogo Construbase P.U. actualizado $72.93 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-50x13,Reducción bushing PVC hidráulico de 50x13 mm para cementar,pza,68.84,Catálogo Construbase P.U. actualizado $79.86 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-50x19,Reducción bushing PVC hidráulico de 50x19 mm para cementar,pza,72.91,Catálogo Construbase P.U. actualizado $84.58 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-50x25,Reducción bushing PVC hidráulico de 50x25 mm para cementar,pza,76.59,Catálogo Construbase P.U. actualizado $88.85 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-50x32,Reducción bushing PVC hidráulico de 50x32 mm para cementar,pza,80.78,Catálogo Construbase P.U. actualizado $93.70 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-50x38,Reducción bushing PVC hidráulico de 50x38 mm para cementar,pza,84.86,Catálogo Construbase P.U. actualizado $98.44 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-60x13,Reducción bushing PVC hidráulico de 60x13 mm para cementar,pza,79.72,Catálogo Construbase P.U. actualizado $92.47 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-60x19,Reducción bushing PVC hidráulico de 60x19 mm para cementar,pza,84.50,Catálogo Construbase P.U. actualizado $98.02 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-60x25,Reducción bushing PVC hidráulico de 60x25 mm para cementar,pza,88.81,Catálogo Construbase P.U. actualizado $103.02 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-60x32,Reducción bushing PVC hidráulico de 60x32 mm para cementar,pza,93.82,Catálogo Construbase P.U. actualizado $108.83 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-60x38,Reducción bushing PVC hidráulico de 60x38 mm para cementar,pza,99.01,Catálogo Construbase P.U. actualizado $114.85 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-75x19,Reducción bushing PVC hidráulico de 75x19 mm para cementar,pza,110.92,Catálogo Construbase P.U. actualizado $128.67 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-75x25,Reducción bushing PVC hidráulico de 75x25 mm para cementar,pza,116.46,Catálogo Construbase P.U. actualizado $135.09 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-75x32,Reducción bushing PVC hidráulico de 75x32 mm para cementar,pza,123.41,Catálogo Construbase P.U. actualizado $143.15 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-75x38,Reducción bushing PVC hidráulico de 75x38 mm para cementar,pza,130.34,Catálogo Construbase P.U. actualizado $151.20 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-75x50,Reducción bushing PVC hidráulico de 75x50 mm para cementar,pza,145.37,Catálogo Construbase P.U. actualizado $168.63 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-100x19,Reducción bushing PVC hidráulico de 100x19 mm para cementar,pza,146.92,Catálogo Construbase P.U. actualizado $170.43 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-100x25,Reducción bushing PVC hidráulico de 100x25 mm para cementar,pza,154.17,Catálogo Construbase P.U. actualizado $178.84 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-100x32,Reducción bushing PVC hidráulico de 100x32 mm para cementar,pza,163.01,Catálogo Construbase P.U. actualizado $189.09 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-100x38,Reducción bushing PVC hidráulico de 100x38 mm para cementar,pza,172.66,Catálogo Construbase P.U. actualizado $200.28 con IVA,2026-09,referencia
-CONEX-HIDR-BUSH-100x50,Reducción bushing PVC hidráulico de 100x50 mm para cementar,pza,193.56,Catálogo Construbase P.U. actualizado $224.53 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-50x38,Reducción campana PVC hidráulico de 50x38 mm,pza,83.10,Catálogo Construbase P.U. actualizado $96.40 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-60x50,Reducción campana PVC hidráulico de 60x50 mm,pza,117.51,Catálogo Construbase P.U. actualizado $136.31 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-75x50,Reducción campana PVC hidráulico de 75x50 mm,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-75x60,Reducción campana PVC hidráulico de 75x60 mm,pza,184.53,Catálogo Construbase P.U. actualizado $214.05 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-100x75,Reducción campana PVC hidráulico de 100x75 mm,pza,241.47,Catálogo Construbase P.U. actualizado $280.11 con IVA,2026-09,referencia
-CONEX-HIDR-CAMP-150x100,Reducción campana PVC hidráulico de 150x100 mm,pza,420.59,Catálogo Construbase P.U. actualizado $487.89 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-13,Tapón capa PVC hidráulico de 13 mm para cementar,pza,25.71,Catálogo Construbase P.U. actualizado $29.82 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-19,Tapón capa PVC hidráulico de 19 mm para cementar,pza,28.85,Catálogo Construbase P.U. actualizado $33.47 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-25,Tapón capa PVC hidráulico de 25 mm para cementar,pza,35.49,Catálogo Construbase P.U. actualizado $41.17 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-32,Tapón capa PVC hidráulico de 32 mm para cementar,pza,41.79,Catálogo Construbase P.U. actualizado $48.48 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-38,Tapón capa PVC hidráulico de 38 mm para cementar,pza,47.20,Catálogo Construbase P.U. actualizado $54.75 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-50,Tapón capa PVC hidráulico de 50 mm para cementar,pza,60.47,Catálogo Construbase P.U. actualizado $70.15 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-60,Tapón capa PVC hidráulico de 60 mm para cementar,pza,72.16,Catálogo Construbase P.U. actualizado $83.71 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-75,Tapón capa PVC hidráulico de 75 mm para cementar,pza,108.83,Catálogo Construbase P.U. actualizado $126.24 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-100,Tapón capa PVC hidráulico de 100 mm para cementar,pza,144.35,Catálogo Construbase P.U. actualizado $167.45 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-150,Tapón capa PVC hidráulico de 150 mm para cementar,pza,260.59,Catálogo Construbase P.U. actualizado $302.28 con IVA,2026-09,referencia
-CONEX-HIDR-TAPON-200,Tapón capa PVC hidráulico de 200 mm para cementar,pza,388.79,Catálogo Construbase P.U. actualizado $451.00 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-13,Cople PVC hidráulico de 13 mm para cementar,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-19,Cople PVC hidráulico de 19 mm para cementar,pza,34.71,Catálogo Construbase P.U. actualizado $40.26 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-25,Cople PVC hidráulico de 25 mm para cementar,pza,42.72,Catálogo Construbase P.U. actualizado $49.55 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-32,Cople PVC hidráulico de 32 mm para cementar,pza,50.17,Catálogo Construbase P.U. actualizado $58.20 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-38,Cople PVC hidráulico de 38 mm para cementar,pza,56.15,Catálogo Construbase P.U. actualizado $65.13 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-50,Cople PVC hidráulico de 50 mm para cementar,pza,72.16,Catálogo Construbase P.U. actualizado $83.71 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-60,Cople PVC hidráulico de 60 mm para cementar,pza,85.66,Catálogo Construbase P.U. actualizado $99.36 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-75,Cople PVC hidráulico de 75 mm para cementar,pza,128.91,Catálogo Construbase P.U. actualizado $149.54 con IVA,2026-09,referencia
-CONEX-HIDR-COPLE-100,Cople PVC hidráulico de 100 mm para cementar,pza,170.84,Catálogo Construbase P.U. actualizado $198.17 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-13,Yee PVC hidráulico de 13 mm para cementar,pza,68.84,Catálogo Construbase P.U. actualizado $79.86 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-19,Yee PVC hidráulico de 19 mm para cementar,pza,77.26,Catálogo Construbase P.U. actualizado $89.62 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-25,Yee PVC hidráulico de 25 mm para cementar,pza,95.00,Catálogo Construbase P.U. actualizado $110.20 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-32,Yee PVC hidráulico de 32 mm para cementar,pza,113.23,Catálogo Construbase P.U. actualizado $131.35 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-38,Yee PVC hidráulico de 38 mm para cementar,pza,126.41,Catálogo Construbase P.U. actualizado $146.63 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-50,Yee PVC hidráulico de 50 mm para cementar,pza,166.62,Catálogo Construbase P.U. actualizado $193.28 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-60,Yee PVC hidráulico de 60 mm para cementar,pza,199.21,Catálogo Construbase P.U. actualizado $231.08 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-75,Yee PVC hidráulico de 75 mm para cementar,pza,298.74,Catálogo Construbase P.U. actualizado $346.54 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-100,Yee PVC hidráulico de 100 mm para cementar,pza,400.36,Catálogo Construbase P.U. actualizado $464.42 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-150,Yee PVC hidráulico de 150 mm para cementar,pza,717.44,Catálogo Construbase P.U. actualizado $832.23 con IVA,2026-09,referencia
-CONEX-HIDR-YEE-200,Yee PVC hidráulico de 200 mm para cementar,pza,1063.79,Catálogo Construbase P.U. actualizado $1234.00 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-13,Cruz PVC hidráulico de 13 mm para cementar,pza,92.72,Catálogo Construbase P.U. actualizado $107.55 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-19,Cruz PVC hidráulico de 19 mm para cementar,pza,104.36,Catálogo Construbase P.U. actualizado $121.06 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-25,Cruz PVC hidráulico de 25 mm para cementar,pza,127.01,Catálogo Construbase P.U. actualizado $147.33 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-32,Cruz PVC hidráulico de 32 mm para cementar,pza,151.64,Catálogo Construbase P.U. actualizado $175.90 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-38,Cruz PVC hidráulico de 38 mm para cementar,pza,169.78,Catálogo Construbase P.U. actualizado $196.94 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-50,Cruz PVC hidráulico de 50 mm para cementar,pza,220.90,Catálogo Construbase P.U. actualizado $256.24 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-60,Cruz PVC hidráulico de 60 mm para cementar,pza,267.05,Catálogo Construbase P.U. actualizado $309.78 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-75,Cruz PVC hidráulico de 75 mm para cementar,pza,400.82,Catálogo Construbase P.U. actualizado $464.95 con IVA,2026-09,referencia
-CONEX-HIDR-CRUZ-100,Cruz PVC hidráulico de 100 mm para cementar,pza,535.57,Catálogo Construbase P.U. actualizado $621.26 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-13,Adaptador roscado PVC hidráulico de 13 mm,pza,17.12,Catálogo Construbase P.U. actualizado $19.86 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-19,Adaptador roscado PVC hidráulico de 19 mm,pza,19.09,Catálogo Construbase P.U. actualizado $22.15 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-25,Adaptador roscado PVC hidráulico de 25 mm,pza,23.45,Catálogo Construbase P.U. actualizado $27.20 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-32,Adaptador roscado PVC hidráulico de 32 mm,pza,27.59,Catálogo Construbase P.U. actualizado $32.00 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-38,Adaptador roscado PVC hidráulico de 38 mm,pza,30.90,Catálogo Construbase P.U. actualizado $35.84 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-50,Adaptador roscado PVC hidráulico de 50 mm,pza,39.98,Catálogo Construbase P.U. actualizado $46.38 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-60,Adaptador roscado PVC hidráulico de 60 mm,pza,47.43,Catálogo Construbase P.U. actualizado $55.02 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-75,Adaptador roscado PVC hidráulico de 75 mm,pza,71.41,Catálogo Construbase P.U. actualizado $82.84 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-100,Adaptador roscado PVC hidráulico de 100 mm,pza,95.00,Catálogo Construbase P.U. actualizado $110.20 con IVA,2026-09,referencia
-CONEX-HIDR-BRIDA-50,Brida roscada PVC hidráulico de 50 mm,pza,170.63,Catálogo Construbase P.U. actualizado $197.93 con IVA,2026-09,referencia
-CONEX-HIDR-BRIDA-60,Brida roscada PVC hidráulico de 60 mm,pza,213.36,Catálogo Construbase P.U. actualizado $247.50 con IVA,2026-09,referencia
-CONEX-HIDR-BRIDA-75,Brida roscada PVC hidráulico de 75 mm,pza,298.74,Catálogo Construbase P.U. actualizado $346.54 con IVA,2026-09,referencia
-CONEX-HIDR-BRIDA-100,Brida roscada PVC hidráulico de 100 mm,pza,400.36,Catálogo Construbase P.U. actualizado $464.42 con IVA,2026-09,referencia
-CONEX-HIDR-BRIDA-150,Brida roscada PVC hidráulico de 150 mm,pza,717.44,Catálogo Construbase P.U. actualizado $832.23 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-38x13,Abrazadera de PVC para toma salida roscada de 38x13 mm,pza,76.42,Catálogo Construbase P.U. actualizado $88.65 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-50x13,Abrazadera de PVC para toma salida roscada de 50x13 mm,pza,90.43,Catálogo Construbase P.U. actualizado $104.90 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-60x13,Abrazadera de PVC para toma salida roscada de 60x13 mm,pza,106.71,Catálogo Construbase P.U. actualizado $123.78 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-75x13,Abrazadera de PVC para toma salida roscada de 75x13 mm,pza,152.34,Catálogo Construbase P.U. actualizado $176.71 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-100x13,Abrazadera de PVC para toma salida roscada de 100x13 mm,pza,203.72,Catálogo Construbase P.U. actualizado $236.32 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-50x19,Abrazadera de PVC para toma salida roscada de 50x19 mm,pza,102.90,Catálogo Construbase P.U. actualizado $119.36 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-60x19,Abrazadera de PVC para toma salida roscada de 60x19 mm,pza,122.30,Catálogo Construbase P.U. actualizado $141.87 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-75x19,Abrazadera de PVC para toma salida roscada de 75x19 mm,pza,175.97,Catálogo Construbase P.U. actualizado $204.12 con IVA,2026-09,referencia
-CONEX-HIDR-ABRAZ-100x19,Abrazadera de PVC para toma salida roscada de 100x19 mm,pza,236.34,Catálogo Construbase P.U. actualizado $274.16 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-13x13,Niple roscado PVC hidráulico de 13x13 mm,pza,31.31,Catálogo Construbase P.U. actualizado $36.32 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-19x19,Niple roscado PVC hidráulico de 19x19 mm,pza,35.16,Catálogo Construbase P.U. actualizado $40.78 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-25x25,Niple roscado PVC hidráulico de 25x25 mm,pza,43.37,Catálogo Construbase P.U. actualizado $50.31 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-32x32,Niple roscado PVC hidráulico de 32x32 mm,pza,51.28,Catálogo Construbase P.U. actualizado $59.49 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-38x38,Niple roscado PVC hidráulico de 38x38 mm,pza,57.59,Catálogo Construbase P.U. actualizado $66.80 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-50x50,Niple roscado PVC hidráulico de 50x50 mm,pza,74.77,Catálogo Construbase P.U. actualizado $86.73 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-19x13,Niple roscado PVC hidráulico de 19x13 mm,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-25x19,Niple roscado PVC hidráulico de 25x19 mm,pza,34.71,Catálogo Construbase P.U. actualizado $40.26 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-32x25,Niple roscado PVC hidráulico de 32x25 mm,pza,39.65,Catálogo Construbase P.U. actualizado $45.99 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-38x32,Niple roscado PVC hidráulico de 38x32 mm,pza,47.07,Catálogo Construbase P.U. actualizado $54.60 con IVA,2026-09,referencia
-CONEX-HIDR-NIPLE-50x38,Niple roscado PVC hidráulico de 50x38 mm,pza,55.84,Catálogo Construbase P.U. actualizado $64.77 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-13,Tuerca unión PVC hidráulico de 13 mm,pza,58.12,Catálogo Construbase P.U. actualizado $67.42 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-19,Tuerca unión PVC hidráulico de 19 mm,pza,64.52,Catálogo Construbase P.U. actualizado $74.84 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-25,Tuerca unión PVC hidráulico de 25 mm,pza,79.53,Catálogo Construbase P.U. actualizado $92.26 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-32,Tuerca unión PVC hidráulico de 32 mm,pza,93.66,Catálogo Construbase P.U. actualizado $108.65 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-38,Tuerca unión PVC hidráulico de 38 mm,pza,104.93,Catálogo Construbase P.U. actualizado $121.72 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-50,Tuerca unión PVC hidráulico de 50 mm,pza,135.86,Catálogo Construbase P.U. actualizado $157.60 con IVA,2026-09,referencia
-CONEX-HIDR-UNION-60,Tuerca unión PVC hidráulico de 60 mm,pza,162.48,Catálogo Construbase P.U. actualizado $188.48 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-13,Extremidad/pase de pared PVC hidráulico de 13 mm,pza,28.24,Catálogo Construbase P.U. actualizado $32.76 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-19,Extremidad/pase de pared PVC hidráulico de 19 mm,pza,31.53,Catálogo Construbase P.U. actualizado $36.58 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-25,Extremidad/pase de pared PVC hidráulico de 25 mm,pza,38.77,Catálogo Construbase P.U. actualizado $44.97 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-32,Extremidad/pase de pared PVC hidráulico de 32 mm,pza,45.67,Catálogo Construbase P.U. actualizado $52.98 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-38,Extremidad/pase de pared PVC hidráulico de 38 mm,pza,51.28,Catálogo Construbase P.U. actualizado $59.49 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-50,Extremidad/pase de pared PVC hidráulico de 50 mm,pza,66.29,Catálogo Construbase P.U. actualizado $76.90 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-60,Extremidad/pase de pared PVC hidráulico de 60 mm,pza,78.87,Catálogo Construbase P.U. actualizado $91.49 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-75,Extremidad/pase de pared PVC hidráulico de 75 mm,pza,118.65,Catálogo Construbase P.U. actualizado $137.63 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-100,Extremidad/pase de pared PVC hidráulico de 100 mm,pza,158.22,Catálogo Construbase P.U. actualizado $183.54 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-150,Extremidad/pase de pared PVC hidráulico de 150 mm,pza,284.48,Catálogo Construbase P.U. actualizado $330.00 con IVA,2026-09,referencia
-CONEX-HIDR-EXTREM-200,Extremidad/pase de pared PVC hidráulico de 200 mm,pza,422.41,Catálogo Construbase P.U. actualizado $490.00 con IVA,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-13,Adaptador macho PVC hidráulico 13 mm,pza,34.48,Estimación: adaptador roscado de 13 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-13,Adaptador hembra PVC hidráulico 13 mm,pza,34.48,Estimación: adaptador roscado de 13 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-19,Adaptador macho PVC hidráulico 19 mm,pza,42.24,Estimación: adaptador roscado de 19 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-19,Adaptador hembra PVC hidráulico 19 mm,pza,42.24,Estimación: adaptador roscado de 19 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-25,Adaptador macho PVC hidráulico 25 mm,pza,50.00,Estimación: adaptador roscado de 25 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-25,Adaptador hembra PVC hidráulico 25 mm,pza,50.00,Estimación: adaptador roscado de 25 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-32,Adaptador macho PVC hidráulico 32 mm,pza,59.05,Estimación: adaptador roscado de 32 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-32,Adaptador hembra PVC hidráulico 32 mm,pza,59.05,Estimación: adaptador roscado de 32 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-38,Adaptador macho PVC hidráulico 38 mm,pza,66.81,Estimación: adaptador roscado de 38 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-38,Adaptador hembra PVC hidráulico 38 mm,pza,66.81,Estimación: adaptador roscado de 38 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-50,Adaptador macho PVC hidráulico 50 mm,pza,82.33,Estimación: adaptador roscado de 50 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-50,Adaptador hembra PVC hidráulico 50 mm,pza,82.33,Estimación: adaptador roscado de 50 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-60,Adaptador macho PVC hidráulico 60 mm,pza,95.26,Estimación: adaptador roscado de 60 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-60,Adaptador hembra PVC hidráulico 60 mm,pza,95.26,Estimación: adaptador roscado de 60 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-75,Adaptador macho PVC hidráulico 75 mm,pza,114.66,Estimación: adaptador roscado de 75 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-75,Adaptador hembra PVC hidráulico 75 mm,pza,114.66,Estimación: adaptador roscado de 75 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-MACHO-100,Adaptador macho PVC hidráulico 100 mm,pza,146.98,Estimación: adaptador roscado de 100 mm,2026-09,referencia
-CONEX-HIDR-ADAPT-HEMBRA-100,Adaptador hembra PVC hidráulico 100 mm,pza,146.98,Estimación: adaptador roscado de 100 mm,2026-09,referencia
-SOPORTE-HIDR,Abrazadera/soporte galvanizado para tubería de PVC,pza,8.62,Interpolación: ferretería $9-15 con IVA; se toma $10 sin IVA (estimación),2026-09,referencia
+LIMPIADOR-PVC,Limpiador para PVC bote 355 ml,pza,45.00,"Cleaner PVC (Foset, Truper); rango $45-80 con IVA 2026",2026-09,referencia
+TUBO-HIDR-LISO-13,"Tubo PVC hidráulico 13 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. actualizado $60.51 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-19,"Tubo PVC hidráulico 19 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. actualizado $69.48 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-25,"Tubo PVC hidráulico 25 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,9.39,Catálogo Construbase P.U. actualizado $101.52 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-32,"Tubo PVC hidráulico 32 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. actualizado $84.91 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-38,"Tubo PVC hidráulico 38 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. actualizado $99.27 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-50,"Tubo PVC hidráulico 50 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.27,Catálogo Construbase P.U. actualizado $122.35 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-60,"Tubo PVC hidráulico 60 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. actualizado $130.09 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-75,"Tubo PVC hidráulico 75 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,16.45,Catálogo Construbase P.U. actualizado $200.05 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-LISO-100,"Tubo PVC hidráulico 100 mm extremos lisos (RD-13.5/RD-26), tramo 6 m",m,45.40,Catálogo Construbase P.U. actualizado $281.96 con IVA; material back-calculated,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-13,"Tubo PVC hidráulico 13 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $58.48 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-19,"Tubo PVC hidráulico 19 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $66.86 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-25,"Tubo PVC hidráulico 25 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $79.12 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-32,"Tubo PVC hidráulico 32 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $78.00 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-38,"Tubo PVC hidráulico 38 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $95.00 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-50,"Tubo PVC hidráulico 50 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,11.15,Catálogo Construbase P.U. $136.31 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-60,"Tubo PVC hidráulico 60 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,0.00,Catálogo Construbase P.U. $178.18 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-75,"Tubo PVC hidráulico 75 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,43.21,Catálogo Construbase P.U. $234.42 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-100,"Tubo PVC hidráulico 100 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,127.78,Catálogo Construbase P.U. $343.00 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-150,"Tubo PVC hidráulico 150 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,201.21,Catálogo Construbase P.U. $641.78 con IVA,2026-09,derivado del catálogo
+TUBO-HIDR-CAMP-200,"Tubo PVC hidráulico 200 mm campana para cementar (RD-21/RD-26), tramo 6 m",m,488.82,Catálogo Construbase P.U. $1011.06 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-13,Codo 90° PVC hidráulico 13 mm,pza,0.00,Catálogo Construbase P.U. $46.68 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-13,Codo 45° PVC hidráulico 13 mm,pza,0.00,Catálogo Construbase P.U. $75.39 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-13,Tee PVC hidráulico 13 mm,pza,0.00,Catálogo Construbase P.U. $65.48 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-13,Yee PVC hidráulico 13 mm,pza,74.20,Catálogo Construbase P.U. $244.38 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-13,Cruz PVC hidráulico 13 mm,pza,64.91,Catálogo Construbase P.U. $232.45 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-13,Cople PVC hidráulico 13 mm,pza,0.00,Catálogo Construbase P.U. $64.24 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-13,Tapón capa PVC hidráulico 13 mm,pza,0.00,Catálogo Construbase P.U. $61.74 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-13,Tuerca unión PVC hidráulico 13 mm,pza,107.78,Catálogo Construbase P.U. $287.50 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-19,Codo 90° PVC hidráulico 19 mm,pza,0.00,Catálogo Construbase P.U. $51.90 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-19,Codo 45° PVC hidráulico 19 mm,pza,0.00,Catálogo Construbase P.U. $93.82 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-19,Tee PVC hidráulico 19 mm,pza,0.00,Catálogo Construbase P.U. $73.31 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-19,Yee PVC hidráulico 19 mm,pza,134.70,Catálogo Construbase P.U. $322.06 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-19,Cruz PVC hidráulico 19 mm,pza,166.44,Catálogo Construbase P.U. $362.81 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-19,Cople PVC hidráulico 19 mm,pza,0.00,Catálogo Construbase P.U. $78.14 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-19,Tapón capa PVC hidráulico 19 mm,pza,0.00,Catálogo Construbase P.U. $74.53 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-19,Tuerca unión PVC hidráulico 19 mm,pza,187.49,Catálogo Construbase P.U. $389.84 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-25,Codo 90° PVC hidráulico 25 mm,pza,0.00,Catálogo Construbase P.U. $63.96 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-25,Codo 45° PVC hidráulico 25 mm,pza,4.31,Catálogo Construbase P.U. $154.65 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-25,Tee PVC hidráulico 25 mm,pza,0.00,Catálogo Construbase P.U. $90.25 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-25,Yee PVC hidráulico 25 mm,pza,193.82,Catálogo Construbase P.U. $397.97 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-25,Cruz PVC hidráulico 25 mm,pza,287.82,Catálogo Construbase P.U. $518.67 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-25,Cople PVC hidráulico 25 mm,pza,0.00,Catálogo Construbase P.U. $97.37 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-25,Tapón capa PVC hidráulico 25 mm,pza,0.00,Catálogo Construbase P.U. $101.02 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-25,Tuerca unión PVC hidráulico 25 mm,pza,379.52,Catálogo Construbase P.U. $636.40 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-32,Codo 90° PVC hidráulico 32 mm,pza,0.00,Catálogo Construbase P.U. $79.12 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-32,Codo 45° PVC hidráulico 32 mm,pza,0.00,Catálogo Construbase P.U. $205.26 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-32,Tee PVC hidráulico 32 mm,pza,0.00,Catálogo Construbase P.U. $107.55 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-32,Yee PVC hidráulico 32 mm,pza,486.09,Catálogo Construbase P.U. $847.79 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-32,Cruz PVC hidráulico 32 mm,pza,427.18,Catálogo Construbase P.U. $772.16 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-32,Cople PVC hidráulico 32 mm,pza,0.00,Catálogo Construbase P.U. $116.89 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-32,Tapón capa PVC hidráulico 32 mm,pza,0.00,Catálogo Construbase P.U. $126.17 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-32,Tuerca unión PVC hidráulico 32 mm,pza,282.80,Catálogo Construbase P.U. $586.78 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-38,Codo 90° PVC hidráulico 38 mm,pza,0.00,Catálogo Construbase P.U. $86.37 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-38,Codo 45° PVC hidráulico 38 mm,pza,14.92,Catálogo Construbase P.U. $242.83 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-38,Tee PVC hidráulico 38 mm,pza,0.00,Catálogo Construbase P.U. $120.61 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-38,Yee PVC hidráulico 38 mm,pza,561.28,Catálogo Construbase P.U. $944.33 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-38,Cruz PVC hidráulico 38 mm,pza,775.61,Catálogo Construbase P.U. $1219.53 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-38,Cople PVC hidráulico 38 mm,pza,0.00,Catálogo Construbase P.U. $140.17 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-38,Tapón capa PVC hidráulico 38 mm,pza,0.00,Catálogo Construbase P.U. $157.85 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-38,Tuerca unión PVC hidráulico 38 mm,pza,408.68,Catálogo Construbase P.U. $748.40 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-50,Codo 90° PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $107.71 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-50,Codo 45° PVC hidráulico 50 mm,pza,312.20,Catálogo Construbase P.U. $624.53 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-50,Tee PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $81.99 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-50,Yee PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $104.16 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-50,Cruz PVC hidráulico 50 mm,pza,18.39,Catálogo Construbase P.U. $247.28 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-50,Cople PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $62.32 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-50,Tapón capa PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $63.85 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-50,Tuerca unión PVC hidráulico 50 mm,pza,0.00,Catálogo Construbase P.U. $117.31 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-60,Codo 90° PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $202.32 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-60,Codo 45° PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $202.32 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-60,Tee PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $273.44 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-60,Yee PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $154.93 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-60,Cruz PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $369.65 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-60,Cople PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $124.21 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-60,Tapón capa PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $104.47 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-60,Tuerca unión PVC hidráulico 60 mm,pza,0.00,Catálogo Construbase P.U. $130.79 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-75,Codo 90° PVC hidráulico 75 mm,pza,0.00,Catálogo Construbase P.U. $238.34 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-75,Codo 45° PVC hidráulico 75 mm,pza,473.19,Catálogo Construbase P.U. $1054.90 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-75,Tee PVC hidráulico 75 mm,pza,0.00,Catálogo Construbase P.U. $117.97 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-75,Yee PVC hidráulico 75 mm,pza,1292.82,Catálogo Construbase P.U. $2107.28 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-75,Cruz PVC hidráulico 75 mm,pza,554.21,Catálogo Construbase P.U. $1158.93 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-75,Cople PVC hidráulico 75 mm,pza,0.00,Catálogo Construbase P.U. $406.90 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-75,Tapón capa PVC hidráulico 75 mm,pza,0.00,Catálogo Construbase P.U. $288.92 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-75,Tuerca unión PVC hidráulico 75 mm,pza,535.58,Catálogo Construbase P.U. $1135.00 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO90-100,Codo 90° PVC hidráulico 100 mm,pza,0.00,Catálogo Construbase P.U. $372.95 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CODO45-100,Codo 45° PVC hidráulico 100 mm,pza,355.88,Catálogo Construbase P.U. $904.28 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TEE-100,Tee PVC hidráulico 100 mm,pza,0.00,Catálogo Construbase P.U. $143.06 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-YEE-100,Yee PVC hidráulico 100 mm,pza,1.80,Catálogo Construbase P.U. $449.64 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-CRUZ-100,Cruz PVC hidráulico 100 mm,pza,122.99,Catálogo Construbase P.U. $605.25 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-COPLE-100,Cople PVC hidráulico 100 mm,pza,43.67,Catálogo Construbase P.U. $503.40 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-TAPON-100,Tapón capa PVC hidráulico 100 mm,pza,0.00,Catálogo Construbase P.U. $108.19 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-UNION-100,Tuerca unión PVC hidráulico 100 mm,pza,0.00,Catálogo Construbase P.U. $184.73 con IVA,2026-09,derivado del catálogo
+CONEX-HIDR-ABRAZ-100x13,Conexión PVC hidráulico 100x13,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ABRAZ-38x13,Conexión PVC hidráulico 38x13,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ABRAZ-50x13,Conexión PVC hidráulico 50x13,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ABRAZ-60x13,Conexión PVC hidráulico 60x13,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ABRAZ-75x13,Conexión PVC hidráulico 75x13,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-150,Conexión PVC hidráulico 150,pza,441.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-CAMP-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-ESPIGA-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-ESPIGA-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-ESPIGA-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-ESPIGA-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-ESPIGA-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-13,Conexión PVC hidráulico 13,pza,30.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-19,Conexión PVC hidráulico 19,pza,48.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-25,Conexión PVC hidráulico 25,pza,66.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-32,Conexión PVC hidráulico 32,pza,87.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-HEMBRA-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-13,Conexión PVC hidráulico 13,pza,30.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-19,Conexión PVC hidráulico 19,pza,48.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-25,Conexión PVC hidráulico 25,pza,66.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-32,Conexión PVC hidráulico 32,pza,87.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-ADAPT-MACHO-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BRIDA-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BRIDA-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BRIDA-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BRIDA-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BRIDA-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-100x50,Conexión PVC hidráulico 100x50,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-100x60,Conexión PVC hidráulico 100x60,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-100x75,Conexión PVC hidráulico 100x75,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-19x13,Conexión PVC hidráulico 19x13,pza,48.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-25x13,Conexión PVC hidráulico 25x13,pza,66.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-25x19,Conexión PVC hidráulico 25x19,pza,66.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-32x13,Conexión PVC hidráulico 32x13,pza,87.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-32x19,Conexión PVC hidráulico 32x19,pza,87.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-32x25,Conexión PVC hidráulico 32x25,pza,87.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-38x13,Conexión PVC hidráulico 38x13,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-38x19,Conexión PVC hidráulico 38x19,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-38x25,Conexión PVC hidráulico 38x25,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-38x32,Conexión PVC hidráulico 38x32,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-50x13,Conexión PVC hidráulico 50x13,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-50x19,Conexión PVC hidráulico 50x19,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-50x25,Conexión PVC hidráulico 50x25,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-50x32,Conexión PVC hidráulico 50x32,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-50x38,Conexión PVC hidráulico 50x38,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-60x50,Conexión PVC hidráulico 60x50,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-75x50,Conexión PVC hidráulico 75x50,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-BUSH-75x60,Conexión PVC hidráulico 75x60,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-100x60,Conexión PVC hidráulico 100x60,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-100x75,Conexión PVC hidráulico 100x75,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-50x38,Conexión PVC hidráulico 50x38,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-60x50,Conexión PVC hidráulico 60x50,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-75x50,Conexión PVC hidráulico 75x50,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CAMP-75x60,Conexión PVC hidráulico 75x60,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO22-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO22-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO22-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO22-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO22-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO45-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO45-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO45-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO45-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO45-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO90-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO90-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO90-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO90-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CODO90-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CRUZ-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CRUZ-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CRUZ-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CRUZ-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-CRUZ-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-150,Conexión PVC hidráulico 150,pza,441.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-160,Conexión PVC hidráulico 160,pza,471.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-200,Conexión PVC hidráulico 200,pza,591.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-250,Conexión PVC hidráulico 250,pza,741.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-315,Conexión PVC hidráulico 315,pza,936.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-CAMP-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-ESPIGA-ANGER-160,Conexión PVC hidráulico 160,pza,471.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-ESPIGA-ANGER-200,Conexión PVC hidráulico 200,pza,591.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-ESPIGA-ANGER-250,Conexión PVC hidráulico 250,pza,741.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-EXTREM-ESPIGA-ANGER-315,Conexión PVC hidráulico 315,pza,936.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TEE-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TEE-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TEE-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TEE-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TEE-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TUBO-ANGER-100,Conexión PVC hidráulico 100,pza,291.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TUBO-ANGER-38,Conexión PVC hidráulico 38,pza,105.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TUBO-ANGER-50,Conexión PVC hidráulico 50,pza,141.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TUBO-ANGER-60,Conexión PVC hidráulico 60,pza,171.00,Referencia: interpolación de diámetros,2026-09,referencia
+CONEX-HIDR-TUBO-ANGER-75,Conexión PVC hidráulico 75,pza,216.00,Referencia: interpolación de diámetros,2026-09,referencia

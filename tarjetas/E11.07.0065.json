@@ -1,0 +1,34 @@
+{
+  "clave_cb": "E11.07.0065",
+  "gubim": "50.10.20.30",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "CPVC-TAPON-32",
+      "cantidad": 1.0,
+      "desperdicio": 0.0,
+      "nota": "Componente Tapón capa de CPVC 32 mm, Incluye: suministro de m"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 18.0,
+    "fuente": "Instrucciones lote 5g - referencia de rendimiento estándar"
+  },
+  "equipo": [],
+  "supuestos": [
+    "Componente: Tapón capa de CPVC 32 mm, Incluye: suministro de materiales, acarreos, instalación, pruebas, mano de"
+  ],
+  "elaboro": "Generador lote5g",
+  "reviso": ""
+}

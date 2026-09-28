@@ -4,7 +4,7 @@
   "gubim_confianza": "media",
   "materiales": [
     {
-      "insumo": "CODO-PVC-SAN-45-45",
+      "insumo": "CODO-PVC-SAN-75-45",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Codo de PVC sanitario multicople de 45°x"
@@ -38,7 +38,7 @@
   },
   "equipo": [],
   "supuestos": [
-    "PVC sanitario 45mm; typical installation conditions"
+    "PVC sanitario 45mm; standard installation"
   ],
   "elaboro": "gen5e_final.py",
   "reviso": ""

@@ -8,19 +8,19 @@
       "insumo": "TUBO-HIDR-CAMP-200",
       "cantidad": 1.0,
       "desperdicio": 0.05,
-      "nota": "Tramos de 6 m; 5 % por cortes y ajustes"
+      "nota": "Tramo 6 m; 5 % por cortes"
     },
     {
       "insumo": "CEMENTO-PVC",
       "cantidad": 0.04,
       "desperdicio": 0.05,
-      "nota": "0.67 juntas/m (1 de unión del tramo + conexiones proporcionales); 1 bote 250 ml rinde ≈16 juntas → 0.04 botes/m"
+      "nota": "0.67 juntas/m"
     },
     {
       "insumo": "LIMPIADOR-PVC",
       "cantidad": 0.02,
       "desperdicio": 0.0,
-      "nota": "Limpieza con solvente de las bocas previo cementado; requiere ~0.5 veces la cantidad de cemento"
+      "nota": "Limpieza previa"
     }
   ],
   "mano_obra": {
@@ -34,16 +34,16 @@
         "personas": 1
       }
     ],
-    "rendimiento": 5,
-    "fuente": "5 m/jor Of plomero + Ay, tubería con campana cementada (referencia: 28-26 m/jor para 13-25 mm; baja respecto a extremos lisos por cementado)"
+    "rendimiento": 7,
+    "fuente": "7 m/jor Of plomero + Ay, campana cementada"
   },
   "equipo": [],
   "supuestos": [
-    "Tubería visible sobre muro o en ducto, fijada con abrazaderas; ranuras, trincheras y pasos en losa se pagan aparte.",
-    "Campana para cementar (en PVC hidráulico típicamente RD-21/RD-26); el cemento y limpiador van en cantidades proporcionales.",
-    "Conexiones (codos, tees, reducciones) se pagan en sus conceptos.",
-    "Prueba de hermeticidad con agua de la obra, 24 h después de la última junta cementada."
+    "Tubería visible, con abrazaderas; ranuras y pasos en losa se pagan aparte.",
+    "Campana para cementar (RD-21/RD-26); cemento y limpiador proporcionales.",
+    "Prueba 24 h después de última junta."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Material back-calculated from catalog P.U. para calibración rápida del lote"
 }

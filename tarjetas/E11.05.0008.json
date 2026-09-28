@@ -4,7 +4,7 @@
   "gubim_confianza": "media",
   "materiales": [
     {
-      "insumo": "CODO-PVC-SAN-90-90",
+      "insumo": "CODO-PVC-SAN-75-90",
       "cantidad": 1.0,
       "desperdicio": 0.0,
       "nota": "Codo de PVC sanitario para cementar de 9"
@@ -38,7 +38,7 @@
   },
   "equipo": [],
   "supuestos": [
-    "PVC sanitario 90mm; typical installation conditions"
+    "PVC sanitario 90mm; standard installation"
   ],
   "elaboro": "gen5e_final.py",
   "reviso": ""

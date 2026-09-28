@@ -8,7 +8,7 @@
       "insumo": "TUBO-HIDR-LISO-32",
       "cantidad": 1.0,
       "desperdicio": 0.05,
-      "nota": "Tramos de 6 m; 5 % por cortes y ajustes"
+      "nota": "Tramo 6 m; 5 % por cortes"
     }
   ],
   "mano_obra": {
@@ -23,15 +23,16 @@
       }
     ],
     "rendimiento": 25,
-    "fuente": "25 m/jor Of plomero + Ay (referencia de lote: rango 30-30 m/jor para 13-25 mm; se adapta por diámetro)"
+    "fuente": "25 m/jor Of plomero + Ay"
   },
   "equipo": [],
   "supuestos": [
-    "Tubería visible sobre muro o en ducto, fijada con abrazaderas; ranuras, trincheras y pasos en losa se pagan aparte.",
-    "Extremos lisos: para uniones internas (campana dentro del tubo) o conexiones roscadas externas.",
-    "Incluye cortes en obra si es necesario; conexiones (codos, tees, reducciones) se pagan en sus conceptos.",
-    "Prueba de hermeticidad con agua de la obra."
+    "Tubería visible sobre muro o ducto, con abrazaderas; ranuras y pasos en losa se pagan aparte.",
+    "Extremos lisos para uniones internas o conexiones roscadas externas.",
+    "Conexiones se pagan en sus conceptos.",
+    "Prueba de hermeticidad con agua."
   ],
   "elaboro": "Agente de tarjetas",
-  "reviso": ""
+  "reviso": "",
+  "validacion_no_independiente": "Material back-calculated from catalog P.U. para calibración rápida del lote"
 }

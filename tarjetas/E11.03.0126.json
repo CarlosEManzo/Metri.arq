@@ -48,6 +48,6 @@
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": "",
-  "cdmx_no_comparable": "Especificación CDMX probablemente diferente: conexión soldable, otra clase de presión o material. Requiere verificación en tabulador CDMX para confirmar comparabilidad. Análisis basado en conexión roscada clase 150 (ASTM A-197, tipo Cifunsa/Mueller) con materiales cotizados DepotMX/Surtidor 2026-09.",
+  "cdmx_no_comparable": "El tabulador CDMX IF16BJ ($107.44 sin cargos, ≈$84.26 de costo directo) apenas cubre la pieza a precio de mercado 2026 (materiales $89.96 sin IVA): deja $0.00 para instalarla, contra $101.48 de M.O. de la tarjeta. El tabulador usa precio de volumen de obra pública; se valida contra el P.U. actualizado.",
   "desviacion_justificada": "Tapón macho 64 mm: Alerta +97% contra P.U. actualizado. INCONSISTENCIA DETECTADA: P.U. actualizado (126.75) es menor que solo precio de pieza (87.48). Catálogo probablemente tiene conexión soldable, otra presión/clase, o material diferente. ANÁLISIS NUESTRO: roscada clase 150 Mueller/Cifunsa cotizado DepotMX/Surtidor. Rendimiento 20 pza/jor coherente con codo 64 mm (15.9 pza/jor). M.O. 52% apropiada para diámetro grande. Tarjeta consistente internamente. RECOMENDACIÓN: Verificar especificación en catálogo y cotizar pieza en Morelia."
 }

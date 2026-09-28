@@ -1,0 +1,86 @@
+{
+  "clave_cb": "E11.11.0009",
+  "gubim": "50.20.20.20",
+  "gubim_confianza": "media",
+  "gubim_alternativas": [],
+  "materiales": [
+    {
+      "insumo": "COLADERA-PVC",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "1 coladera"
+    },
+    {
+      "insumo": "TUBO-CU-M-13",
+      "cantidad": 3.0,
+      "desperdicio": 0.03,
+      "nota": "3 m cobre"
+    },
+    {
+      "insumo": "TUBO-PVC-SAN-100",
+      "cantidad": 2.0,
+      "desperdicio": 0.03,
+      "nota": "2 m PVC"
+    },
+    {
+      "insumo": "CODO-CU-13",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "1 codo cobre"
+    },
+    {
+      "insumo": "TEE-CU-13",
+      "cantidad": 2,
+      "desperdicio": 0,
+      "nota": "2 tee cobre"
+    },
+    {
+      "insumo": "CODO-PVC-SAN-100",
+      "cantidad": 1,
+      "desperdicio": 0,
+      "nota": "1 codo PVC"
+    },
+    {
+      "insumo": "SOLD-5050",
+      "cantidad": 0.01,
+      "desperdicio": 0.1,
+      "nota": "Soldadura"
+    },
+    {
+      "insumo": "FUNDENTE",
+      "cantidad": 0.002,
+      "desperdicio": 0,
+      "nota": "Fundente"
+    },
+    {
+      "insumo": "GAS-SOPLETE",
+      "cantidad": 0.008,
+      "desperdicio": 0,
+      "nota": "Gas"
+    },
+    {
+      "insumo": "CEMENTO-PVC",
+      "cantidad": 0.008,
+      "desperdicio": 0,
+      "nota": "Cemento"
+    }
+  ],
+  "mano_obra": {
+    "cuadrilla": [
+      {
+        "categoria": "OF-PLO",
+        "personas": 1
+      },
+      {
+        "categoria": "AYU",
+        "personas": 1
+      }
+    ],
+    "rendimiento": 4.5,
+    "fuente": "4.5 salidas/jor: cobre + PVC"
+  },
+  "equipo": [],
+  "supuestos": [],
+  "elaboro": "Agente de tarjetas",
+  "reviso": ""
+}

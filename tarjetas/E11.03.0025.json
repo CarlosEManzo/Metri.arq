@@ -48,5 +48,5 @@
   ],
   "elaboro": "Agente de tarjetas",
   "reviso": "",
-  "cdmx_no_comparable": "Especificación CDMX probablemente diferente: conexión soldable, otra clase de presión o material. Requiere verificación en tabulador CDMX para confirmar comparabilidad. Análisis basado en conexión roscada clase 150 (ASTM A-197, tipo Cifunsa/Mueller) con materiales cotizados DepotMX/Surtidor 2026-09."
+  "cdmx_no_comparable": "El tabulador CDMX IF13BK ($247.77 sin cargos, ≈$194.31 de costo directo) apenas cubre la pieza a precio de mercado 2026 (materiales $179.91 sin IVA): deja $14.40 para instalarla, contra $127.64 de M.O. de la tarjeta. El tabulador usa precio de volumen de obra pública; se valida contra el P.U. actualizado."
 }
